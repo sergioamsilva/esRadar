@@ -150,7 +150,18 @@ def extrair(caminho: Path) -> dict[str, dict]:
         fica = _f(linha.get("PercentagemInscritosMesmoEstabelecimentoCurso"))
         if not par or fica is None:
             continue
-        escala = 100 if fica <= 1 else 1
+        # A escala (frações 0-1 vs percentagens 0-100) decide-se pela SOMA
+        # das parcelas — olhar só para a primeira falha quando ela é 0.
+        soma = sum(
+            _f(linha.get(c)) or 0
+            for c in (
+                "PercentagemInscritosMesmoEstabelecimentoCurso",
+                "PercentagemOutroCursoMesmoEstabelecimento",
+                "PercentagemNoutroEstabelecimento",
+                "PercentagemNaoEncontradosEnsinoSuperior",
+            )
+        )
+        escala = 100 if soma <= 1.5 else 1
         bloco(par)["apos_1_ano"] = {
             "coorte": linha.get("AnosInscritosPrimeiroAnoPrimeiraVez"),
             "novos_inscritos": _i(linha.get("NumeroInscritosPrimeiroAnoPrimeiraVez2Anos")),
@@ -228,12 +239,24 @@ def extrair(caminho: Path) -> dict[str, dict]:
             bloco(par)["inscritos_serie"] = serie
 
     # Formas de ingresso dos novos inscritos (coortes recentes).
+    _COLS_INGRESSO = (
+        "PercentagemOpcao1ConcursoNacional",
+        "PercentagemOpcao2ConcursoNacional",
+        "PercentagemConcursoLocalouInstitucional",
+        "PercentagemOutrosRegimeGeral",
+        "PercentagemMudancaCurso",
+        "PercentagemProvasMaiores23Anos",
+        "PercentagemOutrosRegimes",
+    )
     for linha in tabela(caminho, "Formas Ingresso"):
         par = _par(linha)
         cna1 = _f(linha.get("PercentagemOpcao1ConcursoNacional"))
         if not par or cna1 is None:
             continue
-        escala = 100 if cna1 <= 1 else 1
+        soma = sum(_f(linha.get(c)) or 0 for c in _COLS_INGRESSO)
+        if soma == 0:
+            continue  # linha suprimida na fonte (tudo a zeros)
+        escala = 100 if soma <= 1.5 else 1
 
         def pct(chave: str) -> float:
             return round((_f(linha.get(chave)) or 0) * escala, 1)

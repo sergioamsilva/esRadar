@@ -47,6 +47,22 @@ def test_encoding() -> None:
     assert not any("Ã§" in (c["curso"] or "") for c in cursos), "mojibake detetado"
 
 
+def test_composicoes_somam_100() -> None:
+    """As composições do Infocursos têm de somar ~100% — apanha erros de
+    escala (frações vs percentagens) e linhas suprimidas na fonte."""
+    for ficha in (SAIDA / "par").glob("*.json"):
+        d = json.loads(ficha.read_text(encoding="utf-8"))
+        info = d.get("infocursos") or {}
+        for bloco, cols in (
+            ("formas_ingresso", ("cna_1opcao", "cna_outras", "concurso_local", "mudanca_curso", "maiores_23", "outros")),
+            ("apos_1_ano", ("fica", "muda_curso", "muda_estabelecimento", "fora")),
+        ):
+            b = info.get(bloco)
+            if b:
+                soma = sum(b[c] for c in cols)
+                assert 60 <= soma <= 130, f"{ficha.name} {bloco}: soma {soma}"
+
+
 def test_epoca() -> None:
     epoca = _ler("epoca.json")
     assert epoca["ano"] == 2026
