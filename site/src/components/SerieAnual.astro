@@ -111,6 +111,7 @@ const descricao = comDados
     g ? (
       <svg
         viewBox={`0 0 ${L} ${A}`}
+        data-hover-serie
         role="img"
         aria-label={`${titulo}, em ${unidade}. ${descricao}.`}
         preserveAspectRatio="none"
@@ -133,6 +134,7 @@ const descricao = comDados
                 cx={x.toFixed(2)}
                 cy={y.toFixed(2)}
                 r="1.4"
+                data-ano={p.ano}
                 class="ponto-vem"
                 style={`--dp:${0.25 * ci + 0.15 + (pi / Math.max(1, c.pontos.length - 1)) * 0.9}s`}
               >

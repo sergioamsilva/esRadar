@@ -268,7 +268,7 @@ const descricao = `${instituicao.nome} no concurso de 2026: ${oferta.length} cur
           <p class="desc">Colocados na 1ª fase de 2026, por área CNAEF.</p>
           <ol class="areas-i">
             {areas.map(([area, n], i) => (
-              <li>
+              <li data-dica={`${area}: ${formatarInteiro(n)} colocados na 1ª fase de 2026`}>
                 <span class="areas-i__nome">
                   {area}
                   <span>{formatarInteiro(n)} colocados</span>

@@ -51,7 +51,11 @@ const maxVagas = Math.max(...distritos.map((d) => d.vagas));
                 {d.corteMediano != null && ` · corte mediano ${formatarNota(d.corteMediano)}`}
               </span>
             </span>
-            <span class="dist__pista" aria-hidden="true">
+            <span
+              class="dist__pista"
+              data-dica={`${d.nome}: ${Math.round(d.ocupacao * 100)}% das vagas preenchidas — ${formatarInteiro(d.colocados)} colocados em ${formatarInteiro(d.vagas)} vagas`}
+              aria-hidden="true"
+            >
               <span class="dist__total" style={`width:${(d.vagas / maxVagas) * 100}%`}>
                 <span class="dist__cheio cresce" style={`width:${d.ocupacao * 100}%;--d:${0.2 + i * 0.04}s`} />
               </span>

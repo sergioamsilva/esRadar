@@ -67,6 +67,7 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
               </span>
               <span
                 class="ranking__barra"
+                data-dica={`${a.grupo}: ${Math.round(a.ocupacao * 100)}% das vagas preenchidas — ${formatarInteiro(a.colocados)} colocados em ${formatarInteiro(a.vagas)} vagas`}
                 role="img"
                 aria-label={`${Math.round(a.ocupacao * 100)} por cento das vagas preenchidas`}
               >

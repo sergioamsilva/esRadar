@@ -776,3 +776,61 @@ html.js .cresce.on {
   color: var(--ink-2);
   vertical-align: 2px;
 }
+
+/* ── tooltip de dados (motor global em Base.astro) ──────────────────── */
+.dica-flutuante {
+  position: fixed;
+  z-index: 90;
+  max-width: 300px;
+  padding: 8px 11px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--ink) 94%, transparent);
+  color: var(--surface);
+  font-size: var(--t-xs);
+  line-height: 1.45;
+  white-space: pre-line;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  font-variant-numeric: tabular-nums;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.5);
+}
+.dica-flutuante.on {
+  opacity: 1;
+  transform: none;
+}
+
+/* Linha vertical do crosshair nas séries (criada pelo motor). */
+.crosshair-linha {
+  stroke: var(--ink);
+  stroke-opacity: 0.35;
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+svg[data-hover-serie] circle {
+  transition: transform 0.12s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+svg[data-hover-serie] circle.em-foco {
+  transform: scale(1.7);
+}
+
+/* Barras e colunas com tooltip reagem ao rato. */
+[data-dica] {
+  cursor: default;
+}
+.hist__coluna:hover .hist__barra,
+[data-dica]:hover .areas12__barra,
+[data-dica]:hover .areas-i__barra,
+[data-dica]:hover .areas__barra,
+[data-dica]:hover .dist__cheio,
+[data-dica]:hover .ranking__preenchido > span {
+  filter: brightness(1.18);
+}
+.hist__coluna:hover .hist__barra {
+  filter: brightness(1.25) saturate(1.1);
+}

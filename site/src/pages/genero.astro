@@ -55,7 +55,7 @@ const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulhe
     <ol class="areas">
       {
         areas.map((a, i) => (
-          <li class="areas__linha">
+          <li class="areas__linha" data-dica={`${a.area}: ${a.pct_mulheres_colocadas}% mulheres · ${formatarInteiro(a.colocados_mulheres)} colocadas e ${formatarInteiro(a.colocados_homens)} colocados`}>
             <span class="areas__nome">{a.area}</span>
             <span class="areas__pista">
               <span class="areas__meio" aria-hidden="true" />

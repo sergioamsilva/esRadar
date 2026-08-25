@@ -324,6 +324,96 @@ const SECCOES = [
       };
       armarSalto();
       document.addEventListener("astro:page-load", armarSalto);
+
+      /* ── motor de hover dos gráficos ─────────────────────────────────
+         - svg[data-hover-serie]: crosshair no ano mais próximo, pontos em
+           foco e tooltip com os valores de todas as séries (o texto vem
+           dos <title> que os pontos já têm — zero duplicação de dados);
+         - [data-dica]: tooltip instantâneo em barras/colunas.
+         Tudo delegado no documento — sobrevive ao ClientRouter. */
+      let dicaEl: HTMLDivElement | null = null;
+      const dica = () => {
+        if (!dicaEl || !document.body.contains(dicaEl)) {
+          dicaEl = document.createElement("div");
+          dicaEl.className = "dica-flutuante";
+          dicaEl.setAttribute("role", "status");
+          document.body.appendChild(dicaEl);
+        }
+        return dicaEl;
+      };
+      const mostrarDica = (texto: string, e: MouseEvent) => {
+        const el = dica();
+        el.textContent = texto;
+        el.classList.add("on");
+        const larg = el.offsetWidth;
+        const x = Math.min(Math.max(8, e.clientX + 14), window.innerWidth - larg - 8);
+        const y = e.clientY + 16 + el.offsetHeight > window.innerHeight ? e.clientY - el.offsetHeight - 12 : e.clientY + 16;
+        el.style.left = `${x}px`;
+        el.style.top = `${y}px`;
+      };
+      const esconderDica = () => dicaEl?.classList.remove("on");
+
+      let svgAtivo: SVGSVGElement | null = null;
+      const limparSerie = () => {
+        if (!svgAtivo) return;
+        svgAtivo.querySelector(".crosshair-linha")?.remove();
+        svgAtivo.querySelectorAll("circle.em-foco").forEach((c) => c.classList.remove("em-foco"));
+        svgAtivo = null;
+      };
+
+      document.addEventListener("mousemove", (e) => {
+        const alvo = e.target instanceof Element ? e.target : null;
+        const svg = alvo?.closest?.("svg[data-hover-serie]") as SVGSVGElement | null;
+        if (svg) {
+          if (svgAtivo && svgAtivo !== svg) limparSerie();
+          svgAtivo = svg;
+          const vb = svg.viewBox.baseVal;
+          const r = svg.getBoundingClientRect();
+          const fx = ((e.clientX - r.left) / r.width) * vb.width;
+          const circulos = [...svg.querySelectorAll<SVGCircleElement>("circle[data-ano]")];
+          if (!circulos.length) return;
+          let melhorAno = circulos[0].dataset.ano!;
+          let melhorDist = Infinity;
+          for (const c of circulos) {
+            const d = Math.abs(Number(c.getAttribute("cx")) - fx);
+            if (d < melhorDist) {
+              melhorDist = d;
+              melhorAno = c.dataset.ano!;
+            }
+          }
+          const doAno = circulos.filter((c) => c.dataset.ano === melhorAno);
+          circulos.forEach((c) => c.classList.toggle("em-foco", c.dataset.ano === melhorAno));
+          let linha = svg.querySelector<SVGLineElement>(".crosshair-linha");
+          if (!linha) {
+            linha = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            linha.setAttribute("class", "crosshair-linha");
+            svg.insertBefore(linha, svg.firstChild?.nextSibling ?? null);
+          }
+          const cx = doAno[0].getAttribute("cx")!;
+          linha.setAttribute("x1", cx);
+          linha.setAttribute("x2", cx);
+          linha.setAttribute("y1", "0");
+          linha.setAttribute("y2", String(vb.height));
+          const texto = doAno
+            .map((c) => c.querySelector("title")?.textContent?.trim())
+            .filter(Boolean)
+            .join("\n");
+          if (texto) mostrarDica(texto, e);
+          return;
+        }
+        limparSerie();
+        const comDica = alvo?.closest?.("[data-dica]") as HTMLElement | null;
+        if (comDica?.dataset.dica) mostrarDica(comDica.dataset.dica, e);
+        else esconderDica();
+      });
+      document.addEventListener("mouseleave", () => {
+        limparSerie();
+        esconderDica();
+      });
+      document.addEventListener("astro:page-load", () => {
+        limparSerie();
+        esconderDica();
+      });
     </script>
   </body>
 </html>
