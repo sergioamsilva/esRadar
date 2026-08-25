@@ -134,6 +134,22 @@ def ler_guia() -> dict:
     return json.loads(caminho.read_text(encoding="utf-8"))
 
 
+def ler_series_guias_antigos() -> dict[str, dict[str, dict]]:
+    """Séries das edições antigas do guia (Arquivo.pt), da mais velha para a
+    mais recente — em sobreposição, a edição mais nova ganha, e o guia
+    corrente (aplicado depois, em construir) ganha a todas."""
+    series: dict[str, dict[str, dict]] = defaultdict(dict)
+    for caminho in sorted(common.DIR_BRUTO.glob("guias/*/guia.json")):
+        edicao = int(caminho.parent.name)
+        if edicao >= ANO_CORRENTE:
+            continue
+        dados = json.loads(caminho.read_text(encoding="utf-8"))
+        for par, ficha in dados["pares"].items():
+            for chave, registo in ficha.get("series", {}).items():
+                series[par][chave] = registo
+    return series
+
+
 _PESO_SEC = re.compile(r"Média do secundário:\s*(\d+)\s*%")
 _PESO_PROVAS = re.compile(r"Provas de ingresso:\s*(\d+)\s*%")
 
@@ -262,6 +278,7 @@ def construir() -> None:
     instituicoes = ler_instituicoes()
     infocursos = ler_infocursos()
     etapas = ler_etapas()
+    series_antigas = ler_series_guias_antigos()
     atribuir_distritos(instituicoes)
     pares_guia = guia["pares"]
 
@@ -278,6 +295,12 @@ def construir() -> None:
         serie: dict[str, dict] = defaultdict(dict)
         for chave, registo in resultados.get(par, {}).items():
             serie[chave].update({k: v for k, v in registo.items() if v is not None})
+        # Edições antigas do guia (Arquivo.pt): só os campos que os XLS não
+        # têm — procura, sexo, médias. Nota e colocados ficam dos XLS.
+        for chave, registo in series_antigas.get(par, {}).items():
+            for k, v in registo.items():
+                if v is not None and k not in serie[chave] and k not in ("vagas", "nota_ultimo", "colocados"):
+                    serie[chave][k] = v
         for chave, registo in ficha_guia.get("series", {}).items():
             for k, v in registo.items():
                 if k in ("candidatos", "candidatos_1opcao", "colocados_1opcao",
