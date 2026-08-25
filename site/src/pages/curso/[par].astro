@@ -1,6 +1,5 @@
 ---
 import Base from "../../layouts/Base.astro";
-import Regua from "../../components/Regua.astro";
 import SerieAnual from "../../components/SerieAnual.astro";
 import {
   pares,
@@ -32,6 +31,12 @@ const notasF2 = serieAnual(ficha, "nota_ultimo", 2);
 const candidatos = serieAnual(ficha, "candidatos", 1);
 const candidatos1op = serieAnual(ficha, "candidatos_1opcao", 1);
 
+/* Geometria da régua do palco: a mesma escala 90–200 de todo o portal. */
+const MIN = 90;
+const MAX = 200;
+const pos = (v: number) => ((Math.max(MIN, Math.min(MAX, v)) - MIN) / (MAX - MIN)) * 100;
+const eixos = [100, 120, 140, 160, 180, 200];
+
 const titulo = `${ficha.curso} — ${ficha.instituicao}`;
 const descricao =
   nota2026 != null
@@ -40,79 +45,147 @@ const descricao =
 ---
 
 <Base titulo={titulo} descricao={descricao}>
-  <header class="ficha-cab">
-    <p class="kicker">
-      {ficha.grupo}
-      {ficha.grau && ` · ${ficha.grau}`}
-      {ficha.cnaef_nome && ` · ${ficha.cnaef_nome}`}
-    </p>
-    <h1>{ficha.curso}</h1>
-    <p class="desc">
-      {ficha.instituicao} · par {ficha.par}
-      {!ficha.ativo && " · sem oferta no concurso de 2026"}
-    </p>
-  </header>
+  {/* O palco: a nota de corte como protagonista, na escala que toda a gente
+      conhece. Banda escura deliberada nos dois temas — é o «papel de pauta»
+      da página. Sem JavaScript fica tudo visível e parado. */}
+  <section class="palco reveal">
+    <div class="palco__grelha">
+      <div class="palco__id">
+        <p class="palco__kicker">
+          {ficha.grupo}
+          {ficha.cnaef_nome && ` · ${ficha.cnaef_nome}`}
+        </p>
+        <h1 class="palco__titulo">{ficha.curso}</h1>
+        <span class="palco__filete cresce" aria-hidden="true"></span>
+        <p class="palco__inst">
+          {ficha.instituicao}
+          {!ficha.ativo && " · sem oferta no concurso de 2026"}
+        </p>
+        <div class="palco__chips">
+          {
+            ficha.vagas_2026 != null && (
+              <span class="palco__chip palco__chip--a">
+                <b>{formatarInteiro(ficha.vagas_2026)}</b> vagas em 2026
+                {f1_2026.sobras === 0 && " · esgotadas na 1ª fase"}
+                {(f1_2026.sobras ?? 0) > 0 && ` · ${formatarInteiro(f1_2026.sobras)} por preencher`}
+              </span>
+            )
+          }
+          {
+            procura != null && (
+              <span class="palco__chip palco__chip--b">
+                <b>{formatarInteiro(procura)}</b> puseram-no em 1ª opção (2025)
+              </span>
+            )
+          }
+        </div>
+      </div>
+
+      <div class="palco__nota">
+        <p class="palco__nota-rotulo">nota do último colocado · 1ª fase 2026</p>
+        {
+          nota2026 != null ? (
+            <>
+              <p class="palco__numero" data-contar={nota2026} data-casas="1">
+                {formatarNota(nota2026)}
+              </p>
+              {variacao != null && (
+                <p
+                  class={`palco__variacao ${variacao >= 0 ? "palco__variacao--sobe" : "palco__variacao--desce"}`}
+                >
+                  <span class="palco__seta" aria-hidden="true">
+                    {variacao >= 0 ? "↗" : "↘"}
+                  </span>
+                  {variacao >= 0 ? "+" : "−"}
+                  {Math.abs(variacao).toLocaleString("pt-PT", {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{" "}
+                  face a 2025
+                </p>
+              )}
+            </>
+          ) : (
+            <>
+              <p class="palco__numero palco__numero--vazio">—</p>
+              <p class="palco__variacao">
+                não preencheu as vagas na 1ª fase — entra-se com a nota mínima
+              </p>
+            </>
+          )
+        }
+      </div>
+    </div>
+
+    <div class="palco__regua" aria-hidden={nota2026 == null ? "true" : undefined}>
+      <div
+        class="palco__pista"
+        role="img"
+        aria-label={
+          nota2026 != null
+            ? `Régua de 90 a 200 pontos: a nota de corte de 2026 é ${formatarNota(nota2026)}${nota2025 != null ? `; em 2025 foi ${formatarNota(nota2025)}` : ""}`
+            : "Régua de 90 a 200 pontos, sem nota de corte em 2026"
+        }
+      >
+        {eixos.map((v) => <span class="palco__tick" style={`left:${pos(v)}%`} />)}
+        {
+          nota2026 != null && (
+            <span class="palco__fill cresce" style={`width:${pos(nota2026)}%;--d:.15s`} />
+          )
+        }
+        {
+          nota2025 != null && (
+            <span
+              class="palco__fantasma"
+              style={`left:${pos(nota2025)}%`}
+              title={`1ª fase 2025: ${formatarNota(nota2025)}`}
+            />
+          )
+        }
+        {
+          nota2026 != null && (
+            <span class="palco__marca" style={`left:${pos(nota2026)}%`}>
+              <span class="palco__halo" aria-hidden="true" />
+            </span>
+          )
+        }
+      </div>
+      <div class="palco__eixo" aria-hidden="true">
+        {eixos.map((v) => <span style={`left:${pos(v)}%`}>{v}</span>)}
+      </div>
+      <p class="palco__legenda">
+        Escala de candidatura 0–200 · o anel oco é a nota de 2025 · abaixo de 90 nenhum
+        curso público coloca
+      </p>
+    </div>
+  </section>
 
   <div class="stats">
     <div class="stat reveal">
-      <b {...nota2026 != null ? { "data-contar": nota2026, "data-casas": 1 } : {}}>
-        {formatarNota(nota2026)}
-      </b>
-      <span>nota do último colocado, 1ª fase 2026</span>
-      {
-        variacao != null && (
-          <em>
-            {variacao >= 0 ? "+" : "−"}
-            {Math.abs(variacao).toLocaleString("pt-PT", { maximumFractionDigits: 1 })} pontos
-            face a 2025
-          </em>
-        )
-      }
-    </div>
-    <div class="stat reveal" style="--d:.08s">
       <b {...ficha.vagas_2026 != null ? { "data-contar": ficha.vagas_2026 } : {}}>
         {formatarInteiro(ficha.vagas_2026)}
       </b>
       <span>vagas em 2026</span>
-      {
-        f1_2026.sobras != null &&
-          (f1_2026.sobras > 0 ? (
-            <em>{formatarInteiro(f1_2026.sobras)} sobraram para a 2ª fase</em>
-          ) : (
-            <em>todas preenchidas na 1ª fase</em>
-          ))
-      }
     </div>
-    <div class="stat reveal" style="--d:.16s">
+    <div class="stat reveal" style="--d:.08s">
       <b {...f1_2026.colocados != null ? { "data-contar": f1_2026.colocados } : {}}>
         {formatarInteiro(f1_2026.colocados)}
       </b>
       <span>colocados na 1ª fase de 2026</span>
+    </div>
+    <div class="stat reveal" style="--d:.16s">
+      <b {...f1_2026.sobras != null ? { "data-contar": f1_2026.sobras } : {}}>
+        {formatarInteiro(f1_2026.sobras)}
+      </b>
+      <span>vagas sobrantes para a 2ª fase</span>
     </div>
     <div class="stat reveal" style="--d:.24s">
       <b {...racio != null ? { "data-contar": Math.round(racio * 10) / 10, "data-casas": 1 } : {}}>
         {racio != null ? racio.toLocaleString("pt-PT", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) : "—"}
       </b>
       <span>candidatos em 1ª opção por vaga (2025)</span>
-      {procura != null && <em>{formatarInteiro(procura)} escolheram-no em primeiro lugar</em>}
     </div>
   </div>
-
-  {
-    nota2026 != null && (
-      <section class="card full regua-card reveal">
-        <h3>Onde cai a nota de corte</h3>
-        <Regua
-          marcas={[{ valor: nota2026, rotulo: "Último colocado, 1ª fase 2026" }]}
-          fantasma={nota2025 != null ? { valor: nota2025, rotulo: "1ª fase 2025" } : null}
-        />
-        <p class="fonte-lin">
-          Escala de candidatura do concurso (0–200); o troço abaixo de 90 não se desenha —
-          nenhum curso público coloca aí.
-        </p>
-      </section>
-    )
-  }
 
   <div class="grid">
     <section class="card">
@@ -211,17 +284,269 @@ const descricao =
 </Base>
 
 <style>
-  .ficha-cab {
-    padding: 26px 0 4px;
+  /* ── o palco ─────────────────────────────────────────────────────────
+     Full-bleed: sai do wrap e volta a alinhar o conteúdo com padding. É
+     escuro nos dois temas de propósito — cores explícitas, não tokens. */
+  .palco {
+    margin-inline: calc(50% - 50vw);
+    padding: clamp(30px, 5vw, 56px) calc(50vw - 50%) clamp(24px, 4vw, 40px);
+    background:
+      radial-gradient(1100px 420px at 85% -10%, rgba(57, 135, 229, 0.38), transparent 65%),
+      radial-gradient(700px 360px at -5% 110%, rgba(208, 105, 42, 0.22), transparent 60%),
+      linear-gradient(118deg, #0a1422 0%, #10233c 55%, #0c1a2e 100%);
+    color: #fff;
   }
-  .ficha-cab h1 {
-    font-size: clamp(26px, 4.5vw, 40px);
-    letter-spacing: -0.02em;
-    line-height: 1.12;
-    margin: 6px 0 4px;
+  .palco__grelha {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) auto;
+    gap: clamp(20px, 4vw, 56px);
+    align-items: start;
   }
-  .regua-card {
-    margin-top: 20px;
+  .palco__kicker {
+    font-size: var(--t-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 0 0 10px;
+  }
+  .palco__titulo {
+    font-size: clamp(32px, 5.6vw, 62px);
+    line-height: 1.04;
+    letter-spacing: -0.025em;
+    margin: 0;
+    max-width: 18ch;
+  }
+  .palco__filete {
+    display: block;
+    width: clamp(64px, 8vw, 110px);
+    height: 4px;
+    border-radius: 2px;
+    margin: 16px 0 12px;
+    background: linear-gradient(90deg, #3987e5, #7cc0ff);
+  }
+  .palco__inst {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: var(--t-md);
+    margin: 0 0 18px;
+  }
+  .palco__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .palco__chip {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: var(--t-xs);
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+  .palco__chip b {
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+  }
+  .palco__chip--a {
+    animation: flutua 6.2s ease-in-out infinite;
+  }
+  .palco__chip--b {
+    animation: flutua 7.4s ease-in-out 0.9s infinite;
+  }
+  @keyframes flutua {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .palco__nota {
+    text-align: right;
+    min-width: 0;
+  }
+  .palco__nota-rotulo {
+    font-size: var(--t-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 4px 0 2px;
+  }
+  .palco__numero {
+    font-size: clamp(58px, 9vw, 108px);
+    font-weight: 780;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(100deg, #fff 30%, #9ecbff 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #9ecbff;
+  }
+  .palco__numero--vazio {
+    color: rgba(255, 255, 255, 0.4);
+    -webkit-text-fill-color: initial;
+    background: none;
+  }
+  .palco__variacao {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 10px 0 0;
+    font-size: var(--t-sm);
+    font-variant-numeric: tabular-nums;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .palco__variacao--sobe {
+    color: #7fe3ad;
+  }
+  .palco__variacao--desce {
+    color: #ffa1a1;
+  }
+  .palco__seta {
+    display: inline-block;
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 1s;
+  }
+  :global(html.js) .palco:not(.on) .palco__seta {
+    transform: translate(-6px, 6px);
+    opacity: 0;
+  }
+
+  /* ── a régua do palco ────────────────────────────────────────────── */
+  .palco__regua {
+    margin-top: clamp(26px, 4vw, 40px);
+  }
+  .palco__pista {
+    position: relative;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  .palco__tick {
+    position: absolute;
+    top: -4px;
+    width: 1px;
+    height: 14px;
+    background: rgba(255, 255, 255, 0.22);
+  }
+  .palco__fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    border-radius: 3px;
+    background: linear-gradient(90deg, rgba(57, 135, 229, 0.35), #3987e5 70%, #7cc0ff);
+    box-shadow: 0 0 18px rgba(57, 135, 229, 0.55);
+  }
+  .palco__fantasma {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    background: transparent;
+  }
+  .palco__marca {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #7cc0ff;
+    box-shadow: 0 0 22px rgba(124, 192, 255, 0.9);
+  }
+  .palco__halo {
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    border: 2px solid rgba(124, 192, 255, 0.8);
+    animation: halo 2.8s cubic-bezier(0, 0, 0.2, 1) 1.4s infinite;
+  }
+  @keyframes halo {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    70%,
+    100% {
+      transform: scale(2.4);
+      opacity: 0;
+    }
+  }
+  :global(html.js) .palco .palco__marca {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) 0.85s;
+  }
+  :global(html.js) .palco.on .palco__marca {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  :global(html.js) .palco .palco__fantasma,
+  :global(html.js) .palco .palco__legenda {
+    opacity: 0;
+    transition: opacity 0.5s ease 1.2s;
+  }
+  :global(html.js) .palco.on .palco__fantasma,
+  :global(html.js) .palco.on .palco__legenda {
+    opacity: 1;
+  }
+  .palco__eixo {
+    position: relative;
+    height: 1.1rem;
+    margin-top: 10px;
+    font-size: var(--t-2xs);
+    color: rgba(255, 255, 255, 0.55);
+    font-variant-numeric: tabular-nums;
+  }
+  .palco__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .palco__legenda {
+    margin: 8px 0 0;
+    font-size: var(--t-2xs);
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  @media (max-width: 720px) {
+    .palco__grelha {
+      grid-template-columns: 1fr;
+    }
+    .palco__nota {
+      text-align: left;
+    }
+    .palco__eixo span:first-child {
+      transform: none;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .palco__chip--a,
+    .palco__chip--b,
+    .palco__halo {
+      animation: none;
+    }
+    :global(html.js) .palco .palco__marca {
+      transform: translate(-50%, -50%) scale(1);
+      transition: none;
+    }
+    :global(html.js) .palco .palco__seta,
+    :global(html.js) .palco:not(.on) .palco__seta {
+      transform: none;
+      opacity: 1;
+      transition: none;
+    }
+    :global(html.js) .palco .palco__fantasma,
+    :global(html.js) .palco .palco__legenda {
+      opacity: 1;
+      transition: none;
+    }
   }
   .sub {
     font-size: var(--t-xs);
