@@ -11,11 +11,55 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 69.6,
+   "fora": 26.1,
+   "muda_curso": 4.3,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 23
+  },
+  "diplomados": {
+   "n": 12,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 31,
+   "inscritos": 41,
+   "mulheres": 10
+  }
+ },
  "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior Agrária",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3161-L164",
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática\nou\n09 Geografia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Ecologia e Ambiente",
+   "grupo": "Universidade de Évora",
+   "nota": 116.0,
+   "par": "0602-L090",
+   "vagas": 12
+  },
+  {
+   "curso": "Ciências do Ambiente",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 112.5,
+   "par": "1204-9379",
+   "vagas": 18
+  },
+  {
+   "curso": "Ciências do Ambiente",
+   "grupo": "Universidade do Minho",
+   "nota": 100.5,
+   "par": "1000-9379",
+   "vagas": 37
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

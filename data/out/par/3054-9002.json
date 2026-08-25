@@ -11,11 +11,72 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Guarda, Portalegre, Santarém, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n088 Ação Social (DL 74/2004)\n345 Profissionais de Formação Bancária (IFB)\n722 Técnico Administrativo\n746 Técnico de Gestão Administrativa\n764 Técnico de Secretariado\n765 Técnico de Seguros\n784 Técnico Administrativo de Seguros\n786 Técnico de Informação, Documentação e Comunicação\n831 Agrupamento 3 / Administração\n841 Agrupamento 4 / Comunicação\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nP19 Técnico de Apoio Psicossocial\nP22 Técnico de Banca e Seguros\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP59 Técnico de Informática de Gestão\nP82 Técnico de Secretariado\nP84 Técnico de Serviços Jurídicos\nR16 Técnico Administrativo\nR49 Técnico de Apoio à Gestão\nR78 Técnico de Informação, Documentação e Comunicação\nS17 Técnico de Apoio à Gestão\nS47 Técnico de Segurança e Higiene do Trabalho\nU18 Técnico de Segurança e Higiene do Trabalho",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 90.0,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 10.0,
+   "novos_inscritos": 20
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 39,
+   "mulheres": 29
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3054-9002",
+ "percentil_nota_2026": 21,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Gestão da Distribuição e Logística",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 119.5,
+   "par": "3164-8464",
+   "vagas": 18
+  },
+  {
+   "curso": "Gestão (regime noturno)",
+   "grupo": "Universidade do Algarve",
+   "nota": 119.0,
+   "par": "3082-9148",
+   "vagas": 26
+  },
+  {
+   "curso": "Gestão (regime noturno)",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 119.0,
+   "par": "3163-9148",
+   "vagas": 30
+  },
+  {
+   "curso": "Gestão de Negócios Internacionais (ensino em Inglês)",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 116.8,
+   "par": "3043-A019",
+   "vagas": 50
+  },
+  {
+   "curso": "Gestão de Recursos Humanos",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 115.0,
+   "par": "3124-9157",
+   "vagas": 25
+  },
+  {
+   "curso": "Gestão (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 113.5,
+   "par": "3143-9991",
+   "vagas": 24
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 40,

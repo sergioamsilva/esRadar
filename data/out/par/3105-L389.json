@@ -11,11 +11,42 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, Santarém, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n572 Análises Químico-Biológicas (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n608 Cursos Vocacionais (Todos os Cursos)\n726 Técnico da Qualidade\n727 Técnico de Alimentação e Bebidas\n728 Técnico de Aquicultura\n743 Técnico de Fabrico de Produtos Lácteos\n747 Técnico de Gestão Agrícola\n750 Técnico de Gestão Pecuária\n751 Técnico de Gestão/Pescas\n755 Técnico de Laboratório\n769 Técnico de Transformação de Produtos Alimentares\n780 Técnico Vitivinícola\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA03 Biotecnologia (VC) (Port. 941/2009)\nA04 Biotecnologia (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG04 Biotecnologia (VC) (Portaria n.º 260/2013)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH17 Biotecnologia (VT)\nH26 Química, Ambiente e Qualidade (VT)\nH28 Análises Químico-Biológicas\nH37 Tecnologias e Segurança Alimentar\nP16 Técnico de Análise Laboratorial\nP52 Técnico de Gestão Cinegética\nP57 Técnico de Gestão Equina\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP72 Técnico de Produção Agrária\nP96 Técnico de Viticultura e Enologia\nR18 Técnico Vitivinícola\nR20 Técnico de Cozinha/Pastelaria\nR22 Técnico de Produção Agropecuária\nR40 Técnico Apícola\nR44 Técnico da Qualidade\nR52 Técnico de Aquicultura\nR58 Técnico de Controlo de Qualidade Alimentar\nR76 Técnico de Indústrias Alimentares\nR95 Técnico de Pastelaria/Padaria\nS13 Técnico Agrícola\nS43 Técnico de Produção Agropecuária\nS49 Técnico de Transformação de Pescado\nS54 Técnicas de Cozinha/Pastelaria (Portaria n.º 57/2009)\nS57 Cozinha/Pastelaria (Portaria n.º 846/2007)\nS67 Técnico de Cozinha/Pastelaria\nT07 Técnico de Análise Laboratorial\nT10 Técnico de Controlo de Qualidade Alimentar\nT42 Técnico de Produção Agrária",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3105-L389",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Ciência e Tecnologia dos Alimentos",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": null,
+   "par": "3021-9350",
+   "vagas": 24
+  },
+  {
+   "curso": "Engenharia Alimentar",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3041-9087",
+   "vagas": 20
+  },
+  {
+   "curso": "Enologia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3041-9752",
+   "vagas": 12
+  },
+  {
+   "curso": "Engenharia Alimentar",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": null,
+   "par": "3185-9087",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 0,

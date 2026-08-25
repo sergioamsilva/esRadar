@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 56.5,
+   "fora": 4.8,
+   "muda_curso": 22.6,
+   "muda_estabelecimento": 16.1,
+   "novos_inscritos": 62
+  },
+  "desemprego": {
+   "diplomados": 40,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.0
+  },
+  "diplomados": {
+   "n": 43,
+   "nota_final_media": 15.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 30,
+    "nota_ingresso_media": 17.3,
+    "percentil": 66.1
+   },
+   "2021": {
+    "matriculados": 28,
+    "nota_ingresso_media": 17.9,
+    "percentil": 66.4
+   },
+   "2022": {
+    "matriculados": 31,
+    "nota_ingresso_media": 17.3,
+    "percentil": 64.0
+   },
+   "2023": {
+    "matriculados": 29,
+    "nota_ingresso_media": 17.0,
+    "percentil": 62.3
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.4,
+    "percentil": 58.2
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.7,
+    "percentil": 61.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 91,
+   "mulheres": 81
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Medicina",
  "minimo_candidatura": 140,
  "minimo_provas": 120,
  "par": "1507-9554",
+ "pct_colocados_1opcao_2025": 43,
+ "percentil_nota_2026": 77,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 156.5,
+   "par": "7016-9504",
+   "vagas": 25
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 156.0,
+   "par": "7045-9504",
+   "vagas": 34
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 154.0,
+   "par": "7065-9504",
+   "vagas": 18
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 151.0,
+   "par": "7020-9504",
+   "vagas": 35
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 149.5,
+   "par": "7055-9504",
+   "vagas": 25
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 148.5,
+   "par": "7230-9890",
+   "vagas": 38
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 30,

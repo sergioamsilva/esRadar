@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Setúbal, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n086 Marketing (DL 74/2004)\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n674 Animação Sociocultural (Port. 817/2009)\n677 Turismo Cultural e Ambiental (Port. 817/2009)\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n778 Técnico de Agências de Viagens e Transportes\n831 Agrupamento 3 / Administração\n841 Agrupamento 4 / Comunicação\n842 Agrupamento 4 / Animação Social\n981 Recorrente - Marketing (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA17 Marketing e Estratégia Empresarial (VC) (Port. 941/2009)\nA18 Marketing e Estratégia Empresarial (VCT) (Port. 941/2009)\nA19 Línguas e Relações Empresariais (VC) (Port. 941/2009)\nA20 Línguas e Relações Empresariais (VCT) (Port. 941/2009)\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG11 Marketing e Estratégia Empresarial (VC) (Port. 260/2013)\nG12 Património e Turismo (VC) (Portaria n.º 260/2013)\nG23 Línguas e Relações Empresariais (VT) (Portaria n.º 260/2013)\nG24 Marketing e Estratégia Empresarial (VT) (Port. 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG43 Animação Sociocultural (Portaria n.º 265/2013)\nG54 Turismo Cultural e Recreativo (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nH23 Línguas e Relações Empresariais (VT)\nH24 Marketing e Estratégia Empresarial (VT)\nH25 Património e Turismo (VT)\nH43 Animação Sociocultural\nH54 Turismo Cultural e Recreativo\nP01 Animador Sociocultural\nP28 Técnico de Comunicação - Marketing, Relações Públicas e Publ\nP64 Técnico de Marketing\nP67 Técnico de Museografia e Gestão do Património\nP69 Técnico de Organização de Eventos\nP77 Técnico de Receção\nP85 Técnico de Sistemas de Informação Geográfica\nP90 Técnico de Transportes\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR17 Técnico em Animação de Turismo\nR27 Acompanhante de Turismo Equestre\nR39 Rececionista de Hotel\nR77 Técnico de Informação e Animação Turística\nR92 Técnico de Operações Turísticas\nS36 Técnico de Marketing\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS71 Técnico de Museografia e Gestão do Património\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nT01 Acompanhante de Turismo Equestre\nT02 Animador Sociocultural\nT28 Técnico de Informação e Animação Turística\nT40 Técnico de Organização de Eventos\nT52 Técnico de Turismo Ambiental e Rural\nU17 Técnico de Receção Hoteleira\nU26 Técnico de Vendas e Marketing\nU56 Técnico de Alojamento Hoteleiro",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.5,
+   "fora": 8.9,
+   "muda_curso": 0.8,
+   "muda_estabelecimento": 4.8,
+   "novos_inscritos": 124
+  },
+  "desemprego": {
+   "diplomados": 197,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.0
+  },
+  "diplomados": {
+   "n": 81,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 60,
+    "nota_ingresso_media": 13.8,
+    "percentil": 31.7
+   },
+   "2021": {
+    "matriculados": 55,
+    "nota_ingresso_media": 13.9,
+    "percentil": 28.3
+   },
+   "2022": {
+    "matriculados": 51,
+    "nota_ingresso_media": 13.7,
+    "percentil": 34.9
+   },
+   "2023": {
+    "matriculados": 49,
+    "nota_ingresso_media": 13.2,
+    "percentil": 21.8
+   },
+   "2024": {
+    "matriculados": 49,
+    "nota_ingresso_media": 13.4,
+    "percentil": 26.1
+   },
+   "2025": {
+    "matriculados": 18,
+    "nota_ingresso_media": 13.0,
+    "percentil": 28.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 77,
+   "inscritos": 197,
+   "mulheres": 120
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3105-9254",
+ "pct_colocados_1opcao_2025": 93,
+ "percentil_nota_2026": 4,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Gestão do Lazer e Animação Turística",
+   "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
+   "nota": 112.0,
+   "par": "7110-9163",
+   "vagas": 89
+  },
+  {
+   "curso": "Turismo",
+   "grupo": "Universidade dos Açores",
+   "nota": 108.0,
+   "par": "0170-9254",
+   "vagas": 28
+  },
+  {
+   "curso": "Turismo",
+   "grupo": "Universidade do Algarve",
+   "nota": 108.0,
+   "par": "3087-9254",
+   "vagas": 32
+  },
+  {
+   "curso": "Turismo e Gestão do Património Cultural",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 107.0,
+   "par": "3241-L207",
+   "vagas": 27
+  },
+  {
+   "curso": "Turismo (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 106.5,
+   "par": "3062-8114",
+   "vagas": 25
+  },
+  {
+   "curso": "Turismo",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 102.0,
+   "par": "3182-9254",
+   "vagas": 47
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 52,

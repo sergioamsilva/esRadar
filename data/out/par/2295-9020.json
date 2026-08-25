@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 84.5,
+   "fora": 3.0,
+   "muda_curso": 6.0,
+   "muda_estabelecimento": 6.5,
+   "novos_inscritos": 232
+  },
+  "desemprego": {
+   "diplomados": 295,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 153,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 177,
+   "inscritos": 355,
+   "mulheres": 178
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Instituto de Estudos Políticos",
  "minimo_candidatura": null,
  "minimo_provas": null,

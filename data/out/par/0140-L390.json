@@ -11,11 +11,43 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
+ "infocursos": null,
  "instituicao": "Universidade dos Açores - Faculdade de Ciências Agrárias e do Ambiente",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0140-L390",
+ "percentil_nota_2026": 90,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Biologia Celular e Molecular",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 165.3,
+   "par": "0903-9348",
+   "vagas": 70
+  },
+  {
+   "curso": "Engenharia Biológica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 159.3,
+   "par": "1518-9474",
+   "vagas": 61
+  },
+  {
+   "curso": "Biotecnologia Medicinal",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 158.5,
+   "par": "7230-L101",
+   "vagas": 32
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 155.5,
+   "par": "1503-9011",
+   "vagas": 174
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 5,

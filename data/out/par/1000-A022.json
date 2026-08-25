@@ -11,11 +11,36 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": null,
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-A022",
+ "percentil_nota_2026": 99,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade do Porto",
+   "nota": 178.3,
+   "par": "1116-9147",
+   "vagas": 179
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 178.0,
+   "par": "3134-9147",
+   "vagas": 55
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 176.8,
+   "par": "0904-9147",
+   "vagas": 295
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 10,

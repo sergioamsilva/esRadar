@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.1,
+   "fora": 2.5,
+   "muda_curso": 5.9,
+   "muda_estabelecimento": 6.4,
+   "novos_inscritos": 202
+  },
+  "desemprego": {
+   "diplomados": 266,
+   "periodo": "2020/21_2023/24",
+   "taxa": 90.0
+  },
+  "diplomados": {
+   "n": 131,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 94,
+    "nota_ingresso_media": 17.8,
+    "percentil": 74.8
+   },
+   "2021": {
+    "matriculados": 92,
+    "nota_ingresso_media": 18.4,
+    "percentil": 80.0
+   },
+   "2022": {
+    "matriculados": 102,
+    "nota_ingresso_media": 18.0,
+    "percentil": 78.7
+   },
+   "2023": {
+    "matriculados": 92,
+    "nota_ingresso_media": 17.8,
+    "percentil": 78.1
+   },
+   "2024": {
+    "matriculados": 91,
+    "nota_ingresso_media": 17.1,
+    "percentil": 70.7
+   },
+   "2025": {
+    "matriculados": 92,
+    "nota_ingresso_media": 16.8,
+    "percentil": 60.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 99,
+   "inscritos": 304,
+   "mulheres": 205
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Ciências",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1103-9015",
+ "pct_colocados_1opcao_2025": 76,
+ "percentil_nota_2026": 79,
  "provas_ingresso": "Duas das seguintes provas:\n02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Biológica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 159.3,
+   "par": "1518-9474",
+   "vagas": 61
+  },
+  {
+   "curso": "Biotecnologia Medicinal",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 158.5,
+   "par": "7230-L101",
+   "vagas": 32
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 155.5,
+   "par": "1503-9011",
+   "vagas": 174
+  },
+  {
+   "curso": "Ciências do Meio Aquático",
+   "grupo": "Universidade do Porto",
+   "nota": 153.5,
+   "par": "1110-9708",
+   "vagas": 35
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade do Porto",
+   "nota": 151.0,
+   "par": "1103-9011",
+   "vagas": 131
+  },
+  {
+   "curso": "Bioinformática",
+   "grupo": "Universidade do Porto",
+   "nota": 149.3,
+   "par": "1103-9687",
+   "vagas": 37
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 80,

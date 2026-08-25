@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 68.1,
+   "fora": 1.4,
+   "muda_curso": 13.9,
+   "muda_estabelecimento": 16.7,
+   "novos_inscritos": 72
+  },
+  "desemprego": {
+   "diplomados": 94,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.6
+  },
+  "diplomados": {
+   "n": 49,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 36,
+    "nota_ingresso_media": 16.4,
+    "percentil": 55.8
+   },
+   "2021": {
+    "matriculados": 34,
+    "nota_ingresso_media": 16.7,
+    "percentil": 56.5
+   },
+   "2022": {
+    "matriculados": 37,
+    "nota_ingresso_media": 16.4,
+    "percentil": 61.0
+   },
+   "2023": {
+    "matriculados": 32,
+    "nota_ingresso_media": 16.2,
+    "percentil": 54.8
+   },
+   "2024": {
+    "matriculados": 32,
+    "nota_ingresso_media": 16.0,
+    "percentil": 52.1
+   },
+   "2025": {
+    "matriculados": 15,
+    "nota_ingresso_media": 15.7,
+    "percentil": 46.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 31,
+   "inscritos": 97,
+   "mulheres": 66
+  }
+ },
  "instituicao": "Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar",
  "minimo_candidatura": 120,
  "minimo_provas": 120,
  "par": "1110-9708",
+ "pct_colocados_1opcao_2025": 47,
+ "percentil_nota_2026": 78,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n13 Inglês\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Biotecnologia Medicinal",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 158.5,
+   "par": "7230-L101",
+   "vagas": 32
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 155.5,
+   "par": "1503-9011",
+   "vagas": 174
+  },
+  {
+   "curso": "Bioquímica",
+   "grupo": "Universidade do Porto",
+   "nota": 154.5,
+   "par": "1103-9015",
+   "vagas": 92
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade do Porto",
+   "nota": 151.0,
+   "par": "1103-9011",
+   "vagas": 131
+  },
+  {
+   "curso": "Bioinformática",
+   "grupo": "Universidade do Porto",
+   "nota": 149.3,
+   "par": "1103-9687",
+   "vagas": 37
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 149.0,
+   "par": "1515-9011",
+   "vagas": 38
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 33,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 72.1,
+   "fora": 17.6,
+   "muda_curso": 5.9,
+   "muda_estabelecimento": 4.4,
+   "novos_inscritos": 68
+  },
+  "desemprego": {
+   "diplomados": 339,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.3
+  },
+  "diplomados": {
+   "n": 42,
+   "nota_final_media": 13.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 35,
+    "nota_ingresso_media": 15.5,
+    "percentil": 69.0
+   },
+   "2021": {
+    "matriculados": 30,
+    "nota_ingresso_media": 15.4,
+    "percentil": 57.6
+   },
+   "2022": {
+    "matriculados": 28,
+    "nota_ingresso_media": 15.2,
+    "percentil": 61.8
+   },
+   "2023": {
+    "matriculados": 29,
+    "nota_ingresso_media": 15.4,
+    "percentil": 56.2
+   },
+   "2024": {
+    "matriculados": 29,
+    "nota_ingresso_media": 15.3,
+    "percentil": 55.0
+   },
+   "2025": {
+    "matriculados": 27,
+    "nota_ingresso_media": 13.4,
+    "percentil": 29.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 31,
+   "inscritos": 100,
+   "mulheres": 69
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3113-8438",
+ "pct_colocados_1opcao_2025": 17,
+ "percentil_nota_2026": 65,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\n16 Matemática\nou\n06 Filosofia\n18 Português\nou\n11 História\n16 Matemática\nou\n11 História\n18 Português\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n11 História",
+ "semelhantes": [
+  {
+   "curso": "Marketing (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 146.5,
+   "par": "3134-8005",
+   "vagas": 30
+  },
+  {
+   "curso": "Marketing",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 145.5,
+   "par": "3153-9205",
+   "vagas": 56
+  },
+  {
+   "curso": "Marketing e Negócios Internacionais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 145.0,
+   "par": "3063-L023",
+   "vagas": 57
+  },
+  {
+   "curso": "Marketing",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 138.3,
+   "par": "3065-9205",
+   "vagas": 33
+  },
+  {
+   "curso": "Marketing e Comunicação Empresariais",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 137.0,
+   "par": "3164-L366",
+   "vagas": 35
+  },
+  {
+   "curso": "Marketing",
+   "grupo": "Universidade do Algarve",
+   "nota": 135.5,
+   "par": "3082-9205",
+   "vagas": 33
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 29,

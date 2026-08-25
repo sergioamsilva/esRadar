@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 70.3,
+   "fora": 4.1,
+   "muda_curso": 12.2,
+   "muda_estabelecimento": 13.5,
+   "novos_inscritos": 74
+  },
+  "desemprego": {
+   "diplomados": 86,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 37,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 38,
+    "nota_ingresso_media": 14.7,
+    "percentil": 43.3
+   },
+   "2021": {
+    "matriculados": 36,
+    "nota_ingresso_media": 15.0,
+    "percentil": 48.2
+   },
+   "2022": {
+    "matriculados": 38,
+    "nota_ingresso_media": 14.6,
+    "percentil": 49.8
+   },
+   "2023": {
+    "matriculados": 35,
+    "nota_ingresso_media": 14.8,
+    "percentil": 46.3
+   },
+   "2024": {
+    "matriculados": 38,
+    "nota_ingresso_media": 14.8,
+    "percentil": 47.1
+   },
+   "2025": {
+    "matriculados": 36,
+    "nota_ingresso_media": 14.1,
+    "percentil": 37.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 56,
+   "inscritos": 112,
+   "mulheres": 56
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Letras",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1506-9006",
+ "pct_colocados_1opcao_2025": 42,
+ "percentil_nota_2026": 51,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n11 História\nou\n12 Hist. da Cultura e Artes\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Arqueologia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 141.0,
+   "par": "0902-9006",
+   "vagas": 27
+  },
+  {
+   "curso": "História",
+   "grupo": "Universidade dos Açores",
+   "nota": 137.8,
+   "par": "0150-9181",
+   "vagas": 25
+  },
+  {
+   "curso": "História e Arqueologia",
+   "grupo": "Universidade de Évora",
+   "nota": 135.8,
+   "par": "0604-8251",
+   "vagas": 45
+  },
+  {
+   "curso": "Gestão do Património Cultural",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 131.0,
+   "par": "3131-L246",
+   "vagas": 44
+  },
+  {
+   "curso": "Património Cultural e Arqueologia",
+   "grupo": "Universidade do Algarve",
+   "nota": 112.5,
+   "par": "0201-8509",
+   "vagas": 32
+  },
+  {
+   "curso": "Património Cultural",
+   "grupo": "Universidade de Évora",
+   "nota": 107.0,
+   "par": "0604-9787",
+   "vagas": 22
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 38,

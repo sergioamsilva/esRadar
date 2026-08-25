@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 87.7,
+   "fora": 12.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 57
+  },
+  "diplomados": {
+   "n": 41,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.1,
+    "percentil": 37.8
+   },
+   "2021": {
+    "matriculados": 21,
+    "nota_ingresso_media": 14.8,
+    "percentil": 45.2
+   },
+   "2022": {
+    "matriculados": 21,
+    "nota_ingresso_media": 14.4,
+    "percentil": 33.8
+   },
+   "2023": {
+    "matriculados": 21,
+    "nota_ingresso_media": 14.1,
+    "percentil": 32.0
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 15.5,
+    "percentil": 48.2
+   },
+   "2025": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.7,
+    "percentil": 49.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 11,
+   "inscritos": 101,
+   "mulheres": 90
+  }
+ },
  "instituicao": "Universidade dos Açores - Faculdade de Ciências Sociais e Humanas",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0150-9853",
+ "pct_colocados_1opcao_2025": 85,
+ "percentil_nota_2026": 66,
  "provas_ingresso": "17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 147.8,
+   "par": "3112-9853",
+   "vagas": 117
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade de Aveiro",
+   "nota": 147.5,
+   "par": "0300-9853",
+   "vagas": 65
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 144.5,
+   "par": "3062-9853",
+   "vagas": 96
+  },
+  {
+   "curso": "Educação Básica (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 143.0,
+   "par": "3112-9876",
+   "vagas": 21
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 140.8,
+   "par": "1202-9853",
+   "vagas": 68
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 140.0,
+   "par": "3151-9853",
+   "vagas": 57
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 17,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n727 Técnico de Alimentação e Bebidas\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG38 Tecnologias da Saúde (Portaria n.º 262/2013)\nH37 Tecnologias e Segurança Alimentar\nH38 Tecnologias da Saúde\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nR20 Técnico de Cozinha/Pastelaria\nR76 Técnico de Indústrias Alimentares\nS54 Técnicas de Cozinha/Pastelaria (Portaria n.º 57/2009)\nS57 Cozinha/Pastelaria (Portaria n.º 846/2007)\nS67 Técnico de Cozinha/Pastelaria\nS85 Técnico de Cozinha Pastelaria (Portaria n.º 102/2020)\nT10 Técnico de Controlo de Qualidade Alimentar",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.6,
+   "fora": 8.5,
+   "muda_curso": 3.7,
+   "muda_estabelecimento": 1.2,
+   "novos_inscritos": 82
+  },
+  "desemprego": {
+   "diplomados": 127,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.5
+  },
+  "diplomados": {
+   "n": 60,
+   "nota_final_media": 16.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.4,
+    "percentil": 31.9
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 15.1,
+    "percentil": 36.8
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.4,
+    "percentil": 33.9
+   },
+   "2023": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.2,
+    "percentil": 29.4
+   },
+   "2024": {
+    "matriculados": 31,
+    "nota_ingresso_media": 13.8,
+    "percentil": 29.2
+   },
+   "2025": {
+    "matriculados": 8,
+    "nota_ingresso_media": 13.2,
+    "percentil": 19.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 34,
+   "inscritos": 158,
+   "mulheres": 124
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Saúde",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7045-8149",
+ "pct_colocados_1opcao_2025": 25,
+ "percentil_nota_2026": 37,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Dietética e Nutrição",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 133.0,
+   "par": "7210-8149",
+   "vagas": 41
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 129.0,
+   "par": "7045-9890",
+   "vagas": 26
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Universidade do Algarve",
+   "nota": 126.0,
+   "par": "7035-9890",
+   "vagas": 25
+  },
+  {
+   "curso": "Reabilitação Psicomotora",
+   "grupo": "Universidade de Évora",
+   "nota": 124.5,
+   "par": "0605-9841",
+   "vagas": 26
+  },
+  {
+   "curso": "Dietética e Nutrição",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 120.8,
+   "par": "7015-8149",
+   "vagas": 30
+  },
+  {
+   "curso": "Terapia Ocupacional",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 120.0,
+   "par": "7005-8138",
+   "vagas": 28
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 30,

@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 98.2,
+   "fora": 0.9,
+   "muda_curso": 0.5,
+   "muda_estabelecimento": 0.4,
+   "novos_inscritos": 560
+  },
+  "desemprego": {
+   "diplomados": 1067,
+   "periodo": "2020/21_2023/24",
+   "taxa": 10.0
+  },
+  "diplomados": {
+   "n": 523,
+   "nota_final_media": 15.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 246,
+    "nota_ingresso_media": 18.9,
+    "percentil": 80.9
+   },
+   "2021": {
+    "matriculados": 249,
+    "nota_ingresso_media": 19.0,
+    "percentil": 83.3
+   },
+   "2022": {
+    "matriculados": 246,
+    "nota_ingresso_media": 18.8,
+    "percentil": 83.9
+   },
+   "2023": {
+    "matriculados": 283,
+    "nota_ingresso_media": 18.8,
+    "percentil": 84.8
+   },
+   "2024": {
+    "matriculados": 286,
+    "nota_ingresso_media": 18.8,
+    "percentil": 85.6
+   },
+   "2025": {
+    "matriculados": 277,
+    "nota_ingresso_media": 18.8,
+    "percentil": 87.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 508,
+   "inscritos": 1700,
+   "mulheres": 1192
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Medicina",
  "minimo_candidatura": 140,
  "minimo_provas": 140,
  "par": "1108-9813",
+ "pct_colocados_1opcao_2025": 95,
+ "percentil_nota_2026": 100,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade do Porto",
+   "nota": 185.7,
+   "par": "1110-9813",
+   "vagas": 155
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade do Minho",
+   "nota": 184.2,
+   "par": "1000-9813",
+   "vagas": 122
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Aveiro",
+   "nota": 183.8,
+   "par": "0300-9813",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 245,

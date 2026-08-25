@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.7,
+   "fora": 4.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 1.5,
+   "novos_inscritos": 133
+  },
+  "diplomados": {
+   "n": 82,
+   "nota_final_media": 16.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 24,
+    "nota_ingresso_media": 15.7,
+    "percentil": 50.1
+   },
+   "2021": {
+    "matriculados": 28,
+    "nota_ingresso_media": 16.6,
+    "percentil": 51.6
+   },
+   "2022": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.9,
+    "percentil": 50.1
+   },
+   "2023": {
+    "matriculados": 24,
+    "nota_ingresso_media": 16.1,
+    "percentil": 53.8
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 15.4,
+    "percentil": 44.0
+   },
+   "2025": {
+    "matriculados": 24,
+    "nota_ingresso_media": 15.7,
+    "percentil": 48.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 34,
+   "inscritos": 195,
+   "mulheres": 161
+  }
+ },
  "instituicao": "Universidade da Madeira - Escola Superior de Saúde",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1320-9500",
+ "pct_colocados_1opcao_2025": 96,
+ "percentil_nota_2026": 75,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade do Minho",
+   "nota": 156.5,
+   "par": "7010-9500",
+   "vagas": 80
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Lisboa",
+   "nota": 155.3,
+   "par": "7260-9500",
+   "vagas": 278
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 151.8,
+   "par": "3155-9500",
+   "vagas": 46
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 150.5,
+   "par": "7080-9500",
+   "vagas": 95
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Coimbra",
+   "nota": 149.0,
+   "par": "7240-9500",
+   "vagas": 311
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade do Algarve",
+   "nota": 146.0,
+   "par": "7035-9500",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 25,

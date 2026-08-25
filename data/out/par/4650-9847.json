@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Instituto Universitário de Ciências da Saúde",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 93.8,
+   "fora": 1.6,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 3.1,
+   "novos_inscritos": 129
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 46,
+   "inscritos": 306,
+   "mulheres": 260
+  }
+ },
  "instituicao": "Instituto Universitário de Ciências da Saúde - CESPU",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

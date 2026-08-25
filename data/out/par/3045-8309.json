@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 74.5,
+   "fora": 18.1,
+   "muda_curso": 1.1,
+   "muda_estabelecimento": 6.4,
+   "novos_inscritos": 94
+  },
+  "desemprego": {
+   "diplomados": 101,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.4
+  },
+  "diplomados": {
+   "n": 50,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 43,
+    "nota_ingresso_media": 13.1,
+    "percentil": 25.8
+   },
+   "2021": {
+    "matriculados": 51,
+    "nota_ingresso_media": 13.3,
+    "percentil": 22.6
+   },
+   "2022": {
+    "matriculados": 33,
+    "nota_ingresso_media": 13.3,
+    "percentil": 23.5
+   },
+   "2023": {
+    "matriculados": 41,
+    "nota_ingresso_media": 13.4,
+    "percentil": 20.8
+   },
+   "2024": {
+    "matriculados": 43,
+    "nota_ingresso_media": 13.7,
+    "percentil": 21.8
+   },
+   "2025": {
+    "matriculados": 15,
+    "nota_ingresso_media": 13.6,
+    "percentil": 21.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 112,
+   "inscritos": 167,
+   "mulheres": 55
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3045-8309",
+ "pct_colocados_1opcao_2025": 67,
+ "percentil_nota_2026": 20,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n16 Matemática\n18 Português\nou\n03 Desenho\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva",
+ "semelhantes": [
+  {
+   "curso": "Som e Imagem",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 121.5,
+   "par": "3124-9457",
+   "vagas": 15
+  },
+  {
+   "curso": "Design e Tecnologia das Artes Gráficas",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 118.0,
+   "par": "3242-9644",
+   "vagas": 45
+  },
+  {
+   "curso": "Fotografia",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 117.5,
+   "par": "3242-9645",
+   "vagas": 28
+  },
+  {
+   "curso": "Comunicação Multimédia",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 116.0,
+   "par": "3091-8339",
+   "vagas": 40
+  },
+  {
+   "curso": "Audiovisual e Multimédia",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 113.5,
+   "par": "3022-9010",
+   "vagas": 35
+  },
+  {
+   "curso": "Design de Comunicação e Audiovisual",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 113.0,
+   "par": "3055-L158",
+   "vagas": 65
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 36,

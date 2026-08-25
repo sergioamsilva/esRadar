@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.7,
+   "fora": 2.9,
+   "muda_curso": 2.6,
+   "muda_estabelecimento": 11.8,
+   "novos_inscritos": 381
+  },
+  "desemprego": {
+   "diplomados": 491,
+   "periodo": "2020/21_2023/24",
+   "taxa": 40.0
+  },
+  "diplomados": {
+   "n": 257,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 280,
+   "inscritos": 773,
+   "mulheres": 493
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Direito",
  "minimo_candidatura": null,
  "minimo_provas": null,

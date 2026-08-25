@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 79.7,
+   "fora": 11.9,
+   "muda_curso": 0.8,
+   "muda_estabelecimento": 7.6,
+   "novos_inscritos": 118
+  },
+  "desemprego": {
+   "diplomados": 111,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.5
+  },
+  "diplomados": {
+   "n": 61,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 47,
+    "nota_ingresso_media": 13.0,
+    "percentil": 17.3
+   },
+   "2021": {
+    "matriculados": 48,
+    "nota_ingresso_media": 13.7,
+    "percentil": 18.0
+   },
+   "2022": {
+    "matriculados": 48,
+    "nota_ingresso_media": 13.7,
+    "percentil": 20.7
+   },
+   "2023": {
+    "matriculados": 39,
+    "nota_ingresso_media": 13.4,
+    "percentil": 14.3
+   },
+   "2024": {
+    "matriculados": 47,
+    "nota_ingresso_media": 13.8,
+    "percentil": 22.2
+   },
+   "2025": {
+    "matriculados": 34,
+    "nota_ingresso_media": 14.0,
+    "percentil": 29.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 116,
+   "inscritos": 192,
+   "mulheres": 76
+  }
+ },
  "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3182-9491",
+ "pct_colocados_1opcao_2025": 78,
+ "percentil_nota_2026": 3,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n16 Matemática\nou\n03 Desenho\n18 Português\nou\n12 Hist. da Cultura e Artes\n16 Matemática\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n16 Matemática\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Audiovisual e Multimédia",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 113.5,
+   "par": "3022-9010",
+   "vagas": 35
+  },
+  {
+   "curso": "Design de Comunicação e Audiovisual",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 113.0,
+   "par": "3055-L158",
+   "vagas": 65
+  },
+  {
+   "curso": "Multimédia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 107.8,
+   "par": "3045-9213",
+   "vagas": 45
+  },
+  {
+   "curso": "Produção Multimédia em Educação",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 106.0,
+   "par": "3142-L179",
+   "vagas": 27
+  },
+  {
+   "curso": "Design Gráfico e Multimédia (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 105.5,
+   "par": "3103-8126",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 33,

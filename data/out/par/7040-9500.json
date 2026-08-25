@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Castelo Branco, Coimbra, Guarda, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 3%\nCursos com acesso preferencial:\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP11 Técnico Auxiliar de Saúde\nP12 Técnico Auxiliar Protésico\nP16 Técnico de Análise Laboratorial\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP68 Técnico de Ótica Ocular\nP76 Técnico de Química Industrial\nP87 Técnico de Termalismo\nR33 Bombeiro\nR41 Técnico Assistente Dentário\nR42 Técnico Auxiliar de Farmácia\nR44 Técnico da Qualidade\nR50 Técnico de Apoio Familiar e de Apoio à Comunidade\nR72 Técnico de Geriatria\nU18 Técnico de Segurança e Higiene do Trabalho",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 94.0,
+   "fora": 1.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.5,
+   "novos_inscritos": 201
+  },
+  "desemprego": {
+   "diplomados": 343,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.1
+  },
+  "diplomados": {
+   "n": 204,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 115,
+    "nota_ingresso_media": 13.5,
+    "percentil": 24.0
+   },
+   "2021": {
+    "matriculados": 102,
+    "nota_ingresso_media": 14.5,
+    "percentil": 25.6
+   },
+   "2022": {
+    "matriculados": 85,
+    "nota_ingresso_media": 14.1,
+    "percentil": 27.1
+   },
+   "2023": {
+    "matriculados": 86,
+    "nota_ingresso_media": 13.7,
+    "percentil": 23.8
+   },
+   "2024": {
+    "matriculados": 76,
+    "nota_ingresso_media": 13.2,
+    "percentil": 16.6
+   },
+   "2025": {
+    "matriculados": 85,
+    "nota_ingresso_media": 13.2,
+    "percentil": 23.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 86,
+   "inscritos": 415,
+   "mulheres": 329
+  }
+ },
  "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7040-9500",
+ "pct_colocados_1opcao_2025": 32,
+ "percentil_nota_2026": 14,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 132.0,
+   "par": "7020-9500",
+   "vagas": 54
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 129.0,
+   "par": "7005-9500",
+   "vagas": 37
+  },
+  {
+   "curso": "Enfermagem (entrada no 2.º semestre)",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 114.8,
+   "par": "7015-9501",
+   "vagas": 45
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade dos Açores",
+   "nota": 113.0,
+   "par": "7092-9500",
+   "vagas": 40
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 105.5,
+   "par": "7055-9500",
+   "vagas": 75
+  },
+  {
+   "curso": "Gerontologia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "7015-9833",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 74,

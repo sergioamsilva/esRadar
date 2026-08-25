@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.6,
+   "fora": 2.1,
+   "muda_curso": 4.2,
+   "muda_estabelecimento": 3.1,
+   "novos_inscritos": 96
+  },
+  "desemprego": {
+   "diplomados": 161,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.8
+  },
+  "diplomados": {
+   "n": 63,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 60,
+    "nota_ingresso_media": 16.4,
+    "percentil": 52.9
+   },
+   "2021": {
+    "matriculados": 40,
+    "nota_ingresso_media": 16.2,
+    "percentil": 59.8
+   },
+   "2022": {
+    "matriculados": 38,
+    "nota_ingresso_media": 16.4,
+    "percentil": 53.5
+   },
+   "2023": {
+    "matriculados": 40,
+    "nota_ingresso_media": 15.8,
+    "percentil": 46.4
+   },
+   "2024": {
+    "matriculados": 40,
+    "nota_ingresso_media": 16.3,
+    "percentil": 52.2
+   },
+   "2025": {
+    "matriculados": 36,
+    "nota_ingresso_media": 15.9,
+    "percentil": 56.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 88,
+   "inscritos": 156,
+   "mulheres": 68
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6800-L030",
+ "pct_colocados_1opcao_2025": 28,
+ "percentil_nota_2026": 85,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Coimbra",
+   "nota": 164.3,
+   "par": "0503-9147",
+   "vagas": 100
+  },
+  {
+   "curso": "Criatividade e Inovação Empresarial",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 163.5,
+   "par": "3134-L070",
+   "vagas": 33
+  },
+  {
+   "curso": "Gestão de Empresas",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 159.5,
+   "par": "3031-9152",
+   "vagas": 40
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 158.8,
+   "par": "1202-9147",
+   "vagas": 71
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 158.5,
+   "par": "3117-9147",
+   "vagas": 125
+  },
+  {
+   "curso": "Gestão de Informação",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 158.3,
+   "par": "0906-9155",
+   "vagas": 64
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 40,

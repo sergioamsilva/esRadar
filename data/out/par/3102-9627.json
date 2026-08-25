@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n216 Contabilidade e Administração (Port. 32/2005)\n345 Profissionais de Formação Bancária (IFB)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n733 Técnico de Contabilidade e Gestão\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\nG05 Contabilidade e Gestão (VC) (Portaria n.º 260/2013)\nG09 Informática de Gestão (VC) (Portaria n.º 260/2013)\nG18 Contabilidade e Gestão (VT) (Portaria n.º 260/2013)\nG31 Contabilidade e Gestão Empresarial (Portaria n.º 262/2013)\nG47 Contabilidade e Empreendedorismo (Portaria n.º 265/2013)\nG56 Contabilidade e Gestão (Portaria n.º 266/2013)\nG65 Informática de Gestão (Portaria n.º 263/2013)\nG76 Colégio de S. Miguel - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP31 Técnico de Contabilidade\nP51 Técnico de Gestão\nP59 Técnico de Informática de Gestão\nR16 Técnico Administrativo\nR49 Técnico de Apoio à Gestão",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 70.6,
+   "fora": 15.9,
+   "muda_curso": 8.7,
+   "muda_estabelecimento": 4.8,
+   "novos_inscritos": 126
+  },
+  "desemprego": {
+   "diplomados": 130,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.8
+  },
+  "diplomados": {
+   "n": 64,
+   "nota_final_media": 13.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 46,
+    "nota_ingresso_media": 13.9,
+    "percentil": 31.3
+   },
+   "2021": {
+    "matriculados": 47,
+    "nota_ingresso_media": 14.1,
+    "percentil": 31.7
+   },
+   "2022": {
+    "matriculados": 45,
+    "nota_ingresso_media": 14.2,
+    "percentil": 27.5
+   },
+   "2023": {
+    "matriculados": 45,
+    "nota_ingresso_media": 13.9,
+    "percentil": 27.5
+   },
+   "2024": {
+    "matriculados": 46,
+    "nota_ingresso_media": 14.5,
+    "percentil": 37.8
+   },
+   "2025": {
+    "matriculados": 44,
+    "nota_ingresso_media": 13.4,
+    "percentil": 28.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 80,
+   "inscritos": 203,
+   "mulheres": 123
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3102-9627",
+ "pct_colocados_1opcao_2025": 68,
+ "percentil_nota_2026": 30,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Contabilidade (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 128.8,
+   "par": "3117-9869",
+   "vagas": 70
+  },
+  {
+   "curso": "Contabilidade e Fiscalidade",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 125.0,
+   "par": "3164-9498",
+   "vagas": 23
+  },
+  {
+   "curso": "Contabilidade",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 122.5,
+   "par": "3092-9056",
+   "vagas": 30
+  },
+  {
+   "curso": "Contabilidade (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 116.0,
+   "par": "3031-9869",
+   "vagas": 25
+  },
+  {
+   "curso": "Contabilidade (regime pós-laboral)",
+   "grupo": "Universidade de Aveiro",
+   "nota": 115.5,
+   "par": "3011-9869",
+   "vagas": 20
+  },
+  {
+   "curso": "Contabilidade",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 114.3,
+   "par": "3182-9056",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 37,

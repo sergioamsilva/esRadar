@@ -11,11 +11,74 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.3,
+   "fora": 8.7,
+   "muda_curso": 4.3,
+   "muda_estabelecimento": 8.7,
+   "novos_inscritos": 46
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 22,
+    "nota_ingresso_media": 15.6,
+    "percentil": 42.9
+   },
+   "2023": {
+    "matriculados": 21,
+    "nota_ingresso_media": 15.5,
+    "percentil": 42.6
+   },
+   "2024": {
+    "matriculados": 34,
+    "nota_ingresso_media": 15.7,
+    "percentil": 42.3
+   },
+   "2025": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.7,
+    "percentil": 59.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 28,
+   "inscritos": 71,
+   "mulheres": 43
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa (Sintra)",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6810-L274",
+ "pct_colocados_1opcao_2025": 47,
+ "percentil_nota_2026": 81,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n09 Geografia\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n19 Matemática A\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Ciências Sociais (regime pós-laboral)",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 127.5,
+   "par": "0902-L424",
+   "vagas": 20
+  },
+  {
+   "curso": "Mediação Artística e Cultural",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 120.5,
+   "par": "3112-L134",
+   "vagas": 25
+  },
+  {
+   "curso": "Gerontologia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 117.5,
+   "par": "3062-L380",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 22,

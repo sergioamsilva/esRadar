@@ -11,11 +11,43 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": null,
  "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
  "minimo_candidatura": 120,
  "minimo_provas": 100,
  "par": "1518-L343",
+ "percentil_nota_2026": 94,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Coimbra",
+   "nota": 172.0,
+   "par": "0501-L403",
+   "vagas": 40
+  },
+  {
+   "curso": "Cidades e Comunidades Sustentáveis Inteligentes",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 152.0,
+   "par": "0400-L406",
+   "vagas": 31
+  },
+  {
+   "curso": "Engenharia Física Aplicada",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 123.3,
+   "par": "3135-L213",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia Naval e Oceânica",
+   "grupo": "Universidade de Coimbra",
+   "nota": 123.0,
+   "par": "0521-L426",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 30,

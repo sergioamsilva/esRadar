@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Universitário de Ciências da Saúde",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.4,
+   "fora": 6.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 8.3,
+   "novos_inscritos": 48
+  },
+  "diplomados": {
+   "n": 34,
+   "nota_final_media": 13.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 12,
+   "inscritos": 69,
+   "mulheres": 57
+  }
+ },
  "instituicao": "Instituto Universitário de Ciências da Saúde - CESPU",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

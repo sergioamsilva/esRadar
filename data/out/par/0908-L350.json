@@ -11,11 +11,36 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
  "instituicao": "Universidade Nova de Lisboa - Escola Nacional de Saúde Pública",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0908-L350",
+ "percentil_nota_2026": 58,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n09 Geografia",
+ "semelhantes": [
+  {
+   "curso": "Saúde Ambiental",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 124.0,
+   "par": "7250-9861",
+   "vagas": 24
+  },
+  {
+   "curso": "Saúde Ambiental",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 121.5,
+   "par": "7230-9861",
+   "vagas": 32
+  },
+  {
+   "curso": "Saúde Ambiental",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 109.0,
+   "par": "7210-9861",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 42,

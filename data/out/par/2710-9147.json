@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Atlântica",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 87.3,
+   "fora": 7.9,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 3.2,
+   "novos_inscritos": 63
+  },
+  "desemprego": {
+   "diplomados": 89,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.1
+  },
+  "diplomados": {
+   "n": 72,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 94,
+   "mulheres": 43
+  }
+ },
  "instituicao": "Atlântica - Instituto Universitário",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

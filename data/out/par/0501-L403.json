@@ -11,11 +11,36 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": null,
  "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0501-L403",
+ "percentil_nota_2026": 95,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Geral (GENI) (ensino em inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 171.0,
+   "par": "1518-L343",
+   "vagas": 30
+  },
+  {
+   "curso": "Cidades e Comunidades Sustentáveis Inteligentes",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 152.0,
+   "par": "0400-L406",
+   "vagas": 31
+  },
+  {
+   "curso": "Engenharia Física Aplicada",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 123.3,
+   "par": "3135-L213",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 40,

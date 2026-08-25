@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.4,
+   "fora": 2.1,
+   "muda_curso": 2.8,
+   "muda_estabelecimento": 5.6,
+   "novos_inscritos": 142
+  },
+  "desemprego": {
+   "diplomados": 252,
+   "periodo": "2020/21_2023/24",
+   "taxa": 10.0
+  },
+  "diplomados": {
+   "n": 125,
+   "nota_final_media": 15.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 71,
+    "nota_ingresso_media": 17.5,
+    "percentil": 67.1
+   },
+   "2021": {
+    "matriculados": 65,
+    "nota_ingresso_media": 18.2,
+    "percentil": 77.2
+   },
+   "2022": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.9,
+    "percentil": 75.3
+   },
+   "2023": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.5,
+    "percentil": 70.1
+   },
+   "2024": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.5,
+    "percentil": 68.5
+   },
+   "2025": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.2,
+    "percentil": 68.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 69,
+   "inscritos": 216,
+   "mulheres": 147
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0903-9348",
+ "pct_colocados_1opcao_2025": 77,
+ "percentil_nota_2026": 90,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n04 Economia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Universidade dos Açores",
+   "nota": 164.5,
+   "par": "0140-L390",
+   "vagas": 15
+  },
+  {
+   "curso": "Engenharia Biológica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 159.3,
+   "par": "1518-9474",
+   "vagas": 61
+  },
+  {
+   "curso": "Biotecnologia Medicinal",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 158.5,
+   "par": "7230-L101",
+   "vagas": 32
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 65,

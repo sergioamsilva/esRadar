@@ -11,11 +11,69 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 89.5,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 10.5,
+   "novos_inscritos": 19
+  },
+  "percentil_entrada": {
+   "2023": {
+    "matriculados": 19,
+    "nota_ingresso_media": 16.5,
+    "percentil": 57.6
+   },
+   "2024": {
+    "matriculados": 20,
+    "nota_ingresso_media": 16.4,
+    "percentil": 58.6
+   },
+   "2025": {
+    "matriculados": 19,
+    "nota_ingresso_media": 15.9,
+    "percentil": 57.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 39,
+   "mulheres": 29
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Saúde e Desenvolvimento Humano",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0605-9494",
+ "pct_colocados_1opcao_2025": 80,
+ "percentil_nota_2026": 81,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia (50%)\nou\n02 Biologia e Geologia (25%)\n16 Matemática (25%)\nou\n02 Biologia e Geologia (25%)\n18 Português (25%)\nou\n02 Biologia e Geologia (25%)\n06 Filosofia (25%)\nou\n02 Biologia e Geologia (25%)\n07 Física e Química (25%)\nou\n02 Biologia e Geologia (15%)\n07 Física e Química (15%)\n16 Matemática (20%)",
+ "semelhantes": [
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade do Porto",
+   "nota": 154.5,
+   "par": "1106-9494",
+   "vagas": 192
+  },
+  {
+   "curso": "Ciências Farmacêuticas (Preparatórios)",
+   "grupo": "Universidade dos Açores",
+   "nota": 149.5,
+   "par": "0140-8031",
+   "vagas": 13
+  },
+  {
+   "curso": "Farmácia Biomédica",
+   "grupo": "Universidade de Coimbra",
+   "nota": 149.5,
+   "par": "0504-9832",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 243,

@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Coimbra, Guarda, Leiria",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 93.9,
+   "fora": 2.2,
+   "muda_curso": 0,
+   "muda_estabelecimento": 3.9,
+   "novos_inscritos": 692
+  },
+  "diplomados": {
+   "n": 646,
+   "nota_final_media": 15.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 319,
+    "nota_ingresso_media": 15.2,
+    "percentil": 44.8
+   },
+   "2021": {
+    "matriculados": 318,
+    "nota_ingresso_media": 15.7,
+    "percentil": 42.8
+   },
+   "2022": {
+    "matriculados": 311,
+    "nota_ingresso_media": 15.1,
+    "percentil": 37.0
+   },
+   "2023": {
+    "matriculados": 308,
+    "nota_ingresso_media": 15.0,
+    "percentil": 36.6
+   },
+   "2024": {
+    "matriculados": 293,
+    "nota_ingresso_media": 14.8,
+    "percentil": 34.2
+   },
+   "2025": {
+    "matriculados": 291,
+    "nota_ingresso_media": 14.1,
+    "percentil": 30.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 286,
+   "inscritos": 1476,
+   "mulheres": 1190
+  }
+ },
  "instituicao": "Universidade de Coimbra - Escola Superior de Enfermagem",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7240-9500",
+ "pct_colocados_1opcao_2025": 56,
+ "percentil_nota_2026": 72,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 151.8,
+   "par": "3155-9500",
+   "vagas": 46
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade da Madeira",
+   "nota": 151.0,
+   "par": "1320-9500",
+   "vagas": 26
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 150.5,
+   "par": "7080-9500",
+   "vagas": 95
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade do Algarve",
+   "nota": 146.0,
+   "par": "7035-9500",
+   "vagas": 40
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 146.0,
+   "par": "7075-9500",
+   "vagas": 70
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Aveiro",
+   "nota": 143.3,
+   "par": "3013-9500",
+   "vagas": 82
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 800,

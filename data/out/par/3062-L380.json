@@ -11,11 +11,36 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3062-L380",
+ "percentil_nota_2026": 22,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n07 Física e Química\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Política, Economia e Sociedade",
+   "grupo": "ISCTE",
+   "nota": 155.5,
+   "par": "6810-L274",
+   "vagas": 34
+  },
+  {
+   "curso": "Ciências Sociais (regime pós-laboral)",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 127.5,
+   "par": "0902-L424",
+   "vagas": 20
+  },
+  {
+   "curso": "Mediação Artística e Cultural",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 120.5,
+   "par": "3112-L134",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 15,

@@ -11,11 +11,114 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Viana do Castelo, Vila Real, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n677 Turismo Cultural e Ambiental (Port. 817/2009)\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n727 Técnico de Alimentação e Bebidas\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG12 Património e Turismo (VC) (Portaria n.º 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG54 Turismo Cultural e Recreativo (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nH64 Manutenção e Decoração Hoteleira\nP77 Técnico de Receção\nP81 Técnico de Restauração\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR17 Técnico em Animação de Turismo\nR39 Rececionista de Hotel\nR77 Técnico de Informação e Animação Turística\nS54 Técnicas de Cozinha/Pastelaria (Portaria n.º 57/2009)\nS55 Técnicas de Serviço de Restauração e Bebidas (Port 57/2009)\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS58 Restaurante/Bar (Portaria n.º 846/2007)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS67 Técnico de Cozinha/Pastelaria\nS78 Técnico de Restaurante/Bar\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nT01 Acompanhante de Turismo Equestre\nT28 Técnico de Informação e Animação Turística\nT40 Técnico de Organização de Eventos\nT52 Técnico de Turismo Ambiental e Rural\nU16 Técnico de Restaurante/Bar\nU17 Técnico de Receção Hoteleira\nU35 Técnico de Manutenção - Hotelaria",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 61.6,
+   "fora": 32.9,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.1,
+   "novos_inscritos": 73
+  },
+  "desemprego": {
+   "diplomados": 84,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.9
+  },
+  "diplomados": {
+   "n": 24,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 19,
+    "nota_ingresso_media": 13.1,
+    "percentil": 21.4
+   },
+   "2021": {
+    "matriculados": 14,
+    "nota_ingresso_media": 13.0,
+    "percentil": 17.7
+   },
+   "2022": {
+    "matriculados": 15,
+    "nota_ingresso_media": 13.6,
+    "percentil": 20.0
+   },
+   "2023": {
+    "matriculados": 15,
+    "nota_ingresso_media": 12.5,
+    "percentil": 16.0
+   },
+   "2024": {
+    "matriculados": 12,
+    "nota_ingresso_media": 13.2,
+    "percentil": 17.3
+   },
+   "2025": {
+    "matriculados": 2,
+    "nota_ingresso_media": 12.3,
+    "percentil": 9.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 37,
+   "inscritos": 87,
+   "mulheres": 50
+  }
+ },
  "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Turismo e Hotelaria",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3095-9173",
+ "percentil_nota_2026": 20,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n13 Inglês\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão da Restauração e Catering",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 121.5,
+   "par": "3139-L131",
+   "vagas": 30
+  },
+  {
+   "curso": "Gastronomia e Sustentabilidade Alimentar",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 120.0,
+   "par": "3034-L373",
+   "vagas": 20
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Universidade do Algarve",
+   "nota": 117.3,
+   "par": "3082-9173",
+   "vagas": 50
+  },
+  {
+   "curso": "Direção e Gestão Hoteleira",
+   "grupo": "Universidade da Madeira",
+   "nota": 114.5,
+   "par": "1321-9076",
+   "vagas": 36
+  },
+  {
+   "curso": "Gestão Turística e Hoteleira",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 112.0,
+   "par": "3105-9178",
+   "vagas": 45
+  },
+  {
+   "curso": "Direção e Gestão Hoteleira",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 110.5,
+   "par": "3046-9076",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 19,

@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 79.7,
+   "fora": 12.7,
+   "muda_curso": 0,
+   "muda_estabelecimento": 7.6,
+   "novos_inscritos": 79
+  },
+  "desemprego": {
+   "diplomados": 133,
+   "periodo": "2020/21_2023/24",
+   "taxa": 9.7
+  },
+  "diplomados": {
+   "n": 60,
+   "nota_final_media": 13.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 33,
+   "inscritos": 126,
+   "mulheres": 93
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Filosofia e Ciências Sociais",
  "minimo_candidatura": null,
  "minimo_provas": null,

@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
  "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente",
  "minimo_candidatura": 140,
  "minimo_provas": 140,
  "par": "1204-9813",
+ "percentil_nota_2026": 99,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade do Porto",
+   "nota": 185.7,
+   "par": "1110-9813",
+   "vagas": 155
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade do Minho",
+   "nota": 184.2,
+   "par": "1000-9813",
+   "vagas": 122
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Aveiro",
+   "nota": 183.8,
+   "par": "0300-9813",
+   "vagas": 40
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Coimbra",
+   "nota": 180.7,
+   "par": "0506-9813",
+   "vagas": 291
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 180.3,
+   "par": "0901-9813",
+   "vagas": 232
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Lisboa",
+   "nota": 179.2,
+   "par": "1507-9813",
+   "vagas": 297
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 40,

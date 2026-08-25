@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Saúde do Norte",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.2,
+   "fora": 0,
+   "muda_curso": 5.9,
+   "muda_estabelecimento": 5.9,
+   "novos_inscritos": 17
+  },
+  "diplomados": {
+   "n": 18,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 5,
+   "inscritos": 33,
+   "mulheres": 28
+  }
+ },
  "instituicao": "Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Saúde do Vale do Ave",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

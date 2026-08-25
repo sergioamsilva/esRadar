@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.3,
+   "fora": 4.9,
+   "muda_curso": 3.2,
+   "muda_estabelecimento": 3.7,
+   "novos_inscritos": 410
+  },
+  "desemprego": {
+   "diplomados": 570,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.6
+  },
+  "diplomados": {
+   "n": 401,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 174,
+    "nota_ingresso_media": 16.4,
+    "percentil": 53.9
+   },
+   "2021": {
+    "matriculados": 170,
+    "nota_ingresso_media": 17.3,
+    "percentil": 63.4
+   },
+   "2022": {
+    "matriculados": 158,
+    "nota_ingresso_media": 17.3,
+    "percentil": 62.6
+   },
+   "2023": {
+    "matriculados": 158,
+    "nota_ingresso_media": 17.1,
+    "percentil": 59.7
+   },
+   "2024": {
+    "matriculados": 211,
+    "nota_ingresso_media": 17.8,
+    "percentil": 72.3
+   },
+   "2025": {
+    "matriculados": 208,
+    "nota_ingresso_media": 17.2,
+    "percentil": 63.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 460,
+   "inscritos": 1387,
+   "mulheres": 927
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Arquitetura",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1501-9257",
+ "pct_colocados_1opcao_2025": 84,
+ "percentil_nota_2026": 94,
  "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n16 Matemática\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n16 Matemática\nou\n03 Desenho\n10 Geometria Descritiva",
+ "semelhantes": [
+  {
+   "curso": "Arquitetura",
+   "grupo": "Universidade do Porto",
+   "nota": 177.3,
+   "par": "1102-9257",
+   "vagas": 125
+  },
+  {
+   "curso": "Arquitetura",
+   "grupo": "Universidade de Coimbra",
+   "nota": 175.5,
+   "par": "0501-9257",
+   "vagas": 70
+  },
+  {
+   "curso": "Arquitetura",
+   "grupo": "ISCTE",
+   "nota": 174.5,
+   "par": "6800-9257",
+   "vagas": 51
+  },
+  {
+   "curso": "Arquitetura",
+   "grupo": "Universidade de Évora",
+   "nota": 164.0,
+   "par": "0603-9257",
+   "vagas": 38
+  },
+  {
+   "curso": "Arquitetura",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 163.0,
+   "par": "0400-9257",
+   "vagas": 64
+  },
+  {
+   "curso": "Arquitetura",
+   "grupo": "Universidade de Lisboa",
+   "nota": 160.5,
+   "par": "1518-9257",
+   "vagas": 47
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 143,

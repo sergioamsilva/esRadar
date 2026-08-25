@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Autónoma de Lisboa Luís de Camões",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.9,
+   "fora": 6.8,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.3,
+   "novos_inscritos": 176
+  },
+  "desemprego": {
+   "diplomados": 363,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.7
+  },
+  "diplomados": {
+   "n": 204,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 100,
+   "inscritos": 335,
+   "mulheres": 235
+  }
+ },
  "instituicao": "Universidade Autónoma de Lisboa Luís de Camões",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

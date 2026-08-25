@@ -11,11 +11,42 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": null,
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-A024",
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade de Aveiro",
+   "nota": 110.8,
+   "par": "0300-9113",
+   "vagas": 35
+  },
+  {
+   "curso": "Física e Aplicações",
+   "grupo": "Universidade da Beira Interior",
+   "nota": null,
+   "par": "0400-L205",
+   "vagas": 11
+  },
+  {
+   "curso": "Física e Química",
+   "grupo": "Universidade de Évora",
+   "nota": null,
+   "par": "0602-9760",
+   "vagas": 12
+  },
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": null,
+   "par": "1203-9113",
+   "vagas": 10
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 0,

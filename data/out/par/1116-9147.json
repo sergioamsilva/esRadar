@@ -11,11 +11,100 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 94.4,
+   "fora": 1.7,
+   "muda_curso": 2.2,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 461
+  },
+  "desemprego": {
+   "diplomados": 562,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.7
+  },
+  "diplomados": {
+   "n": 382,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 199,
+    "nota_ingresso_media": 18.8,
+    "percentil": 79.0
+   },
+   "2021": {
+    "matriculados": 227,
+    "nota_ingresso_media": 18.3,
+    "percentil": 77.7
+   },
+   "2022": {
+    "matriculados": 208,
+    "nota_ingresso_media": 18.5,
+    "percentil": 77.5
+   },
+   "2023": {
+    "matriculados": 208,
+    "nota_ingresso_media": 18.4,
+    "percentil": 78.9
+   },
+   "2024": {
+    "matriculados": 208,
+    "nota_ingresso_media": 18.7,
+    "percentil": 79.6
+   },
+   "2025": {
+    "matriculados": 208,
+    "nota_ingresso_media": 18.4,
+    "percentil": 82.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 361,
+   "inscritos": 805,
+   "mulheres": 444
+  }
+ },
  "instituicao": "Universidade do Porto - FEP Faculdade de Economia e Gestão",
  "minimo_candidatura": 110,
  "minimo_provas": 120,
  "par": "1116-9147",
+ "percentil_nota_2026": 98,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão + Negócios Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 182.3,
+   "par": "1000-A022",
+   "vagas": 10
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 178.0,
+   "par": "3134-9147",
+   "vagas": 55
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 176.8,
+   "par": "0904-9147",
+   "vagas": 295
+  },
+  {
+   "curso": "Gestão (ensino em Inglês)",
+   "grupo": "Universidade do Porto",
+   "nota": 176.0,
+   "par": "1116-A001",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 1164,

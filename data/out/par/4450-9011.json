@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISPA",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 84.1,
+   "fora": 4.8,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 9.5,
+   "novos_inscritos": 63
+  },
+  "desemprego": {
+   "diplomados": 38,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.6
+  },
+  "diplomados": {
+   "n": 32,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 37,
+   "inscritos": 87,
+   "mulheres": 50
+  }
+ },
  "instituicao": "ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -37,6 +37,25 @@ const MAX = 200;
 const pos = (v: number) => ((Math.max(MIN, Math.min(MAX, v)) - MIN) / (MAX - MIN)) * 100;
 const eixos = [100, 120, 140, 160, 180, 200];
 
+const info = ficha.infocursos;
+const percentilEntrada = info?.percentil_entrada
+  ? Object.entries(info.percentil_entrada)
+      .map(([ano, v]) => ({ ano: Number(ano), valor: v.percentil }))
+      .sort((a, b) => a.ano - b.ano)
+  : [];
+const sexo = info?.sexo;
+const pctMulheres =
+  sexo?.inscritos && sexo.mulheres != null ? Math.round((100 * sexo.mulheres) / sexo.inscritos) : null;
+const umAno = info?.apos_1_ano;
+const segmentosUmAno = umAno
+  ? [
+      { rotulo: "continuam no curso", valor: umAno.fica, classe: "fica" },
+      { rotulo: "mudam de curso na mesma instituição", valor: umAno.muda_curso, classe: "muda-curso" },
+      { rotulo: "mudam de instituição", valor: umAno.muda_estabelecimento, classe: "muda-inst" },
+      { rotulo: "não se encontram no ensino superior", valor: umAno.fora, classe: "fora" },
+    ].filter((s) => s.valor > 0)
+  : [];
+
 const titulo = `${ficha.curso} — ${ficha.instituicao}`;
 const descricao =
   nota2026 != null
@@ -275,7 +294,172 @@ const descricao =
         DGES, guia da candidatura 2026 — estatísticas de candidaturas anteriores.
       </p>
     </section>
+
+    {
+      (ficha.percentil_nota_2026 != null || ficha.pct_colocados_1opcao_2025 != null) && (
+        <section class="card reveal">
+          <h3>Posição no país</h3>
+          {ficha.percentil_nota_2026 != null && (
+            <div class="faixa">
+              <p class="faixa__texto">
+                Nota de corte acima de <b>{ficha.percentil_nota_2026}%</b> dos cursos do
+                concurso de 2026
+              </p>
+              <div class="faixa__pista">
+                <span
+                  class="faixa__fill faixa__fill--nota cresce"
+                  style={`width:${ficha.percentil_nota_2026}%`}
+                />
+              </div>
+            </div>
+          )}
+          {ficha.pct_colocados_1opcao_2025 != null && (
+            <div class="faixa">
+              <p class="faixa__texto">
+                <b>{ficha.pct_colocados_1opcao_2025}%</b> dos colocados de 2025 tinham-no em
+                1ª opção — entraram no curso que queriam
+              </p>
+              <div class="faixa__pista">
+                <span
+                  class="faixa__fill faixa__fill--opcao cresce"
+                  style={`width:${ficha.pct_colocados_1opcao_2025}%;--d:.15s`}
+                />
+              </div>
+            </div>
+          )}
+          <p class="fonte-lin">Calculado sobre os 1170 pares do concurso nacional.</p>
+        </section>
+      )
+    }
+
+    {
+      percentilEntrada.length >= 2 && (
+        <section class="card">
+          <h3>Que notas trazem os alunos que entram</h3>
+          <SerieAnual
+            titulo="Percentil médio nacional das notas de entrada (0 = mais baixas, 100 = mais altas)"
+            unidade="percentil"
+            inteiro
+            series={[{ rotulo: "Percentil de entrada", pontos: percentilEntrada, cor: "serie-1" }]}
+          />
+          <p class="fonte-lin">
+            Infocursos (MECI). Compara as notas de ingresso dos matriculados deste curso com
+            as de todo o país.
+          </p>
+        </section>
+      )
+    }
+
+    {
+      umAno && segmentosUmAno.length > 0 && (
+        <section class="card reveal">
+          <h3>Um ano depois de entrar</h3>
+          <p class="desc">
+            O que aconteceu a quem se inscreveu pela primeira vez ({umAno.novos_inscritos}{" "}
+            estudantes, coortes recentes):
+          </p>
+          <div
+            class="composicao"
+            role="img"
+            aria-label={segmentosUmAno.map((s) => `${s.valor}% ${s.rotulo}`).join("; ")}
+          >
+            {segmentosUmAno.map((s, i) => (
+              <span
+                class={`composicao__seg composicao__seg--${s.classe} cresce`}
+                style={`width:${s.valor}%;--d:${i * 0.12}s`}
+              />
+            ))}
+          </div>
+          <ul class="composicao__legenda">
+            {segmentosUmAno.map((s) => (
+              <li>
+                <span class={`composicao__ponto composicao__seg--${s.classe}`} aria-hidden="true" />
+                <b>{s.valor.toLocaleString("pt-PT")}%</b> {s.rotulo}
+              </li>
+            ))}
+          </ul>
+          <p class="fonte-lin">Infocursos (MECI), situação após 1 ano dos novos inscritos.</p>
+        </section>
+      )
+    }
+
+    {
+      (info?.desemprego || info?.diplomados || sexo) && (
+        <section class="card reveal" style="--d:.1s">
+          <h3>Quem o frequenta e o que vem depois</h3>
+          <ul class="medias">
+            {sexo && pctMulheres != null && (
+              <li>
+                <b data-contar={pctMulheres}>{pctMulheres}</b>
+                <span>
+                  % de mulheres entre os {sexo.inscritos} inscritos ({sexo.ano_letivo})
+                </span>
+                <div class="composicao composicao--fina" aria-hidden="true">
+                  <span class="composicao__seg composicao__seg--mulheres cresce" style={`width:${pctMulheres}%`} />
+                  <span class="composicao__seg composicao__seg--homens cresce" style={`width:${100 - pctMulheres}%;--d:.1s`} />
+                </div>
+              </li>
+            )}
+            {info?.desemprego && (
+              <li>
+                <b data-contar={info.desemprego.taxa} data-casas="1">
+                  {info.desemprego.taxa.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}
+                </b>
+                <span>
+                  % de recém-diplomados registados como desempregados no IEFP
+                  {info.desemprego.diplomados ? ` (${info.desemprego.diplomados} diplomados)` : ""}
+                </span>
+              </li>
+            )}
+            {info?.diplomados && (
+              <li>
+                <b data-contar={info.diplomados.nota_final_media} data-casas="1">
+                  {info.diplomados.nota_final_media.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}
+                </b>
+                <span>nota final média dos diplomados (escala 0–20)</span>
+              </li>
+            )}
+          </ul>
+          <p class="fonte-lin">Infocursos (MECI), edição 2026.</p>
+        </section>
+      )
+    }
   </div>
+
+  {
+    ficha.semelhantes && ficha.semelhantes.length > 0 && (
+      <section class="card full semelhantes reveal">
+        <h3>Na mesma área: {ficha.cnaef_nome}</h3>
+        <p class="desc">
+          Vizinhos de nota na mesma área de estudos — para comparar alternativas realistas.
+        </p>
+        <ol class="viz">
+          {ficha.semelhantes.map((s) => (
+            <li>
+              <a href={ligacao(`/curso/${s.par}/`)} class="viz__linha">
+                <span class="viz__nome">
+                  {s.curso}
+                  <span>{s.grupo}</span>
+                </span>
+                <span class="viz__pista" aria-hidden="true">
+                  {s.nota != null && (
+                    <span class="viz__ponto" style={`left:${pos(s.nota)}%`} />
+                  )}
+                </span>
+                <span class="viz__nota">{formatarNota(s.nota)}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+        {nota2026 != null && (
+          <p class="fonte-lin">
+            Este curso: <b>{formatarNota(nota2026)}</b>. Pontos na mesma escala 90–200 da
+            régua do topo.
+          </p>
+        )}
+      </section>
+    )
+  }
 
   <p class="fonte-lin voltar">
     <a href={ligacao("/cursos/")}>← Todos os cursos</a> ·
@@ -580,5 +764,154 @@ const descricao =
   }
   .voltar {
     padding: 18px 0 30px;
+  }
+
+  /* ── posição no país ─────────────────────────────────────────────── */
+  .faixa {
+    margin: 14px 0;
+  }
+  .faixa__texto {
+    font-size: var(--t-sm);
+    margin: 0 0 6px;
+  }
+  .faixa__texto b {
+    font-variant-numeric: tabular-nums;
+  }
+  .faixa__pista {
+    height: 8px;
+    border-radius: 4px;
+    background: var(--grid);
+    overflow: hidden;
+  }
+  .faixa__fill {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .faixa__fill--nota {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--serie-1) 45%, transparent), var(--serie-1));
+  }
+  .faixa__fill--opcao {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--serie-2) 45%, transparent), var(--serie-2));
+  }
+
+  /* ── barras de composição (1 ano depois; sexo) ───────────────────── */
+  .composicao {
+    display: flex;
+    gap: 2px;
+    height: 14px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 6px 0 10px;
+  }
+  .composicao--fina {
+    height: 8px;
+    max-width: 260px;
+  }
+  .composicao__seg {
+    display: block;
+    height: 100%;
+  }
+  .composicao__seg--fica {
+    background: var(--serie-1);
+  }
+  .composicao__seg--muda-curso {
+    background: var(--cat3);
+  }
+  .composicao__seg--muda-inst {
+    background: var(--cat2);
+  }
+  .composicao__seg--fora {
+    background: var(--baseline);
+  }
+  .composicao__seg--mulheres {
+    background: var(--serie-2);
+  }
+  .composicao__seg--homens {
+    background: var(--serie-1);
+  }
+  .composicao__legenda {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 4px;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .composicao__legenda b {
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+  .composicao__ponto {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 3px;
+    margin-right: 6px;
+  }
+
+  /* ── vizinhos na mesma área ──────────────────────────────────────── */
+  .semelhantes {
+    margin-top: 20px;
+  }
+  .viz {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .viz__linha {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) minmax(120px, 1.6fr) 3.5rem;
+    gap: 14px;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+  }
+  .viz__linha:hover .viz__nome {
+    color: var(--accent-texto);
+  }
+  .viz__nome {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    min-width: 0;
+  }
+  .viz__nome span {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .viz__pista {
+    position: relative;
+    height: 2px;
+    background: var(--grid);
+    border-radius: 1px;
+  }
+  .viz__ponto {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--serie-1);
+    border: 1.5px solid var(--surface);
+  }
+  .viz__nota {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+    font-size: var(--t-sm);
+  }
+  @media (max-width: 560px) {
+    .viz__linha {
+      grid-template-columns: 1fr 3.2rem;
+    }
+    .viz__pista {
+      display: none;
+    }
   }
 </style>

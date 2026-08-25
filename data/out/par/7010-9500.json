@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.8,
+   "fora": 2.8,
+   "muda_curso": 5.1,
+   "muda_estabelecimento": 6.3,
+   "novos_inscritos": 176
+  },
+  "desemprego": {
+   "diplomados": 377,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.1
+  },
+  "diplomados": {
+   "n": 194,
+   "nota_final_media": 15.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 82,
+    "nota_ingresso_media": 17.1,
+    "percentil": 67.1
+   },
+   "2021": {
+    "matriculados": 82,
+    "nota_ingresso_media": 17.6,
+    "percentil": 69.8
+   },
+   "2022": {
+    "matriculados": 80,
+    "nota_ingresso_media": 17.2,
+    "percentil": 68.7
+   },
+   "2023": {
+    "matriculados": 80,
+    "nota_ingresso_media": 16.7,
+    "percentil": 62.0
+   },
+   "2024": {
+    "matriculados": 80,
+    "nota_ingresso_media": 16.4,
+    "percentil": 58.3
+   },
+   "2025": {
+    "matriculados": 80,
+    "nota_ingresso_media": 16.6,
+    "percentil": 65.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 358,
+   "mulheres": 307
+  }
+ },
  "instituicao": "Universidade do Minho - Escola Superior de Enfermagem",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "7010-9500",
+ "pct_colocados_1opcao_2025": 76,
+ "percentil_nota_2026": 82,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade do Porto",
+   "nota": 160.8,
+   "par": "7270-9500",
+   "vagas": 257
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Lisboa",
+   "nota": 155.3,
+   "par": "7260-9500",
+   "vagas": 278
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 151.8,
+   "par": "3155-9500",
+   "vagas": 46
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade da Madeira",
+   "nota": 151.0,
+   "par": "1320-9500",
+   "vagas": 26
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 85,

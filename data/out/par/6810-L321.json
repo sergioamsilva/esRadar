@@ -11,11 +11,50 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 87.5,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 12.5,
+   "novos_inscritos": 24
+  },
+  "percentil_entrada": {
+   "2024": {
+    "matriculados": 34,
+    "nota_ingresso_media": 14.4,
+    "percentil": 24.3
+   },
+   "2025": {
+    "matriculados": 33,
+    "nota_ingresso_media": 13.8,
+    "percentil": 32.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 36,
+   "inscritos": 73,
+   "mulheres": 37
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa (Sintra)",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6810-L321",
+ "pct_colocados_1opcao_2025": 38,
+ "percentil_nota_2026": 31,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Matemática Aplicada e Ciência de Dados",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 106.0,
+   "par": "1203-L193",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 111,

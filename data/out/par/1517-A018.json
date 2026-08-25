@@ -11,11 +11,52 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesCiclo de estudos ministrado em Inglês",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 18.8,
+    "percentil": 90.8
+   }
+  }
+ },
  "instituicao": "Universidade de Lisboa - Instituto Superior de Economia e Gestão",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1517-A018",
+ "pct_colocados_1opcao_2025": 93,
+ "percentil_nota_2026": 99,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A (50%)\nou\n04 Economia (20%)\n19 Matemática A (30%)\nou\n07 Física e Química (20%)\n19 Matemática A (30%)\nou\n09 Geografia (20%)\n19 Matemática A (30%)\nou\n13 Inglês (20%)\n19 Matemática A (30%)\nou\n19 Matemática A (30%)\n18 Português (20%)\nou\n02 Biologia e Geologia (20%)\n19 Matemática A (30%)",
+ "semelhantes": [
+  {
+   "curso": "Matemática Aplicada à Economia e à Gestão",
+   "grupo": "Universidade de Lisboa",
+   "nota": 181.6,
+   "par": "1517-9210",
+   "vagas": 30
+  },
+  {
+   "curso": "Matemática Aplicada à Gestão do Risco",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 172.0,
+   "par": "0903-L167",
+   "vagas": 25
+  },
+  {
+   "curso": "Matemática Aplicada à Economia e às Finanças",
+   "grupo": "ISCTE",
+   "nota": 171.8,
+   "par": "6800-L391",
+   "vagas": 26
+  },
+  {
+   "curso": "Matemática Aplicada e Computação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 170.8,
+   "par": "1518-9345",
+   "vagas": 68
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 221,

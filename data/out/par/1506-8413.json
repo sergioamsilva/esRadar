@@ -11,11 +11,87 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.6,
+   "fora": 10.7,
+   "muda_curso": 6.1,
+   "muda_estabelecimento": 7.6,
+   "novos_inscritos": 131
+  },
+  "desemprego": {
+   "diplomados": 173,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.8
+  },
+  "diplomados": {
+   "n": 91,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 72,
+    "nota_ingresso_media": 15.1,
+    "percentil": 49.6
+   },
+   "2021": {
+    "matriculados": 70,
+    "nota_ingresso_media": 15.6,
+    "percentil": 56.1
+   },
+   "2022": {
+    "matriculados": 63,
+    "nota_ingresso_media": 15.4,
+    "percentil": 56.3
+   },
+   "2023": {
+    "matriculados": 64,
+    "nota_ingresso_media": 15.1,
+    "percentil": 51.4
+   },
+   "2024": {
+    "matriculados": 63,
+    "nota_ingresso_media": 15.2,
+    "percentil": 50.1
+   },
+   "2025": {
+    "matriculados": 61,
+    "nota_ingresso_media": 13.6,
+    "percentil": 29.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 41,
+   "inscritos": 219,
+   "mulheres": 178
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Letras",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1506-8413",
+ "pct_colocados_1opcao_2025": 40,
+ "percentil_nota_2026": 44,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n11 História\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Estudos Culturais",
+   "grupo": "Universidade do Minho",
+   "nota": 132.5,
+   "par": "1000-9134",
+   "vagas": 24
+  },
+  {
+   "curso": "Programação e Produção Cultural",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 112.3,
+   "par": "3103-L127",
+   "vagas": 21
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 61,

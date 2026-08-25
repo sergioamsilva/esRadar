@@ -11,11 +11,103 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.9,
+   "fora": 4.7,
+   "muda_curso": 1.7,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 172
+  },
+  "desemprego": {
+   "diplomados": 419,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.8
+  },
+  "diplomados": {
+   "n": 158,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2021": {
+    "matriculados": 71,
+    "nota_ingresso_media": 17.1,
+    "percentil": 67.3
+   },
+   "2022": {
+    "matriculados": 67,
+    "nota_ingresso_media": 17.4,
+    "percentil": 74.7
+   },
+   "2023": {
+    "matriculados": 67,
+    "nota_ingresso_media": 17.5,
+    "percentil": 77.2
+   },
+   "2024": {
+    "matriculados": 67,
+    "nota_ingresso_media": 17.3,
+    "percentil": 69.5
+   },
+   "2025": {
+    "matriculados": 67,
+    "nota_ingresso_media": 17.4,
+    "percentil": 77.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 48,
+   "inscritos": 292,
+   "mulheres": 244
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9219",
+ "pct_colocados_1opcao_2025": 72,
+ "percentil_nota_2026": 93,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade do Porto",
+   "nota": 171.5,
+   "par": "1109-9219",
+   "vagas": 123
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 170.5,
+   "par": "0507-9219",
+   "vagas": 140
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "ISCTE",
+   "nota": 166.5,
+   "par": "6800-9219",
+   "vagas": 110
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 165.5,
+   "par": "0400-9219",
+   "vagas": 55
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 165.3,
+   "par": "1511-9219",
+   "vagas": 137
+  }
+ ],
  "series": {
   "2021f1": {
    "colocados": 72,

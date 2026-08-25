@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Educação de Fafe",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 95.3,
+   "fora": 2.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.3,
+   "novos_inscritos": 43
+  },
+  "desemprego": {
+   "diplomados": 79,
+   "periodo": "2020/21_2023/24",
+   "taxa": 12.0
+  },
+  "diplomados": {
+   "n": 41,
+   "nota_final_media": 16.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 71,
+   "mulheres": 61
+  }
+ },
  "instituicao": "Escola Superior de Educação de Fafe",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

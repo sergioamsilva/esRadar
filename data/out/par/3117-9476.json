@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.5,
+   "fora": 4.9,
+   "muda_curso": 0.8,
+   "muda_estabelecimento": 13.8,
+   "novos_inscritos": 123
+  },
+  "desemprego": {
+   "diplomados": 342,
+   "periodo": "2020/21_2023/24",
+   "taxa": 70.0
+  },
+  "diplomados": {
+   "n": 83,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 55,
+    "nota_ingresso_media": 15.6,
+    "percentil": 61.2
+   },
+   "2021": {
+    "matriculados": 58,
+    "nota_ingresso_media": 16.1,
+    "percentil": 60.5
+   },
+   "2022": {
+    "matriculados": 54,
+    "nota_ingresso_media": 16.4,
+    "percentil": 61.8
+   },
+   "2023": {
+    "matriculados": 52,
+    "nota_ingresso_media": 16.3,
+    "percentil": 60.9
+   },
+   "2024": {
+    "matriculados": 52,
+    "nota_ingresso_media": 16.3,
+    "percentil": 63.4
+   },
+   "2025": {
+    "matriculados": 54,
+    "nota_ingresso_media": 15.8,
+    "percentil": 60.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 129,
+   "inscritos": 206,
+   "mulheres": 77
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3117-9476",
+ "pct_colocados_1opcao_2025": 44,
+ "percentil_nota_2026": 79,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Finanças (ensino em inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 167.5,
+   "par": "1517-A013",
+   "vagas": 32
+  },
+  {
+   "curso": "Finanças",
+   "grupo": "Universidade de Aveiro",
+   "nota": 161.8,
+   "par": "3011-9140",
+   "vagas": 20
+  },
+  {
+   "curso": "Finanças e Contabilidade",
+   "grupo": "ISCTE",
+   "nota": 159.3,
+   "par": "6800-8029",
+   "vagas": 72
+  },
+  {
+   "curso": "Finanças",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 148.5,
+   "par": "3031-9140",
+   "vagas": 32
+  },
+  {
+   "curso": "Finanças e Contabilidade",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 144.3,
+   "par": "3063-8029",
+   "vagas": 30
+  },
+  {
+   "curso": "Finanças Empresariais (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 141.0,
+   "par": "3117-9889",
+   "vagas": 28
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 60,

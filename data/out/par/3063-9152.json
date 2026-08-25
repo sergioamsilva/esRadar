@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.7,
+   "fora": 6.1,
+   "muda_curso": 2.4,
+   "muda_estabelecimento": 2.8,
+   "novos_inscritos": 247
+  },
+  "desemprego": {
+   "diplomados": 432,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.7
+  },
+  "diplomados": {
+   "n": 207,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 144,
+    "nota_ingresso_media": 15.7,
+    "percentil": 57.0
+   },
+   "2021": {
+    "matriculados": 100,
+    "nota_ingresso_media": 16.1,
+    "percentil": 59.9
+   },
+   "2022": {
+    "matriculados": 101,
+    "nota_ingresso_media": 15.9,
+    "percentil": 57.7
+   },
+   "2023": {
+    "matriculados": 102,
+    "nota_ingresso_media": 16.0,
+    "percentil": 53.2
+   },
+   "2024": {
+    "matriculados": 101,
+    "nota_ingresso_media": 16.3,
+    "percentil": 58.3
+   },
+   "2025": {
+    "matriculados": 101,
+    "nota_ingresso_media": 14.6,
+    "percentil": 39.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 253,
+   "inscritos": 487,
+   "mulheres": 234
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3063-9152",
+ "pct_colocados_1opcao_2025": 52,
+ "percentil_nota_2026": 76,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n04 Economia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Recursos Humanos",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 154.5,
+   "par": "3134-9227",
+   "vagas": 60
+  },
+  {
+   "curso": "Ciências Empresariais",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 154.5,
+   "par": "3138-9045",
+   "vagas": 40
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 154.5,
+   "par": "3163-9147",
+   "vagas": 48
+  },
+  {
+   "curso": "Estudos do Mar",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 151.3,
+   "par": "0904-L313",
+   "vagas": 34
+  },
+  {
+   "curso": "Gestão do Desporto",
+   "grupo": "Universidade de Lisboa",
+   "nota": 151.0,
+   "par": "1510-9162",
+   "vagas": 32
+  },
+  {
+   "curso": "Sistemas e Tecnologias de Informação",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 150.0,
+   "par": "0906-8259",
+   "vagas": 45
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 103,

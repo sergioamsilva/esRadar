@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 83.1,
+   "fora": 4.6,
+   "muda_curso": 10.8,
+   "muda_estabelecimento": 1.5,
+   "novos_inscritos": 65
+  },
+  "desemprego": {
+   "diplomados": 254,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.9
+  },
+  "diplomados": {
+   "n": 48,
+   "nota_final_media": 15.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 25,
+    "nota_ingresso_media": 13.6,
+    "percentil": 30.3
+   },
+   "2021": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.1,
+    "percentil": 39.1
+   },
+   "2022": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.1,
+    "percentil": 33.9
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.5,
+    "percentil": 35.8
+   },
+   "2024": {
+    "matriculados": 23,
+    "nota_ingresso_media": 14.3,
+    "percentil": 42.0
+   },
+   "2025": {
+    "matriculados": 12,
+    "nota_ingresso_media": 13.0,
+    "percentil": 24.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 13,
+   "inscritos": 91,
+   "mulheres": 78
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-8427",
+ "pct_colocados_1opcao_2025": 71,
+ "percentil_nota_2026": 34,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n11 História\n18 Português\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação e Formação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 133.0,
+   "par": "1513-L040",
+   "vagas": 72
+  },
+  {
+   "curso": "Ciências da Educação",
+   "grupo": "Universidade da Madeira",
+   "nota": 129.5,
+   "par": "1308-9026",
+   "vagas": 31
+  },
+  {
+   "curso": "Ciências da Educação",
+   "grupo": "Universidade de Évora",
+   "nota": 128.0,
+   "par": "0604-9026",
+   "vagas": 30
+  },
+  {
+   "curso": "Tecnologias Digitais Educativas",
+   "grupo": "ISCTE",
+   "nota": 123.0,
+   "par": "6810-L281",
+   "vagas": 35
+  },
+  {
+   "curso": "Ciências da Educação e da Formação",
+   "grupo": "Universidade do Algarve",
+   "nota": 114.5,
+   "par": "0201-9821",
+   "vagas": 34
+  },
+  {
+   "curso": "Educação Ambiental e Turismo de Natureza",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 99.0,
+   "par": "3142-L130",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 25,

@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior D. Dinis",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 60.0,
+   "fora": 40.0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 5
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 2,
+   "inscritos": 4,
+   "mulheres": 2
+  }
+ },
  "instituicao": "Instituto Superior D. Dinis",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

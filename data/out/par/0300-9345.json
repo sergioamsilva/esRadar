@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
+ "infocursos": null,
  "instituicao": "Universidade de Aveiro",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0300-9345",
+ "percentil_nota_2026": 53,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade do Minho",
+   "nota": 150.8,
+   "par": "1000-9209",
+   "vagas": 35
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade de Aveiro",
+   "nota": 143.5,
+   "par": "0300-9209",
+   "vagas": 32
+  },
+  {
+   "curso": "Matemática e Aplicações",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 136.9,
+   "par": "0400-9835",
+   "vagas": 16
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade de Coimbra",
+   "nota": 133.5,
+   "par": "0501-9209",
+   "vagas": 45
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade de Lisboa",
+   "nota": 131.5,
+   "par": "1503-9209",
+   "vagas": 50
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade da Madeira",
+   "nota": 130.5,
+   "par": "1307-9209",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 22,

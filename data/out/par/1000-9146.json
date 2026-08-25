@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 60.5,
+   "fora": 9.3,
+   "muda_curso": 16.3,
+   "muda_estabelecimento": 14.0,
+   "novos_inscritos": 43
+  },
+  "diplomados": {
+   "n": 13,
+   "nota_final_media": 13.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 25,
+    "nota_ingresso_media": 13.0,
+    "percentil": 20.4
+   },
+   "2021": {
+    "matriculados": 20,
+    "nota_ingresso_media": 13.6,
+    "percentil": 14.9
+   },
+   "2022": {
+    "matriculados": 21,
+    "nota_ingresso_media": 13.4,
+    "percentil": 21.5
+   },
+   "2023": {
+    "matriculados": 22,
+    "nota_ingresso_media": 13.8,
+    "percentil": 23.9
+   },
+   "2024": {
+    "matriculados": 21,
+    "nota_ingresso_media": 13.4,
+    "percentil": 21.1
+   },
+   "2025": {
+    "matriculados": 2,
+    "nota_ingresso_media": 14.2,
+    "percentil": 34.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 29,
+   "inscritos": 48,
+   "mulheres": 19
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1000-9146",
+ "pct_colocados_1opcao_2025": 50,
+ "percentil_nota_2026": 18,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n09 Geografia\nou\n09 Geografia\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Geologia",
+   "grupo": "Universidade do Porto",
+   "nota": 119.8,
+   "par": "1103-9146",
+   "vagas": 33
+  },
+  {
+   "curso": "Geologia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 119.0,
+   "par": "0501-9146",
+   "vagas": 20
+  },
+  {
+   "curso": "Meteorologia, Oceanografia e Geofísica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 117.0,
+   "par": "1503-9212",
+   "vagas": 23
+  },
+  {
+   "curso": "Ciências do Mar",
+   "grupo": "Universidade de Aveiro",
+   "nota": 114.5,
+   "par": "0300-9041",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Geoespacial",
+   "grupo": "Universidade de Lisboa",
+   "nota": 111.5,
+   "par": "1503-L096",
+   "vagas": 20
+  },
+  {
+   "curso": "Ciências do Oceano (ensino em inglês)",
+   "grupo": "Universidade dos Açores",
+   "nota": 108.0,
+   "par": "0160-A017",
+   "vagas": 14
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 20,

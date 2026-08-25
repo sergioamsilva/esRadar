@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.4,
+   "fora": 2.8,
+   "muda_curso": 2.0,
+   "muda_estabelecimento": 2.8,
+   "novos_inscritos": 250
+  },
+  "desemprego": {
+   "diplomados": 394,
+   "periodo": "2020/21_2023/24",
+   "taxa": 60.0
+  },
+  "diplomados": {
+   "n": 197,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 102,
+    "nota_ingresso_media": 17.6,
+    "percentil": 76.7
+   },
+   "2021": {
+    "matriculados": 108,
+    "nota_ingresso_media": 17.7,
+    "percentil": 75.7
+   },
+   "2022": {
+    "matriculados": 100,
+    "nota_ingresso_media": 17.7,
+    "percentil": 76.7
+   },
+   "2023": {
+    "matriculados": 97,
+    "nota_ingresso_media": 17.8,
+    "percentil": 77.3
+   },
+   "2024": {
+    "matriculados": 97,
+    "nota_ingresso_media": 17.9,
+    "percentil": 77.1
+   },
+   "2025": {
+    "matriculados": 99,
+    "nota_ingresso_media": 17.9,
+    "percentil": 83.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 149,
+   "inscritos": 567,
+   "mulheres": 418
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Direito",
  "minimo_candidatura": 120,
  "minimo_provas": 100,
  "par": "0911-9078",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 96,
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\n18 Português\nou\n11 História\n18 Português\nou\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Direito",
+   "grupo": "Universidade do Minho",
+   "nota": 173.5,
+   "par": "1000-9078",
+   "vagas": 110
+  },
+  {
+   "curso": "Direito",
+   "grupo": "Universidade do Porto",
+   "nota": 173.5,
+   "par": "1114-9078",
+   "vagas": 155
+  },
+  {
+   "curso": "Direito",
+   "grupo": "ISCTE",
+   "nota": 172.8,
+   "par": "6800-L402",
+   "vagas": 26
+  },
+  {
+   "curso": "Direito (regime pós-laboral)",
+   "grupo": "Universidade do Minho",
+   "nota": 169.5,
+   "par": "1000-8358",
+   "vagas": 15
+  },
+  {
+   "curso": "Criminologia e Justiça Criminal",
+   "grupo": "Universidade do Minho",
+   "nota": 167.5,
+   "par": "1000-L078",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 93,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Beira Interior",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 93.5,
+   "fora": 2.2,
+   "muda_curso": 2.2,
+   "muda_estabelecimento": 2.2,
+   "novos_inscritos": 46
+  },
+  "desemprego": {
+   "diplomados": 50,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 40,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 23,
+    "nota_ingresso_media": 14.6,
+    "percentil": 25.3
+   },
+   "2021": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.2,
+    "percentil": 16.9
+   },
+   "2022": {
+    "matriculados": 21,
+    "nota_ingresso_media": 14.6,
+    "percentil": 19.4
+   },
+   "2023": {
+    "matriculados": 16,
+    "nota_ingresso_media": 14.3,
+    "percentil": 23.4
+   },
+   "2024": {
+    "matriculados": 20,
+    "nota_ingresso_media": 14.2,
+    "percentil": 19.3
+   },
+   "2025": {
+    "matriculados": 10,
+    "nota_ingresso_media": 13.7,
+    "percentil": 23.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 77,
+   "mulheres": 26
+  }
+ },
  "instituicao": "Universidade da Beira Interior",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0400-9104",
+ "pct_colocados_1opcao_2025": 60,
+ "percentil_nota_2026": 42,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n19 Matemática A\nou\n07 Física e Química\n10 Geometria Descritiva\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\n18 Português\nou\n04 Economia\n07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia de Sistemas",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 138.5,
+   "par": "3135-8316",
+   "vagas": 42
+  },
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 135.3,
+   "par": "3032-9104",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 132.3,
+   "par": "3102-9104",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 126.5,
+   "par": "1203-9104",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 123.8,
+   "par": "3064-9104",
+   "vagas": 30
+  },
+  {
+   "curso": "Biomecânica",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 115.5,
+   "par": "3102-9690",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 18,

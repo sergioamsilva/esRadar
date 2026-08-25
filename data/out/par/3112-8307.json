@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.6,
+   "fora": 7.6,
+   "muda_curso": 0,
+   "muda_estabelecimento": 5.7,
+   "novos_inscritos": 157
+  },
+  "desemprego": {
+   "diplomados": 255,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.7
+  },
+  "diplomados": {
+   "n": 157,
+   "nota_final_media": 15.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 94,
+    "nota_ingresso_media": 15.4,
+    "percentil": 47.8
+   },
+   "2021": {
+    "matriculados": 88,
+    "nota_ingresso_media": 16.2,
+    "percentil": 60.0
+   },
+   "2022": {
+    "matriculados": 77,
+    "nota_ingresso_media": 16.0,
+    "percentil": 56.0
+   },
+   "2023": {
+    "matriculados": 78,
+    "nota_ingresso_media": 15.8,
+    "percentil": 54.6
+   },
+   "2024": {
+    "matriculados": 86,
+    "nota_ingresso_media": 15.9,
+    "percentil": 51.6
+   },
+   "2025": {
+    "matriculados": 86,
+    "nota_ingresso_media": 15.3,
+    "percentil": 44.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 49,
+   "inscritos": 245,
+   "mulheres": 196
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Educação",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3112-8307",
+ "pct_colocados_1opcao_2025": 27,
+ "percentil_nota_2026": 72,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Audiovisual e Multimédia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 152.5,
+   "par": "3113-9010",
+   "vagas": 89
+  },
+  {
+   "curso": "Design e Multimédia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 150.0,
+   "par": "0501-9891",
+   "vagas": 77
+  },
+  {
+   "curso": "Multimédia e Tecnologias da Comunicação",
+   "grupo": "Universidade de Aveiro",
+   "nota": 149.5,
+   "par": "0300-L254",
+   "vagas": 78
+  },
+  {
+   "curso": "Arte Multimédia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 147.8,
+   "par": "1502-9904",
+   "vagas": 73
+  },
+  {
+   "curso": "Som e Imagem",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 146.0,
+   "par": "3103-9457",
+   "vagas": 65
+  },
+  {
+   "curso": "Design de Comunicação",
+   "grupo": "Universidade do Algarve",
+   "nota": 144.0,
+   "par": "3081-9070",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 72,

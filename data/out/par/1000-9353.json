@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 77.0,
+   "fora": 10.6,
+   "muda_curso": 8.0,
+   "muda_estabelecimento": 4.4,
+   "novos_inscritos": 113
+  },
+  "desemprego": {
+   "diplomados": 254,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.9
+  },
+  "diplomados": {
+   "n": 90,
+   "nota_final_media": 15.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 56,
+    "nota_ingresso_media": 14.8,
+    "percentil": 43.1
+   },
+   "2021": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.7,
+    "percentil": 55.3
+   },
+   "2022": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.4,
+    "percentil": 57.2
+   },
+   "2023": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.6,
+    "percentil": 56.9
+   },
+   "2024": {
+    "matriculados": 49,
+    "nota_ingresso_media": 15.6,
+    "percentil": 55.2
+   },
+   "2025": {
+    "matriculados": 50,
+    "nota_ingresso_media": 14.0,
+    "percentil": 34.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 22,
+   "inscritos": 156,
+   "mulheres": 134
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9353",
+ "pct_colocados_1opcao_2025": 27,
+ "percentil_nota_2026": 65,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n11 História\n18 Português\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Ciências da Educação",
+   "grupo": "Universidade do Porto",
+   "nota": 153.5,
+   "par": "1109-9026",
+   "vagas": 47
+  },
+  {
+   "curso": "Ciências da Educação",
+   "grupo": "Universidade de Coimbra",
+   "nota": 143.0,
+   "par": "0507-9026",
+   "vagas": 75
+  },
+  {
+   "curso": "Educação e Formação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 133.0,
+   "par": "1513-L040",
+   "vagas": 72
+  },
+  {
+   "curso": "Ciências da Educação",
+   "grupo": "Universidade da Madeira",
+   "nota": 129.5,
+   "par": "1308-9026",
+   "vagas": 31
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 48,

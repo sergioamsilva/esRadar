@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n718 Refrigeração e Climatização\n737 Técnico de Eletricidade de Manutenção\n738 Técnico de Eletricidade e Eletrónica Auto\n739 Técnico de Eletricidade Naval\n754 Técnico de Instrumentação\n775 Técnico Intermédio de Manutenção Eletromecânica\n776 Técnico Intermédio de Manutenção Mecânica\n782 Técnico de Manutenção Industrial (Eletromecânica)\n814 Agrupamento 1 / Mecânica\n976 Recorrente - Eletrotecnia e Eletrónica (DL 74/2004)\nG73 Colégio de Gaia - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP30 Técnico de Construção Naval / Embarcações de Recreio\nP35 Técnico de Desenho de Construções Mecânicas\nP40 Técnico de Eletricidade Naval\nP43 Técnico de Eletrónica, Automação e Comando\nP44 Técnico de Eletrónica, Automação e Computadores\nP45 Técnico de Eletrónica, Automação e Instrumentação\nP46 Técnico de Eletrotecnia\nP47 Técnico de Energias Renováveis\nP49 Técnico de Frio e Climatização\nP50 Técnico de Gás\nP60 Técnico de Instalações Elétricas\nP63 Técnico de Manutenção Industrial\nP65 Técnico de Mecânica Naval\nP66 Técnico de Mecatrónica\nP74 Técnico de Produção em Metalomecânica\nS08 Marinheiro\nS20 Técnico de Construção Naval\nT09 Técnico de Construção Naval / Embarcações de Recreio\nT19 Técnico de Eletrónica, Automação e Instrumentação\nT20 Técnico de Eletrotecnia\nT37 Técnico de Mecatrónica",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior Náutica Infante D. Henrique",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 84.8,
+   "fora": 8.7,
+   "muda_curso": 4.3,
+   "muda_estabelecimento": 2.2,
+   "novos_inscritos": 46
+  },
+  "desemprego": {
+   "diplomados": 111,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.7
+  },
+  "diplomados": {
+   "n": 45,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 19,
+    "nota_ingresso_media": 12.9,
+    "percentil": 13.9
+   },
+   "2021": {
+    "matriculados": 24,
+    "nota_ingresso_media": 13.6,
+    "percentil": 16.1
+   },
+   "2022": {
+    "matriculados": 13,
+    "nota_ingresso_media": 13.4,
+    "percentil": 16.1
+   },
+   "2023": {
+    "matriculados": 17,
+    "nota_ingresso_media": 14.4,
+    "percentil": 26.8
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 13.9,
+    "percentil": 18.4
+   },
+   "2025": {
+    "matriculados": 26,
+    "nota_ingresso_media": 13.5,
+    "percentil": 24.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 147,
+   "inscritos": 151,
+   "mulheres": 4
+  }
+ },
  "instituicao": "Escola Superior Náutica Infante D. Henrique",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7105-9745",
+ "pct_colocados_1opcao_2025": 79,
+ "percentil_nota_2026": 17,
  "provas_ingresso": "07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Mecânica Automóvel",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 153.8,
+   "par": "3135-9936",
+   "vagas": 45
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Évora",
+   "nota": 144.0,
+   "par": "0602-L221",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Aeronáutica",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 143.3,
+   "par": "0400-9740",
+   "vagas": 61
+  },
+  {
+   "curso": "Engenharia Automóvel",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 110.8,
+   "par": "3102-9741",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 13,

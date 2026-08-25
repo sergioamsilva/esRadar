@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade Autónoma de Lisboa Luís de Camões",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.4,
+   "fora": 5.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 19.3,
+   "novos_inscritos": 57
+  },
+  "desemprego": {
+   "diplomados": 45,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 15,
+   "nota_final_media": 15.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 69,
+   "inscritos": 167,
+   "mulheres": 98
+  }
+ },
  "instituicao": "Universidade Autónoma de Lisboa Luís de Camões",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

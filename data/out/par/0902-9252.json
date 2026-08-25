@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.2,
+   "fora": 7.7,
+   "muda_curso": 0.7,
+   "muda_estabelecimento": 6.3,
+   "novos_inscritos": 142
+  },
+  "desemprego": {
+   "diplomados": 191,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.6
+  },
+  "diplomados": {
+   "n": 122,
+   "nota_final_media": 15.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 75,
+    "nota_ingresso_media": 17.1,
+    "percentil": 68.9
+   },
+   "2021": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.3,
+    "percentil": 69.3
+   },
+   "2022": {
+    "matriculados": 67,
+    "nota_ingresso_media": 17.3,
+    "percentil": 70.4
+   },
+   "2023": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.0,
+    "percentil": 66.2
+   },
+   "2024": {
+    "matriculados": 62,
+    "nota_ingresso_media": 16.7,
+    "percentil": 66.2
+   },
+   "2025": {
+    "matriculados": 60,
+    "nota_ingresso_media": 15.0,
+    "percentil": 44.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 71,
+   "inscritos": 219,
+   "mulheres": 148
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0902-9252",
+ "pct_colocados_1opcao_2025": 65,
+ "percentil_nota_2026": 38,
  "provas_ingresso": "18 Português\ne\nUma das seguintes provas:\n01 Alemão\n05 Espanhol\n08 Francês\n13 Inglês",
+ "semelhantes": [
+  {
+   "curso": "Estudos Portugueses e Ingleses",
+   "grupo": "Universidade dos Açores",
+   "nota": 132.8,
+   "par": "0150-L041",
+   "vagas": 25
+  },
+  {
+   "curso": "Línguas e Comunicação Intercultural",
+   "grupo": "Universidade do Algarve",
+   "nota": 130.5,
+   "par": "0201-L252",
+   "vagas": 34
+  },
+  {
+   "curso": "Assessoria e Tradução (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 128.0,
+   "par": "3134-9829",
+   "vagas": 28
+  },
+  {
+   "curso": "Relações Lusófonas e Língua Portuguesa",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 127.0,
+   "par": "3042-L088",
+   "vagas": 25
+  },
+  {
+   "curso": "Estudos Orientais: Estudos Chineses e Japoneses",
+   "grupo": "Universidade do Minho",
+   "nota": 126.0,
+   "par": "1000-L147",
+   "vagas": 34
+  },
+  {
+   "curso": "Estudos Clássicos",
+   "grupo": "Universidade de Coimbra",
+   "nota": 124.5,
+   "par": "0505-9133",
+   "vagas": 21
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 63,

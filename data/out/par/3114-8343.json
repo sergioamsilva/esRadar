@@ -11,6 +11,27 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.7,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 7.3,
+   "novos_inscritos": 41
+  },
+  "diplomados": {
+   "n": 34,
+   "nota_final_media": 16.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 48,
+   "inscritos": 71,
+   "mulheres": 23
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Música",
  "minimo_candidatura": null,
  "minimo_provas": null,

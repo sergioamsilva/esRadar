@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 74.1,
+   "fora": 13.8,
+   "muda_curso": 3.4,
+   "muda_estabelecimento": 8.6,
+   "novos_inscritos": 116
+  },
+  "desemprego": {
+   "diplomados": 115,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.7
+  },
+  "diplomados": {
+   "n": 70,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 55,
+    "nota_ingresso_media": 16.6,
+    "percentil": 67.6
+   },
+   "2021": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.9,
+    "percentil": 67.5
+   },
+   "2022": {
+    "matriculados": 58,
+    "nota_ingresso_media": 16.3,
+    "percentil": 58.8
+   },
+   "2023": {
+    "matriculados": 58,
+    "nota_ingresso_media": 16.1,
+    "percentil": 58.8
+   },
+   "2024": {
+    "matriculados": 54,
+    "nota_ingresso_media": 15.7,
+    "percentil": 40.7
+   },
+   "2025": {
+    "matriculados": 56,
+    "nota_ingresso_media": 15.6,
+    "percentil": 49.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 38,
+   "inscritos": 157,
+   "mulheres": 119
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Belas-Artes",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1502-9754",
+ "pct_colocados_1opcao_2025": 29,
+ "percentil_nota_2026": 58,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Ciências da Arte e do Património",
+   "grupo": "Universidade de Lisboa",
+   "nota": 146.5,
+   "par": "1502-L010",
+   "vagas": 25
+  },
+  {
+   "curso": "Artes Plásticas e Multimédia",
+   "grupo": "Universidade de Évora",
+   "nota": 145.0,
+   "par": "0603-9347",
+   "vagas": 38
+  },
+  {
+   "curso": "Artes Visuais",
+   "grupo": "Universidade da Madeira",
+   "nota": 142.0,
+   "par": "1306-9817",
+   "vagas": 18
+  },
+  {
+   "curso": "Artes Plásticas e Multimédia",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 134.5,
+   "par": "3181-9347",
+   "vagas": 45
+  },
+  {
+   "curso": "Artes Visuais",
+   "grupo": "Universidade do Algarve",
+   "nota": 131.3,
+   "par": "0201-9817",
+   "vagas": 28
+  },
+  {
+   "curso": "Arte e Design",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 122.5,
+   "par": "3042-9898",
+   "vagas": 55
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 57,

@@ -11,11 +11,87 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 35%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n073 Produção Artística (DL 74/2004)\n988 Recorrente - Produção Artística (DL 74/2004)\nC73 Produção Artística\nP01 Animador Sociocultural\nP67 Técnico de Museografia e Gestão do Património\nP69 Técnico de Organização de Eventos\nS71 Técnico de Museografia e Gestão do Património\nT02 Animador Sociocultural\nT40 Técnico de Organização de Eventos",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.0,
+   "fora": 13.9,
+   "muda_curso": 5.6,
+   "muda_estabelecimento": 5.6,
+   "novos_inscritos": 36
+  },
+  "desemprego": {
+   "diplomados": 45,
+   "periodo": "2020/21_2023/24",
+   "taxa": 6.6
+  },
+  "diplomados": {
+   "n": 25,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 20,
+    "nota_ingresso_media": 13.1,
+    "percentil": 21.0
+   },
+   "2021": {
+    "matriculados": 23,
+    "nota_ingresso_media": 14.5,
+    "percentil": 37.7
+   },
+   "2022": {
+    "matriculados": 21,
+    "nota_ingresso_media": 13.9,
+    "percentil": 32.3
+   },
+   "2023": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.4,
+    "percentil": 33.7
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.2,
+    "percentil": 27.1
+   },
+   "2025": {
+    "matriculados": 11,
+    "nota_ingresso_media": 13.4,
+    "percentil": 24.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 15,
+   "inscritos": 60,
+   "mulheres": 45
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Artes e Design",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3103-L127",
+ "pct_colocados_1opcao_2025": 67,
+ "percentil_nota_2026": 12,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n03 Desenho\n18 Português\nou\n12 Hist. da Cultura e Artes\n15 Literatura Portuguesa\nou\n15 Literatura Portuguesa\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n09 Geografia\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Estudos Culturais",
+   "grupo": "Universidade do Minho",
+   "nota": 132.5,
+   "par": "1000-9134",
+   "vagas": 24
+  },
+  {
+   "curso": "Artes e Humanidades",
+   "grupo": "Universidade de Lisboa",
+   "nota": 130.5,
+   "par": "1506-8413",
+   "vagas": 62
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 8,

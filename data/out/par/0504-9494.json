@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.0,
+   "fora": 1.2,
+   "muda_curso": 3.5,
+   "muda_estabelecimento": 4.3,
+   "novos_inscritos": 423
+  },
+  "desemprego": {
+   "diplomados": 683,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.6
+  },
+  "diplomados": {
+   "n": 389,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 201,
+    "nota_ingresso_media": 16.6,
+    "percentil": 51.2
+   },
+   "2021": {
+    "matriculados": 209,
+    "nota_ingresso_media": 17.2,
+    "percentil": 54.1
+   },
+   "2022": {
+    "matriculados": 206,
+    "nota_ingresso_media": 16.6,
+    "percentil": 51.4
+   },
+   "2023": {
+    "matriculados": 210,
+    "nota_ingresso_media": 16.1,
+    "percentil": 45.1
+   },
+   "2024": {
+    "matriculados": 211,
+    "nota_ingresso_media": 16.2,
+    "percentil": 47.9
+   },
+   "2025": {
+    "matriculados": 213,
+    "nota_ingresso_media": 15.7,
+    "percentil": 45.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 216,
+   "inscritos": 1167,
+   "mulheres": 951
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Farmácia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0504-9494",
+ "pct_colocados_1opcao_2025": 70,
+ "percentil_nota_2026": 68,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Ciências Farmacêuticas (Preparatórios)",
+   "grupo": "Universidade dos Açores",
+   "nota": 149.5,
+   "par": "0140-8031",
+   "vagas": 13
+  },
+  {
+   "curso": "Farmácia Biomédica",
+   "grupo": "Universidade de Coimbra",
+   "nota": 149.5,
+   "par": "0504-9832",
+   "vagas": 30
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade de Lisboa",
+   "nota": 149.5,
+   "par": "1505-9494",
+   "vagas": 215
+  },
+  {
+   "curso": "Farmácia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 144.5,
+   "par": "7230-9549",
+   "vagas": 52
+  },
+  {
+   "curso": "Farmácia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 142.8,
+   "par": "7250-9549",
+   "vagas": 52
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 142.5,
+   "par": "0400-9494",
+   "vagas": 63
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 187,

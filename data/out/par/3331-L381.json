@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Coimbra, Porto, Viana do Castelo, Vila RealOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n082 Informática (DL 74/2004)\n578 Informática (Port. 26/2005)\n582 Informática de Gestão (T) -Port. 38/2005\n669 Informática (Port. 49/2005)\n673 Informática de Gestão (Port. 817/2009)\n679 Informática (Port. 817/2009)\n977 Recorrente - Informática (DL 74/2004)\nA56 Informática e Tecnologias Multimédia (Port. 960/2009)\nG08 Informática (VC) (Portaria n.º 260/2013)\nG09 Informática de Gestão (VC) (Portaria n.º 260/2013)\nG21 Informática (VT) (Portaria n.º 260/2013)\nG22 Informática de Gestão (VT) (Portaria n.º 260/2013)\nG35 Informática e Tecnologias Multimédia (Portaria n.º 262/2013)\nG50 Informática Aplicada à Web (Portaria n.º 265/2013)\nH21 Informática (VT)\nH22 Informática de Gestão (VT)\nP59 Técnico de Informática de Gestão",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico do Porto - Escola Superior de Media Artes e Design",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3331-L381",
+ "percentil_nota_2026": 33,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n13 Inglês\n16 Matemática\nou\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Tecnologias de Informação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 130.0,
+   "par": "1503-L079",
+   "vagas": 65
+  },
+  {
+   "curso": "Informática e Tecnologias Multimédia",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 128.3,
+   "par": "3243-L143",
+   "vagas": 25
+  },
+  {
+   "curso": "Ciências da Computação",
+   "grupo": "Universidade do Minho",
+   "nota": 128.0,
+   "par": "1000-9397",
+   "vagas": 72
+  },
+  {
+   "curso": "Engenharia de Software Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 122.5,
+   "par": "3014-L417",
+   "vagas": 20
+  },
+  {
+   "curso": "Informática de Gestão",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 119.5,
+   "par": "3063-9186",
+   "vagas": 41
+  },
+  {
+   "curso": "Segurança Informática em Redes de Computadores",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 119.5,
+   "par": "3138-8398",
+   "vagas": 22
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 17,

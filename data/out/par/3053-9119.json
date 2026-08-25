@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Guarda, Portalegre, Santarém, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n813 Agrupamento 1 / Informática\nP44 Técnico de Eletrónica, Automação e Computadores\nP53 Técnico de Gestão de Equipamentos Informáticos\nP56 Técnico de Gestão e Programação de Sistemas Informáticos",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.0,
+   "fora": 6.3,
+   "muda_curso": 0.5,
+   "muda_estabelecimento": 5.3,
+   "novos_inscritos": 208
+  },
+  "desemprego": {
+   "diplomados": 153,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.2
+  },
+  "diplomados": {
+   "n": 83,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 58,
+    "nota_ingresso_media": 13.4,
+    "percentil": 20.0
+   },
+   "2021": {
+    "matriculados": 34,
+    "nota_ingresso_media": 13.6,
+    "percentil": 19.4
+   },
+   "2022": {
+    "matriculados": 74,
+    "nota_ingresso_media": 13.0,
+    "percentil": 16.7
+   },
+   "2023": {
+    "matriculados": 56,
+    "nota_ingresso_media": 13.4,
+    "percentil": 20.6
+   },
+   "2024": {
+    "matriculados": 56,
+    "nota_ingresso_media": 13.8,
+    "percentil": 27.6
+   },
+   "2025": {
+    "matriculados": 28,
+    "nota_ingresso_media": 13.5,
+    "percentil": 25.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 312,
+   "inscritos": 345,
+   "mulheres": 33
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3053-9119",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 10,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n03 Desenho\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Eletrónica e Mecânica Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 113.0,
+   "par": "3012-L194",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia de Telecomunicações e Informática",
+   "grupo": "Universidade do Minho",
+   "nota": 111.8,
+   "par": "1000-9098",
+   "vagas": 36
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade de Évora",
+   "nota": 111.5,
+   "par": "0602-9119",
+   "vagas": 58
+  },
+  {
+   "curso": "Tecnologias Digitais e Automação",
+   "grupo": "ISCTE",
+   "nota": 111.5,
+   "par": "6810-L273",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade do Algarve",
+   "nota": 110.5,
+   "par": "0203-9119",
+   "vagas": 84
+  },
+  {
+   "curso": "Engenharia Informática (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 109.5,
+   "par": "6800-9885",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 21,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\nA19 Línguas e Relações Empresariais (VC) (Port. 941/2009)\nA20 Línguas e Relações Empresariais (VCT) (Port. 941/2009)\nG10 Línguas e Relações Empresariais (VC) (Portaria n.º 260/2013)\nG23 Línguas e Relações Empresariais (VT) (Portaria n.º 260/2013)",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 62.2,
+   "fora": 26.7,
+   "muda_curso": 3.3,
+   "muda_estabelecimento": 7.8,
+   "novos_inscritos": 90
+  },
+  "desemprego": {
+   "diplomados": 52,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.7
+  },
+  "diplomados": {
+   "n": 31,
+   "nota_final_media": 13.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 31,
+    "nota_ingresso_media": 13.3,
+    "percentil": 17.5
+   },
+   "2021": {
+    "matriculados": 43,
+    "nota_ingresso_media": 13.3,
+    "percentil": 18.7
+   },
+   "2022": {
+    "matriculados": 36,
+    "nota_ingresso_media": 13.8,
+    "percentil": 19.4
+   },
+   "2023": {
+    "matriculados": 34,
+    "nota_ingresso_media": 14.2,
+    "percentil": 22.8
+   },
+   "2024": {
+    "matriculados": 36,
+    "nota_ingresso_media": 14.0,
+    "percentil": 27.6
+   },
+   "2025": {
+    "matriculados": 15,
+    "nota_ingresso_media": 14.2,
+    "percentil": 28.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 43,
+   "inscritos": 145,
+   "mulheres": 102
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3042-8323",
+ "pct_colocados_1opcao_2025": 47,
+ "percentil_nota_2026": 26,
  "provas_ingresso": "Um dos seguintes conjuntos:\n05 Espanhol\nou\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n05 Espanhol\n13 Inglês",
+ "semelhantes": [
+  {
+   "curso": "Estudos Clássicos",
+   "grupo": "Universidade de Coimbra",
+   "nota": 124.5,
+   "par": "0505-9133",
+   "vagas": 21
+  },
+  {
+   "curso": "Tradução e Interpretação: Português/Chinês - Chinês/Português",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 124.0,
+   "par": "3101-9492",
+   "vagas": 24
+  },
+  {
+   "curso": "Estudos Clássicos",
+   "grupo": "Universidade de Lisboa",
+   "nota": 121.5,
+   "par": "1506-9133",
+   "vagas": 19
+  },
+  {
+   "curso": "Línguas para Relações Internacionais",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 111.0,
+   "par": "3042-8374",
+   "vagas": 60
+  },
+  {
+   "curso": "Estudos Portugueses e Espanhóis",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 108.5,
+   "par": "0400-9918",
+   "vagas": 30
+  },
+  {
+   "curso": "Estudos Comparatistas",
+   "grupo": "Universidade de Lisboa",
+   "nota": 108.5,
+   "par": "1506-L097",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 17,

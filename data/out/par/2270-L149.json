@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 76.4,
+   "fora": 3.4,
+   "muda_curso": 12.9,
+   "muda_estabelecimento": 7.3,
+   "novos_inscritos": 233
+  },
+  "desemprego": {
+   "diplomados": 242,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.2
+  },
+  "diplomados": {
+   "n": 161,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 181,
+   "inscritos": 346,
+   "mulheres": 165
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Ciências Económicas e Empresariais",
  "minimo_candidatura": null,
  "minimo_provas": null,

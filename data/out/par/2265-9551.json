@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.1,
+   "fora": 5.4,
+   "muda_curso": 0,
+   "muda_estabelecimento": 13.5,
+   "novos_inscritos": 37
+  },
+  "desemprego": {
+   "diplomados": 55,
+   "periodo": "2020/21_2023/24",
+   "taxa": 90.0
+  },
+  "diplomados": {
+   "n": 36,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 61,
+   "mulheres": 51
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Escola das Artes",
  "minimo_candidatura": null,
  "minimo_provas": null,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Lisboa, Santarém, Setúbal",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.0,
+   "fora": 10.5,
+   "muda_curso": 1.2,
+   "muda_estabelecimento": 2.3,
+   "novos_inscritos": 86
+  },
+  "desemprego": {
+   "diplomados": 132,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.8
+  },
+  "diplomados": {
+   "n": 72,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 37,
+    "nota_ingresso_media": 14.4,
+    "percentil": 40.2
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.8,
+    "percentil": 42.8
+   },
+   "2022": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.8,
+    "percentil": 44.9
+   },
+   "2023": {
+    "matriculados": 32,
+    "nota_ingresso_media": 14.8,
+    "percentil": 37.9
+   },
+   "2024": {
+    "matriculados": 31,
+    "nota_ingresso_media": 14.6,
+    "percentil": 30.9
+   },
+   "2025": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.1,
+    "percentil": 54.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 50,
+   "inscritos": 135,
+   "mulheres": 85
+  }
+ },
  "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Educação",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3151-9054",
+ "pct_colocados_1opcao_2025": 64,
+ "percentil_nota_2026": 65,
  "provas_ingresso": "18 Português\ne\nUma das seguintes provas:\n04 Economia\n06 Filosofia\n09 Geografia\n11 História",
+ "semelhantes": [
+  {
+   "curso": "Jornalismo",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 158.0,
+   "par": "3113-9191",
+   "vagas": 62
+  },
+  {
+   "curso": "Comunicação Social",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 149.5,
+   "par": "3062-9054",
+   "vagas": 38
+  },
+  {
+   "curso": "Ciências da Comunicação",
+   "grupo": "Universidade do Algarve",
+   "nota": 149.0,
+   "par": "3081-9023",
+   "vagas": 41
+  },
+  {
+   "curso": "Ciências da Comunicação",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 137.0,
+   "par": "1202-9023",
+   "vagas": 69
+  },
+  {
+   "curso": "Ciências da Comunicação",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 126.5,
+   "par": "0400-9023",
+   "vagas": 68
+  },
+  {
+   "curso": "Jornalismo e Comunicação",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 124.5,
+   "par": "3121-9773",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 33,

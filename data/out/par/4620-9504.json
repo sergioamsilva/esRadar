@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Saúde da Fundação «Fernando Pessoa»",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.9,
+   "fora": 8.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.8,
+   "novos_inscritos": 145
+  },
+  "desemprego": {
+   "diplomados": 229,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 116,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 181,
+   "inscritos": 323,
+   "mulheres": 142
+  }
+ },
  "instituicao": "Escola Superior de Saúde da Fundação «Fernando Pessoa»",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

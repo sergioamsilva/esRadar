@@ -11,11 +11,49 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n709 Medidor Orçamentista\n732 Técnico de Construção Civil\n779 Técnico Topógrafo\n811 Agrupamento 1 / Construção Civil\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": {
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 18,
+   "inscritos": 20,
+   "mulheres": 2
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3124-9089",
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Universidade da Madeira",
+   "nota": 116.8,
+   "par": "1307-9089",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 114.3,
+   "par": "3154-9089",
+   "vagas": 18
+  },
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3043-9089",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Civil (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": null,
+   "par": "3154-9881",
+   "vagas": 19
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 0,

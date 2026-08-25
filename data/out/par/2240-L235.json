@@ -11,6 +11,27 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 72.8,
+   "fora": 22.8,
+   "muda_curso": 1.1,
+   "muda_estabelecimento": 3.3,
+   "novos_inscritos": 92
+  },
+  "diplomados": {
+   "n": 18,
+   "nota_final_media": 14.9,
+   "periodo": "2023/24_"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 132,
+   "inscritos": 138,
+   "mulheres": 6
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Teologia",
  "minimo_candidatura": null,
  "minimo_provas": null,

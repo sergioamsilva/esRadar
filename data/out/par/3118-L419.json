@@ -11,11 +11,50 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3118-L419",
+ "percentil_nota_2026": 30,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Tecnologias Digitais e Inteligência Artificial",
+   "grupo": "ISCTE",
+   "nota": 142.0,
+   "par": "6810-L277",
+   "vagas": 35
+  },
+  {
+   "curso": "Tecnologias Digitais e Segurança de Informação",
+   "grupo": "ISCTE",
+   "nota": 130.8,
+   "par": "6810-L329",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia de Dados e Inteligência Artificial",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 129.5,
+   "par": "3032-L394",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Informática, Redes e Telecomunicações",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 114.5,
+   "par": "3118-L119",
+   "vagas": 36
+  },
+  {
+   "curso": "Desenvolvimento de Software e Aplicações",
+   "grupo": "ISCTE",
+   "nota": 113.8,
+   "par": "6810-L278",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 41,

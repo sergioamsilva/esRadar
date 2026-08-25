@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Centro Universitário Lusófona",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.6,
+   "fora": 14.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 7.1,
+   "novos_inscritos": 28
+  },
+  "diplomados": {
+   "n": 20,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 11,
+   "inscritos": 47,
+   "mulheres": 36
+  }
+ },
  "instituicao": "Centro Universitário Lusófona - Porto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

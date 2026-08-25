@@ -11,11 +11,60 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n668 Química Industrial e Ambiental (Port. 49/2005)\n678 Química Industrial e Ambiental (Port. 817/2009)\n748 Técnico de Gestão de Energia\n779 Técnico Topógrafo\n792 Técnico Instalador de Sistemas de Bioenergia\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA79 Energias Renováveis (Port. 815/2009)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP47 Técnico de Energias Renováveis\nP55 Técnico de Gestão do Ambiente\nP79 Técnico de Recursos Florestais e Ambientais\nP85 Técnico de Sistemas de Informação Geográfica\nT27 Técnico de Gestão do Ambiente\nT47 Técnico de Recursos Florestais e Ambientais\nT52 Técnico de Turismo Ambiental e Rural",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 71.4,
+   "fora": 23.8,
+   "muda_curso": 4.8,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 21
+  },
+  "desemprego": {
+   "diplomados": 39,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.1
+  },
+  "diplomados": {
+   "n": 16,
+   "nota_final_media": 12.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 37,
+   "mulheres": 27
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9099",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n16 Matemática\nou\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Gestão Marinha e Costeira",
+   "grupo": "Universidade do Algarve",
+   "nota": 110.0,
+   "par": "0203-L123",
+   "vagas": 29
+  },
+  {
+   "curso": "Engenharia da Energia e Ambiente",
+   "grupo": "Universidade de Lisboa",
+   "nota": 109.8,
+   "par": "1503-L214",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia do Ambiente",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": null,
+   "par": "3021-9099",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

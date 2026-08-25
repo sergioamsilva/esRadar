@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior Politécnico Gaya",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 83.9,
+   "fora": 9.7,
+   "muda_curso": 3.2,
+   "muda_estabelecimento": 3.2,
+   "novos_inscritos": 31
+  },
+  "desemprego": {
+   "diplomados": 51,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.8
+  },
+  "diplomados": {
+   "n": 39,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 91,
+   "inscritos": 96,
+   "mulheres": 5
+  }
+ },
  "instituicao": "Instituto Superior Politécnico Gaya - Escola Superior de Ciência e Tecnologia",
  "minimo_candidatura": 98,
  "minimo_provas": 95,

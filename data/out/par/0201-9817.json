@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 74.2,
+   "fora": 15.2,
+   "muda_curso": 4.5,
+   "muda_estabelecimento": 6.1,
+   "novos_inscritos": 66
+  },
+  "desemprego": {
+   "diplomados": 66,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.0
+  },
+  "diplomados": {
+   "n": 38,
+   "nota_final_media": 15.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 19,
+    "nota_ingresso_media": 14.8,
+    "percentil": 33.7
+   },
+   "2021": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.2,
+    "percentil": 39.0
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.1,
+    "percentil": 30.0
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.1,
+    "percentil": 30.5
+   },
+   "2024": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.5,
+    "percentil": 40.1
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.0,
+    "percentil": 29.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 16,
+   "inscritos": 82,
+   "mulheres": 66
+  }
+ },
  "instituicao": "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0201-9817",
+ "pct_colocados_1opcao_2025": 52,
+ "percentil_nota_2026": 45,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Artes Visuais",
+   "grupo": "Universidade da Madeira",
+   "nota": 142.0,
+   "par": "1306-9817",
+   "vagas": 18
+  },
+  {
+   "curso": "Escultura",
+   "grupo": "Universidade de Lisboa",
+   "nota": 139.5,
+   "par": "1502-9754",
+   "vagas": 50
+  },
+  {
+   "curso": "Artes Plásticas e Multimédia",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 134.5,
+   "par": "3181-9347",
+   "vagas": 45
+  },
+  {
+   "curso": "Arte e Design",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 122.5,
+   "par": "3042-9898",
+   "vagas": 55
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 21,

@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 94.4,
+   "fora": 2.4,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 1.6,
+   "novos_inscritos": 126
+  },
+  "desemprego": {
+   "diplomados": 190,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.9
+  },
+  "diplomados": {
+   "n": 102,
+   "nota_final_media": 15.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 55,
+    "nota_ingresso_media": 18.0,
+    "percentil": 76.3
+   },
+   "2021": {
+    "matriculados": 57,
+    "nota_ingresso_media": 17.9,
+    "percentil": 72.6
+   },
+   "2022": {
+    "matriculados": 59,
+    "nota_ingresso_media": 17.8,
+    "percentil": 74.0
+   },
+   "2023": {
+    "matriculados": 57,
+    "nota_ingresso_media": 18.0,
+    "percentil": 79.5
+   },
+   "2024": {
+    "matriculados": 57,
+    "nota_ingresso_media": 18.4,
+    "percentil": 81.7
+   },
+   "2025": {
+    "matriculados": 57,
+    "nota_ingresso_media": 18.2,
+    "percentil": 74.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 54,
+   "inscritos": 265,
+   "mulheres": 211
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Belas-Artes",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "5402-9070",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 96,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Artes Visuais e Tecnologias Artísticas",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 174.0,
+   "par": "3131-8264",
+   "vagas": 28
+  },
+  {
+   "curso": "Multimédia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 174.0,
+   "par": "3331-9213",
+   "vagas": 25
+  },
+  {
+   "curso": "Design Gráfico",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 160.5,
+   "par": "3033-9470",
+   "vagas": 44
+  },
+  {
+   "curso": "Fotografia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 156.5,
+   "par": "3331-9645",
+   "vagas": 21
+  },
+  {
+   "curso": "Cinema e Audiovisual",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 156.1,
+   "par": "3331-9713",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 47,

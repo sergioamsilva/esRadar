@@ -11,11 +11,102 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
+ "infocursos": {
+  "diplomados": {
+   "n": 56,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 15.5,
+    "percentil": 52.6
+   },
+   "2021": {
+    "matriculados": 32,
+    "nota_ingresso_media": 16.4,
+    "percentil": 57.6
+   },
+   "2022": {
+    "matriculados": 32,
+    "nota_ingresso_media": 16.4,
+    "percentil": 54.0
+   },
+   "2023": {
+    "matriculados": 34,
+    "nota_ingresso_media": 16.4,
+    "percentil": 56.9
+   },
+   "2024": {
+    "matriculados": 32,
+    "nota_ingresso_media": 16.5,
+    "percentil": 61.3
+   },
+   "2025": {
+    "matriculados": 31,
+    "nota_ingresso_media": 15.6,
+    "percentil": 49.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 78,
+   "inscritos": 166,
+   "mulheres": 88
+  }
+ },
  "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3134-L070",
+ "pct_colocados_1opcao_2025": 62,
+ "percentil_nota_2026": 89,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n13 Inglês\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n13 Inglês\nou\n06 Filosofia\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n06 Filosofia\nou\n04 Economia\n13 Inglês",
+ "semelhantes": [
+  {
+   "curso": "Gestão de Recursos Humanos",
+   "grupo": "ISCTE",
+   "nota": 165.8,
+   "par": "6800-9157",
+   "vagas": 40
+  },
+  {
+   "curso": "Comércio Internacional",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 165.5,
+   "par": "3134-9716",
+   "vagas": 38
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Coimbra",
+   "nota": 164.3,
+   "par": "0503-9147",
+   "vagas": 100
+  },
+  {
+   "curso": "Gestão de Empresas",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 159.5,
+   "par": "3031-9152",
+   "vagas": 40
+  },
+  {
+   "curso": "Gestão Industrial e Logística",
+   "grupo": "ISCTE",
+   "nota": 159.5,
+   "par": "6800-L030",
+   "vagas": 40
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 158.8,
+   "par": "1202-9147",
+   "vagas": 71
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 30,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.7,
+   "fora": 2.4,
+   "muda_curso": 13.4,
+   "muda_estabelecimento": 1.2,
+   "novos_inscritos": 82
+  },
+  "desemprego": {
+   "diplomados": 128,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.9
+  },
+  "diplomados": {
+   "n": 49,
+   "nota_final_media": 13.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 16.3,
+    "percentil": 61.7
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 16.3,
+    "percentil": 65.4
+   },
+   "2022": {
+    "matriculados": 34,
+    "nota_ingresso_media": 16.2,
+    "percentil": 55.8
+   },
+   "2023": {
+    "matriculados": 36,
+    "nota_ingresso_media": 16.1,
+    "percentil": 63.1
+   },
+   "2024": {
+    "matriculados": 35,
+    "nota_ingresso_media": 16.4,
+    "percentil": 58.6
+   },
+   "2025": {
+    "matriculados": 35,
+    "nota_ingresso_media": 15.7,
+    "percentil": 59.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 48,
+   "inscritos": 150,
+   "mulheres": 102
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Letras",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0505-9135",
+ "pct_colocados_1opcao_2025": 31,
+ "percentil_nota_2026": 70,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n11 História\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade do Porto",
+   "nota": 151.0,
+   "par": "1107-9240",
+   "vagas": 44
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "ISCTE",
+   "nota": 150.8,
+   "par": "6800-9240",
+   "vagas": 63
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade do Minho",
+   "nota": 149.0,
+   "par": "1000-9240",
+   "vagas": 57
+  },
+  {
+   "curso": "Estudos Europeus",
+   "grupo": "Universidade de Lisboa",
+   "nota": 145.5,
+   "par": "1506-9135",
+   "vagas": 58
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 144.0,
+   "par": "1516-9240",
+   "vagas": 46
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 143.5,
+   "par": "0902-9240",
+   "vagas": 62
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 33,

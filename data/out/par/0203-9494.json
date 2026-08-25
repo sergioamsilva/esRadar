@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade do Algarve",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 79.6,
+   "fora": 6.5,
+   "muda_curso": 5.6,
+   "muda_estabelecimento": 8.3,
+   "novos_inscritos": 108
+  },
+  "desemprego": {
+   "diplomados": 149,
+   "periodo": "2020/21_2023/24",
+   "taxa": 60.0
+  },
+  "diplomados": {
+   "n": 77,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 50,
+    "nota_ingresso_media": 15.2,
+    "percentil": 41.5
+   },
+   "2021": {
+    "matriculados": 56,
+    "nota_ingresso_media": 16.1,
+    "percentil": 50.7
+   },
+   "2022": {
+    "matriculados": 49,
+    "nota_ingresso_media": 15.8,
+    "percentil": 46.7
+   },
+   "2023": {
+    "matriculados": 47,
+    "nota_ingresso_media": 14.9,
+    "percentil": 31.7
+   },
+   "2024": {
+    "matriculados": 50,
+    "nota_ingresso_media": 15.0,
+    "percentil": 38.7
+   },
+   "2025": {
+    "matriculados": 49,
+    "nota_ingresso_media": 14.9,
+    "percentil": 45.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 85,
+   "inscritos": 286,
+   "mulheres": 201
+  }
+ },
  "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0203-9494",
+ "pct_colocados_1opcao_2025": 60,
+ "percentil_nota_2026": 53,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Farmácia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 142.8,
+   "par": "7250-9549",
+   "vagas": 52
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 142.5,
+   "par": "0400-9494",
+   "vagas": 63
+  },
+  {
+   "curso": "Ciências Bioanalíticas",
+   "grupo": "Universidade de Coimbra",
+   "nota": 141.5,
+   "par": "0504-9819",
+   "vagas": 30
+  },
+  {
+   "curso": "Farmácia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 132.5,
+   "par": "7210-9549",
+   "vagas": 41
+  },
+  {
+   "curso": "Farmácia",
+   "grupo": "Universidade do Algarve",
+   "nota": 119.3,
+   "par": "7035-9549",
+   "vagas": 26
+  },
+  {
+   "curso": "Farmácia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 112.5,
+   "par": "7015-9549",
+   "vagas": 55
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 46,

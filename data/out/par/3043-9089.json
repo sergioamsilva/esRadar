@@ -11,11 +11,97 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n080 Construção Civil e Edificações (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n715 Preparador de Obras\n732 Técnico de Construção Civil\n779 Técnico Topógrafo\n811 Agrupamento 1 / Construção Civil\n975 Recorrente - Construção Civil e Edificações (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP29 Técnico de Construção Civil\nR59 Técnico de Desenho da Construção Civil\nR68 Técnico de Ensaios da Construção Civil e Obras Públicas\nR91 Técnico de Obra/Condutor de Obra\nS26 Técnico de Desenho/Preparador de Obra\nS41 Técnico de Obra/Condutor de Obra\nS48 Técnico de Topografia\nS68 Técnico de Ensaios da Construção Civil e Obras Públicas\nT11 Técnico de Desenho de Construção Civil",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 60.3,
+   "fora": 37.2,
+   "muda_curso": 2.6,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 78
+  },
+  "desemprego": {
+   "diplomados": 37,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.0
+  },
+  "diplomados": {
+   "n": 16,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 1,
+    "nota_ingresso_media": 12.2,
+    "percentil": 13.1
+   },
+   "2023": {
+    "matriculados": 2,
+    "nota_ingresso_media": 13.7,
+    "percentil": 18.7
+   },
+   "2024": {
+    "matriculados": 2,
+    "nota_ingresso_media": 14.5,
+    "percentil": 23.9
+   },
+   "2025": {
+    "matriculados": 3,
+    "nota_ingresso_media": 12.9,
+    "percentil": 11.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 85,
+   "inscritos": 126,
+   "mulheres": 41
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3043-9089",
+ "pct_colocados_1opcao_2025": 0,
  "provas_ingresso": "07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 117.0,
+   "par": "3182-9089",
+   "vagas": 43
+  },
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Universidade da Madeira",
+   "nota": 116.8,
+   "par": "1307-9089",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 114.3,
+   "par": "3154-9089",
+   "vagas": 18
+  },
+  {
+   "curso": "Engenharia Civil",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": null,
+   "par": "3124-9089",
+   "vagas": 10
+  },
+  {
+   "curso": "Engenharia Civil (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": null,
+   "par": "3154-9881",
+   "vagas": 19
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 1,

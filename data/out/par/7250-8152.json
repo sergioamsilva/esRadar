@@ -11,11 +11,109 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 71.4,
+   "fora": 12.5,
+   "muda_curso": 7.1,
+   "muda_estabelecimento": 8.9,
+   "novos_inscritos": 56
+  },
+  "diplomados": {
+   "n": 28,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.7,
+    "percentil": 39.6
+   },
+   "2021": {
+    "matriculados": 29,
+    "nota_ingresso_media": 15.4,
+    "percentil": 38.5
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.9,
+    "percentil": 37.1
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.0,
+    "percentil": 37.5
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.4,
+    "percentil": 26.6
+   },
+   "2025": {
+    "matriculados": 20,
+    "nota_ingresso_media": 13.1,
+    "percentil": 20.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 35,
+   "inscritos": 95,
+   "mulheres": 60
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-8152",
+ "percentil_nota_2026": 54,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 143.0,
+   "par": "7250-L066",
+   "vagas": 63
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 142.8,
+   "par": "3013-L066",
+   "vagas": 25
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Universidade do Algarve",
+   "nota": 138.5,
+   "par": "7035-L066",
+   "vagas": 30
+  },
+  {
+   "curso": "Ortóptica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 134.5,
+   "par": "7230-8143",
+   "vagas": 25
+  },
+  {
+   "curso": "Ortóptica e Ciências da Visão",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 132.0,
+   "par": "7250-L161",
+   "vagas": 36
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 129.0,
+   "par": "7020-L066",
+   "vagas": 24
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 187,

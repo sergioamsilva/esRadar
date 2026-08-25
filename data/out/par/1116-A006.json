@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": null,
  "instituicao": "Universidade do Porto - FEP Faculdade de Economia e Gestão",
  "minimo_candidatura": 110,
  "minimo_provas": 120,
  "par": "1116-A006",
+ "percentil_nota_2026": 95,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Economia + Gestão",
+   "grupo": "Universidade do Minho",
+   "nota": 179.8,
+   "par": "1000-A020",
+   "vagas": 20
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 174.7,
+   "par": "0904-9081",
+   "vagas": 195
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade do Porto",
+   "nota": 173.5,
+   "par": "1116-9081",
+   "vagas": 179
+  },
+  {
+   "curso": "Economia + Negócios Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 171.0,
+   "par": "1000-A021",
+   "vagas": 10
+  },
+  {
+   "curso": "Economia (ensino em Inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 170.6,
+   "par": "1517-A006",
+   "vagas": 30
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 164.8,
+   "par": "1517-9081",
+   "vagas": 132
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 30,

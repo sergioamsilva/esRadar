@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.7,
+   "fora": 4.3,
+   "muda_curso": 9.6,
+   "muda_estabelecimento": 7.4,
+   "novos_inscritos": 94
+  },
+  "desemprego": {
+   "diplomados": 185,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.4
+  },
+  "diplomados": {
+   "n": 95,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 60,
+    "nota_ingresso_media": 16.9,
+    "percentil": 58.2
+   },
+   "2021": {
+    "matriculados": 40,
+    "nota_ingresso_media": 16.5,
+    "percentil": 61.3
+   },
+   "2022": {
+    "matriculados": 40,
+    "nota_ingresso_media": 16.9,
+    "percentil": 60.9
+   },
+   "2023": {
+    "matriculados": 40,
+    "nota_ingresso_media": 16.4,
+    "percentil": 58.1
+   },
+   "2024": {
+    "matriculados": 36,
+    "nota_ingresso_media": 17.1,
+    "percentil": 56.3
+   },
+   "2025": {
+    "matriculados": 39,
+    "nota_ingresso_media": 16.5,
+    "percentil": 63.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 59,
+   "inscritos": 155,
+   "mulheres": 96
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6800-9156",
+ "pct_colocados_1opcao_2025": 48,
+ "percentil_nota_2026": 87,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Marketing",
+   "grupo": "Universidade do Minho",
+   "nota": 164.0,
+   "par": "1000-9205",
+   "vagas": 48
+  },
+  {
+   "curso": "Marketing",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 160.5,
+   "par": "3134-9205",
+   "vagas": 90
+  },
+  {
+   "curso": "Publicidade e Marketing",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 159.5,
+   "par": "3113-9222",
+   "vagas": 60
+  },
+  {
+   "curso": "Relações Públicas e Comunicação Empresarial",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 154.0,
+   "par": "3113-9231",
+   "vagas": 60
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 40,

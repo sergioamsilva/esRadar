@@ -11,11 +11,89 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.4,
+   "fora": 1.4,
+   "muda_curso": 8.2,
+   "muda_estabelecimento": 1.0,
+   "novos_inscritos": 208
+  },
+  "desemprego": {
+   "diplomados": 288,
+   "periodo": "2020/21_2023/24",
+   "taxa": 10.0
+  },
+  "diplomados": {
+   "n": 156,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2021": {
+    "matriculados": 92,
+    "nota_ingresso_media": 19.1,
+    "percentil": 85.8
+   },
+   "2022": {
+    "matriculados": 92,
+    "nota_ingresso_media": 19.0,
+    "percentil": 85.8
+   },
+   "2023": {
+    "matriculados": 97,
+    "nota_ingresso_media": 18.8,
+    "percentil": 87.3
+   },
+   "2024": {
+    "matriculados": 97,
+    "nota_ingresso_media": 18.7,
+    "percentil": 83.7
+   },
+   "2025": {
+    "matriculados": 98,
+    "nota_ingresso_media": 18.6,
+    "percentil": 85.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 109,
+   "inscritos": 348,
+   "mulheres": 239
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Engenharia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1105-9540",
+ "pct_colocados_1opcao_2025": 90,
+ "percentil_nota_2026": 98,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 174.3,
+   "par": "1518-9455",
+   "vagas": 102
+  },
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 165.3,
+   "par": "0903-9455",
+   "vagas": 59
+  },
+  {
+   "curso": "Engenharia Química",
+   "grupo": "Universidade do Porto",
+   "nota": 164.0,
+   "par": "1105-9125",
+   "vagas": 65
+  }
+ ],
  "series": {
   "2021f1": {
    "colocados": 93,

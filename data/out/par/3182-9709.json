@@ -11,11 +11,63 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": {
+  "percentil_entrada": {
+   "2024": {
+    "matriculados": 1,
+    "nota_ingresso_media": 9.7,
+    "percentil": 2.9
+   },
+   "2025": {
+    "matriculados": 2,
+    "nota_ingresso_media": 13.2,
+    "percentil": 26.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 9,
+   "inscritos": 16,
+   "mulheres": 7
+  }
+ },
  "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3182-9709",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 21,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n07 Física e Química\n18 Português\nou\n09 Geografia\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Ciências e Tecnologia do Ambiente",
+   "grupo": "Universidade do Porto",
+   "nota": 122.5,
+   "par": "1103-9709",
+   "vagas": 40
+  },
+  {
+   "curso": "Ecologia e Ambiente",
+   "grupo": "Universidade de Évora",
+   "nota": 116.0,
+   "par": "0602-L090",
+   "vagas": 12
+  },
+  {
+   "curso": "Ciências do Ambiente",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 112.5,
+   "par": "1204-9379",
+   "vagas": 18
+  },
+  {
+   "curso": "Ciências do Ambiente",
+   "grupo": "Universidade do Minho",
+   "nota": 100.5,
+   "par": "1000-9379",
+   "vagas": 37
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 11,

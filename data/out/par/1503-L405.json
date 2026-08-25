@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": null,
  "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
  "minimo_candidatura": 120,
  "minimo_provas": 100,
  "par": "1503-L405",
+ "percentil_nota_2026": 72,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Ciência de Dados",
+   "grupo": "ISCTE",
+   "nota": 155.3,
+   "par": "6800-L188",
+   "vagas": 60
+  },
+  {
+   "curso": "Informática",
+   "grupo": "Universidade dos Açores",
+   "nota": 155.0,
+   "par": "0160-9185",
+   "vagas": 25
+  },
+  {
+   "curso": "Informática e Gestão de Empresas",
+   "grupo": "ISCTE",
+   "nota": 155.0,
+   "par": "6800-9189",
+   "vagas": 60
+  },
+  {
+   "curso": "Engenharia de Sistemas Informáticos",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 147.0,
+   "par": "3032-8409",
+   "vagas": 33
+  },
+  {
+   "curso": "Informática e Gestão de Empresas (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 144.3,
+   "par": "6800-8366",
+   "vagas": 35
+  },
+  {
+   "curso": "Ciência de Dados",
+   "grupo": "Universidade do Minho",
+   "nota": 141.5,
+   "par": "1000-L188",
+   "vagas": 36
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 30,

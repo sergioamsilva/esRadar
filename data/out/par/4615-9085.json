@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Lusofonia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 83.3,
+   "fora": 7.1,
+   "muda_curso": 1.2,
+   "muda_estabelecimento": 8.3,
+   "novos_inscritos": 84
+  },
+  "diplomados": {
+   "n": 38,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 11,
+   "inscritos": 136,
+   "mulheres": 125
+  }
+ },
  "instituicao": "Instituto Politécnico da Lusofonia - Escola Superior de Saúde, Proteção e Bem-Estar Animal",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

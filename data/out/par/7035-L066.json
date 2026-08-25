@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Faro, Portalegre, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\nH38 Tecnologias da Saúde",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.2,
+   "fora": 2.9,
+   "muda_curso": 5.9,
+   "muda_estabelecimento": 2.9,
+   "novos_inscritos": 68
+  },
+  "desemprego": {
+   "diplomados": 73,
+   "periodo": "2020/21_2023/24",
+   "taxa": 60.0
+  },
+  "diplomados": {
+   "n": 42,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.1,
+    "percentil": 34.2
+   },
+   "2021": {
+    "matriculados": 31,
+    "nota_ingresso_media": 15.1,
+    "percentil": 34.8
+   },
+   "2022": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.7,
+    "percentil": 32.9
+   },
+   "2023": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.7,
+    "percentil": 33.3
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.7,
+    "percentil": 30.7
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.4,
+    "percentil": 37.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 152,
+   "mulheres": 101
+  }
+ },
  "instituicao": "Universidade do Algarve - Escola Superior de Saúde",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7035-L066",
+ "pct_colocados_1opcao_2025": 63,
+ "percentil_nota_2026": 56,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 143.5,
+   "par": "7210-L066",
+   "vagas": 41
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 143.0,
+   "par": "7250-L066",
+   "vagas": 63
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 142.8,
+   "par": "3013-L066",
+   "vagas": 25
+  },
+  {
+   "curso": "Ortoprotesia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 137.3,
+   "par": "7250-8152",
+   "vagas": 26
+  },
+  {
+   "curso": "Ortóptica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 134.5,
+   "par": "7230-8143",
+   "vagas": 25
+  },
+  {
+   "curso": "Ortóptica e Ciências da Visão",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 132.0,
+   "par": "7250-L161",
+   "vagas": 36
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 16,

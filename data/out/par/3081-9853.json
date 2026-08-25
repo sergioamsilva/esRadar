@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Faro",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 94.0,
+   "fora": 3.6,
+   "muda_curso": 1.2,
+   "muda_estabelecimento": 1.2,
+   "novos_inscritos": 83
+  },
+  "desemprego": {
+   "diplomados": 105,
+   "periodo": "2020/21_2023/24",
+   "taxa": 90.0
+  },
+  "diplomados": {
+   "n": 72,
+   "nota_final_media": 15.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.2,
+    "percentil": 37.9
+   },
+   "2021": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.6,
+    "percentil": 37.7
+   },
+   "2022": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.4,
+    "percentil": 37.1
+   },
+   "2023": {
+    "matriculados": 30,
+    "nota_ingresso_media": 15.5,
+    "percentil": 47.3
+   },
+   "2024": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.8,
+    "percentil": 38.6
+   },
+   "2025": {
+    "matriculados": 41,
+    "nota_ingresso_media": 15.0,
+    "percentil": 52.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 6,
+   "inscritos": 128,
+   "mulheres": 122
+  }
+ },
  "instituicao": "Universidade do Algarve - Escola Superior de Educação e Comunicação",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3081-9853",
+ "pct_colocados_1opcao_2025": 83,
+ "percentil_nota_2026": 48,
  "provas_ingresso": "17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 140.0,
+   "par": "3151-9853",
+   "vagas": 57
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade de Évora",
+   "nota": 139.3,
+   "par": "0604-9853",
+   "vagas": 36
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 136.8,
+   "par": "3162-9853",
+   "vagas": 80
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 131.3,
+   "par": "3181-9853",
+   "vagas": 65
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 129.8,
+   "par": "3101-9853",
+   "vagas": 97
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 124.3,
+   "par": "3142-9853",
+   "vagas": 70
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 8,

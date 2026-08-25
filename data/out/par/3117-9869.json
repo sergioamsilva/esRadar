@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 41,
+    "nota_ingresso_media": 13.3,
+    "percentil": 27.8
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3117-9869",
+ "pct_colocados_1opcao_2025": 27,
+ "percentil_nota_2026": 41,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Contabilidade e Auditoria",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 132.0,
+   "par": "3063-9061",
+   "vagas": 75
+  },
+  {
+   "curso": "Contabilidade e Gestão Pública",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 131.0,
+   "par": "3063-9722",
+   "vagas": 40
+  },
+  {
+   "curso": "Contabilidade e Administração (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 130.0,
+   "par": "3134-9870",
+   "vagas": 35
+  },
+  {
+   "curso": "Contabilidade e Fiscalidade",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 125.0,
+   "par": "3164-9498",
+   "vagas": 23
+  },
+  {
+   "curso": "Contabilidade",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 122.5,
+   "par": "3092-9056",
+   "vagas": 30
+  },
+  {
+   "curso": "Contabilidade e Finanças",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 122.0,
+   "par": "3102-9627",
+   "vagas": 45
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 176,

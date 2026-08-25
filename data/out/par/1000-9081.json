@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.9,
+   "fora": 1.6,
+   "muda_curso": 2.7,
+   "muda_estabelecimento": 5.9,
+   "novos_inscritos": 188
+  },
+  "desemprego": {
+   "diplomados": 304,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.9
+  },
+  "diplomados": {
+   "n": 161,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 92,
+    "nota_ingresso_media": 17.6,
+    "percentil": 64.6
+   },
+   "2021": {
+    "matriculados": 88,
+    "nota_ingresso_media": 17.1,
+    "percentil": 58.0
+   },
+   "2022": {
+    "matriculados": 84,
+    "nota_ingresso_media": 17.2,
+    "percentil": 58.6
+   },
+   "2023": {
+    "matriculados": 84,
+    "nota_ingresso_media": 17.0,
+    "percentil": 53.9
+   },
+   "2024": {
+    "matriculados": 83,
+    "nota_ingresso_media": 17.5,
+    "percentil": 61.7
+   },
+   "2025": {
+    "matriculados": 80,
+    "nota_ingresso_media": 16.9,
+    "percentil": 63.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 134,
+   "inscritos": 307,
+   "mulheres": 173
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9081",
+ "pct_colocados_1opcao_2025": 40,
+ "percentil_nota_2026": 89,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Economia + Negócios Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 171.0,
+   "par": "1000-A021",
+   "vagas": 10
+  },
+  {
+   "curso": "Economia (ensino em Inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 170.6,
+   "par": "1517-A006",
+   "vagas": 30
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 164.8,
+   "par": "1517-9081",
+   "vagas": 132
+  },
+  {
+   "curso": "Economia",
+   "grupo": "ISCTE",
+   "nota": 163.5,
+   "par": "6800-9081",
+   "vagas": 72
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 161.3,
+   "par": "0300-9081",
+   "vagas": 47
+  },
+  {
+   "curso": "Negócios Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 157.8,
+   "par": "1000-9785",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 85,

@@ -39,12 +39,13 @@ def main() -> None:
     parser.add_argument("--sem-testes", action="store_true")
     args = parser.parse_args()
 
-    from ingest import arquivo, build, coloc, guias, snapshot
+    from ingest import arquivo, build, coloc, guias, infocursos, snapshot
 
     passo("guia da candidatura", lambda: guias.raspar(forcar=args.descarregar))
     if args.fase:
         passo(f"época corrente, fase {args.fase}", lambda: coloc.arquivar_fase(coloc.ANO_CORRENTE, args.fase))
     passo("histórico via Arquivo.pt", lambda: [arquivo.recuperar_ano(a) for a in range(2018, 2026)])
+    passo("infocursos", lambda: infocursos.atualizar(forcar=args.descarregar))
     passo("snapshot", snapshot.gravar)
     passo("build", build.construir)
     if not args.sem_testes:

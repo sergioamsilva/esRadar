@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.8,
+   "fora": 10.1,
+   "muda_curso": 1.9,
+   "muda_estabelecimento": 6.3,
+   "novos_inscritos": 159
+  },
+  "desemprego": {
+   "diplomados": 279,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.9
+  },
+  "diplomados": {
+   "n": 124,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 85,
+    "nota_ingresso_media": 17.5,
+    "percentil": 69.6
+   },
+   "2021": {
+    "matriculados": 84,
+    "nota_ingresso_media": 17.6,
+    "percentil": 72.2
+   },
+   "2022": {
+    "matriculados": 64,
+    "nota_ingresso_media": 18.2,
+    "percentil": 77.5
+   },
+   "2023": {
+    "matriculados": 64,
+    "nota_ingresso_media": 17.6,
+    "percentil": 71.1
+   },
+   "2024": {
+    "matriculados": 64,
+    "nota_ingresso_media": 18.1,
+    "percentil": 76.4
+   },
+   "2025": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.9,
+    "percentil": 74.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 60,
+   "inscritos": 335,
+   "mulheres": 275
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Belas-Artes",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "5402-9007",
+ "pct_colocados_1opcao_2025": 92,
+ "percentil_nota_2026": 93,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Desenho",
+   "grupo": "Universidade do Porto",
+   "nota": 171.3,
+   "par": "5402-8399",
+   "vagas": 25
+  },
+  {
+   "curso": "Artes Visuais",
+   "grupo": "Universidade do Minho",
+   "nota": 169.0,
+   "par": "1000-9817",
+   "vagas": 26
+  },
+  {
+   "curso": "Arte e Design",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 163.0,
+   "par": "3062-9898",
+   "vagas": 32
+  },
+  {
+   "curso": "Artes Plásticas",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 161.0,
+   "par": "3103-9007",
+   "vagas": 53
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 84,

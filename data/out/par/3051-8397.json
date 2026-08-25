@@ -11,10 +11,39 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Beja, Braga, Bragança, Castelo Branco, Coimbra, Évora, Faro, Guarda, Leiria, Lisboa, Portalegre, Porto, Santarém, Setúbal, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n608 Cursos Vocacionais (Todos os Cursos)\n771 Técnico Florestal\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA51 Tecnologias e Sistemas de Informação (Port. 960/2009)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG39 Tecnologias e Sistemas de Informação (Portaria n.º 262/2013)\nG46 Consultadoria em Sistemas de Informação (Port. 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nP11 Técnico Auxiliar de Saúde\nP25 Técnico de Cartografia\nP55 Técnico de Gestão do Ambiente\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP75 Técnico de Proteção Civil\nP76 Técnico de Química Industrial\nP79 Técnico de Recursos Florestais e Ambientais\nP83 Técnico de Segurança e Salvamento em Meio Aquático\nP85 Técnico de Sistemas de Informação Geográfica\nP98 Topógrafo-Geómetra\nR33 Bombeiro\nS47 Técnico de Segurança e Higiene do Trabalho\nS76 Técnico de Proteção Civil\nT27 Técnico de Gestão do Ambiente\nT47 Técnico de Recursos Florestais e Ambientais\nU21 Técnico de Socorros e Emergências de Aeródromo",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 58.8,
+   "fora": 37.3,
+   "muda_curso": 3.9,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 51
+  },
+  "diplomados": {
+   "n": 13,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 1,
+    "nota_ingresso_media": 15.6,
+    "percentil": 30.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 56,
+   "inscritos": 75,
+   "mulheres": 19
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3051-8397",
+ "pct_colocados_1opcao_2025": 100,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática",
  "series": {
   "2018f1": {

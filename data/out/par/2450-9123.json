@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Lusíada",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.0,
+   "fora": 8.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 16.7,
+   "novos_inscritos": 12
+  },
+  "diplomados": {
+   "n": 10,
+   "nota_final_media": 13.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 16,
+   "inscritos": 18,
+   "mulheres": 2
+  }
+ },
  "instituicao": "Universidade Lusíada - Centro Universitário Lusíada - Norte - Vila Nova de Famalicão",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

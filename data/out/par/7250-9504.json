@@ -11,11 +11,109 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.2,
+   "fora": 5.9,
+   "muda_curso": 0,
+   "muda_estabelecimento": 3.9,
+   "novos_inscritos": 102
+  },
+  "diplomados": {
+   "n": 82,
+   "nota_final_media": 15.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 52,
+    "nota_ingresso_media": 16.7,
+    "percentil": 69.0
+   },
+   "2021": {
+    "matriculados": 40,
+    "nota_ingresso_media": 17.3,
+    "percentil": 68.3
+   },
+   "2022": {
+    "matriculados": 44,
+    "nota_ingresso_media": 16.7,
+    "percentil": 60.9
+   },
+   "2023": {
+    "matriculados": 44,
+    "nota_ingresso_media": 17.0,
+    "percentil": 67.0
+   },
+   "2024": {
+    "matriculados": 48,
+    "nota_ingresso_media": 16.8,
+    "percentil": 64.0
+   },
+   "2025": {
+    "matriculados": 48,
+    "nota_ingresso_media": 16.3,
+    "percentil": 58.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 85,
+   "inscritos": 222,
+   "mulheres": 137
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-9504",
+ "percentil_nota_2026": 87,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 163.5,
+   "par": "3013-9504",
+   "vagas": 40
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 163.3,
+   "par": "7075-9504",
+   "vagas": 18
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 162.5,
+   "par": "7085-9504",
+   "vagas": 18
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 159.5,
+   "par": "3155-9504",
+   "vagas": 44
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Universidade do Algarve",
+   "nota": 159.5,
+   "par": "7035-9504",
+   "vagas": 26
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 156.5,
+   "par": "7016-9504",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 623,

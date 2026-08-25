@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesEm outubro de 2024, foi publicada pela Agência de Avaliação e Acreditação do Ensino Superior decisão negativa de avaliação institucional para este estabelecimento. Tendo sido, entretanto, instaurada, pela entidade instituidora deste estabelecimento, uma providência cautelar com vista à suspensão da eficácia do ato de não acreditação, até respetiva decisão judicial, encontra-se suspenso o ato de não acreditação da A3ES, não podendo a tutela atuar noutro sentido que não seja o da divulgação das vagas fixadas para este estabelecimento, nos termos do despacho n.º 528/2025, de 10 de janeiro.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior Miguel Torga",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.3,
+   "fora": 7.1,
+   "muda_curso": 3.6,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 28
+  },
+  "desemprego": {
+   "diplomados": 37,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.3
+  },
+  "diplomados": {
+   "n": 17,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 18,
+   "inscritos": 49,
+   "mulheres": 31
+  }
+ },
  "instituicao": "Instituto Superior Miguel Torga",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

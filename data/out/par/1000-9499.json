@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 83.1,
+   "fora": 8.5,
+   "muda_curso": 1.4,
+   "muda_estabelecimento": 7.0,
+   "novos_inscritos": 71
+  },
+  "desemprego": {
+   "diplomados": 103,
+   "periodo": "2020/21_2023/24",
+   "taxa": 10.1
+  },
+  "diplomados": {
+   "n": 60,
+   "nota_final_media": 15.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 17.0,
+    "percentil": 58.0
+   },
+   "2021": {
+    "matriculados": 32,
+    "nota_ingresso_media": 17.0,
+    "percentil": 52.2
+   },
+   "2022": {
+    "matriculados": 30,
+    "nota_ingresso_media": 17.0,
+    "percentil": 57.9
+   },
+   "2023": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.9,
+    "percentil": 50.5
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 17.9,
+    "percentil": 71.3
+   },
+   "2025": {
+    "matriculados": 29,
+    "nota_ingresso_media": 16.5,
+    "percentil": 47.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 8,
+   "inscritos": 101,
+   "mulheres": 93
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1000-9499",
+ "pct_colocados_1opcao_2025": 73,
+ "percentil_nota_2026": 91,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n10 Geometria Descritiva\nou\n10 Geometria Descritiva\n16 Matemática\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Design de Moda",
+   "grupo": "Universidade de Lisboa",
+   "nota": 169.5,
+   "par": "1501-9071",
+   "vagas": 50
+  },
+  {
+   "curso": "Design",
+   "grupo": "Universidade de Aveiro",
+   "nota": 169.0,
+   "par": "0300-9069",
+   "vagas": 52
+  },
+  {
+   "curso": "Design de Produto",
+   "grupo": "Universidade do Minho",
+   "nota": 168.5,
+   "par": "1000-8494",
+   "vagas": 33
+  },
+  {
+   "curso": "Design",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 157.4,
+   "par": "3331-9069",
+   "vagas": 47
+  },
+  {
+   "curso": "Design Industrial",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 155.5,
+   "par": "3103-9074",
+   "vagas": 28
+  },
+  {
+   "curso": "Design de Espaços",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 155.0,
+   "par": "3103-L257",
+   "vagas": 27
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 30,

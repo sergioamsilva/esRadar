@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Maia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 72.1,
+   "fora": 19.7,
+   "muda_curso": 2.6,
+   "muda_estabelecimento": 5.6,
+   "novos_inscritos": 233
+  },
+  "desemprego": {
+   "diplomados": 100,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.9
+  },
+  "diplomados": {
+   "n": 105,
+   "nota_final_media": 13.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 81,
+   "inscritos": 323,
+   "mulheres": 242
+  }
+ },
  "instituicao": "Universidade da Maia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

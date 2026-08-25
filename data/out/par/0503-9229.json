@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.1,
+   "fora": 7.5,
+   "muda_curso": 2.3,
+   "muda_estabelecimento": 1.1,
+   "novos_inscritos": 174
+  },
+  "desemprego": {
+   "diplomados": 237,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.0
+  },
+  "diplomados": {
+   "n": 150,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 43,
+    "nota_ingresso_media": 18.2,
+    "percentil": 89.0
+   },
+   "2021": {
+    "matriculados": 49,
+    "nota_ingresso_media": 17.7,
+    "percentil": 84.1
+   },
+   "2022": {
+    "matriculados": 53,
+    "nota_ingresso_media": 17.6,
+    "percentil": 82.4
+   },
+   "2023": {
+    "matriculados": 52,
+    "nota_ingresso_media": 17.5,
+    "percentil": 82.9
+   },
+   "2024": {
+    "matriculados": 54,
+    "nota_ingresso_media": 17.4,
+    "percentil": 79.3
+   },
+   "2025": {
+    "matriculados": 53,
+    "nota_ingresso_media": 17.3,
+    "percentil": 75.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 118,
+   "inscritos": 350,
+   "mulheres": 232
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Economia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0503-9229",
+ "pct_colocados_1opcao_2025": 89,
+ "percentil_nota_2026": 92,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Estudos Internacionais (ensino em inglês)",
+   "grupo": "ISCTE",
+   "nota": 175.5,
+   "par": "6800-A026",
+   "vagas": 26
+  },
+  {
+   "curso": "Ciência Política e Relações Internacionais",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 169.3,
+   "par": "0902-9020",
+   "vagas": 81
+  },
+  {
+   "curso": "Relações Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 163.0,
+   "par": "1000-9229",
+   "vagas": 67
+  },
+  {
+   "curso": "Relações Internacionais",
+   "grupo": "Universidade de Lisboa",
+   "nota": 163.0,
+   "par": "1516-9229",
+   "vagas": 68
+  },
+  {
+   "curso": "Ciência Política",
+   "grupo": "ISCTE",
+   "nota": 162.5,
+   "par": "6800-9019",
+   "vagas": 41
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 41,

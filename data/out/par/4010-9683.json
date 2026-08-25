@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior Artística do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 64.3,
+   "fora": 14.3,
+   "muda_curso": 7.1,
+   "muda_estabelecimento": 14.3,
+   "novos_inscritos": 14
+  },
+  "desemprego": {
+   "diplomados": 39,
+   "periodo": "2020/21_2023/24",
+   "taxa": 7.6
+  },
+  "diplomados": {
+   "n": 17,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 8,
+   "inscritos": 33,
+   "mulheres": 25
+  }
+ },
  "instituicao": "Escola Superior Artística do Porto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

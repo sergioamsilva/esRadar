@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Saúde Egas Moniz",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.8,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 8.2,
+   "novos_inscritos": 49
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 8,
+   "inscritos": 83,
+   "mulheres": 75
+  }
+ },
  "instituicao": "Escola Superior de Saúde Egas Moniz",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

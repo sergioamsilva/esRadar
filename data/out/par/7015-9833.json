@@ -11,11 +11,60 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Vila Real",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 55.2,
+   "fora": 8.6,
+   "muda_curso": 29.3,
+   "muda_estabelecimento": 6.9,
+   "novos_inscritos": 58
+  },
+  "desemprego": {
+   "diplomados": 56,
+   "periodo": "2020/21_2023/24",
+   "taxa": 7.1
+  },
+  "diplomados": {
+   "n": 40,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 79,
+   "mulheres": 69
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7015-9833",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 113.3,
+   "par": "7040-9500",
+   "vagas": 88
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade dos Açores",
+   "nota": 113.0,
+   "par": "7092-9500",
+   "vagas": 40
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 105.5,
+   "par": "7055-9500",
+   "vagas": 75
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n070 Comunicação Audiovisual (DL 74/2004)\n071 Design de Comunicação (DL 74/2004)\n084 Multimédia (DL 74/2004)\n185 Salesianos do Porto - Ind. Gráf. Transf. Papel (DL 286/89)\n574 Comunicação Multimédia (Port. 26/2005)\n594 Produção Gráfica (Port. 33/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n671 Design de Comunicação (Port. 49/2005)\n676 Design de Comunicação e Multimédia (Port. 817/2009)\n735 Técnico de Desenho Gráfico\n752 Técnico de Indústrias Gráficas\n821 Agrupamento 2 / Design\n822 Agrupamento 2 / Artes e Ofícios\n979 Recorrente - Multimédia (DL 74/2004)\n985 Recorrente - Comunicação Audiovisual (DL 74/2004)\n986 Recorrente - Design de Comunicação (DL 74/2004)\nA25 Artes e Indústrias Gráficas (VC) (Port. 941/2009)\nA26 Artes e Indústrias Gráficas (VCT) (Port. 941/2009)\nA31 Imagem Interativa (Port. 836/2004)\nA59 Comunicação Multimédia (Port. 960/2009)\nC70 Comunicação Audiovisual\nC71 Design de Comunicação\nF70 Comunicação Audiovisual\nG02 Artes Gráficas (VC) (Portaria n.º 260/2013)\nG15 Artes Gráficas (VT) (Portaria n.º 260/2013)\nG30 Comunicação Multimédia (Portaria n.º 262/2013)\nG42 Imagem Interativa (Portaria n.º 42/2014)\nG45 Comunicação e Produção Multimédia (Portaria n.º 265/2013)\nG48 Design (Portaria n.º 265/2013)\nG61 Produção Gráfica (Portaria n.º 267/2013)\nG67 Técnico de Design Gráfico\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH15 Artes e Indústrias Gráficas (VT)\nH30 Comunicação Multimédia\nH42 Imagem Interativa, na área dos Audiovisuais\nH45 Comunicação e Produção Multimédia\nH48 Design\nH61 Produção Gráfica\nH67 Técnico de Desenho Gráfico\nH68 Técnico de Vídeo\nH71 Técnico de Multimédia\nP20 Técnico de Artes Gráficas\nP21 Técnico de Audiovisuais\nP36 Técnico de Desenho Digital 3D\nP37 Técnico de Design\nP48 Técnico de Fotografia\nP94 Técnico de Vídeo\nP97 Técnico de Vitrinismo\nR12 Imagem Interativa (Instituto Jacob Rodrigues Pereira)\nU33 Técnico de Design de Comunicação Gráfica",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.4,
+   "fora": 5.1,
+   "muda_curso": 1.7,
+   "muda_estabelecimento": 6.8,
+   "novos_inscritos": 59
+  },
+  "diplomados": {
+   "n": 33,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 17,
+    "nota_ingresso_media": 13.3,
+    "percentil": 11.9
+   },
+   "2021": {
+    "matriculados": 26,
+    "nota_ingresso_media": 13.8,
+    "percentil": 25.2
+   },
+   "2022": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.0,
+    "percentil": 30.1
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.1,
+    "percentil": 28.6
+   },
+   "2024": {
+    "matriculados": 25,
+    "nota_ingresso_media": 13.6,
+    "percentil": 25.1
+   },
+   "2025": {
+    "matriculados": 26,
+    "nota_ingresso_media": 13.8,
+    "percentil": 27.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 31,
+   "inscritos": 85,
+   "mulheres": 54
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3124-9070",
+ "pct_colocados_1opcao_2025": 35,
+ "percentil_nota_2026": 48,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n06 Filosofia\n18 Português\nou\n03 Desenho\n18 Português\nou\n16 Matemática\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Artes e Cinema Digital",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 140.0,
+   "par": "3162-L284",
+   "vagas": 20
+  },
+  {
+   "curso": "Comunicação e Design Multimédia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 138.5,
+   "par": "3062-9894",
+   "vagas": 39
+  },
+  {
+   "curso": "Design Gráfico (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 135.5,
+   "par": "3033-9873",
+   "vagas": 25
+  },
+  {
+   "curso": "Jogos Digitais e Multimédia (ensino em inglês)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 128.5,
+   "par": "3102-A014",
+   "vagas": 65
+  },
+  {
+   "curso": "Imagem Animada",
+   "grupo": "Universidade do Algarve",
+   "nota": 127.5,
+   "par": "3081-8337",
+   "vagas": 36
+  },
+  {
+   "curso": "Cinema e Média Digitais",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 126.5,
+   "par": "3243-L371",
+   "vagas": 18
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 80,

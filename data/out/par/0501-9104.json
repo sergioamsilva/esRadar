@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 94.1,
+   "fora": 1.7,
+   "muda_curso": 2.5,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 119
+  },
+  "desemprego": {
+   "diplomados": 204,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 95,
+   "nota_final_media": 13.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 54,
+    "nota_ingresso_media": 16.4,
+    "percentil": 47.5
+   },
+   "2021": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.5,
+    "percentil": 48.3
+   },
+   "2022": {
+    "matriculados": 57,
+    "nota_ingresso_media": 16.0,
+    "percentil": 42.2
+   },
+   "2023": {
+    "matriculados": 57,
+    "nota_ingresso_media": 15.9,
+    "percentil": 43.1
+   },
+   "2024": {
+    "matriculados": 57,
+    "nota_ingresso_media": 16.5,
+    "percentil": 50.7
+   },
+   "2025": {
+    "matriculados": 57,
+    "nota_ingresso_media": 16.3,
+    "percentil": 53.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 129,
+   "inscritos": 244,
+   "mulheres": 115
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0501-9104",
+ "pct_colocados_1opcao_2025": 58,
+ "percentil_nota_2026": 79,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 159.8,
+   "par": "0903-9104",
+   "vagas": 61
+  },
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 156.3,
+   "par": "0300-9104",
+   "vagas": 74
+  },
+  {
+   "curso": "Engenharia Biomédica e Biofísica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 156.0,
+   "par": "1503-L204",
+   "vagas": 43
+  },
+  {
+   "curso": "Ciência de Computadores",
+   "grupo": "Universidade do Porto",
+   "nota": 138.8,
+   "par": "1103-9696",
+   "vagas": 60
+  },
+  {
+   "curso": "Engenharia de Sistemas",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 138.5,
+   "par": "3135-8316",
+   "vagas": 42
+  },
+  {
+   "curso": "Engenharia e Gestão Industrial",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 135.3,
+   "par": "3032-9104",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 45,

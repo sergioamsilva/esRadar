@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n086 Marketing (DL 74/2004)\n575 Contabilidade e Gestão (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n746 Técnico de Gestão Administrativa\n831 Agrupamento 3 / Administração\n981 Recorrente - Marketing (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP51 Técnico de Gestão\nP64 Técnico de Marketing\nR49 Técnico de Apoio à Gestão\nS17 Técnico de Apoio à Gestão\nS36 Técnico de Marketing",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 77.6,
+   "fora": 14.1,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 6.7,
+   "novos_inscritos": 255
+  },
+  "desemprego": {
+   "diplomados": 272,
+   "periodo": "2020/21_2023/24",
+   "taxa": 6.8
+  },
+  "diplomados": {
+   "n": 116,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 82,
+    "nota_ingresso_media": 13.4,
+    "percentil": 30.9
+   },
+   "2021": {
+    "matriculados": 100,
+    "nota_ingresso_media": 13.6,
+    "percentil": 26.2
+   },
+   "2022": {
+    "matriculados": 107,
+    "nota_ingresso_media": 13.7,
+    "percentil": 24.6
+   },
+   "2023": {
+    "matriculados": 103,
+    "nota_ingresso_media": 13.9,
+    "percentil": 26.2
+   },
+   "2024": {
+    "matriculados": 106,
+    "nota_ingresso_media": 14.1,
+    "percentil": 31.5
+   },
+   "2025": {
+    "matriculados": 93,
+    "nota_ingresso_media": 13.4,
+    "percentil": 28.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 234,
+   "inscritos": 466,
+   "mulheres": 232
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3043-9147",
+ "pct_colocados_1opcao_2025": 59,
+ "percentil_nota_2026": 5,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão de Eventos",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 112.0,
+   "par": "3105-8514",
+   "vagas": 20
+  },
+  {
+   "curso": "Relações Humanas e Comunicação Organizacional (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 110.0,
+   "par": "3101-L306",
+   "vagas": 17
+  },
+  {
+   "curso": "Gestão Industrial",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 110.0,
+   "par": "3182-8296",
+   "vagas": 35
+  },
+  {
+   "curso": "Gestão e Administração Pública",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 108.0,
+   "par": "3045-9165",
+   "vagas": 65
+  },
+  {
+   "curso": "Gestão de Recursos Humanos",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 108.0,
+   "par": "3092-9157",
+   "vagas": 40
+  },
+  {
+   "curso": "Gestão de Empresas",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 108.0,
+   "par": "3241-9152",
+   "vagas": 50
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 81,

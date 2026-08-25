@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 60.9,
+   "fora": 16.1,
+   "muda_curso": 10.3,
+   "muda_estabelecimento": 12.6,
+   "novos_inscritos": 87
+  },
+  "desemprego": {
+   "diplomados": 116,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.7
+  },
+  "diplomados": {
+   "n": 51,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 46,
+    "nota_ingresso_media": 14.2,
+    "percentil": 41.6
+   },
+   "2021": {
+    "matriculados": 61,
+    "nota_ingresso_media": 14.5,
+    "percentil": 45.6
+   },
+   "2022": {
+    "matriculados": 42,
+    "nota_ingresso_media": 14.2,
+    "percentil": 46.7
+   },
+   "2023": {
+    "matriculados": 41,
+    "nota_ingresso_media": 14.4,
+    "percentil": 43.0
+   },
+   "2024": {
+    "matriculados": 41,
+    "nota_ingresso_media": 14.1,
+    "percentil": 39.9
+   },
+   "2025": {
+    "matriculados": 42,
+    "nota_ingresso_media": 13.5,
+    "percentil": 34.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 50,
+   "inscritos": 134,
+   "mulheres": 84
+  }
+ },
  "instituicao": "Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1516-9448",
+ "pct_colocados_1opcao_2025": 34,
+ "percentil_nota_2026": 40,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Sociologia (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 133.5,
+   "par": "6800-8109",
+   "vagas": 34
+  },
+  {
+   "curso": "Estudos Asiáticos",
+   "grupo": "Universidade de Lisboa",
+   "nota": 132.5,
+   "par": "1506-9914",
+   "vagas": 32
+  },
+  {
+   "curso": "Geografia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 132.5,
+   "par": "1514-9143",
+   "vagas": 106
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 127.5,
+   "par": "0400-9240",
+   "vagas": 47
+  },
+  {
+   "curso": "Sociologia (regime pós-laboral)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 127.5,
+   "par": "1516-8109",
+   "vagas": 30
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade do Algarve",
+   "nota": 126.5,
+   "par": "0204-9240",
+   "vagas": 41
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 47,

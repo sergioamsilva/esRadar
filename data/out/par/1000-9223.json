@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.8,
+   "fora": 3.8,
+   "muda_curso": 7.7,
+   "muda_estabelecimento": 7.7,
+   "novos_inscritos": 26
+  },
+  "desemprego": {
+   "diplomados": 63,
+   "periodo": "2020/21_2023/24",
+   "taxa": 70.0
+  },
+  "diplomados": {
+   "n": 25,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 19,
+    "nota_ingresso_media": 14.6,
+    "percentil": 25.5
+   },
+   "2021": {
+    "matriculados": 8,
+    "nota_ingresso_media": 13.7,
+    "percentil": 18.2
+   },
+   "2022": {
+    "matriculados": 11,
+    "nota_ingresso_media": 14.9,
+    "percentil": 26.9
+   },
+   "2023": {
+    "matriculados": 13,
+    "nota_ingresso_media": 14.7,
+    "percentil": 28.2
+   },
+   "2024": {
+    "matriculados": 13,
+    "nota_ingresso_media": 14.9,
+    "percentil": 26.3
+   },
+   "2025": {
+    "matriculados": 3,
+    "nota_ingresso_media": 13.8,
+    "percentil": 21.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 13,
+   "inscritos": 44,
+   "mulheres": 31
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1000-9223",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 61,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Química",
+   "grupo": "Universidade do Porto",
+   "nota": 129.8,
+   "par": "1103-9223",
+   "vagas": 40
+  },
+  {
+   "curso": "Química Medicinal",
+   "grupo": "Universidade de Coimbra",
+   "nota": 121.8,
+   "par": "0501-8408",
+   "vagas": 15
+  },
+  {
+   "curso": "Química Aplicada",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 120.0,
+   "par": "0903-9224",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 22,

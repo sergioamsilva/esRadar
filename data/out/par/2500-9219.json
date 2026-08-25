@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Portucalense Infante D. Henrique",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.7,
+   "fora": 5.3,
+   "muda_curso": 0.8,
+   "muda_estabelecimento": 2.3,
+   "novos_inscritos": 133
+  },
+  "desemprego": {
+   "diplomados": 169,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 114,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 45,
+   "inscritos": 285,
+   "mulheres": 240
+  }
+ },
  "instituicao": "Universidade Portucalense Infante D. Henrique",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

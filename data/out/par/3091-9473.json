@@ -11,11 +11,72 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Guarda, Porto, Santarém, Vila Real, R. A. Açores, R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 78.6,
+   "fora": 7.1,
+   "muda_curso": 7.1,
+   "muda_estabelecimento": 7.1,
+   "novos_inscritos": 14
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 4,
+   "inscritos": 30,
+   "mulheres": 26
+  }
+ },
  "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3091-9473",
+ "percentil_nota_2026": 8,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Animação Sociocultural",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 114.0,
+   "par": "3091-9005",
+   "vagas": 15
+  },
+  {
+   "curso": "Serviço Social",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 113.5,
+   "par": "3121-9238",
+   "vagas": 40
+  },
+  {
+   "curso": "Serviço Social (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 112.0,
+   "par": "3101-8014",
+   "vagas": 20
+  },
+  {
+   "curso": "Educação Social",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 108.5,
+   "par": "3121-9084",
+   "vagas": 20
+  },
+  {
+   "curso": "Educação Social",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 106.0,
+   "par": "3042-9084",
+   "vagas": 90
+  },
+  {
+   "curso": "Serviço Social",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 104.5,
+   "par": "3186-9238",
+   "vagas": 55
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 24,

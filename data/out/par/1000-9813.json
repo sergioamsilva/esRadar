@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 97.8,
+   "fora": 0.7,
+   "muda_curso": 0,
+   "muda_estabelecimento": 1.5,
+   "novos_inscritos": 274
+  },
+  "desemprego": {
+   "diplomados": 534,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 268,
+   "nota_final_media": 15.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 121,
+    "nota_ingresso_media": 18.9,
+    "percentil": 80.3
+   },
+   "2021": {
+    "matriculados": 121,
+    "nota_ingresso_media": 18.9,
+    "percentil": 83.1
+   },
+   "2022": {
+    "matriculados": 122,
+    "nota_ingresso_media": 18.7,
+    "percentil": 83.9
+   },
+   "2023": {
+    "matriculados": 122,
+    "nota_ingresso_media": 18.7,
+    "percentil": 84.2
+   },
+   "2024": {
+    "matriculados": 123,
+    "nota_ingresso_media": 18.7,
+    "percentil": 85.2
+   },
+   "2025": {
+    "matriculados": 123,
+    "nota_ingresso_media": 18.6,
+    "percentil": 83.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 225,
+   "inscritos": 868,
+   "mulheres": 643
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 140,
  "minimo_provas": 140,
  "par": "1000-9813",
+ "pct_colocados_1opcao_2025": 71,
+ "percentil_nota_2026": 99,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade do Porto",
+   "nota": 186.7,
+   "par": "1108-9813",
+   "vagas": 245
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade do Porto",
+   "nota": 185.7,
+   "par": "1110-9813",
+   "vagas": 155
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Aveiro",
+   "nota": 183.8,
+   "par": "0300-9813",
+   "vagas": 40
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 181.8,
+   "par": "1204-9813",
+   "vagas": 40
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Coimbra",
+   "nota": 180.7,
+   "par": "0506-9813",
+   "vagas": 291
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 120,

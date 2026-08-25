@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Vila Real",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.5,
+    "percentil": 40.9
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança (Chaves)",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7016-9504",
+ "pct_colocados_1opcao_2025": 67,
+ "percentil_nota_2026": 82,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 160.8,
+   "par": "7250-9504",
+   "vagas": 49
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 159.5,
+   "par": "3155-9504",
+   "vagas": 44
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Universidade do Algarve",
+   "nota": 159.5,
+   "par": "7035-9504",
+   "vagas": 26
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 156.0,
+   "par": "7045-9504",
+   "vagas": 34
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 154.0,
+   "par": "7065-9504",
+   "vagas": 18
+  },
+  {
+   "curso": "Ciências da Nutrição",
+   "grupo": "Universidade de Lisboa",
+   "nota": 152.5,
+   "par": "1507-9554",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 209,

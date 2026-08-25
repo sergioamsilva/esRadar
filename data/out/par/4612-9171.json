@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Lusofonia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 52.6,
+   "fora": 31.6,
+   "muda_curso": 0,
+   "muda_estabelecimento": 15.8,
+   "novos_inscritos": 19
+  },
+  "diplomados": {
+   "n": 40,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 19,
+   "inscritos": 30,
+   "mulheres": 11
+  }
+ },
  "instituicao": "Instituto Politécnico da Lusofonia - Escola Superior de Ciências da Administração",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

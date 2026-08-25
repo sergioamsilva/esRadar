@@ -11,11 +11,90 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 70.8,
+   "fora": 12.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 16.7,
+   "novos_inscritos": 24
+  },
+  "percentil_entrada": {
+   "2023": {
+    "matriculados": 20,
+    "nota_ingresso_media": 14.4,
+    "percentil": 24.8
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.1,
+    "percentil": 17.9
+   },
+   "2025": {
+    "matriculados": 8,
+    "nota_ingresso_media": 13.2,
+    "percentil": 22.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 31,
+   "inscritos": 43,
+   "mulheres": 12
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0602-L227",
+ "pct_colocados_1opcao_2025": 75,
+ "percentil_nota_2026": 23,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia de Software Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 122.5,
+   "par": "3014-L417",
+   "vagas": 20
+  },
+  {
+   "curso": "Informática de Gestão",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 119.5,
+   "par": "3063-9186",
+   "vagas": 41
+  },
+  {
+   "curso": "Segurança Informática em Redes de Computadores",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 119.5,
+   "par": "3138-8398",
+   "vagas": 22
+  },
+  {
+   "curso": "Inteligência Artificial e Ciência de Dados",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 116.8,
+   "par": "0400-L227",
+   "vagas": 29
+  },
+  {
+   "curso": "Engenharia em Desenvolvimento de Jogos Digitais",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 115.5,
+   "par": "3032-8311",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia de Redes e Sistemas de Computadores",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 115.0,
+   "par": "3163-L153",
+   "vagas": 36
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 112,

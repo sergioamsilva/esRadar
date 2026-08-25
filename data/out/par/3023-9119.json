@@ -11,11 +11,83 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Faro, Portalegre, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n813 Agrupamento 1 / Informática\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Beja",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.4,
+   "fora": 14.9,
+   "muda_curso": 2.2,
+   "muda_estabelecimento": 7.5,
+   "novos_inscritos": 134
+  },
+  "desemprego": {
+   "diplomados": 98,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.5
+  },
+  "diplomados": {
+   "n": 52,
+   "nota_final_media": 13.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 231,
+   "inscritos": 254,
+   "mulheres": 23
+  }
+ },
  "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3023-9119",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 20,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n13 Inglês\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 118.5,
+   "par": "3143-9119",
+   "vagas": 66
+  },
+  {
+   "curso": "Engenharia Informática e de Computadores",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 118.0,
+   "par": "3118-9121",
+   "vagas": 138
+  },
+  {
+   "curso": "Engenharia Informática e Telecomunicações",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 117.5,
+   "par": "3186-9122",
+   "vagas": 36
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 115.5,
+   "par": "0400-9112",
+   "vagas": 24
+  },
+  {
+   "curso": "Engenharia de Micro e Nanotecnologias",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 115.0,
+   "par": "0903-L231",
+   "vagas": 55
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 114.5,
+   "par": "3242-9112",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 11,

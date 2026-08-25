@@ -11,11 +11,90 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 90.9,
+   "fora": 4.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.5,
+   "novos_inscritos": 22
+  },
+  "percentil_entrada": {
+   "2023": {
+    "matriculados": 19,
+    "nota_ingresso_media": 14.1,
+    "percentil": 22.8
+   },
+   "2024": {
+    "matriculados": 18,
+    "nota_ingresso_media": 15.2,
+    "percentil": 44.5
+   },
+   "2025": {
+    "matriculados": 18,
+    "nota_ingresso_media": 14.8,
+    "percentil": 38.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 18,
+   "inscritos": 40,
+   "mulheres": 22
+  }
+ },
  "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3162-L284",
+ "pct_colocados_1opcao_2025": 45,
+ "percentil_nota_2026": 59,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Som e Imagem",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 146.0,
+   "par": "3103-9457",
+   "vagas": 65
+  },
+  {
+   "curso": "Design de Comunicação",
+   "grupo": "Universidade do Algarve",
+   "nota": 144.0,
+   "par": "3081-9070",
+   "vagas": 40
+  },
+  {
+   "curso": "Cinema",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 140.0,
+   "par": "0400-9048",
+   "vagas": 50
+  },
+  {
+   "curso": "Comunicação e Design Multimédia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 138.5,
+   "par": "3062-9894",
+   "vagas": 39
+  },
+  {
+   "curso": "Design Gráfico (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 135.5,
+   "par": "3033-9873",
+   "vagas": 25
+  },
+  {
+   "curso": "Design de Comunicação",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 133.5,
+   "par": "3124-9070",
+   "vagas": 26
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 55,

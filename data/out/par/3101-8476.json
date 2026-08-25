@@ -11,6 +11,32 @@
  "formula": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 77.8,
+   "fora": 11.1,
+   "muda_curso": 2.2,
+   "muda_estabelecimento": 8.9,
+   "novos_inscritos": 45
+  },
+  "desemprego": {
+   "diplomados": 251,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.3
+  },
+  "diplomados": {
+   "n": 40,
+   "nota_final_media": 14.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 16,
+   "inscritos": 71,
+   "mulheres": 55
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
  "minimo_candidatura": null,
  "minimo_provas": null,

@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Lisboa, Santarém, Setúbal",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Educação",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3151-9876",
+ "percentil_nota_2026": 20,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 124.3,
+   "par": "3142-9853",
+   "vagas": 70
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 123.0,
+   "par": "3042-9853",
+   "vagas": 75
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 120.8,
+   "par": "3052-9853",
+   "vagas": 42
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 112.8,
+   "par": "3022-9853",
+   "vagas": 42
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 111.5,
+   "par": "3091-9853",
+   "vagas": 44
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 107.8,
+   "par": "3121-9853",
+   "vagas": 65
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 17,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 71.5,
+   "fora": 14.6,
+   "muda_curso": 1.5,
+   "muda_estabelecimento": 12.3,
+   "novos_inscritos": 130
+  },
+  "desemprego": {
+   "diplomados": 317,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.0
+  },
+  "diplomados": {
+   "n": 85,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 69,
+    "nota_ingresso_media": 15.5,
+    "percentil": 52.6
+   },
+   "2021": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.9,
+    "percentil": 67.0
+   },
+   "2022": {
+    "matriculados": 53,
+    "nota_ingresso_media": 15.8,
+    "percentil": 60.4
+   },
+   "2023": {
+    "matriculados": 49,
+    "nota_ingresso_media": 15.9,
+    "percentil": 57.4
+   },
+   "2024": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.8,
+    "percentil": 48.2
+   },
+   "2025": {
+    "matriculados": 54,
+    "nota_ingresso_media": 15.2,
+    "percentil": 52.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 181,
+   "mulheres": 130
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3117-9242",
+ "pct_colocados_1opcao_2025": 18,
+ "percentil_nota_2026": 77,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n11 História\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Direito",
+   "grupo": "Universidade de Lisboa",
+   "nota": 153.0,
+   "par": "1504-9078",
+   "vagas": 445
+  },
+  {
+   "curso": "Solicitadoria",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 153.0,
+   "par": "3031-9242",
+   "vagas": 39
+  },
+  {
+   "curso": "Solicitadoria e Administração",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 152.5,
+   "par": "3063-9801",
+   "vagas": 66
+  },
+  {
+   "curso": "Solicitadoria (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 147.0,
+   "par": "3138-8015",
+   "vagas": 19
+  },
+  {
+   "curso": "Solicitadoria (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 142.0,
+   "par": "3031-8015",
+   "vagas": 25
+  },
+  {
+   "curso": "Direito (regime pós-laboral)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 141.5,
+   "par": "1504-8358",
+   "vagas": 82
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 58,

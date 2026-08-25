@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Lusofonia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 63.0,
+   "fora": 11.1,
+   "muda_curso": 7.4,
+   "muda_estabelecimento": 18.5,
+   "novos_inscritos": 27
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 11,
+   "inscritos": 32,
+   "mulheres": 21
+  }
+ },
  "instituicao": "Instituto Politécnico da Lusofonia - Escola Superior de Saúde Ribeiro Sanches",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

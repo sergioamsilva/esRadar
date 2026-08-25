@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.9,
+   "fora": 6.5,
+   "muda_curso": 0.6,
+   "muda_estabelecimento": 5.9,
+   "novos_inscritos": 475
+  },
+  "desemprego": {
+   "diplomados": 755,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.1
+  },
+  "diplomados": {
+   "n": 379,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 194,
+    "nota_ingresso_media": 17.6,
+    "percentil": 70.1
+   },
+   "2021": {
+    "matriculados": 173,
+    "nota_ingresso_media": 17.2,
+    "percentil": 69.1
+   },
+   "2022": {
+    "matriculados": 176,
+    "nota_ingresso_media": 17.4,
+    "percentil": 67.7
+   },
+   "2023": {
+    "matriculados": 174,
+    "nota_ingresso_media": 16.9,
+    "percentil": 62.6
+   },
+   "2024": {
+    "matriculados": 176,
+    "nota_ingresso_media": 17.3,
+    "percentil": 64.6
+   },
+   "2025": {
+    "matriculados": 170,
+    "nota_ingresso_media": 16.9,
+    "percentil": 67.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 404,
+   "inscritos": 798,
+   "mulheres": 394
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6800-9147",
+ "pct_colocados_1opcao_2025": 51,
+ "percentil_nota_2026": 91,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Gestão (ensino em Inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 171.3,
+   "par": "1517-A001",
+   "vagas": 60
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade do Minho",
+   "nota": 169.8,
+   "par": "1000-9147",
+   "vagas": 95
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Lisboa",
+   "nota": 168.6,
+   "par": "1517-9147",
+   "vagas": 137
+  },
+  {
+   "curso": "Gestão de Recursos Humanos",
+   "grupo": "ISCTE",
+   "nota": 165.8,
+   "par": "6800-9157",
+   "vagas": 40
+  },
+  {
+   "curso": "Comércio Internacional",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 165.5,
+   "par": "3134-9716",
+   "vagas": 38
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Coimbra",
+   "nota": 164.3,
+   "par": "0503-9147",
+   "vagas": 100
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 175,

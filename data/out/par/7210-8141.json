@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 79.4,
+   "fora": 3.2,
+   "muda_curso": 7.9,
+   "muda_estabelecimento": 9.5,
+   "novos_inscritos": 63
+  },
+  "desemprego": {
+   "diplomados": 108,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 43,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 48,
+    "nota_ingresso_media": 13.4,
+    "percentil": 20.1
+   },
+   "2021": {
+    "matriculados": 38,
+    "nota_ingresso_media": 14.0,
+    "percentil": 16.8
+   },
+   "2022": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.2,
+    "percentil": 21.4
+   },
+   "2023": {
+    "matriculados": 29,
+    "nota_ingresso_media": 13.8,
+    "percentil": 17.1
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 13.5,
+    "percentil": 16.2
+   },
+   "2025": {
+    "matriculados": 3,
+    "nota_ingresso_media": 13.4,
+    "percentil": 20.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 33,
+   "inscritos": 125,
+   "mulheres": 92
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7210-8141",
+ "pct_colocados_1opcao_2025": 67,
+ "percentil_nota_2026": 15,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 121.3,
+   "par": "7040-L068",
+   "vagas": 20
+  },
+  {
+   "curso": "Optometria e Ciências da Visão",
+   "grupo": "Universidade do Minho",
+   "nota": 119.5,
+   "par": "1000-8184",
+   "vagas": 32
+  },
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 119.5,
+   "par": "7020-L067",
+   "vagas": 30
+  },
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 113.0,
+   "par": "7015-L068",
+   "vagas": 50
+  },
+  {
+   "curso": "Optometria e Ciências da Visão",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 111.5,
+   "par": "0400-8184",
+   "vagas": 40
+  },
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 109.8,
+   "par": "7020-L068",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 15,

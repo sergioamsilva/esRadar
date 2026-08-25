@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.4,
+   "fora": 11.0,
+   "muda_curso": 0.8,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 118
+  },
+  "desemprego": {
+   "diplomados": 190,
+   "periodo": "2020/21_2023/24",
+   "taxa": 8.4
+  },
+  "diplomados": {
+   "n": 92,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 50,
+    "nota_ingresso_media": 14.5,
+    "percentil": 48.2
+   },
+   "2021": {
+    "matriculados": 47,
+    "nota_ingresso_media": 15.4,
+    "percentil": 54.6
+   },
+   "2022": {
+    "matriculados": 46,
+    "nota_ingresso_media": 15.2,
+    "percentil": 48.6
+   },
+   "2023": {
+    "matriculados": 45,
+    "nota_ingresso_media": 15.6,
+    "percentil": 52.0
+   },
+   "2024": {
+    "matriculados": 45,
+    "nota_ingresso_media": 15.3,
+    "percentil": 53.9
+   },
+   "2025": {
+    "matriculados": 45,
+    "nota_ingresso_media": 14.7,
+    "percentil": 45.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 25,
+   "inscritos": 221,
+   "mulheres": 196
+  }
+ },
  "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1202-9238",
+ "pct_colocados_1opcao_2025": 46,
+ "percentil_nota_2026": 60,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Social",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 152.0,
+   "par": "3131-9084",
+   "vagas": 54
+  },
+  {
+   "curso": "Serviço Social",
+   "grupo": "Universidade de Lisboa",
+   "nota": 146.5,
+   "par": "1516-9238",
+   "vagas": 54
+  },
+  {
+   "curso": "Serviço Social (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 142.0,
+   "par": "6800-8014",
+   "vagas": 14
+  },
+  {
+   "curso": "Serviço Social (regime pós-laboral)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 137.0,
+   "par": "1516-8014",
+   "vagas": 32
+  },
+  {
+   "curso": "Serviço Social",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 134.0,
+   "par": "3101-9238",
+   "vagas": 39
+  },
+  {
+   "curso": "Educação Social (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 134.0,
+   "par": "3131-9879",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 44,

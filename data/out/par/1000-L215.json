@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.7,
+   "fora": 1.9,
+   "muda_curso": 2.9,
+   "muda_estabelecimento": 3.5,
+   "novos_inscritos": 312
+  },
+  "desemprego": {
+   "diplomados": 440,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.6
+  },
+  "diplomados": {
+   "n": 216,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2021": {
+    "matriculados": 145,
+    "nota_ingresso_media": 14.8,
+    "percentil": 30.7
+   },
+   "2022": {
+    "matriculados": 141,
+    "nota_ingresso_media": 15.3,
+    "percentil": 31.1
+   },
+   "2023": {
+    "matriculados": 141,
+    "nota_ingresso_media": 15.5,
+    "percentil": 34.8
+   },
+   "2024": {
+    "matriculados": 141,
+    "nota_ingresso_media": 15.7,
+    "percentil": 35.2
+   },
+   "2025": {
+    "matriculados": 141,
+    "nota_ingresso_media": 15.2,
+    "percentil": 45.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 400,
+   "inscritos": 534,
+   "mulheres": 134
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1000-L215",
+ "pct_colocados_1opcao_2025": 72,
+ "percentil_nota_2026": 53,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n04 Economia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Ciência de Dados",
+   "grupo": "Universidade do Minho",
+   "nota": 141.5,
+   "par": "1000-L188",
+   "vagas": 36
+  },
+  {
+   "curso": "Ciência de Dados (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 140.5,
+   "par": "6800-L189",
+   "vagas": 30
+  },
+  {
+   "curso": "Inteligência Artificial e Ciência de Dados",
+   "grupo": "Universidade de Coimbra",
+   "nota": 140.0,
+   "par": "0501-L227",
+   "vagas": 55
+  },
+  {
+   "curso": "Ciência de Dados para a Gestão",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 135.3,
+   "par": "3063-L310",
+   "vagas": 37
+  },
+  {
+   "curso": "Sistemas de Informação para a Gestão",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 130.3,
+   "par": "3138-L429",
+   "vagas": 22
+  },
+  {
+   "curso": "Tecnologias de Informação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 130.0,
+   "par": "1503-L079",
+   "vagas": 65
+  }
+ ],
  "series": {
   "2021f1": {
    "colocados": 145,

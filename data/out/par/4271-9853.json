@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Ciências Educativas do Douro",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 97.2,
+   "fora": 2.8,
+   "muda_curso": 0,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 36
+  },
+  "desemprego": {
+   "diplomados": 39,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 36,
+   "nota_final_media": 16.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 6,
+   "inscritos": 71,
+   "mulheres": 65
+  }
+ },
  "instituicao": "Instituto Superior de Ciências Educativas do Douro",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -11,11 +11,95 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Leiria, Lisboa, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n736 Técnico de Eletricidade de Edificações\n737 Técnico de Eletricidade de Manutenção\n738 Técnico de Eletricidade e Eletrónica Auto\n739 Técnico de Eletricidade Naval\n740 Técnico de Eletrónica\n754 Técnico de Instrumentação\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 64.4,
+   "fora": 28.8,
+   "muda_curso": 5.1,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 59
+  },
+  "desemprego": {
+   "diplomados": 47,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 27,
+   "nota_final_media": 13.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2024": {
+    "matriculados": 1,
+    "nota_ingresso_media": 15.4,
+    "percentil": 44.6
+   },
+   "2025": {
+    "matriculados": 4,
+    "nota_ingresso_media": 13.9,
+    "percentil": 27.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 70,
+   "inscritos": 81,
+   "mulheres": 11
+  }
+ },
  "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3242-9112",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 16,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 116.5,
+   "par": "3023-9119",
+   "vagas": 59
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 115.5,
+   "par": "0400-9112",
+   "vagas": 24
+  },
+  {
+   "curso": "Engenharia de Micro e Nanotecnologias",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 115.0,
+   "par": "0903-L231",
+   "vagas": 55
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 114.0,
+   "par": "1203-9119",
+   "vagas": 140
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade da Madeira",
+   "nota": 113.5,
+   "par": "1307-9119",
+   "vagas": 100
+  },
+  {
+   "curso": "Eletrónica e Mecânica Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 113.0,
+   "par": "3012-L194",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 1,

@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n716 Rececionista de Hotel\nP77 Técnico de Receção\nP81 Técnico de Restauração\nR39 Rececionista de Hotel\nS55 Técnicas de Serviço de Restauração e Bebidas (Port 57/2009)\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS58 Restaurante/Bar (Portaria n.º 846/2007)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS78 Técnico de Restaurante/Bar\nS86 Técnico de Restaurante Bar (Portaria n.º 102/2020)\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nU16 Técnico de Restaurante/Bar\nU17 Técnico de Receção Hoteleira\nU56 Técnico de Alojamento Hoteleiro",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.8,
+   "fora": 4.6,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.6,
+   "novos_inscritos": 130
+  },
+  "desemprego": {
+   "diplomados": 439,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.7
+  },
+  "diplomados": {
+   "n": 126,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 68,
+    "nota_ingresso_media": 15.7,
+    "percentil": 54.0
+   },
+   "2021": {
+    "matriculados": 60,
+    "nota_ingresso_media": 15.5,
+    "percentil": 51.6
+   },
+   "2022": {
+    "matriculados": 53,
+    "nota_ingresso_media": 15.5,
+    "percentil": 50.4
+   },
+   "2023": {
+    "matriculados": 59,
+    "nota_ingresso_media": 15.7,
+    "percentil": 49.6
+   },
+   "2024": {
+    "matriculados": 61,
+    "nota_ingresso_media": 15.8,
+    "percentil": 56.0
+   },
+   "2025": {
+    "matriculados": 44,
+    "nota_ingresso_media": 14.0,
+    "percentil": 31.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 98,
+   "inscritos": 224,
+   "mulheres": 126
+  }
+ },
  "instituicao": "Escola Superior de Hotelaria e Turismo do Estoril",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7110-9076",
+ "pct_colocados_1opcao_2025": 59,
+ "percentil_nota_2026": 58,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n19 Matemática A\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Gestão e Administração Hoteleira",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 153.0,
+   "par": "3139-9164",
+   "vagas": 44
+  },
+  {
+   "curso": "Gastronomia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 136.5,
+   "par": "3062-L095",
+   "vagas": 20
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 124.0,
+   "par": "3034-9173",
+   "vagas": 33
+  },
+  {
+   "curso": "Gestão da Restauração e Catering",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 121.5,
+   "par": "3139-L131",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 61,

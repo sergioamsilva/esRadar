@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 41,
+    "nota_ingresso_media": 15.2,
+    "percentil": 43.5
+   }
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Direito",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "0502-9002",
+ "pct_colocados_1opcao_2025": 49,
+ "percentil_nota_2026": 83,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n13 Inglês\n16 Matemática\nou\n13 Inglês\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 158.8,
+   "par": "1202-9147",
+   "vagas": 71
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 158.5,
+   "par": "3117-9147",
+   "vagas": 125
+  },
+  {
+   "curso": "Gestão de Informação",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 158.3,
+   "par": "0906-9155",
+   "vagas": 64
+  },
+  {
+   "curso": "Administração Pública",
+   "grupo": "Universidade do Minho",
+   "nota": 156.5,
+   "par": "1000-9002",
+   "vagas": 41
+  },
+  {
+   "curso": "Gestão de Recursos Humanos",
+   "grupo": "Universidade de Lisboa",
+   "nota": 154.5,
+   "par": "1516-9157",
+   "vagas": 65
+  },
+  {
+   "curso": "Recursos Humanos",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 154.5,
+   "par": "3134-9227",
+   "vagas": 60
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 190,

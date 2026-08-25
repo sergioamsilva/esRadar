@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 20,
+    "nota_ingresso_media": 14.6,
+    "percentil": 34.1
+   }
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0903-L358",
+ "pct_colocados_1opcao_2025": 59,
+ "percentil_nota_2026": 6,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Informática (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 109.5,
+   "par": "6800-9885",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia Eletrónica e Telecomunicações e de Computadores",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 109.0,
+   "par": "3118-9108",
+   "vagas": 50
+  },
+  {
+   "curso": "Engenharia Informática e de Computadores",
+   "grupo": "Escola Superior Náutica Infante D. Henrique",
+   "nota": 109.0,
+   "par": "7105-9121",
+   "vagas": 36
+  },
+  {
+   "curso": "Engenharia Informática (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 106.0,
+   "par": "3064-9885",
+   "vagas": 21
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores (regime noturno)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 105.0,
+   "par": "3102-L266",
+   "vagas": 5
+  },
+  {
+   "curso": "Engenharia de Sistemas de Computadores",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 99.0,
+   "par": "3118-L416",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 97,

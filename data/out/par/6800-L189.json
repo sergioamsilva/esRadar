@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.5,
+   "fora": 8.9,
+   "muda_curso": 7.6,
+   "muda_estabelecimento": 5.1,
+   "novos_inscritos": 79
+  },
+  "desemprego": {
+   "diplomados": 134,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.8
+  },
+  "diplomados": {
+   "n": 42,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 30,
+    "nota_ingresso_media": 15.1,
+    "percentil": 37.0
+   },
+   "2021": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.9,
+    "percentil": 40.5
+   },
+   "2022": {
+    "matriculados": 28,
+    "nota_ingresso_media": 15.6,
+    "percentil": 45.6
+   },
+   "2023": {
+    "matriculados": 29,
+    "nota_ingresso_media": 15.4,
+    "percentil": 39.9
+   },
+   "2024": {
+    "matriculados": 28,
+    "nota_ingresso_media": 15.4,
+    "percentil": 39.1
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.9,
+    "percentil": 47.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 92,
+   "inscritos": 116,
+   "mulheres": 24
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6800-L189",
+ "pct_colocados_1opcao_2025": 17,
+ "percentil_nota_2026": 60,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia de Sistemas Informáticos",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 147.0,
+   "par": "3032-8409",
+   "vagas": 33
+  },
+  {
+   "curso": "Informática e Gestão de Empresas (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "nota": 144.3,
+   "par": "6800-8366",
+   "vagas": 35
+  },
+  {
+   "curso": "Ciência de Dados",
+   "grupo": "Universidade do Minho",
+   "nota": 141.5,
+   "par": "1000-L188",
+   "vagas": 36
+  },
+  {
+   "curso": "Inteligência Artificial e Ciência de Dados",
+   "grupo": "Universidade de Coimbra",
+   "nota": 140.0,
+   "par": "0501-L227",
+   "vagas": 55
+  },
+  {
+   "curso": "Engenharia e Gestão de Sistemas de Informação",
+   "grupo": "Universidade do Minho",
+   "nota": 136.5,
+   "par": "1000-L215",
+   "vagas": 141
+  },
+  {
+   "curso": "Ciência de Dados para a Gestão",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 135.3,
+   "par": "3063-L310",
+   "vagas": 37
+  }
+ ],
  "series": {
   "2019f1": {
    "colocados": 30,

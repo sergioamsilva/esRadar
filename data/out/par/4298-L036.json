@@ -11,6 +11,19 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISEC Lisboa",
+ "infocursos": {
+  "diplomados": {
+   "n": 38,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 9,
+   "inscritos": 38,
+   "mulheres": 29
+  }
+ },
  "instituicao": "ISEC Lisboa - Instituto Superior de Educação e Ciências",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

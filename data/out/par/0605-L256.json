@@ -11,11 +11,67 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.5,
+   "fora": 3.6,
+   "muda_curso": 3.6,
+   "muda_estabelecimento": 7.3,
+   "novos_inscritos": 55
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 20,
+    "nota_ingresso_media": 16.2,
+    "percentil": 47.5
+   },
+   "2023": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.9,
+    "percentil": 33.4
+   },
+   "2024": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.9,
+    "percentil": 34.8
+   },
+   "2025": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.1,
+    "percentil": 45.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 14,
+   "inscritos": 84,
+   "mulheres": 70
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Saúde e Desenvolvimento Humano",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0605-L256",
+ "pct_colocados_1opcao_2025": 56,
+ "percentil_nota_2026": 47,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia (50%)\nou\n02 Biologia e Geologia (25%)\n16 Matemática (25%)\nou\n02 Biologia e Geologia (25%)\n18 Português (25%)\nou\n02 Biologia e Geologia (25%)\n06 Filosofia (25%)\nou\n02 Biologia e Geologia (25%)\n07 Física e Química (25%)\nou\n02 Biologia e Geologia (15%)\n07 Física e Química (15%)\n16 Matemática (20%)",
+ "semelhantes": [
+  {
+   "curso": "Osteopatia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 144.5,
+   "par": "7230-L136",
+   "vagas": 24
+  },
+  {
+   "curso": "Osteopatia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 136.3,
+   "par": "3046-L136",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 20,

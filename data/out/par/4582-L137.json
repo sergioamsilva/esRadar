@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Maia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 70.0,
+   "fora": 23.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 6.7,
+   "novos_inscritos": 30
+  },
+  "desemprego": {
+   "diplomados": 61,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.2
+  },
+  "diplomados": {
+   "n": 39,
+   "nota_final_media": 13.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 50,
+   "inscritos": 63,
+   "mulheres": 13
+  }
+ },
  "instituicao": "Instituto Politécnico da Maia - Escola Superior de Tecnologia e Gestão",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

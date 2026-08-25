@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.8,
+   "fora": 3.3,
+   "muda_curso": 2.2,
+   "muda_estabelecimento": 2.7,
+   "novos_inscritos": 184
+  },
+  "desemprego": {
+   "diplomados": 378,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.2
+  },
+  "diplomados": {
+   "n": 117,
+   "nota_final_media": 13.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2021": {
+    "matriculados": 85,
+    "nota_ingresso_media": 17.2,
+    "percentil": 52.1
+   },
+   "2022": {
+    "matriculados": 82,
+    "nota_ingresso_media": 17.2,
+    "percentil": 53.7
+   },
+   "2023": {
+    "matriculados": 82,
+    "nota_ingresso_media": 17.4,
+    "percentil": 64.3
+   },
+   "2024": {
+    "matriculados": 83,
+    "nota_ingresso_media": 17.6,
+    "percentil": 62.8
+   },
+   "2025": {
+    "matriculados": 83,
+    "nota_ingresso_media": 16.9,
+    "percentil": 60.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 252,
+   "inscritos": 313,
+   "mulheres": 61
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1000-9123",
+ "pct_colocados_1opcao_2025": 65,
+ "percentil_nota_2026": 92,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Mecânica",
+   "grupo": "Universidade do Porto",
+   "nota": 181.8,
+   "par": "1105-9123",
+   "vagas": 210
+  },
+  {
+   "curso": "Engenharia Mecânica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 176.0,
+   "par": "1518-9123",
+   "vagas": 160
+  },
+  {
+   "curso": "Engenharia Mecânica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 169.0,
+   "par": "3135-9123",
+   "vagas": 120
+  },
+  {
+   "curso": "Engenharia Mecânica",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 163.0,
+   "par": "0903-9123",
+   "vagas": 77
+  },
+  {
+   "curso": "Engenharia Mecânica",
+   "grupo": "Universidade de Aveiro",
+   "nota": 158.5,
+   "par": "0300-9123",
+   "vagas": 101
+  },
+  {
+   "curso": "Engenharia Mecânica Computacional",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 142.0,
+   "par": "0400-L295",
+   "vagas": 15
+  }
+ ],
  "series": {
   "2021f1": {
    "colocados": 87,

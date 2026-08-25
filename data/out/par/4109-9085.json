@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Saúde do Norte",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 71.4,
+   "fora": 9.5,
+   "muda_curso": 4.8,
+   "muda_estabelecimento": 14.3,
+   "novos_inscritos": 21
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 7,
+   "inscritos": 34,
+   "mulheres": 27
+  }
+ },
  "instituicao": "Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Tecnologias da Saúde do Tâmega e Sousa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

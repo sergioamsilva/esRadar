@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesCiclo de estudos ministrado no campus da Alameda",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 76.6,
+   "fora": 3.1,
+   "muda_curso": 12.5,
+   "muda_estabelecimento": 7.8,
+   "novos_inscritos": 64
+  },
+  "desemprego": {
+   "diplomados": 63,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 35,
+   "nota_final_media": 13.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 35,
+    "nota_ingresso_media": 17.4,
+    "percentil": 67.0
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 17.2,
+    "percentil": 60.9
+   },
+   "2022": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.6,
+    "percentil": 53.7
+   },
+   "2023": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.5,
+    "percentil": 54.5
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 17.7,
+    "percentil": 69.1
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 17.0,
+    "percentil": 66.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 96,
+   "inscritos": 121,
+   "mulheres": 25
+  }
+ },
  "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
  "minimo_candidatura": 120,
  "minimo_provas": 100,
  "par": "1518-L162",
+ "pct_colocados_1opcao_2025": 53,
+ "percentil_nota_2026": 92,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Lisboa",
+   "nota": 186.0,
+   "par": "1518-L221",
+   "vagas": 135
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 177.5,
+   "par": "0300-L221",
+   "vagas": 50
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 171.3,
+   "par": "0903-L221",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Mecânica Automóvel",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 153.8,
+   "par": "3135-9936",
+   "vagas": 45
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Évora",
+   "nota": 144.0,
+   "par": "0602-L221",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Aeronáutica",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 143.3,
+   "par": "0400-9740",
+   "vagas": 61
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 30,

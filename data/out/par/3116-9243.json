@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.0,
+   "fora": 10.3,
+   "muda_curso": 0,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 117
+  },
+  "desemprego": {
+   "diplomados": 232,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 120,
+   "nota_final_media": 16.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 71,
+   "inscritos": 209,
+   "mulheres": 138
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Teatro e Cinema",
  "minimo_candidatura": null,
  "minimo_provas": null,

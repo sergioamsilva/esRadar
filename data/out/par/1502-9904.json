@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 84.8,
+   "fora": 5.3,
+   "muda_curso": 3.3,
+   "muda_estabelecimento": 6.6,
+   "novos_inscritos": 151
+  },
+  "desemprego": {
+   "diplomados": 224,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.5
+  },
+  "diplomados": {
+   "n": 106,
+   "nota_final_media": 15.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 55,
+    "nota_ingresso_media": 18.0,
+    "percentil": 73.7
+   },
+   "2021": {
+    "matriculados": 62,
+    "nota_ingresso_media": 17.9,
+    "percentil": 76.3
+   },
+   "2022": {
+    "matriculados": 66,
+    "nota_ingresso_media": 18.0,
+    "percentil": 77.7
+   },
+   "2023": {
+    "matriculados": 71,
+    "nota_ingresso_media": 17.4,
+    "percentil": 74.2
+   },
+   "2024": {
+    "matriculados": 71,
+    "nota_ingresso_media": 16.1,
+    "percentil": 50.8
+   },
+   "2025": {
+    "matriculados": 73,
+    "nota_ingresso_media": 16.4,
+    "percentil": 57.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 57,
+   "inscritos": 219,
+   "mulheres": 162
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Belas-Artes",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1502-9904",
+ "pct_colocados_1opcao_2025": 68,
+ "percentil_nota_2026": 71,
  "provas_ingresso": "03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Design e Multimédia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 150.0,
+   "par": "0501-9891",
+   "vagas": 77
+  },
+  {
+   "curso": "Multimédia e Tecnologias da Comunicação",
+   "grupo": "Universidade de Aveiro",
+   "nota": 149.5,
+   "par": "0300-L254",
+   "vagas": 78
+  },
+  {
+   "curso": "Artes Visuais e Tecnologias",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 149.0,
+   "par": "3112-8307",
+   "vagas": 87
+  },
+  {
+   "curso": "Som e Imagem",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 146.0,
+   "par": "3103-9457",
+   "vagas": 65
+  },
+  {
+   "curso": "Design de Comunicação",
+   "grupo": "Universidade do Algarve",
+   "nota": 144.0,
+   "par": "3081-9070",
+   "vagas": 40
+  },
+  {
+   "curso": "Cinema",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 140.0,
+   "par": "0400-9048",
+   "vagas": 50
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 57,

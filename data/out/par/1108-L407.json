@@ -11,11 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": null,
  "instituicao": "Universidade do Porto - Faculdade de Medicina",
  "minimo_candidatura": 140,
  "minimo_provas": 140,
  "par": "1108-L407",
+ "percentil_nota_2026": 89,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Saúde Digital e Inovação Biomédica",
+   "grupo": "Universidade do Porto",
+   "nota": 179.5,
+   "par": "1108-L307",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 38,

@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, Portalegre, Santarém",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 13,
+    "nota_ingresso_media": 13.1,
+    "percentil": 20.0
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3243-L371",
+ "pct_colocados_1opcao_2025": 60,
+ "percentil_nota_2026": 37,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português\nou\n11 História\n18 Português\nou\n09 Geografia\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Design de Comunicação",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 133.5,
+   "par": "3124-9070",
+   "vagas": 26
+  },
+  {
+   "curso": "Jogos Digitais e Multimédia (ensino em inglês)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 128.5,
+   "par": "3102-A014",
+   "vagas": 65
+  },
+  {
+   "curso": "Imagem Animada",
+   "grupo": "Universidade do Algarve",
+   "nota": 127.5,
+   "par": "3081-8337",
+   "vagas": 36
+  },
+  {
+   "curso": "Comunicação e Multimédia",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 125.5,
+   "par": "1203-9052",
+   "vagas": 68
+  },
+  {
+   "curso": "Design de Animação",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 124.5,
+   "par": "3124-L308",
+   "vagas": 32
+  },
+  {
+   "curso": "Som e Imagem",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 121.5,
+   "par": "3124-9457",
+   "vagas": 15
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 52,

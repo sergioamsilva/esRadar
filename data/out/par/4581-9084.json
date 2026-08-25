@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Maia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.0,
+   "fora": 18.8,
+   "muda_curso": 0,
+   "muda_estabelecimento": 6.3,
+   "novos_inscritos": 32
+  },
+  "diplomados": {
+   "n": 14,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 7,
+   "inscritos": 59,
+   "mulheres": 52
+  }
+ },
  "instituicao": "Instituto Politécnico da Maia - Escola Superior de Ciências Sociais, Educação e Desporto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.5,
+   "fora": 4.8,
+   "muda_curso": 0,
+   "muda_estabelecimento": 9.7,
+   "novos_inscritos": 62
+  },
+  "desemprego": {
+   "diplomados": 145,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.7
+  },
+  "diplomados": {
+   "n": 79,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 41,
+   "inscritos": 103,
+   "mulheres": 62
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Escola Superior de Biotecnologia",
  "minimo_candidatura": null,
  "minimo_provas": null,

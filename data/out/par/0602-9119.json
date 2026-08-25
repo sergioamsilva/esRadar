@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.1,
+   "fora": 12.4,
+   "muda_curso": 3.4,
+   "muda_estabelecimento": 6.2,
+   "novos_inscritos": 178
+  },
+  "desemprego": {
+   "diplomados": 169,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.7
+  },
+  "diplomados": {
+   "n": 76,
+   "nota_final_media": 13.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 57,
+    "nota_ingresso_media": 14.9,
+    "percentil": 30.5
+   },
+   "2021": {
+    "matriculados": 60,
+    "nota_ingresso_media": 13.8,
+    "percentil": 22.4
+   },
+   "2022": {
+    "matriculados": 60,
+    "nota_ingresso_media": 14.7,
+    "percentil": 29.7
+   },
+   "2023": {
+    "matriculados": 60,
+    "nota_ingresso_media": 14.6,
+    "percentil": 30.8
+   },
+   "2024": {
+    "matriculados": 61,
+    "nota_ingresso_media": 15.2,
+    "percentil": 38.2
+   },
+   "2025": {
+    "matriculados": 47,
+    "nota_ingresso_media": 14.0,
+    "percentil": 30.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 271,
+   "inscritos": 313,
+   "mulheres": 42
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0602-9119",
+ "pct_colocados_1opcao_2025": 90,
+ "percentil_nota_2026": 10,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade da Madeira",
+   "nota": 113.5,
+   "par": "1307-9119",
+   "vagas": 100
+  },
+  {
+   "curso": "Eletrónica e Mecânica Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 113.0,
+   "par": "3012-L194",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia de Telecomunicações e Informática",
+   "grupo": "Universidade do Minho",
+   "nota": 111.8,
+   "par": "1000-9098",
+   "vagas": 36
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 111.5,
+   "par": "3053-9119",
+   "vagas": 90
+  },
+  {
+   "curso": "Tecnologias Digitais e Automação",
+   "grupo": "ISCTE",
+   "nota": 111.5,
+   "par": "6810-L273",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade do Algarve",
+   "nota": 110.5,
+   "par": "0203-9119",
+   "vagas": 84
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 45,

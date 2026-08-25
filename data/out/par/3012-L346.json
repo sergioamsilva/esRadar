@@ -11,11 +11,77 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
+ "infocursos": {
+  "percentil_entrada": {
+   "2024": {
+    "matriculados": 25,
+    "nota_ingresso_media": 15.0,
+    "percentil": 38.5
+   },
+   "2025": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.0,
+    "percentil": 30.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 33,
+   "inscritos": 38,
+   "mulheres": 5
+  }
+ },
  "instituicao": "Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3012-L346",
+ "pct_colocados_1opcao_2025": 86,
+ "percentil_nota_2026": 8,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia de Redes e Sistemas de Computadores",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 115.0,
+   "par": "3163-L153",
+   "vagas": 36
+  },
+  {
+   "curso": "Engenharia Informática e Multimédia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 113.5,
+   "par": "3118-L052",
+   "vagas": 94
+  },
+  {
+   "curso": "Engenharia de Sistemas Informáticos (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 111.0,
+   "par": "3032-8417",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia de Sistemas e Tecnologias Informáticas",
+   "grupo": "Universidade do Algarve",
+   "nota": 109.0,
+   "par": "3083-L269",
+   "vagas": 20
+  },
+  {
+   "curso": "Informática Web, Móvel e na Nuvem",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 108.0,
+   "par": "0400-L303",
+   "vagas": 21
+  },
+  {
+   "curso": "Ciência de Dados e Inteligência Artificial",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 107.5,
+   "par": "3092-L283",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 138,

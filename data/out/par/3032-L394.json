@@ -11,11 +11,50 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do Castelo",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "3032-L394",
+ "percentil_nota_2026": 42,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Tecnologias Digitais e Inteligência Artificial",
+   "grupo": "ISCTE",
+   "nota": 142.0,
+   "par": "6810-L277",
+   "vagas": 35
+  },
+  {
+   "curso": "Tecnologias Digitais e Segurança de Informação",
+   "grupo": "ISCTE",
+   "nota": 130.8,
+   "par": "6810-L329",
+   "vagas": 35
+  },
+  {
+   "curso": "Informática e Economia dos Dados",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 122.5,
+   "par": "3118-L419",
+   "vagas": 41
+  },
+  {
+   "curso": "Engenharia Informática, Redes e Telecomunicações",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 114.5,
+   "par": "3118-L119",
+   "vagas": 36
+  },
+  {
+   "curso": "Desenvolvimento de Software e Aplicações",
+   "grupo": "ISCTE",
+   "nota": 113.8,
+   "par": "6810-L278",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 25,

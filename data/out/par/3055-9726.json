@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n073 Produção Artística (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n707 Estilista\n711 Técnico de CAD/CAM\n729 Técnico de Calçado\n731 Técnico de Confeção\n757 Técnico de Malhas - Máquinas de Peúgas e Meias e Seamless\n763 Técnico de Modelação de Confeção\n767 Técnico de Tecelagem\n768 Técnico de Tinturaria e Estamparia\n796 Modelista de Vestuário\n821 Agrupamento 2 / Design\n822 Agrupamento 2 / Artes e Ofícios\n988 Recorrente - Produção Artística (DL 74/2004)\nG48 Design (Portaria n.º 265/2013)\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH48 Design\nP10 Modelista de Vestuário\nP32 Técnico de Coordenação e Produção de Moda\nP34 Técnico de Desenho de Calçado e Marroquinaria\nP37 Técnico de Design\nP38 Técnico de Design de Moda\nP54 Técnico de Gestão de Produção Têxtil e Vestuário\nP88 Técnico de Tinturaria, Estamparia e Acabamento\nR30 Artesão das Artes do Têxtil\nR63 Técnico de Desenho de Vestuário\nS04 Artesão Têxtil\nS10 Modelista de Calçado e Marroquinaria\nT13 Técnico de Desenho de Vestuário\nT14 Técnico de Design de Moda\nT21 Técnico de Enobrecimento Têxtil",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.4,
+   "fora": 6.3,
+   "muda_curso": 1.0,
+   "muda_estabelecimento": 7.3,
+   "novos_inscritos": 96
+  },
+  "desemprego": {
+   "diplomados": 118,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.3
+  },
+  "diplomados": {
+   "n": 54,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 36,
+    "nota_ingresso_media": 14.7,
+    "percentil": 32.2
+   },
+   "2021": {
+    "matriculados": 38,
+    "nota_ingresso_media": 15.6,
+    "percentil": 41.7
+   },
+   "2022": {
+    "matriculados": 42,
+    "nota_ingresso_media": 15.6,
+    "percentil": 50.4
+   },
+   "2023": {
+    "matriculados": 43,
+    "nota_ingresso_media": 15.1,
+    "percentil": 41.3
+   },
+   "2024": {
+    "matriculados": 41,
+    "nota_ingresso_media": 15.0,
+    "percentil": 39.9
+   },
+   "2025": {
+    "matriculados": 43,
+    "nota_ingresso_media": 14.0,
+    "percentil": 29.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 15,
+   "inscritos": 137,
+   "mulheres": 122
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3055-9726",
+ "pct_colocados_1opcao_2025": 50,
+ "percentil_nota_2026": 53,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n16 Matemática\n18 Português\nou\n11 História\n13 Inglês\nou\n03 Desenho\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Design do Produto",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 143.5,
+   "par": "3163-9727",
+   "vagas": 40
+  },
+  {
+   "curso": "Design",
+   "grupo": "Universidade da Madeira",
+   "nota": 142.0,
+   "par": "1306-9069",
+   "vagas": 33
+  },
+  {
+   "curso": "Design Multimédia",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 140.0,
+   "par": "0400-9075",
+   "vagas": 49
+  },
+  {
+   "curso": "Design Industrial",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 132.5,
+   "par": "0400-9074",
+   "vagas": 53
+  },
+  {
+   "curso": "Design de Equipamento e Ambientes",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 130.5,
+   "par": "3092-L335",
+   "vagas": 23
+  },
+  {
+   "curso": "Tecnologia e Design de Mobiliário",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 121.3,
+   "par": "3182-8517",
+   "vagas": 37
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 36,

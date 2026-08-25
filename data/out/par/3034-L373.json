@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n727 Técnico de Alimentação e Bebidas\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP91 Técnico de Turismo\nP96 Técnico de Viticultura e Enologia\nP98 Topógrafo-Geómetra\nS55 Técnicas de Serviço de Restauração e Bebidas (Port 57/2009)\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS57 Cozinha/Pastelaria (Portaria n.º 846/2007)\nS58 Restaurante/Bar (Portaria n.º 846/2007)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nU35 Técnico de Manutenção - Hotelaria",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Hotelaria e Turismo",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "3034-L373",
+ "percentil_nota_2026": 26,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gastronomia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 136.5,
+   "par": "3062-L095",
+   "vagas": 20
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 124.0,
+   "par": "3034-9173",
+   "vagas": 33
+  },
+  {
+   "curso": "Gestão da Restauração e Catering",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 121.5,
+   "par": "3139-L131",
+   "vagas": 30
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Universidade do Algarve",
+   "nota": 117.3,
+   "par": "3082-9173",
+   "vagas": 50
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 116.5,
+   "par": "3095-9173",
+   "vagas": 20
+  },
+  {
+   "curso": "Direção e Gestão Hoteleira",
+   "grupo": "Universidade da Madeira",
+   "nota": 114.5,
+   "par": "1321-9076",
+   "vagas": 36
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 10,

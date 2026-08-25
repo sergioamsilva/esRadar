@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Universitário Egas Moniz",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 83.7,
+   "fora": 11.2,
+   "muda_curso": 1.0,
+   "muda_estabelecimento": 4.1,
+   "novos_inscritos": 98
+  },
+  "desemprego": {
+   "diplomados": 148,
+   "periodo": "2020/21_2023/24",
+   "taxa": 60.0
+  },
+  "diplomados": {
+   "n": 89,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 22,
+   "inscritos": 152,
+   "mulheres": 130
+  }
+ },
  "instituicao": "Instituto Universitário Egas Moniz",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Saúde da Cruz Vermelha Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.9,
+   "fora": 4.8,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 42
+  },
+  "desemprego": {
+   "diplomados": 35,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 27,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 29,
+   "inscritos": 118,
+   "mulheres": 89
+  }
+ },
  "instituicao": "Escola Superior de Saúde da Cruz Vermelha Portuguesa - Lisboa",
  "minimo_candidatura": 98,
  "minimo_provas": 95,

@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.9,
+   "fora": 5.9,
+   "muda_curso": 2.0,
+   "muda_estabelecimento": 3.3,
+   "novos_inscritos": 153
+  },
+  "desemprego": {
+   "diplomados": 219,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.2
+  },
+  "diplomados": {
+   "n": 126,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 48,
+   "inscritos": 270,
+   "mulheres": 222
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Educação e Psicologia",
  "minimo_candidatura": null,
  "minimo_provas": null,

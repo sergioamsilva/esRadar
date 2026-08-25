@@ -11,10 +11,70 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesCiclo de estudos ministrado com a Faculdade de Belas-Artes, Faculdade de Ciências, Faculdade de Direito, Faculdade de Psicologia, Faculdade de Arquitetura, Faculdade de Motricidade Humana, Instituto Superior de Agronomia, Instituto Superior de Ciências Sociais e Políticas, Instituto Superior de Economia e Gestão, e com Instituto Superior Técnico.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 63.2,
+   "fora": 12.5,
+   "muda_curso": 9.0,
+   "muda_estabelecimento": 14.6,
+   "novos_inscritos": 144
+  },
+  "desemprego": {
+   "diplomados": 150,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.6
+  },
+  "diplomados": {
+   "n": 85,
+   "nota_final_media": 15.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 70,
+    "nota_ingresso_media": 16.1,
+    "percentil": 65.5
+   },
+   "2021": {
+    "matriculados": 71,
+    "nota_ingresso_media": 16.5,
+    "percentil": 64.4
+   },
+   "2022": {
+    "matriculados": 66,
+    "nota_ingresso_media": 16.2,
+    "percentil": 62.9
+   },
+   "2023": {
+    "matriculados": 57,
+    "nota_ingresso_media": 16.0,
+    "percentil": 60.8
+   },
+   "2024": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.4,
+    "percentil": 65.6
+   },
+   "2025": {
+    "matriculados": 62,
+    "nota_ingresso_media": 14.4,
+    "percentil": 39.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 73,
+   "inscritos": 218,
+   "mulheres": 145
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Letras",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1506-8458",
+ "pct_colocados_1opcao_2025": 42,
+ "percentil_nota_2026": 60,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n16 Matemática\nou\n06 Filosofia\n18 Português",
  "series": {
   "2018f1": {

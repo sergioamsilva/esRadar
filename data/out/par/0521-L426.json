@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": null,
  "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia (Campus Figueira da Foz)",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0521-L426",
+ "percentil_nota_2026": 32,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Geral (GENI) (ensino em inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 171.0,
+   "par": "1518-L343",
+   "vagas": 30
+  },
+  {
+   "curso": "Cidades e Comunidades Sustentáveis Inteligentes",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 152.0,
+   "par": "0400-L406",
+   "vagas": 31
+  },
+  {
+   "curso": "Engenharia Física Aplicada",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 123.3,
+   "par": "3135-L213",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia Física Aplicada",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 119.5,
+   "par": "3118-L213",
+   "vagas": 25
+  },
+  {
+   "curso": "Tecnologias do Ambiente e do Mar",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 117.0,
+   "par": "3152-L124",
+   "vagas": 36
+  },
+  {
+   "curso": "Construção Digital",
+   "grupo": "Universidade de Coimbra",
+   "nota": 115.5,
+   "par": "0501-L413",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 12,

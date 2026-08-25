@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Coimbra, Leiria, Lisboa, Santarém",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.8,
+   "fora": 9.6,
+   "muda_curso": 0,
+   "muda_estabelecimento": 3.7,
+   "novos_inscritos": 136
+  },
+  "desemprego": {
+   "diplomados": 205,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.6
+  },
+  "diplomados": {
+   "n": 100,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 50,
+    "nota_ingresso_media": 13.8,
+    "percentil": 28.5
+   },
+   "2021": {
+    "matriculados": 50,
+    "nota_ingresso_media": 14.3,
+    "percentil": 30.1
+   },
+   "2022": {
+    "matriculados": 50,
+    "nota_ingresso_media": 14.3,
+    "percentil": 29.4
+   },
+   "2023": {
+    "matriculados": 48,
+    "nota_ingresso_media": 14.4,
+    "percentil": 30.9
+   },
+   "2024": {
+    "matriculados": 52,
+    "nota_ingresso_media": 14.2,
+    "percentil": 33.7
+   },
+   "2025": {
+    "matriculados": 45,
+    "nota_ingresso_media": 13.4,
+    "percentil": 24.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 139,
+   "inscritos": 213,
+   "mulheres": 74
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3101-9851",
+ "pct_colocados_1opcao_2025": 82,
+ "percentil_nota_2026": 44,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n06 Filosofia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Ciências do Desporto",
+   "grupo": "Universidade de Évora",
+   "nota": 137.0,
+   "par": "0605-9707",
+   "vagas": 55
+  },
+  {
+   "curso": "Desporto",
+   "grupo": "Universidade do Algarve",
+   "nota": 132.8,
+   "par": "3081-9563",
+   "vagas": 42
+  },
+  {
+   "curso": "Ciências do Desporto",
+   "grupo": "Universidade de Lisboa",
+   "nota": 132.5,
+   "par": "1510-9707",
+   "vagas": 169
+  },
+  {
+   "curso": "Desporto",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 130.0,
+   "par": "3151-9563",
+   "vagas": 31
+  },
+  {
+   "curso": "Ciências do Desporto",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 128.3,
+   "par": "1204-9707",
+   "vagas": 110
+  },
+  {
+   "curso": "Desporto de Natureza e Turismo Ativo",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 128.3,
+   "par": "3145-9730",
+   "vagas": 24
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 29,

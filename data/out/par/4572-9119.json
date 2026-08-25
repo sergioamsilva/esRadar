@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISLA",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 84.4,
+   "fora": 11.7,
+   "muda_curso": 0,
+   "muda_estabelecimento": 3.9,
+   "novos_inscritos": 77
+  },
+  "diplomados": {
+   "n": 46,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 196,
+   "inscritos": 219,
+   "mulheres": 23
+  }
+ },
  "instituicao": "ISLA - Instituto Politécnico de Gestão e Tecnologia - Escola Superior de Tecnologia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

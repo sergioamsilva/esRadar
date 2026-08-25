@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.1,
+   "fora": 3.6,
+   "muda_curso": 1.8,
+   "muda_estabelecimento": 5.5,
+   "novos_inscritos": 110
+  },
+  "desemprego": {
+   "diplomados": 228,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.9
+  },
+  "diplomados": {
+   "n": 120,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 53,
+    "nota_ingresso_media": 16.4,
+    "percentil": 71.5
+   },
+   "2021": {
+    "matriculados": 50,
+    "nota_ingresso_media": 17.2,
+    "percentil": 77.0
+   },
+   "2022": {
+    "matriculados": 45,
+    "nota_ingresso_media": 16.9,
+    "percentil": 69.1
+   },
+   "2023": {
+    "matriculados": 45,
+    "nota_ingresso_media": 17.3,
+    "percentil": 75.5
+   },
+   "2024": {
+    "matriculados": 45,
+    "nota_ingresso_media": 17.3,
+    "percentil": 74.9
+   },
+   "2025": {
+    "matriculados": 45,
+    "nota_ingresso_media": 16.5,
+    "percentil": 65.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 58,
+   "inscritos": 170,
+   "mulheres": 112
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9205",
+ "pct_colocados_1opcao_2025": 64,
+ "percentil_nota_2026": 89,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão de Marketing",
+   "grupo": "ISCTE",
+   "nota": 161.5,
+   "par": "6800-9156",
+   "vagas": 40
+  },
+  {
+   "curso": "Marketing",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 160.5,
+   "par": "3134-9205",
+   "vagas": 90
+  },
+  {
+   "curso": "Publicidade e Marketing",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 159.5,
+   "par": "3113-9222",
+   "vagas": 60
+  }
+ ],
  "series": {
   "2020f1": {
    "colocados": 54,

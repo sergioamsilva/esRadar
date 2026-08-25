@@ -11,11 +11,107 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.2,
+   "fora": 2.5,
+   "muda_curso": 1.4,
+   "muda_estabelecimento": 3.9,
+   "novos_inscritos": 488
+  },
+  "desemprego": {
+   "diplomados": 856,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.6
+  },
+  "diplomados": {
+   "n": 419,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 251,
+    "nota_ingresso_media": 18.5,
+    "percentil": 73.8
+   },
+   "2021": {
+    "matriculados": 227,
+    "nota_ingresso_media": 17.8,
+    "percentil": 70.3
+   },
+   "2022": {
+    "matriculados": 207,
+    "nota_ingresso_media": 18.1,
+    "percentil": 71.5
+   },
+   "2023": {
+    "matriculados": 208,
+    "nota_ingresso_media": 17.8,
+    "percentil": 69.0
+   },
+   "2024": {
+    "matriculados": 208,
+    "nota_ingresso_media": 18.5,
+    "percentil": 76.4
+   },
+   "2025": {
+    "matriculados": 208,
+    "nota_ingresso_media": 17.8,
+    "percentil": 75.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 460,
+   "inscritos": 936,
+   "mulheres": 476
+  }
+ },
  "instituicao": "Universidade do Porto - FEP Faculdade de Economia e Gestão",
  "minimo_candidatura": 110,
  "minimo_provas": 120,
  "par": "1116-9081",
+ "percentil_nota_2026": 96,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Economia + Gestão",
+   "grupo": "Universidade do Minho",
+   "nota": 179.8,
+   "par": "1000-A020",
+   "vagas": 20
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 174.7,
+   "par": "0904-9081",
+   "vagas": 195
+  },
+  {
+   "curso": "Economia (ensino em Inglês)",
+   "grupo": "Universidade do Porto",
+   "nota": 172.5,
+   "par": "1116-A006",
+   "vagas": 30
+  },
+  {
+   "curso": "Economia + Negócios Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 171.0,
+   "par": "1000-A021",
+   "vagas": 10
+  },
+  {
+   "curso": "Economia (ensino em Inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 170.6,
+   "par": "1517-A006",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 1084,

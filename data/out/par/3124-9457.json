@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n070 Comunicação Audiovisual (DL 74/2004)\n084 Multimédia (DL 74/2004)\n574 Comunicação Multimédia (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n735 Técnico de Desenho Gráfico\n821 Agrupamento 2 / Design\n979 Recorrente - Multimédia (DL 74/2004)\n985 Recorrente - Comunicação Audiovisual (DL 74/2004)\nA31 Imagem Interativa (Port. 836/2004)\nA59 Comunicação Multimédia (Port. 960/2009)\nC70 Comunicação Audiovisual\nF70 Comunicação Audiovisual\nG30 Comunicação Multimédia (Portaria n.º 262/2013)\nG42 Imagem Interativa (Portaria n.º 42/2014)\nG45 Comunicação e Produção Multimédia (Portaria n.º 265/2013)\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH30 Comunicação Multimédia\nH42 Imagem Interativa, na área dos Audiovisuais\nH45 Comunicação e Produção Multimédia\nH68 Técnico de Vídeo\nH71 Técnico de Multimédia\nP14 Técnico de Multimédia\nP17 Técnico de Animação 2D e 3D\nP21 Técnico de Audiovisuais\nP36 Técnico de Desenho Digital 3D\nP94 Técnico de Vídeo\nR12 Imagem Interativa (Instituto Jacob Rodrigues Pereira)",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3124-9457",
+ "percentil_nota_2026": 29,
  "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n18 Português\nou\n03 Desenho\n18 Português\nou\n06 Filosofia\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n16 Matemática\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Cinema e Média Digitais",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 126.5,
+   "par": "3243-L371",
+   "vagas": 18
+  },
+  {
+   "curso": "Comunicação e Multimédia",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 125.5,
+   "par": "1203-9052",
+   "vagas": 68
+  },
+  {
+   "curso": "Design de Animação",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 124.5,
+   "par": "3124-L308",
+   "vagas": 32
+  },
+  {
+   "curso": "Design e Tecnologia das Artes Gráficas",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 118.0,
+   "par": "3242-9644",
+   "vagas": 45
+  },
+  {
+   "curso": "Fotografia",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 117.5,
+   "par": "3242-9645",
+   "vagas": 28
+  },
+  {
+   "curso": "Design de Jogos Digitais",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 116.3,
+   "par": "3045-8309",
+   "vagas": 50
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 8,

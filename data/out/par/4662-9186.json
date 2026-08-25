@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISLA Santarém",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.0,
+   "fora": 22.2,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.8,
+   "novos_inscritos": 36
+  },
+  "diplomados": {
+   "n": 12,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 58,
+   "inscritos": 68,
+   "mulheres": 10
+  }
+ },
  "instituicao": "ISLA Santarém - Instituto Politécnico - Escola Superior de Engenharia e Tecnologia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Instituto Superior Manuel Teixeira Gomes",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.5,
+   "fora": 15.0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.5,
+   "novos_inscritos": 40
+  },
+  "diplomados": {
+   "n": 7,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 44,
+   "inscritos": 111,
+   "mulheres": 67
+  }
+ },
  "instituicao": "Instituto Superior Manuel Teixeira Gomes",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

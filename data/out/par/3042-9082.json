@@ -11,11 +11,55 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nP47 Técnico de Energias Renováveis\nP52 Técnico de Gestão Cinegética\nP92 Técnico de Turismo Ambiental e Rural\nT27 Técnico de Gestão do Ambiente\nT52 Técnico de Turismo Ambiental e Rural",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 43.3,
+   "fora": 50.0,
+   "muda_curso": 5.0,
+   "muda_estabelecimento": 1.7,
+   "novos_inscritos": 60
+  },
+  "diplomados": {
+   "n": 18,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 28,
+   "inscritos": 62,
+   "mulheres": 34
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3042-9082",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Tecnologias Digitais Educativas",
+   "grupo": "ISCTE",
+   "nota": 123.0,
+   "par": "6810-L281",
+   "vagas": 35
+  },
+  {
+   "curso": "Ciências da Educação e da Formação",
+   "grupo": "Universidade do Algarve",
+   "nota": 114.5,
+   "par": "0201-9821",
+   "vagas": 34
+  },
+  {
+   "curso": "Educação Ambiental e Turismo de Natureza",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 99.0,
+   "par": "3142-L130",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 2,

@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.2,
+   "fora": 12.6,
+   "muda_curso": 1.1,
+   "muda_estabelecimento": 1.1,
+   "novos_inscritos": 183
+  },
+  "desemprego": {
+   "diplomados": 227,
+   "periodo": "2020/21_2023/24",
+   "taxa": 40.0
+  },
+  "diplomados": {
+   "n": 148,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 62,
+    "nota_ingresso_media": 15.4,
+    "percentil": 51.7
+   },
+   "2021": {
+    "matriculados": 47,
+    "nota_ingresso_media": 16.5,
+    "percentil": 58.5
+   },
+   "2022": {
+    "matriculados": 47,
+    "nota_ingresso_media": 16.9,
+    "percentil": 61.3
+   },
+   "2023": {
+    "matriculados": 70,
+    "nota_ingresso_media": 16.7,
+    "percentil": 61.5
+   },
+   "2024": {
+    "matriculados": 79,
+    "nota_ingresso_media": 16.5,
+    "percentil": 62.3
+   },
+   "2025": {
+    "matriculados": 119,
+    "nota_ingresso_media": 16.5,
+    "percentil": 66.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 19,
+   "inscritos": 362,
+   "mulheres": 343
+  }
+ },
  "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3131-9853",
+ "pct_colocados_1opcao_2025": 86,
+ "percentil_nota_2026": 79,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade do Minho",
+   "nota": 151.5,
+   "par": "1000-9853",
+   "vagas": 69
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade da Madeira",
+   "nota": 149.5,
+   "par": "1308-9853",
+   "vagas": 25
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 147.8,
+   "par": "3112-9853",
+   "vagas": 117
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 47,

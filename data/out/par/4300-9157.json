@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Gestão",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 95.2,
+   "fora": 2.4,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 42
+  },
+  "desemprego": {
+   "diplomados": 61,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.6
+  },
+  "diplomados": {
+   "n": 19,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 20,
+   "inscritos": 52,
+   "mulheres": 32
+  }
+ },
  "instituicao": "Instituto Superior de Gestão",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

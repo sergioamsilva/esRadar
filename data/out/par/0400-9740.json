@@ -11,11 +11,103 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Beira Interior",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.1,
+   "fora": 3.5,
+   "muda_curso": 0.7,
+   "muda_estabelecimento": 5.7,
+   "novos_inscritos": 141
+  },
+  "desemprego": {
+   "diplomados": 139,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.4
+  },
+  "diplomados": {
+   "n": 36,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_"
+  },
+  "percentil_entrada": {
+   "2021": {
+    "matriculados": 50,
+    "nota_ingresso_media": 17.4,
+    "percentil": 55.2
+   },
+   "2022": {
+    "matriculados": 60,
+    "nota_ingresso_media": 17.1,
+    "percentil": 53.2
+   },
+   "2023": {
+    "matriculados": 60,
+    "nota_ingresso_media": 16.8,
+    "percentil": 52.7
+   },
+   "2024": {
+    "matriculados": 60,
+    "nota_ingresso_media": 16.5,
+    "percentil": 45.6
+   },
+   "2025": {
+    "matriculados": 60,
+    "nota_ingresso_media": 16.1,
+    "percentil": 52.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 161,
+   "inscritos": 213,
+   "mulheres": 52
+  }
+ },
  "instituicao": "Universidade da Beira Interior",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0400-9740",
+ "pct_colocados_1opcao_2025": 87,
+ "percentil_nota_2026": 65,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Naval e Oceânica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 167.5,
+   "par": "1518-L162",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Mecânica Automóvel",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 153.8,
+   "par": "3135-9936",
+   "vagas": 45
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Évora",
+   "nota": 144.0,
+   "par": "0602-L221",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia de Máquinas Marítimas",
+   "grupo": "Escola Superior Náutica Infante D. Henrique",
+   "nota": 115.0,
+   "par": "7105-9745",
+   "vagas": 39
+  },
+  {
+   "curso": "Engenharia Automóvel",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 110.8,
+   "par": "3102-9741",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2021f1": {
    "colocados": 50,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.7,
+   "fora": 3.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 15.8,
+   "novos_inscritos": 57
+  },
+  "desemprego": {
+   "diplomados": 60,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.6
+  },
+  "diplomados": {
+   "n": 53,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 37,
+    "nota_ingresso_media": 15.5,
+    "percentil": 37.1
+   },
+   "2021": {
+    "matriculados": 40,
+    "nota_ingresso_media": 16.0,
+    "percentil": 40.5
+   },
+   "2022": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.8,
+    "percentil": 34.9
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.2,
+    "percentil": 28.8
+   },
+   "2024": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.7,
+    "percentil": 33.1
+   },
+   "2025": {
+    "matriculados": 25,
+    "nota_ingresso_media": 15.2,
+    "percentil": 38.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 41,
+   "inscritos": 103,
+   "mulheres": 62
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "3118-9455",
+ "pct_colocados_1opcao_2025": 27,
+ "percentil_nota_2026": 72,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Universidade do Minho",
+   "nota": 155.8,
+   "par": "1000-9455",
+   "vagas": 65
+  },
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Universidade de Coimbra",
+   "nota": 155.0,
+   "par": "0501-9455",
+   "vagas": 70
+  },
+  {
+   "curso": "Engenharia Química",
+   "grupo": "Universidade de Lisboa",
+   "nota": 153.3,
+   "par": "1518-9125",
+   "vagas": 75
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 137.0,
+   "par": "3161-9016",
+   "vagas": 25
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 136.5,
+   "par": "0300-9016",
+   "vagas": 58
+  },
+  {
+   "curso": "Química Tecnológica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 134.0,
+   "par": "1503-9226",
+   "vagas": 21
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 25,

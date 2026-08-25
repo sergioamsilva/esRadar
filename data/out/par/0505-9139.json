@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 76.6,
+   "fora": 15.6,
+   "muda_curso": 4.7,
+   "muda_estabelecimento": 3.1,
+   "novos_inscritos": 64
+  },
+  "desemprego": {
+   "diplomados": 59,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.2
+  },
+  "diplomados": {
+   "n": 38,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.9,
+    "percentil": 48.5
+   },
+   "2021": {
+    "matriculados": 28,
+    "nota_ingresso_media": 15.9,
+    "percentil": 43.5
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 16.1,
+    "percentil": 52.5
+   },
+   "2023": {
+    "matriculados": 27,
+    "nota_ingresso_media": 15.8,
+    "percentil": 45.3
+   },
+   "2024": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.4,
+    "percentil": 42.8
+   },
+   "2025": {
+    "matriculados": 27,
+    "nota_ingresso_media": 15.1,
+    "percentil": 50.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 56,
+   "inscritos": 106,
+   "mulheres": 50
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Letras",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0505-9139",
+ "pct_colocados_1opcao_2025": 59,
+ "percentil_nota_2026": 73,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 153.5,
+   "par": "0902-9139",
+   "vagas": 25
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade do Minho",
+   "nota": 147.8,
+   "par": "1000-9139",
+   "vagas": 29
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade do Porto",
+   "nota": 143.0,
+   "par": "1107-9139",
+   "vagas": 55
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 135.5,
+   "par": "1506-9139",
+   "vagas": 46
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 29,

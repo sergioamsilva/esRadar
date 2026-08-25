@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.0,
+   "fora": 8.2,
+   "muda_curso": 3.3,
+   "muda_estabelecimento": 6.6,
+   "novos_inscritos": 61
+  },
+  "desemprego": {
+   "diplomados": 66,
+   "periodo": "2020/21_2023/24",
+   "taxa": 6.0
+  },
+  "diplomados": {
+   "n": 39,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 37,
+    "nota_ingresso_media": 13.7,
+    "percentil": 41.9
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.9,
+    "percentil": 52.4
+   },
+   "2022": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.1,
+    "percentil": 52.5
+   },
+   "2023": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.3,
+    "percentil": 57.7
+   },
+   "2024": {
+    "matriculados": 32,
+    "nota_ingresso_media": 14.9,
+    "percentil": 49.2
+   },
+   "2025": {
+    "matriculados": 19,
+    "nota_ingresso_media": 14.2,
+    "percentil": 36.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 16,
+   "inscritos": 99,
+   "mulheres": 83
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9917",
+ "pct_colocados_1opcao_2025": 43,
+ "percentil_nota_2026": 54,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n15 Literatura Portuguesa\nou\n06 Filosofia\n18 Português\nou\n15 Literatura Portuguesa\n18 Português\nou\n11 História\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Literatura e Estudos Interartes",
+   "grupo": "Universidade do Porto",
+   "nota": 141.0,
+   "par": "1107-L251",
+   "vagas": 42
+  },
+  {
+   "curso": "Ciências da Linguagem",
+   "grupo": "Universidade do Porto",
+   "nota": 137.8,
+   "par": "1107-9040",
+   "vagas": 24
+  },
+  {
+   "curso": "Línguas Aplicadas em Comunicação Digital",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 137.0,
+   "par": "3121-L401",
+   "vagas": 20
+  },
+  {
+   "curso": "Português",
+   "grupo": "Universidade de Coimbra",
+   "nota": 135.0,
+   "par": "0505-8393",
+   "vagas": 38
+  },
+  {
+   "curso": "Tradução e Interpretação em Língua Gestual Portuguesa",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 133.5,
+   "par": "3131-9807",
+   "vagas": 22
+  }
+ ],
  "series": {
   "2019f1": {
    "colocados": 30,

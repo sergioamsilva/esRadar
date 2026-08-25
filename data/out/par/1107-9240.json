@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 60.7,
+   "fora": 22.2,
+   "muda_curso": 9.4,
+   "muda_estabelecimento": 7.7,
+   "novos_inscritos": 117
+  },
+  "desemprego": {
+   "diplomados": 132,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.7
+  },
+  "diplomados": {
+   "n": 73,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 49,
+    "nota_ingresso_media": 16.1,
+    "percentil": 67.2
+   },
+   "2021": {
+    "matriculados": 43,
+    "nota_ingresso_media": 16.3,
+    "percentil": 72.2
+   },
+   "2022": {
+    "matriculados": 43,
+    "nota_ingresso_media": 16.4,
+    "percentil": 75.2
+   },
+   "2023": {
+    "matriculados": 42,
+    "nota_ingresso_media": 16.2,
+    "percentil": 66.9
+   },
+   "2024": {
+    "matriculados": 42,
+    "nota_ingresso_media": 16.2,
+    "percentil": 60.2
+   },
+   "2025": {
+    "matriculados": 43,
+    "nota_ingresso_media": 16.1,
+    "percentil": 63.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 60,
+   "inscritos": 156,
+   "mulheres": 96
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Letras",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1107-9240",
+ "pct_colocados_1opcao_2025": 36,
+ "percentil_nota_2026": 75,
  "provas_ingresso": "18 Português\ne\nUma das seguintes provas:\n06 Filosofia\n09 Geografia\n11 História\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Criminologia",
+   "grupo": "Universidade do Porto",
+   "nota": 163.0,
+   "par": "1114-9066",
+   "vagas": 46
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "ISCTE",
+   "nota": 150.8,
+   "par": "6800-9240",
+   "vagas": 63
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade do Minho",
+   "nota": 149.0,
+   "par": "1000-9240",
+   "vagas": 57
+  },
+  {
+   "curso": "Estudos Europeus",
+   "grupo": "Universidade de Coimbra",
+   "nota": 147.0,
+   "par": "0505-9135",
+   "vagas": 41
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 44,

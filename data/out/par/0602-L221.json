@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 20,
+    "nota_ingresso_media": 17.2,
+    "percentil": 67.1
+   }
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0602-L221",
+ "pct_colocados_1opcao_2025": 40,
+ "percentil_nota_2026": 66,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química (25%)\n19 Matemática A (25%)\nou\n07 Física e Química (15%)\n19 Matemática A (15%)\n18 Português (20%)",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 171.3,
+   "par": "0903-L221",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Naval e Oceânica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 167.5,
+   "par": "1518-L162",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Mecânica Automóvel",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 153.8,
+   "par": "3135-9936",
+   "vagas": 45
+  },
+  {
+   "curso": "Engenharia Aeronáutica",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 143.3,
+   "par": "0400-9740",
+   "vagas": 61
+  },
+  {
+   "curso": "Engenharia de Máquinas Marítimas",
+   "grupo": "Escola Superior Náutica Infante D. Henrique",
+   "nota": 115.0,
+   "par": "7105-9745",
+   "vagas": 39
+  },
+  {
+   "curso": "Engenharia Automóvel",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 110.8,
+   "par": "3102-9741",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 110,

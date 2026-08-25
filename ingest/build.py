@@ -122,6 +122,13 @@ def ler_guia() -> dict:
     return json.loads(caminho.read_text(encoding="utf-8"))
 
 
+def ler_infocursos() -> dict[str, dict]:
+    caminho = common.DIR_BRUTO / "infocursos" / "infocursos.json"
+    if not caminho.exists():
+        return {}
+    return json.loads(caminho.read_text(encoding="utf-8"))["pares"]
+
+
 def ler_instituicoes() -> dict[str, dict]:
     dados = yaml.safe_load((common.DIR_REFERENCIA / "instituicoes.yaml").read_text(encoding="utf-8"))
     return {e["code"]: e for e in dados["estabelecimentos"]}
@@ -139,6 +146,7 @@ def construir() -> None:
     resultados, nomes_historicos = ler_resultados()
     guia = ler_guia()
     instituicoes = ler_instituicoes()
+    infocursos = ler_infocursos()
     pares_guia = guia["pares"]
 
     orfaos = [p for p in resultados if p.split("-")[0] not in instituicoes]
@@ -185,6 +193,7 @@ def construir() -> None:
             },
             "vagas_2026": ficha_guia.get("vagas"),
             "series": dict(sorted(serie.items())),
+            "infocursos": infocursos.get(par),
         }
         if fichas[par]["curso"] is None:
             # Par sem oferta em 2026: o nome vem do CSV mais recente onde apareceu.
@@ -194,6 +203,50 @@ def construir() -> None:
             f"nota_ultimo diverge entre guia e XLS em {len(validacoes_falhadas)} pares: "
             f"{validacoes_falhadas[:8]}"
         )
+
+    # Derivados sobre o universo CNA: posição no país (percentil da nota de
+    # corte), fidelidade da colocação (% dos colocados que tinham o curso em
+    # 1ª opção) e vizinhos na mesma área CNAEF, ordenados por nota.
+    cna = [f for f in fichas.values() if f["ativo"] and f["concurso"] == "Nacional"]
+    notas_cna = sorted(
+        f["series"].get(f"{ANO_CORRENTE}f1", {}).get("nota_ultimo")
+        for f in cna
+        if f["series"].get(f"{ANO_CORRENTE}f1", {}).get("nota_ultimo") is not None
+    )
+    por_area: dict[str, list[dict]] = defaultdict(list)
+    for f in cna:
+        if f["cnaef"]:
+            por_area[f["cnaef"]].append(f)
+    for lista in por_area.values():
+        lista.sort(
+            key=lambda f: f["series"].get(f"{ANO_CORRENTE}f1", {}).get("nota_ultimo") or -1,
+            reverse=True,
+        )
+    for f in cna:
+        nota = f["series"].get(f"{ANO_CORRENTE}f1", {}).get("nota_ultimo")
+        if nota is not None and notas_cna:
+            abaixo = sum(1 for n in notas_cna if n < nota)
+            f["percentil_nota_2026"] = round(100 * abaixo / len(notas_cna))
+        f1_ant = f["series"].get(f"{ANO_CORRENTE - 1}f1", {})
+        if f1_ant.get("colocados") and f1_ant.get("colocados_1opcao") is not None:
+            f["pct_colocados_1opcao_2025"] = round(
+                100 * f1_ant["colocados_1opcao"] / f1_ant["colocados"]
+            )
+        vizinhos = por_area.get(f["cnaef"] or "", [])
+        if len(vizinhos) > 1:
+            i = vizinhos.index(f)
+            recorte = vizinhos[max(0, i - 3) : i + 4]
+            f["semelhantes"] = [
+                {
+                    "par": v["par"],
+                    "curso": v["curso"],
+                    "grupo": v["grupo"],
+                    "nota": v["series"].get(f"{ANO_CORRENTE}f1", {}).get("nota_ultimo"),
+                    "vagas": v["vagas_2026"],
+                }
+                for v in recorte
+                if v is not f
+            ][:6]
 
     # Índice plano para pesquisa e rankings — só pares ativos no guia corrente.
     indice = []

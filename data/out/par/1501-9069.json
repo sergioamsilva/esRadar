@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 87.3,
+   "fora": 6.4,
+   "muda_curso": 4.5,
+   "muda_estabelecimento": 1.8,
+   "novos_inscritos": 110
+  },
+  "desemprego": {
+   "diplomados": 216,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.6
+  },
+  "diplomados": {
+   "n": 114,
+   "nota_final_media": 15.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 58,
+    "nota_ingresso_media": 17.6,
+    "percentil": 72.6
+   },
+   "2021": {
+    "matriculados": 54,
+    "nota_ingresso_media": 17.9,
+    "percentil": 74.2
+   },
+   "2022": {
+    "matriculados": 48,
+    "nota_ingresso_media": 17.8,
+    "percentil": 70.4
+   },
+   "2023": {
+    "matriculados": 50,
+    "nota_ingresso_media": 18.0,
+    "percentil": 72.1
+   },
+   "2024": {
+    "matriculados": 50,
+    "nota_ingresso_media": 17.7,
+    "percentil": 72.2
+   },
+   "2025": {
+    "matriculados": 50,
+    "nota_ingresso_media": 17.9,
+    "percentil": 75.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 38,
+   "inscritos": 163,
+   "mulheres": 125
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Arquitetura",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1501-9069",
+ "pct_colocados_1opcao_2025": 98,
+ "percentil_nota_2026": 98,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n10 Geometria Descritiva\nou\n10 Geometria Descritiva\n16 Matemática\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Design de Moda",
+   "grupo": "Universidade de Lisboa",
+   "nota": 169.5,
+   "par": "1501-9071",
+   "vagas": 50
+  },
+  {
+   "curso": "Design",
+   "grupo": "Universidade de Aveiro",
+   "nota": 169.0,
+   "par": "0300-9069",
+   "vagas": 52
+  },
+  {
+   "curso": "Design de Produto",
+   "grupo": "Universidade do Minho",
+   "nota": 168.5,
+   "par": "1000-8494",
+   "vagas": 33
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 60,

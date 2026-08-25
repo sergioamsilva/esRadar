@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 95.2,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.8,
+   "novos_inscritos": 42
+  },
+  "desemprego": {
+   "diplomados": 133,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.3
+  },
+  "diplomados": {
+   "n": 35,
+   "nota_final_media": 13.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.7,
+    "percentil": 54.8
+   },
+   "2021": {
+    "matriculados": 25,
+    "nota_ingresso_media": 16.3,
+    "percentil": 55.9
+   },
+   "2022": {
+    "matriculados": 22,
+    "nota_ingresso_media": 16.1,
+    "percentil": 60.7
+   },
+   "2023": {
+    "matriculados": 19,
+    "nota_ingresso_media": 15.9,
+    "percentil": 59.7
+   },
+   "2024": {
+    "matriculados": 20,
+    "nota_ingresso_media": 16.2,
+    "percentil": 60.9
+   },
+   "2025": {
+    "matriculados": 20,
+    "nota_ingresso_media": 16.4,
+    "percentil": 61.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 57,
+   "inscritos": 95,
+   "mulheres": 38
+  }
+ },
  "instituicao": "Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3011-9140",
+ "pct_colocados_1opcao_2025": 85,
+ "percentil_nota_2026": 87,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Finanças (ensino em inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 167.5,
+   "par": "1517-A013",
+   "vagas": 32
+  },
+  {
+   "curso": "Finanças e Contabilidade",
+   "grupo": "ISCTE",
+   "nota": 159.3,
+   "par": "6800-8029",
+   "vagas": 72
+  },
+  {
+   "curso": "Finanças Empresariais",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 154.0,
+   "par": "3117-9476",
+   "vagas": 73
+  },
+  {
+   "curso": "Finanças",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 148.5,
+   "par": "3031-9140",
+   "vagas": 32
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 20,

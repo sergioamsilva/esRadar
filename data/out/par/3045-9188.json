@@ -11,11 +11,69 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n753 Técnico de Informática\n813 Agrupamento 1 / Informática\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 62.0,
+   "fora": 36.0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.0,
+   "novos_inscritos": 50
+  },
+  "diplomados": {
+   "n": 9,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 53,
+   "inscritos": 79,
+   "mulheres": 26
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3045-9188",
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n09 Geografia\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Gestão de Sistemas de Informação",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 105.0,
+   "par": "3153-9630",
+   "vagas": 65
+  },
+  {
+   "curso": "Informática Industrial",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 103.0,
+   "par": "3064-L226",
+   "vagas": 25
+  },
+  {
+   "curso": "Tecnologias Digitais e Gestão",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3043-L423",
+   "vagas": 40
+  },
+  {
+   "curso": "Informática e Multimédia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": null,
+   "par": "3053-L275",
+   "vagas": 35
+  },
+  {
+   "curso": "Computação e Logística",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": null,
+   "par": "3243-L211",
+   "vagas": 16
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

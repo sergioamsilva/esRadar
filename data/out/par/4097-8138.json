@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Saúde de Santa Maria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.7,
+   "fora": 0,
+   "muda_curso": 5.6,
+   "muda_estabelecimento": 2.8,
+   "novos_inscritos": 36
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 7,
+   "inscritos": 71,
+   "mulheres": 64
+  }
+ },
  "instituicao": "Escola Superior de Saúde de Santa Maria",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

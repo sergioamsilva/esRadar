@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.1,
+   "fora": 9.4,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.5,
+   "novos_inscritos": 202
+  },
+  "desemprego": {
+   "diplomados": 488,
+   "periodo": "2020/21_2023/24",
+   "taxa": 50.0
+  },
+  "diplomados": {
+   "n": 198,
+   "nota_final_media": 15.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 83,
+    "nota_ingresso_media": 14.8,
+    "percentil": 49.5
+   },
+   "2021": {
+    "matriculados": 92,
+    "nota_ingresso_media": 15.0,
+    "percentil": 51.1
+   },
+   "2022": {
+    "matriculados": 79,
+    "nota_ingresso_media": 15.5,
+    "percentil": 54.2
+   },
+   "2023": {
+    "matriculados": 89,
+    "nota_ingresso_media": 15.4,
+    "percentil": 53.8
+   },
+   "2024": {
+    "matriculados": 90,
+    "nota_ingresso_media": 15.9,
+    "percentil": 60.2
+   },
+   "2025": {
+    "matriculados": 90,
+    "nota_ingresso_media": 15.9,
+    "percentil": 64.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 18,
+   "inscritos": 303,
+   "mulheres": 285
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Educação",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3112-9853",
+ "pct_colocados_1opcao_2025": 81,
+ "percentil_nota_2026": 71,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 154.5,
+   "par": "3131-9853",
+   "vagas": 120
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade do Minho",
+   "nota": 151.5,
+   "par": "1000-9853",
+   "vagas": 69
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade da Madeira",
+   "nota": 149.5,
+   "par": "1308-9853",
+   "vagas": 25
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade de Aveiro",
+   "nota": 147.5,
+   "par": "0300-9853",
+   "vagas": 65
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 144.5,
+   "par": "3062-9853",
+   "vagas": 96
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Universidade dos Açores",
+   "nota": 143.8,
+   "par": "0150-9853",
+   "vagas": 28
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 84,

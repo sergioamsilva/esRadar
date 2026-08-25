@@ -11,11 +11,81 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n178 DIDÁXIS - Química e Controlo de Qualidade (DL 286/89)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n668 Química Industrial e Ambiental (Port. 49/2005)\n727 Técnico de Alimentação e Bebidas\n755 Técnico de Laboratório\n769 Técnico de Transformação de Produtos Alimentares\n780 Técnico Vitivinícola\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG73 Colégio de Gaia - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP96 Técnico de Viticultura e Enologia",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 29.2,
+   "fora": 62.5,
+   "muda_curso": 4.2,
+   "muda_estabelecimento": 4.2,
+   "novos_inscritos": 24
+  },
+  "desemprego": {
+   "diplomados": 32,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.6
+  },
+  "diplomados": {
+   "n": 6,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 5,
+   "inscritos": 22,
+   "mulheres": 17
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9087",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n16 Matemática\nou\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Enologia",
+   "grupo": "Universidade de Évora",
+   "nota": 113.0,
+   "par": "0602-9752",
+   "vagas": 18
+  },
+  {
+   "curso": "Tecnologia Alimentar",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 113.0,
+   "par": "3061-L015",
+   "vagas": 26
+  },
+  {
+   "curso": "Ciência e Tecnologia dos Alimentos",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": null,
+   "par": "3021-9350",
+   "vagas": 24
+  },
+  {
+   "curso": "Enologia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3041-9752",
+   "vagas": 12
+  },
+  {
+   "curso": "Sistemas Alimentares Sustentáveis",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": null,
+   "par": "3105-L389",
+   "vagas": 14
+  },
+  {
+   "curso": "Engenharia Alimentar",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": null,
+   "par": "3185-9087",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

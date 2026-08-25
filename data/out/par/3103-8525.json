@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 35%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n071 Design de Comunicação (DL 74/2004)\n072 Design de Produto (DL 74/2004)\n073 Produção Artística (DL 74/2004)\n083 Design de Equipamento (DL 74/2004)\n218 Design, Cerâmica e Escultura (Port. 32/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n671 Design de Comunicação (Port. 49/2005)\n711 Técnico de CAD/CAM\n821 Agrupamento 2 / Design\n822 Agrupamento 2 / Artes e Ofícios\n978 Recorrente - Design de Equipamento (DL 74/2004)\n986 Recorrente - Design de Comunicação (DL 74/2004)\n987 Recorrente - Design de Produto (DL 74/2004)\nA30 Conservação e Restauro do Património (Port. 836/2004)\nA32 Desenho de Arquitetura (Port. 836/2004)\nA50 Desenhador de Projetos - Arquitetura e Eng. (Port. 960/2009)\nC71 Design de Comunicação\nC72 Design de Produto\nC73 Produção Artística\nF71 Design de Comunicação\nF72 Design de Produto\nF73 Produção Artística\nG32 Desenhador de Projetos - Arquitetura e Eng. (Port. 262/2013)\nG40 Conservação e Restauro do Património (Portaria n.º 42/2014)\nG41 Desenho de Arquitetura (Portaria n.º 42/2014)\nG48 Design (Portaria n.º 265/2013)\nG57 Design, Cerâmica e Escultura (Portaria n.º 266/2013)\nG63 Desenho de Projeto - Eng. e Arquitetura (Port. 263/2013)\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG76 Colégio de S. Miguel - Cursos do DL 286/89\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH32 Desenhador de Projetos - Arquitetura e Engenharia\nH40 Conservação e Restauro do Património, área das Artes Visuais\nH41 Desenho de Arquitetura, na área das Artes Visuais\nH48 Design\nH57 Design, Cerâmica e Escultura\nH66 Técnico de Desenho Digital 3D\nH67 Técnico de Desenho Gráfico\nP04 Assistente de Conservação e Restauro\nP10 Modelista de Vestuário\nP24 Técnico de Cantaria Artística\nP26 Técnico de Cerâmica Artística\nP32 Técnico de Coordenação e Produção de Moda\nP34 Técnico de Desenho de Calçado e Marroquinaria\nP36 Técnico de Desenho Digital 3D\nP37 Técnico de Design\nP38 Técnico de Design de Moda\nP39 Técnico de Design Gráfico\nP62 Técnico de Joalharia/ Cravador\nP95 Técnico de Vidro Artístico\nP97 Técnico de Vitrinismo\nR08 Design, Cerâmica e Escultura (Port. 816/2009)\nR11 Desenho de Arquitetura (Instituto Jacob Rodrigues Pereira)\nR53 Técnico de CAD/CAM\nR54 Técnico de Cerâmica\nR62 Técnico de Desenho de Moldes\nR89 Técnico de Modelação Cerâmica\nR96 Técnico de Pintura Cerâmica\nS19 Técnico de Cerâmica\nT08 Técnico de Cerâmica Criativa",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.2,
+   "fora": 8.9,
+   "muda_curso": 2.2,
+   "muda_estabelecimento": 6.7,
+   "novos_inscritos": 45
+  },
+  "desemprego": {
+   "diplomados": 63,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.5
+  },
+  "diplomados": {
+   "n": 35,
+   "nota_final_media": 14.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 25,
+    "nota_ingresso_media": 13.8,
+    "percentil": 26.2
+   },
+   "2021": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.7,
+    "percentil": 35.3
+   },
+   "2022": {
+    "matriculados": 23,
+    "nota_ingresso_media": 15.0,
+    "percentil": 43.5
+   },
+   "2023": {
+    "matriculados": 24,
+    "nota_ingresso_media": 15.2,
+    "percentil": 49.0
+   },
+   "2024": {
+    "matriculados": 25,
+    "nota_ingresso_media": 15.4,
+    "percentil": 45.0
+   },
+   "2025": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.7,
+    "percentil": 36.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 16,
+   "inscritos": 75,
+   "mulheres": 59
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Artes e Design",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3103-8525",
+ "pct_colocados_1opcao_2025": 54,
+ "percentil_nota_2026": 67,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Design de Ambientes",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 152.0,
+   "par": "3163-9723",
+   "vagas": 28
+  },
+  {
+   "curso": "Design de Produto e Tecnologia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 149.0,
+   "par": "3014-L138",
+   "vagas": 38
+  },
+  {
+   "curso": "Design Industrial",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 146.8,
+   "par": "3033-9074",
+   "vagas": 39
+  },
+  {
+   "curso": "Design de Interiores e Equipamento",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 144.5,
+   "par": "3055-9725",
+   "vagas": 50
+  },
+  {
+   "curso": "Design de Moda",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 144.3,
+   "par": "0400-9071",
+   "vagas": 60
+  },
+  {
+   "curso": "Design do Produto",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 143.5,
+   "par": "3163-9727",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 20,

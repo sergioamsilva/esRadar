@@ -11,11 +11,96 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.5,
+   "fora": 4.8,
+   "muda_curso": 2.4,
+   "muda_estabelecimento": 1.2,
+   "novos_inscritos": 84
+  },
+  "diplomados": {
+   "n": 66,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 33,
+    "nota_ingresso_media": 15.6,
+    "percentil": 64.4
+   },
+   "2021": {
+    "matriculados": 31,
+    "nota_ingresso_media": 16.4,
+    "percentil": 68.0
+   },
+   "2022": {
+    "matriculados": 29,
+    "nota_ingresso_media": 16.1,
+    "percentil": 70.3
+   },
+   "2023": {
+    "matriculados": 31,
+    "nota_ingresso_media": 16.1,
+    "percentil": 70.1
+   },
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.1,
+    "percentil": 66.2
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 15.7,
+    "percentil": 55.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 36,
+   "inscritos": 134,
+   "mulheres": 98
+  }
+ },
  "instituicao": "Universidade da Madeira - Faculdade de Artes e Humanidades",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1306-9219",
+ "pct_colocados_1opcao_2025": 80,
+ "percentil_nota_2026": 76,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n02 Biologia e Geologia\nou\n06 Filosofia\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Évora",
+   "nota": 160.0,
+   "par": "0604-9219",
+   "vagas": 60
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 158.5,
+   "par": "1202-9219",
+   "vagas": 72
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade do Algarve",
+   "nota": 158.0,
+   "par": "0201-9219",
+   "vagas": 65
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade dos Açores",
+   "nota": 151.0,
+   "par": "0150-9219",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 31,

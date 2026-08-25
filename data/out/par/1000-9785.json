@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.7,
+   "fora": 7.3,
+   "muda_curso": 8.5,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 82
+  },
+  "desemprego": {
+   "diplomados": 118,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.3
+  },
+  "diplomados": {
+   "n": 72,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 16.9,
+    "percentil": 72.2
+   },
+   "2021": {
+    "matriculados": 36,
+    "nota_ingresso_media": 17.5,
+    "percentil": 72.8
+   },
+   "2022": {
+    "matriculados": 33,
+    "nota_ingresso_media": 16.7,
+    "percentil": 52.5
+   },
+   "2023": {
+    "matriculados": 33,
+    "nota_ingresso_media": 16.4,
+    "percentil": 48.5
+   },
+   "2024": {
+    "matriculados": 33,
+    "nota_ingresso_media": 17.0,
+    "percentil": 50.1
+   },
+   "2025": {
+    "matriculados": 33,
+    "nota_ingresso_media": 16.6,
+    "percentil": 58.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 47,
+   "inscritos": 128,
+   "mulheres": 81
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9785",
+ "pct_colocados_1opcao_2025": 45,
+ "percentil_nota_2026": 83,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Economia",
+   "grupo": "Universidade do Minho",
+   "nota": 164.0,
+   "par": "1000-9081",
+   "vagas": 95
+  },
+  {
+   "curso": "Economia",
+   "grupo": "ISCTE",
+   "nota": 163.5,
+   "par": "6800-9081",
+   "vagas": 72
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 161.3,
+   "par": "0300-9081",
+   "vagas": 47
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 154.8,
+   "par": "0503-9081",
+   "vagas": 151
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 136.5,
+   "par": "1202-9081",
+   "vagas": 53
+  },
+  {
+   "curso": "Economia",
+   "grupo": "Universidade de Évora",
+   "nota": 134.8,
+   "par": "0604-9081",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2019f1": {
    "colocados": 31,

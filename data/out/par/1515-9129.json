@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 62.7,
+   "fora": 13.6,
+   "muda_curso": 15.3,
+   "muda_estabelecimento": 8.5,
+   "novos_inscritos": 59
+  },
+  "desemprego": {
+   "diplomados": 76,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.9
+  },
+  "diplomados": {
+   "n": 41,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 13.9,
+    "percentil": 25.4
+   },
+   "2021": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.4,
+    "percentil": 34.5
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.9,
+    "percentil": 36.5
+   },
+   "2023": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.3,
+    "percentil": 32.5
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 14.1,
+    "percentil": 27.7
+   },
+   "2025": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.3,
+    "percentil": 34.8
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 23,
+   "inscritos": 73,
+   "mulheres": 50
+  }
+ },
  "instituicao": "Universidade de Lisboa - Instituto Superior de Agronomia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1515-9129",
+ "pct_colocados_1opcao_2025": 46,
+ "percentil_nota_2026": 33,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Ciência e Tecnologia Animal",
+   "grupo": "Universidade de Évora",
+   "nota": 140.0,
+   "par": "0602-9818",
+   "vagas": 35
+  },
+  {
+   "curso": "Agronomia",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 129.8,
+   "par": "3161-9003",
+   "vagas": 15
+  },
+  {
+   "curso": "Agronomia",
+   "grupo": "Universidade do Algarve",
+   "nota": 126.8,
+   "par": "0203-9003",
+   "vagas": 22
+  },
+  {
+   "curso": "Agronomia",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 120.5,
+   "par": "3141-9003",
+   "vagas": 58
+  },
+  {
+   "curso": "Ciências Agrárias",
+   "grupo": "Universidade dos Açores",
+   "nota": 119.3,
+   "par": "0140-9022",
+   "vagas": 15
+  },
+  {
+   "curso": "Engenharia Agronómica",
+   "grupo": "Universidade do Porto",
+   "nota": 112.5,
+   "par": "1103-9086",
+   "vagas": 21
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 22,

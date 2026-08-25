@@ -11,11 +11,36 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0902-L424",
+ "percentil_nota_2026": 39,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Política, Economia e Sociedade",
+   "grupo": "ISCTE",
+   "nota": 155.5,
+   "par": "6810-L274",
+   "vagas": 34
+  },
+  {
+   "curso": "Mediação Artística e Cultural",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 120.5,
+   "par": "3112-L134",
+   "vagas": 25
+  },
+  {
+   "curso": "Gerontologia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 117.5,
+   "par": "3062-L380",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 20,

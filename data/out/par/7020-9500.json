@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Guarda, Leiria, Portalegre, Santarém, Viseu",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.0,
+   "fora": 3.4,
+   "muda_curso": 3.4,
+   "muda_estabelecimento": 5.1,
+   "novos_inscritos": 117
+  },
+  "desemprego": {
+   "diplomados": 200,
+   "periodo": "2020/21_2023/24",
+   "taxa": 70.0
+  },
+  "diplomados": {
+   "n": 115,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 61,
+    "nota_ingresso_media": 14.8,
+    "percentil": 36.5
+   },
+   "2021": {
+    "matriculados": 53,
+    "nota_ingresso_media": 15.3,
+    "percentil": 29.0
+   },
+   "2022": {
+    "matriculados": 54,
+    "nota_ingresso_media": 15.4,
+    "percentil": 35.7
+   },
+   "2023": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.0,
+    "percentil": 31.5
+   },
+   "2024": {
+    "matriculados": 52,
+    "nota_ingresso_media": 14.5,
+    "percentil": 26.3
+   },
+   "2025": {
+    "matriculados": 54,
+    "nota_ingresso_media": 14.9,
+    "percentil": 44.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 47,
+   "inscritos": 252,
+   "mulheres": 205
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7020-9500",
+ "pct_colocados_1opcao_2025": 65,
+ "percentil_nota_2026": 46,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 137.5,
+   "par": "7085-9500",
+   "vagas": 90
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 133.8,
+   "par": "7015-9500",
+   "vagas": 50
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade dos Açores",
+   "nota": 132.5,
+   "par": "7093-9500",
+   "vagas": 40
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 129.0,
+   "par": "7005-9500",
+   "vagas": 37
+  },
+  {
+   "curso": "Enfermagem (entrada no 2.º semestre)",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 114.8,
+   "par": "7015-9501",
+   "vagas": 45
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 113.3,
+   "par": "7040-9500",
+   "vagas": 88
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 61,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 70.3,
+   "fora": 2.7,
+   "muda_curso": 6.8,
+   "muda_estabelecimento": 20.3,
+   "novos_inscritos": 74
+  },
+  "desemprego": {
+   "diplomados": 97,
+   "periodo": "2020/21_2023/24",
+   "taxa": 50.0
+  },
+  "diplomados": {
+   "n": 50,
+   "nota_final_media": 15.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 18.0,
+    "percentil": 73.9
+   },
+   "2021": {
+    "matriculados": 26,
+    "nota_ingresso_media": 17.8,
+    "percentil": 74.0
+   },
+   "2022": {
+    "matriculados": 32,
+    "nota_ingresso_media": 18.0,
+    "percentil": 78.5
+   },
+   "2023": {
+    "matriculados": 32,
+    "nota_ingresso_media": 18.0,
+    "percentil": 81.5
+   },
+   "2024": {
+    "matriculados": 32,
+    "nota_ingresso_media": 17.5,
+    "percentil": 70.8
+   },
+   "2025": {
+    "matriculados": 30,
+    "nota_ingresso_media": 15.8,
+    "percentil": 46.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 33,
+   "inscritos": 115,
+   "mulheres": 82
+  }
+ },
  "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7230-L101",
+ "pct_colocados_1opcao_2025": 74,
+ "percentil_nota_2026": 84,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Biologia Celular e Molecular",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 165.3,
+   "par": "0903-9348",
+   "vagas": 70
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Universidade dos Açores",
+   "nota": 164.5,
+   "par": "0140-L390",
+   "vagas": 15
+  },
+  {
+   "curso": "Engenharia Biológica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 159.3,
+   "par": "1518-9474",
+   "vagas": 61
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 155.5,
+   "par": "1503-9011",
+   "vagas": 174
+  },
+  {
+   "curso": "Bioquímica",
+   "grupo": "Universidade do Porto",
+   "nota": 154.5,
+   "par": "1103-9015",
+   "vagas": 92
+  },
+  {
+   "curso": "Ciências do Meio Aquático",
+   "grupo": "Universidade do Porto",
+   "nota": 153.5,
+   "par": "1110-9708",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 20,

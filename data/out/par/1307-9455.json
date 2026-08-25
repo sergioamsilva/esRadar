@@ -11,11 +11,66 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
+ "infocursos": {
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 15,
+    "nota_ingresso_media": 15.1,
+    "percentil": 34.3
+   }
+  }
+ },
  "instituicao": "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1307-9455",
+ "pct_colocados_1opcao_2025": 82,
+ "percentil_nota_2026": 36,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Tecnologia Biomédica",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 129.0,
+   "par": "3043-L069",
+   "vagas": 40
+  },
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 128.5,
+   "par": "3064-9455",
+   "vagas": 28
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 126.5,
+   "par": "3154-9016",
+   "vagas": 47
+  },
+  {
+   "curso": "Engenharia Química",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 124.8,
+   "par": "3135-9125",
+   "vagas": 54
+  },
+  {
+   "curso": "Engenharia Química",
+   "grupo": "Universidade de Coimbra",
+   "nota": 123.0,
+   "par": "0501-9125",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 122.5,
+   "par": "1203-9455",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2025f1": {
    "candidatos": 32,

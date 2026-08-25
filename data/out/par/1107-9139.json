@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 71.3,
+   "fora": 17.8,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 9.3,
+   "novos_inscritos": 129
+  },
+  "desemprego": {
+   "diplomados": 121,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.5
+  },
+  "diplomados": {
+   "n": 67,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 53,
+    "nota_ingresso_media": 15.5,
+    "percentil": 59.4
+   },
+   "2021": {
+    "matriculados": 56,
+    "nota_ingresso_media": 15.6,
+    "percentil": 43.0
+   },
+   "2022": {
+    "matriculados": 53,
+    "nota_ingresso_media": 16.0,
+    "percentil": 50.6
+   },
+   "2023": {
+    "matriculados": 55,
+    "nota_ingresso_media": 16.0,
+    "percentil": 56.7
+   },
+   "2024": {
+    "matriculados": 55,
+    "nota_ingresso_media": 16.1,
+    "percentil": 58.4
+   },
+   "2025": {
+    "matriculados": 54,
+    "nota_ingresso_media": 16.5,
+    "percentil": 64.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 99,
+   "inscritos": 210,
+   "mulheres": 111
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Letras",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1107-9139",
+ "pct_colocados_1opcao_2025": 60,
+ "percentil_nota_2026": 64,
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\n18 Português\nou\n16 Matemática\n18 Português\nou\n13 Inglês\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 153.5,
+   "par": "0902-9139",
+   "vagas": 25
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 149.5,
+   "par": "0505-9139",
+   "vagas": 28
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade do Minho",
+   "nota": 147.8,
+   "par": "1000-9139",
+   "vagas": 29
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 135.5,
+   "par": "1506-9139",
+   "vagas": 46
+  },
+  {
+   "curso": "Filosofia e Cultura Contemporânea",
+   "grupo": "Universidade de Évora",
+   "nota": 116.5,
+   "par": "0604-L365",
+   "vagas": 14
+  },
+  {
+   "curso": "Filosofia",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 110.0,
+   "par": "0400-9139",
+   "vagas": 23
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 52,

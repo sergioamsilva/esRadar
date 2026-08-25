@@ -11,11 +11,74 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 61.5,
+   "fora": 30.8,
+   "muda_curso": 7.7,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 26
+  },
+  "desemprego": {
+   "diplomados": 139,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.2
+  },
+  "diplomados": {
+   "n": 20,
+   "nota_final_media": 12.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 49,
+   "inscritos": 68,
+   "mulheres": 19
+  }
+ },
  "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3141-8419",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Zootécnica",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3041-9129",
+   "vagas": 15
+  },
+  {
+   "curso": "Agronomia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": null,
+   "par": "3051-9003",
+   "vagas": 20
+  },
+  {
+   "curso": "Agronomia",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": null,
+   "par": "3125-9003",
+   "vagas": 15
+  },
+  {
+   "curso": "Engenharia Agronómica",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": null,
+   "par": "3185-9086",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Zootécnica",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": null,
+   "par": "3185-9129",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

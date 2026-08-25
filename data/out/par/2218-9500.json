@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 96.6,
+   "fora": 1.1,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.3,
+   "novos_inscritos": 175
+  },
+  "desemprego": {
+   "diplomados": 132,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 133,
+   "nota_final_media": 15.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 352,
+   "mulheres": 301
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Escola de Enfermagem (Lisboa)",
  "minimo_candidatura": null,
  "minimo_provas": null,

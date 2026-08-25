@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": null,
  "instituicao": "ISCTE - Instituto Universitário de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6800-L402",
+ "percentil_nota_2026": 95,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n11 História",
+ "semelhantes": [
+  {
+   "curso": "Direito",
+   "grupo": "Universidade do Minho",
+   "nota": 173.5,
+   "par": "1000-9078",
+   "vagas": 110
+  },
+  {
+   "curso": "Direito",
+   "grupo": "Universidade do Porto",
+   "nota": 173.5,
+   "par": "1114-9078",
+   "vagas": 155
+  },
+  {
+   "curso": "Direito",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 173.0,
+   "par": "0911-9078",
+   "vagas": 100
+  },
+  {
+   "curso": "Direito (regime pós-laboral)",
+   "grupo": "Universidade do Minho",
+   "nota": 169.5,
+   "par": "1000-8358",
+   "vagas": 15
+  },
+  {
+   "curso": "Criminologia e Justiça Criminal",
+   "grupo": "Universidade do Minho",
+   "nota": 167.5,
+   "par": "1000-L078",
+   "vagas": 35
+  },
+  {
+   "curso": "Direito",
+   "grupo": "Universidade de Coimbra",
+   "nota": 167.0,
+   "par": "0502-9078",
+   "vagas": 350
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 26,

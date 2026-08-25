@@ -11,11 +11,87 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 65.6,
+   "fora": 3.1,
+   "muda_curso": 25.0,
+   "muda_estabelecimento": 6.3,
+   "novos_inscritos": 64
+  },
+  "desemprego": {
+   "diplomados": 70,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.1
+  },
+  "diplomados": {
+   "n": 34,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.1,
+    "percentil": 44.2
+   },
+   "2021": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.5,
+    "percentil": 38.4
+   },
+   "2022": {
+    "matriculados": 29,
+    "nota_ingresso_media": 14.8,
+    "percentil": 38.0
+   },
+   "2023": {
+    "matriculados": 29,
+    "nota_ingresso_media": 14.8,
+    "percentil": 45.1
+   },
+   "2024": {
+    "matriculados": 29,
+    "nota_ingresso_media": 14.5,
+    "percentil": 43.4
+   },
+   "2025": {
+    "matriculados": 28,
+    "nota_ingresso_media": 14.0,
+    "percentil": 34.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 26,
+   "inscritos": 85,
+   "mulheres": 59
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Letras",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0505-9694",
+ "pct_colocados_1opcao_2025": 17,
+ "percentil_nota_2026": 51,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Ciências e Tecnologias da Documentação e Informação",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 145.0,
+   "par": "3134-9043",
+   "vagas": 25
+  },
+  {
+   "curso": "Ciência da Informação",
+   "grupo": "Universidade do Porto",
+   "nota": 130.0,
+   "par": "1107-9694",
+   "vagas": 46
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 27,

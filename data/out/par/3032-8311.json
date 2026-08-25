@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\nP14 Técnico de Multimédia\nP17 Técnico de Animação 2D e 3D",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.2,
+   "fora": 7.4,
+   "muda_curso": 3.2,
+   "muda_estabelecimento": 3.2,
+   "novos_inscritos": 94
+  },
+  "desemprego": {
+   "diplomados": 102,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.4
+  },
+  "diplomados": {
+   "n": 62,
+   "nota_final_media": 15.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 30,
+    "nota_ingresso_media": 15.0,
+    "percentil": 35.0
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 14.5,
+    "percentil": 33.1
+   },
+   "2022": {
+    "matriculados": 31,
+    "nota_ingresso_media": 14.7,
+    "percentil": 30.8
+   },
+   "2023": {
+    "matriculados": 37,
+    "nota_ingresso_media": 14.6,
+    "percentil": 29.7
+   },
+   "2024": {
+    "matriculados": 37,
+    "nota_ingresso_media": 14.7,
+    "percentil": 33.1
+   },
+   "2025": {
+    "matriculados": 13,
+    "nota_ingresso_media": 14.6,
+    "percentil": 31.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 142,
+   "inscritos": 152,
+   "mulheres": 10
+  }
+ },
  "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "3032-8311",
+ "pct_colocados_1opcao_2025": 87,
+ "percentil_nota_2026": 18,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Segurança Informática em Redes de Computadores",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 119.5,
+   "par": "3138-8398",
+   "vagas": 22
+  },
+  {
+   "curso": "Inteligência Artificial e Ciência de Dados",
+   "grupo": "Universidade de Évora",
+   "nota": 118.5,
+   "par": "0602-L227",
+   "vagas": 20
+  },
+  {
+   "curso": "Inteligência Artificial e Ciência de Dados",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 116.8,
+   "par": "0400-L227",
+   "vagas": 29
+  },
+  {
+   "curso": "Engenharia de Redes e Sistemas de Computadores",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 115.0,
+   "par": "3163-L153",
+   "vagas": 36
+  },
+  {
+   "curso": "Engenharia Informática e Multimédia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 113.5,
+   "par": "3118-L052",
+   "vagas": 94
+  },
+  {
+   "curso": "Engenharia de Sistemas Informáticos (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 111.0,
+   "par": "3032-8417",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 30,

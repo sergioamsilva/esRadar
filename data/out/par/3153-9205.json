@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Évora, Lisboa, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.7,
+   "fora": 12.9,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.3,
+   "novos_inscritos": 139
+  },
+  "desemprego": {
+   "diplomados": 187,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.0
+  },
+  "diplomados": {
+   "n": 96,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 55,
+    "nota_ingresso_media": 14.4,
+    "percentil": 42.3
+   },
+   "2021": {
+    "matriculados": 62,
+    "nota_ingresso_media": 14.9,
+    "percentil": 45.5
+   },
+   "2022": {
+    "matriculados": 53,
+    "nota_ingresso_media": 15.0,
+    "percentil": 44.8
+   },
+   "2023": {
+    "matriculados": 52,
+    "nota_ingresso_media": 15.3,
+    "percentil": 48.1
+   },
+   "2024": {
+    "matriculados": 50,
+    "nota_ingresso_media": 15.2,
+    "percentil": 50.4
+   },
+   "2025": {
+    "matriculados": 50,
+    "nota_ingresso_media": 14.9,
+    "percentil": 48.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 70,
+   "inscritos": 212,
+   "mulheres": 142
+  }
+ },
  "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3153-9205",
+ "pct_colocados_1opcao_2025": 71,
+ "percentil_nota_2026": 68,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Marketing",
+   "grupo": "Universidade de Aveiro",
+   "nota": 151.5,
+   "par": "3011-9205",
+   "vagas": 33
+  },
+  {
+   "curso": "Publicidade e Marketing (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 146.5,
+   "par": "3113-8439",
+   "vagas": 31
+  },
+  {
+   "curso": "Marketing (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 146.5,
+   "par": "3134-8005",
+   "vagas": 30
+  },
+  {
+   "curso": "Marketing e Negócios Internacionais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 145.0,
+   "par": "3063-L023",
+   "vagas": 57
+  },
+  {
+   "curso": "Relações Públicas e Comunicação Empresarial (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 143.5,
+   "par": "3113-8438",
+   "vagas": 29
+  },
+  {
+   "curso": "Marketing",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 138.3,
+   "par": "3065-9205",
+   "vagas": 33
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 55,

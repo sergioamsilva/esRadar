@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 79.5,
+   "fora": 16.2,
+   "muda_curso": 1.0,
+   "muda_estabelecimento": 3.3,
+   "novos_inscritos": 210
+  },
+  "desemprego": {
+   "diplomados": 216,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.6
+  },
+  "diplomados": {
+   "n": 135,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 78,
+    "nota_ingresso_media": 17.2,
+    "percentil": 72.4
+   },
+   "2021": {
+    "matriculados": 78,
+    "nota_ingresso_media": 16.9,
+    "percentil": 69.6
+   },
+   "2022": {
+    "matriculados": 76,
+    "nota_ingresso_media": 17.0,
+    "percentil": 71.2
+   },
+   "2023": {
+    "matriculados": 77,
+    "nota_ingresso_media": 17.0,
+    "percentil": 72.0
+   },
+   "2024": {
+    "matriculados": 76,
+    "nota_ingresso_media": 17.4,
+    "percentil": 73.8
+   },
+   "2025": {
+    "matriculados": 76,
+    "nota_ingresso_media": 16.9,
+    "percentil": 75.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 171,
+   "inscritos": 327,
+   "mulheres": 156
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Letras",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1107-9181",
+ "pct_colocados_1opcao_2025": 87,
+ "percentil_nota_2026": 85,
  "provas_ingresso": "Duas das seguintes provas:\n09 Geografia\n11 História\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "História",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 163.0,
+   "par": "0902-9181",
+   "vagas": 46
+  },
+  {
+   "curso": "História",
+   "grupo": "Universidade do Minho",
+   "nota": 159.0,
+   "par": "1000-9181",
+   "vagas": 43
+  },
+  {
+   "curso": "História",
+   "grupo": "Universidade de Coimbra",
+   "nota": 156.5,
+   "par": "0505-9181",
+   "vagas": 63
+  },
+  {
+   "curso": "História",
+   "grupo": "Universidade de Lisboa",
+   "nota": 156.5,
+   "par": "1506-9181",
+   "vagas": 65
+  },
+  {
+   "curso": "História Moderna e Contemporânea",
+   "grupo": "ISCTE",
+   "nota": 148.5,
+   "par": "6800-9927",
+   "vagas": 33
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 67,

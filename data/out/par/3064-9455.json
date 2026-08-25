@@ -11,11 +11,100 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Viseu",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.8,
+   "fora": 8.8,
+   "muda_curso": 1.5,
+   "muda_estabelecimento": 2.9,
+   "novos_inscritos": 68
+  },
+  "desemprego": {
+   "diplomados": 81,
+   "periodo": "2020/21_2023/24",
+   "taxa": 60.0
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 24,
+    "nota_ingresso_media": 14.8,
+    "percentil": 23.0
+   },
+   "2023": {
+    "matriculados": 20,
+    "nota_ingresso_media": 14.8,
+    "percentil": 25.9
+   },
+   "2024": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.8,
+    "percentil": 26.0
+   },
+   "2025": {
+    "matriculados": 21,
+    "nota_ingresso_media": 14.0,
+    "percentil": 25.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 53,
+   "inscritos": 99,
+   "mulheres": 46
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3064-9455",
+ "pct_colocados_1opcao_2025": 56,
+ "percentil_nota_2026": 41,
  "provas_ingresso": "07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Química e Biológica",
+   "grupo": "Universidade do Minho",
+   "nota": 130.8,
+   "par": "1000-9126",
+   "vagas": 41
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 130.5,
+   "par": "3185-9016",
+   "vagas": 25
+  },
+  {
+   "curso": "Tecnologia Biomédica",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 129.0,
+   "par": "3043-L069",
+   "vagas": 40
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 126.5,
+   "par": "3154-9016",
+   "vagas": 47
+  },
+  {
+   "curso": "Engenharia Biomédica",
+   "grupo": "Universidade da Madeira",
+   "nota": 125.3,
+   "par": "1307-9455",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Química",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 124.8,
+   "par": "3135-9125",
+   "vagas": 54
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 27,

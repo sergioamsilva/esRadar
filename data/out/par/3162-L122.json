@@ -11,10 +11,70 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.5,
+   "fora": 7.9,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 7.9,
+   "novos_inscritos": 63
+  },
+  "desemprego": {
+   "diplomados": 66,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.5
+  },
+  "diplomados": {
+   "n": 38,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 25,
+    "nota_ingresso_media": 14.1,
+    "percentil": 20.5
+   },
+   "2021": {
+    "matriculados": 34,
+    "nota_ingresso_media": 14.0,
+    "percentil": 26.2
+   },
+   "2022": {
+    "matriculados": 32,
+    "nota_ingresso_media": 14.7,
+    "percentil": 39.3
+   },
+   "2023": {
+    "matriculados": 31,
+    "nota_ingresso_media": 15.1,
+    "percentil": 36.4
+   },
+   "2024": {
+    "matriculados": 29,
+    "nota_ingresso_media": 15.6,
+    "percentil": 40.9
+   },
+   "2025": {
+    "matriculados": 29,
+    "nota_ingresso_media": 14.9,
+    "percentil": 40.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 21,
+   "inscritos": 101,
+   "mulheres": 80
+  }
+ },
  "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3162-L122",
+ "pct_colocados_1opcao_2025": 40,
+ "percentil_nota_2026": 73,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
  "series": {
   "2018f1": {

@@ -11,11 +11,110 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.5,
+   "fora": 12.3,
+   "muda_curso": 3.7,
+   "muda_estabelecimento": 2.5,
+   "novos_inscritos": 81
+  },
+  "diplomados": {
+   "n": 60,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 33,
+    "nota_ingresso_media": 15.0,
+    "percentil": 43.6
+   },
+   "2021": {
+    "matriculados": 37,
+    "nota_ingresso_media": 14.1,
+    "percentil": 23.1
+   },
+   "2022": {
+    "matriculados": 36,
+    "nota_ingresso_media": 13.9,
+    "percentil": 27.8
+   },
+   "2023": {
+    "matriculados": 34,
+    "nota_ingresso_media": 13.4,
+    "percentil": 20.5
+   },
+   "2024": {
+    "matriculados": 36,
+    "nota_ingresso_media": 14.5,
+    "percentil": 34.4
+   },
+   "2025": {
+    "matriculados": 14,
+    "nota_ingresso_media": 14.1,
+    "percentil": 40.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 52,
+   "inscritos": 121,
+   "mulheres": 69
+  }
+ },
  "instituicao": "Universidade da Madeira - Escola Superior de Tecnologias e Gestão",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1321-9076",
+ "pct_colocados_1opcao_2025": 92,
+ "percentil_nota_2026": 16,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n04 Economia\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Gastronomia e Sustentabilidade Alimentar",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 120.0,
+   "par": "3034-L373",
+   "vagas": 20
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Universidade do Algarve",
+   "nota": 117.3,
+   "par": "3082-9173",
+   "vagas": 50
+  },
+  {
+   "curso": "Gestão Hoteleira",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 116.5,
+   "par": "3095-9173",
+   "vagas": 20
+  },
+  {
+   "curso": "Gestão Turística e Hoteleira",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 112.0,
+   "par": "3105-9178",
+   "vagas": 45
+  },
+  {
+   "curso": "Direção e Gestão Hoteleira",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 110.5,
+   "par": "3046-9076",
+   "vagas": 20
+  },
+  {
+   "curso": "Produção Alimentar em Restauração",
+   "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
+   "nota": 103.0,
+   "par": "7110-9217",
+   "vagas": 63
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 32,

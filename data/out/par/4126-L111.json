@@ -11,6 +11,27 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Universitária Vasco da Gama",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 77.1,
+   "fora": 8.6,
+   "muda_curso": 11.4,
+   "muda_estabelecimento": 2.9,
+   "novos_inscritos": 35
+  },
+  "diplomados": {
+   "n": 13,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 5,
+   "inscritos": 38,
+   "mulheres": 33
+  }
+ },
  "instituicao": "Escola Universitária Vasco da Gama",
  "minimo_candidatura": 110,
  "minimo_provas": 95,

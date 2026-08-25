@@ -11,11 +11,83 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 58.2,
+   "fora": 34.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 7.3,
+   "novos_inscritos": 55
+  },
+  "desemprego": {
+   "diplomados": 58,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.1
+  },
+  "diplomados": {
+   "n": 36,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 24,
+   "inscritos": 67,
+   "mulheres": 43
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Artes",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0603-9243",
+ "pct_colocados_1opcao_2025": 86,
+ "percentil_nota_2026": 23,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n12 Hist. da Cultura e Artes\nou\n13 Inglês\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n03 Desenho\n18 Português\nou\n15 Literatura Portuguesa\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n06 Filosofia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Teatro",
+   "grupo": "Universidade do Minho",
+   "nota": 137.5,
+   "par": "1000-9243",
+   "vagas": 25
+  },
+  {
+   "curso": "Ciências Musicais",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 128.0,
+   "par": "0902-9046",
+   "vagas": 43
+  },
+  {
+   "curso": "Estudos Artísticos",
+   "grupo": "Universidade de Coimbra",
+   "nota": 126.5,
+   "par": "0505-9132",
+   "vagas": 38
+  },
+  {
+   "curso": "Animação e Produção Artística",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 115.5,
+   "par": "3042-9933",
+   "vagas": 30
+  },
+  {
+   "curso": "Dança",
+   "grupo": "Universidade de Lisboa",
+   "nota": 115.0,
+   "par": "1510-9068",
+   "vagas": 21
+  },
+  {
+   "curso": "Artes Performativas",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 112.8,
+   "par": "3181-9681",
+   "vagas": 26
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 23,

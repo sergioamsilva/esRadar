@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Centro Universitário Lusófona",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 52.4,
+   "fora": 9.5,
+   "muda_curso": 4.8,
+   "muda_estabelecimento": 33.3,
+   "novos_inscritos": 21
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 18,
+   "inscritos": 21,
+   "mulheres": 3
+  }
+ },
  "instituicao": "Centro Universitário Lusófona - Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

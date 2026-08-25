@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Leiria, Lisboa, Portalegre, Santarém, Setúbal",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "7065-9504",
+ "percentil_nota_2026": 79,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
+ "semelhantes": [
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Universidade do Algarve",
+   "nota": 159.5,
+   "par": "7035-9504",
+   "vagas": 26
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 156.5,
+   "par": "7016-9504",
+   "vagas": 25
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 156.0,
+   "par": "7045-9504",
+   "vagas": 34
+  },
+  {
+   "curso": "Ciências da Nutrição",
+   "grupo": "Universidade de Lisboa",
+   "nota": 152.5,
+   "par": "1507-9554",
+   "vagas": 30
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 151.0,
+   "par": "7020-9504",
+   "vagas": 35
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 149.5,
+   "par": "7055-9504",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 18,

@@ -11,11 +11,77 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n082 Informática (DL 74/2004)\n578 Informática (Port. 26/2005)\n669 Informática (Port. 49/2005)\n679 Informática (Port. 817/2009)\n753 Técnico de Informática\n813 Agrupamento 1 / Informática\n977 Recorrente - Informática (DL 74/2004)\n997 Informática (INA) (Port. 37/2005)\nA11 Informática (VC) (Port. 941/2009)\nA12 Informática (VCT) (Port. 941/2009)\nA75 Eletrónica e Computadores (T) -Port. 814/2009\nG08 Informática (VC) (Portaria n.º 260/2013)\nG21 Informática (VT) (Portaria n.º 260/2013)\nG34 Eletrónica Industrial e Automação (Portaria n.º 262/2013)\nG64 Eletrónica e Computadores (Portaria n.º 263/2013)\nG84 Informática (Portaria n.º 33/2015)\nH34 Eletrónica Industrial e Automação\nH84 Informática\nR25 Técnico de Informática - Sistemas\nR38 Programador de Informática\nS27 Técnico de Eletrónica de Computadores\nS28 Técnico de Eletrónica/Industrial e de Equipamentos\nS29 Técnico de Eletrónica/Instrumentação, Controlo e Telemanut.\nT04 Programador de Informática\nT17 Técnico de Eletrónica, Automação e Comando\nT19 Técnico de Eletrónica, Automação e Instrumentação\nT29 Técnico de Informática - Sistemas",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": {
+  "percentil_entrada": {
+   "2024": {
+    "matriculados": 30,
+    "nota_ingresso_media": 13.3,
+    "percentil": 19.2
+   },
+   "2025": {
+    "matriculados": 10,
+    "nota_ingresso_media": 13.6,
+    "percentil": 27.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 29,
+   "inscritos": 29,
+   "mulheres": 0
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3064-L226",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 1,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Informática Web, Móvel e na Nuvem",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 108.0,
+   "par": "0400-L303",
+   "vagas": 21
+  },
+  {
+   "curso": "Ciência de Dados e Inteligência Artificial",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 107.5,
+   "par": "3092-L283",
+   "vagas": 20
+  },
+  {
+   "curso": "Gestão de Sistemas de Informação",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 105.0,
+   "par": "3153-9630",
+   "vagas": 65
+  },
+  {
+   "curso": "Tecnologias Digitais e Gestão",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3043-L423",
+   "vagas": 40
+  },
+  {
+   "curso": "Informática e Comunicações",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3045-9188",
+   "vagas": 30
+  },
+  {
+   "curso": "Informática e Multimédia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": null,
+   "par": "3053-L275",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 100,

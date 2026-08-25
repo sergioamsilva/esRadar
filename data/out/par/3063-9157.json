@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3063-9157",
+ "percentil_nota_2026": 60,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 143.0,
+   "par": "0400-9147",
+   "vagas": 81
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 143.0,
+   "par": "3102-9147",
+   "vagas": 102
+  },
+  {
+   "curso": "Gestão de Recursos Humanos",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 143.0,
+   "par": "3153-9157",
+   "vagas": 57
+  },
+  {
+   "curso": "Gestão Comercial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 139.5,
+   "par": "3012-L021",
+   "vagas": 30
+  },
+  {
+   "curso": "Gestão de Empresas (regime pós-laboral)",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 139.5,
+   "par": "3031-9994",
+   "vagas": 29
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 139.5,
+   "par": "3065-9147",
+   "vagas": 36
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 50,

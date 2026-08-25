@@ -11,11 +11,69 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n178 DIDÁXIS - Química e Controlo de Qualidade (DL 286/89)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n726 Técnico da Qualidade\n727 Técnico de Alimentação e Bebidas\n747 Técnico de Gestão Agrícola\n755 Técnico de Laboratório\n780 Técnico Vitivinícola\n815 Agrupamento 1 / Química\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG44 Biotecnologia Aplicada (Portaria n.º 265/2013)\nG53 Química Industrial e Laboratorial (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH26 Química, Ambiente e Qualidade (VT)\nH28 Análises Químico-Biológicas\nH37 Tecnologias e Segurança Alimentar\nH44 Biotecnologia Aplicada\nH53 Química Industrial e Laboratorial\nP57 Técnico de Gestão Equina\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP72 Técnico de Produção Agrária\nP76 Técnico de Química Industrial\nP79 Técnico de Recursos Florestais e Ambientais\nP81 Técnico de Restauração\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nP96 Técnico de Viticultura e Enologia\nR18 Técnico Vitivinícola\nR20 Técnico de Cozinha/Pastelaria\nR22 Técnico de Produção Agropecuária\nR58 Técnico de Controlo de Qualidade Alimentar\nR76 Técnico de Indústrias Alimentares\nR95 Técnico de Pastelaria/Padaria\nS13 Técnico Agrícola\nS43 Técnico de Produção Agropecuária\nS55 Técnicas de Serviço de Restauração e Bebidas (Port 57/2009)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS67 Técnico de Cozinha/Pastelaria\nT07 Técnico de Análise Laboratorial\nT10 Técnico de Controlo de Qualidade Alimentar\nT42 Técnico de Produção Agrária\nT47 Técnico de Recursos Florestais e Ambientais\nT52 Técnico de Turismo Ambiental e Rural",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 72.7,
+   "fora": 18.2,
+   "muda_curso": 4.5,
+   "muda_estabelecimento": 4.5,
+   "novos_inscritos": 22
+  },
+  "diplomados": {
+   "n": 15,
+   "nota_final_media": 13.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 14,
+   "inscritos": 28,
+   "mulheres": 14
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9752",
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n02 Biologia e Geologia\n04 Economia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Tecnologia Alimentar",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 113.0,
+   "par": "3061-L015",
+   "vagas": 26
+  },
+  {
+   "curso": "Ciência e Tecnologia dos Alimentos",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": null,
+   "par": "3021-9350",
+   "vagas": 24
+  },
+  {
+   "curso": "Engenharia Alimentar",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3041-9087",
+   "vagas": 20
+  },
+  {
+   "curso": "Sistemas Alimentares Sustentáveis",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": null,
+   "par": "3105-L389",
+   "vagas": 14
+  },
+  {
+   "curso": "Engenharia Alimentar",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": null,
+   "par": "3185-9087",
+   "vagas": 25
+  }
+ ],
  "series": {
   "2020f1": {
    "colocados": 1,

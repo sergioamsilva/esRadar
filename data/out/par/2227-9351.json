@@ -11,6 +11,27 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 60.5,
+   "fora": 16.3,
+   "muda_curso": 18.6,
+   "muda_estabelecimento": 4.7,
+   "novos_inscritos": 43
+  },
+  "diplomados": {
+   "n": 7,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 12,
+   "inscritos": 39,
+   "mulheres": 27
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Medicina Dentária",
  "minimo_candidatura": null,
  "minimo_provas": null,

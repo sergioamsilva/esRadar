@@ -11,11 +11,43 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3117-L007",
+ "percentil_nota_2026": 77,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Tecnologias Digitais e Gestão",
+   "grupo": "ISCTE",
+   "nota": 162.0,
+   "par": "6810-L280",
+   "vagas": 33
+  },
+  {
+   "curso": "Comércio e Relações Económicas Internacionais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 145.0,
+   "par": "3063-L056",
+   "vagas": 35
+  },
+  {
+   "curso": "Comércio e Negócios Internacionais (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 140.0,
+   "par": "3117-L035",
+   "vagas": 28
+  },
+  {
+   "curso": "Tecnologias Digitais e Saúde",
+   "grupo": "ISCTE",
+   "nota": 114.5,
+   "par": "6810-L282",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 28,

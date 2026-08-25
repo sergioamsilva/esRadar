@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 65.2,
+   "fora": 19.7,
+   "muda_curso": 10.6,
+   "muda_estabelecimento": 4.5,
+   "novos_inscritos": 66
+  },
+  "desemprego": {
+   "diplomados": 70,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.8
+  },
+  "diplomados": {
+   "n": 35,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 36,
+    "nota_ingresso_media": 13.0,
+    "percentil": 14.1
+   },
+   "2021": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.8,
+    "percentil": 30.3
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.1,
+    "percentil": 21.2
+   },
+   "2023": {
+    "matriculados": 27,
+    "nota_ingresso_media": 13.9,
+    "percentil": 27.6
+   },
+   "2024": {
+    "matriculados": 20,
+    "nota_ingresso_media": 13.5,
+    "percentil": 25.1
+   },
+   "2025": {
+    "matriculados": 22,
+    "nota_ingresso_media": 13.5,
+    "percentil": 28.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 51,
+   "inscritos": 89,
+   "mulheres": 38
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0602-9016",
+ "pct_colocados_1opcao_2025": 69,
+ "percentil_nota_2026": 8,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Universidade do Algarve",
+   "nota": 113.0,
+   "par": "0203-9016",
+   "vagas": 22
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 112.0,
+   "par": "3061-9016",
+   "vagas": 44
+  },
+  {
+   "curso": "Biotecnologia",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 111.5,
+   "par": "3105-9016",
+   "vagas": 30
+  },
+  {
+   "curso": "Química Industrial",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 108.0,
+   "par": "0400-9225",
+   "vagas": 20
+  },
+  {
+   "curso": "Tecnologias do Petróleo",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 108.0,
+   "par": "3154-L100",
+   "vagas": 31
+  },
+  {
+   "curso": "Tecnologia Biomédica",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 107.0,
+   "par": "3152-L069",
+   "vagas": 51
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 20,

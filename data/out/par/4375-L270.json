@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior Manuel Teixeira Gomes",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 76.5,
+   "fora": 5.9,
+   "muda_curso": 5.9,
+   "muda_estabelecimento": 11.8,
+   "novos_inscritos": 17
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 1,
+   "inscritos": 23,
+   "mulheres": 22
+  }
+ },
  "instituicao": "Instituto Superior Manuel Teixeira Gomes",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

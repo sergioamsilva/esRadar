@@ -11,11 +11,109 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.7,
+   "fora": 1.6,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 7.1,
+   "novos_inscritos": 126
+  },
+  "diplomados": {
+   "n": 102,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 66,
+    "nota_ingresso_media": 15.2,
+    "percentil": 49.5
+   },
+   "2021": {
+    "matriculados": 57,
+    "nota_ingresso_media": 16.0,
+    "percentil": 51.2
+   },
+   "2022": {
+    "matriculados": 58,
+    "nota_ingresso_media": 15.3,
+    "percentil": 39.6
+   },
+   "2023": {
+    "matriculados": 58,
+    "nota_ingresso_media": 15.4,
+    "percentil": 44.4
+   },
+   "2024": {
+    "matriculados": 64,
+    "nota_ingresso_media": 15.1,
+    "percentil": 37.7
+   },
+   "2025": {
+    "matriculados": 60,
+    "nota_ingresso_media": 14.0,
+    "percentil": 29.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 67,
+   "inscritos": 240,
+   "mulheres": 173
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-L066",
+ "percentil_nota_2026": 64,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 146.0,
+   "par": "7210-L067",
+   "vagas": 41
+  },
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Universidade do Algarve",
+   "nota": 143.5,
+   "par": "7035-L068",
+   "vagas": 31
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 143.5,
+   "par": "7210-L066",
+   "vagas": 41
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 142.8,
+   "par": "3013-L066",
+   "vagas": 25
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Universidade do Algarve",
+   "nota": 138.5,
+   "par": "7035-L066",
+   "vagas": 30
+  },
+  {
+   "curso": "Ortoprotesia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 137.3,
+   "par": "7250-8152",
+   "vagas": 26
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 447,

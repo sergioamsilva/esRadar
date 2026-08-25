@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade da Beira Interior",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.9,
+   "fora": 0.8,
+   "muda_curso": 0.3,
+   "muda_estabelecimento": 5.7,
+   "novos_inscritos": 367
+  },
+  "desemprego": {
+   "diplomados": 604,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 303,
+   "nota_final_media": 15.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 140,
+    "nota_ingresso_media": 18.4,
+    "percentil": 75.2
+   },
+   "2021": {
+    "matriculados": 140,
+    "nota_ingresso_media": 18.4,
+    "percentil": 72.6
+   },
+   "2022": {
+    "matriculados": 145,
+    "nota_ingresso_media": 18.3,
+    "percentil": 78.6
+   },
+   "2023": {
+    "matriculados": 145,
+    "nota_ingresso_media": 18.0,
+    "percentil": 73.8
+   },
+   "2024": {
+    "matriculados": 150,
+    "nota_ingresso_media": 18.0,
+    "percentil": 73.1
+   },
+   "2025": {
+    "matriculados": 149,
+    "nota_ingresso_media": 17.9,
+    "percentil": 75.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 297,
+   "inscritos": 1037,
+   "mulheres": 740
+  }
+ },
  "instituicao": "Universidade da Beira Interior",
  "minimo_candidatura": 140,
  "minimo_provas": 140,
  "par": "0400-9813",
+ "pct_colocados_1opcao_2025": 14,
+ "percentil_nota_2026": 97,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Coimbra",
+   "nota": 180.7,
+   "par": "0506-9813",
+   "vagas": 291
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 180.3,
+   "par": "0901-9813",
+   "vagas": 232
+  },
+  {
+   "curso": "Medicina",
+   "grupo": "Universidade de Lisboa",
+   "nota": 179.2,
+   "par": "1507-9813",
+   "vagas": 297
+  },
+  {
+   "curso": "Ciclo Básico de Medicina",
+   "grupo": "Universidade da Madeira",
+   "nota": 177.8,
+   "par": "1309-8083",
+   "vagas": 38
+  },
+  {
+   "curso": "Ciclo Básico de Medicina",
+   "grupo": "Universidade dos Açores",
+   "nota": 177.7,
+   "par": "0160-8083",
+   "vagas": 50
+  },
+  {
+   "curso": "Ciências Biomédicas",
+   "grupo": "Universidade de Aveiro",
+   "nota": 172.5,
+   "par": "0300-9351",
+   "vagas": 77
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 140,

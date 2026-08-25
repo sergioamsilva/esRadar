@@ -11,11 +11,105 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n736 Técnico de Eletricidade de Edificações\n737 Técnico de Eletricidade de Manutenção\n740 Técnico de Eletrónica\n748 Técnico de Gestão de Energia\n766 Técnico de Sistemas Energéticos\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP41 Técnico de Eletrónica e Telecomunicações\nP42 Técnico de Eletrónica, Áudio, Vídeo e TV\nP43 Técnico de Eletrónica, Automação e Comando\nP44 Técnico de Eletrónica, Automação e Computadores\nP45 Técnico de Eletrónica, Automação e Instrumentação\nP46 Técnico de Eletrotecnia\nP47 Técnico de Energias Renováveis\nP60 Técnico de Instalações Elétricas\nP66 Técnico de Mecatrónica\nS28 Técnico de Eletrónica/Industrial e de Equipamentos\nS29 Técnico de Eletrónica/Instrumentação, Controlo e Telemanut.\nS30 Técnico de Eletrónica e Telecomunicações\nT16 Técnico de Eletrónica, Áudio, Vídeo e TV\nT17 Técnico de Eletrónica, Automação e Comando\nT18 Técnico de Eletrónica, Automação e Computadores\nT19 Técnico de Eletrónica, Automação e Instrumentação\nT20 Técnico de Eletrotecnia",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.3,
+   "fora": 15.8,
+   "muda_curso": 2.6,
+   "muda_estabelecimento": 1.3,
+   "novos_inscritos": 76
+  },
+  "desemprego": {
+   "diplomados": 161,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.2
+  },
+  "diplomados": {
+   "n": 72,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 11,
+    "nota_ingresso_media": 14.1,
+    "percentil": 22.0
+   },
+   "2023": {
+    "matriculados": 13,
+    "nota_ingresso_media": 13.2,
+    "percentil": 12.4
+   },
+   "2024": {
+    "matriculados": 26,
+    "nota_ingresso_media": 13.8,
+    "percentil": 20.9
+   },
+   "2025": {
+    "matriculados": 41,
+    "nota_ingresso_media": 13.5,
+    "percentil": 27.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 224,
+   "inscritos": 243,
+   "mulheres": 19
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3064-L209",
+ "pct_colocados_1opcao_2025": 75,
+ "percentil_nota_2026": 38,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 128.0,
+   "par": "3064-9119",
+   "vagas": 140
+  },
+  {
+   "curso": "Engenharia de Automação, Controlo e Instrumentação",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 127.8,
+   "par": "3152-9092",
+   "vagas": 45
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 127.0,
+   "par": "3043-9119",
+   "vagas": 90
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 126.5,
+   "par": "0903-L209",
+   "vagas": 166
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "nota": 126.5,
+   "par": "3032-9112",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia de Automação Industrial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 125.5,
+   "par": "0300-L202",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 9,

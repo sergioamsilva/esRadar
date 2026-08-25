@@ -11,11 +11,77 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Portalegre, Santarém, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\nG38 Tecnologias da Saúde (Portaria n.º 262/2013)\nH38 Tecnologias da Saúde\nP11 Técnico Auxiliar de Saúde",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": {
+  "percentil_entrada": {
+   "2024": {
+    "matriculados": 23,
+    "nota_ingresso_media": 14.6,
+    "percentil": 30.9
+   },
+   "2025": {
+    "matriculados": 24,
+    "nota_ingresso_media": 14.8,
+    "percentil": 45.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 16,
+   "inscritos": 28,
+   "mulheres": 12
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Saúde",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7055-9504",
+ "pct_colocados_1opcao_2025": 48,
+ "percentil_nota_2026": 73,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
+ "semelhantes": [
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 154.0,
+   "par": "7065-9504",
+   "vagas": 18
+  },
+  {
+   "curso": "Ciências da Nutrição",
+   "grupo": "Universidade de Lisboa",
+   "nota": 152.5,
+   "par": "1507-9554",
+   "vagas": 30
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 151.0,
+   "par": "7020-9504",
+   "vagas": 35
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 148.5,
+   "par": "7230-9890",
+   "vagas": 38
+  },
+  {
+   "curso": "Terapia Ocupacional",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 148.0,
+   "par": "7230-8138",
+   "vagas": 45
+  },
+  {
+   "curso": "Ciências da Nutrição",
+   "grupo": "Universidade do Porto",
+   "nota": 143.3,
+   "par": "1101-9554",
+   "vagas": 67
+  }
+ ],
  "series": {
   "2024f1": {
    "candidatos": 129,

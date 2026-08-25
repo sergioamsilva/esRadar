@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 87.7,
+   "fora": 3.1,
+   "muda_curso": 3.1,
+   "muda_estabelecimento": 6.2,
+   "novos_inscritos": 130
+  },
+  "desemprego": {
+   "diplomados": 226,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.9
+  },
+  "diplomados": {
+   "n": 111,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 71,
+    "nota_ingresso_media": 16.5,
+    "percentil": 44.4
+   },
+   "2021": {
+    "matriculados": 68,
+    "nota_ingresso_media": 17.2,
+    "percentil": 51.7
+   },
+   "2022": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.5,
+    "percentil": 47.1
+   },
+   "2023": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.5,
+    "percentil": 52.5
+   },
+   "2024": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.7,
+    "percentil": 60.1
+   },
+   "2025": {
+    "matriculados": 60,
+    "nota_ingresso_media": 15.7,
+    "percentil": 48.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 48,
+   "inscritos": 189,
+   "mulheres": 141
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "1000-9015",
+ "pct_colocados_1opcao_2025": 77,
+ "percentil_nota_2026": 72,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade do Porto",
+   "nota": 151.0,
+   "par": "1103-9011",
+   "vagas": 131
+  },
+  {
+   "curso": "Bioinformática",
+   "grupo": "Universidade do Porto",
+   "nota": 149.3,
+   "par": "1103-9687",
+   "vagas": 37
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 149.0,
+   "par": "1515-9011",
+   "vagas": 38
+  },
+  {
+   "curso": "Bioquímica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 145.5,
+   "par": "1503-9015",
+   "vagas": 70
+  },
+  {
+   "curso": "Bioquímica",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 144.0,
+   "par": "0903-9015",
+   "vagas": 80
+  },
+  {
+   "curso": "Biologia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 140.0,
+   "par": "0300-9011",
+   "vagas": 90
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 65,

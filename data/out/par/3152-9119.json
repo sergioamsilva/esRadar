@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 83.7,
+   "fora": 6.9,
+   "muda_curso": 2.5,
+   "muda_estabelecimento": 6.9,
+   "novos_inscritos": 203
+  },
+  "desemprego": {
+   "diplomados": 236,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.1
+  },
+  "diplomados": {
+   "n": 151,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 71,
+    "nota_ingresso_media": 14.9,
+    "percentil": 33.4
+   },
+   "2021": {
+    "matriculados": 70,
+    "nota_ingresso_media": 14.4,
+    "percentil": 30.4
+   },
+   "2022": {
+    "matriculados": 69,
+    "nota_ingresso_media": 14.8,
+    "percentil": 28.7
+   },
+   "2023": {
+    "matriculados": 69,
+    "nota_ingresso_media": 14.9,
+    "percentil": 29.7
+   },
+   "2024": {
+    "matriculados": 69,
+    "nota_ingresso_media": 15.2,
+    "percentil": 35.6
+   },
+   "2025": {
+    "matriculados": 69,
+    "nota_ingresso_media": 14.1,
+    "percentil": 32.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 435,
+   "inscritos": 472,
+   "mulheres": 37
+  }
+ },
  "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3152-9119",
+ "pct_colocados_1opcao_2025": 91,
+ "percentil_nota_2026": 30,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n10 Geometria Descritiva\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n16 Matemática\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Engenharia de Telecomunicações e Informática",
+   "grupo": "Universidade de Lisboa",
+   "nota": 124.0,
+   "par": "1519-9098",
+   "vagas": 55
+  },
+  {
+   "curso": "Computação Criativa e Realidade Virtual",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 123.5,
+   "par": "0400-L331",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Computacional",
+   "grupo": "Universidade de Aveiro",
+   "nota": 122.5,
+   "par": "0300-L223",
+   "vagas": 25
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 121.5,
+   "par": "0400-9119",
+   "vagas": 80
+  },
+  {
+   "curso": "Engenharia Eletrónica",
+   "grupo": "Universidade de Lisboa",
+   "nota": 121.5,
+   "par": "1519-9912",
+   "vagas": 34
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 121.5,
+   "par": "3092-9119",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 67,

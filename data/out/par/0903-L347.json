@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0903-L347",
+ "percentil_nota_2026": 81,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Matemática + Física",
+   "grupo": "Universidade do Minho",
+   "nota": 164.0,
+   "par": "1000-A023",
+   "vagas": 10
+  },
+  {
+   "curso": "Matemática Aplicada",
+   "grupo": "Universidade do Porto",
+   "nota": 163.0,
+   "par": "1103-9385",
+   "vagas": 63
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade do Porto",
+   "nota": 158.5,
+   "par": "1103-9209",
+   "vagas": 56
+  },
+  {
+   "curso": "Matemática Aplicada",
+   "grupo": "Universidade de Lisboa",
+   "nota": 153.3,
+   "par": "1503-9385",
+   "vagas": 77
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade do Minho",
+   "nota": 150.8,
+   "par": "1000-9209",
+   "vagas": 35
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade de Aveiro",
+   "nota": 143.5,
+   "par": "0300-9209",
+   "vagas": 32
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 25,

@@ -11,11 +11,88 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 66.0,
+   "fora": 16.0,
+   "muda_curso": 8.0,
+   "muda_estabelecimento": 10.0,
+   "novos_inscritos": 50
+  },
+  "diplomados": {
+   "n": 35,
+   "nota_final_media": 14.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 35,
+    "nota_ingresso_media": 13.8,
+    "percentil": 28.7
+   },
+   "2021": {
+    "matriculados": 27,
+    "nota_ingresso_media": 15.4,
+    "percentil": 38.9
+   },
+   "2022": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.7,
+    "percentil": 39.8
+   },
+   "2023": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.1,
+    "percentil": 27.5
+   },
+   "2024": {
+    "matriculados": 29,
+    "nota_ingresso_media": 13.5,
+    "percentil": 19.9
+   },
+   "2025": {
+    "matriculados": 4,
+    "nota_ingresso_media": 13.3,
+    "percentil": 19.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 31,
+   "inscritos": 97,
+   "mulheres": 66
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-9861",
+ "percentil_nota_2026": 33,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Saúde Pública Global",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 139.5,
+   "par": "0908-L350",
+   "vagas": 42
+  },
+  {
+   "curso": "Saúde Ambiental",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 121.5,
+   "par": "7230-9861",
+   "vagas": 32
+  },
+  {
+   "curso": "Saúde Ambiental",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 109.0,
+   "par": "7210-9861",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 118,

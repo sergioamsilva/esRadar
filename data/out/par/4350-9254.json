@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Europeia",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.8,
+   "fora": 7.3,
+   "muda_curso": 1.8,
+   "muda_estabelecimento": 9.1,
+   "novos_inscritos": 55
+  },
+  "desemprego": {
+   "diplomados": 186,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.6
+  },
+  "diplomados": {
+   "n": 78,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 44,
+   "inscritos": 128,
+   "mulheres": 84
+  }
+ },
  "instituicao": "Universidade Europeia",
  "minimo_candidatura": 98,
  "minimo_provas": 95,

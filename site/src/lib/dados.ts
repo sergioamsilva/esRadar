@@ -40,6 +40,41 @@ export type Par = {
   vagas_2026: number | null;
   /** Chaves «{ano}f{fase}», ex. «2025f1». */
   series: Record<string, Registo>;
+  /** Bloco do Infocursos (MECI), quando o par lá existe. */
+  infocursos: {
+    percentil_entrada?: Record<
+      string,
+      { percentil: number; nota_ingresso_media: number | null; matriculados: number | null }
+    >;
+    desemprego?: { taxa: number; diplomados: number | null; periodo: string | null };
+    sexo?: {
+      ano_letivo: string;
+      inscritos: number | null;
+      homens: number | null;
+      mulheres: number | null;
+    };
+    apos_1_ano?: {
+      coorte: string | null;
+      novos_inscritos: number | null;
+      fica: number;
+      muda_curso: number;
+      muda_estabelecimento: number;
+      fora: number;
+    };
+    diplomados?: { nota_final_media: number; n: number | null; periodo: string | null };
+  } | null;
+  /** % de cursos do CNA com nota de corte abaixo da deste (2026, 1ª fase). */
+  percentil_nota_2026?: number;
+  /** % dos colocados de 2025 que tinham este curso em 1ª opção. */
+  pct_colocados_1opcao_2025?: number;
+  /** Vizinhos na mesma área CNAEF, ordenados por nota. */
+  semelhantes?: {
+    par: string;
+    curso: string;
+    grupo: string;
+    nota: number | null;
+    vagas: number | null;
+  }[];
 };
 
 /** Linha do índice plano (data/out/cursos.json) — só pares ativos. */

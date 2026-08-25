@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISPA",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 83.3,
+   "fora": 6.7,
+   "muda_curso": 10.0,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 30
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 10,
+   "inscritos": 42,
+   "mulheres": 32
+  }
+ },
  "instituicao": "ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

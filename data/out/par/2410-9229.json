@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Lusíada",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.9,
+   "fora": 17.1,
+   "muda_curso": 0,
+   "muda_estabelecimento": 3.9,
+   "novos_inscritos": 76
+  },
+  "desemprego": {
+   "diplomados": 58,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.1
+  },
+  "diplomados": {
+   "n": 47,
+   "nota_final_media": 12.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 63,
+   "inscritos": 141,
+   "mulheres": 78
+  }
+ },
  "instituicao": "Universidade Lusíada - Centro Universitário Lusíada - Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

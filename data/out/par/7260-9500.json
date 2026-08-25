@@ -11,11 +11,102 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.4,
+   "fora": 3.9,
+   "muda_curso": 0,
+   "muda_estabelecimento": 6.7,
+   "novos_inscritos": 585
+  },
+  "diplomados": {
+   "n": 524,
+   "nota_final_media": 15.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 289,
+    "nota_ingresso_media": 16.3,
+    "percentil": 63.1
+   },
+   "2021": {
+    "matriculados": 283,
+    "nota_ingresso_media": 16.7,
+    "percentil": 62.0
+   },
+   "2022": {
+    "matriculados": 278,
+    "nota_ingresso_media": 16.1,
+    "percentil": 56.0
+   },
+   "2023": {
+    "matriculados": 267,
+    "nota_ingresso_media": 16.0,
+    "percentil": 53.8
+   },
+   "2024": {
+    "matriculados": 275,
+    "nota_ingresso_media": 15.7,
+    "percentil": 51.7
+   },
+   "2025": {
+    "matriculados": 271,
+    "nota_ingresso_media": 16.0,
+    "percentil": 60.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 179,
+   "inscritos": 1146,
+   "mulheres": 967
+  }
+ },
  "instituicao": "Universidade de Lisboa - Escola Superior de Enfermagem",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7260-9500",
+ "percentil_nota_2026": 81,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade do Porto",
+   "nota": 160.8,
+   "par": "7270-9500",
+   "vagas": 257
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade do Minho",
+   "nota": 156.5,
+   "par": "7010-9500",
+   "vagas": 80
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 151.8,
+   "par": "3155-9500",
+   "vagas": 46
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade da Madeira",
+   "nota": 151.0,
+   "par": "1320-9500",
+   "vagas": 26
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 150.5,
+   "par": "7080-9500",
+   "vagas": 95
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 1238,

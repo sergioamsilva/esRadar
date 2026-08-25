@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Tecnologias Avançadas de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_",
+   "fica": 76.9,
+   "fora": 23.1,
+   "muda_curso": 0,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 26
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 61,
+   "inscritos": 65,
+   "mulheres": 4
+  }
+ },
  "instituicao": "Instituto Superior de Tecnologias Avançadas de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

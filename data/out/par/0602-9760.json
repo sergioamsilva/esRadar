@@ -11,11 +11,56 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 3,
+   "inscritos": 4,
+   "mulheres": 1
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0602-9760",
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química (25%)\n19 Matemática A (25%)\nou\n07 Física e Química (15%)\n19 Matemática A (15%)\n18 Português (20%)",
+ "semelhantes": [
+  {
+   "curso": "Física",
+   "grupo": "Universidade de Coimbra",
+   "nota": 124.8,
+   "par": "0501-9141",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade de Aveiro",
+   "nota": 110.8,
+   "par": "0300-9113",
+   "vagas": 35
+  },
+  {
+   "curso": "Física e Aplicações",
+   "grupo": "Universidade da Beira Interior",
+   "nota": null,
+   "par": "0400-L205",
+   "vagas": 11
+  },
+  {
+   "curso": "Física + Química",
+   "grupo": "Universidade do Minho",
+   "nota": null,
+   "par": "1000-A024",
+   "vagas": 10
+  },
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": null,
+   "par": "1203-9113",
+   "vagas": 10
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 3,

@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Fernando Pessoa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 85.7,
+   "fora": 6.1,
+   "muda_curso": 2.0,
+   "muda_estabelecimento": 6.1,
+   "novos_inscritos": 49
+  },
+  "desemprego": {
+   "diplomados": 121,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.7
+  },
+  "diplomados": {
+   "n": 57,
+   "nota_final_media": 13.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 39,
+   "inscritos": 90,
+   "mulheres": 51
+  }
+ },
  "instituicao": "Universidade Fernando Pessoa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

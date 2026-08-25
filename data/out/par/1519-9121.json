@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesCiclo de estudos ministrado no campus do Taguspark",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.7,
+   "fora": 1.7,
+   "muda_curso": 7.2,
+   "muda_estabelecimento": 4.4,
+   "novos_inscritos": 181
+  },
+  "desemprego": {
+   "diplomados": 302,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 159,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 95,
+    "nota_ingresso_media": 18.1,
+    "percentil": 76.3
+   },
+   "2021": {
+    "matriculados": 96,
+    "nota_ingresso_media": 17.0,
+    "percentil": 65.0
+   },
+   "2022": {
+    "matriculados": 90,
+    "nota_ingresso_media": 17.6,
+    "percentil": 71.6
+   },
+   "2023": {
+    "matriculados": 90,
+    "nota_ingresso_media": 17.6,
+    "percentil": 75.0
+   },
+   "2024": {
+    "matriculados": 90,
+    "nota_ingresso_media": 17.9,
+    "percentil": 73.8
+   },
+   "2025": {
+    "matriculados": 90,
+    "nota_ingresso_media": 16.4,
+    "percentil": 56.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 349,
+   "inscritos": 399,
+   "mulheres": 50
+  }
+ },
  "instituicao": "Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)",
  "minimo_candidatura": 120,
  "minimo_provas": 100,
  "par": "1519-9121",
+ "pct_colocados_1opcao_2025": 65,
+ "percentil_nota_2026": 63,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 146.5,
+   "par": "0903-9119",
+   "vagas": 170
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 146.5,
+   "par": "3135-9112",
+   "vagas": 176
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Universidade de Aveiro",
+   "nota": 145.5,
+   "par": "0300-L209",
+   "vagas": 56
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade de Lisboa",
+   "nota": 142.3,
+   "par": "1503-9119",
+   "vagas": 105
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade de Coimbra",
+   "nota": 141.5,
+   "par": "0501-9119",
+   "vagas": 161
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 140.5,
+   "par": "3138-9119",
+   "vagas": 70
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 90,

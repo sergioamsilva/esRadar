@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 93.8,
+   "fora": 3.7,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.5,
+   "novos_inscritos": 81
+  },
+  "desemprego": {
+   "diplomados": 135,
+   "periodo": "2020/21_2023/24",
+   "taxa": 70.0
+  },
+  "diplomados": {
+   "n": 70,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 38,
+    "nota_ingresso_media": 15.9,
+    "percentil": 54.4
+   },
+   "2021": {
+    "matriculados": 36,
+    "nota_ingresso_media": 16.1,
+    "percentil": 45.9
+   },
+   "2022": {
+    "matriculados": 38,
+    "nota_ingresso_media": 15.7,
+    "percentil": 47.2
+   },
+   "2023": {
+    "matriculados": 37,
+    "nota_ingresso_media": 15.9,
+    "percentil": 46.3
+   },
+   "2024": {
+    "matriculados": 38,
+    "nota_ingresso_media": 15.7,
+    "percentil": 41.7
+   },
+   "2025": {
+    "matriculados": 34,
+    "nota_ingresso_media": 14.9,
+    "percentil": 34.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 30,
+   "inscritos": 161,
+   "mulheres": 131
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7210-L067",
+ "pct_colocados_1opcao_2025": 59,
+ "percentil_nota_2026": 69,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 149.0,
+   "par": "7230-L067",
+   "vagas": 46
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 147.5,
+   "par": "7230-L066",
+   "vagas": 60
+  },
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 147.5,
+   "par": "7250-L067",
+   "vagas": 43
+  },
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Universidade do Algarve",
+   "nota": 143.5,
+   "par": "7035-L068",
+   "vagas": 31
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 143.5,
+   "par": "7210-L066",
+   "vagas": 41
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 143.0,
+   "par": "7250-L066",
+   "vagas": 63
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 35,

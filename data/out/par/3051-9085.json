@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Beja, Braga, Bragança, Castelo Branco, Coimbra, Évora, Faro, Guarda, Leiria, Lisboa, Portalegre, Porto, Santarém, Setúbal, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n572 Análises Químico-Biológicas (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n608 Cursos Vocacionais (Todos os Cursos)\n724 Técnico Colaborador de Farmácia\n728 Técnico de Aquicultura\n750 Técnico de Gestão Pecuária\n755 Técnico de Laboratório\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP11 Técnico Auxiliar de Saúde\nP16 Técnico de Análise Laboratorial\nP52 Técnico de Gestão Cinegética\nP57 Técnico de Gestão Equina\nR27 Acompanhante de Turismo Equestre\nR40 Técnico Apícola\nS43 Técnico de Produção Agropecuária\nS62 Técnico Auxiliar de Saúde\nT07 Técnico de Análise Laboratorial\nT24 Técnico de Gestão Cinegética",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.4,
+   "fora": 4.8,
+   "muda_curso": 1.0,
+   "muda_estabelecimento": 1.9,
+   "novos_inscritos": 105
+  },
+  "desemprego": {
+   "diplomados": 120,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.7
+  },
+  "diplomados": {
+   "n": 74,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 32,
+    "nota_ingresso_media": 13.8,
+    "percentil": 28.3
+   },
+   "2021": {
+    "matriculados": 39,
+    "nota_ingresso_media": 14.1,
+    "percentil": 22.6
+   },
+   "2022": {
+    "matriculados": 38,
+    "nota_ingresso_media": 14.0,
+    "percentil": 19.8
+   },
+   "2023": {
+    "matriculados": 38,
+    "nota_ingresso_media": 14.2,
+    "percentil": 26.7
+   },
+   "2024": {
+    "matriculados": 41,
+    "nota_ingresso_media": 13.8,
+    "percentil": 24.5
+   },
+   "2025": {
+    "matriculados": 22,
+    "nota_ingresso_media": 13.5,
+    "percentil": 30.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 25,
+   "inscritos": 168,
+   "mulheres": 143
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3051-9085",
+ "pct_colocados_1opcao_2025": 71,
+ "percentil_nota_2026": 17,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem Veterinária",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 137.5,
+   "par": "3161-9085",
+   "vagas": 35
+  },
+  {
+   "curso": "Enfermagem Veterinária",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 133.0,
+   "par": "3185-9085",
+   "vagas": 45
+  },
+  {
+   "curso": "Enfermagem Veterinária",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 116.0,
+   "par": "3041-9085",
+   "vagas": 50
+  },
+  {
+   "curso": "Enfermagem Veterinária",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 112.5,
+   "par": "3125-9085",
+   "vagas": 32
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 15,

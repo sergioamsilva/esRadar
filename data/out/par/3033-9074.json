@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do Castelo",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 91.1,
+   "fora": 6.7,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.2,
+   "novos_inscritos": 90
+  },
+  "desemprego": {
+   "diplomados": 177,
+   "periodo": "2020/21_2023/24",
+   "taxa": 6.7
+  },
+  "diplomados": {
+   "n": 78,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 40,
+    "nota_ingresso_media": 15.3,
+    "percentil": 41.8
+   },
+   "2021": {
+    "matriculados": 37,
+    "nota_ingresso_media": 15.1,
+    "percentil": 33.6
+   },
+   "2022": {
+    "matriculados": 39,
+    "nota_ingresso_media": 15.1,
+    "percentil": 26.0
+   },
+   "2023": {
+    "matriculados": 36,
+    "nota_ingresso_media": 15.2,
+    "percentil": 32.0
+   },
+   "2024": {
+    "matriculados": 39,
+    "nota_ingresso_media": 16.1,
+    "percentil": 41.1
+   },
+   "2025": {
+    "matriculados": 37,
+    "nota_ingresso_media": 16.0,
+    "percentil": 52.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 55,
+   "inscritos": 135,
+   "mulheres": 80
+  }
+ },
  "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Design",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "3033-9074",
+ "pct_colocados_1opcao_2025": 44,
+ "percentil_nota_2026": 70,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "semelhantes": [
+  {
+   "curso": "Design",
+   "grupo": "Universidade de Évora",
+   "nota": 153.0,
+   "par": "0603-9069",
+   "vagas": 42
+  },
+  {
+   "curso": "Design de Ambientes",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 152.0,
+   "par": "3163-9723",
+   "vagas": 28
+  },
+  {
+   "curso": "Design de Produto e Tecnologia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 149.0,
+   "par": "3014-L138",
+   "vagas": 38
+  },
+  {
+   "curso": "Design de Produto - Cerâmica e Vidro",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 145.0,
+   "par": "3103-8525",
+   "vagas": 24
+  },
+  {
+   "curso": "Design de Interiores e Equipamento",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 144.5,
+   "par": "3055-9725",
+   "vagas": 50
+  },
+  {
+   "curso": "Design de Moda",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 144.3,
+   "par": "0400-9071",
+   "vagas": 60
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 41,

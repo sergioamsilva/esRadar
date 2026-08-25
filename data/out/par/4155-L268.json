@@ -11,6 +11,22 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Português de Administração de Marketing do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.6,
+   "fora": 4.5,
+   "muda_curso": 10.4,
+   "muda_estabelecimento": 4.5,
+   "novos_inscritos": 67
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 57,
+   "inscritos": 108,
+   "mulheres": 51
+  }
+ },
  "instituicao": "Instituto Português de Administração de Marketing do Porto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

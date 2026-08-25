@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
+ "infocursos": null,
  "instituicao": "Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologia da Produção de Aveiro-Norte",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3014-L417",
+ "percentil_nota_2026": 30,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Informática e Tecnologias Multimédia",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 128.3,
+   "par": "3243-L143",
+   "vagas": 25
+  },
+  {
+   "curso": "Ciências da Computação",
+   "grupo": "Universidade do Minho",
+   "nota": 128.0,
+   "par": "1000-9397",
+   "vagas": 72
+  },
+  {
+   "curso": "Tecnologias e Desenvolvimento Web",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 123.5,
+   "par": "3331-L381",
+   "vagas": 34
+  },
+  {
+   "curso": "Informática de Gestão",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 119.5,
+   "par": "3063-9186",
+   "vagas": 41
+  },
+  {
+   "curso": "Segurança Informática em Redes de Computadores",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 119.5,
+   "par": "3138-8398",
+   "vagas": 22
+  },
+  {
+   "curso": "Inteligência Artificial e Ciência de Dados",
+   "grupo": "Universidade de Évora",
+   "nota": 118.5,
+   "par": "0602-L227",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 4,

@@ -11,11 +11,81 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 97.1,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.9,
+   "novos_inscritos": 70
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 30,
+    "nota_ingresso_media": 18.8,
+    "percentil": 80.0
+   },
+   "2023": {
+    "matriculados": 31,
+    "nota_ingresso_media": 19.1,
+    "percentil": 89.4
+   },
+   "2024": {
+    "matriculados": 31,
+    "nota_ingresso_media": 19.3,
+    "percentil": 91.3
+   },
+   "2025": {
+    "matriculados": 31,
+    "nota_ingresso_media": 19.2,
+    "percentil": 92.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 82,
+   "inscritos": 108,
+   "mulheres": 26
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 130,
  "minimo_provas": 130,
  "par": "1000-L221",
+ "pct_colocados_1opcao_2025": 74,
+ "percentil_nota_2026": 100,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade do Porto",
+   "nota": 195.0,
+   "par": "1105-L221",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Lisboa",
+   "nota": 186.0,
+   "par": "1518-L221",
+   "vagas": 135
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade de Aveiro",
+   "nota": 177.5,
+   "par": "0300-L221",
+   "vagas": 50
+  },
+  {
+   "curso": "Engenharia Aeroespacial",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 171.3,
+   "par": "0903-L221",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 30,

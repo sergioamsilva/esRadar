@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.4,
+   "fora": 0,
+   "muda_curso": 8.2,
+   "muda_estabelecimento": 1.4,
+   "novos_inscritos": 73
+  },
+  "desemprego": {
+   "diplomados": 88,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.1
+  },
+  "diplomados": {
+   "n": 53,
+   "nota_final_media": 13.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 36,
+    "nota_ingresso_media": 15.9,
+    "percentil": 45.2
+   },
+   "2021": {
+    "matriculados": 38,
+    "nota_ingresso_media": 15.5,
+    "percentil": 39.0
+   },
+   "2022": {
+    "matriculados": 35,
+    "nota_ingresso_media": 16.9,
+    "percentil": 57.1
+   },
+   "2023": {
+    "matriculados": 36,
+    "nota_ingresso_media": 16.4,
+    "percentil": 51.7
+   },
+   "2024": {
+    "matriculados": 37,
+    "nota_ingresso_media": 16.2,
+    "percentil": 44.6
+   },
+   "2025": {
+    "matriculados": 37,
+    "nota_ingresso_media": 16.1,
+    "percentil": 53.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 47,
+   "inscritos": 141,
+   "mulheres": 94
+  }
+ },
  "instituicao": "Universidade de Aveiro",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0300-9209",
+ "pct_colocados_1opcao_2025": 95,
+ "percentil_nota_2026": 65,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Análise e Engenharia de Dados",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 155.5,
+   "par": "0903-L347",
+   "vagas": 25
+  },
+  {
+   "curso": "Matemática Aplicada",
+   "grupo": "Universidade de Lisboa",
+   "nota": 153.3,
+   "par": "1503-9385",
+   "vagas": 77
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade do Minho",
+   "nota": 150.8,
+   "par": "1000-9209",
+   "vagas": 35
+  },
+  {
+   "curso": "Matemática e Aplicações",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 136.9,
+   "par": "0400-9835",
+   "vagas": 16
+  },
+  {
+   "curso": "Matemática Aplicada e Computação",
+   "grupo": "Universidade de Aveiro",
+   "nota": 136.8,
+   "par": "0300-9345",
+   "vagas": 22
+  },
+  {
+   "curso": "Matemática",
+   "grupo": "Universidade de Coimbra",
+   "nota": 133.5,
+   "par": "0501-9209",
+   "vagas": 45
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 27,

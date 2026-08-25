@@ -11,11 +11,109 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 88.0,
+   "fora": 7.6,
+   "muda_curso": 1.1,
+   "muda_estabelecimento": 3.3,
+   "novos_inscritos": 92
+  },
+  "diplomados": {
+   "n": 65,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 47,
+    "nota_ingresso_media": 15.5,
+    "percentil": 45.5
+   },
+   "2021": {
+    "matriculados": 38,
+    "nota_ingresso_media": 16.6,
+    "percentil": 61.1
+   },
+   "2022": {
+    "matriculados": 39,
+    "nota_ingresso_media": 16.1,
+    "percentil": 53.1
+   },
+   "2023": {
+    "matriculados": 39,
+    "nota_ingresso_media": 16.5,
+    "percentil": 55.5
+   },
+   "2024": {
+    "matriculados": 43,
+    "nota_ingresso_media": 15.4,
+    "percentil": 42.7
+   },
+   "2025": {
+    "matriculados": 41,
+    "nota_ingresso_media": 14.9,
+    "percentil": 38.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 38,
+   "inscritos": 169,
+   "mulheres": 131
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-L067",
+ "percentil_nota_2026": 70,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 154.5,
+   "par": "7210-L068",
+   "vagas": 42
+  },
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 149.0,
+   "par": "7230-L067",
+   "vagas": 46
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 147.5,
+   "par": "7230-L066",
+   "vagas": 60
+  },
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 146.0,
+   "par": "7210-L067",
+   "vagas": 41
+  },
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Universidade do Algarve",
+   "nota": 143.5,
+   "par": "7035-L068",
+   "vagas": 31
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 143.5,
+   "par": "7210-L066",
+   "vagas": 41
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 430,

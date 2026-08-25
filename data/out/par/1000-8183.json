@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.4,
+   "fora": 7.8,
+   "muda_curso": 3.9,
+   "muda_estabelecimento": 7.8,
+   "novos_inscritos": 102
+  },
+  "desemprego": {
+   "diplomados": 113,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.3
+  },
+  "diplomados": {
+   "n": 71,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 48,
+    "nota_ingresso_media": 14.4,
+    "percentil": 55.2
+   },
+   "2021": {
+    "matriculados": 44,
+    "nota_ingresso_media": 15.4,
+    "percentil": 55.1
+   },
+   "2022": {
+    "matriculados": 45,
+    "nota_ingresso_media": 14.6,
+    "percentil": 47.4
+   },
+   "2023": {
+    "matriculados": 45,
+    "nota_ingresso_media": 14.6,
+    "percentil": 48.2
+   },
+   "2024": {
+    "matriculados": 46,
+    "nota_ingresso_media": 14.8,
+    "percentil": 55.4
+   },
+   "2025": {
+    "matriculados": 45,
+    "nota_ingresso_media": 14.5,
+    "percentil": 51.9
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 93,
+   "inscritos": 145,
+   "mulheres": 52
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-8183",
+ "pct_colocados_1opcao_2025": 51,
+ "percentil_nota_2026": 64,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n09 Geografia\n11 História\nou\n16 Matemática\n18 Português\nou\n09 Geografia\n18 Português\nou\n02 Biologia e Geologia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Estudos Europeus",
+   "grupo": "Universidade de Lisboa",
+   "nota": 145.5,
+   "par": "1506-9135",
+   "vagas": 58
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 144.0,
+   "par": "1516-9240",
+   "vagas": 46
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 143.5,
+   "par": "0902-9240",
+   "vagas": 62
+  },
+  {
+   "curso": "Sociologia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 142.5,
+   "par": "0503-9240",
+   "vagas": 42
+  },
+  {
+   "curso": "Geografia",
+   "grupo": "Universidade do Porto",
+   "nota": 142.5,
+   "par": "1107-9143",
+   "vagas": 70
+  },
+  {
+   "curso": "Geografia e Planeamento Regional",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 141.5,
+   "par": "0902-9145",
+   "vagas": 58
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 41,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Viana do Castelo, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.8,
+   "fora": 11.1,
+   "muda_curso": 0,
+   "muda_estabelecimento": 7.1,
+   "novos_inscritos": 99
+  },
+  "desemprego": {
+   "diplomados": 122,
+   "periodo": "2020/21_2023/24",
+   "taxa": 7.7
+  },
+  "diplomados": {
+   "n": 52,
+   "nota_final_media": 13.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 42,
+    "nota_ingresso_media": 13.1,
+    "percentil": 17.8
+   },
+   "2021": {
+    "matriculados": 49,
+    "nota_ingresso_media": 13.3,
+    "percentil": 20.8
+   },
+   "2022": {
+    "matriculados": 52,
+    "nota_ingresso_media": 13.3,
+    "percentil": 18.9
+   },
+   "2023": {
+    "matriculados": 43,
+    "nota_ingresso_media": 13.7,
+    "percentil": 17.3
+   },
+   "2024": {
+    "matriculados": 44,
+    "nota_ingresso_media": 13.1,
+    "percentil": 20.6
+   },
+   "2025": {
+    "matriculados": 10,
+    "nota_ingresso_media": 13.6,
+    "percentil": 28.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 99,
+   "inscritos": 156,
+   "mulheres": 57
+  }
+ },
  "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3091-8339",
+ "pct_colocados_1opcao_2025": 62,
+ "percentil_nota_2026": 19,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n13 Inglês\n16 Matemática\nou\n13 Inglês\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Design e Tecnologia das Artes Gráficas",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 118.0,
+   "par": "3242-9644",
+   "vagas": 45
+  },
+  {
+   "curso": "Fotografia",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 117.5,
+   "par": "3242-9645",
+   "vagas": 28
+  },
+  {
+   "curso": "Design de Jogos Digitais",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 116.3,
+   "par": "3045-8309",
+   "vagas": 50
+  },
+  {
+   "curso": "Audiovisual e Multimédia",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 113.5,
+   "par": "3022-9010",
+   "vagas": 35
+  },
+  {
+   "curso": "Design de Comunicação e Audiovisual",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 113.0,
+   "par": "3055-L158",
+   "vagas": 65
+  },
+  {
+   "curso": "Multimédia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 107.8,
+   "par": "3045-9213",
+   "vagas": 45
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 31,

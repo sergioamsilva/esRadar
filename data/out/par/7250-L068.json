@@ -11,11 +11,95 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.5,
+   "fora": 2.4,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 9.5,
+   "novos_inscritos": 126
+  },
+  "diplomados": {
+   "n": 100,
+   "nota_final_media": 15.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 67,
+    "nota_ingresso_media": 16.5,
+    "percentil": 63.7
+   },
+   "2021": {
+    "matriculados": 55,
+    "nota_ingresso_media": 17.2,
+    "percentil": 68.7
+   },
+   "2022": {
+    "matriculados": 54,
+    "nota_ingresso_media": 16.9,
+    "percentil": 62.7
+   },
+   "2023": {
+    "matriculados": 55,
+    "nota_ingresso_media": 17.0,
+    "percentil": 68.7
+   },
+   "2024": {
+    "matriculados": 61,
+    "nota_ingresso_media": 16.5,
+    "percentil": 59.0
+   },
+   "2025": {
+    "matriculados": 60,
+    "nota_ingresso_media": 15.7,
+    "percentil": 48.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 45,
+   "inscritos": 278,
+   "mulheres": 233
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-L068",
+ "percentil_nota_2026": 81,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 162.5,
+   "par": "7230-L068",
+   "vagas": 61
+  },
+  {
+   "curso": "Ciências Biomédicas Laboratoriais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 154.5,
+   "par": "7210-L068",
+   "vagas": 42
+  },
+  {
+   "curso": "Fisiologia Clínica",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 149.0,
+   "par": "7230-L067",
+   "vagas": 46
+  },
+  {
+   "curso": "Imagem Médica e Radioterapia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 147.5,
+   "par": "7230-L066",
+   "vagas": 60
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 558,

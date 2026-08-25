@@ -11,11 +11,89 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 79.6,
+   "fora": 14.8,
+   "muda_curso": 1.9,
+   "muda_estabelecimento": 3.7,
+   "novos_inscritos": 54
+  },
+  "diplomados": {
+   "n": 13,
+   "nota_final_media": 13.8,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 4,
+    "nota_ingresso_media": 13.2,
+    "percentil": 30.8
+   },
+   "2021": {
+    "matriculados": 2,
+    "nota_ingresso_media": 13.4,
+    "percentil": 15.2
+   },
+   "2022": {
+    "matriculados": 10,
+    "nota_ingresso_media": 13.5,
+    "percentil": 27.4
+   },
+   "2023": {
+    "matriculados": 23,
+    "nota_ingresso_media": 13.9,
+    "percentil": 30.6
+   },
+   "2024": {
+    "matriculados": 25,
+    "nota_ingresso_media": 13.4,
+    "percentil": 27.5
+   },
+   "2025": {
+    "matriculados": 39,
+    "nota_ingresso_media": 13.1,
+    "percentil": 28.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 4,
+   "inscritos": 91,
+   "mulheres": 87
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3121-9853",
+ "pct_colocados_1opcao_2025": 20,
+ "percentil_nota_2026": 5,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Educação Básica (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 116.3,
+   "par": "3151-9876",
+   "vagas": 20
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 112.8,
+   "par": "3022-9853",
+   "vagas": 42
+  },
+  {
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 111.5,
+   "par": "3091-9853",
+   "vagas": 44
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

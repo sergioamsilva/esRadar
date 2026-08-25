@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n216 Contabilidade e Administração (Port. 32/2005)\n575 Contabilidade e Gestão (Port. 26/2005)\n672 Contabilidade e Gestão (Port. 817/2009)\n733 Técnico de Contabilidade e Gestão\nA13 Contabilidade e Gestão (VC) (Port. 941/2009)\nA14 Contabilidade e Gestão (VCT) (Port. 941/2009)\nA57 Contabilidade e Gestão Empresarial (Port. 960/2009)\nG05 Contabilidade e Gestão (VC) (Portaria n.º 260/2013)\nG18 Contabilidade e Gestão (VT) (Portaria n.º 260/2013)\nG31 Contabilidade e Gestão Empresarial (Portaria n.º 262/2013)\nG47 Contabilidade e Empreendedorismo (Portaria n.º 265/2013)\nG56 Contabilidade e Gestão (Portaria n.º 266/2013)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG73 Colégio de Gaia - Cursos do DL 286/89\nG76 Colégio de S. Miguel - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH18 Contabilidade e Gestão (VT)\nH31 Contabilidade e Gestão Empresarial\nH47 Contabilidade e Empreendedorismo\nH56 Contabilidade e Gestão\nP31 Técnico de Contabilidade\nR07 Contabilidade e Administração (Port. 816/2009)\nS21 Técnico de Contabilidade",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 84.3,
+   "fora": 12.0,
+   "muda_curso": 1.2,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 83
+  },
+  "desemprego": {
+   "diplomados": 114,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.7
+  },
+  "diplomados": {
+   "n": 59,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 14.7,
+    "percentil": 46.2
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 15.2,
+    "percentil": 46.2
+   },
+   "2022": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.4,
+    "percentil": 49.9
+   },
+   "2023": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.1,
+    "percentil": 39.8
+   },
+   "2024": {
+    "matriculados": 32,
+    "nota_ingresso_media": 15.6,
+    "percentil": 51.1
+   },
+   "2025": {
+    "matriculados": 32,
+    "nota_ingresso_media": 14.6,
+    "percentil": 39.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 73,
+   "inscritos": 150,
+   "mulheres": 77
+  }
+ },
  "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "3031-9140",
+ "pct_colocados_1opcao_2025": 53,
+ "percentil_nota_2026": 72,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n17 Mat. Apl. Ciências Soc.\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Finanças",
+   "grupo": "Universidade de Aveiro",
+   "nota": 161.8,
+   "par": "3011-9140",
+   "vagas": 20
+  },
+  {
+   "curso": "Finanças e Contabilidade",
+   "grupo": "ISCTE",
+   "nota": 159.3,
+   "par": "6800-8029",
+   "vagas": 72
+  },
+  {
+   "curso": "Finanças Empresariais",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 154.0,
+   "par": "3117-9476",
+   "vagas": 73
+  },
+  {
+   "curso": "Finanças e Contabilidade",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 144.3,
+   "par": "3063-8029",
+   "vagas": 30
+  },
+  {
+   "curso": "Finanças Empresariais (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 141.0,
+   "par": "3117-9889",
+   "vagas": 28
+  },
+  {
+   "curso": "Finanças (regime pós-laboral)",
+   "grupo": "Universidade de Aveiro",
+   "nota": 121.0,
+   "par": "3011-9888",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 31,

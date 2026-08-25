@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.4,
+   "fora": 2.5,
+   "muda_curso": 1.2,
+   "muda_estabelecimento": 8.6,
+   "novos_inscritos": 81
+  },
+  "desemprego": {
+   "diplomados": 177,
+   "periodo": "2020/21_2023/24",
+   "taxa": 50.0
+  },
+  "diplomados": {
+   "n": 70,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 70,
+   "inscritos": 128,
+   "mulheres": 58
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": null,
  "minimo_provas": null,

@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3121-L401",
+ "percentil_nota_2026": 54,
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n08 Francês\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n18 Português\nou\n05 Espanhol\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Literatura e Estudos Interartes",
+   "grupo": "Universidade do Porto",
+   "nota": 141.0,
+   "par": "1107-L251",
+   "vagas": 42
+  },
+  {
+   "curso": "Ciências da Linguagem",
+   "grupo": "Universidade do Porto",
+   "nota": 137.8,
+   "par": "1107-9040",
+   "vagas": 24
+  },
+  {
+   "curso": "Estudos Portugueses",
+   "grupo": "Universidade do Minho",
+   "nota": 137.5,
+   "par": "1000-9917",
+   "vagas": 32
+  },
+  {
+   "curso": "Português",
+   "grupo": "Universidade de Coimbra",
+   "nota": 135.0,
+   "par": "0505-8393",
+   "vagas": 38
+  },
+  {
+   "curso": "Tradução e Interpretação em Língua Gestual Portuguesa",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 133.5,
+   "par": "3131-9807",
+   "vagas": 22
+  },
+  {
+   "curso": "Estudos Portugueses",
+   "grupo": "Universidade de Lisboa",
+   "nota": 133.0,
+   "par": "1506-9917",
+   "vagas": 24
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 8,

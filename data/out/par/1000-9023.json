@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 95.1,
+   "fora": 1.4,
+   "muda_curso": 0.7,
+   "muda_estabelecimento": 2.8,
+   "novos_inscritos": 144
+  },
+  "desemprego": {
+   "diplomados": 283,
+   "periodo": "2020/21_2023/24",
+   "taxa": 7.7
+  },
+  "diplomados": {
+   "n": 140,
+   "nota_final_media": 14.7,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 69,
+    "nota_ingresso_media": 17.1,
+    "percentil": 82.4
+   },
+   "2021": {
+    "matriculados": 66,
+    "nota_ingresso_media": 17.2,
+    "percentil": 79.5
+   },
+   "2022": {
+    "matriculados": 66,
+    "nota_ingresso_media": 17.1,
+    "percentil": 78.8
+   },
+   "2023": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.4,
+    "percentil": 82.3
+   },
+   "2024": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.4,
+    "percentil": 80.4
+   },
+   "2025": {
+    "matriculados": 65,
+    "nota_ingresso_media": 17.0,
+    "percentil": 72.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 50,
+   "inscritos": 225,
+   "mulheres": 175
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9023",
+ "pct_colocados_1opcao_2025": 66,
+ "percentil_nota_2026": 89,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Ciências da Comunicação",
+   "grupo": "Universidade do Porto",
+   "nota": 169.5,
+   "par": "1107-9023",
+   "vagas": 75
+  },
+  {
+   "curso": "Ciências da Comunicação",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 166.5,
+   "par": "0902-9023",
+   "vagas": 97
+  },
+  {
+   "curso": "Jornalismo e Comunicação",
+   "grupo": "Universidade de Coimbra",
+   "nota": 159.5,
+   "par": "0505-9773",
+   "vagas": 52
+  },
+  {
+   "curso": "Ciências da Comunicação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 159.5,
+   "par": "1516-9023",
+   "vagas": 56
+  },
+  {
+   "curso": "Jornalismo",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 158.0,
+   "par": "3113-9191",
+   "vagas": 62
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 66,

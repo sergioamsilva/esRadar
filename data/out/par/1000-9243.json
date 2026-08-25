@@ -11,11 +11,108 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.4,
+   "fora": 15.7,
+   "muda_curso": 2.0,
+   "muda_estabelecimento": 3.9,
+   "novos_inscritos": 51
+  },
+  "desemprego": {
+   "diplomados": 64,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 31,
+   "nota_final_media": 16.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.1,
+    "percentil": 36.5
+   },
+   "2021": {
+    "matriculados": 24,
+    "nota_ingresso_media": 15.1,
+    "percentil": 38.2
+   },
+   "2022": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.4,
+    "percentil": 37.1
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.5,
+    "percentil": 43.1
+   },
+   "2024": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.9,
+    "percentil": 53.0
+   },
+   "2025": {
+    "matriculados": 20,
+    "nota_ingresso_media": 14.6,
+    "percentil": 38.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 13,
+   "inscritos": 66,
+   "mulheres": 53
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9243",
+ "pct_colocados_1opcao_2025": 76,
+ "percentil_nota_2026": 54,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n12 Hist. da Cultura e Artes\nou\n13 Inglês\n18 Português\nou\n12 Hist. da Cultura e Artes\n15 Literatura Portuguesa\nou\n11 História\n13 Inglês\nou\n13 Inglês\n16 Matemática\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês",
+ "semelhantes": [
+  {
+   "curso": "Estudos Artísticos",
+   "grupo": "Universidade de Lisboa",
+   "nota": 142.5,
+   "par": "1506-9132",
+   "vagas": 54
+  },
+  {
+   "curso": "Teatro",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 138.5,
+   "par": "3103-9243",
+   "vagas": 24
+  },
+  {
+   "curso": "Ciências Musicais",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 128.0,
+   "par": "0902-9046",
+   "vagas": 43
+  },
+  {
+   "curso": "Estudos Artísticos",
+   "grupo": "Universidade de Coimbra",
+   "nota": 126.5,
+   "par": "0505-9132",
+   "vagas": 38
+  },
+  {
+   "curso": "Teatro",
+   "grupo": "Universidade de Évora",
+   "nota": 118.5,
+   "par": "0603-9243",
+   "vagas": 26
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 25,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 46.5,
+   "fora": 20.9,
+   "muda_curso": 4.7,
+   "muda_estabelecimento": 27.9,
+   "novos_inscritos": 43
+  },
+  "desemprego": {
+   "diplomados": 43,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.3
+  },
+  "diplomados": {
+   "n": 17,
+   "nota_final_media": 13.6,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 21,
+    "nota_ingresso_media": 15.0,
+    "percentil": 47.1
+   },
+   "2021": {
+    "matriculados": 21,
+    "nota_ingresso_media": 15.5,
+    "percentil": 45.7
+   },
+   "2022": {
+    "matriculados": 20,
+    "nota_ingresso_media": 15.5,
+    "percentil": 51.1
+   },
+   "2023": {
+    "matriculados": 21,
+    "nota_ingresso_media": 16.0,
+    "percentil": 57.3
+   },
+   "2024": {
+    "matriculados": 20,
+    "nota_ingresso_media": 15.5,
+    "percentil": 54.2
+   },
+   "2025": {
+    "matriculados": 18,
+    "nota_ingresso_media": 14.1,
+    "percentil": 35.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 24,
+   "inscritos": 58,
+   "mulheres": 34
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0902-9040",
+ "pct_colocados_1opcao_2025": 40,
+ "percentil_nota_2026": 13,
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\nou\n16 Matemática\nou\n15 Literatura Portuguesa\n18 Português\nou\n06 Filosofia\n18 Português\nou\n13 Inglês\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Estudos Portugueses",
+   "grupo": "Universidade de Lisboa",
+   "nota": 133.0,
+   "par": "1506-9917",
+   "vagas": 24
+  },
+  {
+   "curso": "Estudos Portugueses",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 123.0,
+   "par": "0902-9917",
+   "vagas": 22
+  },
+  {
+   "curso": "Ciências da Linguagem",
+   "grupo": "Universidade de Lisboa",
+   "nota": 116.0,
+   "par": "1506-9040",
+   "vagas": 40
+  },
+  {
+   "curso": "Língua Gestual Portuguesa",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 111.0,
+   "par": "3062-9774",
+   "vagas": 30
+  },
+  {
+   "curso": "Línguas e Literaturas",
+   "grupo": "Universidade de Évora",
+   "nota": 110.5,
+   "par": "0604-L047",
+   "vagas": 55
+  },
+  {
+   "curso": "Tradução e Interpretação de Língua Gestual Portuguesa",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 110.0,
+   "par": "3151-9633",
+   "vagas": 21
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 21,

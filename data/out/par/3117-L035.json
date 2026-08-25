@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.3,
+   "fora": 13.7,
+   "muda_curso": 0.7,
+   "muda_estabelecimento": 4.3,
+   "novos_inscritos": 139
+  },
+  "desemprego": {
+   "diplomados": 163,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.4
+  },
+  "diplomados": {
+   "n": 85,
+   "nota_final_media": 14.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 70,
+    "nota_ingresso_media": 14.4,
+    "percentil": 49.4
+   },
+   "2021": {
+    "matriculados": 53,
+    "nota_ingresso_media": 14.5,
+    "percentil": 43.4
+   },
+   "2022": {
+    "matriculados": 54,
+    "nota_ingresso_media": 14.9,
+    "percentil": 53.0
+   },
+   "2023": {
+    "matriculados": 53,
+    "nota_ingresso_media": 15.2,
+    "percentil": 51.4
+   },
+   "2024": {
+    "matriculados": 55,
+    "nota_ingresso_media": 15.0,
+    "percentil": 47.9
+   },
+   "2025": {
+    "matriculados": 56,
+    "nota_ingresso_media": 13.8,
+    "percentil": 37.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 141,
+   "inscritos": 240,
+   "mulheres": 99
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3117-L035",
+ "pct_colocados_1opcao_2025": 66,
+ "percentil_nota_2026": 59,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Tecnologias Digitais e Gestão",
+   "grupo": "ISCTE",
+   "nota": 162.0,
+   "par": "6810-L280",
+   "vagas": 33
+  },
+  {
+   "curso": "Comércio e Negócios Internacionais",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 152.8,
+   "par": "3117-L007",
+   "vagas": 28
+  },
+  {
+   "curso": "Comércio e Relações Económicas Internacionais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 145.0,
+   "par": "3063-L056",
+   "vagas": 35
+  },
+  {
+   "curso": "Tecnologias Digitais e Saúde",
+   "grupo": "ISCTE",
+   "nota": 114.5,
+   "par": "6810-L282",
+   "vagas": 35
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 60,

@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
  "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1204-L399",
+ "percentil_nota_2026": 11,
  "provas_ingresso": "02 Biologia e Geologia\ne\nUma das seguintes provas:\n06 Filosofia\n07 Física e Química\n09 Geografia\n17 Mat. Apl. Ciências Soc.\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Desporto, Condição Física e Saúde",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 116.0,
+   "par": "3145-L034",
+   "vagas": 90
+  },
+  {
+   "curso": "Treino Desportivo",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 112.5,
+   "par": "3145-9808",
+   "vagas": 110
+  },
+  {
+   "curso": "Desporto e Lazer",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 112.0,
+   "par": "3165-9731",
+   "vagas": 70
+  },
+  {
+   "curso": "Desporto",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": 107.5,
+   "par": "3125-9563",
+   "vagas": 23
+  },
+  {
+   "curso": "Desporto e Atividade Física",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 107.0,
+   "par": "3052-9850",
+   "vagas": 54
+  },
+  {
+   "curso": "Desporto",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 106.5,
+   "par": "3091-9563",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 12,

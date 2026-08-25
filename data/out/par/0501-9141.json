@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 78.6,
+   "fora": 9.5,
+   "muda_curso": 9.5,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 42
+  },
+  "desemprego": {
+   "diplomados": 64,
+   "periodo": "2020/21_2023/24",
+   "taxa": 70.0
+  },
+  "diplomados": {
+   "n": 37,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 30,
+    "nota_ingresso_media": 16.8,
+    "percentil": 54.1
+   },
+   "2021": {
+    "matriculados": 33,
+    "nota_ingresso_media": 16.4,
+    "percentil": 46.5
+   },
+   "2022": {
+    "matriculados": 24,
+    "nota_ingresso_media": 15.8,
+    "percentil": 45.8
+   },
+   "2023": {
+    "matriculados": 13,
+    "nota_ingresso_media": 16.2,
+    "percentil": 48.3
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 16.8,
+    "percentil": 63.6
+   },
+   "2025": {
+    "matriculados": 18,
+    "nota_ingresso_media": 16.2,
+    "percentil": 54.2
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 78,
+   "inscritos": 107,
+   "mulheres": 29
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "0501-9141",
+ "pct_colocados_1opcao_2025": 100,
+ "percentil_nota_2026": 35,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Física",
+   "grupo": "Universidade de Aveiro",
+   "nota": 132.0,
+   "par": "0300-9141",
+   "vagas": 15
+  },
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade do Minho",
+   "nota": 129.0,
+   "par": "1000-9113",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade de Coimbra",
+   "nota": 126.3,
+   "par": "0501-9113",
+   "vagas": 34
+  },
+  {
+   "curso": "Engenharia Física",
+   "grupo": "Universidade de Aveiro",
+   "nota": 110.8,
+   "par": "0300-9113",
+   "vagas": 35
+  },
+  {
+   "curso": "Física e Aplicações",
+   "grupo": "Universidade da Beira Interior",
+   "nota": null,
+   "par": "0400-L205",
+   "vagas": 11
+  },
+  {
+   "curso": "Física e Química",
+   "grupo": "Universidade de Évora",
+   "nota": null,
+   "par": "0602-9760",
+   "vagas": 12
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 25,

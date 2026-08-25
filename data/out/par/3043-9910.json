@@ -11,11 +11,74 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n748 Técnico de Gestão de Energia\n766 Técnico de Sistemas Energéticos\n792 Técnico Instalador de Sistemas de Bioenergia\n793 Técnico Instalador de Sistemas Eólicos\n794 Técnico Instalador de Sistemas Solares Fotovoltaicos\n795 Técnico Instalador de Sistemas Solares Térmicos\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n814 Agrupamento 1 / Mecânica\n815 Agrupamento 1 / Química\n976 Recorrente - Eletrotecnia e Eletrónica (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP47 Técnico de Energias Renováveis\nR35 Desenhador de Sistemas de Refrigeração e Climatização\nU29 Técnico Instalador de Sistemas Eólicos\nU30 Técnico Instalador de Sistemas Solares Fotovoltaicos\nU31 Técn. Instalador de Sistemas Térmicos de Energias Renováveis\nU48 Técnico Instalador de Sistemas Solares Térmicos",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.5,
+   "fora": 22.4,
+   "muda_curso": 0,
+   "muda_estabelecimento": 2.0,
+   "novos_inscritos": 49
+  },
+  "desemprego": {
+   "diplomados": 58,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.5
+  },
+  "diplomados": {
+   "n": 20,
+   "nota_final_media": 12.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2025": {
+    "matriculados": 1,
+    "nota_ingresso_media": 14.4,
+    "percentil": 42.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 65,
+   "inscritos": 91,
+   "mulheres": 26
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3043-9910",
  "provas_ingresso": "07 Física e Química\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Eletrotécnica",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 113.0,
+   "par": "3182-9109",
+   "vagas": 48
+  },
+  {
+   "curso": "Tecnologias de Energia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 107.5,
+   "par": "3152-8515",
+   "vagas": 35
+  },
+  {
+   "curso": "Engenharia de Energias Renováveis",
+   "grupo": "Universidade de Évora",
+   "nota": null,
+   "par": "0602-9910",
+   "vagas": 12
+  },
+  {
+   "curso": "Engenharia das Energias Renováveis",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": null,
+   "par": "3053-8463",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 0,

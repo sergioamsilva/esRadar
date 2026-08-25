@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico Jean Piaget do Sul",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 77.6,
+   "fora": 19.0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 3.4,
+   "novos_inscritos": 58
+  },
+  "desemprego": {
+   "diplomados": 64,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 58,
+   "nota_final_media": 15.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 37,
+   "inscritos": 146,
+   "mulheres": 109
+  }
+ },
  "instituicao": "Instituto Politécnico Jean Piaget do Sul - Escola Superior de Saúde Jean Piaget do Algarve",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

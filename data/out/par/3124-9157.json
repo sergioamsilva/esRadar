@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n216 Contabilidade e Administração (Port. 32/2005)\n575 Contabilidade e Gestão (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n672 Contabilidade e Gestão (Port. 817/2009)\n722 Técnico Administrativo\n725 Técnico Comercial\n733 Técnico de Contabilidade e Gestão\n746 Técnico de Gestão Administrativa\n747 Técnico de Gestão Agrícola\n789 Técnico de Relações Laborais\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\n980 Recorrente - Administração (DL 74/2004)\n996 Administração (INA) (Port. 37/2005)\nA13 Contabilidade e Gestão (VC) (Port. 941/2009)\nA14 Contabilidade e Gestão (VCT) (Port. 941/2009)\nA57 Contabilidade e Gestão Empresarial (Port. 960/2009)\nG05 Contabilidade e Gestão (VC) (Portaria n.º 260/2013)\nG18 Contabilidade e Gestão (VT) (Portaria n.º 260/2013)\nG31 Contabilidade e Gestão Empresarial (Portaria n.º 262/2013)\nG47 Contabilidade e Empreendedorismo (Portaria n.º 265/2013)\nG56 Contabilidade e Gestão (Portaria n.º 266/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH18 Contabilidade e Gestão (VT)\nH31 Contabilidade e Gestão Empresarial\nH47 Contabilidade e Empreendedorismo\nH56 Contabilidade e Gestão\nP22 Técnico de Banca e Seguros\nP27 Técnico de Comércio\nP31 Técnico de Contabilidade\nP51 Técnico de Gestão\nR07 Contabilidade e Administração (Port. 816/2009)\nR16 Técnico Administrativo\nR21 Técnico Comercial\nR23 Técnico de Logística\nR49 Técnico de Apoio à Gestão\nR65 Técnico de Distribuição\nS17 Técnico de Apoio à Gestão\nS21 Técnico de Contabilidade\nS34 Técnico de Logística\nT05 Técnico Comercial Bancário\nU36 Técnico de Gestão de Transportes",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3124-9157",
+ "percentil_nota_2026": 17,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n16 Matemática\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão (regime noturno)",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 119.0,
+   "par": "3163-9148",
+   "vagas": 30
+  },
+  {
+   "curso": "Administração Pública",
+   "grupo": "Instituto Politécnico de Castelo Branco",
+   "nota": 117.0,
+   "par": "3054-9002",
+   "vagas": 25
+  },
+  {
+   "curso": "Gestão de Negócios Internacionais (ensino em Inglês)",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 116.8,
+   "par": "3043-A019",
+   "vagas": 50
+  },
+  {
+   "curso": "Gestão (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 113.5,
+   "par": "3143-9991",
+   "vagas": 24
+  },
+  {
+   "curso": "Gestão de Empresas (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 113.3,
+   "par": "3182-9994",
+   "vagas": 35
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": 113.0,
+   "par": "3092-9147",
+   "vagas": 50
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 13,

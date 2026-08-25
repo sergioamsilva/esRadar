@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Nova de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 81.1,
+   "fora": 10.9,
+   "muda_curso": 1.7,
+   "muda_estabelecimento": 6.3,
+   "novos_inscritos": 175
+  },
+  "desemprego": {
+   "diplomados": 224,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.0
+  },
+  "diplomados": {
+   "n": 133,
+   "nota_final_media": 15.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 82,
+    "nota_ingresso_media": 16.9,
+    "percentil": 64.0
+   },
+   "2021": {
+    "matriculados": 80,
+    "nota_ingresso_media": 17.1,
+    "percentil": 62.6
+   },
+   "2022": {
+    "matriculados": 83,
+    "nota_ingresso_media": 17.3,
+    "percentil": 64.4
+   },
+   "2023": {
+    "matriculados": 78,
+    "nota_ingresso_media": 17.2,
+    "percentil": 72.6
+   },
+   "2024": {
+    "matriculados": 77,
+    "nota_ingresso_media": 17.1,
+    "percentil": 69.4
+   },
+   "2025": {
+    "matriculados": 76,
+    "nota_ingresso_media": 16.0,
+    "percentil": 58.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 72,
+   "inscritos": 303,
+   "mulheres": 231
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0902-9204",
+ "pct_colocados_1opcao_2025": 89,
+ "percentil_nota_2026": 63,
  "provas_ingresso": "18 Português\ne\nUma das seguintes provas:\n01 Alemão\n05 Espanhol\n08 Francês\n13 Inglês",
+ "semelhantes": [
+  {
+   "curso": "Línguas e Estudos Editoriais",
+   "grupo": "Universidade de Aveiro",
+   "nota": 147.5,
+   "par": "0300-9194",
+   "vagas": 24
+  },
+  {
+   "curso": "Tradução",
+   "grupo": "Universidade de Lisboa",
+   "nota": 145.0,
+   "par": "1506-9252",
+   "vagas": 63
+  },
+  {
+   "curso": "Línguas e Relações Empresariais",
+   "grupo": "Universidade da Madeira",
+   "nota": 143.0,
+   "par": "1306-9196",
+   "vagas": 43
+  },
+  {
+   "curso": "Tradução",
+   "grupo": "Universidade de Aveiro",
+   "nota": 140.0,
+   "par": "0300-9252",
+   "vagas": 35
+  },
+  {
+   "curso": "Línguas, Literaturas e Culturas",
+   "grupo": "Universidade de Lisboa",
+   "nota": 139.5,
+   "par": "1506-9204",
+   "vagas": 211
+  },
+  {
+   "curso": "Línguas, Literaturas e Culturas",
+   "grupo": "Universidade do Algarve",
+   "nota": 139.0,
+   "par": "0201-9204",
+   "vagas": 32
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 76,

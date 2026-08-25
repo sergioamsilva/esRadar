@@ -11,11 +11,109 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.6,
+   "fora": 7.4,
+   "muda_curso": 1.9,
+   "muda_estabelecimento": 10.2,
+   "novos_inscritos": 108
+  },
+  "diplomados": {
+   "n": 70,
+   "nota_final_media": 14.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 54,
+    "nota_ingresso_media": 15.5,
+    "percentil": 51.2
+   },
+   "2021": {
+    "matriculados": 46,
+    "nota_ingresso_media": 16.4,
+    "percentil": 58.1
+   },
+   "2022": {
+    "matriculados": 49,
+    "nota_ingresso_media": 15.5,
+    "percentil": 45.6
+   },
+   "2023": {
+    "matriculados": 48,
+    "nota_ingresso_media": 15.5,
+    "percentil": 46.5
+   },
+   "2024": {
+    "matriculados": 54,
+    "nota_ingresso_media": 15.2,
+    "percentil": 44.8
+   },
+   "2025": {
+    "matriculados": 48,
+    "nota_ingresso_media": 13.7,
+    "percentil": 25.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 47,
+   "inscritos": 197,
+   "mulheres": 150
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7250-9549",
+ "percentil_nota_2026": 63,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade de Lisboa",
+   "nota": 149.5,
+   "par": "1505-9494",
+   "vagas": 215
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade de Coimbra",
+   "nota": 145.3,
+   "par": "0504-9494",
+   "vagas": 223
+  },
+  {
+   "curso": "Farmácia",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 144.5,
+   "par": "7230-9549",
+   "vagas": 52
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade da Beira Interior",
+   "nota": 142.5,
+   "par": "0400-9494",
+   "vagas": 63
+  },
+  {
+   "curso": "Ciências Bioanalíticas",
+   "grupo": "Universidade de Coimbra",
+   "nota": 141.5,
+   "par": "0504-9819",
+   "vagas": 30
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade do Algarve",
+   "nota": 136.5,
+   "par": "0203-9494",
+   "vagas": 50
+  }
+ ],
  "series": {
   "2023f1": {
    "candidatos": 495,

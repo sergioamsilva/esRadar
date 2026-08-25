@@ -11,6 +11,32 @@
  "formula": "Para mais informação consulte a instituição.ObservaçõesObservações: Ramo gestão (6 semestres); Ramo direito (10 semestres a tempo parcial).",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 90.7,
+   "fora": 2.0,
+   "muda_curso": 1.6,
+   "muda_estabelecimento": 5.7,
+   "novos_inscritos": 494
+  },
+  "desemprego": {
+   "diplomados": 702,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.4
+  },
+  "diplomados": {
+   "n": 318,
+   "nota_final_media": 13.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 500,
+   "inscritos": 997,
+   "mulheres": 497
+  }
+ },
  "instituicao": "Universidade Católica Portuguesa - Faculdade de Economia e Gestão",
  "minimo_candidatura": null,
  "minimo_provas": null,

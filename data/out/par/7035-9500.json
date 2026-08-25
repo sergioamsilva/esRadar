@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Faro",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 89.2,
+   "fora": 6.0,
+   "muda_curso": 2.4,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 83
+  },
+  "desemprego": {
+   "diplomados": 124,
+   "periodo": "2020/21_2023/24",
+   "taxa": 0.0
+  },
+  "diplomados": {
+   "n": 59,
+   "nota_final_media": 15.1,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 15.7,
+    "percentil": 48.8
+   },
+   "2021": {
+    "matriculados": 35,
+    "nota_ingresso_media": 16.4,
+    "percentil": 48.1
+   },
+   "2022": {
+    "matriculados": 37,
+    "nota_ingresso_media": 15.7,
+    "percentil": 43.2
+   },
+   "2023": {
+    "matriculados": 37,
+    "nota_ingresso_media": 16.1,
+    "percentil": 49.5
+   },
+   "2024": {
+    "matriculados": 40,
+    "nota_ingresso_media": 15.5,
+    "percentil": 45.7
+   },
+   "2025": {
+    "matriculados": 42,
+    "nota_ingresso_media": 15.4,
+    "percentil": 54.5
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 29,
+   "inscritos": 152,
+   "mulheres": 123
+  }
+ },
  "instituicao": "Universidade do Algarve - Escola Superior de Saúde",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7035-9500",
+ "pct_colocados_1opcao_2025": 75,
+ "percentil_nota_2026": 69,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade da Madeira",
+   "nota": 151.0,
+   "par": "1320-9500",
+   "vagas": 26
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 150.5,
+   "par": "7080-9500",
+   "vagas": 95
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Coimbra",
+   "nota": 149.0,
+   "par": "7240-9500",
+   "vagas": 311
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "nota": 146.0,
+   "par": "7075-9500",
+   "vagas": 70
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Aveiro",
+   "nota": 143.3,
+   "par": "3013-9500",
+   "vagas": 82
+  },
+  {
+   "curso": "Enfermagem",
+   "grupo": "Universidade de Évora",
+   "nota": 140.8,
+   "par": "7030-9500",
+   "vagas": 71
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 35,

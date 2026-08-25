@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7210-8138",
+ "percentil_nota_2026": 55,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Dietética e Nutrição",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 143.0,
+   "par": "7250-8149",
+   "vagas": 47
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 138.5,
+   "par": "3155-9890",
+   "vagas": 28
+  },
+  {
+   "curso": "Saúde Digital",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 138.5,
+   "par": "7230-L304",
+   "vagas": 18
+  },
+  {
+   "curso": "Ciências da Nutrição",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 137.5,
+   "par": "1204-9554",
+   "vagas": 40
+  },
+  {
+   "curso": "Reabilitação Psicomotora",
+   "grupo": "Universidade de Lisboa",
+   "nota": 137.5,
+   "par": "1510-9841",
+   "vagas": 50
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Universidade de Aveiro",
+   "nota": 134.3,
+   "par": "3013-9890",
+   "vagas": 24
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 34,

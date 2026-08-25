@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Beira Interior",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.4,
+   "fora": 3.1,
+   "muda_curso": 0,
+   "muda_estabelecimento": 4.6,
+   "novos_inscritos": 131
+  },
+  "desemprego": {
+   "diplomados": 219,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.5
+  },
+  "diplomados": {
+   "n": 110,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 56,
+    "nota_ingresso_media": 15.9,
+    "percentil": 67.3
+   },
+   "2021": {
+    "matriculados": 49,
+    "nota_ingresso_media": 16.2,
+    "percentil": 61.9
+   },
+   "2022": {
+    "matriculados": 55,
+    "nota_ingresso_media": 16.7,
+    "percentil": 74.7
+   },
+   "2023": {
+    "matriculados": 56,
+    "nota_ingresso_media": 16.8,
+    "percentil": 73.0
+   },
+   "2024": {
+    "matriculados": 54,
+    "nota_ingresso_media": 16.6,
+    "percentil": 72.3
+   },
+   "2025": {
+    "matriculados": 56,
+    "nota_ingresso_media": 16.4,
+    "percentil": 65.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 20,
+   "inscritos": 212,
+   "mulheres": 192
+  }
+ },
  "instituicao": "Universidade da Beira Interior",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0400-9219",
+ "pct_colocados_1opcao_2025": 40,
+ "percentil_nota_2026": 91,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Coimbra",
+   "nota": 170.5,
+   "par": "0507-9219",
+   "vagas": 140
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade do Minho",
+   "nota": 169.0,
+   "par": "1000-9219",
+   "vagas": 67
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "ISCTE",
+   "nota": 166.5,
+   "par": "6800-9219",
+   "vagas": 110
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Lisboa",
+   "nota": 165.3,
+   "par": "1511-9219",
+   "vagas": 137
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Aveiro",
+   "nota": 165.0,
+   "par": "0300-9219",
+   "vagas": 34
+  },
+  {
+   "curso": "Psicologia",
+   "grupo": "Universidade de Évora",
+   "nota": 160.0,
+   "par": "0604-9219",
+   "vagas": 60
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 51,

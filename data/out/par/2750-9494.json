@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade Fernando Pessoa",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 35.9,
+   "fora": 9.2,
+   "muda_curso": 53.5,
+   "muda_estabelecimento": 1.4,
+   "novos_inscritos": 142
+  },
+  "desemprego": {
+   "diplomados": 113,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.3
+  },
+  "diplomados": {
+   "n": 54,
+   "nota_final_media": 14.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 57,
+   "inscritos": 201,
+   "mulheres": 144
+  }
+ },
  "instituicao": "Universidade Fernando Pessoa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

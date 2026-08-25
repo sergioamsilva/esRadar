@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Instituto Universitário Egas Moniz",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 97.7,
+   "fora": 1.2,
+   "muda_curso": 0,
+   "muda_estabelecimento": 1.2,
+   "novos_inscritos": 341
+  },
+  "desemprego": {
+   "diplomados": 721,
+   "periodo": "2020/21_2023/24",
+   "taxa": 30.0
+  },
+  "diplomados": {
+   "n": 398,
+   "nota_final_media": 14.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 244,
+   "inscritos": 990,
+   "mulheres": 746
+  }
+ },
  "instituicao": "Instituto Universitário Egas Moniz",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -11,11 +11,68 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Faro, Portalegre, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Beja",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 50.0,
+   "fora": 42.9,
+   "muda_curso": 4.8,
+   "muda_estabelecimento": 2.4,
+   "novos_inscritos": 42
+  },
+  "desemprego": {
+   "diplomados": 148,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.0
+  },
+  "diplomados": {
+   "n": 22,
+   "nota_final_media": 13.5,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 43,
+   "inscritos": 95,
+   "mulheres": 52
+  }
+ },
  "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3023-9994",
+ "pct_colocados_1opcao_2025": 100,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Gestão de Recursos Humanos e Comportamento Organizacional",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 100.5,
+   "par": "3241-9640",
+   "vagas": 35
+  },
+  {
+   "curso": "Gestão da Distribuição e da Logística (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 100.0,
+   "par": "3153-9993",
+   "vagas": 44
+  },
+  {
+   "curso": "Gestão e Informática",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 97.0,
+   "par": "3186-9168",
+   "vagas": 23
+  },
+  {
+   "curso": "Gestão (regime noturno)",
+   "grupo": "Universidade do Algarve",
+   "nota": null,
+   "par": "3087-9148",
+   "vagas": 20
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 1,

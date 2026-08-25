@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 45%\nProvas de ingresso: 55%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Ciências Empresariais e do Turismo",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 74.6,
+   "fora": 15.9,
+   "muda_curso": 0,
+   "muda_estabelecimento": 9.5,
+   "novos_inscritos": 63
+  },
+  "desemprego": {
+   "diplomados": 200,
+   "periodo": "2020/21_2023/24",
+   "taxa": 4.0
+  },
+  "diplomados": {
+   "n": 75,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 27,
+   "inscritos": 98,
+   "mulheres": 71
+  }
+ },
  "instituicao": "Instituto Superior de Ciências Empresariais e do Turismo",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n717 Rececionista de Turismo\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG12 Património e Turismo (VC) (Portaria n.º 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG54 Turismo Cultural e Recreativo (Portaria n.º 265/2013)\nH25 Património e Turismo (VT)\nH54 Turismo Cultural e Recreativo\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR47 Técnico de Agências de Viagens e Transportes\nR77 Técnico de Informação e Animação Turística\nR92 Técnico de Operações Turísticas\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nT28 Técnico de Informação e Animação Turística\nT52 Técnico de Turismo Ambiental e Rural",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.2,
+   "fora": 12.3,
+   "muda_curso": 1.9,
+   "muda_estabelecimento": 5.7,
+   "novos_inscritos": 106
+  },
+  "desemprego": {
+   "diplomados": 145,
+   "periodo": "2020/21_2023/24",
+   "taxa": 3.7
+  },
+  "diplomados": {
+   "n": 61,
+   "nota_final_media": 13.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 62,
+    "nota_ingresso_media": 14.3,
+    "percentil": 34.9
+   },
+   "2021": {
+    "matriculados": 51,
+    "nota_ingresso_media": 13.9,
+    "percentil": 24.0
+   },
+   "2022": {
+    "matriculados": 51,
+    "nota_ingresso_media": 14.1,
+    "percentil": 25.4
+   },
+   "2023": {
+    "matriculados": 51,
+    "nota_ingresso_media": 13.5,
+    "percentil": 23.5
+   },
+   "2024": {
+    "matriculados": 46,
+    "nota_ingresso_media": 13.3,
+    "percentil": 19.9
+   },
+   "2025": {
+    "matriculados": 37,
+    "nota_ingresso_media": 13.3,
+    "percentil": 25.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 69,
+   "inscritos": 165,
+   "mulheres": 96
+  }
+ },
  "instituicao": "Escola Superior de Hotelaria e Turismo do Estoril",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7110-9183",
+ "pct_colocados_1opcao_2025": 52,
+ "percentil_nota_2026": 1,
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n09 Geografia\n13 Inglês\nou\n11 História\n13 Inglês\nou\n11 História\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês",
+ "semelhantes": [
+  {
+   "curso": "Turismo e Gestão do Património Cultural",
+   "grupo": "Instituto Politécnico de Tomar",
+   "nota": 107.0,
+   "par": "3241-L207",
+   "vagas": 27
+  },
+  {
+   "curso": "Turismo (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 106.5,
+   "par": "3062-8114",
+   "vagas": 25
+  },
+  {
+   "curso": "Turismo",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 102.0,
+   "par": "3182-9254",
+   "vagas": 47
+  },
+  {
+   "curso": "Turismo",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 98.0,
+   "par": "3023-9254",
+   "vagas": 39
+  },
+  {
+   "curso": "Turismo e Lazer",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": null,
+   "par": "3095-9255",
+   "vagas": 12
+  },
+  {
+   "curso": "Gestão do Turismo e da Hospitalidade",
+   "grupo": "Instituto Politécnico da Guarda",
+   "nota": null,
+   "par": "3095-L061",
+   "vagas": 12
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 50,

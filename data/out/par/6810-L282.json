@@ -11,11 +11,74 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 86.4,
+   "fora": 2.3,
+   "muda_curso": 2.3,
+   "muda_estabelecimento": 9.1,
+   "novos_inscritos": 44
+  },
+  "percentil_entrada": {
+   "2022": {
+    "matriculados": 20,
+    "nota_ingresso_media": 14.6,
+    "percentil": 29.1
+   },
+   "2023": {
+    "matriculados": 23,
+    "nota_ingresso_media": 14.7,
+    "percentil": 30.0
+   },
+   "2024": {
+    "matriculados": 35,
+    "nota_ingresso_media": 14.0,
+    "percentil": 22.9
+   },
+   "2025": {
+    "matriculados": 32,
+    "nota_ingresso_media": 14.9,
+    "percentil": 48.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 39,
+   "inscritos": 73,
+   "mulheres": 34
+  }
+ },
  "instituicao": "ISCTE - Instituto Universitário de Lisboa (Sintra)",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6810-L282",
+ "pct_colocados_1opcao_2025": 74,
+ "percentil_nota_2026": 16,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n19 Matemática A\nou\n07 Física e Química\n18 Português\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Comércio e Negócios Internacionais",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 152.8,
+   "par": "3117-L007",
+   "vagas": 28
+  },
+  {
+   "curso": "Comércio e Relações Económicas Internacionais",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 145.0,
+   "par": "3063-L056",
+   "vagas": 35
+  },
+  {
+   "curso": "Comércio e Negócios Internacionais (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 140.0,
+   "par": "3117-L035",
+   "vagas": 28
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 22,

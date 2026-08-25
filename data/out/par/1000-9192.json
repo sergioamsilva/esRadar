@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Minho",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.5,
+   "fora": 3.3,
+   "muda_curso": 1.7,
+   "muda_estabelecimento": 2.5,
+   "novos_inscritos": 120
+  },
+  "desemprego": {
+   "diplomados": 193,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.2
+  },
+  "diplomados": {
+   "n": 107,
+   "nota_final_media": 15.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 58,
+    "nota_ingresso_media": 17.1,
+    "percentil": 67.9
+   },
+   "2021": {
+    "matriculados": 53,
+    "nota_ingresso_media": 17.6,
+    "percentil": 74.7
+   },
+   "2022": {
+    "matriculados": 51,
+    "nota_ingresso_media": 17.2,
+    "percentil": 61.8
+   },
+   "2023": {
+    "matriculados": 51,
+    "nota_ingresso_media": 17.1,
+    "percentil": 67.8
+   },
+   "2024": {
+    "matriculados": 51,
+    "nota_ingresso_media": 16.6,
+    "percentil": 64.6
+   },
+   "2025": {
+    "matriculados": 51,
+    "nota_ingresso_media": 15.8,
+    "percentil": 52.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 40,
+   "inscritos": 178,
+   "mulheres": 138
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "1000-9192",
+ "pct_colocados_1opcao_2025": 71,
+ "percentil_nota_2026": 82,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n08 Francês\n18 Português\nou\n13 Inglês\n18 Português\nou\n01 Alemão\n18 Português\nou\n05 Espanhol\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Línguas e Culturas Estrangeiras",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 159.0,
+   "par": "3131-8002",
+   "vagas": 55
+  },
+  {
+   "curso": "Línguas Modernas",
+   "grupo": "Universidade de Coimbra",
+   "nota": 158.0,
+   "par": "0505-9779",
+   "vagas": 84
+  },
+  {
+   "curso": "Línguas, Literaturas e Culturas",
+   "grupo": "Universidade de Aveiro",
+   "nota": 156.5,
+   "par": "0300-9204",
+   "vagas": 28
+  },
+  {
+   "curso": "Línguas e Literaturas Europeias",
+   "grupo": "Universidade do Minho",
+   "nota": 153.5,
+   "par": "1000-9195",
+   "vagas": 60
+  },
+  {
+   "curso": "Assessoria e Tradução",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 151.0,
+   "par": "3134-9009",
+   "vagas": 56
+  },
+  {
+   "curso": "Línguas e Estudos Editoriais",
+   "grupo": "Universidade de Aveiro",
+   "nota": 147.5,
+   "par": "0300-9194",
+   "vagas": 24
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 50,

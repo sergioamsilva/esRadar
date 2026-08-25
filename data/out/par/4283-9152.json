@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Entre Douro e Vouga",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 87.2,
+   "fora": 9.2,
+   "muda_curso": 1.8,
+   "muda_estabelecimento": 1.8,
+   "novos_inscritos": 109
+  },
+  "desemprego": {
+   "diplomados": 127,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.9
+  },
+  "diplomados": {
+   "n": 64,
+   "nota_final_media": 13.2,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 96,
+   "inscritos": 184,
+   "mulheres": 88
+  }
+ },
  "instituicao": "Instituto Superior de Entre Douro e Vouga",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

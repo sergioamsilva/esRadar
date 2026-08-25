@@ -11,11 +11,100 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Beja, Faro, R. A. Açores, R. A. Madeira",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 100.0,
+   "fora": 0,
+   "muda_curso": 0,
+   "muda_estabelecimento": 0,
+   "novos_inscritos": 56
+  },
+  "percentil_entrada": {
+   "2021": {
+    "matriculados": 25,
+    "nota_ingresso_media": 16.2,
+    "percentil": 50.6
+   },
+   "2022": {
+    "matriculados": 26,
+    "nota_ingresso_media": 15.9,
+    "percentil": 48.0
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 16.4,
+    "percentil": 56.0
+   },
+   "2024": {
+    "matriculados": 27,
+    "nota_ingresso_media": 15.6,
+    "percentil": 47.4
+   },
+   "2025": {
+    "matriculados": 26,
+    "nota_ingresso_media": 16.3,
+    "percentil": 64.4
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 44,
+   "inscritos": 111,
+   "mulheres": 67
+  }
+ },
  "instituicao": "Universidade do Algarve - Escola Superior de Saúde",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7035-9504",
+ "pct_colocados_1opcao_2025": 85,
+ "percentil_nota_2026": 85,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "semelhantes": [
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 162.5,
+   "par": "7085-9504",
+   "vagas": 18
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Lisboa",
+   "nota": 160.8,
+   "par": "7250-9504",
+   "vagas": 49
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 159.5,
+   "par": "3155-9504",
+   "vagas": 44
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 156.5,
+   "par": "7016-9504",
+   "vagas": 25
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 156.0,
+   "par": "7045-9504",
+   "vagas": 34
+  },
+  {
+   "curso": "Fisioterapia",
+   "grupo": "Instituto Politécnico de Santarém",
+   "nota": 154.0,
+   "par": "7065-9504",
+   "vagas": 18
+  }
+ ],
  "series": {
   "2021f1": {
    "colocados": 26,

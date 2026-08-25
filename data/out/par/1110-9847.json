@@ -11,11 +11,94 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 75.9,
+   "fora": 4.3,
+   "muda_curso": 6.4,
+   "muda_estabelecimento": 13.5,
+   "novos_inscritos": 141
+  },
+  "desemprego": {
+   "diplomados": 200,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.5
+  },
+  "diplomados": {
+   "n": 89,
+   "nota_final_media": 14.9,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 65,
+    "nota_ingresso_media": 18.1,
+    "percentil": 74.2
+   },
+   "2021": {
+    "matriculados": 63,
+    "nota_ingresso_media": 18.4,
+    "percentil": 73.1
+   },
+   "2022": {
+    "matriculados": 63,
+    "nota_ingresso_media": 17.9,
+    "percentil": 71.6
+   },
+   "2023": {
+    "matriculados": 63,
+    "nota_ingresso_media": 17.8,
+    "percentil": 73.7
+   },
+   "2024": {
+    "matriculados": 62,
+    "nota_ingresso_media": 17.6,
+    "percentil": 73.3
+   },
+   "2025": {
+    "matriculados": 63,
+    "nota_ingresso_media": 17.6,
+    "percentil": 70.7
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 78,
+   "inscritos": 350,
+   "mulheres": 272
+  }
+ },
  "instituicao": "Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar",
  "minimo_candidatura": 135,
  "minimo_provas": 135,
  "par": "1110-9847",
+ "pct_colocados_1opcao_2025": 60,
+ "percentil_nota_2026": 96,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Medicina Veterinária (Preparatórios)",
+   "grupo": "Universidade dos Açores",
+   "nota": 171.0,
+   "par": "0140-8086",
+   "vagas": 23
+  },
+  {
+   "curso": "Medicina Veterinária",
+   "grupo": "Universidade de Lisboa",
+   "nota": 168.3,
+   "par": "1509-9847",
+   "vagas": 109
+  },
+  {
+   "curso": "Medicina Veterinária",
+   "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+   "nota": 166.0,
+   "par": "1201-9847",
+   "vagas": 92
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 56,

@@ -11,11 +11,50 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3134-9147",
+ "percentil_nota_2026": 97,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
+ "semelhantes": [
+  {
+   "curso": "Gestão + Negócios Internacionais",
+   "grupo": "Universidade do Minho",
+   "nota": 182.3,
+   "par": "1000-A022",
+   "vagas": 10
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade do Porto",
+   "nota": 178.3,
+   "par": "1116-9147",
+   "vagas": 179
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 176.8,
+   "par": "0904-9147",
+   "vagas": 295
+  },
+  {
+   "curso": "Gestão (ensino em Inglês)",
+   "grupo": "Universidade do Porto",
+   "nota": 176.0,
+   "par": "1116-A001",
+   "vagas": 30
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Aveiro",
+   "nota": 175.5,
+   "par": "0300-9147",
+   "vagas": 40
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 55,

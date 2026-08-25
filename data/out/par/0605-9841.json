@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 80.3,
+   "fora": 10.6,
+   "muda_curso": 3.0,
+   "muda_estabelecimento": 6.1,
+   "novos_inscritos": 66
+  },
+  "desemprego": {
+   "diplomados": 102,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.8
+  },
+  "diplomados": {
+   "n": 51,
+   "nota_final_media": 14.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 29,
+    "nota_ingresso_media": 14.4,
+    "percentil": 37.9
+   },
+   "2021": {
+    "matriculados": 30,
+    "nota_ingresso_media": 14.6,
+    "percentil": 29.4
+   },
+   "2022": {
+    "matriculados": 27,
+    "nota_ingresso_media": 14.1,
+    "percentil": 25.7
+   },
+   "2023": {
+    "matriculados": 26,
+    "nota_ingresso_media": 14.2,
+    "percentil": 25.9
+   },
+   "2024": {
+    "matriculados": 22,
+    "nota_ingresso_media": 13.7,
+    "percentil": 29.4
+   },
+   "2025": {
+    "matriculados": 26,
+    "nota_ingresso_media": 13.4,
+    "percentil": 25.1
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 14,
+   "inscritos": 92,
+   "mulheres": 78
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Saúde e Desenvolvimento Humano",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0605-9841",
+ "pct_colocados_1opcao_2025": 33,
+ "percentil_nota_2026": 34,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
+ "semelhantes": [
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 129.0,
+   "par": "7045-9890",
+   "vagas": 26
+  },
+  {
+   "curso": "Terapia da Fala",
+   "grupo": "Universidade do Algarve",
+   "nota": 126.0,
+   "par": "7035-9890",
+   "vagas": 25
+  },
+  {
+   "curso": "Dietética e Nutrição",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 126.0,
+   "par": "7045-8149",
+   "vagas": 29
+  },
+  {
+   "curso": "Dietética e Nutrição",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 120.8,
+   "par": "7015-8149",
+   "vagas": 30
+  },
+  {
+   "curso": "Terapia Ocupacional",
+   "grupo": "Instituto Politécnico de Beja",
+   "nota": 120.0,
+   "par": "7005-8138",
+   "vagas": 28
+  },
+  {
+   "curso": "Dietética e Nutrição",
+   "grupo": "Universidade do Algarve",
+   "nota": 115.0,
+   "par": "7035-8149",
+   "vagas": 28
+  }
+ ],
  "series": {
   "2022f1": {
    "colocados": 27,

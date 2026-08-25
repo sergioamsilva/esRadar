@@ -11,6 +11,32 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISAVE",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 82.1,
+   "fora": 11.5,
+   "muda_curso": 0,
+   "muda_estabelecimento": 6.4,
+   "novos_inscritos": 78
+  },
+  "desemprego": {
+   "diplomados": 73,
+   "periodo": "2020/21_2023/24",
+   "taxa": 60.0
+  },
+  "diplomados": {
+   "n": 54,
+   "nota_final_media": 15.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 28,
+   "inscritos": 181,
+   "mulheres": 153
+  }
+ },
  "instituicao": "ISAVE - Instituto Superior de Saúde",
  "minimo_candidatura": 95,
  "minimo_provas": 95,

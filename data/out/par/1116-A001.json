@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
+ "infocursos": null,
  "instituicao": "Universidade do Porto - FEP Faculdade de Economia e Gestão",
  "minimo_candidatura": 110,
  "minimo_provas": 120,
  "par": "1116-A001",
+ "percentil_nota_2026": 97,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade do Porto",
+   "nota": 178.3,
+   "par": "1116-9147",
+   "vagas": 179
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 178.0,
+   "par": "3134-9147",
+   "vagas": 55
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 176.8,
+   "par": "0904-9147",
+   "vagas": 295
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade de Aveiro",
+   "nota": 175.5,
+   "par": "0300-9147",
+   "vagas": 40
+  },
+  {
+   "curso": "Gestão (ensino em Inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 171.3,
+   "par": "1517-A001",
+   "vagas": 60
+  },
+  {
+   "curso": "Gestão",
+   "grupo": "Universidade do Minho",
+   "nota": 169.8,
+   "par": "1000-9147",
+   "vagas": 95
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 30,

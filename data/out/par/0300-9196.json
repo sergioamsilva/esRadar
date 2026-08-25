@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 92.2,
+   "fora": 3.9,
+   "muda_curso": 0.6,
+   "muda_estabelecimento": 3.4,
+   "novos_inscritos": 179
+  },
+  "desemprego": {
+   "diplomados": 298,
+   "periodo": "2020/21_2023/24",
+   "taxa": 2.8
+  },
+  "diplomados": {
+   "n": 132,
+   "nota_final_media": 15.3,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 76,
+    "nota_ingresso_media": 16.6,
+    "percentil": 73.5
+   },
+   "2021": {
+    "matriculados": 75,
+    "nota_ingresso_media": 16.2,
+    "percentil": 63.7
+   },
+   "2022": {
+    "matriculados": 79,
+    "nota_ingresso_media": 16.0,
+    "percentil": 63.1
+   },
+   "2023": {
+    "matriculados": 72,
+    "nota_ingresso_media": 16.3,
+    "percentil": 63.9
+   },
+   "2024": {
+    "matriculados": 69,
+    "nota_ingresso_media": 16.2,
+    "percentil": 62.0
+   },
+   "2025": {
+    "matriculados": 71,
+    "nota_ingresso_media": 16.5,
+    "percentil": 60.3
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 78,
+   "inscritos": 287,
+   "mulheres": 209
+  }
+ },
  "instituicao": "Universidade de Aveiro",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0300-9196",
+ "pct_colocados_1opcao_2025": 84,
+ "percentil_nota_2026": 85,
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n08 Francês\n18 Português\nou\n08 Francês\n13 Inglês\nou\n01 Alemão\n13 Inglês\nou\n05 Espanhol\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n05 Espanhol\n18 Português",
+ "semelhantes": [
+  {
+   "curso": "Línguas e Relações Internacionais",
+   "grupo": "Universidade do Porto",
+   "nota": 169.3,
+   "par": "1107-9197",
+   "vagas": 80
+  },
+  {
+   "curso": "Línguas Aplicadas",
+   "grupo": "Universidade do Porto",
+   "nota": 160.5,
+   "par": "1107-9192",
+   "vagas": 60
+  },
+  {
+   "curso": "Línguas, Literaturas e Culturas",
+   "grupo": "Universidade do Porto",
+   "nota": 159.8,
+   "par": "1107-9204",
+   "vagas": 79
+  },
+  {
+   "curso": "Línguas e Culturas Estrangeiras",
+   "grupo": "Instituto Politécnico do Porto",
+   "nota": 159.0,
+   "par": "3131-8002",
+   "vagas": 55
+  },
+  {
+   "curso": "Línguas Modernas",
+   "grupo": "Universidade de Coimbra",
+   "nota": 158.0,
+   "par": "0505-9779",
+   "vagas": 84
+  },
+  {
+   "curso": "Línguas, Literaturas e Culturas",
+   "grupo": "Universidade de Aveiro",
+   "nota": 156.5,
+   "par": "0300-9204",
+   "vagas": 28
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 71,

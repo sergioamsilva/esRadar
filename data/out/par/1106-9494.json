@@ -11,11 +11,101 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Mestrado Integrado",
  "grupo": "Universidade do Porto",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 87.6,
+   "fora": 3.5,
+   "muda_curso": 3.0,
+   "muda_estabelecimento": 6.0,
+   "novos_inscritos": 434
+  },
+  "desemprego": {
+   "diplomados": 640,
+   "periodo": "2020/21_2023/24",
+   "taxa": 1.4
+  },
+  "diplomados": {
+   "n": 340,
+   "nota_final_media": 14.0,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 193,
+    "nota_ingresso_media": 17.0,
+    "percentil": 54.9
+   },
+   "2021": {
+    "matriculados": 179,
+    "nota_ingresso_media": 17.6,
+    "percentil": 59.8
+   },
+   "2022": {
+    "matriculados": 187,
+    "nota_ingresso_media": 16.5,
+    "percentil": 51.3
+   },
+   "2023": {
+    "matriculados": 175,
+    "nota_ingresso_media": 16.4,
+    "percentil": 49.0
+   },
+   "2024": {
+    "matriculados": 175,
+    "nota_ingresso_media": 16.3,
+    "percentil": 50.3
+   },
+   "2025": {
+    "matriculados": 174,
+    "nota_ingresso_media": 16.4,
+    "percentil": 52.0
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 180,
+   "inscritos": 1016,
+   "mulheres": 836
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Farmácia",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1106-9494",
+ "pct_colocados_1opcao_2025": 75,
+ "percentil_nota_2026": 79,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "semelhantes": [
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade de Évora",
+   "nota": 156.0,
+   "par": "0605-9494",
+   "vagas": 20
+  },
+  {
+   "curso": "Ciências Farmacêuticas (Preparatórios)",
+   "grupo": "Universidade dos Açores",
+   "nota": 149.5,
+   "par": "0140-8031",
+   "vagas": 13
+  },
+  {
+   "curso": "Farmácia Biomédica",
+   "grupo": "Universidade de Coimbra",
+   "nota": 149.5,
+   "par": "0504-9832",
+   "vagas": 30
+  },
+  {
+   "curso": "Ciências Farmacêuticas",
+   "grupo": "Universidade de Lisboa",
+   "nota": 149.5,
+   "par": "1505-9494",
+   "vagas": 215
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 175,

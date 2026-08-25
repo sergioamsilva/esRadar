@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3118-L416",
+ "percentil_nota_2026": 0,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Engenharia de Comunicações e de Informação",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 108.5,
+   "par": "0903-L358",
+   "vagas": 20
+  },
+  {
+   "curso": "Engenharia Informática (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 106.0,
+   "par": "3064-9885",
+   "vagas": 21
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores (regime noturno)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": 105.0,
+   "par": "3102-L266",
+   "vagas": 5
+  },
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": null,
+   "par": "3043-L209",
+   "vagas": 40
+  },
+  {
+   "curso": "Engenharia Informática (regime pós-laboral)",
+   "grupo": "Instituto Politécnico de Leiria",
+   "nota": null,
+   "par": "3102-9885",
+   "vagas": 30
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Portalegre",
+   "nota": null,
+   "par": "3124-9119",
+   "vagas": 30
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 3,

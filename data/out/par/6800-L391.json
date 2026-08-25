@@ -11,11 +11,57 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISCTE",
+ "infocursos": null,
  "instituicao": "ISCTE - Instituto Universitário de Lisboa",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "6800-L391",
+ "percentil_nota_2026": 95,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "semelhantes": [
+  {
+   "curso": "Matemática Aplicada à Economia e à Gestão",
+   "grupo": "Universidade de Lisboa",
+   "nota": 181.6,
+   "par": "1517-9210",
+   "vagas": 30
+  },
+  {
+   "curso": "Matemática Aplicada à Economia e à Gestão (ensino em inglês)",
+   "grupo": "Universidade de Lisboa",
+   "nota": 180.8,
+   "par": "1517-A018",
+   "vagas": 30
+  },
+  {
+   "curso": "Matemática Aplicada à Gestão do Risco",
+   "grupo": "Universidade Nova de Lisboa",
+   "nota": 172.0,
+   "par": "0903-L167",
+   "vagas": 25
+  },
+  {
+   "curso": "Matemática Aplicada e Computação",
+   "grupo": "Universidade de Lisboa",
+   "nota": 170.8,
+   "par": "1518-9345",
+   "vagas": 68
+  },
+  {
+   "curso": "Matemática + Física",
+   "grupo": "Universidade do Minho",
+   "nota": 164.0,
+   "par": "1000-A023",
+   "vagas": 10
+  },
+  {
+   "curso": "Matemática Aplicada",
+   "grupo": "Universidade do Porto",
+   "nota": 163.0,
+   "par": "1103-9385",
+   "vagas": 63
+  }
+ ],
  "series": {
   "2026f1": {
    "colocados": 26,

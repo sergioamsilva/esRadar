@@ -11,11 +11,115 @@
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
+ "infocursos": {
+  "apos_1_ano": {
+   "coorte": "2024/25_2023/24",
+   "fica": 77.9,
+   "fora": 16.2,
+   "muda_curso": 1.5,
+   "muda_estabelecimento": 4.4,
+   "novos_inscritos": 68
+  },
+  "desemprego": {
+   "diplomados": 89,
+   "periodo": "2020/21_2023/24",
+   "taxa": 5.0
+  },
+  "diplomados": {
+   "n": 25,
+   "nota_final_media": 13.4,
+   "periodo": "2023/24_2022/23"
+  },
+  "percentil_entrada": {
+   "2020": {
+    "matriculados": 34,
+    "nota_ingresso_media": 13.8,
+    "percentil": 21.1
+   },
+   "2021": {
+    "matriculados": 11,
+    "nota_ingresso_media": 14.1,
+    "percentil": 25.9
+   },
+   "2022": {
+    "matriculados": 16,
+    "nota_ingresso_media": 14.2,
+    "percentil": 21.6
+   },
+   "2023": {
+    "matriculados": 10,
+    "nota_ingresso_media": 14.4,
+    "percentil": 30.7
+   },
+   "2024": {
+    "matriculados": 15,
+    "nota_ingresso_media": 14.6,
+    "percentil": 29.0
+   },
+   "2025": {
+    "matriculados": 15,
+    "nota_ingresso_media": 14.0,
+    "percentil": 25.6
+   }
+  },
+  "sexo": {
+   "ano_letivo": "2024/25",
+   "homens": 122,
+   "inscritos": 136,
+   "mulheres": 14
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0602-9751",
+ "pct_colocados_1opcao_2025": 67,
+ "percentil_nota_2026": 40,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química (25%)\n19 Matemática A (25%)\nou\n07 Física e Química (15%)\n19 Matemática A (15%)\n18 Português (20%)",
+ "semelhantes": [
+  {
+   "curso": "Engenharia Eletrotécnica e de Computadores",
+   "grupo": "Universidade de Coimbra",
+   "nota": 135.3,
+   "par": "0501-L209",
+   "vagas": 80
+  },
+  {
+   "curso": "Engenharia de Telecomunicações e Informática",
+   "grupo": "ISCTE",
+   "nota": 134.8,
+   "par": "6800-9098",
+   "vagas": 60
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Viseu",
+   "nota": 131.0,
+   "par": "3182-9119",
+   "vagas": 66
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Coimbra",
+   "nota": 128.0,
+   "par": "3064-9119",
+   "vagas": 140
+  },
+  {
+   "curso": "Engenharia de Automação, Controlo e Instrumentação",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "nota": 127.8,
+   "par": "3152-9092",
+   "vagas": 45
+  },
+  {
+   "curso": "Engenharia Informática",
+   "grupo": "Instituto Politécnico de Bragança",
+   "nota": 127.0,
+   "par": "3043-9119",
+   "vagas": 90
+  }
+ ],
  "series": {
   "2018f1": {
    "colocados": 11,
