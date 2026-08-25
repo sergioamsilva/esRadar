@@ -40,7 +40,15 @@ jobs:
           echo "$n fichas de curso geradas"
           test "$n" -ge 1000
           test -f site/dist/index.html
+          test -f site/dist/og.png
           test -f site/dist/metodologia/index.html
+      - name: Gates — acessibilidade e larguras (axe + 390px)
+        working-directory: site
+        run: |
+          npx playwright install --with-deps chromium
+          npx astro preview --port 4321 &
+          for i in $(seq 1 30); do curl -sf http://localhost:4321/esRadar/ >/dev/null && break; sleep 1; done
+          node scripts/verificar.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/dist

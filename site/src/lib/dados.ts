@@ -32,6 +32,7 @@ export type Par = {
   grupo: string;
   subsistema: "universitario" | "politecnico" | null;
   ativo: boolean;
+  concurso: string | null;
   grau: string | null;
   cnaef: string | null;
   cnaef_nome: string | null;
@@ -44,6 +45,8 @@ export type Par = {
   minimo_provas: number | null;
   preferencia_regional: { pct_vagas: number; area_influencia: string } | null;
   acessos_preferenciais_pct: number | null;
+  formula_pesos: { secundario: number; provas: number } | null;
+  distrito: string | null;
   /** Notas do último colocado por contingente, por época («{ano}f{fase}»). */
   contingentes: Record<string, { etapa: number; nome: string; nota: number }[]> | null;
   vagas_2026: number | null;
@@ -121,6 +124,7 @@ export type Curso = {
   grau: string | null;
   cnaef: string | null;
   cnaef_nome: string | null;
+  distrito: string | null;
   vagas: number | null;
   nota_2026f1: number | null;
   nota_2025f1: number | null;
@@ -194,6 +198,15 @@ export const pares = (): Par[] =>
     .map((f) => ler<Par>(path.join("par", f)));
 
 export const par = (id: string): Par => ler<Par>(path.join("par", `${id}.json`));
+
+/** kebab-case sem acentos, para URLs de distritos. */
+export const slug = (texto: string): string =>
+  texto
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 
 /** Todas as ligações internas passam por aqui — nunca escrever o base à mão. */
 export const ligacao = (caminho: string): string =>

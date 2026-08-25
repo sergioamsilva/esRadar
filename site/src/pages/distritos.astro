@@ -1,0 +1,118 @@
+---
+import Base from "../layouts/Base.astro";
+import { cursos, ligacao, slug, formatarInteiro, formatarNota } from "../lib/dados";
+
+const porDistrito = new Map<string, { cursos: number; vagas: number; colocados: number; sobras: number; notas: number[] }>();
+for (const c of cursos()) {
+  if (!c.distrito) continue;
+  const d = porDistrito.get(c.distrito) ?? { cursos: 0, vagas: 0, colocados: 0, sobras: 0, notas: [] };
+  d.cursos++;
+  d.vagas += c.vagas ?? 0;
+  d.colocados += c.colocados_2026f1 ?? 0;
+  d.sobras += c.sobras_2026f1 ?? 0;
+  if (c.nota_2026f1 != null) d.notas.push(c.nota_2026f1);
+  porDistrito.set(c.distrito, d);
+}
+const distritos = [...porDistrito.entries()]
+  .map(([nome, d]) => ({
+    nome,
+    ...d,
+    ocupacao: d.vagas ? d.colocados / d.vagas : 0,
+    corteMediano: d.notas.length ? [...d.notas].sort((a, b) => a - b)[Math.floor(d.notas.length / 2)] : null,
+  }))
+  .sort((a, b) => b.colocados - a.colocados);
+const maxVagas = Math.max(...distritos.map((d) => d.vagas));
+---
+
+<Base
+  titulo="Distritos"
+  descricao="O concurso nacional de acesso distrito a distrito: cursos, vagas, colocados e sobras de 2026."
+>
+  <header class="cab">
+    <h1>Estudar perto de casa</h1>
+    <p class="desc medida">
+      Os {formatarInteiro(distritos.reduce((s, d) => s + d.cursos, 0))} cursos do concurso
+      de 2026, distrito a distrito. A barra são os colocados da 1ª fase; o vazio, as vagas
+      que sobraram.
+    </p>
+  </header>
+
+  <ol class="dist">
+    {
+      distritos.map((d, i) => (
+        <li class="reveal" style={`--d:${Math.min(i * 0.04, 0.5)}s`}>
+          <a href={ligacao(`/distrito/${slug(d.nome)}/`)} class="dist__linha">
+            <span class="dist__nome">
+              {d.nome}
+              <span>
+                {d.cursos} cursos · {formatarInteiro(d.vagas)} vagas ·{" "}
+                {formatarInteiro(d.colocados)} colocados
+                {d.sobras > 0 && ` · ${formatarInteiro(d.sobras)} sobras`}
+                {d.corteMediano != null && ` · corte mediano ${formatarNota(d.corteMediano)}`}
+              </span>
+            </span>
+            <span class="dist__pista" aria-hidden="true">
+              <span class="dist__total" style={`width:${(d.vagas / maxVagas) * 100}%`}>
+                <span class="dist__cheio cresce" style={`width:${d.ocupacao * 100}%;--d:${0.2 + i * 0.04}s`} />
+              </span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+</Base>
+
+<style>
+  .cab {
+    padding: 26px 0 12px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+  }
+  .dist {
+    list-style: none;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+  .dist__linha {
+    display: block;
+    padding: 10px 2px;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+  }
+  .dist__linha:hover .dist__nome {
+    color: var(--accent-texto);
+  }
+  .dist__nome {
+    display: block;
+    font-weight: 650;
+  }
+  .dist__nome span {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .dist__pista {
+    display: block;
+    height: 8px;
+    margin-top: 6px;
+  }
+  .dist__total {
+    display: block;
+    height: 100%;
+    background: var(--accent-soft);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .dist__cheio {
+    display: block;
+    height: 100%;
+    background: var(--serie-1);
+    border-radius: 4px 0 0 4px;
+  }
+</style>

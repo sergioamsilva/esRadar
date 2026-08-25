@@ -6,8 +6,10 @@ import { ligacao } from "../lib/dados";
 interface Props {
   titulo: string;
   descricao: string;
+  /** Caminho da imagem Open Graph (relativo ao base); por omissão, o cartão do site. */
+  ogImagem?: string;
 }
-const { titulo, descricao } = Astro.props;
+const { titulo, descricao, ogImagem = "/og.png" } = Astro.props;
 const ano = new Date().getFullYear();
 const aqui = Astro.url.pathname;
 
@@ -33,6 +35,10 @@ const SECCOES = [
     <meta property="og:description" content={descricao} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={new URL(aqui, Astro.site).href} />
+    <meta property="og:image" content={new URL(ligacao(ogImagem), Astro.site).href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:locale" content="pt_PT" />
     <link rel="canonical" href={new URL(aqui, Astro.site).href} />
     <link
@@ -92,12 +98,38 @@ const SECCOES = [
           ))
         }
         <button
-          class="chip fim"
+          class="chip fim js-so"
+          type="button"
+          hidden
+          data-salto-abrir
+          aria-label="Procurar curso — tecla de atalho: barra">Procurar /</button
+        >
+        <button
+          class="chip"
           type="button"
           data-tema
           aria-label="Alternar entre tema claro e escuro">Tema</button
         >
       </nav>
+
+      {/* A paleta de pesquisa global. <dialog> nativo: foco preso, Esc fecha.
+          O índice dos 1170 cursos vem por fetch na primeira abertura — sem
+          JavaScript o botão nem aparece e o índice de cursos é o caminho. */}
+      <dialog class="salto" data-salto aria-label="Procurar curso">
+        <div class="salto__campo">
+          <input
+            type="search"
+            placeholder="Curso, instituição ou distrito…"
+            autocomplete="off"
+            data-salto-campo
+            aria-label="Procurar curso"
+          />
+          <button class="salto__fechar" type="button" data-salto-fechar>Esc</button>
+        </div>
+        <p class="salto__n" data-salto-n aria-live="polite"></p>
+        <ul class="salto__resultados" data-salto-resultados></ul>
+        <p class="salto__dica">Enter abre o primeiro resultado</p>
+      </dialog>
 
       <main id="conteudo">
         <slot />
@@ -207,6 +239,85 @@ const SECCOES = [
       };
       armar();
       document.addEventListener("astro:page-load", armar);
+
+      /* ── a paleta de pesquisa global ─────────────────────────────────
+         Índice por fetch na primeira abertura; atalho «/». */
+      type ItemPesquisa = { p: string; c: string; i: string; g: string; d: string | null; n: number | null };
+      let indicePesquisa: (ItemPesquisa & { b: string })[] | null = null;
+      const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+      const basePortal = document.querySelector<HTMLAnchorElement>("nav.anchors a")!.pathname.replace(/\/$/, "");
+
+      const carregarIndice = async () => {
+        if (indicePesquisa) return indicePesquisa;
+        const resp = await fetch(`${basePortal}/dados/pesquisa.json`);
+        const dados: ItemPesquisa[] = await resp.json();
+        indicePesquisa = dados.map((d) => ({
+          ...d,
+          b: semAcentos(`${d.c} ${d.i} ${d.g} ${d.d ?? ""}`.toLowerCase()),
+        }));
+        return indicePesquisa;
+      };
+
+      const armarSalto = () => {
+        const abrir = document.querySelector<HTMLButtonElement>("[data-salto-abrir]");
+        const dialogo = document.querySelector<HTMLDialogElement>("[data-salto]");
+        const campo = document.querySelector<HTMLInputElement>("[data-salto-campo]");
+        const resultados = document.querySelector<HTMLUListElement>("[data-salto-resultados]");
+        const contagem = document.querySelector<HTMLElement>("[data-salto-n]");
+        if (!abrir || !dialogo || !campo || !resultados || abrir.dataset.armado) return;
+        abrir.dataset.armado = "1";
+        abrir.hidden = false;
+
+        const desenhar = async (q: string) => {
+          const lista = await carregarIndice();
+          const termos = semAcentos(q.trim().toLowerCase()).split(/\s+/).filter(Boolean);
+          const achados = termos.length
+            ? lista.filter((d) => termos.every((t) => d.b.includes(t))).slice(0, 9)
+            : [];
+          resultados.innerHTML = achados
+            .map(
+              (d) =>
+                `<li><a href="${basePortal}/curso/${d.p}/"><b>${d.c}</b><span>${d.i}${d.d ? ` · ${d.d}` : ""}${d.n != null ? ` · corte ${d.n.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}` : ""}</span></a></li>`,
+            )
+            .join("");
+          if (contagem)
+            contagem.textContent = termos.length
+              ? `${lista.filter((d) => termos.every((t) => d.b.includes(t))).length.toLocaleString("pt-PT")} cursos`
+              : "";
+        };
+
+        const mostrar = () => {
+          dialogo.showModal();
+          campo.value = "";
+          desenhar("");
+          campo.focus();
+        };
+        abrir.addEventListener("click", mostrar);
+        campo.addEventListener("input", () => desenhar(campo.value));
+        campo.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            const primeiro = resultados.querySelector("a");
+            if (primeiro) {
+              e.preventDefault();
+              (primeiro as HTMLAnchorElement).click();
+              dialogo.close();
+            }
+          }
+        });
+        document.querySelector("[data-salto-fechar]")?.addEventListener("click", () => dialogo.close());
+        dialogo.addEventListener("click", (e) => {
+          if (e.target === dialogo) dialogo.close();
+        });
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "/" && !dialogo.open && !(e.target instanceof HTMLInputElement) && !(e.target instanceof HTMLTextAreaElement)) {
+            e.preventDefault();
+            mostrar();
+          }
+        });
+        document.addEventListener("astro:page-load", () => dialogo.open && dialogo.close());
+      };
+      armarSalto();
+      document.addEventListener("astro:page-load", armarSalto);
     </script>
   </body>
 </html>

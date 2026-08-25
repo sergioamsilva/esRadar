@@ -21,9 +21,14 @@
   ]
  },
  "curso": "Ciências Farmacêuticas (Preparatórios)",
+ "distrito": "Açores",
  "duracao": null,
  "ects": null,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "formula_pesos": {
+  "provas": 50,
+  "secundario": 50
+ },
  "grau": "Preparatórios de Mestrado Integrado",
  "grupo": "Universidade dos Açores",
  "infocursos": {

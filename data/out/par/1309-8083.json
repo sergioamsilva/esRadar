@@ -26,9 +26,14 @@
   ]
  },
  "curso": "Ciclo Básico de Medicina",
+ "distrito": "Madeira",
  "duracao": "3 Anos",
  "ects": 0,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "formula_pesos": {
+  "provas": 50,
+  "secundario": 50
+ },
  "grau": "Preparatórios de Mestrado Integrado",
  "grupo": "Universidade da Madeira",
  "infocursos": {

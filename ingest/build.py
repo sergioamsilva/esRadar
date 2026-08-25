@@ -134,6 +134,96 @@ def ler_guia() -> dict:
     return json.loads(caminho.read_text(encoding="utf-8"))
 
 
+_PESO_SEC = re.compile(r"Média do secundário:\s*(\d+)\s*%")
+_PESO_PROVAS = re.compile(r"Provas de ingresso:\s*(\d+)\s*%")
+
+
+def pesos_formula(formula: str | None) -> dict | None:
+    """Extrai os pesos da fórmula («Média do secundário: 50% / Provas: 50%»).
+
+    Alimenta o simulador de nota no site; devolve None quando a fórmula não
+    tem a forma canónica (pré-requisitos com peso, cursos artísticos) — o
+    simulador simplesmente não aparece nesses cursos.
+    """
+    if not formula:
+        return None
+    sec = _PESO_SEC.search(formula)
+    provas = _PESO_PROVAS.search(formula)
+    if not sec or not provas:
+        return None
+    pesos = {"secundario": int(sec.group(1)), "provas": int(provas.group(1))}
+    return pesos if pesos["secundario"] + pesos["provas"] == 100 else None
+
+
+def _poligonos_distritos() -> list[tuple[str, list[list[tuple[float, float]]]]]:
+    """Polígonos dos distritos no espaço projetado de data/mapa/continente.json."""
+    mapa = json.loads((common.DIR_DADOS / "mapa" / "continente.json").read_text(encoding="utf-8"))
+    distritos = []
+    for p in mapa["paths"]:
+        aneis = []
+        for sub in p["d"].split("Z"):
+            pontos = [
+                (float(x), float(y))
+                for x, y in re.findall(r"[ML]?\s*([\d.]+)[ ,]([\d.]+)", sub)
+            ]
+            if len(pontos) >= 3:
+                aneis.append(pontos)
+        distritos.append((p["n"], aneis))
+    return distritos
+
+
+# A MESMA projeção do mapa do site — equirretangular com a longitude
+# corrigida por cos(lat média). Divergir aqui põe pontos no distrito errado.
+_LON0, _LON1, _LAT0, _LAT1 = -9.6, -6.15, 36.9, 42.2
+_X0 = _Y0 = 6.0
+
+
+def _dentro(x: float, y: float, aneis: list[list[tuple[float, float]]]) -> bool:
+    dentro = False
+    for anel in aneis:
+        j = len(anel) - 1
+        for i in range(len(anel)):
+            xi, yi = anel[i]
+            xj, yj = anel[j]
+            if (yi > y) != (yj > y) and x < (xj - xi) * (y - yi) / (yj - yi) + xi:
+                dentro = not dentro
+            j = i
+    return dentro
+
+
+def atribuir_distritos(instituicoes: dict[str, dict]) -> None:
+    """Preenche distrito por point-in-polygon; ilhas por gama de coordenadas."""
+    import math
+
+    distritos = _poligonos_distritos()
+    k = math.cos(math.radians((_LAT0 + _LAT1) / 2))
+    escala = min((340 - 2 * _X0) / ((_LON1 - _LON0) * k), (560 - 2 * _Y0) / (_LAT1 - _LAT0))
+    for inst in instituicoes.values():
+        geo = inst.get("geo")
+        if inst.get("distrito") or not geo:
+            continue
+        lat, lon = geo["lat"], geo["lon"]
+        if lon < -20:
+            inst["distrito"] = "Açores"
+            continue
+        if lat < 34:
+            inst["distrito"] = "Madeira"
+            continue
+        x = _X0 + (lon - _LON0) * k * escala
+        y = _Y0 + (_LAT1 - lat) * escala
+        for nome, aneis in distritos:
+            if _dentro(x, y, aneis):
+                inst["distrito"] = nome
+                break
+        else:
+            # Pontos costeiros mesmo fora do traçado (ex.: Figueira da Foz):
+            # fica o distrito com o vértice mais próximo.
+            inst["distrito"] = min(
+                distritos,
+                key=lambda d: min((x - px) ** 2 + (y - py) ** 2 for anel in d[1] for px, py in anel),
+            )[0]
+
+
 def ler_etapas() -> dict[str, dict[str, list[dict]]]:
     """Notas por contingente da época corrente: {par: {"{ano}f{fase}": [...]}}."""
     etapas: dict[str, dict[str, list[dict]]] = defaultdict(dict)
@@ -172,6 +262,7 @@ def construir() -> None:
     instituicoes = ler_instituicoes()
     infocursos = ler_infocursos()
     etapas = ler_etapas()
+    atribuir_distritos(instituicoes)
     pares_guia = guia["pares"]
 
     orfaos = [p for p in resultados if p.split("-")[0] not in instituicoes]
@@ -220,6 +311,8 @@ def construir() -> None:
                 )
             },
             "vagas_2026": ficha_guia.get("vagas"),
+            "formula_pesos": pesos_formula(ficha_guia.get("formula")),
+            "distrito": inst.get("distrito"),
             "series": dict(sorted(serie.items())),
             "contingentes": etapas.get(par) or None,
             "infocursos": infocursos.get(par),
@@ -311,6 +404,7 @@ def construir() -> None:
                 "grau": ficha["grau"],
                 "cnaef": ficha["cnaef"],
                 "cnaef_nome": ficha["cnaef_nome"],
+                "distrito": ficha["distrito"],
                 "vagas": vagas,
                 "nota_2026f1": f1_atual.get("nota_ultimo"),
                 "nota_2025f1": f1_anterior.get("nota_ultimo"),

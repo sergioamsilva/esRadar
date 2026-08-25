@@ -1,0 +1,147 @@
+---
+import Base from "../../layouts/Base.astro";
+import { cursos, ligacao, slug, formatarInteiro, formatarNota, type Curso } from "../../lib/dados";
+
+export function getStaticPaths() {
+  const porDistrito = new Map<string, Curso[]>();
+  for (const c of cursos()) {
+    if (!c.distrito) continue;
+    const lista = porDistrito.get(c.distrito) ?? [];
+    lista.push(c);
+    porDistrito.set(c.distrito, lista);
+  }
+  return [...porDistrito.entries()].map(([distrito, oferta]) => ({
+    params: { nome: slug(distrito) },
+    props: { distrito, oferta },
+  }));
+}
+
+const { distrito, oferta } = Astro.props as { distrito: string; oferta: Curso[] };
+
+const vagas = oferta.reduce((s, c) => s + (c.vagas ?? 0), 0);
+const colocados = oferta.reduce((s, c) => s + (c.colocados_2026f1 ?? 0), 0);
+const sobras = oferta.reduce((s, c) => s + (c.sobras_2026f1 ?? 0), 0);
+const comSobras = oferta.filter((c) => (c.sobras_2026f1 ?? 0) > 0).length;
+const notas = oferta.map((c) => c.nota_2026f1).filter((n): n is number => n != null);
+const corteMediano = notas.length ? [...notas].sort((a, b) => a - b)[Math.floor(notas.length / 2)] : null;
+
+const ordenada = [...oferta].sort(
+  (a, b) =>
+    (b.nota_2026f1 ?? -1) - (a.nota_2026f1 ?? -1) || a.curso.localeCompare(b.curso, "pt"),
+);
+---
+
+<Base
+  titulo={`Estudar em ${distrito}`}
+  descricao={`Os ${oferta.length} cursos do concurso nacional em ${distrito}: notas de corte, vagas e sobras de 2026.`}
+>
+  <header class="cab">
+    <p class="kicker">Concurso nacional de acesso · 2026</p>
+    <h1>Estudar em {distrito}</h1>
+  </header>
+
+  <div class="stats">
+    <div class="stat reveal">
+      <b data-contar={oferta.length}>{formatarInteiro(oferta.length)}</b>
+      <span>cursos no distrito</span>
+    </div>
+    <div class="stat reveal" style="--d:.08s">
+      <b data-contar={vagas}>{formatarInteiro(vagas)}</b>
+      <span>vagas iniciais</span>
+    </div>
+    <div class="stat reveal" style="--d:.16s">
+      <b data-contar={colocados}>{formatarInteiro(colocados)}</b>
+      <span>colocados na 1ª fase</span>
+      {corteMediano != null && <em>corte mediano {formatarNota(corteMediano)}</em>}
+    </div>
+    <div class="stat reveal" style="--d:.24s">
+      <b data-contar={sobras}>{formatarInteiro(sobras)}</b>
+      <span>vagas sobrantes para a 2ª fase</span>
+      {comSobras > 0 && <em>{comSobras} cursos com vagas por preencher</em>}
+    </div>
+  </div>
+
+  <ol class="lista">
+    {
+      ordenada.map((c) => (
+        <li>
+          <a href={ligacao(`/curso/${c.par}/`)} class="linha">
+            <span class="linha__nome">
+              <b>{c.curso}</b>
+              <span>{c.instituicao}</span>
+            </span>
+            <span class="linha__numeros">
+              <span class="linha__nota" title="Nota do último colocado, 1ª fase 2026">
+                {formatarNota(c.nota_2026f1)}
+              </span>
+              <span class="linha__meta">
+                {formatarInteiro(c.vagas)} vagas
+                {c.sobras_2026f1 ? ` · ${formatarInteiro(c.sobras_2026f1)} sobras` : ""}
+              </span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+
+  <p class="fonte-lin voltar">
+    <a href={ligacao("/distritos/")}>← Todos os distritos</a>
+  </p>
+</Base>
+
+<style>
+  .cab {
+    padding: 26px 0 4px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+    margin: 6px 0 4px;
+  }
+  .lista {
+    list-style: none;
+    margin: 18px 0 10px;
+    padding: 0;
+  }
+  .linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 14px;
+    padding: 10px 2px;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+  }
+  .linha:hover b {
+    color: var(--accent-texto);
+  }
+  .linha__nome b {
+    display: block;
+    font-weight: 650;
+  }
+  .linha__nome span {
+    display: block;
+    font-size: var(--t-xs);
+    color: var(--muted);
+  }
+  .linha__numeros {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .linha__nota {
+    display: block;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .linha__meta {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .voltar {
+    padding: 8px 0 30px;
+  }
+</style>

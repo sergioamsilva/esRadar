@@ -22,9 +22,14 @@
  },
  "curso": "Tecnologia e Gestão Industrial (regime noturno)",
  "desemprego_percentil": 10,
+ "distrito": "Setúbal",
  "duracao": "12 Trimestres",
  "ects": 180,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "formula_pesos": {
+  "provas": 50,
+  "secundario": 50
+ },
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {

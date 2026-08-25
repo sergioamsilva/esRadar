@@ -51,15 +51,17 @@ const pontos = continente
 ---
 
 <figure class="mapa reveal">
-  <svg
-    viewBox={`0 0 ${mapa.w} ${mapa.h}`}
-    role="img"
-    aria-label={`Mapa de Portugal continental com ${continente.length} estabelecimentos de ensino superior; a área de cada ponto é proporcional aos colocados na 1ª fase de 2026.`}
-  >
-    {mapa.paths.map((p) => <path d={p.d} class="mapa__distrito" />)}
+  {/* Sem role="img" no svg: os pontos são links, e filhos de uma «imagem»
+      não podem ser interativos (axe: nested-interactive). A descrição vive
+      no aria-label de cada link e na legenda. */}
+  <svg viewBox={`0 0 ${mapa.w} ${mapa.h}`} aria-label="Mapa de Portugal continental">
+    {mapa.paths.map((p) => <path d={p.d} class="mapa__distrito" aria-hidden="true" />)}
     {
       pontos.map((p, i) => (
-        <a href={ligacao(`/instituicao/${p.code}/`)}>
+        <a
+          href={ligacao(`/instituicao/${p.code}/`)}
+          aria-label={`${p.nome} — ${formatarInteiro(p.colocados_f1)} colocados em ${formatarInteiro(p.vagas)} vagas`}
+        >
           <circle
             cx={p.x.toFixed(1)}
             cy={p.y.toFixed(1)}

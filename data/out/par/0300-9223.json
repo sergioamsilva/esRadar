@@ -16,9 +16,14 @@
   ]
  },
  "curso": "Química",
+ "distrito": "Aveiro",
  "duracao": "6 Semestres",
  "ects": 180,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "formula_pesos": {
+  "provas": 50,
+  "secundario": 50
+ },
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
  "infocursos": {

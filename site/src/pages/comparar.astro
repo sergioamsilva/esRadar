@@ -184,6 +184,15 @@ const LINHAS = [
       }
     };
 
+    /* Estado no URL (?c=par1,par2,par3): a comparação fica partilhável. */
+    const gravarUrl = () => {
+      const ativos = escolhidos.filter(Boolean).map((e) => e!.p);
+      const url = new URL(location.href);
+      if (ativos.length) url.searchParams.set("c", ativos.join(","));
+      else url.searchParams.delete("c");
+      history.replaceState(null, "", url);
+    };
+
     const escolher = async (slot: number, item: Item) => {
       if (!fichas.has(item.p)) {
         const resp = await fetch(`${base}/dados/${item.p}.json`);
@@ -191,6 +200,7 @@ const LINHAS = [
       }
       escolhidos[slot] = item;
       desenhar();
+      gravarUrl();
     };
 
     caixa.querySelectorAll<HTMLElement>("[data-slot]").forEach((el) => {
@@ -232,7 +242,24 @@ const LINHAS = [
         campo.value = "";
         atual.hidden = true;
         desenhar();
+        gravarUrl();
       });
+    });
+
+    /* Pré-carrega a comparação vinda do URL. */
+    const doUrl = (new URL(location.href).searchParams.get("c") ?? "")
+      .split(",")
+      .filter(Boolean)
+      .slice(0, 3);
+    doUrl.forEach((par, slot) => {
+      const item = indexado.find((d) => d.p === par);
+      if (!item) return;
+      const el = caixa.querySelector<HTMLElement>(`[data-slot="${slot}"]`)!;
+      el.querySelector<HTMLInputElement>("[data-campo]")!.hidden = true;
+      const atual = el.querySelector<HTMLElement>("[data-atual]")!;
+      atual.hidden = false;
+      el.querySelector<HTMLElement>("[data-atual-nome]")!.textContent = `${item.c} · ${item.g}`;
+      escolher(slot, item);
     });
   };
   iniciar();

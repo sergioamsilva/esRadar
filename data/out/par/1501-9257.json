@@ -47,9 +47,14 @@
  },
  "curso": "Arquitetura",
  "desemprego_percentil": 49,
+ "distrito": "Lisboa",
  "duracao": "10 Semestres",
  "ects": 300,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "formula_pesos": {
+  "provas": 50,
+  "secundario": 50
+ },
  "grau": "Mestrado Integrado",
  "grupo": "Universidade de Lisboa",
  "infocursos": {

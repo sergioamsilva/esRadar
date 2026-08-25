@@ -8,9 +8,14 @@
  "concurso": "Institucional",
  "contingentes": null,
  "curso": "Turismo",
+ "distrito": "Porto",
  "duracao": "6 Semestres",
  "ects": 180,
  "formula": "Média do secundário: 45%\nProvas de ingresso: 55%",
+ "formula_pesos": {
+  "provas": 55,
+  "secundario": 45
+ },
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Ciências Empresariais e do Turismo",
  "infocursos": {

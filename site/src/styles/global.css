@@ -681,3 +681,83 @@ html.js .cresce.on {
   color: inherit;
   margin: 0;
 }
+
+/* ── paleta de pesquisa global (dialog) ─────────────────────────────── */
+.salto {
+  width: min(560px, calc(100vw - 32px));
+  margin: 12vh auto auto;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.5);
+}
+.salto::backdrop {
+  background: rgba(8, 12, 20, 0.55);
+  backdrop-filter: blur(2px);
+}
+.salto__campo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--grid);
+}
+.salto__campo input {
+  flex: 1;
+  font: inherit;
+  font-size: var(--t-lg);
+  color: var(--ink);
+  background: none;
+  border: 0;
+  outline: none;
+}
+.salto__fechar {
+  font: inherit;
+  font-size: var(--t-2xs);
+  color: var(--muted);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.salto__n {
+  margin: 8px 16px 0;
+  font-size: var(--t-2xs);
+  color: var(--muted);
+}
+.salto__resultados {
+  list-style: none;
+  margin: 4px 8px 8px;
+  padding: 0;
+  max-height: 46vh;
+  overflow: auto;
+}
+.salto__resultados a {
+  display: block;
+  padding: 9px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.salto__resultados a:hover,
+.salto__resultados li:first-child a {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+.salto__resultados b {
+  font-weight: 650;
+}
+.salto__resultados span {
+  display: block;
+  font-size: var(--t-2xs);
+  color: var(--muted);
+}
+.salto__dica {
+  margin: 0;
+  padding: 8px 16px 12px;
+  font-size: var(--t-2xs);
+  color: var(--muted);
+  border-top: 1px solid var(--grid);
+}

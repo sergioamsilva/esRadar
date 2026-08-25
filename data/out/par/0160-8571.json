@@ -16,9 +16,14 @@
   ]
  },
  "curso": "Ciênc de Engenharia-Eng Mecânica; Eng Eletrotécnica e de Computadores (Pre)",
+ "distrito": "Açores",
  "duracao": "4 Semestres",
  "ects": null,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "formula_pesos": {
+  "provas": 50,
+  "secundario": 50
+ },
  "grau": "Preparatórios de licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {

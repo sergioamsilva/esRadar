@@ -4,6 +4,7 @@ import SerieAnual from "../../components/SerieAnual.astro";
 import {
   pares,
   ligacao,
+  slug,
   formatarNota,
   formatarInteiro,
   serieAnual,
@@ -105,7 +106,11 @@ const descricao =
     : `Vagas, colocados e procura no Concurso Nacional de Acesso, 2018 a 2026.`;
 ---
 
-<Base titulo={titulo} descricao={descricao}>
+<Base
+  titulo={titulo}
+  descricao={descricao}
+  ogImagem={ficha.ativo && ficha.concurso === "Nacional" ? `/og/${ficha.par}.png` : undefined}
+>
   {/* O palco: a nota de corte como protagonista, na escala que toda a gente
       conhece. Banda escura deliberada nos dois temas — é o «papel de pauta»
       da página. Sem JavaScript fica tudo visível e parado. */}
@@ -220,6 +225,43 @@ const descricao =
       </p>
     </div>
   </section>
+
+  {
+    ficha.formula_pesos && (
+      <section
+        class="card full simulador js-so reveal"
+        hidden
+        data-simulador
+        data-pesos={JSON.stringify(ficha.formula_pesos)}
+        data-corte={nota2026 ?? ""}
+        data-minimo={ficha.minimo_candidatura ?? ""}
+      >
+        <h3>Entrava com as minhas notas?</h3>
+        <p class="desc">
+          A fórmula deste curso: média do secundário ×{ficha.formula_pesos.secundario}% +
+          provas de ingresso ×{ficha.formula_pesos.provas}%. Preencha e veja onde a sua
+          nota cai.
+        </p>
+        <div class="simulador__campos">
+          <label>
+            média do secundário (0–20)
+            <input type="number" min="0" max="20" step="0.1" inputmode="decimal" placeholder="15,4" data-sim-sec />
+          </label>
+          <label>
+            média das provas de ingresso (0–200)
+            <input type="number" min="0" max="200" step="0.5" inputmode="decimal" placeholder="132" data-sim-provas />
+          </label>
+          <output class="simulador__nota" data-sim-nota aria-live="polite"></output>
+        </div>
+        <p class="simulador__veredito" data-sim-veredito aria-live="polite"></p>
+        <p class="cautela">
+          Simulação com as regras de 2026 e a nota de corte da 1ª fase pelo contingente
+          geral — a próxima época terá corte diferente. Confirme os pré-requisitos e o
+          conjunto de provas exigido.
+        </p>
+      </section>
+    )
+  }
 
   <div class="stats">
     <div class="stat reveal">
@@ -676,11 +718,93 @@ const descricao =
     )
   }
 
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Course",
+      name: ficha.curso,
+      description: descricao,
+      provider: { "@type": "CollegeOrUniversity", name: ficha.instituicao },
+      ...(ficha.ects ? { numberOfCredits: ficha.ects } : {}),
+      ...(ficha.cnaef_nome ? { about: ficha.cnaef_nome } : {}),
+    })}
+  />
+
   <p class="fonte-lin voltar">
     <a href={ligacao("/cursos/")}>← Todos os cursos</a> ·
     <a href={ligacao(`/instituicao/${ficha.code}/`)}>{ficha.instituicao}</a>
+    {
+      ficha.distrito && (
+        <>
+          {" · "}
+          <a href={ligacao(`/distrito/${slug(ficha.distrito)}/`)}>estudar em {ficha.distrito}</a>
+        </>
+      )
+    }
   </p>
 </Base>
+
+<script>
+  /* Simulador de nota de candidatura: pesos, corte e mínimo vêm nos data-
+     attributes; re-arma em cada navegação do ClientRouter. */
+  const iniciarSimulador = () => {
+    const caixa = document.querySelector<HTMLElement>("[data-simulador]");
+    if (!caixa || caixa.dataset.armado) return;
+    caixa.dataset.armado = "1";
+    caixa.hidden = false;
+
+    const pesos = JSON.parse(caixa.dataset.pesos!);
+    const corte = caixa.dataset.corte ? Number(caixa.dataset.corte) : null;
+    const minimo = caixa.dataset.minimo ? Number(caixa.dataset.minimo) : null;
+    const sec = caixa.querySelector<HTMLInputElement>("[data-sim-sec]")!;
+    const provas = caixa.querySelector<HTMLInputElement>("[data-sim-provas]")!;
+    const nota = caixa.querySelector<HTMLElement>("[data-sim-nota]")!;
+    const veredito = caixa.querySelector<HTMLElement>("[data-sim-veredito]")!;
+
+    const calcular = () => {
+      const s = parseFloat(sec.value.replace(",", "."));
+      const p = parseFloat(provas.value.replace(",", "."));
+      if (!isFinite(s) || !isFinite(p)) {
+        nota.textContent = "";
+        veredito.textContent = "";
+        veredito.className = "simulador__veredito";
+        return;
+      }
+      const candidatura = (s * 10 * pesos.secundario) / 100 + (p * pesos.provas) / 100;
+      nota.textContent = candidatura.toLocaleString("pt-PT", {
+        minimumFractionDigits: 1,
+        maximumFractionDigits: 1,
+      });
+      let texto = "";
+      let classe = "simulador__veredito";
+      if (minimo != null && candidatura < minimo) {
+        texto = `Abaixo do mínimo de candidatura (${minimo} pontos) — não pode concorrer a este curso.`;
+        classe += " nao-entra";
+      } else if (corte != null) {
+        const delta = candidatura - corte;
+        const deltaTxt = Math.abs(delta).toLocaleString("pt-PT", { maximumFractionDigits: 1 });
+        if (delta >= 0) {
+          texto = `Em 2026 teria entrado na 1ª fase — ${deltaTxt} pontos acima da nota do último colocado.`;
+          classe += " entra";
+        } else {
+          texto = `Em 2026 não teria entrado na 1ª fase: ${deltaTxt} pontos abaixo da nota do último colocado.`;
+          classe += " nao-entra";
+        }
+      } else {
+        texto = "Este curso não preencheu as vagas em 2026 — com o mínimo satisfeito, teria entrado.";
+        classe += " entra";
+      }
+      veredito.textContent = texto;
+      veredito.className = classe;
+    };
+    sec.addEventListener("input", calcular);
+    provas.addEventListener("input", calcular);
+  };
+  iniciarSimulador();
+  document.addEventListener("astro:page-load", iniciarSimulador);
+</script>
 
 <style>
   /* ── o palco ─────────────────────────────────────────────────────────
@@ -979,6 +1103,56 @@ const descricao =
   }
   .voltar {
     padding: 18px 0 30px;
+  }
+
+  /* ── simulador ───────────────────────────────────────────────────── */
+  .simulador {
+    margin-top: 20px;
+  }
+  .simulador__campos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 16px;
+    margin: 14px 0 6px;
+  }
+  .simulador__campos label {
+    display: block;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .simulador__campos input {
+    display: block;
+    margin-top: 4px;
+    width: 11ch;
+    padding: 10px 12px;
+    font: inherit;
+    font-size: var(--t-lg);
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .simulador__nota {
+    font-size: 2rem;
+    font-weight: 780;
+    font-variant-numeric: tabular-nums;
+    min-width: 4ch;
+  }
+  .simulador__veredito {
+    font-size: var(--t-md);
+    min-height: 1.5em;
+    margin: 4px 0 0;
+  }
+  .simulador__veredito b {
+    font-variant-numeric: tabular-nums;
+  }
+  .simulador__veredito.entra {
+    color: var(--pos-texto);
+  }
+  .simulador__veredito.nao-entra {
+    color: var(--neg-texto);
   }
 
   /* ── posição no país ─────────────────────────────────────────────── */
