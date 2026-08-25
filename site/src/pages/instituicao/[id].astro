@@ -1,66 +1,317 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { cursos, instituicoes, ligacao, ligacaoCurso, idInstituicao, formatarNota, formatarInteiro } from "../../lib/dados";
+import SerieAnual from "../../components/SerieAnual.astro";
+import {
+  cursos,
+  pares,
+  instituicoes,
+  ligacao,
+  ligacaoCurso,
+  idInstituicao,
+  slug,
+  formatarNota,
+  formatarInteiro,
+  type Curso,
+  type Par,
+} from "../../lib/dados";
 
 export function getStaticPaths() {
-  const porInstituicao = new Map<string, ReturnType<typeof cursos>>();
+  const porInstituicao = new Map<string, Curso[]>();
   for (const c of cursos()) {
     const code = c.par.split("-")[0];
     const lista = porInstituicao.get(code) ?? [];
     lista.push(c);
     porInstituicao.set(code, lista);
   }
+  /* As fichas completas dos pares (séries, Infocursos) para os agregados. */
+  const fichasPorInstituicao = new Map<string, Par[]>();
+  for (const p of pares()) {
+    if (!p.ativo || p.concurso !== "Nacional") continue;
+    const lista = fichasPorInstituicao.get(p.code) ?? [];
+    lista.push(p);
+    fichasPorInstituicao.set(p.code, lista);
+  }
   return instituicoes()
     .filter((i) => porInstituicao.has(i.code))
     .map((i) => ({
       params: { id: idInstituicao(i) },
-      props: { instituicao: i, oferta: porInstituicao.get(i.code)! },
+      props: {
+        instituicao: i,
+        oferta: porInstituicao.get(i.code)!,
+        fichas: fichasPorInstituicao.get(i.code) ?? [],
+      },
     }));
 }
 
-const { instituicao, oferta } = Astro.props;
+const { instituicao, oferta, fichas } = Astro.props;
 const ordenada = [...oferta].sort((a, b) => (b.nota_2026f1 ?? -1) - (a.nota_2026f1 ?? -1));
-const notas = ordenada.filter((c) => c.nota_2026f1 != null);
 const MIN = 90;
 const MAX = 200;
+const pos = (v: number) => ((Math.max(MIN, Math.min(MAX, v)) - MIN) / (MAX - MIN)) * 100;
+
+/* ── séries agregadas por ano (1ª fase) ─────────────────────────────── */
+const porAno = new Map<number, { vagas: number; colocados: number; c1op: number; temC1op: boolean; notas: number[] }>();
+for (const f of fichas) {
+  for (const [chave, r] of Object.entries(f.series)) {
+    if (!chave.endsWith("f1")) continue;
+    const ano = Number(chave.slice(0, 4));
+    const a = porAno.get(ano) ?? { vagas: 0, colocados: 0, c1op: 0, temC1op: false, notas: [] };
+    a.vagas += r.vagas ?? 0;
+    a.colocados += r.colocados ?? 0;
+    if (r.candidatos_1opcao != null) {
+      a.c1op += r.candidatos_1opcao;
+      a.temC1op = true;
+    }
+    if (r.nota_ultimo != null) a.notas.push(r.nota_ultimo);
+    porAno.set(ano, a);
+  }
+}
+const anos = [...porAno.entries()].sort((a, b) => a[0] - b[0]);
+const serieVagas = anos.filter(([, a]) => a.vagas > 0).map(([ano, a]) => ({ ano, valor: a.vagas }));
+const serieColocados = anos.filter(([, a]) => a.colocados > 0).map(([ano, a]) => ({ ano, valor: a.colocados }));
+const serieProcura = anos.filter(([, a]) => a.temC1op).map(([ano, a]) => ({ ano, valor: a.c1op }));
+const serieNotaMediana = anos
+  .filter(([, a]) => a.notas.length >= 3)
+  .map(([ano, a]) => ({ ano, valor: [...a.notas].sort((x, y) => x - y)[Math.floor(a.notas.length / 2)] }));
+
+const notas2026 = oferta.map((c) => c.nota_2026f1).filter((n): n is number => n != null);
+const notaMediana2026 = notas2026.length
+  ? [...notas2026].sort((a, b) => a - b)[Math.floor(notas2026.length / 2)]
+  : null;
+const notaMin = notas2026.length ? Math.min(...notas2026) : null;
+const notaMax = notas2026.length ? Math.max(...notas2026) : null;
+
+/* ── género nas colocações de 2025 ──────────────────────────────────── */
+let colM = 0, colH = 0;
+for (const f of fichas) {
+  const r = f.series["2025f1"];
+  colM += r?.colocados_mulheres ?? 0;
+  colH += r?.colocados_homens ?? 0;
+}
+const pctMulheres = colM + colH >= 30 ? Math.round((100 * colM) / (colM + colH)) : null;
+
+/* ── Infocursos agregado (ponderado) ────────────────────────────────── */
+let desempregoNum = 0, desempregoDen = 0, ficaNum = 0, ficaDen = 0, insc = 0, estrangeiros = 0;
+for (const f of fichas) {
+  const i = f.infocursos;
+  if (i?.desemprego?.diplomados) {
+    desempregoNum += i.desemprego.taxa * i.desemprego.diplomados;
+    desempregoDen += i.desemprego.diplomados;
+  }
+  if (i?.apos_1_ano?.novos_inscritos) {
+    ficaNum += i.apos_1_ano.fica * i.apos_1_ano.novos_inscritos;
+    ficaDen += i.apos_1_ano.novos_inscritos;
+  }
+  if (i?.nacionalidade?.inscritos) {
+    insc += i.nacionalidade.inscritos;
+    estrangeiros += i.nacionalidade.estrangeiros ?? 0;
+  }
+}
+const desemprego = desempregoDen >= 30 ? Math.round((desempregoNum / desempregoDen) * 10) / 10 : null;
+const fica = ficaDen >= 30 ? Math.round(ficaNum / ficaDen) : null;
+const pctEstrangeiros = insc >= 50 ? Math.round((100 * estrangeiros) / insc) : null;
+
+/* ── áreas da oferta ────────────────────────────────────────────────── */
+const porArea = new Map<string, number>();
+for (const c of oferta) {
+  if (!c.cnaef_nome) continue;
+  porArea.set(c.cnaef_nome, (porArea.get(c.cnaef_nome) ?? 0) + (c.colocados_2026f1 ?? 0));
+}
+const areas = [...porArea.entries()]
+  .filter(([, n]) => n > 0)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8);
+const maxArea = Math.max(...areas.map(([, n]) => n), 1);
+
+const urlPortal = new URL(ligacao("/"), Astro.site).href;
+const urlInstituicoes = new URL(ligacao("/instituicoes/"), Astro.site).href;
+const urlPagina = new URL(ligacao(`/instituicao/${idInstituicao(instituicao)}/`), Astro.site).href;
+
+const titulo = instituicao.nome;
+const descricao = `${instituicao.nome} no concurso de 2026: ${oferta.length} cursos, ${formatarInteiro(instituicao.vagas)} vagas, ${formatarInteiro(instituicao.colocados_f1)} colocados na 1ª fase${notaMediana2026 != null ? `, corte mediano ${formatarNota(notaMediana2026)}` : ""}.`;
 ---
 
-<Base
-  titulo={instituicao.nome}
-  descricao={`Os ${oferta.length} cursos no concurso de 2026: notas do último colocado, vagas e colocações.`}
->
-  <header class="cab">
-    <p class="kicker">
-      {instituicao.grupo} · {instituicao.subsistema === "politecnico" ? "Ensino politécnico" : "Ensino universitário"}
-    </p>
-    <h1>{instituicao.nome}</h1>
-  </header>
+<Base titulo={titulo} descricao={descricao}>
+  <section class="palco-i reveal">
+    <div class="palco-i__grelha">
+      <div>
+        <p class="palco-i__kicker">
+          {instituicao.grupo}
+          {` · ${instituicao.subsistema === "politecnico" ? "Ensino politécnico" : "Ensino universitário"}`}
+          {instituicao.distrito && ` · ${instituicao.distrito}`}
+        </p>
+        <h1 class="palco-i__titulo">{instituicao.nome}</h1>
+        <span class="palco-i__filete cresce" aria-hidden="true"></span>
+        <div class="palco-i__chips">
+          <span class="palco-i__chip"><b>{formatarInteiro(oferta.length)}</b> cursos no concurso</span>
+          <span class="palco-i__chip"><b>{formatarInteiro(instituicao.vagas)}</b> vagas em 2026</span>
+          {
+            instituicao.sobras_f1 > 0 ? (
+              <span class="palco-i__chip"><b>{formatarInteiro(instituicao.sobras_f1)}</b> por preencher</span>
+            ) : (
+              <span class="palco-i__chip">vagas esgotadas na 1ª fase</span>
+            )
+          }
+        </div>
+      </div>
+      <div class="palco-i__nota">
+        <p class="palco-i__rotulo">taxa de ocupação · 1ª fase 2026</p>
+        <p class="palco-i__numero">
+          <span
+            data-contar={instituicao.ocupacao_f1 != null ? Math.round(instituicao.ocupacao_f1 * 100) : 0}
+            >{instituicao.ocupacao_f1 != null ? Math.round(instituicao.ocupacao_f1 * 100) : "—"}</span
+          >%
+        </p>
+        <p class="palco-i__sub">
+          {formatarInteiro(instituicao.colocados_f1)} colocados em {formatarInteiro(instituicao.vagas)} vagas
+        </p>
+      </div>
+    </div>
+    {
+      notaMin != null && notaMax != null && (
+        <div class="palco-i__regua">
+          <div
+            class="palco-i__pista"
+            role="img"
+            aria-label={`As notas de corte dos cursos vão de ${formatarNota(notaMin)} a ${formatarNota(notaMax)}, com mediana ${formatarNota(notaMediana2026)}`}
+          >
+            {[100, 120, 140, 160, 180, 200].map((v) => (
+              <span class="palco-i__tick" style={`left:${pos(v)}%`} />
+            ))}
+            <span
+              class="palco-i__gama cresce"
+              style={`left:${pos(notaMin)}%;width:${Math.max(1, pos(notaMax) - pos(notaMin))}%`}
+            />
+            {notaMediana2026 != null && (
+              <span class="palco-i__marca" style={`left:${pos(notaMediana2026)}%`}>
+                <span class="palco-i__valor">{formatarNota(notaMediana2026)}</span>
+              </span>
+            )}
+          </div>
+          <div class="palco-i__eixo" aria-hidden="true">
+            {[100, 120, 140, 160, 180, 200].map((v) => (
+              <span style={`left:${pos(v)}%`}>{v}</span>
+            ))}
+          </div>
+          <p class="palco-i__legenda">
+            A faixa são as notas de corte dos {notas2026.length} cursos que preencheram as
+            vagas em 2026 — de {formatarNota(notaMin)} a {formatarNota(notaMax)}; o ponto é a
+            mediana.
+          </p>
+        </div>
+      )
+    }
+  </section>
 
   <div class="stats">
-    <div class="stat">
-      <b>{formatarInteiro(instituicao.n_cursos)}</b>
-      <span>cursos no concurso de 2026</span>
+    <div class="stat reveal">
+      <b {...notaMediana2026 != null ? { "data-contar": notaMediana2026, "data-casas": 1 } : {}}>
+        {formatarNota(notaMediana2026)}
+      </b>
+      <span>nota de corte mediana, 1ª fase 2026</span>
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(instituicao.vagas)}</b>
-      <span>vagas iniciais</span>
+    <div class="stat reveal" style="--d:.08s">
+      <b {...pctMulheres != null ? { "data-contar": pctMulheres } : {}}>{pctMulheres ?? "—"}</b>
+      <span>% de mulheres nas colocações de 2025</span>
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(instituicao.colocados_f1)}</b>
-      <span>colocados na 1ª fase</span>
-      {
-        instituicao.ocupacao_f1 != null && (
-          <em>{Math.round(instituicao.ocupacao_f1 * 100)}% das vagas preenchidas</em>
-        )
-      }
+    <div class="stat reveal" style="--d:.16s">
+      <b {...fica != null ? { "data-contar": fica } : {}}>{fica ?? "—"}</b>
+      <span>% continuam no curso um ano depois</span>
+      <em>média ponderada dos cursos (Infocursos)</em>
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(instituicao.sobras_f1)}</b>
-      <span>vagas sobrantes para a 2ª fase</span>
+    <div class="stat reveal" style="--d:.24s">
+      <b {...desemprego != null ? { "data-contar": desemprego, "data-casas": 1 } : {}}>
+        {desemprego != null ? desemprego.toLocaleString("pt-PT", { minimumFractionDigits: 1 }) : "—"}
+      </b>
+      <span>% de recém-diplomados no desemprego (IEFP)</span>
+      {pctEstrangeiros != null && <em>{pctEstrangeiros}% de estudantes estrangeiros</em>}
     </div>
   </div>
 
-  <section class="card full">
+  <div class="grid">
+    <section class="card reveal">
+      <h3>Vagas e colocados na 1ª fase, ano a ano</h3>
+      <SerieAnual
+        titulo="Total da instituição, 2018–2026"
+        unidade="estudantes"
+        inteiro
+        series={[
+          { rotulo: "Vagas", pontos: serieVagas, cor: "serie-1" },
+          { rotulo: "Colocados", pontos: serieColocados, cor: "serie-2" },
+        ]}
+      />
+      <p class="fonte-lin">DGES, resultados do CNA, somados curso a curso.</p>
+    </section>
+
+    <section class="card reveal" style="--d:.08s">
+      <h3>Procura e exigência</h3>
+      <SerieAnual
+        titulo="Candidatos em 1ª opção, soma dos cursos"
+        unidade="candidaturas"
+        inteiro
+        series={[{ rotulo: "Em 1ª opção", pontos: serieProcura, cor: "serie-1" }]}
+      />
+      <SerieAnual
+        titulo="Nota de corte mediana dos cursos (0–200)"
+        unidade="pontos"
+        series={[{ rotulo: "Corte mediano", pontos: serieNotaMediana, cor: "serie-2" }]}
+      />
+      <p class="fonte-lin">
+        DGES, guia da candidatura — incluindo as edições antigas recuperadas do Arquivo.pt.
+      </p>
+    </section>
+
+    {
+      areas.length > 1 && (
+        <section class="card reveal">
+          <h3>O que aqui se estuda</h3>
+          <p class="desc">Colocados na 1ª fase de 2026, por área CNAEF.</p>
+          <ol class="areas-i">
+            {areas.map(([area, n], i) => (
+              <li>
+                <span class="areas-i__nome">
+                  {area}
+                  <span>{formatarInteiro(n)} colocados</span>
+                </span>
+                <span class="areas-i__pista" aria-hidden="true">
+                  <span class="areas-i__barra cresce" style={`width:${(n / maxArea) * 100}%;--d:${i * 0.06}s`} />
+                </span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )
+    }
+
+    <section class="card reveal" style="--d:.08s">
+      <h3>Contexto</h3>
+      <ul class="ctx">
+        <li>
+          Pertence ao grupo <a href={ligacao("/instituicoes/")}>{instituicao.grupo}</a>
+        </li>
+        {
+          instituicao.distrito && (
+            <li>
+              <a href={ligacao(`/distrito/${slug(instituicao.distrito)}/`)}>
+                Estudar em {instituicao.distrito}
+              </a>{" "}
+              — todos os cursos do distrito
+            </li>
+          )
+        }
+        <li>
+          <a href={ligacao("/comparar/")}>Comparar cursos desta instituição</a> com
+          alternativas
+        </li>
+      </ul>
+      <p class="fonte-lin">
+        Fontes: DGES (resultados por fase e guia da candidatura) e Infocursos (MECI). Os
+        agregados são somas ou médias ponderadas dos cursos.
+      </p>
+    </section>
+  </div>
+
+  <section class="card full reveal">
     <h3>Os cursos, na régua de notas</h3>
     <p class="desc">
       Cada linha é um curso; a posição do ponto é a nota do último colocado na 1ª fase de
@@ -76,15 +327,13 @@ const MAX = 200;
                 <span class="cr__meta">
                   {formatarInteiro(c.vagas)} vagas
                   {c.sobras_2026f1 ? ` · ${formatarInteiro(c.sobras_2026f1)} sobras` : ""}
+                  {c.racio_procura != null
+                    ? ` · ${c.racio_procura.toLocaleString("pt-PT", { maximumFractionDigits: 1 })}× procura`
+                    : ""}
                 </span>
               </span>
               <span class="cr__pista" aria-hidden="true">
-                {c.nota_2026f1 != null && (
-                  <span
-                    class="cr__ponto"
-                    style={`left:${((Math.min(Math.max(c.nota_2026f1, MIN), MAX) - MIN) / (MAX - MIN)) * 100}%`}
-                  />
-                )}
+                {c.nota_2026f1 != null && <span class="cr__ponto" style={`left:${pos(c.nota_2026f1)}%`} />}
               </span>
               <span class="cr__nota">{formatarNota(c.nota_2026f1)}</span>
             </a>
@@ -92,12 +341,35 @@ const MAX = 200;
         ))
       }
     </ol>
-    {
-      notas.length === 0 && (
-        <p class="desc">Nenhum curso desta instituição preencheu todas as vagas na 1ª fase.</p>
-      )
-    }
   </section>
+
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollegeOrUniversity",
+      name: instituicao.nome,
+      url: urlPagina,
+      ...(instituicao.geo
+        ? { geo: { "@type": "GeoCoordinates", latitude: instituicao.geo.lat, longitude: instituicao.geo.lon } }
+        : {}),
+      ...(instituicao.distrito ? { address: { "@type": "PostalAddress", addressRegion: instituicao.distrito } } : {}),
+    })}
+  />
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "esRadar", item: urlPortal },
+        { "@type": "ListItem", position: 2, name: "Instituições", item: urlInstituicoes },
+        { "@type": "ListItem", position: 3, name: instituicao.nome, item: urlPagina },
+      ],
+    })}
+  />
 
   <p class="fonte-lin voltar">
     <a href={ligacao("/instituicoes/")}>← Todas as instituições</a>
@@ -105,15 +377,209 @@ const MAX = 200;
 </Base>
 
 <style>
-  .cab {
-    padding: 26px 0 4px;
+  /* ── palco da instituição: a mesma linguagem do palco dos cursos ──── */
+  .palco-i {
+    margin-inline: calc(50% - 50vw);
+    padding: clamp(28px, 4.5vw, 48px) calc(50vw - 50%) clamp(22px, 3.5vw, 36px);
+    background:
+      radial-gradient(1000px 400px at 85% -10%, rgba(57, 135, 229, 0.36), transparent 65%),
+      radial-gradient(650px 340px at -5% 110%, rgba(208, 105, 42, 0.2), transparent 60%),
+      linear-gradient(118deg, #0a1422 0%, #10233c 55%, #0c1a2e 100%);
+    color: #fff;
   }
-  .cab h1 {
-    font-size: clamp(24px, 4vw, 34px);
+  .palco-i__grelha {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) auto;
+    gap: clamp(18px, 4vw, 52px);
+    align-items: start;
+  }
+  .palco-i__kicker {
+    font-size: var(--t-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 0 0 10px;
+  }
+  .palco-i__titulo {
+    font-size: clamp(26px, 4.2vw, 46px);
+    line-height: 1.08;
     letter-spacing: -0.02em;
-    line-height: 1.15;
-    margin: 6px 0 4px;
+    margin: 0;
+    max-width: 26ch;
   }
+  .palco-i__filete {
+    display: block;
+    width: clamp(64px, 8vw, 110px);
+    height: 4px;
+    border-radius: 2px;
+    margin: 14px 0 14px;
+    background: linear-gradient(90deg, #3987e5, #7cc0ff);
+  }
+  .palco-i__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .palco-i__chip {
+    padding: 7px 13px;
+    border-radius: 999px;
+    font-size: var(--t-xs);
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(6px);
+  }
+  .palco-i__chip b {
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+  }
+  .palco-i__nota {
+    text-align: right;
+  }
+  .palco-i__rotulo {
+    font-size: var(--t-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 4px 0 2px;
+  }
+  .palco-i__numero {
+    font-size: clamp(52px, 7.5vw, 92px);
+    font-weight: 780;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(100deg, #fff 30%, #9ecbff 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #9ecbff;
+  }
+  .palco-i__sub {
+    margin: 8px 0 0;
+    font-size: var(--t-sm);
+    color: rgba(255, 255, 255, 0.75);
+    font-variant-numeric: tabular-nums;
+  }
+  .palco-i__regua {
+    margin-top: clamp(22px, 3.5vw, 34px);
+  }
+  .palco-i__pista {
+    position: relative;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  .palco-i__tick {
+    position: absolute;
+    top: -4px;
+    width: 1px;
+    height: 14px;
+    background: rgba(255, 255, 255, 0.22);
+  }
+  .palco-i__gama {
+    position: absolute;
+    inset: 0 auto 0 0;
+    border-radius: 3px;
+    background: linear-gradient(90deg, rgba(57, 135, 229, 0.45), #3987e5 60%, #7cc0ff);
+    box-shadow: 0 0 16px rgba(57, 135, 229, 0.5);
+  }
+  .palco-i__marca {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #7cc0ff;
+    box-shadow: 0 0 18px rgba(124, 192, 255, 0.9);
+  }
+  .palco-i__valor {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--t-sm);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: #fff;
+    white-space: nowrap;
+  }
+  .palco-i__eixo {
+    position: relative;
+    height: 1.1rem;
+    margin-top: 10px;
+    font-size: var(--t-2xs);
+    color: rgba(255, 255, 255, 0.55);
+    font-variant-numeric: tabular-nums;
+  }
+  .palco-i__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .palco-i__legenda {
+    margin: 8px 0 0;
+    font-size: var(--t-2xs);
+    color: rgba(255, 255, 255, 0.55);
+  }
+  @media (max-width: 720px) {
+    .palco-i__grelha {
+      grid-template-columns: 1fr;
+    }
+    .palco-i__nota {
+      text-align: left;
+    }
+  }
+
+  /* ── áreas ───────────────────────────────────────────────────────── */
+  .areas-i {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .areas-i li {
+    padding: 5px 0;
+  }
+  .areas-i__nome {
+    display: block;
+    font-size: var(--t-sm);
+    font-weight: 600;
+  }
+  .areas-i__nome span {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .areas-i__pista {
+    display: block;
+    height: 7px;
+    margin-top: 3px;
+    border-radius: 4px;
+    background: var(--grid);
+    overflow: hidden;
+  }
+  .areas-i__barra {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    background: var(--serie-1);
+  }
+
+  .ctx {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .ctx li {
+    padding: 7px 0;
+    border-bottom: 1px solid var(--grid);
+    font-size: var(--t-sm);
+  }
+
   .card.full {
     margin-top: 20px;
   }
@@ -145,6 +611,7 @@ const MAX = 200;
     font-size: var(--t-2xs);
     font-weight: 400;
     color: var(--muted);
+    font-variant-numeric: tabular-nums;
   }
   .cr__pista {
     position: relative;
