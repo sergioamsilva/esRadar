@@ -9,111 +9,145 @@ const ep = epoca();
   titulo="Metodologia"
   descricao="De onde vêm os dados do esRadar, o que a nota do último colocado é e não é, e as limitações conhecidas."
 >
-  <article class="medida metodologia">
+  <header class="cab">
     <h1>Metodologia</h1>
+    <p class="desc medida">
+      Tudo o que está neste portal vem de publicações oficiais, reorganizadas — e cada
+      número pode ser refeito a partir dos ficheiros fonte guardados no repositório.
+    </p>
+  </header>
 
-    <h2>De onde vêm os dados</h2>
-    <p>
-      Tudo o que aqui está vem de duas publicações da <a
-        href="https://www.dges.gov.pt/"
-        rel="noopener">Direção-Geral do Ensino Superior</a
-      > (DGES):
-    </p>
-    <ul>
-      <li>
-        <strong>Os resultados de cada fase do Concurso Nacional de Acesso</strong> — o
-        ficheiro «classificações dos últimos colocados» que a DGES publica no dia de cada
-        colocação, com vagas, colocados, nota do último colocado pelo contingente geral e
-        vagas sobrantes, par a par. A DGES retira estas páginas no fim de cada época; os
-        anos de 2018 a 2025 foram recuperados das capturas do <a
-          href="https://arquivo.pt/"
-          rel="noopener">Arquivo.pt</a
-        >, com a proveniência (data da captura) registada no repositório.
-      </li>
-      <li>
-        <strong>O guia da candidatura</strong> — as páginas de detalhe de cada par
-        curso/instituição, com provas de ingresso, fórmula de cálculo, classificações
-        mínimas e as estatísticas dos três anos anteriores, incluindo os candidatos em 1ª
-        opção e as médias dos colocados.
-      </li>
-    </ul>
-    <p>
-      Na época de 2026, {ep.fases_arquivadas.length === 1 ? "está arquivada a fase" : "estão arquivadas as fases"}
-      {" "}{ep.fases_arquivadas.map((f) => `${f}ª`).join(" e ")}.
-    </p>
+  <div class="grid met">
+    <section class="card reveal">
+      <h3>Resultados do concurso, fase a fase</h3>
+      <p>
+        A <a href="https://www.dges.gov.pt/" rel="noopener">DGES</a> publica no dia de cada
+        colocação as «classificações dos últimos colocados»: vagas, colocados, nota do
+        último colocado pelo contingente geral e vagas sobrantes, par a par.
+      </p>
+      <p>
+        A DGES retira estas páginas no fim de cada época — os anos de 2018 a 2025 foram
+        recuperados das capturas do <a href="https://arquivo.pt/" rel="noopener">Arquivo.pt</a>,
+        com a data de cada captura registada no repositório. Na época de 2026,{" "}
+        {ep.fases_arquivadas.length === 1 ? "está arquivada a" : "estão arquivadas as"}{" "}
+        {ep.fases_arquivadas.map((f) => `${f}ª`).join(" e ")}{" "}
+        {ep.fases_arquivadas.length === 1 ? "fase" : "fases"}.
+      </p>
+    </section>
 
-    <h2>O que a nota do último colocado é — e não é</h2>
-    <p>
-      A «nota de corte» não é fixada por ninguém: é simplesmente a nota de candidatura do
-      último estudante que coube nas vagas. Mede o equilíbrio entre a procura e a oferta
-      desse ano — <strong>não mede a qualidade do curso</strong>. Um curso com 15 vagas e
-      procura mediana pode ter nota de corte mais alta do que um curso excelente com 200
-      vagas. E só existe quando o curso preencheu todas as vagas: nos cursos com sobras,
-      entra-se com a classificação mínima.
-    </p>
-    <p>
-      Usamos a nota pelo <strong>contingente geral</strong>. Os contingentes especiais
-      (Açores, Madeira, emigrantes, candidatos com deficiência) têm notas próprias, por
-      regra mais baixas, que não estão neste portal.
-    </p>
+    <section class="card reveal" style="--d:.06s">
+      <h3>Guia da candidatura</h3>
+      <p>
+        As páginas de detalhe de cada par curso/instituição no guia da DGES dão as provas
+        de ingresso, a fórmula de cálculo, as classificações mínimas e as estatísticas dos
+        três anos anteriores — incluindo os candidatos em 1ª opção e as médias dos
+        colocados, que mais nenhuma fonte publica de forma estruturada.
+      </p>
+      <p>
+        As localizações no mapa vêm dos links «Mapa» dessas mesmas páginas.
+      </p>
+    </section>
 
-    <h2>Limitações conhecidas</h2>
-    <ul>
-      <li>
-        <strong>Candidatos ≠ pessoas.</strong> Cada estudante concorre até seis pares; os
-        totais de candidatos por curso somam candidaturas.
-      </li>
-      <li>
-        <strong>A procura vem com um ano de atraso.</strong> A DGES só publica os
-        candidatos por curso no guia do ano seguinte; o rácio de procura de 2026 usa os
-        dados de 2025.
-      </li>
-      <li>
-        <strong>Só ensino superior público, regime geral.</strong> O concurso nacional não
-        inclui o ensino privado, os concursos locais (ex.: artes), nem os regimes
-        especiais (maiores de 23, titulares de CTeSP, estudantes internacionais).
-      </li>
-      <li>
-        <strong>A DGES revê números sem aviso.</strong> Guardamos o manifesto SHA-256 de
-        todos os ficheiros fonte; quando uma revisão silenciosa acontece, fica registada
-        no histórico do repositório.
-      </li>
-      <li>
-        <strong>Cursos mudam de código e instituições fundem-se.</strong> As séries só
-        atravessam essas mudanças quando o nosso crosswalk manual as declara; na dúvida,
-        a série parte-se em vez de fundir cursos diferentes.
-      </li>
-    </ul>
+    <section class="card reveal" style="--d:.12s">
+      <h3>Infocursos (MECI)</h3>
+      <p>
+        A base anual do <a href="https://infocursos.medu.pt/" rel="noopener">Infocursos</a>{" "}
+        acrescenta o que acontece depois de entrar: percentil nacional das notas de
+        entrada, situação um ano depois, distribuição por sexo, classificações finais e o
+        desemprego dos recém-diplomados registado no IEFP.
+      </p>
+      <p>
+        O desemprego por curso é do IEFP — o INE não publica emprego por curso; usamos a
+        mediana de todos os cursos como referência de contexto.
+      </p>
+    </section>
 
-    <h2>Privacidade</h2>
-    <p>
-      A DGES publica, durante a época, listas nominais de candidatos e colocados. O
-      esRadar <strong>não as arquiva nem as reproduz</strong>: só dados agregados por par
-      curso/instituição.
-    </p>
+    <section class="card reveal" style="--d:.18s">
+      <h3>O que a nota de corte é — e não é</h3>
+      <p>
+        A «nota de corte» não é fixada por ninguém: é a nota de candidatura do último
+        estudante que coube nas vagas. Mede o equilíbrio entre procura e oferta desse ano —
+        <strong>não mede a qualidade do curso</strong>. Só existe quando o curso preencheu
+        todas as vagas: nos cursos com sobras, entra-se com a classificação mínima.
+      </p>
+      <p>
+        Usamos a nota pelo <strong>contingente geral</strong>. Os contingentes especiais
+        (Açores, Madeira, emigrantes, candidatos com deficiência) têm notas próprias, por
+        regra mais baixas, que não estão neste portal.
+      </p>
+    </section>
 
-    <h2>Reprodutibilidade</h2>
-    <p>
-      Todo o pipeline — arquivadores, parsers, validações e este site — está no
-      repositório público, com os dados brutos e tratados versionados. Qualquer número
-      deste portal pode ser refeito a partir dos ficheiros fonte da DGES aí guardados.
-    </p>
-  </article>
+    <section class="card reveal">
+      <h3>Limitações conhecidas</h3>
+      <ul>
+        <li>
+          <strong>Candidatos ≠ pessoas.</strong> Cada estudante concorre até seis pares; os
+          totais por curso somam candidaturas.
+        </li>
+        <li>
+          <strong>A procura vem com um ano de atraso.</strong> A DGES só publica os
+          candidatos por curso no guia do ano seguinte.
+        </li>
+        <li>
+          <strong>Só ensino público, regime geral.</strong> Fora ficam o ensino privado,
+          os concursos locais e institucionais, e os regimes especiais (maiores de 23,
+          CTeSP, estudantes internacionais).
+        </li>
+        <li>
+          <strong>A DGES revê números sem aviso.</strong> Guardamos o manifesto SHA-256 de
+          todos os ficheiros fonte; as revisões silenciosas ficam registadas no histórico.
+        </li>
+        <li>
+          <strong>Cursos mudam de código.</strong> As séries só atravessam mudanças que o
+          crosswalk manual declara; na dúvida, a série parte-se em vez de fundir cursos
+          diferentes.
+        </li>
+      </ul>
+    </section>
+
+    <section class="card reveal" style="--d:.06s">
+      <h3>Privacidade e reprodutibilidade</h3>
+      <p>
+        A DGES publica, durante a época, listas nominais de candidatos e colocados. O
+        esRadar <strong>não as arquiva nem as reproduz</strong>: só dados agregados por par
+        curso/instituição.
+      </p>
+      <p>
+        Todo o pipeline — arquivadores, parsers, validações e este site — está no
+        repositório público, com os dados brutos e tratados versionados. Os totais
+        reconstruídos são validados contra os comunicados oficiais da DGES (tolerância de
+        2%, explicada pelos desempates).
+      </p>
+    </section>
+  </div>
 </Base>
 
 <style>
-  .metodologia {
-    padding: 26px 0 40px;
+  .cab {
+    padding: 26px 0 8px;
   }
-  .metodologia h1 {
+  .cab h1 {
     font-size: clamp(24px, 4vw, 34px);
     letter-spacing: -0.02em;
   }
-  .metodologia h2 {
-    font-size: var(--t-lg);
-    margin: 28px 0 8px;
+  .met {
+    margin-bottom: 40px;
   }
-  .metodologia li {
+  .met p {
+    font-size: var(--t-sm);
+    color: var(--ink-2);
+    margin: 8px 0 0;
+  }
+  .met ul {
+    margin: 8px 0 0;
+    padding-left: 18px;
+    font-size: var(--t-sm);
+    color: var(--ink-2);
+  }
+  .met li {
     margin: 6px 0;
+  }
+  .met strong {
+    color: var(--ink);
   }
 </style>
