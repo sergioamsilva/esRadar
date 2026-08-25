@@ -14,12 +14,27 @@ const vagas2026 = indice.reduce((s, c) => s + (c.vagas ?? 0), 0);
 const colocadosF1 = indice.reduce((s, c) => s + (c.colocados_2026f1 ?? 0), 0);
 const sobrasF1 = indice.reduce((s, c) => s + (c.sobras_2026f1 ?? 0), 0);
 
-const serieColocados = Object.entries(nac.anos)
-  .map(([ano, v]) => ({ ano: Number(ano), valor: v.colocados }))
-  .filter((p) => p.valor > 0);
-const serieVagas = Object.entries(nac.anos)
-  .map(([ano, v]) => ({ ano: Number(ano), valor: v.vagas_f1 }))
-  .filter((p) => p.valor > 0);
+/* Vagas vs. colocados da 1ª fase — comparação limpa: a faixa entre as duas
+   linhas são as vagas que sobraram para a 2ª fase, ano a ano. */
+const anosNacional = Object.entries(nac.anos)
+  .map(([ano, v]) => ({ ano: Number(ano), vagas: v.vagas_f1, colocados: v.colocados_f1 }))
+  .filter((p) => p.vagas > 0 && p.colocados > 0)
+  .sort((a, b) => a.ano - b.ano);
+
+const VC = { L: 100, A: 56, esq: 2, dir: 11, topo: 6, base: 16 };
+const vcMax = Math.max(...anosNacional.map((p) => p.vagas)) * 1.04;
+const vcMin = Math.min(...anosNacional.map((p) => p.colocados)) * 0.96;
+const vcX = (ano: number) =>
+  VC.esq + ((ano - anosNacional[0].ano) / (anosNacional[anosNacional.length - 1].ano - anosNacional[0].ano)) * (VC.L - VC.esq - VC.dir);
+const vcY = (v: number) => VC.topo + (1 - (v - vcMin) / (vcMax - vcMin)) * (VC.A - VC.topo - VC.base);
+const f2 = (n: number) => n.toFixed(2);
+const vcLinha = (campo: "vagas" | "colocados") =>
+  anosNacional.map((p, i) => `${i ? "L" : "M"}${f2(vcX(p.ano))},${f2(vcY(p[campo]))}`).join(" ");
+const vcBanda =
+  anosNacional.map((p, i) => `${i ? "L" : "M"}${f2(vcX(p.ano))},${f2(vcY(p.vagas))}`).join(" ") +
+  [...anosNacional].reverse().map((p) => ` L${f2(vcX(p.ano))},${f2(vcY(p.colocados))}`).join("") +
+  " Z";
+const vcUltimo = anosNacional[anosNacional.length - 1];
 
 /* Maiores movimentos da nota de corte entre 2025 e 2026, 1ª fase. */
 const comVariacao = indice
@@ -180,20 +195,61 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
   </section>
 
   <div class="grid">
-    <section class="card reveal">
-      <h3>Vagas e colocados, ano a ano</h3>
-      <SerieAnual
-        titulo="1ª fase: vagas iniciais vs. estudantes colocados (todas as fases)"
-        unidade="estudantes"
-        inteiro
-        series={[
-          { rotulo: "Vagas (1ª fase)", pontos: serieVagas, cor: "serie-1" },
-          { rotulo: "Colocados (todas as fases)", pontos: serieColocados, cor: "serie-2" },
-        ]}
-      />
-      <p class="fonte-lin">
-        DGES, resultados do CNA 2018–2026. 2026 só inclui as fases já decorridas.
+    <section class="card reveal vc-card">
+      <h3>Vagas e colocados na 1ª fase, ano a ano</h3>
+      <p class="desc">
+        A faixa entre as linhas são as vagas que sobraram para a 2ª fase. Em 2025 o fosso
+        abriu — o ano da mudança nas provas de ingresso — e em 2026 voltou a fechar.
       </p>
+      <figure class="vc reveal">
+        <svg
+          viewBox={`0 0 ${VC.L} ${VC.A}`}
+          preserveAspectRatio="none"
+          role="img"
+          aria-label={`Vagas iniciais e colocados na 1ª fase, ${anosNacional[0].ano} a ${vcUltimo.ano}. Em ${vcUltimo.ano}: ${formatarInteiro(vcUltimo.vagas)} vagas, ${formatarInteiro(vcUltimo.colocados)} colocados, ${formatarInteiro(vcUltimo.vagas - vcUltimo.colocados)} por preencher.`}
+        >
+          {anosNacional.map((p) => (
+            <line x1={f2(vcX(p.ano))} y1={VC.topo} x2={f2(vcX(p.ano))} y2={VC.A - VC.base} class="vc__grelha" />
+          ))}
+          <path d={vcBanda} class="vc__banda ponto-vem" style="--dp:.9s" />
+          <path d={vcLinha("vagas")} class="vc__linha vc__linha--vagas traco" pathLength="1" />
+          <path d={vcLinha("colocados")} class="vc__linha vc__linha--colocados traco" pathLength="1" style="--d:.25s" />
+          {
+            anosNacional.map((p, i) => (
+              <>
+                <circle cx={f2(vcX(p.ano))} cy={f2(vcY(p.vagas))} r="1.3" class="vc__ponto vc__ponto--vagas ponto-vem" style={`--dp:${0.15 + (i / anosNacional.length) * 0.9}s`}>
+                  <title>{`${p.ano}: ${formatarInteiro(p.vagas)} vagas, ${formatarInteiro(p.colocados)} colocados (${Math.round((100 * p.colocados) / p.vagas)}%)`}</title>
+                </circle>
+                <circle cx={f2(vcX(p.ano))} cy={f2(vcY(p.colocados))} r="1.3" class="vc__ponto vc__ponto--colocados ponto-vem" style={`--dp:${0.4 + (i / anosNacional.length) * 0.9}s`}>
+                  <title>{`${p.ano}: ${formatarInteiro(p.colocados)} colocados em ${formatarInteiro(p.vagas)} vagas`}</title>
+                </circle>
+              </>
+            ))
+          }
+          <text x={f2(vcX(vcUltimo.ano) + 1.5)} y={f2(vcY(vcUltimo.vagas) + 1)} class="vc__valor vc__valor--vagas">
+            {formatarInteiro(vcUltimo.vagas)}
+          </text>
+          <text x={f2(vcX(vcUltimo.ano) + 1.5)} y={f2(vcY(vcUltimo.colocados) + 2.5)} class="vc__valor vc__valor--colocados">
+            {formatarInteiro(vcUltimo.colocados)}
+          </text>
+        </svg>
+        <figcaption class="vc__eixo" aria-hidden="true">
+          {
+            anosNacional.map((p) => (
+              <span class="vc__ano" style={`left:${vcX(p.ano)}%`}>
+                <b>{String(p.ano).slice(2)}</b>
+                <span class="vc__pct">{Math.round((100 * p.colocados) / p.vagas)}%</span>
+              </span>
+            ))
+          }
+        </figcaption>
+      </figure>
+      <div class="vc__legenda">
+        <span class="vc__chave"><span class="vc__amostra vc__amostra--vagas" aria-hidden="true"></span>vagas iniciais</span>
+        <span class="vc__chave"><span class="vc__amostra vc__amostra--colocados" aria-hidden="true"></span>colocados na 1ª fase</span>
+        <span class="vc__chave"><span class="vc__amostra vc__amostra--banda" aria-hidden="true"></span>por preencher · % = taxa de ocupação</span>
+      </div>
+      <p class="fonte-lin">DGES, resultados do CNA 2018–2026, reconstruídos par a par.</p>
     </section>
 
     <section class="card reveal" style="--d:.1s">
@@ -459,6 +515,116 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
     bottom: 14px;
     width: 2px;
     background: var(--serie-2);
+  }
+
+  /* ── vagas vs colocados ─────────────────────────────────────────── */
+  .vc-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .vc {
+    margin: 10px 0 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .vc svg {
+    display: block;
+    width: 100%;
+    height: clamp(13rem, 30vw, 17rem);
+    overflow: visible;
+  }
+  .vc__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .vc__banda {
+    fill: color-mix(in srgb, var(--neg) 16%, transparent);
+  }
+  .vc__linha {
+    fill: none;
+    stroke-width: 2.2;
+    vector-effect: non-scaling-stroke;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .vc__linha--vagas {
+    stroke: var(--serie-1);
+  }
+  .vc__linha--colocados {
+    stroke: var(--serie-2);
+  }
+  .vc__ponto {
+    stroke: var(--surface);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .vc__ponto--vagas {
+    fill: var(--serie-1);
+  }
+  .vc__ponto--colocados {
+    fill: var(--serie-2);
+  }
+  .vc__valor {
+    font-size: 3.1px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .vc__valor--vagas {
+    fill: var(--serie-1);
+  }
+  .vc__valor--colocados {
+    fill: var(--serie-2);
+  }
+  .vc__eixo {
+    position: relative;
+    height: 2.2rem;
+    margin-top: 6px;
+  }
+  .vc__ano {
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: var(--t-2xs);
+    font-variant-numeric: tabular-nums;
+  }
+  .vc__ano b {
+    display: block;
+    color: var(--ink-2);
+  }
+  .vc__pct {
+    color: var(--muted);
+  }
+  .vc__legenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin-top: 8px;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .vc__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .vc__amostra {
+    width: 12px;
+    height: 3px;
+    border-radius: 2px;
+  }
+  .vc__amostra--vagas {
+    background: var(--serie-1);
+  }
+  .vc__amostra--colocados {
+    background: var(--serie-2);
+  }
+  .vc__amostra--banda {
+    height: 10px;
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--neg) 22%, transparent);
   }
 
   /* ── áreas ──────────────────────────────────────────────────────── */
