@@ -57,6 +57,13 @@
    "mudanca_curso": 10.0,
    "outros": 40.0
   },
+  "idades": {
+   "ano_letivo": "2024/25",
+   "inscritos": 58,
+   "pct_20_a_23": 55,
+   "pct_24_ou_mais": 12,
+   "pct_ate_19": 33
+  },
   "nacionalidade": {
    "ano_letivo": "2024/25",
    "estrangeiros": 11,
@@ -129,13 +136,15 @@
    "colocados": 15,
    "nota_ultimo": 111.4,
    "sobras": 5,
-   "vagas": 19
+   "vagas": 19,
+   "vagas_recolocacao": 1
   },
   "2020f3": {
    "colocados": 1,
    "nota_ultimo": 113.2,
    "sobras": 5,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 0
   },
   "2021f1": {
    "colocados": 7,
@@ -147,13 +156,15 @@
    "colocados": 6,
    "nota_ultimo": 128.8,
    "sobras": 15,
-   "vagas": 19
+   "vagas": 19,
+   "vagas_recolocacao": 2
   },
   "2021f3": {
    "colocados": 1,
    "nota_ultimo": 134.4,
    "sobras": 16,
-   "vagas": 17
+   "vagas": 17,
+   "vagas_recolocacao": 0
   },
   "2022f1": {
    "colocados": 17,
@@ -165,7 +176,8 @@
    "colocados": 7,
    "nota_ultimo": 133.2,
    "sobras": 0,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 1
   },
   "2022f3": {
    "colocados": 3,
@@ -203,13 +215,15 @@
    "media_secundario": 136.8,
    "nota_ultimo": 123.3,
    "sobras": 4,
-   "vagas": 9
+   "vagas": 9,
+   "vagas_recolocacao": 1
   },
   "2023f3": {
    "colocados": 1,
    "nota_ultimo": 142.4,
    "sobras": 4,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 1
   },
   "2024f1": {
    "candidatos": 61,
@@ -241,12 +255,14 @@
    "media_secundario": 153.3,
    "nota_ultimo": 132.2,
    "sobras": 7,
-   "vagas": 8
+   "vagas": 8,
+   "vagas_recolocacao": 2
   },
   "2024f3": {
    "colocados": 0,
    "sobras": 9,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 2
   },
   "2025f1": {
    "candidatos": 54,
@@ -278,13 +294,15 @@
    "media_secundario": 146.3,
    "nota_ultimo": 133.5,
    "sobras": 7,
-   "vagas": 11
+   "vagas": 11,
+   "vagas_recolocacao": 0
   },
   "2025f3": {
    "colocados": 1,
    "nota_ultimo": 136.5,
    "sobras": 8,
-   "vagas": 9
+   "vagas": 9,
+   "vagas_recolocacao": 0
   },
   "2026f1": {
    "colocados": 12,

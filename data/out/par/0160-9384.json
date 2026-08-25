@@ -31,12 +31,14 @@
    "colocados": 3,
    "nota_ultimo": 106.8,
    "sobras": 22,
-   "vagas": 25
+   "vagas": 25,
+   "vagas_recolocacao": 0
   },
   "2018f3": {
    "colocados": 0,
    "sobras": 22,
-   "vagas": 22
+   "vagas": 22,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 10,
@@ -48,12 +50,14 @@
    "colocados": 3,
    "nota_ultimo": 109.9,
    "sobras": 12,
-   "vagas": 15
+   "vagas": 15,
+   "vagas_recolocacao": 0
   },
   "2019f3": {
    "colocados": 0,
    "sobras": 12,
-   "vagas": 11
+   "vagas": 11,
+   "vagas_recolocacao": 1
   }
  },
  "subsistema": "universitario",

@@ -193,6 +193,40 @@ def extrair(caminho: Path) -> dict[str, dict]:
             "estrangeiros": _i(linha.get("NumeroEstrangeiros")),
         }
 
+    # Idades dos inscritos, condensadas em três escalões legíveis; fica o
+    # ano letivo mais recente.
+    for linha in tabela(caminho, "Inscritos por Idade"):
+        par = _par(linha)
+        total = _i(linha.get("NumeroTotalInscritos"))
+        if not par or not total:
+            continue
+        atual = bloco(par).get("idades")
+        ano_letivo = linha.get("AnoLetivo") or ""
+        if atual and atual["ano_letivo"] >= ano_letivo:
+            continue
+        ate_19 = (_i(linha.get("Numero1_18Anos")) or 0) + (_i(linha.get("Numero19Anos")) or 0)
+        de_20_a_23 = sum(_i(linha.get(f"Numero{a}Anos")) or 0 for a in (20, 21, 22, 23))
+        bloco(par)["idades"] = {
+            "ano_letivo": ano_letivo,
+            "inscritos": total,
+            "pct_ate_19": round(100 * ate_19 / total),
+            "pct_20_a_23": round(100 * de_20_a_23 / total),
+            "pct_24_ou_mais": max(0, 100 - round(100 * ate_19 / total) - round(100 * de_20_a_23 / total)),
+        }
+
+    # Série de inscritos totais por ano letivo (colunas «2020/2021»…).
+    for linha in tabela(caminho, "Numero Inscritos"):
+        par = _par(linha)
+        if not par:
+            continue
+        serie = {
+            chave: _i(valor)
+            for chave, valor in linha.items()
+            if re.fullmatch(r"\d{4}/\d{4}", chave) and _i(valor) is not None
+        }
+        if serie:
+            bloco(par)["inscritos_serie"] = serie
+
     # Formas de ingresso dos novos inscritos (coortes recentes).
     for linha in tabela(caminho, "Formas Ingresso"):
         par = _par(linha)

@@ -31,11 +31,13 @@
    "colocados": 10,
    "nota_ultimo": 146.1,
    "sobras": 0,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 3
   },
   "2018f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 55,
@@ -47,11 +49,13 @@
    "colocados": 11,
    "nota_ultimo": 142.0,
    "sobras": 0,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 4
   },
   "2019f3": {
    "colocados": 0,
-   "sobras": 2
+   "sobras": 2,
+   "vagas_recolocacao": 2
   },
   "2020f1": {
    "colocados": 67,
@@ -63,11 +67,13 @@
    "colocados": 4,
    "nota_ultimo": 163.5,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 1
   },
   "2020f3": {
    "colocados": 0,
-   "sobras": 1
+   "sobras": 1,
+   "vagas_recolocacao": 1
   },
   "2021f1": {
    "colocados": 55,
@@ -79,11 +85,13 @@
    "colocados": 3,
    "nota_ultimo": 168.0,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 1
   },
   "2021f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2022f1": {
    "colocados": 56,
@@ -95,7 +103,8 @@
    "colocados": 7,
    "nota_ultimo": 165.3,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 2
   },
   "2022f3": {
    "colocados": 0,
@@ -111,11 +120,13 @@
    "colocados": 4,
    "nota_ultimo": 166.2,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 1
   },
   "2023f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2024f1": {
    "colocados": 61,
@@ -127,13 +138,15 @@
    "colocados": 7,
    "nota_ultimo": 156.9,
    "sobras": 0,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 0
   },
   "2024f3": {
    "colocados": 2,
    "nota_ultimo": 155.9,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   },
   "2025f1": {
    "colocados": 61,
@@ -145,13 +158,15 @@
    "colocados": 15,
    "nota_ultimo": 140.3,
    "sobras": 0,
-   "vagas": 12
+   "vagas": 12,
+   "vagas_recolocacao": 3
   },
   "2025f3": {
    "colocados": 2,
    "nota_ultimo": 138.3,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": null,

@@ -14,6 +14,13 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Évora",
  "infocursos": {
+  "idades": {
+   "ano_letivo": "2024/25",
+   "inscritos": 4,
+   "pct_20_a_23": 75,
+   "pct_24_ou_mais": 0,
+   "pct_ate_19": 25
+  },
   "nacionalidade": {
    "ano_letivo": "2024/25",
    "estrangeiros": 0,
@@ -79,7 +86,8 @@
   "2022f2": {
    "colocados": 0,
    "sobras": 17,
-   "vagas": 17
+   "vagas": 17,
+   "vagas_recolocacao": 0
   },
   "2022f3": {
    "colocados": 0,
@@ -108,12 +116,14 @@
    "colocados": 0,
    "colocados_1opcao": 0,
    "sobras": 8,
-   "vagas": 8
+   "vagas": 8,
+   "vagas_recolocacao": 0
   },
   "2023f3": {
    "colocados": 0,
    "sobras": 3,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 1
   },
   "2024f1": {
    "candidatos": 9,
@@ -133,11 +143,13 @@
    "colocados": 0,
    "colocados_1opcao": 0,
    "sobras": 10,
-   "vagas": 10
+   "vagas": 10,
+   "vagas_recolocacao": 0
   },
   "2024f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2026f1": {
    "colocados": 0,

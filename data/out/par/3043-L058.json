@@ -31,12 +31,14 @@
    "colocados": 1,
    "nota_ultimo": 115.1,
    "sobras": 31,
-   "vagas": 30
+   "vagas": 30,
+   "vagas_recolocacao": 2
   },
   "2018f3": {
    "colocados": 0,
    "sobras": 5,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 2,
@@ -47,12 +49,14 @@
   "2019f2": {
    "colocados": 0,
    "sobras": 33,
-   "vagas": 32
+   "vagas": 32,
+   "vagas_recolocacao": 1
   },
   "2019f3": {
    "colocados": 0,
    "sobras": 10,
-   "vagas": 10
+   "vagas": 10,
+   "vagas_recolocacao": 0
   },
   "2020f1": {
    "colocados": 0,
@@ -62,13 +66,15 @@
   "2020f2": {
    "colocados": 0,
    "sobras": 33,
-   "vagas": 33
+   "vagas": 33,
+   "vagas_recolocacao": 0
   },
   "2020f3": {
    "colocados": 1,
    "nota_ultimo": 114.9,
    "sobras": 4,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2021f1": {
    "colocados": 0,
@@ -78,12 +84,14 @@
   "2021f2": {
    "colocados": 0,
    "sobras": 36,
-   "vagas": 36
+   "vagas": 36,
+   "vagas_recolocacao": 0
   },
   "2021f3": {
    "colocados": 0,
    "sobras": 10,
-   "vagas": 10
+   "vagas": 10,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",

@@ -31,13 +31,15 @@
    "colocados": 7,
    "nota_ultimo": 104.8,
    "sobras": 9,
-   "vagas": 16
+   "vagas": 16,
+   "vagas_recolocacao": 0
   },
   "2018f3": {
    "colocados": 1,
    "nota_ultimo": 149.3,
    "sobras": 10,
-   "vagas": 11
+   "vagas": 11,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 14,
@@ -49,12 +51,14 @@
    "colocados": 3,
    "nota_ultimo": 103.5,
    "sobras": 11,
-   "vagas": 12
+   "vagas": 12,
+   "vagas_recolocacao": 2
   },
   "2019f3": {
    "colocados": 0,
    "sobras": 11,
-   "vagas": 11
+   "vagas": 11,
+   "vagas_recolocacao": 0
   },
   "2020f1": {
    "colocados": 14,
@@ -66,12 +70,14 @@
    "colocados": 13,
    "nota_ultimo": 116.1,
    "sobras": 0,
-   "vagas": 13
+   "vagas": 13,
+   "vagas_recolocacao": 0
   },
   "2020f3": {
    "colocados": 0,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 0
   },
   "2021f1": {
    "colocados": 20,
@@ -83,13 +89,15 @@
    "colocados": 3,
    "nota_ultimo": 118.1,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 0
   },
   "2021f3": {
    "colocados": 1,
    "nota_ultimo": 125.9,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "universitario",

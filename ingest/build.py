@@ -83,6 +83,7 @@ def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
             "codc": _coluna(cab, "código curso"),
             "curso": _coluna(cab, "nome do curso"),
             "vagas": _coluna(cab, "vagas iniciais"),
+            "recolocacao": _coluna(cab, "vagas de recolocação"),
             "nota": _coluna(cab, "nota do últ"),
             "sobras": _coluna(cab, "sobras", "vagas sobrantes"),
         }
@@ -112,6 +113,8 @@ def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
             }
             if col["vagas"] is not None:
                 registo["vagas"] = _int(linha[col["vagas"]])
+            if col["recolocacao"] is not None and len(linha) > col["recolocacao"]:
+                registo["vagas_recolocacao"] = _int(linha[col["recolocacao"]])
             if col["sobras"] is not None and len(linha) > col["sobras"]:
                 registo["sobras"] = _int(linha[col["sobras"]])
             par = f"{code}-{codc}"

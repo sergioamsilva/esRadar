@@ -22,6 +22,13 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
+  "idades": {
+   "ano_letivo": "2024/25",
+   "inscritos": 55,
+   "pct_20_a_23": 71,
+   "pct_24_ou_mais": 14,
+   "pct_ate_19": 15
+  },
   "nacionalidade": {
    "ano_letivo": "2024/25",
    "estrangeiros": 5,
@@ -120,12 +127,14 @@
    "colocados_homens": 0,
    "colocados_mulheres": 0,
    "sobras": 27,
-   "vagas": 27
+   "vagas": 27,
+   "vagas_recolocacao": 0
   },
   "2025f3": {
    "colocados": 0,
    "sobras": 15,
-   "vagas": 15
+   "vagas": 15,
+   "vagas_recolocacao": 0
   },
   "2026f1": {
    "colocados": 3,

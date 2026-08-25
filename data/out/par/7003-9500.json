@@ -31,13 +31,15 @@
    "colocados": 36,
    "nota_ultimo": 142.5,
    "sobras": 0,
-   "vagas": 25
+   "vagas": 25,
+   "vagas_recolocacao": 11
   },
   "2018f3": {
    "colocados": 5,
    "nota_ultimo": 139.0,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 257,
@@ -49,13 +51,15 @@
    "colocados": 26,
    "nota_ultimo": 147.0,
    "sobras": 0,
-   "vagas": 22
+   "vagas": 22,
+   "vagas_recolocacao": 4
   },
   "2019f3": {
    "colocados": 6,
    "nota_ultimo": 145.5,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 3
   },
   "2020f1": {
    "colocados": 258,
@@ -67,13 +71,15 @@
    "colocados": 17,
    "nota_ultimo": 176.5,
    "sobras": 0,
-   "vagas": 14
+   "vagas": 14,
+   "vagas_recolocacao": 3
   },
   "2020f3": {
    "colocados": 6,
    "nota_ultimo": 174.0,
    "sobras": 0,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 2
   },
   "2021f1": {
    "colocados": 269,
@@ -85,13 +91,15 @@
    "colocados": 26,
    "nota_ultimo": 171.5,
    "sobras": 0,
-   "vagas": 22
+   "vagas": 22,
+   "vagas_recolocacao": 4
   },
   "2021f3": {
    "colocados": 5,
    "nota_ultimo": 172.5,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2022f1": {
    "colocados": 263,
@@ -103,7 +111,8 @@
    "colocados": 35,
    "nota_ultimo": 154.5,
    "sobras": 0,
-   "vagas": 26
+   "vagas": 26,
+   "vagas_recolocacao": 9
   },
   "2022f3": {
    "colocados": 6,
@@ -121,13 +130,15 @@
    "colocados": 24,
    "nota_ultimo": 160.5,
    "sobras": 0,
-   "vagas": 22
+   "vagas": 22,
+   "vagas_recolocacao": 2
   },
   "2023f3": {
    "colocados": 6,
    "nota_ultimo": 158.5,
    "sobras": 0,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 0
   },
   "2024f1": {
    "colocados": 258,
@@ -139,13 +150,15 @@
    "colocados": 35,
    "nota_ultimo": 150.5,
    "sobras": 0,
-   "vagas": 30
+   "vagas": 30,
+   "vagas_recolocacao": 4
   },
   "2024f3": {
    "colocados": 6,
    "nota_ultimo": 145.5,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 3
   }
  },
  "subsistema": null,

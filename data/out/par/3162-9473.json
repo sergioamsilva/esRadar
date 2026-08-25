@@ -31,13 +31,15 @@
    "colocados": 7,
    "nota_ultimo": 119.3,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 2
   },
   "2018f3": {
    "colocados": 2,
    "nota_ultimo": 122.5,
    "sobras": 1,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 23,
@@ -49,11 +51,13 @@
    "colocados": 12,
    "nota_ultimo": 122.0,
    "sobras": 0,
-   "vagas": 12
+   "vagas": 12,
+   "vagas_recolocacao": 0
   },
   "2019f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2020f1": {
    "colocados": 29,
@@ -65,11 +69,13 @@
    "colocados": 16,
    "nota_ultimo": 114.6,
    "sobras": 0,
-   "vagas": 14
+   "vagas": 14,
+   "vagas_recolocacao": 2
   },
   "2020f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2021f1": {
    "colocados": 27,
@@ -81,11 +87,13 @@
    "colocados": 5,
    "nota_ultimo": 132.1,
    "sobras": 0,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 1
   },
   "2021f3": {
    "colocados": 0,
-   "sobras": 1
+   "sobras": 1,
+   "vagas_recolocacao": 1
   },
   "2022f1": {
    "colocados": 24,
@@ -97,7 +105,8 @@
    "colocados": 8,
    "nota_ultimo": 134.9,
    "sobras": 0,
-   "vagas": 8
+   "vagas": 8,
+   "vagas_recolocacao": 0
   },
   "2022f3": {
    "colocados": 2,
@@ -115,13 +124,15 @@
    "colocados": 11,
    "nota_ultimo": 126.5,
    "sobras": 0,
-   "vagas": 10
+   "vagas": 10,
+   "vagas_recolocacao": 1
   },
   "2023f3": {
    "colocados": 7,
    "nota_ultimo": 124.1,
    "sobras": 1,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 1
   },
   "2024f1": {
    "colocados": 26,
@@ -133,13 +144,15 @@
    "colocados": 8,
    "nota_ultimo": 135.7,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 3
   },
   "2024f3": {
    "colocados": 3,
    "nota_ultimo": 122.9,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",

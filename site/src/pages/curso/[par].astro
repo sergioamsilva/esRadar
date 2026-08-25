@@ -77,6 +77,27 @@ const segmentosIngresso = formas
 const distribuicao = info?.diplomados?.distribuicao ?? null;
 const maxDistribuicao = distribuicao ? Math.max(...Object.values(distribuicao)) : 0;
 
+const idades = info?.idades;
+const segmentosIdade = idades
+  ? [
+      { rotulo: "até 19 anos", valor: idades.pct_ate_19, classe: "fica" },
+      { rotulo: "20–23 anos", valor: idades.pct_20_a_23, classe: "muda-inst" },
+      { rotulo: "24 ou mais", valor: idades.pct_24_ou_mais, classe: "fora" },
+    ].filter((s) => s.valor > 0)
+  : [];
+
+const inscritosSerie = info?.inscritos_serie
+  ? Object.entries(info.inscritos_serie)
+      .map(([anoLetivo, valor]) => ({ ano: Number(anoLetivo.slice(5)), valor: valor as number }))
+      .sort((a, b) => a.ano - b.ano)
+  : [];
+
+const mediasCandidatura = serieAnual(ficha, "media_candidatura", 1);
+const mediasSecundario = serieAnual(ficha, "media_secundario", 1);
+const percentilRecente = percentilEntrada.length
+  ? info?.percentil_entrada?.[String(percentilEntrada[percentilEntrada.length - 1].ano)]
+  : null;
+
 const titulo = `${ficha.curso} — ${ficha.instituicao}`;
 const descricao =
   nota2026 != null
@@ -406,6 +427,31 @@ const descricao =
           <p class="fonte-lin">
             Infocursos (MECI). Compara as notas de ingresso dos matriculados deste curso com
             as de todo o país.
+            {
+              percentilRecente?.nota_ingresso_media != null &&
+                ` Nota média de ingresso mais recente: ${percentilRecente.nota_ingresso_media.toLocaleString("pt-PT", { minimumFractionDigits: 1 })} em 20.`
+            }
+          </p>
+        </section>
+      )
+    }
+
+    {
+      mediasCandidatura.length >= 2 && (
+        <section class="card">
+          <h3>Com que notas se entra, ano a ano</h3>
+          <SerieAnual
+            titulo="Médias dos colocados na 1ª fase (escala 0–200)"
+            unidade="pontos"
+            series={[
+              { rotulo: "Nota de candidatura", pontos: mediasCandidatura, cor: "serie-1" },
+              { rotulo: "Média do secundário", pontos: mediasSecundario, cor: "serie-2" },
+            ]}
+          />
+          <p class="fonte-lin">
+            DGES, guia da candidatura — médias dos colocados. A média do secundário anda
+            tipicamente acima da nota de candidatura: as provas de ingresso puxam para
+            baixo.
           </p>
         </section>
       )
@@ -477,6 +523,41 @@ const descricao =
                   {ficha.desemprego_percentil != null &&
                     ` — desemprego mais baixo do que ${100 - ficha.desemprego_percentil}% dos cursos`}
                 </span>
+              </li>
+            )}
+            {idades && segmentosIdade.length > 0 && (
+              <li>
+                <b data-contar={idades.pct_ate_19}>{idades.pct_ate_19}</b>
+                <span>% entram com 19 anos ou menos ({idades.ano_letivo})</span>
+                <div
+                  class="composicao composicao--fina"
+                  role="img"
+                  aria-label={segmentosIdade.map((s) => `${s.valor}% ${s.rotulo}`).join("; ")}
+                >
+                  {segmentosIdade.map((s, i) => (
+                    <span
+                      class={`composicao__seg composicao__seg--${s.classe} cresce`}
+                      style={`width:${s.valor}%;--d:${i * 0.1}s`}
+                    />
+                  ))}
+                </div>
+                <span class="idades-legenda">
+                  {segmentosIdade.map((s) => `${s.valor}% ${s.rotulo}`).join(" · ")}
+                </span>
+              </li>
+            )}
+            {inscritosSerie.length >= 3 && (
+              <li>
+                <b data-contar={inscritosSerie[inscritosSerie.length - 1].valor}>
+                  {formatarInteiro(inscritosSerie[inscritosSerie.length - 1].valor)}
+                </b>
+                <span>inscritos no último ano letivo</span>
+                <SerieAnual
+                  titulo="Inscritos totais por ano letivo"
+                  unidade="inscritos"
+                  inteiro
+                  series={[{ rotulo: "Inscritos", pontos: inscritosSerie, cor: "serie-1" }]}
+                />
               </li>
             )}
             {info?.nacionalidade?.estrangeiros != null && info.nacionalidade.inscritos > 0 && (
@@ -1027,6 +1108,10 @@ const descricao =
   .viz__linha--geral .viz__nota {
     color: var(--accent-texto);
     font-weight: 700;
+  }
+  .medias .idades-legenda {
+    font-size: var(--t-2xs);
+    color: var(--muted);
   }
 
   /* ── vizinhos na mesma área ──────────────────────────────────────── */

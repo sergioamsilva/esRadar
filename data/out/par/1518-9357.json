@@ -31,13 +31,15 @@
    "colocados": 8,
    "nota_ultimo": 191.5,
    "sobras": 0,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 1
   },
   "2018f3": {
    "colocados": 2,
    "nota_ultimo": 191.5,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 92,
@@ -49,12 +51,14 @@
    "colocados": 2,
    "nota_ultimo": 194.5,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   },
   "2019f3": {
    "colocados": 0,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 0
   },
   "2020f1": {
    "colocados": 122,
@@ -66,12 +70,14 @@
    "colocados": 5,
    "nota_ultimo": 192.0,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2020f3": {
    "colocados": 0,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "universitario",

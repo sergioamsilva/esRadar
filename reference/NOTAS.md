@@ -44,3 +44,17 @@
 - CDX: `https://arquivo.pt/wayback/cdx?url=…&output=json` (um JSON por linha).
 - Conteúdo original sem moldura: `https://arquivo.pt/noFrame/replay/{ts}id_/{url}`.
 - 2018 é o primeiro ano com os XLS de resultados capturados; 2014–2017 não têm.
+
+## Série longa 1997–2017
+
+A página «Estatísticas do Acesso ao Ensino Superior Público – 1997 a 2025»
+(plid=593) só aloja os XLS por par de 2019–2025 — os mesmos que temos via
+Arquivo.pt. O período 1997–2017 existe apenas em PDF/portais antigos
+(«CNA em números 2014–2018», PowerBI 2019) sem forma estruturada; a série
+nacional do esRadar começa por isso em 2018, reconstruída par a par.
+
+## Cobertura parcial de folhas do Infocursos
+
+«Numero Inscritos» (série de inscritos por ano letivo) só cobre ~2500 dos
+3685 pares — cursos grandes como Economia/ISCTE ficam de fora. O bloco
+`inscritos_serie` é por isso opcional na ficha.

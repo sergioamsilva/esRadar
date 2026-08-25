@@ -29,11 +29,13 @@
   "2024f2": {
    "colocados": 0,
    "sobras": 25,
-   "vagas": 25
+   "vagas": 25,
+   "vagas_recolocacao": 0
   },
   "2024f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2025f1": {
    "colocados": 0,
@@ -43,12 +45,14 @@
   "2025f2": {
    "colocados": 0,
    "sobras": 25,
-   "vagas": 25
+   "vagas": 25,
+   "vagas_recolocacao": 0
   },
   "2025f3": {
    "colocados": 0,
    "sobras": 5,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",

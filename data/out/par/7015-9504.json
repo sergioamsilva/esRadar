@@ -31,7 +31,8 @@
    "colocados": 6,
    "nota_ultimo": 147.4,
    "sobras": 0,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 2
   },
   "2022f3": {
    "colocados": 0,
@@ -47,11 +48,13 @@
    "colocados": 4,
    "nota_ultimo": 155.2,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 1
   },
   "2023f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2024f1": {
    "colocados": 24,
@@ -63,11 +66,13 @@
    "colocados": 6,
    "nota_ultimo": 151.2,
    "sobras": 0,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 2
   },
   "2024f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",

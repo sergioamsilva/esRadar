@@ -73,6 +73,13 @@
    "mudanca_curso": 3.8,
    "outros": 21.9
   },
+  "idades": {
+   "ano_letivo": "2024/25",
+   "inscritos": 513,
+   "pct_20_a_23": 44,
+   "pct_24_ou_mais": 11,
+   "pct_ate_19": 45
+  },
   "nacionalidade": {
    "ano_letivo": "2024/25",
    "estrangeiros": 68,
@@ -180,13 +187,15 @@
    "colocados": 13,
    "nota_ultimo": 141.0,
    "sobras": 0,
-   "vagas": 9
+   "vagas": 9,
+   "vagas_recolocacao": 4
   },
   "2018f3": {
    "colocados": 4,
    "nota_ultimo": 138.5,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 3
   },
   "2019f1": {
    "colocados": 132,
@@ -198,13 +207,15 @@
    "colocados": 12,
    "nota_ultimo": 141.5,
    "sobras": 0,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 5
   },
   "2019f3": {
    "colocados": 1,
    "nota_ultimo": 166.5,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 0
   },
   "2020f1": {
    "colocados": 163,
@@ -216,13 +227,15 @@
    "colocados": 20,
    "nota_ultimo": 154.0,
    "sobras": 0,
-   "vagas": 12
+   "vagas": 12,
+   "vagas_recolocacao": 7
   },
   "2020f3": {
    "colocados": 2,
    "nota_ultimo": 153.0,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 2
   },
   "2021f1": {
    "colocados": 156,
@@ -234,13 +247,15 @@
    "colocados": 25,
    "nota_ultimo": 163.5,
    "sobras": 0,
-   "vagas": 19
+   "vagas": 19,
+   "vagas_recolocacao": 6
   },
   "2021f3": {
    "colocados": 5,
    "nota_ultimo": 162.5,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 2
   },
   "2022f1": {
    "colocados": 131,
@@ -252,7 +267,8 @@
    "colocados": 13,
    "nota_ultimo": 160.0,
    "sobras": 0,
-   "vagas": 10
+   "vagas": 10,
+   "vagas_recolocacao": 3
   },
   "2022f3": {
    "colocados": 2,
@@ -290,13 +306,15 @@
    "media_secundario": 170.5,
    "nota_ultimo": 165.0,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 3
   },
   "2023f3": {
    "colocados": 2,
    "nota_ultimo": 162.5,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   },
   "2024f1": {
    "candidatos": 712,
@@ -328,13 +346,15 @@
    "media_secundario": 162.1,
    "nota_ultimo": 145.5,
    "sobras": 0,
-   "vagas": 12
+   "vagas": 12,
+   "vagas_recolocacao": 5
   },
   "2024f3": {
    "colocados": 3,
    "nota_ultimo": 143.5,
    "sobras": 0,
-   "vagas": 3
+   "vagas": 3,
+   "vagas_recolocacao": 0
   },
   "2025f1": {
    "candidatos": 796,
@@ -366,13 +386,15 @@
    "media_secundario": 163.0,
    "nota_ultimo": 152.3,
    "sobras": 0,
-   "vagas": 9
+   "vagas": 9,
+   "vagas_recolocacao": 13
   },
   "2025f3": {
    "colocados": 2,
    "nota_ultimo": 149.3,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   },
   "2026f1": {
    "colocados": 131,

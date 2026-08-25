@@ -31,13 +31,15 @@
    "colocados": 10,
    "nota_ultimo": 129.5,
    "sobras": 0,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 6
   },
   "2018f3": {
    "colocados": 5,
    "nota_ultimo": 119.0,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 3
   },
   "2019f1": {
    "colocados": 57,
@@ -49,13 +51,15 @@
    "colocados": 8,
    "nota_ultimo": 140.5,
    "sobras": 0,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 2
   },
   "2019f3": {
    "colocados": 4,
    "nota_ultimo": 130.0,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 2
   },
   "2020f1": {
    "colocados": 64,
@@ -67,13 +71,15 @@
    "colocados": 22,
    "nota_ultimo": 132.5,
    "sobras": 0,
-   "vagas": 13
+   "vagas": 13,
+   "vagas_recolocacao": 8
   },
   "2020f3": {
    "colocados": 5,
    "nota_ultimo": 130.0,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 4
   },
   "2021f1": {
    "colocados": 54,
@@ -85,13 +91,15 @@
    "colocados": 7,
    "nota_ultimo": 148.0,
    "sobras": 0,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 3
   },
   "2021f3": {
    "colocados": 4,
    "nota_ultimo": 145.5,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 3
   },
   "2022f1": {
    "colocados": 43,
@@ -103,7 +111,8 @@
    "colocados": 7,
    "nota_ultimo": 144.0,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 5
   },
   "2022f3": {
    "colocados": 3,
@@ -121,13 +130,15 @@
    "colocados": 7,
    "nota_ultimo": 153.0,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 1
   },
   "2023f3": {
    "colocados": 2,
    "nota_ultimo": 142.5,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 1
   },
   "2024f1": {
    "colocados": 44,
@@ -139,13 +150,15 @@
    "colocados": 10,
    "nota_ultimo": 144.5,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 5
   },
   "2024f3": {
    "colocados": 1,
    "nota_ultimo": 143.5,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",

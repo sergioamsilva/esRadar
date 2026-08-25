@@ -6,6 +6,7 @@ const RAIZ = path.resolve(process.cwd(), "..", "data", "out");
 /** Registo de um par instituição/curso num ano×fase. Campos ausentes = null. */
 export type Registo = {
   vagas?: number;
+  vagas_recolocacao?: number;
   colocados?: number;
   nota_ultimo?: number;
   sobras?: number;
@@ -76,6 +77,14 @@ export type Par = {
       distribuicao: Record<string, number> | null;
     };
     nacionalidade?: { ano_letivo: string; inscritos: number; estrangeiros: number | null };
+    idades?: {
+      ano_letivo: string;
+      inscritos: number;
+      pct_ate_19: number;
+      pct_20_a_23: number;
+      pct_24_ou_mais: number;
+    };
+    inscritos_serie?: Record<string, number>;
     formas_ingresso?: {
       coorte: string | null;
       cna_1opcao: number;

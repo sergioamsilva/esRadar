@@ -46,6 +46,13 @@
    "mudanca_curso": 0,
    "outros": 36.8
   },
+  "idades": {
+   "ano_letivo": "2024/25",
+   "inscritos": 38,
+   "pct_20_a_23": 18,
+   "pct_24_ou_mais": 29,
+   "pct_ate_19": 53
+  },
   "nacionalidade": {
    "ano_letivo": "2024/25",
    "estrangeiros": 6,
@@ -156,11 +163,13 @@
    "media_secundario": 156.3,
    "nota_ultimo": 146.0,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 2
   },
   "2024f3": {
    "colocados": 0,
-   "sobras": 1
+   "sobras": 1,
+   "vagas_recolocacao": 1
   },
   "2025f1": {
    "candidatos": 94,
@@ -192,12 +201,14 @@
    "media_secundario": 153.3,
    "nota_ultimo": 121.5,
    "sobras": 0,
-   "vagas": 6
+   "vagas": 6,
+   "vagas_recolocacao": 2
   },
   "2025f3": {
    "colocados": 0,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 0
   },
   "2026f1": {
    "colocados": 27,

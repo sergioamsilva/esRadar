@@ -31,13 +31,15 @@
    "colocados": 14,
    "nota_ultimo": 115.9,
    "sobras": 0,
-   "vagas": 11
+   "vagas": 11,
+   "vagas_recolocacao": 2
   },
   "2018f3": {
    "colocados": 2,
    "nota_ultimo": 112.4,
    "sobras": 2,
-   "vagas": 4
+   "vagas": 4,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 30,
@@ -49,13 +51,15 @@
    "colocados": 13,
    "nota_ultimo": 101.0,
    "sobras": 3,
-   "vagas": 14
+   "vagas": 14,
+   "vagas_recolocacao": 2
   },
   "2019f3": {
    "colocados": 5,
    "nota_ultimo": 119.0,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2020f1": {
    "colocados": 26,
@@ -67,13 +71,15 @@
    "colocados": 15,
    "nota_ultimo": 113.8,
    "sobras": 5,
-   "vagas": 20
+   "vagas": 20,
+   "vagas_recolocacao": 0
   },
   "2020f3": {
    "colocados": 6,
    "nota_ultimo": 117.6,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 1
   },
   "2021f1": {
    "colocados": 32,
@@ -85,11 +91,13 @@
    "colocados": 10,
    "nota_ultimo": 125.9,
    "sobras": 0,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 3
   },
   "2021f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2022f1": {
    "colocados": 32,
@@ -101,7 +109,8 @@
    "colocados": 12,
    "nota_ultimo": 130.4,
    "sobras": 0,
-   "vagas": 11
+   "vagas": 11,
+   "vagas_recolocacao": 1
   },
   "2022f3": {
    "colocados": 6,

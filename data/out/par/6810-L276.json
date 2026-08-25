@@ -31,7 +31,8 @@
    "colocados": 1,
    "nota_ultimo": 162.4,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 1
   },
   "2022f3": {
    "colocados": 0,
@@ -47,11 +48,13 @@
    "colocados": 3,
    "nota_ultimo": 141.4,
    "sobras": 0,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 1
   },
   "2023f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "universitario",

@@ -31,12 +31,14 @@
    "colocados": 4,
    "nota_ultimo": 115.0,
    "sobras": 18,
-   "vagas": 21
+   "vagas": 21,
+   "vagas_recolocacao": 1
   },
   "2018f3": {
    "colocados": 0,
    "sobras": 5,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2019f1": {
    "colocados": 4,
@@ -48,12 +50,14 @@
    "colocados": 1,
    "nota_ultimo": 115.6,
    "sobras": 18,
-   "vagas": 19
+   "vagas": 19,
+   "vagas_recolocacao": 0
   },
   "2019f3": {
    "colocados": 0,
    "sobras": 2,
-   "vagas": 2
+   "vagas": 2,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",
