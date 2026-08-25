@@ -58,3 +58,31 @@ nacional do esRadar começa por isso em 2018, reconstruída par a par.
 «Numero Inscritos» (série de inscritos por ano letivo) só cobre ~2500 dos
 3685 pares — cursos grandes como Economia/ISCTE ficam de fora. O bloco
 `inscritos_serie` é por isso opcional na ficha.
+
+## Horizonte temporal
+
+Decisão de projeto (2026-08): o portal trabalha **de 2018 em diante** — é
+onde todas as fontes estruturadas coincidem (XLS de resultados via
+Arquivo.pt começam em 2018). `ANO_MINIMO` em build.py.
+
+## Guias antigos (Arquivo.pt)
+
+O guia é reescrito anualmente no mesmo URL; uma captura entre julho de Y e
+abril de Y+1 pertence à edição Y. As edições de 2020 e 2023 (ingest/
+guias_antigos.py) dão candidatos por sexo/1ª opção e médias dos colocados
+de 2017-2022 (cortado a 2018 no build). O HTML antigo é igual ao atual —
+`media_secundario` só existe nas edições recentes.
+
+## Fontes avaliadas e descartadas/adiada
+
+- **DGES bolsas de estudo**: os XLSX públicos (mapsintesegeral/
+  mapindeferimentos) são sumários processuais nacionais (Total/Público/
+  Privado) — não há bolseiros por instituição ou curso. Descartada.
+- **DGEEC (RAIDES, exames nacionais)**: em 2026-08 a infraestrutura está
+  inoperacional — API do site novo responde 502, os portais legados
+  apontam para o domínio extinto dgeec.mec.pt, e o dados.gov.pt não tem
+  os datasets de exames. Reavaliar; alternativa: pedido formal de dados.
+- **PORDATA**: a API mudou na renovação do site (404 nos endpoints
+  antigos); irrelevante com o horizonte 2018+ (a nossa série própria cobre).
+- **InfoEscolas**: os XLSX de secundário têm demografia/percursos, não
+  médias de exames por prova.

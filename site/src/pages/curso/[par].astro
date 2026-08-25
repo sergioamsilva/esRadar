@@ -57,6 +57,34 @@ const segmentosUmAno = umAno
     ].filter((s) => s.valor > 0)
   : [];
 
+/* Provas de ingresso: o texto do guia vira conjuntos alternativos
+   («06 Filosofia + 18 Português» ou …). Se a estrutura fugir ao padrão
+   (pré-requisitos, texto livre), cai-se no texto tal e qual. */
+type Prova = { cod: string; nome: string };
+const parseProvas = (texto: string | null): { grupos: Prova[][]; escolha: boolean } | null => {
+  if (!texto) return null;
+  const linhas = texto.split("\n").map((l) => l.trim()).filter(Boolean);
+  const escolha = /um dos seguintes/i.test(linhas[0] ?? "");
+  if (escolha) linhas.shift();
+  const grupos: Prova[][] = [[]];
+  for (const linha of linhas) {
+    if (/^ou$/i.test(linha)) {
+      grupos.push([]);
+      continue;
+    }
+    const m = linha.match(/^(\d{2})\s+(.+)$/);
+    if (!m) return null;
+    grupos[grupos.length - 1].push({ cod: m[1], nome: m[2] });
+  }
+  const limpos = grupos.filter((g) => g.length);
+  return limpos.length ? { grupos: limpos, escolha: escolha || limpos.length > 1 } : null;
+};
+const provas = parseProvas(ficha.provas_ingresso);
+
+const distritosPreferencia = ficha.preferencia_regional
+  ? ficha.preferencia_regional.area_influencia.split(",").map((d) => d.trim()).filter(Boolean)
+  : [];
+
 const contingentes2026 = (ficha.contingentes?.["2026f1"] ?? [])
   .slice()
   .sort((a, b) => b.nota - a.nota);
@@ -327,36 +355,122 @@ const descricao =
     <section class="card reveal">
       <h3>Como se entra</h3>
       {
-        ficha.provas_ingresso && (
+        provas ? (
           <>
-            <h4 class="sub">Provas de ingresso</h4>
-            <pre class="provas">{ficha.provas_ingresso}</pre>
+            <h4 class="sub">
+              Provas de ingresso
+              {provas.escolha && provas.grupos.length > 1 && " — um destes conjuntos"}
+            </h4>
+            <ul class="conjuntos">
+              {provas.grupos.map((grupo, i) => (
+                <>
+                  {i > 0 && (
+                    <li class="conjuntos__ou" aria-label="ou, em alternativa">
+                      ou
+                    </li>
+                  )}
+                  <li class="conjuntos__grupo">
+                    {grupo.map((p) => (
+                      <span class="prova">
+                        <span class="prova__cod" aria-hidden="true">
+                          {p.cod}
+                        </span>
+                        {p.nome}
+                      </span>
+                    ))}
+                  </li>
+                </>
+              ))}
+            </ul>
           </>
+        ) : (
+          ficha.provas_ingresso && (
+            <>
+              <h4 class="sub">Provas de ingresso</h4>
+              <pre class="provas">{ficha.provas_ingresso}</pre>
+            </>
+          )
         )
       }
+
       {
-        ficha.formula && (
+        ficha.formula_pesos ? (
           <>
-            <h4 class="sub">Fórmula</h4>
-            <pre class="provas">{ficha.formula}</pre>
+            <h4 class="sub">Fórmula da nota de candidatura</h4>
+            <div
+              class="pesos"
+              role="img"
+              aria-label={`Média do secundário ${ficha.formula_pesos.secundario} por cento; provas de ingresso ${ficha.formula_pesos.provas} por cento`}
+            >
+              <span class="pesos__seg pesos__seg--sec cresce" style={`width:${ficha.formula_pesos.secundario}%`}>
+                <b>{ficha.formula_pesos.secundario}%</b> secundário
+              </span>
+              <span
+                class="pesos__seg pesos__seg--provas cresce"
+                style={`width:${ficha.formula_pesos.provas}%;--d:.12s`}
+              >
+                <b>{ficha.formula_pesos.provas}%</b> provas
+              </span>
+            </div>
           </>
+        ) : (
+          ficha.formula && (
+            <>
+              <h4 class="sub">Fórmula</h4>
+              <pre class="provas">{ficha.formula}</pre>
+            </>
+          )
         )
       }
-      <p class="desc">
-        {ficha.minimo_candidatura != null && `Mínimo de candidatura: ${ficha.minimo_candidatura} pontos. `}
-        {ficha.minimo_provas != null && `Mínimo nas provas: ${ficha.minimo_provas} pontos. `}
-        {ficha.ects != null && `${ficha.ects} ECTS`}
-        {ficha.duracao && `, ${ficha.duracao.toLowerCase()}`}.
-      </p>
+
+      <ul class="requisitos">
+        {
+          ficha.minimo_candidatura != null && (
+            <li>
+              <b>{ficha.minimo_candidatura}</b> mínimo de candidatura
+            </li>
+          )
+        }
+        {
+          ficha.minimo_provas != null && (
+            <li>
+              <b>{ficha.minimo_provas}</b> mínimo nas provas
+            </li>
+          )
+        }
+        {
+          ficha.ects != null && (
+            <li>
+              <b>{ficha.ects}</b> ECTS
+            </li>
+          )
+        }
+        {
+          ficha.duracao && (
+            <li>
+              <b>{ficha.duracao.replace(/\D+$/, "")}</b>
+              {ficha.duracao.replace(/^[\d\s]+/, "").toLowerCase()}
+            </li>
+          )
+        }
+      </ul>
+
       {
         ficha.preferencia_regional && (
-          <p class="cautela">
-            <strong>{ficha.preferencia_regional.pct_vagas}% das vagas</strong> têm
-            preferência regional para quem concluiu o secundário em:{" "}
-            {ficha.preferencia_regional.area_influencia}.
-            {ficha.acessos_preferenciais_pct != null &&
-              ` Mais ${ficha.acessos_preferenciais_pct}% para cursos com acesso preferencial.`}
-          </p>
+          <div class="pref">
+            <p class="pref__texto">
+              <b>{ficha.preferencia_regional.pct_vagas}% das vagas</b> com preferência
+              regional para quem concluiu o secundário em:
+            </p>
+            <ul class="pref__distritos">
+              {distritosPreferencia.map((d) => <li>{d}</li>)}
+            </ul>
+            {ficha.acessos_preferenciais_pct != null && (
+              <p class="pref__texto pref__texto--extra">
+                Mais {ficha.acessos_preferenciais_pct}% para cursos com acesso preferencial.
+              </p>
+            )}
+          </div>
         )
       }
     </section>
@@ -1083,6 +1197,137 @@ const descricao =
     font-size: var(--t-sm);
     white-space: pre-wrap;
     margin: 0;
+    color: var(--ink-2);
+  }
+
+  /* ── conjuntos de provas ─────────────────────────────────────────── */
+  .conjuntos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .conjuntos__grupo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 9px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--serie-1) 6%, var(--surface));
+  }
+  .conjuntos__ou {
+    align-self: center;
+    font-size: var(--t-2xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+  }
+  .prova {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: var(--t-sm);
+    font-weight: 550;
+    white-space: nowrap;
+  }
+  .prova__cod {
+    flex-shrink: 0;
+    width: 26px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    border-radius: 6px;
+    background: var(--serie-1);
+    color: #fff;
+    font-size: var(--t-2xs);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── fórmula como barra de pesos ─────────────────────────────────── */
+  .pesos {
+    display: flex;
+    gap: 2px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 2px 0 0;
+  }
+  .pesos__seg {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 10px;
+    font-size: var(--t-xs);
+    color: #fff;
+    white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .pesos__seg b {
+    font-variant-numeric: tabular-nums;
+  }
+  .pesos__seg--sec {
+    background: var(--serie-1);
+  }
+  .pesos__seg--provas {
+    background: var(--serie-2);
+  }
+
+  /* ── requisitos em chips ─────────────────────────────────────────── */
+  .requisitos {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .requisitos li {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .requisitos b {
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+    margin-right: 3px;
+  }
+
+  /* ── preferência regional ────────────────────────────────────────── */
+  .pref {
+    margin-top: 14px;
+    padding: 10px 0 2px 12px;
+    border-left: 2px solid var(--warn);
+  }
+  .pref__texto {
+    margin: 0 0 8px;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .pref__texto--extra {
+    margin: 8px 0 0;
+  }
+  .pref__distritos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .pref__distritos li {
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: var(--t-2xs);
+    background: color-mix(in srgb, var(--warn) 16%, var(--surface));
+    border: 1px solid color-mix(in srgb, var(--warn) 45%, var(--border));
     color: var(--ink-2);
   }
   .medias {

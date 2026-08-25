@@ -28,6 +28,9 @@ import yaml
 from . import common
 
 ANO_CORRENTE = 2026
+# Horizonte do portal: nada antes de 2018 (decisão de projeto — é onde as
+# fontes estruturadas começam todas).
+ANO_MINIMO = 2018
 
 
 def _coluna(cabecalho: list[str], *prefixos: str) -> int | None:
@@ -298,6 +301,8 @@ def construir() -> None:
         # Edições antigas do guia (Arquivo.pt): só os campos que os XLS não
         # têm — procura, sexo, médias. Nota e colocados ficam dos XLS.
         for chave, registo in series_antigas.get(par, {}).items():
+            if int(chave[:4]) < ANO_MINIMO:
+                continue
             for k, v in registo.items():
                 if v is not None and k not in serie[chave] and k not in ("vagas", "nota_ultimo", "colocados"):
                     serie[chave][k] = v
