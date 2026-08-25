@@ -1,0 +1,196 @@
+{
+ "ativo": true,
+ "cnaef": "211",
+ "cnaef_nome": "Belas-Artes",
+ "codc": "8399",
+ "code": "1502",
+ "concurso": "Nacional",
+ "curso": "Desenho",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Belas-Artes",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "1502-8399",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "series": {
+  "2018f1": {
+   "colocados": 35,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 35,
+   "nota_ultimo": 170.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 184.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 44,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2020f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 41,
+   "nota_ultimo": 177.0,
+   "sobras": 0,
+   "vagas": 41
+  },
+  "2021f2": {
+   "colocados": 2,
+   "nota_ultimo": 176.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 47,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 47
+  },
+  "2022f2": {
+   "colocados": 2,
+   "nota_ultimo": 187.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 416,
+   "candidatos_1opcao": 134,
+   "colocados": 51,
+   "colocados_1opcao": 49,
+   "media_candidatura": 182.5,
+   "media_provas": 189.4,
+   "media_secundario": 175.6,
+   "nota_ultimo": 174.0,
+   "sobras": 0,
+   "vagas": 51
+  },
+  "2023f2": {
+   "candidatos": 119,
+   "candidatos_1opcao": 37,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 189.3,
+   "media_provas": 193.5,
+   "media_secundario": 185.0,
+   "nota_ultimo": 189.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 269,
+   "candidatos_1opcao": 85,
+   "colocados": 54,
+   "colocados_1opcao": 49,
+   "media_candidatura": 172.6,
+   "media_provas": 170.5,
+   "media_secundario": 174.7,
+   "nota_ultimo": 160.3,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2024f2": {
+   "candidatos": 66,
+   "candidatos_1opcao": 16,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 177.1,
+   "media_provas": 178.5,
+   "media_secundario": 175.6,
+   "nota_ultimo": 168.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 447,
+   "candidatos_1opcao": 117,
+   "colocados": 54,
+   "colocados_1opcao": 52,
+   "media_candidatura": 175.3,
+   "media_provas": 177.0,
+   "media_secundario": 173.4,
+   "nota_ultimo": 162.8,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2025f2": {
+   "candidatos": 123,
+   "candidatos_1opcao": 37,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 152.6,
+   "media_provas": 144.0,
+   "media_secundario": 161.0,
+   "nota_ultimo": 181.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 54,
+   "nota_ultimo": 159.8,
+   "sobras": 0,
+   "vagas": 54
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 54
+}

@@ -1,0 +1,200 @@
+{
+ "ativo": true,
+ "cnaef": "523",
+ "cnaef_nome": "Eletrónica e Automação",
+ "codc": "9108",
+ "code": "3118",
+ "concurso": "Nacional",
+ "curso": "Engenharia Eletrónica e Telecomunicações e de Computadores",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3118-9108",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 83,
+   "nota_ultimo": 112.3,
+   "sobras": 0,
+   "vagas": 83
+  },
+  "2018f2": {
+   "colocados": 7,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 59,
+   "nota_ultimo": 113.9,
+   "sobras": 24,
+   "vagas": 83
+  },
+  "2019f2": {
+   "colocados": 29,
+   "nota_ultimo": 129.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2020f1": {
+   "colocados": 75,
+   "nota_ultimo": 112.2,
+   "sobras": 9,
+   "vagas": 83
+  },
+  "2020f2": {
+   "colocados": 21,
+   "nota_ultimo": 135.4,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2021f1": {
+   "colocados": 51,
+   "nota_ultimo": 112.9,
+   "sobras": 32,
+   "vagas": 83
+  },
+  "2021f2": {
+   "colocados": 37,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 43,
+   "nota_ultimo": 108.8,
+   "sobras": 40,
+   "vagas": 83
+  },
+  "2022f2": {
+   "colocados": 34,
+   "nota_ultimo": 116.9,
+   "sobras": 13,
+   "vagas": 42
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 180,
+   "candidatos_1opcao": 13,
+   "colocados": 33,
+   "colocados_1opcao": 13,
+   "media_candidatura": 131.9,
+   "media_provas": 112.0,
+   "media_secundario": 142.6,
+   "nota_ultimo": 111.4,
+   "sobras": 50,
+   "vagas": 83
+  },
+  "2023f2": {
+   "candidatos": 78,
+   "candidatos_1opcao": 12,
+   "colocados": 27,
+   "colocados_1opcao": 12,
+   "media_candidatura": 129.7,
+   "media_provas": 107.6,
+   "media_secundario": 141.6,
+   "nota_ultimo": 115.2,
+   "sobras": 25,
+   "vagas": 51
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 149.8,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2024f1": {
+   "candidatos": 142,
+   "candidatos_1opcao": 12,
+   "colocados": 35,
+   "colocados_1opcao": 12,
+   "media_candidatura": 128.7,
+   "media_provas": 108.1,
+   "media_secundario": 139.8,
+   "nota_ultimo": 117.2,
+   "sobras": 40,
+   "vagas": 75
+  },
+  "2024f2": {
+   "candidatos": 85,
+   "candidatos_1opcao": 14,
+   "colocados": 35,
+   "colocados_1opcao": 14,
+   "media_candidatura": 130.1,
+   "media_provas": 110.5,
+   "media_secundario": 140.6,
+   "nota_ultimo": 116.6,
+   "sobras": 6,
+   "vagas": 41
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 117.6,
+   "sobras": 11,
+   "vagas": 8
+  },
+  "2025f1": {
+   "candidatos": 219,
+   "candidatos_1opcao": 16,
+   "colocados": 24,
+   "colocados_1opcao": 16,
+   "media_candidatura": 130.2,
+   "media_provas": 119.0,
+   "media_secundario": 141.4,
+   "nota_ultimo": 113.5,
+   "sobras": 46,
+   "vagas": 70
+  },
+  "2025f2": {
+   "candidatos": 138,
+   "candidatos_1opcao": 9,
+   "colocados": 31,
+   "colocados_1opcao": 9,
+   "media_candidatura": 124.4,
+   "media_provas": 112.4,
+   "media_secundario": 136.3,
+   "nota_ultimo": 110.8,
+   "sobras": 20,
+   "vagas": 48
+  },
+  "2025f3": {
+   "colocados": 5,
+   "nota_ultimo": 118.8,
+   "sobras": 18,
+   "vagas": 22
+  },
+  "2026f1": {
+   "colocados": 41,
+   "nota_ultimo": 109.0,
+   "sobras": 7,
+   "vagas": 50
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 50
+}

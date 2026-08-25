@@ -1,0 +1,89 @@
+{
+ "ativo": true,
+ "cnaef": "813",
+ "cnaef_nome": "Desporto",
+ "codc": "9563",
+ "code": "3036",
+ "concurso": "Nacional",
+ "curso": "Desporto",
+ "duracao": "3 Anos",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do Castelo, Vila RealOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n089 Desporto (DL 74/2004)\n573 Animação e Gestão Desportiva (Port. 26/2005)\n984 Recorrente - Desporto (DL 74/2004)\nA05 Animação Sociodesportiva (VC) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nA53 Animação e Gestão Desportiva (Port. 960/2009)\nG01 Animação Sócio Desportiva (VC) (Portaria n.º 260/2013)\nG14 Animação Sócio Desportiva (VT) (Portaria n.º 260/2013)\nG29 Animação e Gestão Desportiva (Portaria n.º 262/2013)\nG49 Desporto e Dinamização da Atividade Física (Port. 265/2013)\nG85 Atividade Física e Desporto Adaptados (Port. 33/2015)\nG86 Desporto e Dinamização da Atividade Física (Port. 32/2015)\nH49 Desporto e Dinamização da Atividade Física\nH85 Atividade Física e Desporto Adaptados\nH86 Desporto e Dinamização da Atividade Física\nR05 Técnico de Apoio à Gestão Desportiva\nR10 Técnico de Desporto e Condição Física\nR15 Técnico de Desporto\nS64 Técnico de Apoio à Gestão Desportiva\nT26 Técnico de Gestão Desportiva\nT54 Técnico de Desporto",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Desporto, Bem-Estar e Sistemas Biomédicos",
+ "minimo_candidatura": 100,
+ "minimo_provas": 100,
+ "par": "3036-9563",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "series": {
+  "2024f1": {
+   "candidatos": 328,
+   "candidatos_1opcao": 114,
+   "colocados": 12,
+   "colocados_1opcao": 10,
+   "media_candidatura": 159.4,
+   "media_provas": 153.3,
+   "media_secundario": 162.7,
+   "nota_ultimo": 163.0,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2024f2": {
+   "candidatos": 166,
+   "candidatos_1opcao": 78,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 172.9,
+   "media_provas": 155.0,
+   "media_secundario": 182.5,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 110,
+   "candidatos_1opcao": 32,
+   "colocados": 12,
+   "colocados_1opcao": 10,
+   "media_candidatura": 161.4,
+   "media_provas": 156.1,
+   "media_secundario": 166.7,
+   "nota_ultimo": 151.5,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2025f2": {
+   "candidatos": 32,
+   "candidatos_1opcao": 14,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 165.9,
+   "media_provas": 160.8,
+   "media_secundario": 171.0,
+   "nota_ultimo": 161.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 140.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 20,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 20
+}

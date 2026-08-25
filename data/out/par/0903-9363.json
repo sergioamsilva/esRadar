@@ -1,0 +1,74 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9363",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia de Materiais",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9363",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 23,
+   "nota_ultimo": 149.0,
+   "sobras": 0,
+   "vagas": 23
+  },
+  "2018f2": {
+   "colocados": 7,
+   "nota_ultimo": 150.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 23,
+   "nota_ultimo": 151.8,
+   "sobras": 0,
+   "vagas": 23
+  },
+  "2019f2": {
+   "colocados": 8,
+   "nota_ultimo": 151.4,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 33,
+   "nota_ultimo": 146.6,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2020f2": {
+   "colocados": 6,
+   "nota_ultimo": 125.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

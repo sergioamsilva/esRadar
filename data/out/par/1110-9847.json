@@ -1,0 +1,198 @@
+{
+ "ativo": true,
+ "cnaef": "640",
+ "cnaef_nome": "Ciências Veterinárias",
+ "codc": "9847",
+ "code": "1110",
+ "concurso": "Nacional",
+ "curso": "Medicina Veterinária",
+ "duracao": "11 Semestres",
+ "ects": 330,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar",
+ "minimo_candidatura": 135,
+ "minimo_provas": 135,
+ "par": "1110-9847",
+ "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2018f1": {
+   "colocados": 56,
+   "nota_ultimo": 168.3,
+   "sobras": 0,
+   "vagas": 56
+  },
+  "2018f2": {
+   "colocados": 9,
+   "nota_ultimo": 169.5,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 56,
+   "nota_ultimo": 167.8,
+   "sobras": 0,
+   "vagas": 56
+  },
+  "2019f2": {
+   "colocados": 8,
+   "nota_ultimo": 171.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 65,
+   "nota_ultimo": 178.0,
+   "sobras": 0,
+   "vagas": 64
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 179.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 63,
+   "nota_ultimo": 181.0,
+   "sobras": 0,
+   "vagas": 61
+  },
+  "2021f2": {
+   "colocados": 8,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 61,
+   "nota_ultimo": 175.5,
+   "sobras": 0,
+   "vagas": 61
+  },
+  "2022f2": {
+   "colocados": 4,
+   "nota_ultimo": 175.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 355,
+   "candidatos_1opcao": 83,
+   "colocados": 63,
+   "colocados_1opcao": 35,
+   "media_candidatura": 177.7,
+   "media_provas": 167.6,
+   "media_secundario": 187.8,
+   "nota_ultimo": 172.8,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2023f2": {
+   "candidatos": 85,
+   "candidatos_1opcao": 29,
+   "colocados": 3,
+   "colocados_1opcao": 2,
+   "media_candidatura": 179.9,
+   "media_provas": 174.2,
+   "media_secundario": 185.7,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 316,
+   "candidatos_1opcao": 84,
+   "colocados": 63,
+   "colocados_1opcao": 44,
+   "media_candidatura": 176.7,
+   "media_provas": 165.8,
+   "media_secundario": 187.5,
+   "nota_ultimo": 170.8,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2024f2": {
+   "candidatos": 78,
+   "candidatos_1opcao": 27,
+   "colocados": 5,
+   "colocados_1opcao": 2,
+   "media_candidatura": 170.8,
+   "media_provas": 163.7,
+   "media_secundario": 177.8,
+   "nota_ultimo": 175.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2025f1": {
+   "candidatos": 329,
+   "candidatos_1opcao": 88,
+   "colocados": 63,
+   "colocados_1opcao": 38,
+   "media_candidatura": 176.0,
+   "media_provas": 167.6,
+   "media_secundario": 184.3,
+   "nota_ultimo": 171.3,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2025f2": {
+   "candidatos": 96,
+   "candidatos_1opcao": 47,
+   "colocados": 5,
+   "colocados_1opcao": 3,
+   "media_candidatura": 173.6,
+   "media_provas": 170.8,
+   "media_secundario": 176.4,
+   "nota_ultimo": 179.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 63,
+   "nota_ultimo": 173.5,
+   "sobras": 0,
+   "vagas": 63
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 63
+}

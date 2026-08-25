@@ -1,0 +1,73 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9368",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia Física",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9368",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 25,
+   "nota_ultimo": 164.2,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 161.6,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 25,
+   "nota_ultimo": 167.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 30,
+   "nota_ultimo": 175.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2020f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,1403 @@
+nota: Semeado dos resultados 2018-2026 + época 2026. subsistema null = estabelecimento sem cursos no CNA
+  2026 (curar à mão). distrito por preencher.
+estabelecimentos:
+- code: '0140'
+  nome: Universidade dos Açores - Faculdade de Ciências Agrárias e do Ambiente
+  grupo: Universidade dos Açores
+  subsistema: universitario
+  distrito: null
+- code: '0150'
+  nome: Universidade dos Açores - Faculdade de Ciências Sociais e Humanas
+  grupo: Universidade dos Açores
+  subsistema: universitario
+  distrito: null
+- code: '0160'
+  nome: Universidade dos Açores - Faculdade de Ciências e Tecnologia
+  grupo: Universidade dos Açores
+  subsistema: universitario
+  distrito: null
+- code: '0170'
+  nome: Universidade dos Açores - Faculdade de Economia e Gestão
+  grupo: Universidade dos Açores
+  subsistema: universitario
+  distrito: null
+- code: '0200'
+  nome: Universidade do Algarve
+  grupo: Universidade do Algarve
+  subsistema: null
+  distrito: null
+- code: '0201'
+  nome: Universidade do Algarve - Faculdade de Ciências Humanas e Sociais
+  grupo: Universidade do Algarve
+  subsistema: universitario
+  distrito: null
+- code: '0203'
+  nome: Universidade do Algarve - Faculdade de Ciências e Tecnologia
+  grupo: Universidade do Algarve
+  subsistema: universitario
+  distrito: null
+- code: '0204'
+  nome: Universidade do Algarve - Faculdade de Economia
+  grupo: Universidade do Algarve
+  subsistema: universitario
+  distrito: null
+- code: '0206'
+  nome: Universidade do Algarve - Faculdade de Medicina e Ciências Biomédicas
+  grupo: Universidade do Algarve
+  subsistema: universitario
+  distrito: null
+- code: '0300'
+  nome: Universidade de Aveiro
+  grupo: Universidade de Aveiro
+  subsistema: universitario
+  distrito: null
+- code: '0400'
+  nome: Universidade da Beira Interior
+  grupo: Universidade da Beira Interior
+  subsistema: universitario
+  distrito: null
+- code: '0501'
+  nome: Universidade de Coimbra - Faculdade de Ciências e Tecnologia
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0502'
+  nome: Universidade de Coimbra - Faculdade de Direito
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0503'
+  nome: Universidade de Coimbra - Faculdade de Economia
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0504'
+  nome: Universidade de Coimbra - Faculdade de Farmácia
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0505'
+  nome: Universidade de Coimbra - Faculdade de Letras
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0506'
+  nome: Universidade de Coimbra - Faculdade de Medicina
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0507'
+  nome: Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: 0508
+  nome: Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0520'
+  nome: Universidade de Coimbra (Campus Figueira da Foz)
+  grupo: Universidade de Coimbra (Campus Figueira da Foz)
+  subsistema: null
+  distrito: null
+- code: '0521'
+  nome: Universidade de Coimbra - Faculdade de Ciências e Tecnologia (Campus Figueira da Foz)
+  grupo: Universidade de Coimbra
+  subsistema: universitario
+  distrito: null
+- code: '0602'
+  nome: Universidade de Évora - Escola de Ciências e Tecnologia
+  grupo: Universidade de Évora
+  subsistema: universitario
+  distrito: null
+- code: '0603'
+  nome: Universidade de Évora - Escola de Artes
+  grupo: Universidade de Évora
+  subsistema: universitario
+  distrito: null
+- code: '0604'
+  nome: Universidade de Évora - Escola de Ciências Sociais
+  grupo: Universidade de Évora
+  subsistema: universitario
+  distrito: null
+- code: '0605'
+  nome: Universidade de Évora - Escola de Saúde e Desenvolvimento Humano
+  grupo: Universidade de Évora
+  subsistema: universitario
+  distrito: null
+- code: 0901
+  nome: Universidade Nova de Lisboa - Faculdade de Ciências Médicas
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: 0902
+  nome: Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: 0903
+  nome: Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: 0904
+  nome: Universidade Nova de Lisboa - Faculdade de Economia
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: 0906
+  nome: Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: 0908
+  nome: Universidade Nova de Lisboa - Escola Nacional de Saúde Pública
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: 0911
+  nome: Universidade Nova de Lisboa - Faculdade de Direito
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1000'
+  nome: Universidade do Minho
+  grupo: Universidade do Minho
+  subsistema: universitario
+  distrito: null
+- code: '1101'
+  nome: Universidade do Porto - Faculdade de Ciências da Nutrição e da Alimentação
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1102'
+  nome: Universidade do Porto - Faculdade de Arquitetura
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1103'
+  nome: Universidade do Porto - Faculdade de Ciências
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1104'
+  nome: Universidade do Porto - Faculdade de Economia
+  grupo: Universidade do Porto
+  subsistema: null
+  distrito: null
+- code: '1105'
+  nome: Universidade do Porto - Faculdade de Engenharia
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1106'
+  nome: Universidade do Porto - Faculdade de Farmácia
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1107'
+  nome: Universidade do Porto - Faculdade de Letras
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1108'
+  nome: Universidade do Porto - Faculdade de Medicina
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1109'
+  nome: Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1110'
+  nome: Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1111'
+  nome: Universidade do Porto - Faculdade de Desporto
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1113'
+  nome: Universidade do Porto - Faculdade de Medicina Dentária
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1114'
+  nome: Universidade do Porto - Faculdade de Direito
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1116'
+  nome: Universidade do Porto - FEP Faculdade de Economia e Gestão
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '1201'
+  nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+- code: '1202'
+  nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+- code: '1203'
+  nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+- code: '1204'
+  nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+- code: '1306'
+  nome: Universidade da Madeira - Faculdade de Artes e Humanidades
+  grupo: Universidade da Madeira
+  subsistema: universitario
+  distrito: null
+- code: '1307'
+  nome: Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia
+  grupo: Universidade da Madeira
+  subsistema: universitario
+  distrito: null
+- code: '1308'
+  nome: Universidade da Madeira - Faculdade de Ciências Sociais
+  grupo: Universidade da Madeira
+  subsistema: universitario
+  distrito: null
+- code: '1309'
+  nome: Universidade da Madeira - Faculdade de Ciências da Vida
+  grupo: Universidade da Madeira
+  subsistema: universitario
+  distrito: null
+- code: '1320'
+  nome: Universidade da Madeira - Escola Superior de Saúde
+  grupo: Universidade da Madeira
+  subsistema: politecnico
+  distrito: null
+- code: '1321'
+  nome: Universidade da Madeira - Escola Superior de Tecnologias e Gestão
+  grupo: Universidade da Madeira
+  subsistema: politecnico
+  distrito: null
+- code: '1501'
+  nome: Universidade de Lisboa - Faculdade de Arquitetura
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1502'
+  nome: Universidade de Lisboa - Faculdade de Belas-Artes
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1503'
+  nome: Universidade de Lisboa - Faculdade de Ciências
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1504'
+  nome: Universidade de Lisboa - Faculdade de Direito
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1505'
+  nome: Universidade de Lisboa - Faculdade de Farmácia
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1506'
+  nome: Universidade de Lisboa - Faculdade de Letras
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1507'
+  nome: Universidade de Lisboa - Faculdade de Medicina
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1508'
+  nome: Universidade de Lisboa - Faculdade de Medicina Dentária
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1509'
+  nome: Universidade de Lisboa - Faculdade de Medicina Veterinária
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1510'
+  nome: Universidade de Lisboa - Faculdade de Motricidade Humana
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1511'
+  nome: Universidade de Lisboa - Faculdade de Psicologia
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1513'
+  nome: Universidade de Lisboa - Instituto de Educação
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1514'
+  nome: Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1515'
+  nome: Universidade de Lisboa - Instituto Superior de Agronomia
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1516'
+  nome: Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1517'
+  nome: Universidade de Lisboa - Instituto Superior de Economia e Gestão
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1518'
+  nome: Universidade de Lisboa - Instituto Superior Técnico
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '1519'
+  nome: Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+- code: '2100'
+  nome: Universidade Autónoma de Lisboa Luís de Camões
+  grupo: Universidade Autónoma de Lisboa Luís de Camões
+  subsistema: universitario
+  distrito: null
+- code: '2210'
+  nome: Universidade Católica Portuguesa - Escola Superior de Biotecnologia
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2218'
+  nome: Universidade Católica Portuguesa - Escola de Enfermagem (Lisboa)
+  grupo: Universidade Católica Portuguesa
+  subsistema: politecnico
+  distrito: null
+- code: '2219'
+  nome: Universidade Católica Portuguesa - Escola de Enfermagem (Porto)
+  grupo: Universidade Católica Portuguesa
+  subsistema: politecnico
+  distrito: null
+- code: '2220'
+  nome: Universidade Católica Portuguesa - Faculdade de Ciências Humanas
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2223'
+  nome: Universidade Católica Portuguesa - Faculdade de Filosofia e Ciências Sociais
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2226'
+  nome: Universidade Católica Portuguesa - Centro Regional de Viseu
+  grupo: Universidade Católica Portuguesa
+  subsistema: politecnico
+  distrito: null
+- code: '2227'
+  nome: Universidade Católica Portuguesa - Faculdade de Medicina Dentária
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2240'
+  nome: Universidade Católica Portuguesa - Faculdade de Teologia
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2265'
+  nome: Universidade Católica Portuguesa - Escola das Artes
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2270'
+  nome: Universidade Católica Portuguesa - Faculdade de Ciências Económicas e Empresariais
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2271'
+  nome: Universidade Católica Portuguesa - Faculdade de Economia e Gestão
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2280'
+  nome: Universidade Católica Portuguesa - Faculdade de Direito
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2281'
+  nome: Universidade Católica Portuguesa - Faculdade de Direito (Porto)
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2289'
+  nome: Universidade Católica Portuguesa - Faculdade de Educação e Psicologia
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2295'
+  nome: Universidade Católica Portuguesa - Instituto de Estudos Políticos
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2296'
+  nome: Universidade Católica Portuguesa - Instituto de Ciências da Saúde
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2299'
+  nome: Universidade Católica Portuguesa - Faculdade de Medicina
+  grupo: Universidade Católica Portuguesa
+  subsistema: universitario
+  distrito: null
+- code: '2410'
+  nome: Universidade Lusíada - Centro Universitário Lusíada - Lisboa
+  grupo: Universidade Lusíada
+  subsistema: universitario
+  distrito: null
+- code: '2440'
+  nome: Universidade Lusíada - Centro Universitário Lusíada - Norte - Porto
+  grupo: Universidade Lusíada
+  subsistema: universitario
+  distrito: null
+- code: '2450'
+  nome: Universidade Lusíada - Centro Universitário Lusíada - Norte - Vila Nova de Famalicão
+  grupo: Universidade Lusíada
+  subsistema: universitario
+  distrito: null
+- code: '2500'
+  nome: Universidade Portucalense Infante D. Henrique
+  grupo: Universidade Portucalense Infante D. Henrique
+  subsistema: universitario
+  distrito: null
+- code: '2710'
+  nome: Atlântica - Instituto Universitário
+  grupo: Atlântica
+  subsistema: universitario
+  distrito: null
+- code: '2750'
+  nome: Universidade Fernando Pessoa
+  grupo: Universidade Fernando Pessoa
+  subsistema: universitario
+  distrito: null
+- code: '2910'
+  nome: Centro Universitário Lusófona - Lisboa
+  grupo: Centro Universitário Lusófona
+  subsistema: universitario
+  distrito: null
+- code: '2920'
+  nome: Centro Universitário Lusófona - Porto
+  grupo: Centro Universitário Lusófona
+  subsistema: universitario
+  distrito: null
+- code: '3011'
+  nome: Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro
+  grupo: Universidade de Aveiro
+  subsistema: politecnico
+  distrito: null
+- code: '3012'
+  nome: Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda
+  grupo: Universidade de Aveiro
+  subsistema: politecnico
+  distrito: null
+- code: '3013'
+  nome: Universidade de Aveiro - Escola Superior de Saúde de Aveiro
+  grupo: Universidade de Aveiro
+  subsistema: politecnico
+  distrito: null
+- code: '3014'
+  nome: Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologia da Produção de Aveiro-Norte
+  grupo: Universidade de Aveiro
+  subsistema: politecnico
+  distrito: null
+- code: '3021'
+  nome: Instituto Politécnico de Beja - Escola Superior Agrária
+  grupo: Instituto Politécnico de Beja
+  subsistema: politecnico
+  distrito: null
+- code: '3022'
+  nome: Instituto Politécnico de Beja - Escola Superior de Educação
+  grupo: Instituto Politécnico de Beja
+  subsistema: politecnico
+  distrito: null
+- code: '3023'
+  nome: Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão
+  grupo: Instituto Politécnico de Beja
+  subsistema: politecnico
+  distrito: null
+- code: '3031'
+  nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão
+  grupo: Instituto Politécnico do Cávado e do Ave
+  subsistema: politecnico
+  distrito: null
+- code: '3032'
+  nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia
+  grupo: Instituto Politécnico do Cávado e do Ave
+  subsistema: politecnico
+  distrito: null
+- code: '3033'
+  nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Design
+  grupo: Instituto Politécnico do Cávado e do Ave
+  subsistema: politecnico
+  distrito: null
+- code: '3034'
+  nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Hotelaria e Turismo
+  grupo: Instituto Politécnico do Cávado e do Ave
+  subsistema: politecnico
+  distrito: null
+- code: '3036'
+  nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Desporto, Bem-Estar e Sistemas Biomédicos
+  grupo: Instituto Politécnico do Cávado e do Ave
+  subsistema: politecnico
+  distrito: null
+- code: '3041'
+  nome: Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '3042'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '3043'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '3045'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de
+    Mirandela
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '3046'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Hotelaria e Bem-Estar
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '3051'
+  nome: Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco
+  grupo: Instituto Politécnico de Castelo Branco
+  subsistema: politecnico
+  distrito: null
+- code: '3052'
+  nome: Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco
+  grupo: Instituto Politécnico de Castelo Branco
+  subsistema: politecnico
+  distrito: null
+- code: '3053'
+  nome: Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco
+  grupo: Instituto Politécnico de Castelo Branco
+  subsistema: politecnico
+  distrito: null
+- code: '3054'
+  nome: Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova
+  grupo: Instituto Politécnico de Castelo Branco
+  subsistema: politecnico
+  distrito: null
+- code: '3055'
+  nome: Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas
+  grupo: Instituto Politécnico de Castelo Branco
+  subsistema: politecnico
+  distrito: null
+- code: '3061'
+  nome: Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra
+  grupo: Instituto Politécnico de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '3062'
+  nome: Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra
+  grupo: Instituto Politécnico de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '3063'
+  nome: Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra
+  grupo: Instituto Politécnico de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '3064'
+  nome: Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra
+  grupo: Instituto Politécnico de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '3065'
+  nome: Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital
+  grupo: Instituto Politécnico de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '3081'
+  nome: Universidade do Algarve - Escola Superior de Educação e Comunicação
+  grupo: Universidade do Algarve
+  subsistema: politecnico
+  distrito: null
+- code: '3082'
+  nome: Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo
+  grupo: Universidade do Algarve
+  subsistema: politecnico
+  distrito: null
+- code: '3083'
+  nome: Universidade do Algarve - Instituto Superior de Engenharia
+  grupo: Universidade do Algarve
+  subsistema: politecnico
+  distrito: null
+- code: '3087'
+  nome: Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)
+  grupo: Universidade do Algarve
+  subsistema: politecnico
+  distrito: null
+- code: '3091'
+  nome: Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto
+  grupo: Instituto Politécnico da Guarda
+  subsistema: politecnico
+  distrito: null
+- code: '3092'
+  nome: Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão
+  grupo: Instituto Politécnico da Guarda
+  subsistema: politecnico
+  distrito: null
+- code: '3095'
+  nome: Instituto Politécnico da Guarda - Escola Superior de Turismo e Hotelaria
+  grupo: Instituto Politécnico da Guarda
+  subsistema: politecnico
+  distrito: null
+- code: '3101'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+- code: '3102'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+- code: '3103'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Artes e Design
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+- code: '3105'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+- code: '3111'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Dança
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3112'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Educação
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3113'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3114'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Música
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3116'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Teatro e Cinema
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3117'
+  nome: Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3118'
+  nome: Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '3121'
+  nome: Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais
+  grupo: Instituto Politécnico de Portalegre
+  subsistema: politecnico
+  distrito: null
+- code: '3122'
+  nome: Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão
+  grupo: Instituto Politécnico de Portalegre
+  subsistema: null
+  distrito: null
+- code: '3123'
+  nome: Instituto Politécnico de Portalegre - Escola Superior Agrária de Elvas
+  grupo: Instituto Politécnico de Portalegre
+  subsistema: null
+  distrito: null
+- code: '3124'
+  nome: Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design
+  grupo: Instituto Politécnico de Portalegre
+  subsistema: politecnico
+  distrito: null
+- code: '3125'
+  nome: Instituto Politécnico de Portalegre - Escola Superior de Biociências de Elvas
+  grupo: Instituto Politécnico de Portalegre
+  subsistema: politecnico
+  distrito: null
+- code: '3131'
+  nome: Instituto Politécnico do Porto - Escola Superior de Educação
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '3132'
+  nome: Instituto Politécnico do Porto - Escola Superior de Música e Artes do Espectáculo
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '3134'
+  nome: Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '3135'
+  nome: Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '3138'
+  nome: Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '3139'
+  nome: Instituto Politécnico do Porto - Escola Superior de Hotelaria e Turismo
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '3141'
+  nome: Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém
+  grupo: Instituto Politécnico de Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '3142'
+  nome: Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém
+  grupo: Instituto Politécnico de Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '3143'
+  nome: Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém
+  grupo: Instituto Politécnico de Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '3145'
+  nome: Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior
+  grupo: Instituto Politécnico de Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '3151'
+  nome: Instituto Politécnico de Setúbal - Escola Superior de Educação
+  grupo: Instituto Politécnico de Setúbal
+  subsistema: politecnico
+  distrito: null
+- code: '3152'
+  nome: Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal
+  grupo: Instituto Politécnico de Setúbal
+  subsistema: politecnico
+  distrito: null
+- code: '3153'
+  nome: Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais
+  grupo: Instituto Politécnico de Setúbal
+  subsistema: politecnico
+  distrito: null
+- code: '3154'
+  nome: Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro
+  grupo: Instituto Politécnico de Setúbal
+  subsistema: politecnico
+  distrito: null
+- code: '3155'
+  nome: Instituto Politécnico de Setúbal - Escola Superior de Saúde
+  grupo: Instituto Politécnico de Setúbal
+  subsistema: politecnico
+  distrito: null
+- code: '3161'
+  nome: Instituto Politécnico de Viana do Castelo - Escola Superior Agrária
+  grupo: Instituto Politécnico de Viana do Castelo
+  subsistema: politecnico
+  distrito: null
+- code: '3162'
+  nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Educação
+  grupo: Instituto Politécnico de Viana do Castelo
+  subsistema: politecnico
+  distrito: null
+- code: '3163'
+  nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão
+  grupo: Instituto Politécnico de Viana do Castelo
+  subsistema: politecnico
+  distrito: null
+- code: '3164'
+  nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Ciências Empresariais
+  grupo: Instituto Politécnico de Viana do Castelo
+  subsistema: politecnico
+  distrito: null
+- code: '3165'
+  nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Desporto e Lazer
+  grupo: Instituto Politécnico de Viana do Castelo
+  subsistema: politecnico
+  distrito: null
+- code: '3181'
+  nome: Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu
+  grupo: Instituto Politécnico de Viseu
+  subsistema: politecnico
+  distrito: null
+- code: '3182'
+  nome: Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu
+  grupo: Instituto Politécnico de Viseu
+  subsistema: politecnico
+  distrito: null
+- code: '3185'
+  nome: Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu
+  grupo: Instituto Politécnico de Viseu
+  subsistema: politecnico
+  distrito: null
+- code: '3186'
+  nome: Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego
+  grupo: Instituto Politécnico de Viseu
+  subsistema: politecnico
+  distrito: null
+- code: '3241'
+  nome: Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar
+  grupo: Instituto Politécnico de Tomar
+  subsistema: politecnico
+  distrito: null
+- code: '3242'
+  nome: Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar
+  grupo: Instituto Politécnico de Tomar
+  subsistema: politecnico
+  distrito: null
+- code: '3243'
+  nome: Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes
+  grupo: Instituto Politécnico de Tomar
+  subsistema: politecnico
+  distrito: null
+- code: '3331'
+  nome: Instituto Politécnico do Porto - Escola Superior de Media Artes e Design
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '4002'
+  nome: Academia Nacional Superior de Orquestra
+  grupo: Academia Nacional Superior de Orquestra
+  subsistema: politecnico
+  distrito: null
+- code: '4010'
+  nome: Escola Superior Artística do Porto
+  grupo: Escola Superior Artística do Porto
+  subsistema: universitario
+  distrito: null
+- code: '4020'
+  nome: Escola Superior de Actividades Imobiliárias
+  grupo: Escola Superior de Actividades Imobiliárias
+  subsistema: politecnico
+  distrito: null
+- code: '4069'
+  nome: Escola Superior de Artes e Design
+  grupo: Escola Superior de Artes e Design
+  subsistema: politecnico
+  distrito: null
+- code: '4076'
+  nome: Escola Superior de Educação de Fafe
+  grupo: Escola Superior de Educação de Fafe
+  subsistema: politecnico
+  distrito: null
+- code: '4080'
+  nome: Escola Superior de Educação de João de Deus
+  grupo: Escola Superior de Educação de João de Deus
+  subsistema: politecnico
+  distrito: null
+- code: '4085'
+  nome: Escola Superior de Educação de Paula Frassinetti
+  grupo: Escola Superior de Educação de Paula Frassinetti
+  subsistema: politecnico
+  distrito: null
+- code: '4089'
+  nome: Escola Superior de Saúde Norte da Cruz Vermelha Portuguesa
+  grupo: Escola Superior de Saúde Norte da Cruz Vermelha Portuguesa
+  subsistema: politecnico
+  distrito: null
+- code: '4091'
+  nome: Escola Superior de Saúde da Cruz Vermelha Portuguesa - Lisboa
+  grupo: Escola Superior de Saúde da Cruz Vermelha Portuguesa
+  subsistema: politecnico
+  distrito: null
+- code: '4096'
+  nome: Escola Superior de Enfermagem São Francisco das Misericórdias
+  grupo: Escola Superior de Enfermagem São Francisco das Misericórdias
+  subsistema: politecnico
+  distrito: null
+- code: '4097'
+  nome: Escola Superior de Saúde de Santa Maria
+  grupo: Escola Superior de Saúde de Santa Maria
+  subsistema: politecnico
+  distrito: null
+- code: '4098'
+  nome: Escola Superior de Enfermagem de São José de Cluny
+  grupo: Escola Superior de Enfermagem de São José de Cluny
+  subsistema: politecnico
+  distrito: null
+- code: '4105'
+  nome: Escola Superior de Saúde do Alcoitão
+  grupo: Escola Superior de Saúde do Alcoitão
+  subsistema: politecnico
+  distrito: null
+- code: '4106'
+  nome: Escola Superior de Saúde Egas Moniz
+  grupo: Escola Superior de Saúde Egas Moniz
+  subsistema: politecnico
+  distrito: null
+- code: '4108'
+  nome: Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Saúde do Vale do Ave
+  grupo: Instituto Politécnico de Saúde do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4109'
+  nome: Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Tecnologias da Saúde do Tâmega
+    e Sousa
+  grupo: Instituto Politécnico de Saúde do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4110'
+  nome: Escola Superior de Saúde Cruz Vermelha Portuguesa - Alto Tâmega
+  grupo: Escola Superior de Saúde Cruz Vermelha Portuguesa
+  subsistema: politecnico
+  distrito: null
+- code: '4113'
+  nome: Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Enfermagem do Tâmega e Sousa
+  grupo: Instituto Politécnico de Saúde do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4115'
+  nome: Escola Superior de Tecnologias de Fafe
+  grupo: Escola Superior de Tecnologias de Fafe
+  subsistema: politecnico
+  distrito: null
+- code: '4126'
+  nome: Escola Universitária Vasco da Gama
+  grupo: Escola Universitária Vasco da Gama
+  subsistema: universitario
+  distrito: null
+- code: '4141'
+  nome: Escola Superior de Negócios Atlântico
+  grupo: Escola Superior de Negócios Atlântico
+  subsistema: politecnico
+  distrito: null
+- code: '4155'
+  nome: Instituto Português de Administração de Marketing do Porto
+  grupo: Instituto Português de Administração de Marketing do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '4156'
+  nome: Instituto Português de Administração de Marketing de Lisboa
+  grupo: Instituto Português de Administração de Marketing de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '4200'
+  nome: Instituto Superior de Administração e Gestão
+  grupo: Instituto Superior de Administração e Gestão
+  subsistema: politecnico
+  distrito: null
+- code: '4260'
+  nome: Instituto Universitário Egas Moniz
+  grupo: Instituto Universitário Egas Moniz
+  subsistema: universitario
+  distrito: null
+- code: '4270'
+  nome: ISCE - Instituto Superior de Lisboa e Vale do Tejo
+  grupo: ISCE
+  subsistema: politecnico
+  distrito: null
+- code: '4271'
+  nome: Instituto Superior de Ciências Educativas do Douro
+  grupo: Instituto Superior de Ciências Educativas do Douro
+  subsistema: politecnico
+  distrito: null
+- code: '4277'
+  nome: Instituto Superior de Ciências da Informação e da Administração
+  grupo: Instituto Superior de Ciências da Informação e da Administração
+  subsistema: politecnico
+  distrito: null
+- code: '4280'
+  nome: Instituto Superior de Ciências Empresariais e do Turismo
+  grupo: Instituto Superior de Ciências Empresariais e do Turismo
+  subsistema: politecnico
+  distrito: null
+- code: '4283'
+  nome: Instituto Superior de Entre Douro e Vouga
+  grupo: Instituto Superior de Entre Douro e Vouga
+  subsistema: politecnico
+  distrito: null
+- code: '4292'
+  nome: Instituto Superior D. Dinis
+  grupo: Instituto Superior D. Dinis
+  subsistema: politecnico
+  distrito: null
+- code: '4298'
+  nome: ISEC Lisboa - Instituto Superior de Educação e Ciências
+  grupo: ISEC Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '4300'
+  nome: Instituto Superior de Gestão
+  grupo: Instituto Superior de Gestão
+  subsistema: universitario
+  distrito: null
+- code: '4306'
+  nome: Instituto Superior de Estudos Interculturais e Transdisciplinares de Almada
+  grupo: Instituto Superior de Estudos Interculturais e Transdisciplinares de Almada
+  subsistema: universitario
+  distrito: null
+- code: '4308'
+  nome: Instituto Superior de Estudos Interculturais e Transdisciplinares de Viseu
+  grupo: Instituto Superior de Estudos Interculturais e Transdisciplinares de Viseu
+  subsistema: universitario
+  distrito: null
+- code: '4350'
+  nome: Universidade Europeia
+  grupo: Universidade Europeia
+  subsistema: universitario
+  distrito: null
+- code: '4375'
+  nome: Instituto Superior Manuel Teixeira Gomes
+  grupo: Instituto Superior Manuel Teixeira Gomes
+  subsistema: universitario
+  distrito: null
+- code: '4442'
+  nome: Instituto Superior Politécnico Gaya - Escola Superior de Ciência e Tecnologia
+  grupo: Instituto Superior Politécnico Gaya
+  subsistema: politecnico
+  distrito: null
+- code: '4444'
+  nome: Instituto Superior Politécnico Gaya - Escola Superior de Ciências Empresariais
+  grupo: Instituto Superior Politécnico Gaya
+  subsistema: politecnico
+  distrito: null
+- code: '4450'
+  nome: ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida
+  grupo: ISPA
+  subsistema: universitario
+  distrito: null
+- code: '4460'
+  nome: ISAVE - Instituto Superior de Saúde
+  grupo: ISAVE
+  subsistema: politecnico
+  distrito: null
+- code: '4500'
+  nome: Instituto Superior Miguel Torga
+  grupo: Instituto Superior Miguel Torga
+  subsistema: universitario
+  distrito: null
+- code: '4520'
+  nome: Instituto Superior de Serviço Social do Porto
+  grupo: Instituto Superior de Serviço Social do Porto
+  subsistema: universitario
+  distrito: null
+- code: '4530'
+  nome: Instituto Superior de Tecnologias Avançadas de Lisboa
+  grupo: Instituto Superior de Tecnologias Avançadas de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '4571'
+  nome: ISLA - Instituto Politécnico de Gestão e Tecnologia - Escola Superior de Gestão
+  grupo: ISLA
+  subsistema: politecnico
+  distrito: null
+- code: '4572'
+  nome: ISLA - Instituto Politécnico de Gestão e Tecnologia - Escola Superior de Tecnologia
+  grupo: ISLA
+  subsistema: politecnico
+  distrito: null
+- code: '4581'
+  nome: Instituto Politécnico da Maia - Escola Superior de Ciências Sociais, Educação e Desporto
+  grupo: Instituto Politécnico da Maia
+  subsistema: politecnico
+  distrito: null
+- code: '4582'
+  nome: Instituto Politécnico da Maia - Escola Superior de Tecnologia e Gestão
+  grupo: Instituto Politécnico da Maia
+  subsistema: politecnico
+  distrito: null
+- code: '4590'
+  nome: Escola Superior de Saúde Atlântica
+  grupo: Escola Superior de Saúde Atlântica
+  subsistema: politecnico
+  distrito: null
+- code: '4601'
+  nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Educação Jean Piaget de Almada
+  grupo: Instituto Politécnico Jean Piaget do Sul
+  subsistema: politecnico
+  distrito: null
+- code: '4602'
+  nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Tecnologia e Gestão Jean Piaget
+  grupo: Instituto Politécnico Jean Piaget do Sul
+  subsistema: politecnico
+  distrito: null
+- code: '4603'
+  nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Saúde Jean Piaget do Algarve
+  grupo: Instituto Politécnico Jean Piaget do Sul
+  subsistema: politecnico
+  distrito: null
+- code: '4604'
+  nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Saúde Jean Piaget de Almada
+  grupo: Instituto Politécnico Jean Piaget do Sul
+  subsistema: politecnico
+  distrito: null
+- code: '4611'
+  nome: Instituto Politécnico da Lusofonia - Escola Superior de Comunicação, Inovação e Artes
+  grupo: Instituto Politécnico da Lusofonia
+  subsistema: politecnico
+  distrito: null
+- code: '4612'
+  nome: Instituto Politécnico da Lusofonia - Escola Superior de Ciências da Administração
+  grupo: Instituto Politécnico da Lusofonia
+  subsistema: politecnico
+  distrito: null
+- code: '4613'
+  nome: Instituto Politécnico da Lusofonia - Escola Superior de Engenharia e Tecnologias
+  grupo: Instituto Politécnico da Lusofonia
+  subsistema: politecnico
+  distrito: null
+- code: '4614'
+  nome: Instituto Politécnico da Lusofonia - Escola Superior de Saúde Ribeiro Sanches
+  grupo: Instituto Politécnico da Lusofonia
+  subsistema: politecnico
+  distrito: null
+- code: '4615'
+  nome: Instituto Politécnico da Lusofonia - Escola Superior de Saúde, Proteção e Bem-Estar Animal
+  grupo: Instituto Politécnico da Lusofonia
+  subsistema: politecnico
+  distrito: null
+- code: '4616'
+  nome: Instituto Politécnico da Lusofonia - Escola Superior de Educação da Lusofonia
+  grupo: Instituto Politécnico da Lusofonia
+  subsistema: politecnico
+  distrito: null
+- code: '4620'
+  nome: Escola Superior de Saúde da Fundação «Fernando Pessoa»
+  grupo: Escola Superior de Saúde da Fundação «Fernando Pessoa»
+  subsistema: politecnico
+  distrito: null
+- code: '4626'
+  nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Saúde Jean Piaget de Vila Nova
+    de Gaia
+  grupo: Instituto Politécnico Jean Piaget do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4627'
+  nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Desporto e Educação Jean Piaget
+    de Vila Nova de Gaia
+  grupo: Instituto Politécnico Jean Piaget do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4628'
+  nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Saúde Jean Piaget de Viseu
+  grupo: Instituto Politécnico Jean Piaget do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4629'
+  nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Tecnologia e Gestão Jean Piaget
+    de Viseu
+  grupo: Instituto Politécnico Jean Piaget do Norte
+  subsistema: politecnico
+  distrito: null
+- code: '4630'
+  nome: Universidade da Maia
+  grupo: Universidade da Maia
+  subsistema: universitario
+  distrito: null
+- code: '4640'
+  nome: Instituto Superior de Tecnologias Avançadas do Porto
+  grupo: Instituto Superior de Tecnologias Avançadas do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '4650'
+  nome: Instituto Universitário de Ciências da Saúde - CESPU
+  grupo: Instituto Universitário de Ciências da Saúde
+  subsistema: universitario
+  distrito: null
+- code: '4661'
+  nome: ISLA Santarém - Instituto Politécnico - Escola Superior de Gestão
+  grupo: ISLA Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '4662'
+  nome: ISLA Santarém - Instituto Politécnico - Escola Superior de Engenharia e Tecnologia
+  grupo: ISLA Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '5402'
+  nome: Universidade do Porto - Faculdade de Belas-Artes
+  grupo: Universidade do Porto
+  subsistema: universitario
+  distrito: null
+- code: '6800'
+  nome: ISCTE - Instituto Universitário de Lisboa
+  grupo: ISCTE
+  subsistema: universitario
+  distrito: null
+- code: '6810'
+  nome: ISCTE - Instituto Universitário de Lisboa (Sintra)
+  grupo: ISCTE
+  subsistema: universitario
+  distrito: null
+- code: '7001'
+  nome: Escola Superior de Enfermagem de Coimbra
+  grupo: Escola Superior de Enfermagem de Coimbra
+  subsistema: null
+  distrito: null
+- code: '7002'
+  nome: Escola Superior de Enfermagem de Lisboa
+  grupo: Escola Superior de Enfermagem de Lisboa
+  subsistema: null
+  distrito: null
+- code: '7003'
+  nome: Escola Superior de Enfermagem do Porto
+  grupo: Escola Superior de Enfermagem do Porto
+  subsistema: null
+  distrito: null
+- code: '7005'
+  nome: Instituto Politécnico de Beja - Escola Superior de Saúde
+  grupo: Instituto Politécnico de Beja
+  subsistema: politecnico
+  distrito: null
+- code: '7010'
+  nome: Universidade do Minho - Escola Superior de Enfermagem
+  grupo: Universidade do Minho
+  subsistema: politecnico
+  distrito: null
+- code: '7015'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '7016'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança (Chaves)
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+- code: '7020'
+  nome: Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias
+  grupo: Instituto Politécnico de Castelo Branco
+  subsistema: politecnico
+  distrito: null
+- code: '7030'
+  nome: Universidade de Évora - Escola Superior de Enfermagem de São João de Deus
+  grupo: Universidade de Évora
+  subsistema: politecnico
+  distrito: null
+- code: '7035'
+  nome: Universidade do Algarve - Escola Superior de Saúde
+  grupo: Universidade do Algarve
+  subsistema: politecnico
+  distrito: null
+- code: '7040'
+  nome: Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda
+  grupo: Instituto Politécnico da Guarda
+  subsistema: politecnico
+  distrito: null
+- code: '7045'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Saúde
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+- code: '7055'
+  nome: Instituto Politécnico de Portalegre - Escola Superior de Saúde
+  grupo: Instituto Politécnico de Portalegre
+  subsistema: politecnico
+  distrito: null
+- code: '7065'
+  nome: Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém
+  grupo: Instituto Politécnico de Santarém
+  subsistema: politecnico
+  distrito: null
+- code: '7075'
+  nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde
+  grupo: Instituto Politécnico de Viana do Castelo
+  subsistema: politecnico
+  distrito: null
+- code: '7080'
+  nome: Universidade de Trás-os-Montes e Alto Douro - Escola Superior de Saúde
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: politecnico
+  distrito: null
+- code: '7085'
+  nome: Instituto Politécnico de Viseu - Escola Superior de Saúde de Viseu
+  grupo: Instituto Politécnico de Viseu
+  subsistema: politecnico
+  distrito: null
+- code: '7092'
+  nome: Universidade dos Açores - Escola Superior de Saúde - Angra do Heroísmo
+  grupo: Universidade dos Açores
+  subsistema: politecnico
+  distrito: null
+- code: '7093'
+  nome: Universidade dos Açores - Escola Superior de Saúde - Ponta Delgada
+  grupo: Universidade dos Açores
+  subsistema: politecnico
+  distrito: null
+- code: '7105'
+  nome: Escola Superior Náutica Infante D. Henrique
+  grupo: Escola Superior Náutica Infante D. Henrique
+  subsistema: politecnico
+  distrito: null
+- code: '7110'
+  nome: Escola Superior de Hotelaria e Turismo do Estoril
+  grupo: Escola Superior de Hotelaria e Turismo do Estoril
+  subsistema: politecnico
+  distrito: null
+- code: '7210'
+  nome: Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra
+  grupo: Instituto Politécnico de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '7220'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: null
+  distrito: null
+- code: '7230'
+  nome: Instituto Politécnico do Porto - Escola Superior de Saúde
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+- code: '7240'
+  nome: Universidade de Coimbra - Escola Superior de Enfermagem
+  grupo: Universidade de Coimbra
+  subsistema: politecnico
+  distrito: null
+- code: '7250'
+  nome: Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '7260'
+  nome: Universidade de Lisboa - Escola Superior de Enfermagem
+  grupo: Universidade de Lisboa
+  subsistema: politecnico
+  distrito: null
+- code: '7270'
+  nome: Universidade do Porto - Escola Superior de Enfermagem
+  grupo: Universidade do Porto
+  subsistema: politecnico
+  distrito: null

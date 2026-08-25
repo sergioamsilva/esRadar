@@ -1,0 +1,60 @@
+{
+ "ativo": true,
+ "cnaef": "723",
+ "cnaef_nome": "Enfermagem",
+ "codc": "9500",
+ "code": "7270",
+ "concurso": "Nacional",
+ "curso": "Enfermagem",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Porto",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Escola Superior de Enfermagem",
+ "minimo_candidatura": 100,
+ "minimo_provas": 100,
+ "par": "7270-9500",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português",
+ "series": {
+  "2025f1": {
+   "candidatos": 1404,
+   "candidatos_1opcao": 518,
+   "colocados": 257,
+   "colocados_1opcao": 193,
+   "media_candidatura": 167.5,
+   "media_provas": 160.5,
+   "media_secundario": 174.6,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 257
+  },
+  "2025f2": {
+   "candidatos": 327,
+   "candidatos_1opcao": 183,
+   "colocados": 27,
+   "colocados_1opcao": 21,
+   "media_candidatura": 165.8,
+   "media_provas": 158.5,
+   "media_secundario": 173.0,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2025f3": {
+   "colocados": 4,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2026f1": {
+   "colocados": 257,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 257
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 257
+}

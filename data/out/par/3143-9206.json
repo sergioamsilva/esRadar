@@ -1,0 +1,40 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9206",
+ "code": "3143",
+ "concurso": null,
+ "curso": "Marketing e Publicidade",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3143-9206",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 45,
+   "nota_ultimo": 115.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2018f2": {
+   "colocados": 14,
+   "nota_ultimo": 118.3,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

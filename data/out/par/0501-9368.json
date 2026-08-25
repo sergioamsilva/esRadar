@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9368",
+ "code": "0501",
+ "concurso": null,
+ "curso": "Engenharia Física",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-9368",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 32,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 32,
+   "nota_ultimo": 153.3,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 163.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 35,
+   "nota_ultimo": 167.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2020f2": {
+   "colocados": 5,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 147.8,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

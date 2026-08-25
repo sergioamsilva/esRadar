@@ -1,0 +1,137 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "L021",
+ "code": "3186",
+ "concurso": "Nacional",
+ "curso": "Gestão Comercial",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Bragança, Coimbra, Guarda, Porto, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n082 Informática (DL 74/2004)\n085 Administração (DL 74/2004)\n086 Marketing (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n980 Recorrente - Administração (DL 74/2004)\n981 Recorrente - Marketing (DL 74/2004)\nP22 Técnico de Banca e Seguros\nP27 Técnico de Comércio\nP28 Técnico de Comunicação - Marketing, Relações Públicas e Publ\nP31 Técnico de Contabilidade\nP51 Técnico de Gestão\nP64 Técnico de Marketing\nP82 Técnico de Secretariado\nP93 Técnico de Vendas\nR16 Técnico Administrativo\nR21 Técnico Comercial\nR23 Técnico de Logística\nR43 Técnico Comercial Bancário\nR49 Técnico de Apoio à Gestão\nR51 Técnico de Aprovisionamento e Venda de Peças\nR56 Técnico de Comunicação e Serviço Digital\nR65 Técnico de Distribuição\nU26 Técnico de Vendas e Marketing",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Viseu",
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3186-L021",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
+ "series": {
+  "2022f1": {
+   "colocados": 8,
+   "nota_ultimo": 131.8,
+   "sobras": 28,
+   "vagas": 36
+  },
+  "2022f2": {
+   "colocados": 16,
+   "nota_ultimo": 112.3,
+   "sobras": 13,
+   "vagas": 30
+  },
+  "2022f3": {
+   "colocados": 6,
+   "nota_ultimo": 116.8,
+   "sobras": 2,
+   "vagas": 8
+  },
+  "2023f1": {
+   "candidatos": 62,
+   "candidatos_1opcao": 5,
+   "colocados": 21,
+   "colocados_1opcao": 5,
+   "media_candidatura": 131.1,
+   "media_provas": 115.8,
+   "media_secundario": 139.3,
+   "nota_ultimo": 117.0,
+   "sobras": 14,
+   "vagas": 35
+  },
+  "2023f2": {
+   "candidatos": 44,
+   "candidatos_1opcao": 9,
+   "colocados": 17,
+   "colocados_1opcao": 9,
+   "media_candidatura": 126.0,
+   "media_provas": 114.8,
+   "media_secundario": 132.1,
+   "nota_ultimo": 115.4,
+   "sobras": 7,
+   "vagas": 24
+  },
+  "2023f3": {
+   "colocados": 7,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2024f1": {
+   "candidatos": 121,
+   "candidatos_1opcao": 15,
+   "colocados": 35,
+   "colocados_1opcao": 15,
+   "media_candidatura": 131.9,
+   "media_provas": 117.3,
+   "media_secundario": 139.7,
+   "nota_ultimo": 116.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2024f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 6,
+   "colocados": 13,
+   "colocados_1opcao": 5,
+   "media_candidatura": 129.5,
+   "media_provas": 115.0,
+   "media_secundario": 137.2,
+   "nota_ultimo": 116.9,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2024f3": {
+   "colocados": 4,
+   "nota_ultimo": 116.6,
+   "sobras": 1,
+   "vagas": 4
+  },
+  "2025f1": {
+   "candidatos": 46,
+   "candidatos_1opcao": 4,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 125.4,
+   "media_provas": 115.6,
+   "media_secundario": 135.2,
+   "nota_ultimo": 117.3,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2025f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 120.8,
+   "media_provas": 107.5,
+   "media_secundario": 134.0,
+   "nota_ultimo": 120.8,
+   "sobras": 31,
+   "vagas": 31
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2026f1": {
+   "colocados": 13,
+   "nota_ultimo": 107.5,
+   "sobras": 21,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 35
+}

@@ -23,6 +23,8 @@ from pathlib import Path
 
 from . import common
 
+ANO_CORRENTE = 2026
+
 # CodR distingue os dois subsistemas públicos no site das colocações.
 SUBSISTEMAS = {"11": "universitario", "12": "politecnico"}
 
@@ -141,6 +143,12 @@ def arquivar_fase(ano: int, fase: int, *, forcar: bool = False) -> Path:
                     forcar=forcar,
                 )
 
+    # O XLS de resultados é a fonte central do build — converter já para CSV.
+    from . import arquivo
+
+    for xls in destino.glob("cna*_resultados.xls"):
+        arquivo.converter_para_csv(xls)
+
     # 3. Vagas sobrantes (agregadas por subsistema).
     novos += common.descarregar(f"{base}/col{fase}sobras.asp", destino / "sobras.html", forcar=forcar)
     for codr in SUBSISTEMAS:
@@ -184,7 +192,7 @@ def arquivar_fase(ano: int, fase: int, *, forcar: bool = False) -> Path:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--ano", type=int, default=2026)
+    parser.add_argument("--ano", type=int, default=ANO_CORRENTE)
     parser.add_argument("--fase", type=int, required=True, choices=(1, 2, 3))
     parser.add_argument("--forcar", action="store_true", help="re-descarrega mesmo com cache")
     args = parser.parse_args()

@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9461",
+ "code": "0300",
+ "concurso": null,
+ "curso": "Engenharia Química",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-9461",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 40,
+   "nota_ultimo": 146.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 40,
+   "nota_ultimo": 139.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 45,
+   "nota_ultimo": 148.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2020f2": {
+   "colocados": 6,
+   "nota_ultimo": 145.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

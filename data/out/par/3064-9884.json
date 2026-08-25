@@ -1,0 +1,84 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9884",
+ "code": "3064",
+ "concurso": null,
+ "curso": "Engenharia Eletrotécnica (regime pós-laboral)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-9884",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 11
+  },
+  "2019f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2020f1": {
+   "colocados": 1,
+   "sobras": 21,
+   "vagas": 22
+  },
+  "2020f2": {
+   "colocados": 0,
+   "sobras": 21,
+   "vagas": 21
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2021f1": {
+   "colocados": 1,
+   "sobras": 18,
+   "vagas": 19
+  },
+  "2021f2": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

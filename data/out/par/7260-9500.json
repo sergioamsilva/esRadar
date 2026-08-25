@@ -1,0 +1,78 @@
+{
+ "ativo": true,
+ "cnaef": "723",
+ "cnaef_nome": "Enfermagem",
+ "codc": "9500",
+ "code": "7260",
+ "concurso": "Nacional",
+ "curso": "Enfermagem",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Escola Superior de Enfermagem",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7260-9500",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português",
+ "series": {
+  "2023f1": {
+   "candidatos": 1238,
+   "candidatos_1opcao": 400,
+   "colocados_1opcao": 194,
+   "media_candidatura": 160.1,
+   "media_provas": 150.7,
+   "media_secundario": 166.3
+  },
+  "2023f2": {
+   "candidatos": 361,
+   "candidatos_1opcao": 171,
+   "colocados_1opcao": 30,
+   "media_candidatura": 157.1,
+   "media_provas": 151.8,
+   "media_secundario": 160.6
+  },
+  "2024f1": {
+   "candidatos": 1089,
+   "candidatos_1opcao": 333,
+   "colocados_1opcao": 184,
+   "media_candidatura": 158.3,
+   "media_provas": 148.3,
+   "media_secundario": 164.9
+  },
+  "2024f2": {
+   "candidatos": 265,
+   "candidatos_1opcao": 138,
+   "colocados_1opcao": 36,
+   "media_candidatura": 152.8,
+   "media_provas": 143.8,
+   "media_secundario": 158.8
+  },
+  "2025f1": {
+   "candidatos": 1434,
+   "candidatos_1opcao": 502,
+   "colocados_1opcao": 194,
+   "media_candidatura": 160.3,
+   "media_provas": 155.4,
+   "media_secundario": 165.1
+  },
+  "2025f2": {
+   "candidatos": 442,
+   "candidatos_1opcao": 242,
+   "colocados_1opcao": 33,
+   "media_candidatura": 154.3,
+   "media_provas": 149.8,
+   "media_secundario": 158.8
+  },
+  "2026f1": {
+   "colocados": 278,
+   "nota_ultimo": 155.3,
+   "sobras": 0,
+   "vagas": 278
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 278
+}

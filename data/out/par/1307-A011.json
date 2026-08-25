@@ -1,0 +1,40 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "A011",
+ "code": "1307",
+ "concurso": null,
+ "curso": "Engenharia Eletrónica e Telecomunicações (ensino em inglês)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "instituicao": "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1307-A011",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 4,
+   "nota_ultimo": 137.8,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

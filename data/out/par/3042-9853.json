@@ -1,0 +1,200 @@
+{
+ "ativo": true,
+ "cnaef": "144",
+ "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
+ "codc": "9853",
+ "code": "3042",
+ "concurso": "Nacional",
+ "curso": "Educação Básica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n721 Técnico de Serviços Pessoais e à Comunidade\nG55 Ação Social (Portaria n.º 266/2013)\nP18 Técnico de Apoio à Infância\nP19 Técnico de Apoio Psicossocial\nT06 Técnico de Ação Educativa",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Bragança",
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3042-9853",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n19 Matemática A\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 2,
+   "nota_ultimo": 115.5,
+   "sobras": 48,
+   "vagas": 50
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 49,
+   "vagas": 49
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7
+  },
+  "2019f1": {
+   "colocados": 1,
+   "sobras": 49,
+   "vagas": 50
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 112.5,
+   "sobras": 43,
+   "vagas": 49
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 119.9,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2020f1": {
+   "colocados": 4,
+   "nota_ultimo": 108.6,
+   "sobras": 46,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 8,
+   "nota_ultimo": 117.2,
+   "sobras": 39,
+   "vagas": 47
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2021f1": {
+   "colocados": 4,
+   "nota_ultimo": 122.7,
+   "sobras": 46,
+   "vagas": 50
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 120.3,
+   "sobras": 41,
+   "vagas": 46
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 135.5,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2022f1": {
+   "colocados": 17,
+   "nota_ultimo": 115.8,
+   "sobras": 43,
+   "vagas": 60
+  },
+  "2022f2": {
+   "colocados": 22,
+   "nota_ultimo": 121.3,
+   "sobras": 25,
+   "vagas": 47
+  },
+  "2022f3": {
+   "colocados": 5,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2023f1": {
+   "candidatos": 126,
+   "candidatos_1opcao": 5,
+   "colocados": 57,
+   "colocados_1opcao": 5,
+   "media_candidatura": 132.8,
+   "media_provas": 119.0,
+   "media_secundario": 140.2,
+   "nota_ultimo": 114.0,
+   "sobras": 13,
+   "vagas": 70
+  },
+  "2023f2": {
+   "candidatos": 71,
+   "candidatos_1opcao": 7,
+   "colocados": 23,
+   "colocados_1opcao": 4,
+   "media_candidatura": 136.3,
+   "media_provas": 119.3,
+   "media_secundario": 145.4,
+   "nota_ultimo": 131.6,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 181,
+   "candidatos_1opcao": 7,
+   "colocados": 70,
+   "colocados_1opcao": 7,
+   "media_candidatura": 130.2,
+   "media_provas": 116.7,
+   "media_secundario": 137.5,
+   "nota_ultimo": 113.1,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2024f2": {
+   "candidatos": 91,
+   "candidatos_1opcao": 15,
+   "colocados": 20,
+   "colocados_1opcao": 2,
+   "media_candidatura": 140.6,
+   "media_provas": 124.5,
+   "media_secundario": 149.3,
+   "nota_ultimo": 135.9,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2025f1": {
+   "candidatos": 338,
+   "candidatos_1opcao": 31,
+   "colocados": 75,
+   "colocados_1opcao": 29,
+   "media_candidatura": 135.9,
+   "media_provas": 123.5,
+   "media_secundario": 148.2,
+   "nota_ultimo": 134.3,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2025f2": {
+   "candidatos": 142,
+   "candidatos_1opcao": 24,
+   "colocados": 13,
+   "colocados_1opcao": 2,
+   "media_candidatura": 137.6,
+   "media_provas": 121.1,
+   "media_secundario": 154.1,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 75,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 75
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 75
+}

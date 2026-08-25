@@ -1,0 +1,58 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9818",
+ "code": "3185",
+ "concurso": null,
+ "curso": "Ciência e Tecnologia Animal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3185-9818",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 3,
+   "nota_ultimo": 132.2,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 110.2,
+   "sobras": 22,
+   "vagas": 24
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2019f1": {
+   "colocados": 1,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 102.3,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 114.7,
+   "sobras": 9,
+   "vagas": 10
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

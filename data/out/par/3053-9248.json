@@ -1,0 +1,89 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9248",
+ "code": "3053",
+ "concurso": null,
+ "curso": "Tecnologias da Informação e Multimédia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3053-9248",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 1,
+   "sobras": 29,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 116.2,
+   "sobras": 28,
+   "vagas": 29
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  },
+  "2019f1": {
+   "colocados": 3,
+   "sobras": 37,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.0,
+   "sobras": 34,
+   "vagas": 37
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 132.8,
+   "sobras": 8,
+   "vagas": 9
+  },
+  "2020f1": {
+   "colocados": 0,
+   "sobras": 50,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 1,
+   "nota_ultimo": 127.3,
+   "sobras": 49,
+   "vagas": 50
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2021f1": {
+   "colocados": 1,
+   "sobras": 49,
+   "vagas": 50
+  },
+  "2021f2": {
+   "colocados": 1,
+   "nota_ultimo": 144.5,
+   "sobras": 48,
+   "vagas": 49
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

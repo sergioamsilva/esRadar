@@ -1,0 +1,137 @@
+{
+ "ativo": true,
+ "cnaef": "441",
+ "cnaef_nome": "Física",
+ "codc": "L205",
+ "code": "0400",
+ "concurso": "Nacional",
+ "curso": "Física e Aplicações",
+ "duracao": "6 semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade da Beira Interior",
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0400-L205",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química\n19 Matemática A\nou\n06 Filosofia\n07 Física e Química\n19 Matemática A\nou\n07 Física e Química\n10 Geometria Descritiva\n19 Matemática A\nou\n07 Física e Química\n13 Inglês\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\n18 Português",
+ "series": {
+  "2020f1": {
+   "colocados": 8,
+   "nota_ultimo": 127.7,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2020f2": {
+   "colocados": 0,
+   "sobras": 13,
+   "vagas": 12
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 9,
+   "vagas": 9
+  },
+  "2021f1": {
+   "colocados": 2,
+   "nota_ultimo": 143.1,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2021f2": {
+   "colocados": 2,
+   "nota_ultimo": 132.9,
+   "sobras": 22,
+   "vagas": 23
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 9,
+   "vagas": 9
+  },
+  "2022f1": {
+   "colocados": 4,
+   "nota_ultimo": 149.9,
+   "sobras": 23,
+   "vagas": 27
+  },
+  "2022f2": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23
+  },
+  "2023f1": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2023f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 8,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2024f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 9,
+   "vagas": 9
+  },
+  "2025f1": {
+   "candidatos": 7,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 160.0,
+   "media_provas": 132.0,
+   "media_secundario": 188.0,
+   "nota_ultimo": 160.0,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2025f2": {
+   "colocados": 0,
+   "sobras": 9,
+   "vagas": 9
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 11
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 11
+}

@@ -1,0 +1,182 @@
+---
+import Base from "../../layouts/Base.astro";
+import { cursos, instituicoes, ligacao, formatarNota, formatarInteiro } from "../../lib/dados";
+
+export function getStaticPaths() {
+  const porInstituicao = new Map<string, ReturnType<typeof cursos>>();
+  for (const c of cursos()) {
+    const code = c.par.split("-")[0];
+    const lista = porInstituicao.get(code) ?? [];
+    lista.push(c);
+    porInstituicao.set(code, lista);
+  }
+  return instituicoes()
+    .filter((i) => porInstituicao.has(i.code))
+    .map((i) => ({
+      params: { code: i.code },
+      props: { instituicao: i, oferta: porInstituicao.get(i.code)! },
+    }));
+}
+
+const { instituicao, oferta } = Astro.props;
+const ordenada = [...oferta].sort((a, b) => (b.nota_2026f1 ?? -1) - (a.nota_2026f1 ?? -1));
+const notas = ordenada.filter((c) => c.nota_2026f1 != null);
+const MIN = 90;
+const MAX = 200;
+---
+
+<Base
+  titulo={instituicao.nome}
+  descricao={`Os ${oferta.length} cursos no concurso de 2026: notas do último colocado, vagas e colocações.`}
+>
+  <header class="cab">
+    <p class="kicker">
+      {instituicao.grupo} · {instituicao.subsistema === "politecnico" ? "Ensino politécnico" : "Ensino universitário"}
+    </p>
+    <h1>{instituicao.nome}</h1>
+  </header>
+
+  <div class="stats">
+    <div class="stat">
+      <b>{formatarInteiro(instituicao.n_cursos)}</b>
+      <span>cursos no concurso de 2026</span>
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(instituicao.vagas)}</b>
+      <span>vagas iniciais</span>
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(instituicao.colocados_f1)}</b>
+      <span>colocados na 1ª fase</span>
+      {
+        instituicao.ocupacao_f1 != null && (
+          <em>{Math.round(instituicao.ocupacao_f1 * 100)}% das vagas preenchidas</em>
+        )
+      }
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(instituicao.sobras_f1)}</b>
+      <span>vagas sobrantes para a 2ª fase</span>
+    </div>
+  </div>
+
+  <section class="card full">
+    <h3>Os cursos, na régua de notas</h3>
+    <p class="desc">
+      Cada linha é um curso; a posição do ponto é a nota do último colocado na 1ª fase de
+      2026. Cursos sem ponto não preencheram as vagas — entra-se com o mínimo.
+    </p>
+    <ol class="cursos-regua">
+      {
+        ordenada.map((c) => (
+          <li>
+            <a href={ligacao(`/curso/${c.par}/`)} class="cr">
+              <span class="cr__nome">
+                {c.curso}
+                <span class="cr__meta">
+                  {formatarInteiro(c.vagas)} vagas
+                  {c.sobras_2026f1 ? ` · ${formatarInteiro(c.sobras_2026f1)} sobras` : ""}
+                </span>
+              </span>
+              <span class="cr__pista" aria-hidden="true">
+                {c.nota_2026f1 != null && (
+                  <span
+                    class="cr__ponto"
+                    style={`left:${((Math.min(Math.max(c.nota_2026f1, MIN), MAX) - MIN) / (MAX - MIN)) * 100}%`}
+                  />
+                )}
+              </span>
+              <span class="cr__nota">{formatarNota(c.nota_2026f1)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+    {
+      notas.length === 0 && (
+        <p class="desc">Nenhum curso desta instituição preencheu todas as vagas na 1ª fase.</p>
+      )
+    }
+  </section>
+
+  <p class="fonte-lin voltar">
+    <a href={ligacao("/instituicoes/")}>← Todas as instituições</a>
+  </p>
+</Base>
+
+<style>
+  .cab {
+    padding: 26px 0 4px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin: 6px 0 4px;
+  }
+  .card.full {
+    margin-top: 20px;
+  }
+  .cursos-regua {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .cr {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) minmax(120px, 2fr) 3.5rem;
+    gap: 14px;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+  }
+  .cr:hover .cr__nome {
+    color: var(--accent-texto);
+  }
+  .cr__nome {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    min-width: 0;
+  }
+  .cr__meta {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .cr__pista {
+    position: relative;
+    height: 2px;
+    background: var(--grid);
+    border-radius: 1px;
+  }
+  .cr__ponto {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--serie-1);
+    border: 1.5px solid var(--surface);
+  }
+  .cr__nota {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+    font-size: var(--t-sm);
+  }
+  @media (max-width: 560px) {
+    .cr {
+      grid-template-columns: 1fr 3.2rem;
+    }
+    .cr__pista {
+      display: none;
+    }
+  }
+  .voltar {
+    padding: 18px 0 30px;
+  }
+</style>

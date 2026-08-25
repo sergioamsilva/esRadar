@@ -1,0 +1,94 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9917",
+ "code": "1107",
+ "concurso": null,
+ "curso": "Estudos Portugueses",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1107-9917",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 20,
+   "nota_ultimo": 110.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 129.4,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 20,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 7,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 127.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 29,
+   "nota_ultimo": 142.6,
+   "sobras": 0,
+   "vagas": 29
+  },
+  "2020f2": {
+   "colocados": 6,
+   "nota_ultimo": 143.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 23,
+   "nota_ultimo": 152.6,
+   "sobras": 0,
+   "vagas": 23
+  },
+  "2021f2": {
+   "colocados": 4,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2021f3": {
+   "colocados": 5,
+   "nota_ultimo": 132.6,
+   "sobras": 0,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

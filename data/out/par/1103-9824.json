@@ -1,0 +1,42 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9824",
+ "code": "1103",
+ "concurso": null,
+ "curso": "Ciências de Engenharia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1103-9824",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 11,
+   "nota_ultimo": 114.0,
+   "sobras": 17,
+   "vagas": 28
+  },
+  "2018f2": {
+   "colocados": 18,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 130.0,
+   "sobras": 5,
+   "vagas": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

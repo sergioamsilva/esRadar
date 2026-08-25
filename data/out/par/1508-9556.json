@@ -1,0 +1,204 @@
+{
+ "ativo": true,
+ "cnaef": "724",
+ "cnaef_nome": "Ciências Dentárias",
+ "codc": "9556",
+ "code": "1508",
+ "concurso": "Nacional",
+ "curso": "Higiene Oral",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Medicina Dentária",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "1508-9556",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2018f1": {
+   "colocados": 43,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 42
+  },
+  "2018f2": {
+   "colocados": 14,
+   "nota_ultimo": 120.8,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2018f3": {
+   "colocados": 4,
+   "nota_ultimo": 114.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 40,
+   "nota_ultimo": 127.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 13,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2019f3": {
+   "colocados": 4,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f1": {
+   "colocados": 44,
+   "nota_ultimo": 145.3,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 49,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 49
+  },
+  "2021f2": {
+   "colocados": 14,
+   "nota_ultimo": 155.3,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 44,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2022f2": {
+   "colocados": 12,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 188,
+   "candidatos_1opcao": 48,
+   "colocados": 44,
+   "colocados_1opcao": 18,
+   "media_candidatura": 161.0,
+   "media_provas": 150.3,
+   "media_secundario": 171.6,
+   "nota_ultimo": 151.3,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2023f2": {
+   "candidatos": 58,
+   "candidatos_1opcao": 22,
+   "colocados": 15,
+   "colocados_1opcao": 8,
+   "media_candidatura": 149.7,
+   "media_provas": 137.3,
+   "media_secundario": 162.1,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2023f3": {
+   "colocados": 3,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 171,
+   "candidatos_1opcao": 41,
+   "colocados": 44,
+   "colocados_1opcao": 20,
+   "media_candidatura": 159.6,
+   "media_provas": 152.9,
+   "media_secundario": 166.3,
+   "nota_ultimo": 146.8,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2024f2": {
+   "candidatos": 37,
+   "candidatos_1opcao": 15,
+   "colocados": 6,
+   "colocados_1opcao": 5,
+   "media_candidatura": 149.7,
+   "media_provas": 139.7,
+   "media_secundario": 159.7,
+   "nota_ultimo": 146.8,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 358,
+   "candidatos_1opcao": 94,
+   "colocados": 44,
+   "colocados_1opcao": 22,
+   "media_candidatura": 165.0,
+   "media_provas": 160.3,
+   "media_secundario": 169.6,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2025f2": {
+   "candidatos": 108,
+   "candidatos_1opcao": 41,
+   "colocados": 10,
+   "colocados_1opcao": 5,
+   "media_candidatura": 166.1,
+   "media_provas": 164.9,
+   "media_secundario": 167.2,
+   "nota_ultimo": 156.3,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2025f3": {
+   "colocados": 4,
+   "nota_ultimo": 154.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2026f1": {
+   "colocados": 44,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 44
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 44
+}

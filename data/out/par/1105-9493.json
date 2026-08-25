@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9493",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Bioengenharia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9493",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 59,
+   "nota_ultimo": 183.0,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 191.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 67,
+   "nota_ultimo": 186.5,
+   "sobras": 0,
+   "vagas": 66
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 192.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 78,
+   "nota_ultimo": 191.0,
+   "sobras": 0,
+   "vagas": 77
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 195.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

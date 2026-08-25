@@ -1,0 +1,42 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8132",
+ "code": "3101",
+ "concurso": null,
+ "curso": "Desporto e Bem-Estar (regime pós-laboral)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3101-8132",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 8,
+   "nota_ultimo": 105.0,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 13,
+   "nota_ultimo": 114.8,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 125.8,
+   "sobras": 0,
+   "vagas": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

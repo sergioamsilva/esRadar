@@ -1,0 +1,238 @@
+---
+/**
+ * Série anual (2018–2026) com uma ou duas linhas — tipicamente 1ª fase a azul
+ * e 2ª fase a laranja. SVG desenhado no servidor, legível sem JavaScript;
+ * cada ponto tem <title> para o cursor e o conjunto tem aria-label descritivo.
+ *
+ * Regras dataviz aplicadas: uma escala só, legenda sempre que há 2 séries,
+ * rótulos diretos seletivos (primeiro e último ponto), grelha recessiva.
+ */
+interface Ponto {
+  ano: number;
+  valor: number;
+}
+interface Serie {
+  rotulo: string;
+  pontos: Ponto[];
+  cor: "serie-1" | "serie-2";
+}
+interface Props {
+  series: Serie[];
+  titulo: string;
+  unidade: string;
+  /** Formata valores nos rótulos (por omissão, uma casa decimal). */
+  inteiro?: boolean;
+}
+const { series, titulo, unidade, inteiro = false } = Astro.props;
+
+const comDados = series.filter((s) => s.pontos.length >= 1);
+const todos = comDados.flatMap((s) => s.pontos);
+const anos = [...new Set(todos.map((p) => p.ano))].sort((a, b) => a - b);
+
+const L = 100;
+const A = 42;
+const margem = { esq: 2, dir: 8, topo: 5, base: 9 };
+
+let g: {
+  caminhos: { d: string; cor: string; rotulo: string; pontos: { x: number; y: number; p: Ponto }[] }[];
+  eixoAnos: { x: number; ano: number }[];
+  min: number;
+  max: number;
+} | null = null;
+
+if (todos.length >= 2 && anos.length >= 2) {
+  let min = Math.min(...todos.map((p) => p.valor));
+  let max = Math.max(...todos.map((p) => p.valor));
+  if (max === min) max = min + 1;
+  const folga = (max - min) * 0.15;
+  min -= folga;
+  max += folga;
+  const x = (ano: number) =>
+    margem.esq + ((ano - anos[0]) / (anos[anos.length - 1] - anos[0])) * (L - margem.esq - margem.dir);
+  const y = (v: number) => margem.topo + (1 - (v - min) / (max - min)) * (A - margem.topo - margem.base);
+  const f2 = (n: number) => n.toFixed(2);
+
+  g = {
+    caminhos: comDados.map((s) => {
+      const ordenados = [...s.pontos].sort((a, b) => a.ano - b.ano);
+      return {
+        d: ordenados.map((p, i) => `${i ? "L" : "M"}${f2(x(p.ano))},${f2(y(p.valor))}`).join(" "),
+        cor: s.cor,
+        rotulo: s.rotulo,
+        pontos: ordenados.map((p) => ({ x: x(p.ano), y: y(p.valor), p })),
+      };
+    }),
+    eixoAnos: anos.map((ano) => ({ x: x(ano), ano })),
+    min,
+    max,
+  };
+}
+
+const fmt = (v: number) =>
+  inteiro
+    ? v.toLocaleString("pt-PT")
+    : v.toLocaleString("pt-PT", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+const descricao = comDados
+  .map((s) => {
+    const u = s.pontos[s.pontos.length - 1];
+    const primeiro = s.pontos[0];
+    return `${s.rotulo}: de ${fmt(primeiro.valor)} em ${primeiro.ano} para ${fmt(u.valor)} em ${u.ano}`;
+  })
+  .join("; ");
+---
+
+<figure class="serie">
+  <figcaption class="serie__cab">
+    <span class="serie__titulo">{titulo}</span>
+    {
+      comDados.length >= 2 && (
+        <span class="serie__legenda">
+          {comDados.map((s) => (
+            <span class={`serie__chave serie__chave--${s.cor}`}>
+              <span class="serie__amostra" aria-hidden="true" />
+              {s.rotulo}
+            </span>
+          ))}
+        </span>
+      )
+    }
+  </figcaption>
+  {
+    g ? (
+      <svg
+        viewBox={`0 0 ${L} ${A}`}
+        role="img"
+        aria-label={`${titulo}, em ${unidade}. ${descricao}.`}
+        preserveAspectRatio="none"
+      >
+        {g.eixoAnos.map((e) => (
+          <line x1={e.x.toFixed(2)} y1={margem.topo} x2={e.x.toFixed(2)} y2={A - margem.base} class="serie__grelha" />
+        ))}
+        {g.caminhos.map((c) => (
+          <g class={`serie__s serie__s--${c.cor}`}>
+            <path d={c.d} class="serie__linha" />
+            {c.pontos.map(({ x, y, p }) => (
+              <circle cx={x.toFixed(2)} cy={y.toFixed(2)} r="1.4">
+                <title>{`${c.rotulo}, ${p.ano}: ${fmt(p.valor)} ${unidade}`}</title>
+              </circle>
+            ))}
+            <text
+              x={(c.pontos[c.pontos.length - 1].x + 1.6).toFixed(2)}
+              y={(c.pontos[c.pontos.length - 1].y + 1).toFixed(2)}
+              class="serie__valor"
+            >
+              {fmt(c.pontos[c.pontos.length - 1].p.valor)}
+            </text>
+          </g>
+        ))}
+      </svg>
+    ) : (
+      <p class="serie__vazio">Sem dados suficientes para desenhar a evolução.</p>
+    )
+  }
+  {
+    g && (
+      <div class="serie__eixo" aria-hidden="true">
+        {g.eixoAnos.map((e) => (
+          <span style={`left:${e.x}%`}>{String(e.ano).slice(2)}</span>
+        ))}
+      </div>
+    )
+  }
+</figure>
+
+<style>
+  .serie {
+    margin: 0;
+  }
+  .serie__cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.35rem;
+  }
+  .serie__titulo {
+    font-size: 0.82rem;
+    color: var(--ink-2);
+  }
+  .serie__legenda {
+    display: flex;
+    gap: 0.9rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .serie__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .serie__amostra {
+    width: 0.85rem;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .serie__chave--serie-1 .serie__amostra {
+    background: var(--serie-1);
+  }
+  .serie__chave--serie-2 .serie__amostra {
+    background: var(--serie-2);
+  }
+  .serie svg {
+    display: block;
+    width: 100%;
+    height: clamp(9rem, 22vw, 12rem);
+    overflow: visible;
+  }
+  .serie__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .serie__linha {
+    fill: none;
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .serie__s circle {
+    stroke: var(--surface);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .serie__s--serie-1 .serie__linha {
+    stroke: var(--serie-1);
+  }
+  .serie__s--serie-1 circle {
+    fill: var(--serie-1);
+  }
+  .serie__s--serie-2 .serie__linha {
+    stroke: var(--serie-2);
+  }
+  .serie__s--serie-2 circle {
+    fill: var(--serie-2);
+  }
+  .serie__valor {
+    font-size: 3.2px;
+    fill: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .serie__eixo {
+    position: relative;
+    height: 1rem;
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .serie__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .serie__vazio {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>

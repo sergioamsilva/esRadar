@@ -1,0 +1,94 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L133",
+ "code": "3064",
+ "concurso": null,
+ "curso": "Engenharia Biomédica - Bioeletrónica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-L133",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 14,
+   "nota_ultimo": 111.0,
+   "sobras": 21,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 11,
+   "nota_ultimo": 115.2,
+   "sobras": 13,
+   "vagas": 23
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16
+  },
+  "2019f1": {
+   "colocados": 7,
+   "nota_ultimo": 115.8,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2019f2": {
+   "colocados": 6,
+   "nota_ultimo": 110.3,
+   "sobras": 23,
+   "vagas": 29
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 114.5,
+   "sobras": 22,
+   "vagas": 23
+  },
+  "2020f1": {
+   "colocados": 7,
+   "nota_ultimo": 115.5,
+   "sobras": 35,
+   "vagas": 42
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 111.6,
+   "sobras": 31,
+   "vagas": 35
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 31,
+   "vagas": 30
+  },
+  "2021f1": {
+   "colocados": 5,
+   "nota_ultimo": 124.0,
+   "sobras": 34,
+   "vagas": 39
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 139.6,
+   "sobras": 32,
+   "vagas": 34
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 126.9,
+   "sobras": 31,
+   "vagas": 32
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

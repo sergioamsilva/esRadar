@@ -1,0 +1,42 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9707",
+ "code": "3131",
+ "concurso": null,
+ "curso": "Ciências do Desporto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-9707",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 25,
+   "nota_ultimo": 137.9,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 157.4,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

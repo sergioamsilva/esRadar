@@ -1,0 +1,204 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9147",
+ "code": "0170",
+ "concurso": "Nacional",
+ "curso": "Gestão",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade dos Açores",
+ "instituicao": "Universidade dos Açores - Faculdade de Economia e Gestão",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0170-9147",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 50,
+   "nota_ultimo": 110.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 137.1,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 133.1,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 50,
+   "nota_ultimo": 120.7,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2019f2": {
+   "colocados": 7,
+   "nota_ultimo": 125.4,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 123.9,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 50,
+   "nota_ultimo": 133.2,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 8,
+   "nota_ultimo": 132.6,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 50,
+   "nota_ultimo": 127.2,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2021f2": {
+   "colocados": 7,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 53,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 53
+  },
+  "2022f2": {
+   "colocados": 5,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 37,
+   "colocados": 43,
+   "colocados_1opcao": 37,
+   "media_candidatura": 141.7,
+   "media_provas": 126.2,
+   "media_secundario": 150.0,
+   "nota_ultimo": 99.0,
+   "sobras": 5,
+   "vagas": 49
+  },
+  "2023f2": {
+   "candidatos": 15,
+   "candidatos_1opcao": 5,
+   "colocados": 7,
+   "colocados_1opcao": 5,
+   "media_candidatura": 133.4,
+   "media_provas": 125.6,
+   "media_secundario": 137.6,
+   "nota_ultimo": 108.1,
+   "sobras": 3,
+   "vagas": 10
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  },
+  "2024f1": {
+   "candidatos": 96,
+   "candidatos_1opcao": 39,
+   "colocados": 45,
+   "colocados_1opcao": 39,
+   "media_candidatura": 143.7,
+   "media_provas": 128.5,
+   "media_secundario": 151.8,
+   "nota_ultimo": 111.2,
+   "sobras": 4,
+   "vagas": 49
+  },
+  "2024f2": {
+   "candidatos": 11,
+   "candidatos_1opcao": 0,
+   "colocados": 6,
+   "colocados_1opcao": 0,
+   "media_candidatura": 126.2,
+   "media_provas": 107.3,
+   "media_secundario": 136.3,
+   "nota_ultimo": 114.9,
+   "sobras": 1,
+   "vagas": 7
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 147.8,
+   "sobras": 3,
+   "vagas": 3
+  },
+  "2025f1": {
+   "candidatos": 91,
+   "candidatos_1opcao": 43,
+   "colocados": 46,
+   "colocados_1opcao": 43,
+   "media_candidatura": 141.3,
+   "media_provas": 132.2,
+   "media_secundario": 150.4,
+   "nota_ultimo": 112.3,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2025f2": {
+   "candidatos": 15,
+   "candidatos_1opcao": 7,
+   "colocados": 7,
+   "colocados_1opcao": 6,
+   "media_candidatura": 147.3,
+   "media_provas": 135.4,
+   "media_secundario": 159.1,
+   "nota_ultimo": 123.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 52,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 52
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 52
+}

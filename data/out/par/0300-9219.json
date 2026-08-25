@@ -1,0 +1,201 @@
+{
+ "ativo": true,
+ "cnaef": "311",
+ "cnaef_nome": "Psicologia",
+ "codc": "9219",
+ "code": "0300",
+ "concurso": "Nacional",
+ "curso": "Psicologia",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0300-9219",
+ "provas_ingresso": "Duas das seguintes provas:\n02 Biologia e Geologia\n16 Matemática\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 33,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 4
+  },
+  "2019f1": {
+   "colocados": 33,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2019f2": {
+   "colocados": 8,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f1": {
+   "colocados": 34,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 34
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2021f1": {
+   "colocados": 33,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2021f2": {
+   "colocados": 6,
+   "nota_ultimo": 164.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 36,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 36
+  },
+  "2022f2": {
+   "colocados": 6,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 415,
+   "candidatos_1opcao": 76,
+   "colocados": 33,
+   "colocados_1opcao": 20,
+   "media_candidatura": 167.8,
+   "media_provas": 164.2,
+   "media_secundario": 171.4,
+   "nota_ultimo": 166.5,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2023f2": {
+   "candidatos": 95,
+   "candidatos_1opcao": 26,
+   "colocados": 4,
+   "colocados_1opcao": 2,
+   "media_candidatura": 169.7,
+   "media_provas": 168.2,
+   "media_secundario": 171.2,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 377,
+   "candidatos_1opcao": 71,
+   "colocados": 33,
+   "colocados_1opcao": 18,
+   "media_candidatura": 173.9,
+   "media_provas": 173.6,
+   "media_secundario": 174.2,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2024f2": {
+   "candidatos": 85,
+   "candidatos_1opcao": 24,
+   "colocados": 6,
+   "colocados_1opcao": 2,
+   "media_candidatura": 168.3,
+   "media_provas": 172.2,
+   "media_secundario": 164.3,
+   "nota_ultimo": 166.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 414,
+   "candidatos_1opcao": 60,
+   "colocados": 33,
+   "colocados_1opcao": 17,
+   "media_candidatura": 172.0,
+   "media_provas": 166.5,
+   "media_secundario": 177.5,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2025f2": {
+   "candidatos": 97,
+   "candidatos_1opcao": 22,
+   "colocados": 3,
+   "colocados_1opcao": 0,
+   "media_candidatura": 174.0,
+   "media_provas": 166.5,
+   "media_secundario": 181.3,
+   "nota_ultimo": 168.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 34,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 34
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 34
+}

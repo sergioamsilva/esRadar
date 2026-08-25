@@ -1,0 +1,78 @@
+{
+ "ativo": true,
+ "cnaef": "727",
+ "cnaef_nome": "Ciências Farmacêuticas",
+ "codc": "9549",
+ "code": "7250",
+ "concurso": "Nacional",
+ "curso": "Farmácia",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7250-9549",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2023f1": {
+   "candidatos": 495,
+   "candidatos_1opcao": 49,
+   "colocados_1opcao": 18,
+   "media_candidatura": 157.0,
+   "media_provas": 145.8,
+   "media_secundario": 163.0
+  },
+  "2023f2": {
+   "candidatos": 141,
+   "candidatos_1opcao": 25,
+   "colocados_1opcao": 6,
+   "media_candidatura": 153.2,
+   "media_provas": 139.7,
+   "media_secundario": 160.4
+  },
+  "2024f1": {
+   "candidatos": 433,
+   "candidatos_1opcao": 44,
+   "colocados_1opcao": 19,
+   "media_candidatura": 154.9,
+   "media_provas": 140.8,
+   "media_secundario": 162.5
+  },
+  "2024f2": {
+   "candidatos": 102,
+   "candidatos_1opcao": 14,
+   "colocados_1opcao": 4,
+   "media_candidatura": 149.7,
+   "media_provas": 140.8,
+   "media_secundario": 154.4
+  },
+  "2025f1": {
+   "candidatos": 233,
+   "candidatos_1opcao": 7,
+   "colocados_1opcao": 7,
+   "media_candidatura": 138.3,
+   "media_provas": 123.4,
+   "media_secundario": 153.2
+  },
+  "2025f2": {
+   "candidatos": 48,
+   "candidatos_1opcao": 0,
+   "colocados_1opcao": 0,
+   "media_candidatura": 134.1,
+   "media_provas": 120.0,
+   "media_secundario": 148.1
+  },
+  "2026f1": {
+   "colocados": 52,
+   "nota_ultimo": 142.8,
+   "sobras": 0,
+   "vagas": 52
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 52
+}

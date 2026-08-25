@@ -1,0 +1,204 @@
+{
+ "ativo": true,
+ "cnaef": "311",
+ "cnaef_nome": "Psicologia",
+ "codc": "9219",
+ "code": "6800",
+ "concurso": "Nacional",
+ "curso": "Psicologia",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "ISCTE",
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "6800-9219",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
+ "series": {
+  "2018f1": {
+   "colocados": 67,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2018f2": {
+   "colocados": 10,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2018f3": {
+   "colocados": 3,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f1": {
+   "colocados": 65,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 161.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f1": {
+   "colocados": 77,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2020f2": {
+   "colocados": 14,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 70,
+   "nota_ultimo": 174.5,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2021f2": {
+   "colocados": 8,
+   "nota_ultimo": 174.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 72,
+   "nota_ultimo": 175.5,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2022f2": {
+   "colocados": 9,
+   "nota_ultimo": 173.5,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f1": {
+   "candidatos": 1574,
+   "candidatos_1opcao": 615,
+   "colocados": 75,
+   "colocados_1opcao": 63,
+   "media_candidatura": 174.4,
+   "media_provas": 178.8,
+   "media_secundario": 170.0,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2023f2": {
+   "candidatos": 571,
+   "candidatos_1opcao": 272,
+   "colocados": 6,
+   "colocados_1opcao": 6,
+   "media_candidatura": 171.6,
+   "media_provas": 172.7,
+   "media_secundario": 170.5,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 1437,
+   "candidatos_1opcao": 570,
+   "colocados": 95,
+   "colocados_1opcao": 76,
+   "media_candidatura": 173.6,
+   "media_provas": 177.1,
+   "media_secundario": 170.0,
+   "nota_ultimo": 173.5,
+   "sobras": 0,
+   "vagas": 95
+  },
+  "2024f2": {
+   "candidatos": 522,
+   "candidatos_1opcao": 255,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 176.9,
+   "media_provas": 184.8,
+   "media_secundario": 169.0,
+   "nota_ultimo": 180.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 1228,
+   "candidatos_1opcao": 352,
+   "colocados": 110,
+   "colocados_1opcao": 76,
+   "media_candidatura": 170.5,
+   "media_provas": 168.9,
+   "media_secundario": 172.1,
+   "nota_ultimo": 166.5,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2025f2": {
+   "candidatos": 495,
+   "candidatos_1opcao": 184,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 171.9,
+   "media_provas": 174.1,
+   "media_secundario": 169.7,
+   "nota_ultimo": 169.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 180.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 110,
+   "nota_ultimo": 166.5,
+   "sobras": 0,
+   "vagas": 110
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 110
+}

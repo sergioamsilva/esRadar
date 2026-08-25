@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9461",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Engenharia Química",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9461",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 63,
+   "nota_ultimo": 169.3,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 175.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 63,
+   "nota_ultimo": 165.8,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2019f2": {
+   "colocados": 6,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 69,
+   "nota_ultimo": 178.0,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 180.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

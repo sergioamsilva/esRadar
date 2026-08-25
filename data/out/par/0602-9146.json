@@ -1,0 +1,57 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9146",
+ "code": "0602",
+ "concurso": null,
+ "curso": "Geologia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0602-9146",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 7,
+   "nota_ultimo": 97.3,
+   "sobras": 3,
+   "vagas": 10
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 1,
+   "nota_ultimo": 118.6,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 128.5,
+   "sobras": 8,
+   "vagas": 9
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

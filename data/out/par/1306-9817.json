@@ -1,0 +1,207 @@
+{
+ "ativo": true,
+ "cnaef": "211",
+ "cnaef_nome": "Belas-Artes",
+ "codc": "9817",
+ "code": "1306",
+ "concurso": "Nacional",
+ "curso": "Artes Visuais",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade da Madeira",
+ "instituicao": "Universidade da Madeira - Faculdade de Artes e Humanidades",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "1306-9817",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "series": {
+  "2018f1": {
+   "colocados": 9,
+   "nota_ultimo": 156.6,
+   "sobras": 11,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 129.3,
+   "sobras": 10,
+   "vagas": 12
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2019f1": {
+   "colocados": 13,
+   "nota_ultimo": 148.6,
+   "sobras": 7,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 6,
+   "nota_ultimo": 115.2,
+   "sobras": 2,
+   "vagas": 7
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 127.0,
+   "sobras": 2,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 15,
+   "nota_ultimo": 135.2,
+   "sobras": 10,
+   "vagas": 25
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 127.4,
+   "sobras": 6,
+   "vagas": 10
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8
+  },
+  "2021f1": {
+   "colocados": 19,
+   "nota_ultimo": 124.3,
+   "sobras": 1,
+   "vagas": 20
+  },
+  "2021f2": {
+   "colocados": 4,
+   "nota_ultimo": 130.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 145.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2022f1": {
+   "colocados": 13,
+   "nota_ultimo": 95.0,
+   "sobras": 6,
+   "vagas": 20
+  },
+  "2022f2": {
+   "colocados": 4,
+   "nota_ultimo": 126.1,
+   "sobras": 7,
+   "vagas": 11
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 164.8,
+   "sobras": 8,
+   "vagas": 9
+  },
+  "2023f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 13,
+   "colocados": 14,
+   "colocados_1opcao": 13,
+   "media_candidatura": 144.8,
+   "media_provas": 142.6,
+   "media_secundario": 146.6,
+   "nota_ultimo": 122.3,
+   "sobras": 4,
+   "vagas": 18
+  },
+  "2023f2": {
+   "candidatos": 10,
+   "candidatos_1opcao": 2,
+   "colocados": 5,
+   "colocados_1opcao": 2,
+   "media_candidatura": 126.1,
+   "media_provas": 111.2,
+   "media_secundario": 138.2,
+   "nota_ultimo": 112.6,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 141.4,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 54,
+   "candidatos_1opcao": 13,
+   "colocados": 18,
+   "colocados_1opcao": 11,
+   "media_candidatura": 147.3,
+   "media_provas": 147.4,
+   "media_secundario": 147.1,
+   "nota_ultimo": 131.9,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2024f2": {
+   "candidatos": 12,
+   "candidatos_1opcao": 2,
+   "colocados": 3,
+   "colocados_1opcao": 2,
+   "media_candidatura": 136.7,
+   "media_provas": 128.0,
+   "media_secundario": 143.7,
+   "nota_ultimo": 133.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 41,
+   "candidatos_1opcao": 9,
+   "colocados": 10,
+   "colocados_1opcao": 9,
+   "media_candidatura": 147.5,
+   "media_provas": 144.5,
+   "media_secundario": 150.6,
+   "nota_ultimo": 115.0,
+   "sobras": 8,
+   "vagas": 18
+  },
+  "2025f2": {
+   "candidatos": 9,
+   "candidatos_1opcao": 4,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 136.4,
+   "media_provas": 124.2,
+   "media_secundario": 148.6,
+   "nota_ultimo": 118.3,
+   "sobras": 5,
+   "vagas": 8
+  },
+  "2025f3": {
+   "colocados": 3,
+   "nota_ultimo": 126.0,
+   "sobras": 2,
+   "vagas": 5
+  },
+  "2026f1": {
+   "colocados": 18,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 18
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 18
+}

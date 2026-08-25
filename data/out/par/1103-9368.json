@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9368",
+ "code": "1103",
+ "concurso": null,
+ "curso": "Engenharia Física",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1103-9368",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 60,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 60,
+   "nota_ultimo": 166.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 71,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 167.8,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

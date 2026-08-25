@@ -1,0 +1,60 @@
+{
+ "ativo": true,
+ "cnaef": "213",
+ "cnaef_nome": "Áudio-Visuais e Produção dos Media",
+ "codc": "L371",
+ "code": "3243",
+ "concurso": "Nacional",
+ "curso": "Cinema e Média Digitais",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, Portalegre, Santarém",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Tomar",
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3243-L371",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português\nou\n11 História\n18 Português\nou\n09 Geografia\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes",
+ "series": {
+  "2025f1": {
+   "candidatos": 52,
+   "candidatos_1opcao": 3,
+   "colocados": 5,
+   "colocados_1opcao": 3,
+   "media_candidatura": 125.5,
+   "media_provas": 117.5,
+   "media_secundario": 133.4,
+   "nota_ultimo": 123.5,
+   "sobras": 17,
+   "vagas": 22
+  },
+  "2025f2": {
+   "candidatos": 18,
+   "candidatos_1opcao": 5,
+   "colocados": 7,
+   "colocados_1opcao": 5,
+   "media_candidatura": 130.0,
+   "media_provas": 119.8,
+   "media_secundario": 140.1,
+   "nota_ultimo": 118.3,
+   "sobras": 9,
+   "vagas": 17
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2026f1": {
+   "colocados": 18,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 18
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 18
+}

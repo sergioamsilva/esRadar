@@ -1,0 +1,56 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L276",
+ "code": "6810",
+ "concurso": null,
+ "curso": "Tecnologias Digitais e Segurança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa (Sintra)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6810-L276",
+ "provas_ingresso": null,
+ "series": {
+  "2022f1": {
+   "colocados": 23,
+   "nota_ultimo": 151.4,
+   "sobras": 0,
+   "vagas": 23
+  },
+  "2022f2": {
+   "colocados": 1,
+   "nota_ultimo": 162.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "colocados": 25,
+   "nota_ultimo": 147.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2023f2": {
+   "colocados": 3,
+   "nota_ultimo": 141.4,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

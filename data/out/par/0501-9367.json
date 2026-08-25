@@ -1,0 +1,78 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9367",
+ "code": "0501",
+ "concurso": null,
+ "curso": "Engenharia Eletrotécnica e de Computadores",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-9367",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 87,
+   "nota_ultimo": 120.3,
+   "sobras": 28,
+   "vagas": 115
+  },
+  "2018f2": {
+   "colocados": 33,
+   "nota_ultimo": 121.0,
+   "sobras": 1,
+   "vagas": 29
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 124.5,
+   "sobras": 3,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 99,
+   "nota_ultimo": 120.5,
+   "sobras": 16,
+   "vagas": 115
+  },
+  "2019f2": {
+   "colocados": 22,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 17
+  },
+  "2019f3": {
+   "colocados": 4,
+   "nota_ultimo": 122.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 112,
+   "nota_ultimo": 119.5,
+   "sobras": 3,
+   "vagas": 115
+  },
+  "2020f2": {
+   "colocados": 12,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 146.8,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

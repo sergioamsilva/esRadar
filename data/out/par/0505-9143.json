@@ -1,0 +1,208 @@
+{
+ "ativo": true,
+ "cnaef": "312",
+ "cnaef_nome": "Sociologia e Outros Estudos",
+ "codc": "9143",
+ "code": "0505",
+ "concurso": "Nacional",
+ "curso": "Geografia",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Letras",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0505-9143",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n02 Biologia e Geologia\nou\n04 Economia\n09 Geografia\nou\n09 Geografia\n11 História\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 60,
+   "nota_ultimo": 118.5,
+   "sobras": 0,
+   "vagas": 56
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 57,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 56
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 68,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2020f2": {
+   "colocados": 9,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 135.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 63,
+   "nota_ultimo": 148.0,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2021f2": {
+   "colocados": 4,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 68,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2022f2": {
+   "colocados": 8,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2022f3": {
+   "colocados": 3,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f1": {
+   "candidatos": 269,
+   "candidatos_1opcao": 59,
+   "colocados": 69,
+   "colocados_1opcao": 41,
+   "media_candidatura": 145.7,
+   "media_provas": 141.2,
+   "media_secundario": 150.1,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2023f2": {
+   "candidatos": 48,
+   "candidatos_1opcao": 13,
+   "colocados": 7,
+   "colocados_1opcao": 4,
+   "media_candidatura": 143.1,
+   "media_provas": 142.9,
+   "media_secundario": 143.3,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2023f3": {
+   "colocados": 4,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 274,
+   "candidatos_1opcao": 73,
+   "colocados": 69,
+   "colocados_1opcao": 50,
+   "media_candidatura": 149.1,
+   "media_provas": 145.0,
+   "media_secundario": 153.4,
+   "nota_ultimo": 134.5,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2024f2": {
+   "candidatos": 49,
+   "candidatos_1opcao": 15,
+   "colocados": 4,
+   "colocados_1opcao": 3,
+   "media_candidatura": 147.1,
+   "media_provas": 152.0,
+   "media_secundario": 142.3,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 361,
+   "candidatos_1opcao": 96,
+   "colocados": 69,
+   "colocados_1opcao": 54,
+   "media_candidatura": 148.7,
+   "media_provas": 141.2,
+   "media_secundario": 156.1,
+   "nota_ultimo": 139.3,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2025f2": {
+   "candidatos": 79,
+   "candidatos_1opcao": 28,
+   "colocados": 11,
+   "colocados_1opcao": 5,
+   "media_candidatura": 143.7,
+   "media_provas": 139.5,
+   "media_secundario": 147.8,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2025f3": {
+   "colocados": 4,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2026f1": {
+   "colocados": 76,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 76
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 76
+}

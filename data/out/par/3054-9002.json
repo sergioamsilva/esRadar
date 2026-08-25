@@ -1,0 +1,111 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9002",
+ "code": "3054",
+ "concurso": "Nacional",
+ "curso": "Administração Pública",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Guarda, Portalegre, Santarém, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n088 Ação Social (DL 74/2004)\n345 Profissionais de Formação Bancária (IFB)\n722 Técnico Administrativo\n746 Técnico de Gestão Administrativa\n764 Técnico de Secretariado\n765 Técnico de Seguros\n784 Técnico Administrativo de Seguros\n786 Técnico de Informação, Documentação e Comunicação\n831 Agrupamento 3 / Administração\n841 Agrupamento 4 / Comunicação\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nP19 Técnico de Apoio Psicossocial\nP22 Técnico de Banca e Seguros\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP59 Técnico de Informática de Gestão\nP82 Técnico de Secretariado\nP84 Técnico de Serviços Jurídicos\nR16 Técnico Administrativo\nR49 Técnico de Apoio à Gestão\nR78 Técnico de Informação, Documentação e Comunicação\nS17 Técnico de Apoio à Gestão\nS47 Técnico de Segurança e Higiene do Trabalho\nU18 Técnico de Segurança e Higiene do Trabalho",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3054-9002",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
+ "series": {
+  "2023f1": {
+   "candidatos": 40,
+   "candidatos_1opcao": 1,
+   "colocados": 10,
+   "colocados_1opcao": 1,
+   "media_candidatura": 131.8,
+   "media_provas": 113.2,
+   "media_secundario": 141.8,
+   "nota_ultimo": 122.1,
+   "sobras": 8,
+   "vagas": 18
+  },
+  "2023f2": {
+   "candidatos": 27,
+   "candidatos_1opcao": 2,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 128.5,
+   "media_provas": 113.4,
+   "media_secundario": 136.6,
+   "nota_ultimo": 117.6,
+   "sobras": 5,
+   "vagas": 11
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2024f1": {
+   "candidatos": 76,
+   "candidatos_1opcao": 6,
+   "colocados": 16,
+   "colocados_1opcao": 6,
+   "media_candidatura": 126.9,
+   "media_provas": 113.8,
+   "media_secundario": 133.8,
+   "nota_ultimo": 95.0,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2024f2": {
+   "candidatos": 26,
+   "candidatos_1opcao": 3,
+   "colocados": 6,
+   "colocados_1opcao": 1,
+   "media_candidatura": 136.2,
+   "media_provas": 123.8,
+   "media_secundario": 142.8,
+   "nota_ultimo": 128.1,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2025f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2025f2": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 121.8,
+   "media_provas": 103.5,
+   "media_secundario": 140.0,
+   "nota_ultimo": 121.8,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2026f1": {
+   "colocados": 3,
+   "nota_ultimo": 117.0,
+   "sobras": 22,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 25
+}

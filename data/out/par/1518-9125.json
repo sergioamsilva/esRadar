@@ -1,0 +1,153 @@
+{
+ "ativo": true,
+ "cnaef": "524",
+ "cnaef_nome": "Tecnologia dos Processos Químicos",
+ "codc": "9125",
+ "code": "1518",
+ "concurso": "Nacional",
+ "curso": "Engenharia Química",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": 120,
+ "minimo_provas": 100,
+ "par": "1518-9125",
+ "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "series": {
+  "2021f1": {
+   "colocados": 80,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2021f2": {
+   "colocados": 10,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 75,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2022f2": {
+   "colocados": 8,
+   "nota_ultimo": 161.3,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 311,
+   "candidatos_1opcao": 66,
+   "colocados": 75,
+   "colocados_1opcao": 63,
+   "media_candidatura": 164.5,
+   "media_provas": 155.7,
+   "media_secundario": 173.2,
+   "nota_ultimo": 143.3,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2023f2": {
+   "candidatos": 16,
+   "candidatos_1opcao": 4,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 150.3,
+   "media_provas": 132.5,
+   "media_secundario": 168.0,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 407,
+   "candidatos_1opcao": 73,
+   "colocados": 75,
+   "colocados_1opcao": 42,
+   "media_candidatura": 168.0,
+   "media_provas": 161.2,
+   "media_secundario": 174.7,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2024f2": {
+   "candidatos": 35,
+   "candidatos_1opcao": 14,
+   "colocados": 2,
+   "colocados_1opcao": 0,
+   "media_candidatura": 171.4,
+   "media_provas": 164.8,
+   "media_secundario": 178.0,
+   "nota_ultimo": 169.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 175.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 365,
+   "candidatos_1opcao": 75,
+   "colocados": 75,
+   "colocados_1opcao": 54,
+   "media_candidatura": 166.0,
+   "media_provas": 158.4,
+   "media_secundario": 173.6,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2025f2": {
+   "candidatos": 23,
+   "candidatos_1opcao": 7,
+   "colocados": 7,
+   "colocados_1opcao": 5,
+   "media_candidatura": 166.9,
+   "media_provas": 159.9,
+   "media_secundario": 173.9,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2026f1": {
+   "colocados": 75,
+   "nota_ultimo": 153.3,
+   "sobras": 0,
+   "vagas": 75
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 75
+}

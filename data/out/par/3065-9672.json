@@ -1,0 +1,60 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9672",
+ "code": "3065",
+ "concurso": null,
+ "curso": "Administração e Marketing",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3065-9672",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 35,
+   "nota_ultimo": 118.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 23,
+   "nota_ultimo": 109.0,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2018f3": {
+   "colocados": 4,
+   "nota_ultimo": 95.0,
+   "sobras": 14,
+   "vagas": 14
+  },
+  "2019f1": {
+   "colocados": 36,
+   "nota_ultimo": 124.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2019f2": {
+   "colocados": 25,
+   "nota_ultimo": 110.1,
+   "sobras": 0,
+   "vagas": 21
+  },
+  "2019f3": {
+   "colocados": 6,
+   "nota_ultimo": 105.4,
+   "sobras": 6,
+   "vagas": 10
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

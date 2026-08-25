@@ -1,0 +1,41 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9112",
+ "code": "3083",
+ "concurso": null,
+ "curso": "Engenharia Eletrotécnica e de Computadores",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "instituicao": "Universidade do Algarve - Instituto Superior de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3083-9112",
+ "provas_ingresso": null,
+ "series": {
+  "2020f1": {
+   "colocados": 7,
+   "nota_ultimo": 165.6,
+   "sobras": 16,
+   "vagas": 23
+  },
+  "2020f2": {
+   "colocados": 1,
+   "nota_ultimo": 117.2,
+   "sobras": 15,
+   "vagas": 16
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

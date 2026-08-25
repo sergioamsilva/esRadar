@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9367",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Engenharia Eletrotécnica e de Computadores",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9367",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 200,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2018f2": {
+   "colocados": 10,
+   "nota_ultimo": 172.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 200,
+   "nota_ultimo": 164.3,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 246,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 245
+  },
+  "2020f2": {
+   "colocados": 9,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,58 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "A012",
+ "code": "1307",
+ "concurso": null,
+ "curso": "Matemática (ensino em inglês)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "instituicao": "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1307-A012",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 6,
+   "nota_ultimo": 108.0,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 108.0,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 14,
+   "vagas": 14
+  },
+  "2019f1": {
+   "colocados": 12,
+   "nota_ultimo": 128.2,
+   "sobras": 8,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 109.4,
+   "sobras": 6,
+   "vagas": 8
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 6,
+   "vagas": 6
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

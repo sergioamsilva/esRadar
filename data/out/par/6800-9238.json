@@ -1,0 +1,118 @@
+{
+ "ativo": true,
+ "cnaef": "762",
+ "cnaef_nome": "Trabalho Social e Orientação",
+ "codc": "9238",
+ "code": "6800",
+ "concurso": "Nacional",
+ "curso": "Serviço Social",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "ISCTE",
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "6800-9238",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n06 Filosofia\n11 História\nou\n04 Economia\n06 Filosofia\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "series": {
+  "2023f1": {
+   "candidatos": 479,
+   "candidatos_1opcao": 103,
+   "colocados": 25,
+   "colocados_1opcao": 8,
+   "media_candidatura": 156.2,
+   "media_provas": 152.0,
+   "media_secundario": 160.3,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2023f2": {
+   "candidatos": 190,
+   "candidatos_1opcao": 53,
+   "colocados": 8,
+   "colocados_1opcao": 3,
+   "media_candidatura": 156.4,
+   "media_provas": 150.0,
+   "media_secundario": 162.9,
+   "nota_ultimo": 151.0,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2023f3": {
+   "colocados": 3,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f1": {
+   "candidatos": 439,
+   "candidatos_1opcao": 87,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 160.2,
+   "media_provas": 157.6,
+   "media_secundario": 162.9,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2024f2": {
+   "candidatos": 189,
+   "candidatos_1opcao": 50,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 166.3,
+   "media_provas": 180.5,
+   "media_secundario": 152.0,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 385,
+   "candidatos_1opcao": 67,
+   "colocados": 25,
+   "colocados_1opcao": 9,
+   "media_candidatura": 161.3,
+   "media_provas": 158.1,
+   "media_secundario": 164.3,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2025f2": {
+   "candidatos": 141,
+   "candidatos_1opcao": 29,
+   "colocados": 3,
+   "colocados_1opcao": 0,
+   "media_candidatura": 163.9,
+   "media_provas": 166.5,
+   "media_secundario": 161.3,
+   "nota_ultimo": 162.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 156.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 25,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 25
+}

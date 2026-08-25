@@ -1,0 +1,40 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8152",
+ "code": "7035",
+ "concurso": null,
+ "curso": "Ortoprotesia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "instituicao": "Universidade do Algarve - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7035-8152",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 117.6,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

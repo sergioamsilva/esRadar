@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9351",
+ "code": "0200",
+ "concurso": null,
+ "curso": "Ciências Biomédicas",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-9351",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 50,
+   "nota_ultimo": 128.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2018f2": {
+   "colocados": 6,
+   "nota_ultimo": 120.9,
+   "sobras": 5,
+   "vagas": 9
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 138.3,
+   "sobras": 3,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 50,
+   "nota_ultimo": 108.6,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 127.2,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 50,
+   "nota_ultimo": 121.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 9,
+   "nota_ultimo": 120.2,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 156.4,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

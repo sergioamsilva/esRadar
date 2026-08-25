@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9504",
+ "code": "7015",
+ "concurso": null,
+ "curso": "Fisioterapia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7015-9504",
+ "provas_ingresso": null,
+ "series": {
+  "2022f1": {
+   "colocados": 25,
+   "nota_ultimo": 152.7,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2022f2": {
+   "colocados": 6,
+   "nota_ultimo": 147.4,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "colocados": 24,
+   "nota_ultimo": 151.6,
+   "sobras": 0,
+   "vagas": 24
+  },
+  "2023f2": {
+   "colocados": 4,
+   "nota_ultimo": 155.2,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "colocados": 24,
+   "nota_ultimo": 153.6,
+   "sobras": 0,
+   "vagas": 24
+  },
+  "2024f2": {
+   "colocados": 6,
+   "nota_ultimo": 151.2,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

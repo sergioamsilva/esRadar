@@ -1,0 +1,78 @@
+{
+ "ativo": true,
+ "cnaef": "726",
+ "cnaef_nome": "Terapia e Reabilitação",
+ "codc": "9504",
+ "code": "7250",
+ "concurso": "Nacional",
+ "curso": "Fisioterapia",
+ "duracao": "4 Anos",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7250-9504",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2023f1": {
+   "candidatos": 623,
+   "candidatos_1opcao": 198,
+   "colocados_1opcao": 35,
+   "media_candidatura": 170.0,
+   "media_provas": 160.6,
+   "media_secundario": 175.1
+  },
+  "2023f2": {
+   "candidatos": 221,
+   "candidatos_1opcao": 95,
+   "colocados_1opcao": 3,
+   "media_candidatura": 163.3,
+   "media_provas": 158.7,
+   "media_secundario": 165.7
+  },
+  "2024f1": {
+   "candidatos": 557,
+   "candidatos_1opcao": 189,
+   "colocados_1opcao": 41,
+   "media_candidatura": 168.6,
+   "media_provas": 158.6,
+   "media_secundario": 174.0
+  },
+  "2024f2": {
+   "candidatos": 179,
+   "candidatos_1opcao": 90,
+   "colocados_1opcao": 7,
+   "media_candidatura": 163.9,
+   "media_provas": 156.8,
+   "media_secundario": 167.7
+  },
+  "2025f1": {
+   "candidatos": 354,
+   "candidatos_1opcao": 130,
+   "colocados_1opcao": 40,
+   "media_candidatura": 164.1,
+   "media_provas": 156.6,
+   "media_secundario": 171.5
+  },
+  "2025f2": {
+   "candidatos": 93,
+   "candidatos_1opcao": 62,
+   "colocados_1opcao": 7,
+   "media_candidatura": 162.5,
+   "media_provas": 155.0,
+   "media_secundario": 170.0
+  },
+  "2026f1": {
+   "colocados": 49,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 49
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 49
+}

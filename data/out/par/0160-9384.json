@@ -1,0 +1,58 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9384",
+ "code": "0160",
+ "concurso": null,
+ "curso": "Informática - Redes e Multimédia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "instituicao": "Universidade dos Açores - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0160-9384",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 12,
+   "nota_ultimo": 120.7,
+   "sobras": 23,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 106.8,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22
+  },
+  "2019f1": {
+   "colocados": 10,
+   "nota_ultimo": 124.2,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 109.9,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 12,
+   "vagas": 11
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

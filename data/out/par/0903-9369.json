@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9369",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia Mecânica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9369",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 75,
+   "nota_ultimo": 155.6,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2018f2": {
+   "colocados": 7,
+   "nota_ultimo": 162.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 75,
+   "nota_ultimo": 158.8,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 162.4,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 81,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2020f2": {
+   "colocados": 13,
+   "nota_ultimo": 161.6,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 161.4,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

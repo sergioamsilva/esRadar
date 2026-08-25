@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9460",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Engenharia Metalúrgica e de Materiais",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9460",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 28,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 28
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 165.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 27,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 27
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 45,
+   "nota_ultimo": 155.8,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,110 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8402",
+ "code": "3031",
+ "concurso": null,
+ "curso": "Gestão Pública (regime de ensino a distância)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3031-8402",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 9,
+   "nota_ultimo": 106.1,
+   "sobras": 11,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 10,
+   "nota_ultimo": 101.0,
+   "sobras": 2,
+   "vagas": 12
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 122.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 10,
+   "nota_ultimo": 103.5,
+   "sobras": 10,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 12,
+   "nota_ultimo": 112.4,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2020f1": {
+   "colocados": 22,
+   "nota_ultimo": 117.1,
+   "sobras": 0,
+   "vagas": 22
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 19,
+   "nota_ultimo": 112.0,
+   "sobras": 3,
+   "vagas": 22
+  },
+  "2021f2": {
+   "colocados": 6,
+   "nota_ultimo": 139.7,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 20,
+   "nota_ultimo": 114.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2022f2": {
+   "colocados": 9,
+   "nota_ultimo": 128.2,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 133.8,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

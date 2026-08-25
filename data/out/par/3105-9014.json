@@ -1,0 +1,95 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9014",
+ "code": "3105",
+ "concurso": null,
+ "curso": "Biologia Marinha e Biotecnologia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3105-9014",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 36,
+   "nota_ultimo": 105.6,
+   "sobras": 14,
+   "vagas": 50
+  },
+  "2018f2": {
+   "colocados": 9,
+   "nota_ultimo": 111.5,
+   "sobras": 14,
+   "vagas": 21
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  },
+  "2019f1": {
+   "colocados": 25,
+   "nota_ultimo": 109.0,
+   "sobras": 25,
+   "vagas": 50
+  },
+  "2019f2": {
+   "colocados": 15,
+   "nota_ultimo": 105.0,
+   "sobras": 12,
+   "vagas": 26
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 113.6,
+   "sobras": 6,
+   "vagas": 8
+  },
+  "2020f1": {
+   "colocados": 58,
+   "nota_ultimo": 108.7,
+   "sobras": 0,
+   "vagas": 57
+  },
+  "2020f2": {
+   "colocados": 11,
+   "nota_ultimo": 118.6,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2020f3": {
+   "colocados": 3,
+   "nota_ultimo": 123.0,
+   "sobras": 1,
+   "vagas": 2
+  },
+  "2021f1": {
+   "colocados": 58,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 57
+  },
+  "2021f2": {
+   "colocados": 10,
+   "nota_ultimo": 136.2,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2021f3": {
+   "colocados": 3,
+   "nota_ultimo": 132.1,
+   "sobras": 0,
+   "vagas": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

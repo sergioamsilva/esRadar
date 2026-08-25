@@ -1,0 +1,209 @@
+{
+ "ativo": true,
+ "cnaef": "380",
+ "cnaef_nome": "Direito",
+ "codc": "8358",
+ "code": "1504",
+ "concurso": "Nacional",
+ "curso": "Direito (regime pós-laboral)",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Direito",
+ "minimo_candidatura": 120,
+ "minimo_provas": 140,
+ "par": "1504-8358",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\n18 Português\nou\n11 História\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 88,
+   "nota_ultimo": 140.5,
+   "sobras": 0,
+   "vagas": 86
+  },
+  "2018f2": {
+   "colocados": 32,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 24
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 149.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 83,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 82
+  },
+  "2019f2": {
+   "colocados": 35,
+   "nota_ultimo": 148.8,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 91,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2020f2": {
+   "colocados": 29,
+   "nota_ultimo": 157.0,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2020f3": {
+   "colocados": 5,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 83,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 82
+  },
+  "2021f2": {
+   "colocados": 24,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2021f3": {
+   "colocados": 4,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2022f1": {
+   "colocados": 82,
+   "nota_ultimo": 153.8,
+   "sobras": 0,
+   "vagas": 82
+  },
+  "2022f2": {
+   "colocados": 32,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 16
+  },
+  "2022f3": {
+   "colocados": 10,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2023f1": {
+   "candidatos": 510,
+   "candidatos_1opcao": 62,
+   "colocados": 82,
+   "colocados_1opcao": 13,
+   "media_candidatura": 157.0,
+   "media_provas": 151.3,
+   "media_secundario": 162.7,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 82
+  },
+  "2023f2": {
+   "candidatos": 260,
+   "candidatos_1opcao": 48,
+   "colocados": 26,
+   "colocados_1opcao": 7,
+   "media_candidatura": 158.3,
+   "media_provas": 155.5,
+   "media_secundario": 161.4,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2023f3": {
+   "colocados": 8,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f1": {
+   "candidatos": 528,
+   "candidatos_1opcao": 54,
+   "colocados": 82,
+   "colocados_1opcao": 8,
+   "media_candidatura": 155.9,
+   "media_provas": 147.1,
+   "media_secundario": 164.6,
+   "nota_ultimo": 153.8,
+   "sobras": 0,
+   "vagas": 82
+  },
+  "2024f2": {
+   "candidatos": 256,
+   "candidatos_1opcao": 45,
+   "colocados": 23,
+   "colocados_1opcao": 1,
+   "media_candidatura": 161.5,
+   "media_provas": 159.8,
+   "media_secundario": 163.0,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2024f3": {
+   "colocados": 10,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 749,
+   "candidatos_1opcao": 77,
+   "colocados": 82,
+   "colocados_1opcao": 7,
+   "media_candidatura": 160.4,
+   "media_provas": 155.5,
+   "media_secundario": 165.3,
+   "nota_ultimo": 158.8,
+   "sobras": 0,
+   "vagas": 82
+  },
+  "2025f2": {
+   "candidatos": 399,
+   "candidatos_1opcao": 63,
+   "colocados": 19,
+   "colocados_1opcao": 1,
+   "media_candidatura": 161.8,
+   "media_provas": 159.0,
+   "media_secundario": 164.5,
+   "nota_ultimo": 162.3,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2025f3": {
+   "colocados": 10,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2026f1": {
+   "colocados": 55,
+   "nota_ultimo": 141.5,
+   "sobras": 26,
+   "vagas": 82
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 82
+}

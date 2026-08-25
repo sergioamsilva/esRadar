@@ -1,0 +1,132 @@
+{
+ "ativo": true,
+ "cnaef": "581",
+ "cnaef_nome": "Arquitetura e Urbanismo",
+ "codc": "9895",
+ "code": "3065",
+ "concurso": "Nacional",
+ "curso": "Gestão do Território",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Coimbra, Guarda, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nG41 Desenho de Arquitetura (Portaria n.º 42/2014)\nP25 Técnico de Cartografia\nP55 Técnico de Gestão do Ambiente\nP79 Técnico de Recursos Florestais e Ambientais\nP85 Técnico de Sistemas de Informação Geográfica\nP98 Topógrafo-Geómetra\nR33 Bombeiro\nT27 Técnico de Gestão do Ambiente\nT47 Técnico de Recursos Florestais e Ambientais",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3065-9895",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n16 Matemática\nou\n09 Geografia\n16 Matemática\nou\n04 Economia\n18 Português\nou\n16 Matemática\n18 Português",
+ "series": {
+  "2022f1": {
+   "colocados": 10,
+   "nota_ultimo": 116.0,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2022f2": {
+   "colocados": 8,
+   "nota_ultimo": 120.0,
+   "sobras": 12,
+   "vagas": 19
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16
+  },
+  "2023f1": {
+   "candidatos": 37,
+   "candidatos_1opcao": 2,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 125.6,
+   "media_provas": 103.9,
+   "media_secundario": 137.3,
+   "nota_ultimo": 118.2,
+   "sobras": 14,
+   "vagas": 21
+  },
+  "2023f2": {
+   "candidatos": 17,
+   "candidatos_1opcao": 1,
+   "colocados": 9,
+   "colocados_1opcao": 1,
+   "media_candidatura": 121.8,
+   "media_provas": 112.0,
+   "media_secundario": 127.0,
+   "nota_ultimo": 111.0,
+   "sobras": 8,
+   "vagas": 18
+  },
+  "2023f3": {
+   "colocados": 2,
+   "nota_ultimo": 122.8,
+   "sobras": 14,
+   "vagas": 16
+  },
+  "2024f1": {
+   "candidatos": 35,
+   "candidatos_1opcao": 5,
+   "colocados": 6,
+   "colocados_1opcao": 5,
+   "media_candidatura": 121.5,
+   "media_provas": 108.4,
+   "media_secundario": 128.6,
+   "nota_ultimo": 110.7,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2024f2": {
+   "candidatos": 14,
+   "candidatos_1opcao": 1,
+   "colocados": 6,
+   "colocados_1opcao": 1,
+   "media_candidatura": 128.9,
+   "media_provas": 120.3,
+   "media_secundario": 133.5,
+   "nota_ultimo": 114.4,
+   "sobras": 8,
+   "vagas": 14
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 120.7,
+   "sobras": 8,
+   "vagas": 9
+  },
+  "2025f1": {
+   "candidatos": 16,
+   "candidatos_1opcao": 1,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 145.0,
+   "media_provas": 137.1,
+   "media_secundario": 153.0,
+   "nota_ultimo": 126.5,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2025f2": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 20,
+   "vagas": 19
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2026f1": {
+   "colocados": 5,
+   "nota_ultimo": 110.5,
+   "sobras": 15,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 20
+}

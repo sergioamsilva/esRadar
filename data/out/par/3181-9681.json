@@ -1,0 +1,90 @@
+{
+ "ativo": true,
+ "cnaef": "212",
+ "cnaef_nome": "Artes do Espetáculo",
+ "codc": "9681",
+ "code": "3181",
+ "concurso": "Nacional",
+ "curso": "Artes Performativas",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Viseu",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Viseu",
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3181-9681",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n03 Desenho\n18 Português\nou\n06 Filosofia\n18 Português",
+ "series": {
+  "2024f1": {
+   "candidatos": 27,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 138.6,
+   "media_provas": 123.8,
+   "media_secundario": 146.5,
+   "nota_ultimo": 126.0,
+   "sobras": 22,
+   "vagas": 26
+  },
+  "2024f2": {
+   "candidatos": 11,
+   "candidatos_1opcao": 3,
+   "colocados": 7,
+   "colocados_1opcao": 3,
+   "media_candidatura": 136.5,
+   "media_provas": 125.3,
+   "media_secundario": 142.4,
+   "nota_ultimo": 124.5,
+   "sobras": 15,
+   "vagas": 22
+  },
+  "2024f3": {
+   "colocados": 6,
+   "nota_ultimo": 118.1,
+   "sobras": 11,
+   "vagas": 17
+  },
+  "2025f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 9,
+   "colocados": 10,
+   "colocados_1opcao": 9,
+   "media_candidatura": 148.0,
+   "media_provas": 143.3,
+   "media_secundario": 152.7,
+   "nota_ultimo": 120.8,
+   "sobras": 16,
+   "vagas": 26
+  },
+  "2025f2": {
+   "candidatos": 10,
+   "candidatos_1opcao": 3,
+   "colocados": 4,
+   "colocados_1opcao": 3,
+   "media_candidatura": 135.5,
+   "media_provas": 126.4,
+   "media_secundario": 144.5,
+   "nota_ultimo": 120.8,
+   "sobras": 14,
+   "vagas": 17
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 128.5,
+   "sobras": 13,
+   "vagas": 14
+  },
+  "2026f1": {
+   "colocados": 17,
+   "nota_ultimo": 112.8,
+   "sobras": 9,
+   "vagas": 26
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 26
+}

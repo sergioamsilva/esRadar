@@ -1,0 +1,58 @@
+{
+ "ativo": true,
+ "cnaef": "344",
+ "cnaef_nome": "Contabilidade e Fiscalidade",
+ "codc": "9056",
+ "code": "3117",
+ "concurso": "Nacional",
+ "curso": "Contabilidade",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3117-9056",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "series": {
+  "2025f1": {
+   "candidatos": 409,
+   "candidatos_1opcao": 59,
+   "colocados": 122,
+   "colocados_1opcao": 38,
+   "media_candidatura": 149.9,
+   "media_provas": 143.9,
+   "media_secundario": 155.9,
+   "nota_ultimo": 141.8,
+   "sobras": 0,
+   "vagas": 122
+  },
+  "2025f2": {
+   "candidatos": 133,
+   "candidatos_1opcao": 30,
+   "colocados": 27,
+   "colocados_1opcao": 13,
+   "media_candidatura": 145.9,
+   "media_provas": 137.4,
+   "media_secundario": 154.4,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2026f1": {
+   "colocados": 148,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 148
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 148
+}

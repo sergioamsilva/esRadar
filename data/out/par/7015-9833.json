@@ -1,0 +1,189 @@
+{
+ "ativo": true,
+ "cnaef": "723",
+ "cnaef_nome": "Enfermagem",
+ "codc": "9833",
+ "code": "7015",
+ "concurso": "Nacional",
+ "curso": "Gerontologia",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Vila Real",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Bragança",
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "7015-9833",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2019f1": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2019f2": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 11
+  },
+  "2020f1": {
+   "colocados": 1,
+   "nota_ultimo": 126.0,
+   "sobras": 34,
+   "vagas": 35
+  },
+  "2020f2": {
+   "colocados": 15,
+   "nota_ultimo": 107.1,
+   "sobras": 18,
+   "vagas": 35
+  },
+  "2020f3": {
+   "colocados": 10,
+   "nota_ultimo": 128.2,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2021f1": {
+   "colocados": 10,
+   "nota_ultimo": 112.1,
+   "sobras": 30,
+   "vagas": 40
+  },
+  "2021f2": {
+   "colocados": 33,
+   "nota_ultimo": 121.3,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2021f3": {
+   "colocados": 5,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2022f1": {
+   "colocados": 21,
+   "nota_ultimo": 109.0,
+   "sobras": 11,
+   "vagas": 35
+  },
+  "2022f2": {
+   "colocados": 25,
+   "nota_ultimo": 113.2,
+   "sobras": 0,
+   "vagas": 21
+  },
+  "2022f3": {
+   "colocados": 4,
+   "nota_ultimo": 122.7,
+   "sobras": 2,
+   "vagas": 5
+  },
+  "2023f1": {
+   "candidatos": 20,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 143.9,
+   "media_provas": 127.0,
+   "media_secundario": 153.0,
+   "nota_ultimo": 143.9,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2023f2": {
+   "candidatos": 7,
+   "candidatos_1opcao": 1,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 124.9,
+   "media_provas": 108.8,
+   "media_secundario": 133.5,
+   "nota_ultimo": 118.4,
+   "sobras": 20,
+   "vagas": 24
+  },
+  "2023f3": {
+   "colocados": 5,
+   "nota_ultimo": 118.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2024f1": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 131.3,
+   "media_provas": 102.0,
+   "media_secundario": 147.0,
+   "nota_ultimo": 131.3,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2024f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2025f1": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2025f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas": 3
+  },
+  "2026f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 20
+}

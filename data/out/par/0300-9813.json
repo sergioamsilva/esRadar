@@ -1,0 +1,87 @@
+{
+ "ativo": true,
+ "cnaef": "721",
+ "cnaef_nome": "Medicina",
+ "codc": "9813",
+ "code": "0300",
+ "concurso": "Nacional",
+ "curso": "Medicina",
+ "duracao": "6 Anos",
+ "ects": 360,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": 140,
+ "minimo_provas": 140,
+ "par": "0300-9813",
+ "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
+ "series": {
+  "2024f1": {
+   "candidatos": 1230,
+   "candidatos_1opcao": 122,
+   "colocados": 40,
+   "colocados_1opcao": 17,
+   "media_candidatura": 183.4,
+   "media_provas": 176.2,
+   "media_secundario": 190.6,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2024f2": {
+   "candidatos": 262,
+   "candidatos_1opcao": 46,
+   "colocados": 3,
+   "colocados_1opcao": 0,
+   "media_candidatura": 188.3,
+   "media_provas": 183.0,
+   "media_secundario": 193.7,
+   "nota_ultimo": 187.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 832,
+   "candidatos_1opcao": 74,
+   "colocados": 40,
+   "colocados_1opcao": 18,
+   "media_candidatura": 184.3,
+   "media_provas": 179.7,
+   "media_secundario": 188.9,
+   "nota_ultimo": 182.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2025f2": {
+   "candidatos": 233,
+   "candidatos_1opcao": 39,
+   "colocados": 2,
+   "colocados_1opcao": 0,
+   "media_candidatura": 189.5,
+   "media_provas": 187.0,
+   "media_secundario": 192.0,
+   "nota_ultimo": 186.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 40,
+   "nota_ultimo": 183.8,
+   "sobras": 0,
+   "vagas": 40
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 40
+}

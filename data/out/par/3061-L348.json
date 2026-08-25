@@ -1,0 +1,55 @@
+{
+ "ativo": true,
+ "cnaef": "851",
+ "cnaef_nome": "Tecnologia de Proteção do Ambiente",
+ "codc": "L348",
+ "code": "3061",
+ "concurso": "Nacional",
+ "curso": "Tecnologia e Gestão do Ambiente",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n668 Química Industrial e Ambiental (Port. 49/2005)\n677 Turismo Cultural e Ambiental (Port. 817/2009)\n678 Química Industrial e Ambiental (Port. 817/2009)\n755 Técnico de Laboratório\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH26 Química, Ambiente e Qualidade (VT)\nP55 Técnico de Gestão do Ambiente\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nS80 Técnico de Sistemas de Tratamento de Águas\nT27 Técnico de Gestão do Ambiente\nT32 Técnico de Jardinagem e Espaços Verdes\nT47 Técnico de Recursos Florestais e Ambientais\nU20 Técnico de Sistemas de Tratamento de Águas",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3061-L348",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n19 Matemática A\nou\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2025f1": {
+   "candidatos": 8,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 135.0,
+   "media_provas": 127.0,
+   "media_secundario": 143.0,
+   "nota_ultimo": 135.0,
+   "sobras": 27,
+   "vagas": 28
+  },
+  "2025f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 27,
+   "vagas": 27
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2026f1": {
+   "colocados": 3,
+   "nota_ultimo": 114.5,
+   "sobras": 25,
+   "vagas": 28
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 28
+}

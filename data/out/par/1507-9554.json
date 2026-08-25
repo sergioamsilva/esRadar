@@ -1,0 +1,198 @@
+{
+ "ativo": true,
+ "cnaef": "726",
+ "cnaef_nome": "Terapia e Reabilitação",
+ "codc": "9554",
+ "code": "1507",
+ "concurso": "Nacional",
+ "curso": "Ciências da Nutrição",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Medicina",
+ "minimo_candidatura": 140,
+ "minimo_provas": 120,
+ "par": "1507-9554",
+ "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2018f1": {
+   "colocados": 30,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 28,
+   "nota_ultimo": 156.3,
+   "sobras": 0,
+   "vagas": 28
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 169.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 30,
+   "nota_ultimo": 168.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 179.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 30,
+   "nota_ultimo": 175.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 180.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2022f1": {
+   "colocados": 32,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2022f2": {
+   "colocados": 5,
+   "nota_ultimo": 157.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 218,
+   "candidatos_1opcao": 30,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 169.4,
+   "media_provas": 157.7,
+   "media_secundario": 181.1,
+   "nota_ultimo": 164.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2023f2": {
+   "candidatos": 39,
+   "candidatos_1opcao": 8,
+   "colocados": 5,
+   "colocados_1opcao": 0,
+   "media_candidatura": 174.7,
+   "media_provas": 168.0,
+   "media_secundario": 181.4,
+   "nota_ultimo": 169.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 3,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f1": {
+   "candidatos": 184,
+   "candidatos_1opcao": 26,
+   "colocados": 30,
+   "colocados_1opcao": 15,
+   "media_candidatura": 165.1,
+   "media_provas": 154.8,
+   "media_secundario": 175.3,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2024f2": {
+   "candidatos": 18,
+   "candidatos_1opcao": 7,
+   "colocados": 2,
+   "colocados_1opcao": 0,
+   "media_candidatura": 167.9,
+   "media_provas": 155.8,
+   "media_secundario": 180.0,
+   "nota_ultimo": 164.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 142.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 250,
+   "candidatos_1opcao": 33,
+   "colocados": 30,
+   "colocados_1opcao": 13,
+   "media_candidatura": 167.4,
+   "media_provas": 159.6,
+   "media_secundario": 175.2,
+   "nota_ultimo": 162.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2025f2": {
+   "candidatos": 34,
+   "candidatos_1opcao": 10,
+   "colocados": 6,
+   "colocados_1opcao": 2,
+   "media_candidatura": 168.5,
+   "media_provas": 160.0,
+   "media_secundario": 177.0,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 30,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 30
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 30
+}

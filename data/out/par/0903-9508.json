@@ -1,0 +1,78 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9508",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia do Ambiente",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9508",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 55,
+   "nota_ultimo": 133.6,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2018f2": {
+   "colocados": 16,
+   "nota_ultimo": 137.4,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 6,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 52,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 140.2,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 135.6,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 62,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 62
+  },
+  "2020f2": {
+   "colocados": 7,
+   "nota_ultimo": 137.4,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

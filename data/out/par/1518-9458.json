@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9458",
+ "code": "1518",
+ "concurso": null,
+ "curso": "Engenharia Física Tecnológica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1518-9458",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 61,
+   "nota_ultimo": 189.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 195.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 69,
+   "nota_ultimo": 188.8,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 194.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 93,
+   "nota_ultimo": 191.3,
+   "sobras": 0,
+   "vagas": 92
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 191.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

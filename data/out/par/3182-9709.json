@@ -1,0 +1,84 @@
+{
+ "ativo": true,
+ "cnaef": "422",
+ "cnaef_nome": "Ciências do Ambiente",
+ "codc": "9709",
+ "code": "3182",
+ "concurso": "Nacional",
+ "curso": "Ciências e Tecnologia do Ambiente",
+ "duracao": "3 Anos",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Viseu",
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3182-9709",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n07 Física e Química\n18 Português\nou\n09 Geografia\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
+ "series": {
+  "2024f1": {
+   "candidatos": 11,
+   "candidatos_1opcao": 1,
+   "colocados": 0,
+   "colocados_1opcao": 1,
+   "media_candidatura": 97.0,
+   "media_provas": 97.0,
+   "media_secundario": 97.0,
+   "nota_ultimo": 97.0,
+   "sobras": 34,
+   "vagas": 35
+  },
+  "2024f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 34,
+   "vagas": 34
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2025f1": {
+   "candidatos": 33,
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "colocados_1opcao": 3,
+   "media_candidatura": 136.0,
+   "media_provas": 125.7,
+   "media_secundario": 146.3,
+   "nota_ultimo": 138.3,
+   "sobras": 32,
+   "vagas": 35
+  },
+  "2025f2": {
+   "candidatos": 12,
+   "candidatos_1opcao": 0,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 121.3,
+   "media_provas": 115.5,
+   "media_secundario": 127.0,
+   "nota_ultimo": 121.3,
+   "sobras": 32,
+   "vagas": 33
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2026f1": {
+   "colocados": 2,
+   "nota_ultimo": 116.8,
+   "sobras": 33,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 35
+}

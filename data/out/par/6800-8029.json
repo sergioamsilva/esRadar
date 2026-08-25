@@ -1,0 +1,200 @@
+{
+ "ativo": true,
+ "cnaef": "343",
+ "cnaef_nome": "Finanças, Banca e Seguros",
+ "codc": "8029",
+ "code": "6800",
+ "concurso": "Nacional",
+ "curso": "Finanças e Contabilidade",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "ISCTE",
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "6800-8029",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 72,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2018f2": {
+   "colocados": 12,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 72,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2019f2": {
+   "colocados": 15,
+   "nota_ultimo": 162.0,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2019f3": {
+   "colocados": 3,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 93,
+   "nota_ultimo": 162.5,
+   "sobras": 0,
+   "vagas": 92
+  },
+  "2020f2": {
+   "colocados": 24,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2021f1": {
+   "colocados": 72,
+   "nota_ultimo": 155.8,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2021f2": {
+   "colocados": 10,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2022f1": {
+   "colocados": 72,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2022f2": {
+   "colocados": 11,
+   "nota_ultimo": 163.5,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2023f1": {
+   "candidatos": 475,
+   "candidatos_1opcao": 58,
+   "colocados": 72,
+   "colocados_1opcao": 18,
+   "media_candidatura": 160.6,
+   "media_provas": 153.5,
+   "media_secundario": 167.7,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2023f2": {
+   "candidatos": 168,
+   "candidatos_1opcao": 18,
+   "colocados": 13,
+   "colocados_1opcao": 3,
+   "media_candidatura": 161.3,
+   "media_provas": 152.9,
+   "media_secundario": 169.7,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2024f1": {
+   "candidatos": 550,
+   "candidatos_1opcao": 64,
+   "colocados": 72,
+   "colocados_1opcao": 14,
+   "media_candidatura": 165.6,
+   "media_provas": 163.4,
+   "media_secundario": 167.8,
+   "nota_ultimo": 163.0,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2024f2": {
+   "candidatos": 211,
+   "candidatos_1opcao": 24,
+   "colocados": 15,
+   "colocados_1opcao": 3,
+   "media_candidatura": 165.0,
+   "media_provas": 162.0,
+   "media_secundario": 167.9,
+   "nota_ultimo": 165.3,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2024f3": {
+   "colocados": 5,
+   "nota_ultimo": 162.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 499,
+   "candidatos_1opcao": 68,
+   "colocados": 72,
+   "colocados_1opcao": 11,
+   "media_candidatura": 159.9,
+   "media_provas": 152.7,
+   "media_secundario": 167.1,
+   "nota_ultimo": 157.3,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2025f2": {
+   "candidatos": 191,
+   "candidatos_1opcao": 37,
+   "colocados": 24,
+   "colocados_1opcao": 7,
+   "media_candidatura": 161.8,
+   "media_provas": 156.5,
+   "media_secundario": 167.0,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2026f1": {
+   "colocados": 72,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 72
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 72
+}

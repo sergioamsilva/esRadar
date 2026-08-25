@@ -1,0 +1,134 @@
+{
+ "ativo": true,
+ "cnaef": "461",
+ "cnaef_nome": "Matemática",
+ "codc": "9209",
+ "code": "0602",
+ "concurso": "Nacional",
+ "curso": "Matemática",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0602-9209",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2022f1": {
+   "colocados": 9,
+   "nota_ultimo": 122.5,
+   "sobras": 1,
+   "vagas": 10
+  },
+  "2022f2": {
+   "colocados": 4,
+   "nota_ultimo": 129.9,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 69,
+   "candidatos_1opcao": 8,
+   "colocados": 15,
+   "colocados_1opcao": 7,
+   "media_candidatura": 137.0,
+   "media_provas": 117.3,
+   "media_secundario": 147.5,
+   "nota_ultimo": 124.7,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2023f2": {
+   "candidatos": 15,
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "colocados_1opcao": 2,
+   "media_candidatura": 153.4,
+   "media_provas": 141.7,
+   "media_secundario": 159.7,
+   "nota_ultimo": 137.4,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 67,
+   "candidatos_1opcao": 9,
+   "colocados": 12,
+   "colocados_1opcao": 9,
+   "media_candidatura": 148.3,
+   "media_provas": 134.1,
+   "media_secundario": 155.8,
+   "nota_ultimo": 113.5,
+   "sobras": 5,
+   "vagas": 17
+  },
+  "2024f2": {
+   "candidatos": 6,
+   "candidatos_1opcao": 2,
+   "colocados": 4,
+   "colocados_1opcao": 2,
+   "media_candidatura": 137.0,
+   "media_provas": 121.3,
+   "media_secundario": 145.5,
+   "nota_ultimo": 123.0,
+   "sobras": 1,
+   "vagas": 5
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 44,
+   "candidatos_1opcao": 5,
+   "colocados": 5,
+   "colocados_1opcao": 5,
+   "media_candidatura": 151.0,
+   "media_provas": 135.2,
+   "media_secundario": 166.8,
+   "nota_ultimo": 130.8,
+   "sobras": 12,
+   "vagas": 17
+  },
+  "2025f2": {
+   "candidatos": 8,
+   "candidatos_1opcao": 0,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 137.3,
+   "media_provas": 108.5,
+   "media_secundario": 166.0,
+   "nota_ultimo": 137.3,
+   "sobras": 12,
+   "vagas": 13
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas": 4
+  },
+  "2026f1": {
+   "colocados": 9,
+   "nota_ultimo": 125.3,
+   "sobras": 6,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 15
+}

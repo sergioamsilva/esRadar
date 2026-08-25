@@ -1,0 +1,78 @@
+{
+ "ativo": true,
+ "cnaef": "853",
+ "cnaef_nome": "Serviços de Saúde Pública",
+ "codc": "9861",
+ "code": "7250",
+ "concurso": "Nacional",
+ "curso": "Saúde Ambiental",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7250-9861",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2023f1": {
+   "candidatos": 118,
+   "candidatos_1opcao": 10,
+   "colocados_1opcao": 5,
+   "media_candidatura": 142.9,
+   "media_provas": 128.2,
+   "media_secundario": 150.7
+  },
+  "2023f2": {
+   "candidatos": 64,
+   "candidatos_1opcao": 7,
+   "colocados_1opcao": 1,
+   "media_candidatura": 138.9,
+   "media_provas": 118.1,
+   "media_secundario": 150.1
+  },
+  "2024f1": {
+   "candidatos": 167,
+   "candidatos_1opcao": 12,
+   "colocados_1opcao": 6,
+   "media_candidatura": 139.0,
+   "media_provas": 121.5,
+   "media_secundario": 148.4
+  },
+  "2024f2": {
+   "candidatos": 54,
+   "candidatos_1opcao": 7,
+   "colocados_1opcao": 5,
+   "media_candidatura": 134.5,
+   "media_provas": 112.9,
+   "media_secundario": 146.1
+  },
+  "2025f1": {
+   "candidatos": 22,
+   "candidatos_1opcao": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 133.6,
+   "media_provas": 124.4,
+   "media_secundario": 142.8
+  },
+  "2025f2": {
+   "candidatos": 6,
+   "candidatos_1opcao": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 122.3,
+   "media_provas": 109.0,
+   "media_secundario": 135.5
+  },
+  "2026f1": {
+   "colocados": 24,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 24
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 24
+}

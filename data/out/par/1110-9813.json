@@ -1,0 +1,188 @@
+{
+ "ativo": true,
+ "cnaef": "721",
+ "cnaef_nome": "Medicina",
+ "codc": "9813",
+ "code": "1110",
+ "concurso": "Nacional",
+ "curso": "Medicina",
+ "duracao": "12 Semestres",
+ "ects": 360,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar",
+ "minimo_candidatura": 140,
+ "minimo_provas": 140,
+ "par": "1110-9813",
+ "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 155,
+   "nota_ultimo": 182.2,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 189.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 155,
+   "nota_ultimo": 185.0,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 193.7,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 162,
+   "nota_ultimo": 189.8,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 192.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 163,
+   "nota_ultimo": 190.3,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2021f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 155,
+   "nota_ultimo": 189.0,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2022f2": {
+   "colocados": 2,
+   "nota_ultimo": 191.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 679,
+   "candidatos_1opcao": 252,
+   "colocados": 155,
+   "colocados_1opcao": 153,
+   "media_candidatura": 190.0,
+   "media_provas": 185.2,
+   "media_secundario": 194.7,
+   "nota_ultimo": 186.8,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2023f2": {
+   "candidatos": 123,
+   "candidatos_1opcao": 61,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 799,
+   "candidatos_1opcao": 228,
+   "colocados": 155,
+   "colocados_1opcao": 149,
+   "media_candidatura": 189.3,
+   "media_provas": 183.8,
+   "media_secundario": 194.7,
+   "nota_ultimo": 185.5,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2024f2": {
+   "candidatos": 96,
+   "candidatos_1opcao": 33,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 173.8,
+   "media_provas": 169.7,
+   "media_secundario": 178.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 889,
+   "candidatos_1opcao": 235,
+   "colocados": 155,
+   "colocados_1opcao": 135,
+   "media_candidatura": 187.9,
+   "media_provas": 183.0,
+   "media_secundario": 192.8,
+   "nota_ultimo": 184.7,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2025f2": {
+   "candidatos": 162,
+   "candidatos_1opcao": 39,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 168.3,
+   "media_provas": 164.7,
+   "media_secundario": 172.0,
+   "nota_ultimo": 193.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 155,
+   "nota_ultimo": 185.7,
+   "sobras": 0,
+   "vagas": 155
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 155
+}

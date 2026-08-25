@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9359",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Engenharia Biomédica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-9359",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 65,
+   "nota_ultimo": 172.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 182.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 65,
+   "nota_ultimo": 170.6,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 177.6,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 174.6,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 68,
+   "nota_ultimo": 180.0,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 188.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 180.8,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,30 @@
+{
+ "ativo": true,
+ "cnaef": "144",
+ "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
+ "codc": "9876",
+ "code": "3151",
+ "concurso": "Nacional",
+ "curso": "Educação Básica (regime pós-laboral)",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Lisboa, Santarém, Setúbal",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Setúbal",
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Educação",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3151-9876",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português",
+ "series": {
+  "2026f1": {
+   "colocados": 17,
+   "nota_ultimo": 116.3,
+   "sobras": 1,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 20
+}

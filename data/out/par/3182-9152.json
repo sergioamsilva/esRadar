@@ -1,0 +1,210 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9152",
+ "code": "3182",
+ "concurso": "Nacional",
+ "curso": "Gestão de Empresas",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Viseu",
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3182-9152",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n04 Economia\n09 Geografia\nou\n09 Geografia\n18 Português\nou\n04 Economia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
+ "series": {
+  "2018f1": {
+   "colocados": 71,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2018f2": {
+   "colocados": 11,
+   "nota_ultimo": 131.4,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2018f3": {
+   "colocados": 3,
+   "nota_ultimo": 115.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f1": {
+   "colocados": 72,
+   "nota_ultimo": 122.1,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2019f2": {
+   "colocados": 17,
+   "nota_ultimo": 124.8,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2019f3": {
+   "colocados": 3,
+   "nota_ultimo": 120.9,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 73,
+   "nota_ultimo": 128.9,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2020f2": {
+   "colocados": 13,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2020f3": {
+   "colocados": 3,
+   "nota_ultimo": 135.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f1": {
+   "colocados": 71,
+   "nota_ultimo": 136.1,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2021f2": {
+   "colocados": 9,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2021f3": {
+   "colocados": 2,
+   "nota_ultimo": 136.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2022f1": {
+   "colocados": 70,
+   "nota_ultimo": 137.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2022f2": {
+   "colocados": 14,
+   "nota_ultimo": 135.2,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2022f3": {
+   "colocados": 4,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f1": {
+   "candidatos": 247,
+   "candidatos_1opcao": 55,
+   "colocados": 70,
+   "colocados_1opcao": 39,
+   "media_candidatura": 149.2,
+   "media_provas": 138.1,
+   "media_secundario": 155.1,
+   "nota_ultimo": 135.2,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2023f2": {
+   "candidatos": 64,
+   "candidatos_1opcao": 16,
+   "colocados": 11,
+   "colocados_1opcao": 4,
+   "media_candidatura": 139.7,
+   "media_provas": 130.9,
+   "media_secundario": 144.4,
+   "nota_ultimo": 136.7,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 139.6,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 320,
+   "candidatos_1opcao": 84,
+   "colocados": 70,
+   "colocados_1opcao": 54,
+   "media_candidatura": 151.9,
+   "media_provas": 139.7,
+   "media_secundario": 158.4,
+   "nota_ultimo": 138.7,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2024f2": {
+   "candidatos": 76,
+   "candidatos_1opcao": 29,
+   "colocados": 4,
+   "colocados_1opcao": 2,
+   "media_candidatura": 151.3,
+   "media_provas": 118.3,
+   "media_secundario": 169.0,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 152.7,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 361,
+   "candidatos_1opcao": 76,
+   "colocados": 70,
+   "colocados_1opcao": 54,
+   "media_candidatura": 148.5,
+   "media_provas": 140.4,
+   "media_secundario": 156.5,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2025f2": {
+   "candidatos": 83,
+   "candidatos_1opcao": 27,
+   "colocados": 19,
+   "colocados_1opcao": 12,
+   "media_candidatura": 139.5,
+   "media_provas": 130.8,
+   "media_secundario": 148.3,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 70,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 70
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 70
+}

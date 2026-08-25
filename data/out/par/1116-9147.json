@@ -1,0 +1,78 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9147",
+ "code": "1116",
+ "concurso": "Nacional",
+ "curso": "Gestão",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - FEP Faculdade de Economia e Gestão",
+ "minimo_candidatura": 110,
+ "minimo_provas": 120,
+ "par": "1116-9147",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
+ "series": {
+  "2023f1": {
+   "candidatos": 1164,
+   "candidatos_1opcao": 534,
+   "colocados_1opcao": 190,
+   "media_candidatura": 183.5,
+   "media_provas": 180.4,
+   "media_secundario": 186.6
+  },
+  "2023f2": {
+   "candidatos": 224,
+   "candidatos_1opcao": 143,
+   "colocados_1opcao": 9,
+   "media_candidatura": 184.9,
+   "media_provas": 186.7,
+   "media_secundario": 183.1
+  },
+  "2024f1": {
+   "candidatos": 1315,
+   "candidatos_1opcao": 561,
+   "colocados_1opcao": 192,
+   "media_candidatura": 187.2,
+   "media_provas": 187.3,
+   "media_secundario": 187.0
+  },
+  "2024f2": {
+   "candidatos": 230,
+   "candidatos_1opcao": 153,
+   "colocados_1opcao": 5,
+   "media_candidatura": 178.9,
+   "media_provas": 177.7,
+   "media_secundario": 180.0
+  },
+  "2025f1": {
+   "candidatos": 877,
+   "candidatos_1opcao": 417,
+   "colocados_1opcao": 194,
+   "media_candidatura": 183.8,
+   "media_provas": 180.5,
+   "media_secundario": 187.1
+  },
+  "2025f2": {
+   "candidatos": 184,
+   "candidatos_1opcao": 131,
+   "colocados_1opcao": 10,
+   "media_candidatura": 183.3,
+   "media_provas": 179.8,
+   "media_secundario": 186.7
+  },
+  "2026f1": {
+   "colocados": 179,
+   "nota_ultimo": 178.3,
+   "sobras": 0,
+   "vagas": 179
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 179
+}

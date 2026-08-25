@@ -1,0 +1,210 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9147",
+ "code": "0503",
+ "concurso": "Nacional",
+ "curso": "Gestão",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Economia",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0503-9147",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 89,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 89
+  },
+  "2018f2": {
+   "colocados": 20,
+   "nota_ultimo": 157.0,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2018f3": {
+   "colocados": 6,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f1": {
+   "colocados": 89,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 89
+  },
+  "2019f2": {
+   "colocados": 23,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 16
+  },
+  "2019f3": {
+   "colocados": 3,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 94,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 94
+  },
+  "2020f2": {
+   "colocados": 22,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2020f3": {
+   "colocados": 6,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2021f1": {
+   "colocados": 99,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 99
+  },
+  "2021f2": {
+   "colocados": 12,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2021f3": {
+   "colocados": 5,
+   "nota_ultimo": 158.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2022f1": {
+   "colocados": 89,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 89
+  },
+  "2022f2": {
+   "colocados": 10,
+   "nota_ultimo": 169.3,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 171.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 716,
+   "candidatos_1opcao": 143,
+   "colocados": 89,
+   "colocados_1opcao": 61,
+   "media_candidatura": 170.5,
+   "media_provas": 166.1,
+   "media_secundario": 174.8,
+   "nota_ultimo": 163.3,
+   "sobras": 0,
+   "vagas": 89
+  },
+  "2023f2": {
+   "candidatos": 111,
+   "candidatos_1opcao": 40,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 171.2,
+   "media_provas": 166.3,
+   "media_secundario": 176.0,
+   "nota_ultimo": 161.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2023f3": {
+   "colocados": 4,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 719,
+   "candidatos_1opcao": 164,
+   "colocados": 89,
+   "colocados_1opcao": 55,
+   "media_candidatura": 176.7,
+   "media_provas": 177.0,
+   "media_secundario": 176.4,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 89
+  },
+  "2024f2": {
+   "candidatos": 119,
+   "candidatos_1opcao": 45,
+   "colocados": 14,
+   "colocados_1opcao": 10,
+   "media_candidatura": 170.3,
+   "media_provas": 164.7,
+   "media_secundario": 175.9,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2024f3": {
+   "colocados": 3,
+   "nota_ultimo": 164.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 618,
+   "candidatos_1opcao": 131,
+   "colocados": 90,
+   "colocados_1opcao": 52,
+   "media_candidatura": 169.1,
+   "media_provas": 162.4,
+   "media_secundario": 175.7,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2025f2": {
+   "candidatos": 129,
+   "candidatos_1opcao": 54,
+   "colocados": 15,
+   "colocados_1opcao": 7,
+   "media_candidatura": 166.6,
+   "media_provas": 159.7,
+   "media_secundario": 173.4,
+   "nota_ultimo": 162.8,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2025f3": {
+   "colocados": 5,
+   "nota_ultimo": 153.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2026f1": {
+   "colocados": 100,
+   "nota_ultimo": 164.3,
+   "sobras": 0,
+   "vagas": 100
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 100
+}

@@ -1,0 +1,78 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9360",
+ "code": "1518",
+ "concurso": null,
+ "curso": "Engenharia Civil",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1518-9360",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 129,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 129
+  },
+  "2018f2": {
+   "colocados": 23,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 130,
+   "nota_ultimo": 127.3,
+   "sobras": 0,
+   "vagas": 129
+  },
+  "2019f2": {
+   "colocados": 10,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 131,
+   "nota_ultimo": 135.5,
+   "sobras": 0,
+   "vagas": 129
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 3,
+   "nota_ultimo": 125.8,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

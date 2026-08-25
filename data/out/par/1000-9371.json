@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9371",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Engenharia Têxtil",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-9371",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 22,
+   "nota_ultimo": 116.2,
+   "sobras": 8,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 10,
+   "nota_ultimo": 134.6,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 25,
+   "nota_ultimo": 122.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 21,
+   "nota_ultimo": 127.4,
+   "sobras": 10,
+   "vagas": 31
+  },
+  "2020f2": {
+   "colocados": 12,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

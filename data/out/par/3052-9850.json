@@ -1,0 +1,198 @@
+{
+ "ativo": true,
+ "cnaef": "813",
+ "cnaef_nome": "Desporto",
+ "codc": "9850",
+ "code": "3052",
+ "concurso": "Nacional",
+ "curso": "Desporto e Atividade Física",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Évora, Guarda, Leiria, Portalegre, Santarém, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n089 Desporto (DL 74/2004)\n573 Animação e Gestão Desportiva (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n667 Gestão e Dinamização Desportiva (Port. 817/2009)\n984 Recorrente - Desporto (DL 74/2004)\nA05 Animação Sociodesportiva (VC) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nA53 Animação e Gestão Desportiva (Port. 960/2009)\nG01 Animação Sócio Desportiva (VC) (Portaria n.º 260/2013)\nG14 Animação Sócio Desportiva (VT) (Portaria n.º 260/2013)\nG29 Animação e Gestão Desportiva (Portaria n.º 262/2013)\nG49 Desporto e Dinamização da Atividade Física (Port. 265/2013)\nG85 Atividade Física e Desporto Adaptados (Port. 33/2015)\nG86 Desporto e Dinamização da Atividade Física (Port. 32/2015)\nH14 Animação Sociodesportiva (VT)\nH49 Desporto e Dinamização da Atividade Física\nH85 Atividade Física e Desporto Adaptados\nH86 Desporto e Dinamização da Atividade Física\nR05 Técnico de Apoio à Gestão Desportiva\nR10 Técnico de Desporto e Condição Física\nR15 Técnico de Desporto\nS64 Técnico de Apoio à Gestão Desportiva\nT26 Técnico de Gestão Desportiva\nT54 Técnico de Desporto",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3052-9850",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.",
+ "series": {
+  "2018f1": {
+   "colocados": 34,
+   "nota_ultimo": 95.0,
+   "sobras": 11,
+   "vagas": 45
+  },
+  "2018f2": {
+   "colocados": 15,
+   "nota_ultimo": 101.3,
+   "sobras": 3,
+   "vagas": 16
+  },
+  "2018f3": {
+   "colocados": 4,
+   "nota_ultimo": 95.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 51,
+   "nota_ultimo": 111.9,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2019f2": {
+   "colocados": 14,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 52,
+   "nota_ultimo": 126.1,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 8,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2021f1": {
+   "colocados": 52,
+   "nota_ultimo": 128.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 134.6,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 55,
+   "nota_ultimo": 122.8,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2022f2": {
+   "colocados": 12,
+   "nota_ultimo": 135.2,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2023f1": {
+   "candidatos": 219,
+   "candidatos_1opcao": 43,
+   "colocados": 52,
+   "colocados_1opcao": 29,
+   "media_candidatura": 131.7,
+   "media_provas": 119.5,
+   "media_secundario": 138.2,
+   "nota_ultimo": 137.6,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2023f2": {
+   "candidatos": 68,
+   "candidatos_1opcao": 18,
+   "colocados": 10,
+   "colocados_1opcao": 2,
+   "media_candidatura": 135.8,
+   "media_provas": 118.9,
+   "media_secundario": 144.8,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2024f1": {
+   "candidatos": 210,
+   "candidatos_1opcao": 47,
+   "colocados": 53,
+   "colocados_1opcao": 37,
+   "media_candidatura": 135.5,
+   "media_provas": 121.6,
+   "media_secundario": 143.0,
+   "nota_ultimo": 126.2,
+   "sobras": 0,
+   "vagas": 53
+  },
+  "2024f2": {
+   "candidatos": 81,
+   "candidatos_1opcao": 14,
+   "colocados": 6,
+   "colocados_1opcao": 3,
+   "media_candidatura": 138.9,
+   "media_provas": 112.5,
+   "media_secundario": 153.0,
+   "nota_ultimo": 133.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2025f1": {
+   "candidatos": 126,
+   "candidatos_1opcao": 25,
+   "colocados": 37,
+   "colocados_1opcao": 25,
+   "media_candidatura": 128.8,
+   "media_provas": 117.6,
+   "media_secundario": 139.9,
+   "nota_ultimo": 113.8,
+   "sobras": 17,
+   "vagas": 54
+  },
+  "2025f2": {
+   "candidatos": 47,
+   "candidatos_1opcao": 8,
+   "colocados": 13,
+   "colocados_1opcao": 8,
+   "media_candidatura": 130.7,
+   "media_provas": 118.1,
+   "media_secundario": 143.2,
+   "nota_ultimo": 118.3,
+   "sobras": 9,
+   "vagas": 20
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 121.8,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2026f1": {
+   "colocados": 49,
+   "nota_ultimo": 107.0,
+   "sobras": 4,
+   "vagas": 54
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 54
+}

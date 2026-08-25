@@ -1,0 +1,40 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9254",
+ "code": "0300",
+ "concurso": null,
+ "curso": "Turismo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-9254",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 26,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 26
+  },
+  "2018f2": {
+   "colocados": 6,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

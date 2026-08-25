@@ -1,0 +1,196 @@
+{
+ "ativo": true,
+ "cnaef": "380",
+ "cnaef_nome": "Direito",
+ "codc": "8015",
+ "code": "3117",
+ "concurso": "Nacional",
+ "curso": "Solicitadoria (regime pós-laboral)",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3117-8015",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n11 História\nou\n04 Economia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 56,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2018f2": {
+   "colocados": 14,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2019f1": {
+   "colocados": 52,
+   "nota_ultimo": 129.1,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2019f2": {
+   "colocados": 12,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2020f1": {
+   "colocados": 70,
+   "nota_ultimo": 134.3,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2020f2": {
+   "colocados": 19,
+   "nota_ultimo": 140.2,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 52,
+   "nota_ultimo": 138.7,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2022f1": {
+   "colocados": 52,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2022f2": {
+   "colocados": 10,
+   "nota_ultimo": 152.7,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2023f1": {
+   "candidatos": 240,
+   "candidatos_1opcao": 32,
+   "colocados": 50,
+   "colocados_1opcao": 9,
+   "media_candidatura": 151.8,
+   "media_provas": 142.5,
+   "media_secundario": 156.8,
+   "nota_ultimo": 145.1,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2023f2": {
+   "candidatos": 117,
+   "candidatos_1opcao": 18,
+   "colocados": 9,
+   "colocados_1opcao": 2,
+   "media_candidatura": 153.0,
+   "media_provas": 149.4,
+   "media_secundario": 154.9,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 196,
+   "candidatos_1opcao": 20,
+   "colocados": 51,
+   "colocados_1opcao": 7,
+   "media_candidatura": 149.0,
+   "media_provas": 135.1,
+   "media_secundario": 156.6,
+   "nota_ultimo": 142.9,
+   "sobras": 0,
+   "vagas": 51
+  },
+  "2024f2": {
+   "candidatos": 118,
+   "candidatos_1opcao": 20,
+   "colocados": 11,
+   "colocados_1opcao": 0,
+   "media_candidatura": 154.4,
+   "media_provas": 143.6,
+   "media_secundario": 160.1,
+   "nota_ultimo": 150.9,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2025f1": {
+   "candidatos": 114,
+   "candidatos_1opcao": 9,
+   "colocados": 49,
+   "colocados_1opcao": 9,
+   "media_candidatura": 135.8,
+   "media_provas": 126.2,
+   "media_secundario": 145.3,
+   "nota_ultimo": 113.8,
+   "sobras": 2,
+   "vagas": 51
+  },
+  "2025f2": {
+   "candidatos": 64,
+   "candidatos_1opcao": 12,
+   "colocados": 21,
+   "colocados_1opcao": 6,
+   "media_candidatura": 140.1,
+   "media_provas": 135.0,
+   "media_secundario": 145.1,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 16
+  },
+  "2025f3": {
+   "colocados": 4,
+   "nota_ultimo": 123.0,
+   "sobras": 1,
+   "vagas": 5
+  },
+  "2026f1": {
+   "colocados": 48,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 48
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 48
+}

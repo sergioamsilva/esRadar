@@ -1,0 +1,117 @@
+{
+ "ativo": true,
+ "cnaef": "726",
+ "cnaef_nome": "Terapia e Reabilitação",
+ "codc": "L304",
+ "code": "7230",
+ "concurso": "Nacional",
+ "curso": "Saúde Digital",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7230-L304",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2023f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 2,
+   "colocados": 13,
+   "colocados_1opcao": 2,
+   "media_candidatura": 135.5,
+   "media_provas": 116.9,
+   "media_secundario": 154.0,
+   "nota_ultimo": 120.0,
+   "sobras": 3,
+   "vagas": 16
+  },
+  "2023f2": {
+   "candidatos": 7,
+   "candidatos_1opcao": 0,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 146.0,
+   "media_provas": 127.0,
+   "media_secundario": 165.0,
+   "nota_ultimo": 146.0,
+   "sobras": 2,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 44,
+   "candidatos_1opcao": 6,
+   "colocados": 12,
+   "colocados_1opcao": 6,
+   "media_candidatura": 143.4,
+   "media_provas": 124.9,
+   "media_secundario": 161.9,
+   "nota_ultimo": 121.3,
+   "sobras": 6,
+   "vagas": 18
+  },
+  "2024f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 2,
+   "colocados": 6,
+   "colocados_1opcao": 2,
+   "media_candidatura": 133.2,
+   "media_provas": 112.7,
+   "media_secundario": 153.7,
+   "nota_ultimo": 126.8,
+   "sobras": 5,
+   "vagas": 10
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8
+  },
+  "2025f1": {
+   "candidatos": 53,
+   "candidatos_1opcao": 5,
+   "colocados": 10,
+   "colocados_1opcao": 5,
+   "media_candidatura": 139.1,
+   "media_provas": 121.7,
+   "media_secundario": 156.4,
+   "nota_ultimo": 125.5,
+   "sobras": 8,
+   "vagas": 18
+  },
+  "2025f2": {
+   "candidatos": 8,
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "colocados_1opcao": 3,
+   "media_candidatura": 129.9,
+   "media_provas": 112.8,
+   "media_secundario": 147.0,
+   "nota_ultimo": 122.5,
+   "sobras": 6,
+   "vagas": 9
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 7
+  },
+  "2026f1": {
+   "colocados": 18,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 18
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 18
+}

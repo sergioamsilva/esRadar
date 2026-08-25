@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9357",
+ "code": "1518",
+ "concurso": null,
+ "curso": "Engenharia Aeroespacial",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1518-9357",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 81,
+   "nota_ultimo": 188.5,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 191.5,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 191.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f1": {
+   "colocados": 92,
+   "nota_ultimo": 189.5,
+   "sobras": 0,
+   "vagas": 92
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 194.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 122,
+   "nota_ultimo": 191.3,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2020f2": {
+   "colocados": 5,
+   "nota_ultimo": 192.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

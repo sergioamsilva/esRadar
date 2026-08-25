@@ -1,0 +1,96 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9707",
+ "code": "0602",
+ "concurso": null,
+ "curso": "Ciências do Desporto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0602-9707",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 46,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 123.7,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2018f3": {
+   "colocados": 3,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 47,
+   "nota_ultimo": 127.9,
+   "sobras": 0,
+   "vagas": 46
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 127.7,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2019f3": {
+   "colocados": 5,
+   "nota_ultimo": 121.6,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 52,
+   "nota_ultimo": 137.1,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2020f2": {
+   "colocados": 6,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 136.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f1": {
+   "colocados": 56,
+   "nota_ultimo": 139.4,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2021f2": {
+   "colocados": 8,
+   "nota_ultimo": 143.3,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 149.4,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

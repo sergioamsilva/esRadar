@@ -1,0 +1,205 @@
+{
+ "ativo": true,
+ "cnaef": "523",
+ "cnaef_nome": "Eletrónica e Automação",
+ "codc": "9119",
+ "code": "3242",
+ "concurso": "Nacional",
+ "curso": "Engenharia Informática",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Leiria, Lisboa, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n082 Informática (DL 74/2004)\n084 Multimédia (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n740 Técnico de Eletrónica\n753 Técnico de Informática\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n813 Agrupamento 1 / Informática\n976 Recorrente - Eletrotecnia e Eletrónica (DL 74/2004)\n977 Recorrente - Informática (DL 74/2004)\n979 Recorrente - Multimédia (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP59 Técnico de Informática de Gestão\nS27 Técnico de Eletrónica de Computadores\nS30 Técnico de Eletrónica e Telecomunicações",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Tomar",
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3242-9119",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 25,
+   "nota_ultimo": 110.6,
+   "sobras": 24,
+   "vagas": 49
+  },
+  "2018f2": {
+   "colocados": 26,
+   "nota_ultimo": 109.6,
+   "sobras": 0,
+   "vagas": 24
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 133.4,
+   "sobras": 3,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 31,
+   "nota_ultimo": 108.0,
+   "sobras": 19,
+   "vagas": 50
+  },
+  "2019f2": {
+   "colocados": 21,
+   "nota_ultimo": 122.6,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 33,
+   "nota_ultimo": 112.3,
+   "sobras": 34,
+   "vagas": 67
+  },
+  "2020f2": {
+   "colocados": 36,
+   "nota_ultimo": 111.9,
+   "sobras": 0,
+   "vagas": 36
+  },
+  "2020f3": {
+   "colocados": 6,
+   "nota_ultimo": 119.7,
+   "sobras": 1,
+   "vagas": 6
+  },
+  "2021f1": {
+   "colocados": 11,
+   "nota_ultimo": 128.8,
+   "sobras": 49,
+   "vagas": 60
+  },
+  "2021f2": {
+   "colocados": 17,
+   "nota_ultimo": 118.4,
+   "sobras": 34,
+   "vagas": 50
+  },
+  "2021f3": {
+   "colocados": 2,
+   "nota_ultimo": 114.6,
+   "sobras": 4,
+   "vagas": 5
+  },
+  "2022f1": {
+   "colocados": 48,
+   "nota_ultimo": 116.9,
+   "sobras": 8,
+   "vagas": 56
+  },
+  "2022f2": {
+   "colocados": 15,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 135,
+   "candidatos_1opcao": 15,
+   "colocados": 49,
+   "colocados_1opcao": 15,
+   "media_candidatura": 133.0,
+   "media_provas": 113.2,
+   "media_secundario": 143.6,
+   "nota_ultimo": 109.1,
+   "sobras": 11,
+   "vagas": 61
+  },
+  "2023f2": {
+   "candidatos": 61,
+   "candidatos_1opcao": 11,
+   "colocados": 17,
+   "colocados_1opcao": 8,
+   "media_candidatura": 131.7,
+   "media_provas": 110.5,
+   "media_secundario": 143.1,
+   "nota_ultimo": 120.4,
+   "sobras": 0,
+   "vagas": 17
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2024f1": {
+   "candidatos": 127,
+   "candidatos_1opcao": 11,
+   "colocados": 28,
+   "colocados_1opcao": 11,
+   "media_candidatura": 132.4,
+   "media_provas": 107.4,
+   "media_secundario": 145.8,
+   "nota_ultimo": 121.8,
+   "sobras": 37,
+   "vagas": 65
+  },
+  "2024f2": {
+   "candidatos": 58,
+   "candidatos_1opcao": 6,
+   "colocados": 23,
+   "colocados_1opcao": 6,
+   "media_candidatura": 129.2,
+   "media_provas": 111.1,
+   "media_secundario": 139.0,
+   "nota_ultimo": 109.7,
+   "sobras": 18,
+   "vagas": 41
+  },
+  "2024f3": {
+   "colocados": 4,
+   "nota_ultimo": 129.6,
+   "sobras": 5,
+   "vagas": 8
+  },
+  "2025f1": {
+   "candidatos": 73,
+   "candidatos_1opcao": 8,
+   "colocados": 8,
+   "colocados_1opcao": 8,
+   "media_candidatura": 139.9,
+   "media_provas": 126.2,
+   "media_secundario": 153.6,
+   "nota_ultimo": 129.5,
+   "sobras": 57,
+   "vagas": 65
+  },
+  "2025f2": {
+   "candidatos": 34,
+   "candidatos_1opcao": 7,
+   "colocados": 8,
+   "colocados_1opcao": 7,
+   "media_candidatura": 138.8,
+   "media_provas": 129.3,
+   "media_secundario": 148.4,
+   "nota_ultimo": 123.8,
+   "sobras": 49,
+   "vagas": 57
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2026f1": {
+   "colocados": 14,
+   "nota_ultimo": 152.0,
+   "sobras": 46,
+   "vagas": 60
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 60
+}

@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9369",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Engenharia Mecânica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9369",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 151,
+   "nota_ultimo": 174.5,
+   "sobras": 0,
+   "vagas": 151
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 181.8,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 151,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 151
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 182.3,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 193,
+   "nota_ultimo": 185.5,
+   "sobras": 0,
+   "vagas": 192
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 190.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9365",
+ "code": "0300",
+ "concurso": null,
+ "curso": "Engenharia Eletrónica e Telecomunicações",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-9365",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 83,
+   "nota_ultimo": 120.3,
+   "sobras": 0,
+   "vagas": 83
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 77,
+   "nota_ultimo": 110.3,
+   "sobras": 6,
+   "vagas": 83
+  },
+  "2019f2": {
+   "colocados": 13,
+   "nota_ultimo": 134.5,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2020f1": {
+   "colocados": 83,
+   "nota_ultimo": 118.8,
+   "sobras": 0,
+   "vagas": 83
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

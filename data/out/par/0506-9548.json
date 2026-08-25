@@ -1,0 +1,209 @@
+{
+ "ativo": true,
+ "cnaef": "724",
+ "cnaef_nome": "Ciências Dentárias",
+ "codc": "9548",
+ "code": "0506",
+ "concurso": "Nacional",
+ "curso": "Medicina Dentária",
+ "duracao": "10 Semestres",
+ "ects": 300,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Medicina",
+ "minimo_candidatura": 140,
+ "minimo_provas": 140,
+ "par": "0506-9548",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 42,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 42
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 178.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 183.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 42,
+   "nota_ultimo": 173.8,
+   "sobras": 0,
+   "vagas": 42
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 181.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 42,
+   "nota_ultimo": 182.5,
+   "sobras": 0,
+   "vagas": 42
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 185.5,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 185.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 53,
+   "nota_ultimo": 183.5,
+   "sobras": 0,
+   "vagas": 53
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 187.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 189.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 53,
+   "nota_ultimo": 182.3,
+   "sobras": 0,
+   "vagas": 53
+  },
+  "2022f2": {
+   "colocados": 9,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 181.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f1": {
+   "candidatos": 386,
+   "candidatos_1opcao": 62,
+   "colocados": 60,
+   "colocados_1opcao": 24,
+   "media_candidatura": 178.9,
+   "media_provas": 173.4,
+   "media_secundario": 184.3,
+   "nota_ultimo": 176.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2023f2": {
+   "candidatos": 102,
+   "candidatos_1opcao": 27,
+   "colocados": 7,
+   "colocados_1opcao": 0,
+   "media_candidatura": 181.6,
+   "media_provas": 176.9,
+   "media_secundario": 186.1,
+   "nota_ultimo": 180.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 546,
+   "candidatos_1opcao": 127,
+   "colocados": 60,
+   "colocados_1opcao": 34,
+   "media_candidatura": 180.2,
+   "media_provas": 175.8,
+   "media_secundario": 184.6,
+   "nota_ultimo": 178.3,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2024f2": {
+   "candidatos": 117,
+   "candidatos_1opcao": 44,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 182.8,
+   "media_provas": 180.0,
+   "media_secundario": 185.5,
+   "nota_ultimo": 182.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 181.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 423,
+   "candidatos_1opcao": 103,
+   "colocados": 60,
+   "colocados_1opcao": 33,
+   "media_candidatura": 179.1,
+   "media_provas": 174.0,
+   "media_secundario": 184.0,
+   "nota_ultimo": 177.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2025f2": {
+   "candidatos": 131,
+   "candidatos_1opcao": 33,
+   "colocados": 6,
+   "colocados_1opcao": 0,
+   "media_candidatura": 183.2,
+   "media_provas": 179.1,
+   "media_secundario": 187.2,
+   "nota_ultimo": 181.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 178.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 60,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 60
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 60
+}

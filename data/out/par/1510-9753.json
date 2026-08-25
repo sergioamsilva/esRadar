@@ -1,0 +1,41 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9753",
+ "code": "1510",
+ "concurso": null,
+ "curso": "Ergonomia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Motricidade Humana",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1510-9753",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 20,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

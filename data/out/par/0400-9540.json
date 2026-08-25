@@ -1,0 +1,73 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9540",
+ "code": "0400",
+ "concurso": null,
+ "curso": "Bioengenharia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-9540",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 16,
+   "nota_ultimo": 118.4,
+   "sobras": 4,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 122.7,
+   "sobras": 3,
+   "vagas": 6
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 126.3,
+   "sobras": 3,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 7,
+   "nota_ultimo": 121.5,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.7,
+   "sobras": 15,
+   "vagas": 16
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7
+  },
+  "2023f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2023f2": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

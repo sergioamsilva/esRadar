@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9509",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia e Gestão Industrial",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9509",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 55,
+   "nota_ultimo": 158.4,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2018f2": {
+   "colocados": 9,
+   "nota_ultimo": 158.4,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 154.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 55,
+   "nota_ultimo": 159.4,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 60,
+   "nota_ultimo": 165.6,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2020f2": {
+   "colocados": 9,
+   "nota_ultimo": 164.4,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

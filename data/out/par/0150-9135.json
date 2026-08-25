@@ -1,0 +1,137 @@
+{
+ "ativo": true,
+ "cnaef": "312",
+ "cnaef_nome": "Sociologia e Outros Estudos",
+ "codc": "9135",
+ "code": "0150",
+ "concurso": "Nacional",
+ "curso": "Estudos Europeus",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade dos Açores",
+ "instituicao": "Universidade dos Açores - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0150-9135",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n11 História\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português",
+ "series": {
+  "2022f1": {
+   "colocados": 18,
+   "nota_ultimo": 109.5,
+   "sobras": 2,
+   "vagas": 20
+  },
+  "2022f2": {
+   "colocados": 5,
+   "nota_ultimo": 127.2,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f1": {
+   "candidatos": 63,
+   "candidatos_1opcao": 4,
+   "colocados": 20,
+   "colocados_1opcao": 4,
+   "media_candidatura": 130.2,
+   "media_provas": 120.4,
+   "media_secundario": 135.5,
+   "nota_ultimo": 119.7,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2023f2": {
+   "candidatos": 15,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 141.3,
+   "media_provas": 151.0,
+   "media_secundario": 136.0,
+   "nota_ultimo": 141.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 72,
+   "candidatos_1opcao": 10,
+   "colocados": 17,
+   "colocados_1opcao": 10,
+   "media_candidatura": 129.0,
+   "media_provas": 113.9,
+   "media_secundario": 137.0,
+   "nota_ultimo": 115.6,
+   "sobras": 3,
+   "vagas": 20
+  },
+  "2024f2": {
+   "candidatos": 16,
+   "candidatos_1opcao": 2,
+   "colocados": 5,
+   "colocados_1opcao": 0,
+   "media_candidatura": 142.7,
+   "media_provas": 133.4,
+   "media_secundario": 147.6,
+   "nota_ultimo": 138.7,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 126.9,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 40,
+   "candidatos_1opcao": 3,
+   "colocados": 6,
+   "colocados_1opcao": 3,
+   "media_candidatura": 139.8,
+   "media_provas": 135.6,
+   "media_secundario": 144.0,
+   "nota_ultimo": 129.0,
+   "sobras": 18,
+   "vagas": 24
+  },
+  "2025f2": {
+   "candidatos": 8,
+   "candidatos_1opcao": 3,
+   "colocados": 4,
+   "colocados_1opcao": 3,
+   "media_candidatura": 126.2,
+   "media_provas": 118.0,
+   "media_secundario": 134.4,
+   "nota_ultimo": 113.5,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2025f3": {
+   "colocados": 3,
+   "nota_ultimo": 121.3,
+   "sobras": 15,
+   "vagas": 18
+  },
+  "2026f1": {
+   "colocados": 12,
+   "nota_ultimo": 117.0,
+   "sobras": 11,
+   "vagas": 24
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 24
+}

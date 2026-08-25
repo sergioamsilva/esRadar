@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9370",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia Química e Bioquímica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9370",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 67,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 67
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 150.4,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 67,
+   "nota_ultimo": 147.8,
+   "sobras": 0,
+   "vagas": 67
+  },
+  "2019f2": {
+   "colocados": 9,
+   "nota_ultimo": 153.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 151.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 75,
+   "nota_ultimo": 147.4,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 161.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 164.4,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

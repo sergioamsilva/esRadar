@@ -1,0 +1,249 @@
+---
+import Base from "../../layouts/Base.astro";
+import Regua from "../../components/Regua.astro";
+import SerieAnual from "../../components/SerieAnual.astro";
+import {
+  pares,
+  ligacao,
+  formatarNota,
+  formatarInteiro,
+  serieAnual,
+  type Par,
+} from "../../lib/dados";
+
+export function getStaticPaths() {
+  return pares().map((p) => ({ params: { par: p.par }, props: { ficha: p } }));
+}
+
+const { ficha } = Astro.props as { ficha: Par };
+
+const f1_2026 = ficha.series["2026f1"] ?? {};
+const f1_2025 = ficha.series["2025f1"] ?? {};
+const nota2026 = f1_2026.nota_ultimo ?? null;
+const nota2025 = f1_2025.nota_ultimo ?? null;
+const variacao = nota2026 != null && nota2025 != null ? nota2026 - nota2025 : null;
+
+const procura = f1_2025.candidatos_1opcao ?? null;
+const vagas2025 = f1_2025.vagas ?? null;
+const racio = procura != null && vagas2025 ? procura / vagas2025 : null;
+
+const notasF1 = serieAnual(ficha, "nota_ultimo", 1);
+const notasF2 = serieAnual(ficha, "nota_ultimo", 2);
+const candidatos = serieAnual(ficha, "candidatos", 1);
+const candidatos1op = serieAnual(ficha, "candidatos_1opcao", 1);
+
+const titulo = `${ficha.curso} — ${ficha.instituicao}`;
+const descricao =
+  nota2026 != null
+    ? `Nota do último colocado em 2026: ${formatarNota(nota2026)} pontos. Vagas, colocados e procura de 2018 a 2026.`
+    : `Vagas, colocados e procura no Concurso Nacional de Acesso, 2018 a 2026.`;
+---
+
+<Base titulo={titulo} descricao={descricao}>
+  <header class="ficha-cab">
+    <p class="kicker">
+      {ficha.grupo}
+      {ficha.grau && ` · ${ficha.grau}`}
+      {ficha.cnaef_nome && ` · ${ficha.cnaef_nome}`}
+    </p>
+    <h1>{ficha.curso}</h1>
+    <p class="desc">
+      {ficha.instituicao} · par {ficha.par}
+      {!ficha.ativo && " · sem oferta no concurso de 2026"}
+    </p>
+  </header>
+
+  <div class="stats">
+    <div class="stat">
+      <b>{formatarNota(nota2026)}</b>
+      <span>nota do último colocado, 1ª fase 2026</span>
+      {
+        variacao != null && (
+          <em>
+            {variacao >= 0 ? "+" : "−"}
+            {Math.abs(variacao).toLocaleString("pt-PT", { maximumFractionDigits: 1 })} pontos
+            face a 2025
+          </em>
+        )
+      }
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(ficha.vagas_2026)}</b>
+      <span>vagas em 2026</span>
+      {
+        f1_2026.sobras != null &&
+          (f1_2026.sobras > 0 ? (
+            <em>{formatarInteiro(f1_2026.sobras)} sobraram para a 2ª fase</em>
+          ) : (
+            <em>todas preenchidas na 1ª fase</em>
+          ))
+      }
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(f1_2026.colocados)}</b>
+      <span>colocados na 1ª fase de 2026</span>
+    </div>
+    <div class="stat">
+      <b>{racio != null ? racio.toLocaleString("pt-PT", { maximumFractionDigits: 1 }) : "—"}</b>
+      <span>candidatos em 1ª opção por vaga (2025)</span>
+      {procura != null && <em>{formatarInteiro(procura)} escolheram-no em primeiro lugar</em>}
+    </div>
+  </div>
+
+  {
+    nota2026 != null && (
+      <section class="card full regua-card">
+        <h3>Onde cai a nota de corte</h3>
+        <Regua
+          marcas={[{ valor: nota2026, rotulo: "Último colocado, 1ª fase 2026" }]}
+          fantasma={nota2025 != null ? { valor: nota2025, rotulo: "1ª fase 2025" } : null}
+        />
+        <p class="fonte-lin">
+          Escala de candidatura do concurso (0–200); o troço abaixo de 90 não se desenha —
+          nenhum curso público coloca aí.
+        </p>
+      </section>
+    )
+  }
+
+  <div class="grid">
+    <section class="card">
+      <h3>Evolução da nota do último colocado</h3>
+      <SerieAnual
+        titulo="Pontos na escala 0–200, por época"
+        unidade="pontos"
+        series={[
+          { rotulo: "1ª fase", pontos: notasF1, cor: "serie-1" },
+          { rotulo: "2ª fase", pontos: notasF2, cor: "serie-2" },
+        ]}
+      />
+      <p class="cautela">
+        A nota do último colocado mede o equilíbrio entre procura e vagas, não a qualidade
+        do curso. Só existe nas fases em que todas as vagas se preencheram.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Procura</h3>
+      <SerieAnual
+        titulo="Candidaturas à 1ª fase"
+        unidade="candidaturas"
+        inteiro
+        series={[
+          { rotulo: "Candidatos", pontos: candidatos, cor: "serie-1" },
+          { rotulo: "Em 1ª opção", pontos: candidatos1op, cor: "serie-2" },
+        ]}
+      />
+      <p class="cautela">
+        Cada estudante concorre até seis pares curso/instituição: os candidatos contam
+        candidaturas, não pessoas. Os em 1ª opção são a medida honesta da procura.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Como se entra</h3>
+      {
+        ficha.provas_ingresso && (
+          <>
+            <h4 class="sub">Provas de ingresso</h4>
+            <pre class="provas">{ficha.provas_ingresso}</pre>
+          </>
+        )
+      }
+      {
+        ficha.formula && (
+          <>
+            <h4 class="sub">Fórmula</h4>
+            <pre class="provas">{ficha.formula}</pre>
+          </>
+        )
+      }
+      <p class="desc">
+        {ficha.minimo_candidatura != null && `Mínimo de candidatura: ${ficha.minimo_candidatura} pontos. `}
+        {ficha.minimo_provas != null && `Mínimo nas provas: ${ficha.minimo_provas} pontos. `}
+        {ficha.ects != null && `${ficha.ects} ECTS`}
+        {ficha.duracao && `, ${ficha.duracao.toLowerCase()}`}.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Com que notas se entrou em 2025</h3>
+      {
+        f1_2025.media_candidatura != null ? (
+          <ul class="medias">
+            <li>
+              <b>{formatarNota(f1_2025.media_candidatura)}</b>
+              <span>média da nota de candidatura dos colocados</span>
+            </li>
+            <li>
+              <b>{formatarNota(f1_2025.media_provas)}</b>
+              <span>média das provas de ingresso</span>
+            </li>
+            <li>
+              <b>{formatarNota(f1_2025.media_secundario)}</b>
+              <span>média do secundário</span>
+            </li>
+          </ul>
+        ) : (
+          <p class="desc">Sem dados de médias para 2025.</p>
+        )
+      }
+      <p class="fonte-lin">
+        DGES, guia da candidatura 2026 — estatísticas de candidaturas anteriores.
+      </p>
+    </section>
+  </div>
+
+  <p class="fonte-lin voltar">
+    <a href={ligacao("/cursos/")}>← Todos os cursos</a> ·
+    <a href={ligacao(`/instituicao/${ficha.code}/`)}>{ficha.instituicao}</a>
+  </p>
+</Base>
+
+<style>
+  .ficha-cab {
+    padding: 26px 0 4px;
+  }
+  .ficha-cab h1 {
+    font-size: clamp(26px, 4.5vw, 40px);
+    letter-spacing: -0.02em;
+    line-height: 1.12;
+    margin: 6px 0 4px;
+  }
+  .regua-card {
+    margin-top: 20px;
+  }
+  .sub {
+    font-size: var(--t-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin: 14px 0 4px;
+  }
+  .provas {
+    font-family: inherit;
+    font-size: var(--t-sm);
+    white-space: pre-wrap;
+    margin: 0;
+    color: var(--ink-2);
+  }
+  .medias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+  }
+  .medias b {
+    font-size: 1.4rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .medias span {
+    display: block;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .voltar {
+    padding: 18px 0 30px;
+  }
+</style>

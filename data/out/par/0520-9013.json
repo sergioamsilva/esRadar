@@ -1,0 +1,42 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9013",
+ "code": "0520",
+ "concurso": null,
+ "curso": "Biologia Marinha",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra (Campus Figueira da Foz)",
+ "instituicao": "Universidade de Coimbra (Campus Figueira da Foz)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0520-9013",
+ "provas_ingresso": null,
+ "series": {
+  "2024f1": {
+   "colocados": 12,
+   "nota_ultimo": 120.8,
+   "sobras": 28,
+   "vagas": 40
+  },
+  "2024f2": {
+   "colocados": 2,
+   "nota_ultimo": 102.5,
+   "sobras": 30,
+   "vagas": 29
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 114.0,
+   "sobras": 9,
+   "vagas": 10
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

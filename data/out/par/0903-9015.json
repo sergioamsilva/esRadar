@@ -1,0 +1,208 @@
+{
+ "ativo": true,
+ "cnaef": "421",
+ "cnaef_nome": "Biologia e Bioquímica",
+ "codc": "9015",
+ "code": "0903",
+ "concurso": "Nacional",
+ "curso": "Bioquímica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0903-9015",
+ "provas_ingresso": "Duas das seguintes provas:\n02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 80,
+   "nota_ultimo": 149.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2018f2": {
+   "colocados": 13,
+   "nota_ultimo": 150.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 3,
+   "nota_ultimo": 149.2,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 80,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2019f2": {
+   "colocados": 10,
+   "nota_ultimo": 153.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 151.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 81,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2020f2": {
+   "colocados": 9,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 80,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2021f2": {
+   "colocados": 11,
+   "nota_ultimo": 173.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 80,
+   "nota_ultimo": 169.6,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2022f2": {
+   "colocados": 14,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2022f3": {
+   "colocados": 2,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f1": {
+   "candidatos": 664,
+   "candidatos_1opcao": 142,
+   "colocados": 80,
+   "colocados_1opcao": 52,
+   "media_candidatura": 170.3,
+   "media_provas": 163.4,
+   "media_secundario": 174.9,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2023f2": {
+   "candidatos": 103,
+   "candidatos_1opcao": 44,
+   "colocados": 9,
+   "colocados_1opcao": 4,
+   "media_candidatura": 166.6,
+   "media_provas": 158.2,
+   "media_secundario": 172.2,
+   "nota_ultimo": 163.6,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 5,
+   "nota_ultimo": 154.4,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 573,
+   "candidatos_1opcao": 103,
+   "colocados": 80,
+   "colocados_1opcao": 59,
+   "media_candidatura": 168.5,
+   "media_provas": 162.6,
+   "media_secundario": 172.4,
+   "nota_ultimo": 159.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2024f2": {
+   "candidatos": 70,
+   "candidatos_1opcao": 17,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 162.2,
+   "media_provas": 155.0,
+   "media_secundario": 167.0,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 155.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 462,
+   "candidatos_1opcao": 72,
+   "colocados": 80,
+   "colocados_1opcao": 53,
+   "media_candidatura": 162.2,
+   "media_provas": 154.5,
+   "media_secundario": 169.9,
+   "nota_ultimo": 148.3,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2025f2": {
+   "candidatos": 52,
+   "candidatos_1opcao": 10,
+   "colocados": 10,
+   "colocados_1opcao": 4,
+   "media_candidatura": 149.5,
+   "media_provas": 137.6,
+   "media_secundario": 161.3,
+   "nota_ultimo": 140.3,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2025f3": {
+   "colocados": 3,
+   "nota_ultimo": 137.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2026f1": {
+   "colocados": 80,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 80
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 80
+}

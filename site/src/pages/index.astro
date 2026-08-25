@@ -1,0 +1,264 @@
+---
+import Base from "../layouts/Base.astro";
+import SerieAnual from "../components/SerieAnual.astro";
+import { cursos, nacional, epoca, ligacao, formatarInteiro } from "../lib/dados";
+
+const indice = cursos();
+const nac = nacional();
+const ep = epoca();
+
+const vagas2026 = indice.reduce((s, c) => s + (c.vagas ?? 0), 0);
+const colocadosF1 = indice.reduce((s, c) => s + (c.colocados_2026f1 ?? 0), 0);
+const sobrasF1 = indice.reduce((s, c) => s + (c.sobras_2026f1 ?? 0), 0);
+
+const serieColocados = Object.entries(nac.anos)
+  .map(([ano, v]) => ({ ano: Number(ano), valor: v.colocados }))
+  .filter((p) => p.valor > 0);
+
+/* Maiores movimentos da nota de corte entre 2025 e 2026, 1ª fase. */
+const comVariacao = indice
+  .filter((c) => c.nota_2026f1 != null && c.nota_2025f1 != null)
+  .map((c) => ({ ...c, delta: c.nota_2026f1! - c.nota_2025f1! }));
+const subidas = [...comVariacao].sort((a, b) => b.delta - a.delta).slice(0, 6);
+const descidas = [...comVariacao].sort((a, b) => a.delta - b.delta).slice(0, 6);
+
+/* «Onde entro com a minha média?» — as notas de corte de 2026, compactas
+   (par|nota), para o cálculo no cliente. ~30 KB. Sem JavaScript o bloco
+   não aparece; a lista de cursos é o caminho. */
+const ALCANCE = indice
+  .filter((c) => c.nota_2026f1 != null || (c.sobras_2026f1 ?? 0) > 0)
+  .map((c) => ({
+    n: c.nota_2026f1,
+    c: c.curso,
+    i: c.grupo,
+    u: ligacao(`/curso/${c.par}/`),
+  }));
+const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
+---
+
+<Base
+  titulo="Panorama"
+  descricao="As colocações no ensino superior público, curso a curso: notas do último colocado, vagas, procura e sobras, de 2018 a 2026."
+>
+  <section class="hero">
+    <h1>
+      Este ano, <b>{formatarInteiro(colocadosF1)}</b> estudantes entraram na 1ª fase.
+      <span class="hero__sub">Sobraram {formatarInteiro(sobrasF1)} vagas para a 2ª.</span>
+    </h1>
+    <p class="desc medida">
+      O esRadar reorganiza os resultados do Concurso Nacional de Acesso publicados pela
+      DGES — incluindo os anos que a DGES já retirou do ar, recuperados do Arquivo.pt.
+      Época de 2026: {fasesTexto} fase{ep.fases_arquivadas.length > 1 ? "s" : ""} arquivada{ep.fases_arquivadas.length > 1 ? "s" : ""}.
+    </p>
+  </section>
+
+  <div class="stats">
+    <div class="stat">
+      <b>{formatarInteiro(vagas2026)}</b>
+      <span>vagas iniciais em 2026</span>
+      <em>{formatarInteiro(indice.length)} pares curso/instituição</em>
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(colocadosF1)}</b>
+      <span>colocados na 1ª fase</span>
+    </div>
+    <div class="stat">
+      <b>{formatarInteiro(sobrasF1)}</b>
+      <span>vagas sobrantes para a 2ª fase</span>
+    </div>
+    <div class="stat">
+      <b>{vagas2026 ? Math.round(((vagas2026 - sobrasF1) / vagas2026) * 100) : 0}%</b>
+      <span>taxa de ocupação na 1ª fase</span>
+    </div>
+  </div>
+
+  <section class="card full alcance js-so" hidden data-alcance>
+    <h3>Onde entrava com a minha média?</h3>
+    <p class="desc">
+      Arraste até à sua nota de candidatura (0–200) e veja quantos cursos ficaram ao seu
+      alcance na 1ª fase de 2026 — nota de corte igual ou abaixo da sua, ou vagas por
+      preencher.
+    </p>
+    <div class="alcance__controlo">
+      <input
+        type="range"
+        min="95"
+        max="200"
+        step="0.5"
+        value="140"
+        data-alcance-nota
+        aria-label="A minha nota de candidatura, de 95 a 200"
+      />
+      <output class="alcance__valor" data-alcance-valor>140,0</output>
+    </div>
+    <p class="alcance__resultado" data-alcance-resultado aria-live="polite"></p>
+    <p class="cautela">
+      Aproximação com as notas de corte de 2026 pelo contingente geral: a próxima época
+      terá notas diferentes, e cada curso exige provas de ingresso específicas.
+    </p>
+  </section>
+  <script type="application/json" is:inline data-alcance-dados set:html={JSON.stringify(ALCANCE)} />
+
+  <div class="grid">
+    <section class="card">
+      <h3>Colocados por ano, todas as fases</h3>
+      <SerieAnual
+        titulo="Estudantes colocados no concurso nacional"
+        unidade="estudantes"
+        inteiro
+        series={[{ rotulo: "Colocados", pontos: serieColocados, cor: "serie-1" }]}
+      />
+      <p class="fonte-lin">
+        DGES, resultados do CNA 2018–2026. 2026 só inclui as fases já decorridas.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Notas de corte em movimento</h3>
+      <p class="desc">Maiores variações da 1ª fase, de 2025 para 2026.</p>
+      <h4 class="mov__rotulo mov__rotulo--sobe">A subir</h4>
+      <ul class="mov">
+        {
+          subidas.map((c) => (
+            <li>
+              <a href={ligacao(`/curso/${c.par}/`)}>
+                {c.curso} <span>{c.grupo}</span>
+              </a>
+              <b>+{c.delta.toLocaleString("pt-PT", { maximumFractionDigits: 1 })}</b>
+            </li>
+          ))
+        }
+      </ul>
+      <h4 class="mov__rotulo mov__rotulo--desce">A descer</h4>
+      <ul class="mov">
+        {
+          descidas.map((c) => (
+            <li>
+              <a href={ligacao(`/curso/${c.par}/`)}>
+                {c.curso} <span>{c.grupo}</span>
+              </a>
+              <b>−{Math.abs(c.delta).toLocaleString("pt-PT", { maximumFractionDigits: 1 })}</b>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const seccao = document.querySelector<HTMLElement>("[data-alcance]");
+  const slider = document.querySelector<HTMLInputElement>("[data-alcance-nota]");
+  const valor = document.querySelector<HTMLElement>("[data-alcance-valor]");
+  const resultado = document.querySelector<HTMLElement>("[data-alcance-resultado]");
+  const dados: { n: number | null; c: string; i: string; u: string }[] = JSON.parse(
+    document.querySelector("[data-alcance-dados]")?.textContent ?? "[]",
+  );
+  if (seccao && dados.length) seccao.hidden = false;
+
+  const atualizar = () => {
+    if (!slider || !valor || !resultado) return;
+    const nota = Number(slider.value);
+    valor.textContent = nota.toLocaleString("pt-PT", { minimumFractionDigits: 1 });
+    const alcancaveis = dados.filter((d) => d.n == null || d.n <= nota);
+    const total = dados.length;
+    resultado.innerHTML = `<b>${alcancaveis.length.toLocaleString("pt-PT")}</b> de ${total.toLocaleString(
+      "pt-PT",
+    )} cursos ao alcance na 1ª fase de 2026.`;
+  };
+  slider?.addEventListener("input", atualizar);
+  atualizar();
+</script>
+
+<style>
+  .hero {
+    padding: 34px 0 10px;
+  }
+  .hero h1 {
+    font-size: clamp(26px, 4.6vw, 44px);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    max-width: 24ch;
+  }
+  .hero h1 b {
+    color: var(--accent-texto);
+    font-variant-numeric: tabular-nums;
+  }
+  .hero__sub {
+    display: block;
+    font-size: 0.6em;
+    font-weight: 500;
+    color: var(--ink-2);
+    margin-top: 6px;
+  }
+  .alcance {
+    margin-top: 22px;
+  }
+  .alcance__controlo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 14px 0 6px;
+  }
+  .alcance__controlo input[type="range"] {
+    flex: 1;
+    accent-color: var(--accent);
+  }
+  .alcance__valor {
+    font-size: 1.6rem;
+    font-weight: 750;
+    font-variant-numeric: tabular-nums;
+    min-width: 3.2ch;
+    text-align: right;
+  }
+  .alcance__resultado {
+    font-size: var(--t-md);
+  }
+  .alcance__resultado b {
+    font-size: 1.25em;
+    font-variant-numeric: tabular-nums;
+  }
+  .mov {
+    list-style: none;
+    margin: 0 0 8px;
+    padding: 0;
+  }
+  .mov li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--grid);
+    font-size: var(--t-sm);
+  }
+  .mov a {
+    text-decoration: none;
+    color: inherit;
+    min-width: 0;
+  }
+  .mov a:hover {
+    color: var(--accent-texto);
+  }
+  .mov a span {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+  }
+  .mov b {
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+  .mov__rotulo {
+    font-size: var(--t-2xs);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 12px 0 2px;
+  }
+  .mov__rotulo--sobe {
+    color: var(--pos-texto);
+  }
+  .mov__rotulo--desce {
+    color: var(--neg-texto);
+  }
+</style>

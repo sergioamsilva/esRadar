@@ -1,0 +1,209 @@
+{
+ "ativo": true,
+ "cnaef": "723",
+ "cnaef_nome": "Enfermagem",
+ "codc": "9500",
+ "code": "7055",
+ "concurso": "Nacional",
+ "curso": "Enfermagem",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Portalegre, Santarém, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\nP11 Técnico Auxiliar de Saúde\nR72 Técnico de Geriatria\nS62 Técnico Auxiliar de Saúde",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Portalegre",
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Saúde",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "7055-9500",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
+ "series": {
+  "2018f1": {
+   "colocados": 48,
+   "nota_ultimo": 100.6,
+   "sobras": 26,
+   "vagas": 74
+  },
+  "2018f2": {
+   "colocados": 35,
+   "nota_ultimo": 119.1,
+   "sobras": 0,
+   "vagas": 34
+  },
+  "2018f3": {
+   "colocados": 8,
+   "nota_ultimo": 116.7,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2019f1": {
+   "colocados": 44,
+   "nota_ultimo": 96.0,
+   "sobras": 30,
+   "vagas": 74
+  },
+  "2019f2": {
+   "colocados": 40,
+   "nota_ultimo": 118.2,
+   "sobras": 0,
+   "vagas": 39
+  },
+  "2019f3": {
+   "colocados": 9,
+   "nota_ultimo": 115.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2020f1": {
+   "colocados": 62,
+   "nota_ultimo": 133.4,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 145.7,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f1": {
+   "colocados": 64,
+   "nota_ultimo": 141.4,
+   "sobras": 0,
+   "vagas": 62
+  },
+  "2021f2": {
+   "colocados": 7,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 60,
+   "nota_ultimo": 141.6,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2022f2": {
+   "colocados": 22,
+   "nota_ultimo": 135.8,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2022f3": {
+   "colocados": 5,
+   "nota_ultimo": 139.6,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2023f1": {
+   "candidatos": 245,
+   "candidatos_1opcao": 34,
+   "colocados": 60,
+   "colocados_1opcao": 25,
+   "media_candidatura": 139.2,
+   "media_provas": 123.9,
+   "media_secundario": 147.4,
+   "nota_ultimo": 132.1,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2023f2": {
+   "candidatos": 98,
+   "candidatos_1opcao": 15,
+   "colocados": 14,
+   "colocados_1opcao": 0,
+   "media_candidatura": 139.6,
+   "media_provas": 122.2,
+   "media_secundario": 149.0,
+   "nota_ultimo": 135.9,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2023f3": {
+   "colocados": 5,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f1": {
+   "candidatos": 207,
+   "candidatos_1opcao": 11,
+   "colocados": 38,
+   "colocados_1opcao": 11,
+   "media_candidatura": 130.8,
+   "media_provas": 114.1,
+   "media_secundario": 139.8,
+   "nota_ultimo": 112.0,
+   "sobras": 25,
+   "vagas": 65
+  },
+  "2024f2": {
+   "candidatos": 78,
+   "candidatos_1opcao": 5,
+   "colocados": 26,
+   "colocados_1opcao": 5,
+   "media_candidatura": 132.0,
+   "media_provas": 113.3,
+   "media_secundario": 142.1,
+   "nota_ultimo": 110.0,
+   "sobras": 9,
+   "vagas": 34
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 127.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 274,
+   "candidatos_1opcao": 22,
+   "colocados": 65,
+   "colocados_1opcao": 15,
+   "media_candidatura": 133.0,
+   "media_provas": 120.6,
+   "media_secundario": 145.4,
+   "nota_ultimo": 127.3,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2025f2": {
+   "candidatos": 98,
+   "candidatos_1opcao": 18,
+   "colocados": 16,
+   "colocados_1opcao": 3,
+   "media_candidatura": 135.4,
+   "media_provas": 125.3,
+   "media_secundario": 145.4,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 136.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 71,
+   "nota_ultimo": 105.5,
+   "sobras": 1,
+   "vagas": 75
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 75
+}

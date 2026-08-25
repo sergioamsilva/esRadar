@@ -1,0 +1,206 @@
+{
+ "ativo": true,
+ "cnaef": "421",
+ "cnaef_nome": "Biologia e Bioquímica",
+ "codc": "9015",
+ "code": "0602",
+ "concurso": "Nacional",
+ "curso": "Bioquímica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0602-9015",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 30,
+   "nota_ultimo": 110.3,
+   "sobras": 10,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 110.3,
+   "sobras": 6,
+   "vagas": 14
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 8
+  },
+  "2019f1": {
+   "colocados": 27,
+   "nota_ultimo": 112.4,
+   "sobras": 11,
+   "vagas": 38
+  },
+  "2019f2": {
+   "colocados": 10,
+   "nota_ultimo": 116.8,
+   "sobras": 6,
+   "vagas": 16
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 6,
+   "vagas": 6
+  },
+  "2020f1": {
+   "colocados": 37,
+   "nota_ultimo": 125.1,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2020f2": {
+   "colocados": 8,
+   "nota_ultimo": 113.6,
+   "sobras": 3,
+   "vagas": 10
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 126.7,
+   "sobras": 4,
+   "vagas": 5
+  },
+  "2021f1": {
+   "colocados": 40,
+   "nota_ultimo": 141.7,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2021f3": {
+   "colocados": 2,
+   "nota_ultimo": 145.7,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2022f1": {
+   "colocados": 32,
+   "nota_ultimo": 134.9,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2022f2": {
+   "colocados": 2,
+   "nota_ultimo": 133.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 187,
+   "candidatos_1opcao": 10,
+   "colocados": 32,
+   "colocados_1opcao": 9,
+   "media_candidatura": 142.8,
+   "media_provas": 124.1,
+   "media_secundario": 152.8,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2023f2": {
+   "candidatos": 18,
+   "candidatos_1opcao": 2,
+   "colocados": 9,
+   "colocados_1opcao": 2,
+   "media_candidatura": 127.2,
+   "media_provas": 113.6,
+   "media_secundario": 134.6,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 126.0,
+   "sobras": 1,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 140,
+   "candidatos_1opcao": 14,
+   "colocados": 25,
+   "colocados_1opcao": 14,
+   "media_candidatura": 139.6,
+   "media_provas": 123.6,
+   "media_secundario": 148.1,
+   "nota_ultimo": 101.0,
+   "sobras": 6,
+   "vagas": 32
+  },
+  "2024f2": {
+   "candidatos": 30,
+   "candidatos_1opcao": 4,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 132.8,
+   "media_provas": 118.4,
+   "media_secundario": 140.6,
+   "nota_ultimo": 124.7,
+   "sobras": 9,
+   "vagas": 12
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 131.0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2025f1": {
+   "candidatos": 162,
+   "candidatos_1opcao": 19,
+   "colocados": 29,
+   "colocados_1opcao": 18,
+   "media_candidatura": 140.2,
+   "media_provas": 127.9,
+   "media_secundario": 152.5,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 29
+  },
+  "2025f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 5,
+   "colocados": 9,
+   "colocados_1opcao": 5,
+   "media_candidatura": 129.8,
+   "media_provas": 121.6,
+   "media_secundario": 137.9,
+   "nota_ultimo": 115.3,
+   "sobras": 4,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 6,
+   "vagas": 5
+  },
+  "2026f1": {
+   "colocados": 18,
+   "nota_ultimo": 121.5,
+   "sobras": 13,
+   "vagas": 32
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 32
+}

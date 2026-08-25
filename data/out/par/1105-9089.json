@@ -1,0 +1,150 @@
+{
+ "ativo": true,
+ "cnaef": "582",
+ "cnaef_nome": "Construção Civil e Engenharia Civil",
+ "codc": "9089",
+ "code": "1105",
+ "concurso": "Nacional",
+ "curso": "Engenharia Civil",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "1105-9089",
+ "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "series": {
+  "2021f1": {
+   "colocados": 122,
+   "nota_ultimo": 117.5,
+   "sobras": 39,
+   "vagas": 158
+  },
+  "2021f2": {
+   "colocados": 40,
+   "nota_ultimo": 112.3,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2022f1": {
+   "colocados": 121,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 121
+  },
+  "2022f2": {
+   "colocados": 14,
+   "nota_ultimo": 131.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 597,
+   "candidatos_1opcao": 104,
+   "colocados": 121,
+   "colocados_1opcao": 83,
+   "media_candidatura": 156.0,
+   "media_provas": 140.0,
+   "media_secundario": 171.9,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 121
+  },
+  "2023f2": {
+   "candidatos": 68,
+   "candidatos_1opcao": 23,
+   "colocados": 3,
+   "colocados_1opcao": 2,
+   "media_candidatura": 161.0,
+   "media_provas": 156.7,
+   "media_secundario": 165.3,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f3": {
+   "colocados": 4,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 673,
+   "candidatos_1opcao": 131,
+   "colocados": 121,
+   "colocados_1opcao": 87,
+   "media_candidatura": 156.9,
+   "media_provas": 143.4,
+   "media_secundario": 170.4,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 121
+  },
+  "2024f2": {
+   "candidatos": 73,
+   "candidatos_1opcao": 21,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 166.5,
+   "media_provas": 155.8,
+   "media_secundario": 177.1,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 815,
+   "candidatos_1opcao": 178,
+   "colocados": 121,
+   "colocados_1opcao": 86,
+   "media_candidatura": 164.9,
+   "media_provas": 154.2,
+   "media_secundario": 175.5,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 121
+  },
+  "2025f2": {
+   "candidatos": 120,
+   "candidatos_1opcao": 63,
+   "colocados": 7,
+   "colocados_1opcao": 6,
+   "media_candidatura": 160.3,
+   "media_provas": 148.4,
+   "media_secundario": 172.1,
+   "nota_ultimo": 157.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 140,
+   "nota_ultimo": 158.8,
+   "sobras": 0,
+   "vagas": 140
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 140
+}

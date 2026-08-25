@@ -1,0 +1,40 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L226",
+ "code": "3065",
+ "concurso": null,
+ "curso": "Informática Industrial",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3065-L226",
+ "provas_ingresso": null,
+ "series": {
+  "2021f1": {
+   "colocados": 1,
+   "nota_ultimo": 119.3,
+   "sobras": 29,
+   "vagas": 30
+  },
+  "2021f2": {
+   "colocados": 0,
+   "sobras": 29,
+   "vagas": 29
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 29,
+   "vagas": 29
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

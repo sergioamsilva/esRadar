@@ -1,0 +1,42 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L248",
+ "code": "3131",
+ "concurso": null,
+ "curso": "Gestão do Património Cultural (regime pós-laboral)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-L248",
+ "provas_ingresso": null,
+ "series": {
+  "2022f1": {
+   "colocados": 12,
+   "nota_ultimo": 113.0,
+   "sobras": 8,
+   "vagas": 20
+  },
+  "2022f2": {
+   "colocados": 13,
+   "nota_ultimo": 127.8,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2022f3": {
+   "colocados": 5,
+   "nota_ultimo": 128.6,
+   "sobras": 0,
+   "vagas": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

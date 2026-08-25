@@ -1,0 +1,204 @@
+{
+ "ativo": true,
+ "cnaef": "211",
+ "cnaef_nome": "Belas-Artes",
+ "codc": "9182",
+ "code": "0902",
+ "concurso": "Nacional",
+ "curso": "História da Arte",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0902-9182",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n12 Hist. da Cultura e Artes\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 41,
+   "nota_ultimo": 112.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 41,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 5,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 47,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2020f2": {
+   "colocados": 8,
+   "nota_ultimo": 148.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 41,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 40,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2022f2": {
+   "colocados": 2,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 211,
+   "candidatos_1opcao": 24,
+   "colocados": 40,
+   "colocados_1opcao": 19,
+   "media_candidatura": 150.3,
+   "media_provas": 148.0,
+   "media_secundario": 152.7,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2023f2": {
+   "candidatos": 84,
+   "candidatos_1opcao": 14,
+   "colocados": 11,
+   "colocados_1opcao": 4,
+   "media_candidatura": 152.1,
+   "media_provas": 151.3,
+   "media_secundario": 153.0,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2023f3": {
+   "colocados": 2,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 308,
+   "candidatos_1opcao": 46,
+   "colocados": 40,
+   "colocados_1opcao": 22,
+   "media_candidatura": 159.3,
+   "media_provas": 158.9,
+   "media_secundario": 159.7,
+   "nota_ultimo": 148.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2024f2": {
+   "candidatos": 85,
+   "candidatos_1opcao": 16,
+   "colocados": 4,
+   "colocados_1opcao": 2,
+   "media_candidatura": 163.8,
+   "media_provas": 165.0,
+   "media_secundario": 162.5,
+   "nota_ultimo": 151.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 208,
+   "candidatos_1opcao": 32,
+   "colocados": 40,
+   "colocados_1opcao": 25,
+   "media_candidatura": 153.5,
+   "media_provas": 149.4,
+   "media_secundario": 157.6,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2025f2": {
+   "candidatos": 34,
+   "candidatos_1opcao": 4,
+   "colocados": 10,
+   "colocados_1opcao": 4,
+   "media_candidatura": 142.4,
+   "media_provas": 138.0,
+   "media_secundario": 146.8,
+   "nota_ultimo": 136.3,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 41,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 41
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 41
+}

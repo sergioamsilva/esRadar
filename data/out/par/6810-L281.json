@@ -1,0 +1,134 @@
+{
+ "ativo": true,
+ "cnaef": "142",
+ "cnaef_nome": "Ciências da Educação",
+ "codc": "L281",
+ "code": "6810",
+ "concurso": "Nacional",
+ "curso": "Tecnologias Digitais Educativas",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "ISCTE",
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa (Sintra)",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "6810-L281",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n11 História\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português",
+ "series": {
+  "2022f1": {
+   "colocados": 21,
+   "nota_ultimo": 132.6,
+   "sobras": 0,
+   "vagas": 21
+  },
+  "2022f2": {
+   "colocados": 4,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 137.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f1": {
+   "candidatos": 138,
+   "candidatos_1opcao": 31,
+   "colocados": 23,
+   "colocados_1opcao": 10,
+   "media_candidatura": 149.2,
+   "media_provas": 145.4,
+   "media_secundario": 151.7,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 23
+  },
+  "2023f2": {
+   "candidatos": 56,
+   "candidatos_1opcao": 15,
+   "colocados": 8,
+   "colocados_1opcao": 3,
+   "media_candidatura": 143.4,
+   "media_provas": 140.3,
+   "media_secundario": 145.4,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2023f3": {
+   "colocados": 3,
+   "nota_ultimo": 135.4,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 99,
+   "candidatos_1opcao": 20,
+   "colocados": 35,
+   "colocados_1opcao": 16,
+   "media_candidatura": 142.0,
+   "media_provas": 129.2,
+   "media_secundario": 150.6,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2024f2": {
+   "candidatos": 45,
+   "candidatos_1opcao": 10,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 150.2,
+   "media_provas": 140.8,
+   "media_secundario": 156.4,
+   "nota_ultimo": 144.2,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 170,
+   "candidatos_1opcao": 21,
+   "colocados": 35,
+   "colocados_1opcao": 11,
+   "media_candidatura": 141.7,
+   "media_provas": 135.4,
+   "media_secundario": 147.9,
+   "nota_ultimo": 133.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2025f2": {
+   "candidatos": 60,
+   "candidatos_1opcao": 13,
+   "colocados": 13,
+   "colocados_1opcao": 5,
+   "media_candidatura": 137.1,
+   "media_provas": 129.6,
+   "media_secundario": 144.5,
+   "nota_ultimo": 131.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2026f1": {
+   "colocados": 35,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 35
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 35
+}

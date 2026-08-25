@@ -1,0 +1,203 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9155",
+ "code": "0906",
+ "concurso": "Nacional",
+ "curso": "Gestão de Informação",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0906-9155",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n16 Matemática\nou\n07 Física e Química\n19 Matemática A\nou\n16 Matemática\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n13 Inglês\n16 Matemática\nou\n04 Economia\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 56,
+   "nota_ultimo": 169.9,
+   "sobras": 0,
+   "vagas": 56
+  },
+  "2018f2": {
+   "colocados": 10,
+   "nota_ultimo": 169.7,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 169.4,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 57,
+   "nota_ultimo": 171.3,
+   "sobras": 0,
+   "vagas": 56
+  },
+  "2019f2": {
+   "colocados": 8,
+   "nota_ultimo": 170.2,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 4,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f1": {
+   "colocados": 70,
+   "nota_ultimo": 167.9,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 173.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 64,
+   "nota_ultimo": 170.3,
+   "sobras": 0,
+   "vagas": 64
+  },
+  "2021f2": {
+   "colocados": 10,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2022f1": {
+   "colocados": 69,
+   "nota_ultimo": 174.0,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2022f2": {
+   "colocados": 7,
+   "nota_ultimo": 176.6,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 375,
+   "candidatos_1opcao": 104,
+   "colocados": 64,
+   "colocados_1opcao": 44,
+   "media_candidatura": 175.5,
+   "media_provas": 174.4,
+   "media_secundario": 176.1,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 64
+  },
+  "2023f2": {
+   "candidatos": 68,
+   "candidatos_1opcao": 32,
+   "colocados": 5,
+   "colocados_1opcao": 5,
+   "media_candidatura": 178.4,
+   "media_provas": 181.3,
+   "media_secundario": 176.8,
+   "nota_ultimo": 175.7,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2024f1": {
+   "candidatos": 351,
+   "candidatos_1opcao": 86,
+   "colocados": 64,
+   "colocados_1opcao": 42,
+   "media_candidatura": 177.6,
+   "media_provas": 180.2,
+   "media_secundario": 176.1,
+   "nota_ultimo": 173.6,
+   "sobras": 0,
+   "vagas": 64
+  },
+  "2024f2": {
+   "candidatos": 67,
+   "candidatos_1opcao": 25,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 179.6,
+   "media_provas": 175.5,
+   "media_secundario": 181.8,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 161,
+   "candidatos_1opcao": 33,
+   "colocados": 59,
+   "colocados_1opcao": 33,
+   "media_candidatura": 163.5,
+   "media_provas": 156.9,
+   "media_secundario": 170.0,
+   "nota_ultimo": 131.5,
+   "sobras": 5,
+   "vagas": 64
+  },
+  "2025f2": {
+   "candidatos": 144,
+   "candidatos_1opcao": 42,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 167.3,
+   "media_provas": 160.3,
+   "media_secundario": 174.2,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 160.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 64,
+   "nota_ultimo": 158.3,
+   "sobras": 0,
+   "vagas": 64
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 64
+}

@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9869",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Contabilidade (regime pós-laboral)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-9869",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 42,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 42,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 42
+  },
+  "2019f2": {
+   "colocados": 6,
+   "nota_ultimo": 145.4,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 42,
+   "nota_ultimo": 146.6,
+   "sobras": 0,
+   "vagas": 41
+  },
+  "2020f2": {
+   "colocados": 6,
+   "nota_ultimo": 155.6,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 4,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

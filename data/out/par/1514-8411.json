@@ -1,0 +1,200 @@
+{
+ "ativo": true,
+ "cnaef": "581",
+ "cnaef_nome": "Arquitetura e Urbanismo",
+ "codc": "8411",
+ "code": "1514",
+ "concurso": "Nacional",
+ "curso": "Planeamento e Gestão do Território",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "1514-8411",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n16 Matemática\n18 Português\nou\n09 Geografia\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n04 Economia\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 44,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 43
+  },
+  "2018f2": {
+   "colocados": 6,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f1": {
+   "colocados": 43,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 41
+  },
+  "2019f2": {
+   "colocados": 7,
+   "nota_ultimo": 139.5,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 53,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 12,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 49,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 49
+  },
+  "2021f2": {
+   "colocados": 11,
+   "nota_ultimo": 149.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 52,
+   "nota_ultimo": 140.5,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2022f2": {
+   "colocados": 8,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 300,
+   "candidatos_1opcao": 49,
+   "colocados": 48,
+   "colocados_1opcao": 27,
+   "media_candidatura": 148.7,
+   "media_provas": 148.4,
+   "media_secundario": 148.9,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 48
+  },
+  "2023f2": {
+   "candidatos": 87,
+   "candidatos_1opcao": 13,
+   "colocados": 8,
+   "colocados_1opcao": 2,
+   "media_candidatura": 146.4,
+   "media_provas": 150.8,
+   "media_secundario": 142.0,
+   "nota_ultimo": 139.5,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 4
+  },
+  "2024f1": {
+   "candidatos": 264,
+   "candidatos_1opcao": 39,
+   "colocados": 48,
+   "colocados_1opcao": 27,
+   "media_candidatura": 144.1,
+   "media_provas": 141.5,
+   "media_secundario": 146.7,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 48
+  },
+  "2024f2": {
+   "candidatos": 73,
+   "candidatos_1opcao": 17,
+   "colocados": 11,
+   "colocados_1opcao": 4,
+   "media_candidatura": 150.2,
+   "media_provas": 149.0,
+   "media_secundario": 151.3,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2024f3": {
+   "colocados": 6,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f1": {
+   "candidatos": 39,
+   "candidatos_1opcao": 3,
+   "colocados": 11,
+   "colocados_1opcao": 3,
+   "media_candidatura": 136.8,
+   "media_provas": 124.1,
+   "media_secundario": 149.4,
+   "nota_ultimo": 126.5,
+   "sobras": 37,
+   "vagas": 48
+  },
+  "2025f2": {
+   "candidatos": 15,
+   "candidatos_1opcao": 2,
+   "colocados": 8,
+   "colocados_1opcao": 2,
+   "media_candidatura": 134.4,
+   "media_provas": 124.8,
+   "media_secundario": 143.9,
+   "nota_ultimo": 120.5,
+   "sobras": 32,
+   "vagas": 40
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2026f1": {
+   "colocados": 48,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 48
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 48
+}

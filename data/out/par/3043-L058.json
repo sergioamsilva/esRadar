@@ -1,0 +1,88 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L058",
+ "code": "3043",
+ "concurso": null,
+ "curso": "Tecnologia e Gestão Industrial",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3043-L058",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 3,
+   "nota_ultimo": 116.2,
+   "sobras": 30,
+   "vagas": 33
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 115.1,
+   "sobras": 31,
+   "vagas": 30
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  },
+  "2019f1": {
+   "colocados": 2,
+   "nota_ultimo": 122.0,
+   "sobras": 31,
+   "vagas": 33
+  },
+  "2019f2": {
+   "colocados": 0,
+   "sobras": 33,
+   "vagas": 32
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2020f1": {
+   "colocados": 0,
+   "sobras": 33,
+   "vagas": 33
+  },
+  "2020f2": {
+   "colocados": 0,
+   "sobras": 33,
+   "vagas": 33
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 114.9,
+   "sobras": 4,
+   "vagas": 5
+  },
+  "2021f1": {
+   "colocados": 0,
+   "sobras": 36,
+   "vagas": 36
+  },
+  "2021f2": {
+   "colocados": 0,
+   "sobras": 36,
+   "vagas": 36
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,104 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8437",
+ "code": "3023",
+ "concurso": null,
+ "curso": "Solicitadoria (regime de ensino a distância)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3023-8437",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 14,
+   "nota_ultimo": 104.4,
+   "sobras": 13,
+   "vagas": 27
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 99.0,
+   "sobras": 10,
+   "vagas": 17
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 7,
+   "nota_ultimo": 105.0,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 7,
+   "nota_ultimo": 106.1,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 26,
+   "nota_ultimo": 97.0,
+   "sobras": 17,
+   "vagas": 43
+  },
+  "2020f2": {
+   "colocados": 22,
+   "nota_ultimo": 121.6,
+   "sobras": 0,
+   "vagas": 22
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 40,
+   "nota_ultimo": 121.9,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 140.9,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 30,
+   "nota_ultimo": 138.1,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2022f2": {
+   "colocados": 4,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

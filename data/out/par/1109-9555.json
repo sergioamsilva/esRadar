@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9555",
+ "code": "1109",
+ "concurso": null,
+ "curso": "Psicologia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1109-9555",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 107,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 107
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 163.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 107,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 107
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 111,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 107
+  },
+  "2020f2": {
+   "colocados": 14,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

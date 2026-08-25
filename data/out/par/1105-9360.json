@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9360",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Engenharia Civil",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9360",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 121,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 121
+  },
+  "2018f2": {
+   "colocados": 13,
+   "nota_ultimo": 137.3,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 147.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 121,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 121
+  },
+  "2019f2": {
+   "colocados": 13,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 157,
+   "nota_ultimo": 122.3,
+   "sobras": 0,
+   "vagas": 155
+  },
+  "2020f2": {
+   "colocados": 11,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,194 @@
+{
+ "ativo": true,
+ "cnaef": "723",
+ "cnaef_nome": "Enfermagem",
+ "codc": "9500",
+ "code": "7040",
+ "concurso": "Nacional",
+ "curso": "Enfermagem",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Castelo Branco, Coimbra, Guarda, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 3%\nCursos com acesso preferencial:\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP11 Técnico Auxiliar de Saúde\nP12 Técnico Auxiliar Protésico\nP16 Técnico de Análise Laboratorial\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP68 Técnico de Ótica Ocular\nP76 Técnico de Química Industrial\nP87 Técnico de Termalismo\nR33 Bombeiro\nR41 Técnico Assistente Dentário\nR42 Técnico Auxiliar de Farmácia\nR44 Técnico da Qualidade\nR50 Técnico de Apoio Familiar e de Apoio à Comunidade\nR72 Técnico de Geriatria\nU18 Técnico de Segurança e Higiene do Trabalho",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico da Guarda",
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7040-9500",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2018f1": {
+   "colocados": 74,
+   "nota_ultimo": 100.0,
+   "sobras": 0,
+   "vagas": 74
+  },
+  "2018f2": {
+   "colocados": 22,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2019f1": {
+   "colocados": 74,
+   "nota_ultimo": 104.2,
+   "sobras": 26,
+   "vagas": 100
+  },
+  "2019f2": {
+   "colocados": 43,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 42
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2020f1": {
+   "colocados": 115,
+   "nota_ultimo": 134.2,
+   "sobras": 0,
+   "vagas": 106
+  },
+  "2020f2": {
+   "colocados": 7,
+   "nota_ultimo": 146.4,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 105,
+   "nota_ultimo": 146.6,
+   "sobras": 0,
+   "vagas": 103
+  },
+  "2021f2": {
+   "colocados": 13,
+   "nota_ultimo": 150.8,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 90,
+   "nota_ultimo": 141.4,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2022f2": {
+   "colocados": 24,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2023f1": {
+   "candidatos": 383,
+   "candidatos_1opcao": 28,
+   "colocados": 90,
+   "colocados_1opcao": 25,
+   "media_candidatura": 137.2,
+   "media_provas": 120.7,
+   "media_secundario": 148.2,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2023f2": {
+   "candidatos": 144,
+   "candidatos_1opcao": 23,
+   "colocados": 32,
+   "colocados_1opcao": 11,
+   "media_candidatura": 139.6,
+   "media_provas": 121.4,
+   "media_secundario": 151.8,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 22
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2024f1": {
+   "candidatos": 334,
+   "candidatos_1opcao": 25,
+   "colocados": 73,
+   "colocados_1opcao": 25,
+   "media_candidatura": 130.1,
+   "media_provas": 108.5,
+   "media_secundario": 144.5,
+   "nota_ultimo": 114.8,
+   "sobras": 17,
+   "vagas": 90
+  },
+  "2024f2": {
+   "candidatos": 156,
+   "candidatos_1opcao": 21,
+   "colocados": 40,
+   "colocados_1opcao": 10,
+   "media_candidatura": 133.8,
+   "media_provas": 112.8,
+   "media_secundario": 147.8,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 36
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2025f1": {
+   "candidatos": 338,
+   "candidatos_1opcao": 33,
+   "colocados": 90,
+   "colocados_1opcao": 29,
+   "media_candidatura": 132.1,
+   "media_provas": 120.1,
+   "media_secundario": 144.2,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2025f2": {
+   "candidatos": 97,
+   "candidatos_1opcao": 12,
+   "colocados": 21,
+   "colocados_1opcao": 2,
+   "media_candidatura": 131.9,
+   "media_provas": 120.0,
+   "media_secundario": 143.8,
+   "nota_ultimo": 126.3,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 88,
+   "nota_ultimo": 113.3,
+   "sobras": 0,
+   "vagas": 88
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 88
+}

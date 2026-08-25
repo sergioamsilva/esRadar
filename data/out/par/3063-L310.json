@@ -1,0 +1,118 @@
+{
+ "ativo": true,
+ "cnaef": "481",
+ "cnaef_nome": "Ciências Informáticas",
+ "codc": "L310",
+ "code": "3063",
+ "concurso": "Nacional",
+ "curso": "Ciência de Dados para a Gestão",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3063-L310",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n06 Filosofia\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática",
+ "series": {
+  "2023f1": {
+   "candidatos": 97,
+   "candidatos_1opcao": 10,
+   "colocados": 36,
+   "colocados_1opcao": 10,
+   "media_candidatura": 133.5,
+   "media_provas": 112.6,
+   "media_secundario": 144.8,
+   "nota_ultimo": 117.6,
+   "sobras": 0,
+   "vagas": 36
+  },
+  "2023f2": {
+   "candidatos": 44,
+   "candidatos_1opcao": 13,
+   "colocados": 2,
+   "colocados_1opcao": 0,
+   "media_candidatura": 143.8,
+   "media_provas": 127.5,
+   "media_secundario": 152.5,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 130.7,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 205,
+   "candidatos_1opcao": 36,
+   "colocados": 36,
+   "colocados_1opcao": 16,
+   "media_candidatura": 144.4,
+   "media_provas": 128.0,
+   "media_secundario": 153.2,
+   "nota_ultimo": 136.2,
+   "sobras": 0,
+   "vagas": 36
+  },
+  "2024f2": {
+   "candidatos": 40,
+   "candidatos_1opcao": 13,
+   "colocados": 3,
+   "colocados_1opcao": 2,
+   "media_candidatura": 149.5,
+   "media_provas": 133.0,
+   "media_secundario": 158.3,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 154,
+   "candidatos_1opcao": 22,
+   "colocados": 27,
+   "colocados_1opcao": 22,
+   "media_candidatura": 141.3,
+   "media_provas": 131.0,
+   "media_secundario": 151.6,
+   "nota_ultimo": 126.3,
+   "sobras": 10,
+   "vagas": 37
+  },
+  "2025f2": {
+   "candidatos": 36,
+   "candidatos_1opcao": 5,
+   "colocados": 11,
+   "colocados_1opcao": 5,
+   "media_candidatura": 138.9,
+   "media_provas": 131.1,
+   "media_secundario": 146.5,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 37,
+   "nota_ultimo": 135.3,
+   "sobras": 0,
+   "vagas": 37
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 37
+}

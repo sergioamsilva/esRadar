@@ -1,0 +1,78 @@
+{
+ "ativo": true,
+ "cnaef": "726",
+ "cnaef_nome": "Terapia e Reabilitação",
+ "codc": "8149",
+ "code": "7250",
+ "concurso": "Nacional",
+ "curso": "Dietética e Nutrição",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7250-8149",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2023f1": {
+   "candidatos": 324,
+   "candidatos_1opcao": 61,
+   "colocados_1opcao": 18,
+   "media_candidatura": 159.8,
+   "media_provas": 149.0,
+   "media_secundario": 165.5
+  },
+  "2023f2": {
+   "candidatos": 102,
+   "candidatos_1opcao": 25,
+   "colocados_1opcao": 4,
+   "media_candidatura": 155.9,
+   "media_provas": 146.9,
+   "media_secundario": 160.8
+  },
+  "2024f1": {
+   "candidatos": 284,
+   "candidatos_1opcao": 54,
+   "colocados_1opcao": 24,
+   "media_candidatura": 153.3,
+   "media_provas": 137.3,
+   "media_secundario": 161.9
+  },
+  "2024f2": {
+   "candidatos": 91,
+   "candidatos_1opcao": 29,
+   "colocados_1opcao": 6,
+   "media_candidatura": 152.9,
+   "media_provas": 146.3,
+   "media_secundario": 156.4
+  },
+  "2025f1": {
+   "candidatos": 195,
+   "candidatos_1opcao": 18,
+   "colocados_1opcao": 16,
+   "media_candidatura": 142.7,
+   "media_provas": 127.7,
+   "media_secundario": 157.6
+  },
+  "2025f2": {
+   "candidatos": 41,
+   "candidatos_1opcao": 8,
+   "colocados_1opcao": 7,
+   "media_candidatura": 135.0,
+   "media_provas": 122.7,
+   "media_secundario": 147.2
+  },
+  "2026f1": {
+   "colocados": 47,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 47
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 47
+}

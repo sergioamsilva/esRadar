@@ -1,0 +1,41 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8258",
+ "code": "0602",
+ "concurso": null,
+ "curso": "Arquitetura Paisagista",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0602-8258",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 110.0,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 109.7,
+   "sobras": 5,
+   "vagas": 6
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

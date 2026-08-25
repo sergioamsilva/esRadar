@@ -1,0 +1,30 @@
+{
+ "ativo": true,
+ "cnaef": "441",
+ "cnaef_nome": "Física",
+ "codc": "L354",
+ "code": "7230",
+ "concurso": "Nacional",
+ "curso": "Física Aplicada à Saúde",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7230-L354",
+ "provas_ingresso": "Duas das seguintes provas:\n02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
+ "series": {
+  "2026f1": {
+   "colocados": 3,
+   "nota_ultimo": 136.0,
+   "sobras": 17,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 20
+}

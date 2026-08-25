@@ -1,0 +1,128 @@
+---
+/**
+ * A régua de notas — a assinatura visual do esRadar.
+ *
+ * A escala 0–200 do concurso é o artefacto central do domínio: toda a gente
+ * que passou pelo acesso conhece a sua nota nela. A régua mostra onde uma
+ * nota de corte cai nessa escala. Desenhada com HTML/CSS posicionado (não
+ * SVG esticado, que deformava os pontos), legível sem JavaScript.
+ */
+import { formatarNota } from "../lib/dados";
+
+interface Marca {
+  valor: number;
+  rotulo: string;
+  cor?: "serie-1" | "serie-2";
+}
+interface Props {
+  marcas: Marca[];
+  /** Nota do ano anterior, desenhada como fantasma para dar a variação. */
+  fantasma?: { valor: number; rotulo: string } | null;
+}
+const { marcas, fantasma = null } = Astro.props;
+
+const MIN = 90;
+const MAX = 200;
+const pos = (v: number) => ((Math.max(MIN, Math.min(MAX, v)) - MIN) / (MAX - MIN)) * 100;
+const eixos = [100, 120, 140, 160, 180, 200];
+
+const descricao =
+  marcas.map((m) => `${m.rotulo}: ${formatarNota(m.valor)} pontos`).join("; ") +
+  (fantasma ? `; ${fantasma.rotulo}: ${formatarNota(fantasma.valor)} pontos` : "");
+---
+
+<figure class="regua" role="img" aria-label={`Régua de notas de 90 a 200. ${descricao}`}>
+  <div class="regua__pista" aria-hidden="true">
+    {eixos.map((v) => <span class="regua__tick" style={`left:${pos(v)}%`} />)}
+    {
+      fantasma && (
+        <span
+          class="regua__fantasma"
+          style={`left:${pos(fantasma.valor)}%`}
+          title={`${fantasma.rotulo}: ${formatarNota(fantasma.valor)}`}
+        />
+      )
+    }
+    {
+      marcas.map((m) => (
+        <span
+          class={`regua__marca regua__marca--${m.cor ?? "serie-1"}`}
+          style={`left:${pos(m.valor)}%`}
+          title={`${m.rotulo}: ${formatarNota(m.valor)}`}
+        >
+          <span class="regua__valor">{formatarNota(m.valor)}</span>
+        </span>
+      ))
+    }
+  </div>
+  <figcaption class="regua__eixo" aria-hidden="true">
+    {eixos.map((v) => <span style={`left:${pos(v)}%`}>{v}</span>)}
+  </figcaption>
+</figure>
+
+<style>
+  .regua {
+    margin: 26px 0 0;
+  }
+  .regua__pista {
+    position: relative;
+    height: 2px;
+    background: var(--baseline);
+    border-radius: 1px;
+  }
+  .regua__tick {
+    position: absolute;
+    top: -3px;
+    width: 1px;
+    height: 8px;
+    background: var(--grid);
+  }
+  .regua__fantasma {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1.5px solid var(--muted);
+    background: var(--surface);
+  }
+  .regua__marca {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 2px solid var(--surface);
+  }
+  .regua__marca--serie-1 {
+    background: var(--serie-1);
+  }
+  .regua__marca--serie-2 {
+    background: var(--serie-2);
+  }
+  .regua__valor {
+    position: absolute;
+    bottom: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--t-xs);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .regua__eixo {
+    position: relative;
+    height: 1.1rem;
+    margin-top: 8px;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .regua__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+</style>

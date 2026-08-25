@@ -1,0 +1,101 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L208",
+ "code": "1307",
+ "concurso": null,
+ "curso": "Engenharia de Computadores",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "instituicao": "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1307-L208",
+ "provas_ingresso": null,
+ "series": {
+  "2020f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2020f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2021f1": {
+   "colocados": 1,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2021f2": {
+   "colocados": 1,
+   "nota_ultimo": 119.8,
+   "sobras": 23,
+   "vagas": 24
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23
+  },
+  "2022f1": {
+   "colocados": 2,
+   "sobras": 19,
+   "vagas": 21
+  },
+  "2022f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2023f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2023f2": {
+   "colocados": 1,
+   "nota_ultimo": 126.4,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 14,
+   "vagas": 14
+  },
+  "2024f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2024f2": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

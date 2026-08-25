@@ -1,0 +1,200 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9002",
+ "code": "1516",
+ "concurso": "Nacional",
+ "curso": "Administração Pública",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas",
+ "minimo_candidatura": 100,
+ "minimo_provas": 100,
+ "par": "1516-9002",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 82,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2018f2": {
+   "colocados": 19,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 76,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 76
+  },
+  "2019f2": {
+   "colocados": 19,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2020f1": {
+   "colocados": 72,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2020f2": {
+   "colocados": 18,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2021f1": {
+   "colocados": 69,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2021f2": {
+   "colocados": 8,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 68,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2022f2": {
+   "colocados": 13,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 400,
+   "candidatos_1opcao": 29,
+   "colocados": 68,
+   "colocados_1opcao": 8,
+   "media_candidatura": 153.6,
+   "media_provas": 153.7,
+   "media_secundario": 153.5,
+   "nota_ultimo": 149.0,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2023f2": {
+   "candidatos": 88,
+   "candidatos_1opcao": 12,
+   "colocados": 17,
+   "colocados_1opcao": 3,
+   "media_candidatura": 154.0,
+   "media_provas": 153.2,
+   "media_secundario": 154.8,
+   "nota_ultimo": 149.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2023f3": {
+   "colocados": 3,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 379,
+   "candidatos_1opcao": 47,
+   "colocados": 68,
+   "colocados_1opcao": 21,
+   "media_candidatura": 154.5,
+   "media_provas": 154.3,
+   "media_secundario": 154.7,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2024f2": {
+   "candidatos": 100,
+   "candidatos_1opcao": 17,
+   "colocados": 16,
+   "colocados_1opcao": 6,
+   "media_candidatura": 158.2,
+   "media_provas": 158.1,
+   "media_secundario": 158.2,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2024f3": {
+   "colocados": 7,
+   "nota_ultimo": 151.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2025f1": {
+   "candidatos": 393,
+   "candidatos_1opcao": 28,
+   "colocados": 68,
+   "colocados_1opcao": 14,
+   "media_candidatura": 152.3,
+   "media_provas": 146.6,
+   "media_secundario": 157.9,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 68
+  },
+  "2025f2": {
+   "candidatos": 80,
+   "candidatos_1opcao": 14,
+   "colocados": 33,
+   "colocados_1opcao": 12,
+   "media_candidatura": 149.6,
+   "media_provas": 146.2,
+   "media_secundario": 152.9,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2025f3": {
+   "colocados": 3,
+   "nota_ultimo": 151.8,
+   "sobras": 10,
+   "vagas": 11
+  },
+  "2026f1": {
+   "colocados": 68,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 68
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 68
+}

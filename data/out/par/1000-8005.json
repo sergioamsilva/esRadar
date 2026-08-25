@@ -1,0 +1,60 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8005",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Marketing (regime pós-laboral)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-8005",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 50,
+   "nota_ultimo": 145.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2018f2": {
+   "colocados": 6,
+   "nota_ultimo": 153.2,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 151.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 50,
+   "nota_ultimo": 151.6,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2019f2": {
+   "colocados": 6,
+   "nota_ultimo": 156.6,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

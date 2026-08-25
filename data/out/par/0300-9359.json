@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9359",
+ "code": "0300",
+ "concurso": null,
+ "curso": "Engenharia Biomédica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-9359",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 35,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 37,
+   "nota_ultimo": 163.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 177.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2020f1": {
+   "colocados": 38,
+   "nota_ultimo": 177.3,
+   "sobras": 0,
+   "vagas": 38
+  },
+  "2020f2": {
+   "colocados": 1,
+   "nota_ultimo": 185.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

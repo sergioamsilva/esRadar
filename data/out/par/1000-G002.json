@@ -1,0 +1,41 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "G002",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Engenharia e Gestão de Sistemas de Informação (regime pós-laboral)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-G002",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 30,
+   "nota_ultimo": 129.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

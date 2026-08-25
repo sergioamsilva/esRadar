@@ -1,0 +1,90 @@
+{
+ "ativo": true,
+ "cnaef": "441",
+ "cnaef_nome": "Física",
+ "codc": "9760",
+ "code": "0602",
+ "concurso": "Nacional",
+ "curso": "Física e Química",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0602-9760",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química (25%)\n19 Matemática A (25%)\nou\n07 Física e Química (15%)\n19 Matemática A (15%)\n18 Português (20%)",
+ "series": {
+  "2022f1": {
+   "colocados": 3,
+   "nota_ultimo": 137.3,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2022f2": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7
+  },
+  "2023f1": {
+   "candidatos": 8,
+   "candidatos_1opcao": 1,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 131.1,
+   "media_provas": 129.3,
+   "media_secundario": 132.0,
+   "nota_ultimo": 112.8,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2023f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 8,
+   "vagas": 8
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2024f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 0,
+   "sobras": 12,
+   "vagas": 12
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 12
+}

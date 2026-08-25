@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9509",
+ "code": "0300",
+ "concurso": null,
+ "curso": "Engenharia e Gestão Industrial",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-9509",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 75,
+   "nota_ultimo": 156.2,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 159.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 75,
+   "nota_ultimo": 159.4,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 74,
+   "nota_ultimo": 169.6,
+   "sobras": 0,
+   "vagas": 74
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

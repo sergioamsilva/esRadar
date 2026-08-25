@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8470",
+ "code": "0400",
+ "concurso": null,
+ "curso": "Engenharia Aeronáutica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-8470",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 45,
+   "nota_ultimo": 162.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2018f2": {
+   "colocados": 6,
+   "nota_ultimo": 157.4,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 45,
+   "nota_ultimo": 165.6,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2019f2": {
+   "colocados": 8,
+   "nota_ultimo": 164.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 163.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 50,
+   "nota_ultimo": 172.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 7,
+   "nota_ultimo": 165.9,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

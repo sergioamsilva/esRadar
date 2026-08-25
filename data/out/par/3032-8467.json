@@ -1,0 +1,41 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8467",
+ "code": "3032",
+ "concurso": null,
+ "curso": "Informática Médica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3032-8467",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 7,
+   "nota_ultimo": 121.8,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 105.9,
+   "sobras": 6,
+   "vagas": 14
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

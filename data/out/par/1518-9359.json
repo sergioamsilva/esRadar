@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9359",
+ "code": "1518",
+ "concurso": null,
+ "curso": "Engenharia Biomédica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1518-9359",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 57,
+   "nota_ultimo": 181.0,
+   "sobras": 0,
+   "vagas": 57
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 186.3,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 66,
+   "nota_ultimo": 181.5,
+   "sobras": 0,
+   "vagas": 66
+  },
+  "2019f2": {
+   "colocados": 6,
+   "nota_ultimo": 184.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 88,
+   "nota_ultimo": 185.8,
+   "sobras": 0,
+   "vagas": 87
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 187.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

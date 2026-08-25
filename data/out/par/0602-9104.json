@@ -1,0 +1,91 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9104",
+ "code": "0602",
+ "concurso": null,
+ "curso": "Engenharia e Gestão Industrial",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0602-9104",
+ "provas_ingresso": null,
+ "series": {
+  "2020f1": {
+   "colocados": 3,
+   "nota_ultimo": 140.4,
+   "sobras": 19,
+   "vagas": 22
+  },
+  "2020f2": {
+   "colocados": 1,
+   "nota_ultimo": 146.8,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  },
+  "2021f1": {
+   "colocados": 8,
+   "nota_ultimo": 140.2,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2021f2": {
+   "colocados": 4,
+   "nota_ultimo": 124.3,
+   "sobras": 12,
+   "vagas": 14
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 9,
+   "vagas": 8
+  },
+  "2022f1": {
+   "colocados": 7,
+   "nota_ultimo": 131.7,
+   "sobras": 4,
+   "vagas": 11
+  },
+  "2022f2": {
+   "colocados": 1,
+   "nota_ultimo": 138.4,
+   "sobras": 4,
+   "vagas": 5
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  },
+  "2023f1": {
+   "colocados": 3,
+   "nota_ultimo": 132.2,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "2023f2": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

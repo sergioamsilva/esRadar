@@ -1,0 +1,30 @@
+{
+ "ativo": true,
+ "cnaef": "481",
+ "cnaef_nome": "Ciências Informáticas",
+ "codc": "L405",
+ "code": "1503",
+ "concurso": "Nacional",
+ "curso": "Ciência de Dados",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": 120,
+ "minimo_provas": 100,
+ "par": "1503-L405",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2026f1": {
+   "colocados": 30,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 30
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 30
+}

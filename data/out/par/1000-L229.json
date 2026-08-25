@@ -1,0 +1,152 @@
+{
+ "ativo": true,
+ "cnaef": "543",
+ "cnaef_nome": "Materiais (Indústrias da Madeira, Cortiça, Papel, Plástico, Vidro e outros)",
+ "codc": "L229",
+ "code": "1000",
+ "concurso": "Nacional",
+ "curso": "Engenharia de Polímeros",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "1000-L229",
+ "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "series": {
+  "2021f1": {
+   "colocados": 16,
+   "nota_ultimo": 130.6,
+   "sobras": 17,
+   "vagas": 33
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 126.4,
+   "sobras": 16,
+   "vagas": 17
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16
+  },
+  "2022f1": {
+   "colocados": 8,
+   "nota_ultimo": 134.4,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2022f2": {
+   "colocados": 3,
+   "nota_ultimo": 133.6,
+   "sobras": 19,
+   "vagas": 22
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2023f1": {
+   "candidatos": 73,
+   "candidatos_1opcao": 4,
+   "colocados": 11,
+   "colocados_1opcao": 4,
+   "media_candidatura": 140.1,
+   "media_provas": 120.5,
+   "media_secundario": 153.1,
+   "nota_ultimo": 127.4,
+   "sobras": 9,
+   "vagas": 20
+  },
+  "2023f2": {
+   "candidatos": 14,
+   "candidatos_1opcao": 1,
+   "colocados": 4,
+   "colocados_1opcao": 1,
+   "media_candidatura": 138.8,
+   "media_provas": 108.4,
+   "media_secundario": 159.0,
+   "nota_ultimo": 131.2,
+   "sobras": 8,
+   "vagas": 11
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 137.8,
+   "sobras": 9,
+   "vagas": 9
+  },
+  "2024f1": {
+   "candidatos": 153,
+   "candidatos_1opcao": 10,
+   "colocados": 20,
+   "colocados_1opcao": 8,
+   "media_candidatura": 143.5,
+   "media_provas": 122.0,
+   "media_secundario": 157.9,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2024f2": {
+   "candidatos": 18,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 1,
+   "media_candidatura": 140.3,
+   "media_provas": 108.9,
+   "media_secundario": 161.3,
+   "nota_ultimo": 136.6,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 119,
+   "candidatos_1opcao": 10,
+   "colocados": 20,
+   "colocados_1opcao": 10,
+   "media_candidatura": 146.3,
+   "media_provas": 126.8,
+   "media_secundario": 165.8,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2025f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 2,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 146.3,
+   "media_provas": 136.5,
+   "media_secundario": 156.0,
+   "nota_ultimo": 146.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 12,
+   "nota_ultimo": 122.8,
+   "sobras": 8,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 20
+}

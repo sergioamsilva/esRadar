@@ -1,0 +1,204 @@
+{
+ "ativo": true,
+ "cnaef": "521",
+ "cnaef_nome": "Metalurgia e Metalomecânica",
+ "codc": "9123",
+ "code": "3135",
+ "concurso": "Nacional",
+ "curso": "Engenharia Mecânica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3135-9123",
+ "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 120,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 164.7,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 163.7,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 120,
+   "nota_ultimo": 158.1,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2019f2": {
+   "colocados": 7,
+   "nota_ultimo": 157.6,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2020f1": {
+   "colocados": 130,
+   "nota_ultimo": 166.8,
+   "sobras": 0,
+   "vagas": 130
+  },
+  "2020f2": {
+   "colocados": 5,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2021f1": {
+   "colocados": 122,
+   "nota_ultimo": 162.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2021f2": {
+   "colocados": 10,
+   "nota_ultimo": 162.7,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2021f3": {
+   "colocados": 2,
+   "nota_ultimo": 160.9,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 120,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2022f2": {
+   "colocados": 9,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2022f3": {
+   "colocados": 3,
+   "nota_ultimo": 150.7,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 567,
+   "candidatos_1opcao": 108,
+   "colocados": 120,
+   "colocados_1opcao": 60,
+   "media_candidatura": 167.9,
+   "media_provas": 150.3,
+   "media_secundario": 177.4,
+   "nota_ultimo": 163.6,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2023f2": {
+   "candidatos": 54,
+   "candidatos_1opcao": 18,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 176.2,
+   "media_provas": 155.0,
+   "media_secundario": 187.5,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 614,
+   "candidatos_1opcao": 111,
+   "colocados": 120,
+   "colocados_1opcao": 49,
+   "media_candidatura": 170.7,
+   "media_provas": 156.2,
+   "media_secundario": 178.4,
+   "nota_ultimo": 166.4,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2024f2": {
+   "candidatos": 38,
+   "candidatos_1opcao": 16,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 165.7,
+   "media_provas": 141.0,
+   "media_secundario": 179.0,
+   "nota_ultimo": 164.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 159.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 579,
+   "candidatos_1opcao": 105,
+   "colocados": 120,
+   "colocados_1opcao": 57,
+   "media_candidatura": 166.6,
+   "media_provas": 156.7,
+   "media_secundario": 176.4,
+   "nota_ultimo": 155.8,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2025f2": {
+   "candidatos": 77,
+   "candidatos_1opcao": 31,
+   "colocados": 6,
+   "colocados_1opcao": 3,
+   "media_candidatura": 162.1,
+   "media_provas": 148.9,
+   "media_secundario": 175.2,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 120,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 120
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 120
+}

@@ -1,0 +1,90 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8147",
+ "code": "3065",
+ "concurso": null,
+ "curso": "Sistemas e Tecnologias da Informação",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3065-8147",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 2,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 118.1,
+   "sobras": 27,
+   "vagas": 28
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 27,
+   "vagas": 27
+  },
+  "2019f1": {
+   "colocados": 2,
+   "nota_ultimo": 112.6,
+   "sobras": 30,
+   "vagas": 32
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 116.5,
+   "sobras": 29,
+   "vagas": 30
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 29,
+   "vagas": 29
+  },
+  "2020f1": {
+   "colocados": 1,
+   "nota_ultimo": 131.7,
+   "sobras": 36,
+   "vagas": 37
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 118.2,
+   "sobras": 33,
+   "vagas": 37
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 34,
+   "vagas": 34
+  },
+  "2021f1": {
+   "colocados": 0,
+   "sobras": 37,
+   "vagas": 37
+  },
+  "2021f2": {
+   "colocados": 1,
+   "nota_ultimo": 109.3,
+   "sobras": 36,
+   "vagas": 37
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 36,
+   "vagas": 36
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

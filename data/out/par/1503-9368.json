@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9368",
+ "code": "1503",
+ "concurso": null,
+ "curso": "Engenharia Física",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1503-9368",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 40,
+   "nota_ultimo": 152.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 40,
+   "nota_ultimo": 161.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 168.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 50,
+   "nota_ultimo": 167.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2020f2": {
+   "colocados": 1,
+   "nota_ultimo": 181.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

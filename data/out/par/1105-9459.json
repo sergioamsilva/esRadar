@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9459",
+ "code": "1105",
+ "concurso": null,
+ "curso": "Engenharia Informática e Computação",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-9459",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 117,
+   "nota_ultimo": 177.8,
+   "sobras": 0,
+   "vagas": 117
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 185.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 135,
+   "nota_ultimo": 178.3,
+   "sobras": 0,
+   "vagas": 135
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 192.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 176,
+   "nota_ultimo": 183.0,
+   "sobras": 0,
+   "vagas": 173
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 183.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

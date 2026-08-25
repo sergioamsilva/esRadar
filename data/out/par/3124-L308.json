@@ -1,0 +1,90 @@
+{
+ "ativo": true,
+ "cnaef": "213",
+ "cnaef_nome": "Áudio-Visuais e Produção dos Media",
+ "codc": "L308",
+ "code": "3124",
+ "concurso": "Nacional",
+ "curso": "Design de Animação",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n070 Comunicação Audiovisual (DL 74/2004)\n084 Multimédia (DL 74/2004)\n574 Comunicação Multimédia (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n735 Técnico de Desenho Gráfico\n821 Agrupamento 2 / Design\n979 Recorrente - Multimédia (DL 74/2004)\n985 Recorrente - Comunicação Audiovisual (DL 74/2004)\nA31 Imagem Interativa (Port. 836/2004)\nA59 Comunicação Multimédia (Port. 960/2009)\nC70 Comunicação Audiovisual\nF70 Comunicação Audiovisual\nG30 Comunicação Multimédia (Portaria n.º 262/2013)\nG42 Imagem Interativa (Portaria n.º 42/2014)\nG45 Comunicação e Produção Multimédia (Portaria n.º 265/2013)\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH30 Comunicação Multimédia\nH42 Imagem Interativa, na área dos Audiovisuais\nH45 Comunicação e Produção Multimédia\nH68 Técnico de Vídeo\nH71 Técnico de Multimédia\nP14 Técnico de Multimédia\nP17 Técnico de Animação 2D e 3D\nP21 Técnico de Audiovisuais\nP36 Técnico de Desenho Digital 3D\nP94 Técnico de Vídeo\nR12 Imagem Interativa (Instituto Jacob Rodrigues Pereira)",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Portalegre",
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3124-L308",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n18 Português\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
+ "series": {
+  "2024f1": {
+   "candidatos": 115,
+   "candidatos_1opcao": 29,
+   "colocados": 32,
+   "colocados_1opcao": 24,
+   "media_candidatura": 156.1,
+   "media_provas": 154.6,
+   "media_secundario": 156.9,
+   "nota_ultimo": 147.2,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2024f2": {
+   "candidatos": 32,
+   "candidatos_1opcao": 9,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 148.2,
+   "media_provas": 159.5,
+   "media_secundario": 142.0,
+   "nota_ultimo": 145.1,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 141.9,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 87,
+   "candidatos_1opcao": 24,
+   "colocados": 30,
+   "colocados_1opcao": 24,
+   "media_candidatura": 149.3,
+   "media_provas": 146.6,
+   "media_secundario": 152.0,
+   "nota_ultimo": 118.0,
+   "sobras": 2,
+   "vagas": 32
+  },
+  "2025f2": {
+   "candidatos": 21,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 3,
+   "media_candidatura": 143.4,
+   "media_provas": 138.5,
+   "media_secundario": 148.3,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 32,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 32
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 32
+}

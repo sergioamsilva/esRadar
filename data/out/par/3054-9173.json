@@ -1,0 +1,60 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9173",
+ "code": "3054",
+ "concurso": null,
+ "curso": "Gestão Hoteleira",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3054-9173",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 21,
+   "nota_ultimo": 97.0,
+   "sobras": 14,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 108.7,
+   "sobras": 19,
+   "vagas": 23
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 118.0,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2019f1": {
+   "colocados": 15,
+   "nota_ultimo": 95.0,
+   "sobras": 20,
+   "vagas": 35
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 104.3,
+   "sobras": 21,
+   "vagas": 22
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 121.3,
+   "sobras": 21,
+   "vagas": 22
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

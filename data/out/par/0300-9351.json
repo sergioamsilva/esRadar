@@ -1,0 +1,204 @@
+{
+ "ativo": true,
+ "cnaef": "721",
+ "cnaef_nome": "Medicina",
+ "codc": "9351",
+ "code": "0300",
+ "concurso": "Nacional",
+ "curso": "Ciências Biomédicas",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0300-9351",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2018f1": {
+   "colocados": 72,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 156.3,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 72,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2019f2": {
+   "colocados": 9,
+   "nota_ultimo": 158.3,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 3,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 75,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2020f2": {
+   "colocados": 8,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 166.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 76,
+   "nota_ultimo": 176.8,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2021f2": {
+   "colocados": 4,
+   "nota_ultimo": 181.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 77,
+   "nota_ultimo": 174.3,
+   "sobras": 0,
+   "vagas": 77
+  },
+  "2022f2": {
+   "colocados": 5,
+   "nota_ultimo": 172.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 422,
+   "candidatos_1opcao": 137,
+   "colocados": 77,
+   "colocados_1opcao": 60,
+   "media_candidatura": 177.0,
+   "media_provas": 170.1,
+   "media_secundario": 183.9,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 77
+  },
+  "2023f2": {
+   "candidatos": 44,
+   "candidatos_1opcao": 31,
+   "colocados": 6,
+   "colocados_1opcao": 5,
+   "media_candidatura": 175.9,
+   "media_provas": 168.9,
+   "media_secundario": 182.8,
+   "nota_ultimo": 172.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 402,
+   "candidatos_1opcao": 126,
+   "colocados": 77,
+   "colocados_1opcao": 59,
+   "media_candidatura": 177.4,
+   "media_provas": 172.2,
+   "media_secundario": 182.5,
+   "nota_ultimo": 174.3,
+   "sobras": 0,
+   "vagas": 77
+  },
+  "2024f2": {
+   "candidatos": 30,
+   "candidatos_1opcao": 18,
+   "colocados": 4,
+   "colocados_1opcao": 2,
+   "media_candidatura": 178.2,
+   "media_provas": 172.0,
+   "media_secundario": 184.3,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2025f1": {
+   "candidatos": 371,
+   "candidatos_1opcao": 100,
+   "colocados": 77,
+   "colocados_1opcao": 50,
+   "media_candidatura": 172.4,
+   "media_provas": 166.3,
+   "media_secundario": 178.4,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 77
+  },
+  "2025f2": {
+   "candidatos": 44,
+   "candidatos_1opcao": 15,
+   "colocados": 4,
+   "colocados_1opcao": 0,
+   "media_candidatura": 181.6,
+   "media_provas": 176.9,
+   "media_secundario": 186.3,
+   "nota_ultimo": 175.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2026f1": {
+   "colocados": 77,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 77
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 77
+}

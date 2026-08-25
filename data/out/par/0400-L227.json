@@ -1,0 +1,118 @@
+{
+ "ativo": true,
+ "cnaef": "481",
+ "cnaef_nome": "Ciências Informáticas",
+ "codc": "L227",
+ "code": "0400",
+ "concurso": "Nacional",
+ "curso": "Inteligência Artificial e Ciência de Dados",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade da Beira Interior",
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0400-L227",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2023f1": {
+   "candidatos": 128,
+   "candidatos_1opcao": 18,
+   "colocados": 20,
+   "colocados_1opcao": 12,
+   "media_candidatura": 146.5,
+   "media_provas": 123.9,
+   "media_secundario": 158.7,
+   "nota_ultimo": 133.1,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2023f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 4,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 137.4,
+   "media_provas": 112.0,
+   "media_secundario": 151.0,
+   "nota_ultimo": 137.4,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 112,
+   "candidatos_1opcao": 11,
+   "colocados": 17,
+   "colocados_1opcao": 11,
+   "media_candidatura": 148.1,
+   "media_provas": 130.5,
+   "media_secundario": 157.6,
+   "nota_ultimo": 125.3,
+   "sobras": 5,
+   "vagas": 22
+  },
+  "2024f2": {
+   "candidatos": 30,
+   "candidatos_1opcao": 6,
+   "colocados": 5,
+   "colocados_1opcao": 3,
+   "media_candidatura": 146.5,
+   "media_provas": 119.9,
+   "media_secundario": 160.8,
+   "nota_ultimo": 142.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 94,
+   "candidatos_1opcao": 6,
+   "colocados": 11,
+   "colocados_1opcao": 6,
+   "media_candidatura": 138.4,
+   "media_provas": 129.5,
+   "media_secundario": 147.2,
+   "nota_ultimo": 119.3,
+   "sobras": 13,
+   "vagas": 24
+  },
+  "2025f2": {
+   "candidatos": 17,
+   "candidatos_1opcao": 4,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 133.5,
+   "media_provas": 125.8,
+   "media_secundario": 141.2,
+   "nota_ultimo": 129.8,
+   "sobras": 8,
+   "vagas": 13
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8
+  },
+  "2026f1": {
+   "colocados": 16,
+   "nota_ultimo": 116.8,
+   "sobras": 13,
+   "vagas": 29
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 29
+}

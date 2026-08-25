@@ -1,0 +1,58 @@
+{
+ "ativo": true,
+ "cnaef": "813",
+ "cnaef_nome": "Desporto",
+ "codc": "9563",
+ "code": "3125",
+ "concurso": "Nacional",
+ "curso": "Desporto",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 15%\nÁrea de influência: Évora, PortalegreOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n089 Desporto (DL 74/2004)\n984 Recorrente - Desporto (DL 74/2004)\nA05 Animação Sociodesportiva (VC) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nG01 Animação Sócio Desportiva (VC) (Portaria n.º 260/2013)\nG29 Animação e Gestão Desportiva (Portaria n.º 262/2013)\nG49 Desporto e Dinamização da Atividade Física (Port. 265/2013)\nG86 Desporto e Dinamização da Atividade Física (Port. 32/2015)\nH49 Desporto e Dinamização da Atividade Física\nR05 Técnico de Apoio à Gestão Desportiva\nR10 Técnico de Desporto e Condição Física\nR15 Técnico de Desporto\nS64 Técnico de Apoio à Gestão Desportiva\nT54 Técnico de Desporto",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Portalegre",
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Biociências de Elvas",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3125-9563",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática",
+ "series": {
+  "2025f1": {
+   "candidatos": 18,
+   "candidatos_1opcao": 2,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 120.5,
+   "media_provas": 109.5,
+   "media_secundario": 131.5,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2025f2": {
+   "candidatos": 11,
+   "candidatos_1opcao": 2,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 131.9,
+   "media_provas": 116.3,
+   "media_secundario": 147.5,
+   "nota_ultimo": 127.5,
+   "sobras": 26,
+   "vagas": 28
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2026f1": {
+   "colocados": 19,
+   "nota_ultimo": 107.5,
+   "sobras": 4,
+   "vagas": 23
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 23
+}

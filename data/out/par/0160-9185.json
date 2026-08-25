@@ -1,0 +1,168 @@
+{
+ "ativo": true,
+ "cnaef": "481",
+ "cnaef_nome": "Ciências Informáticas",
+ "codc": "9185",
+ "code": "0160",
+ "concurso": "Nacional",
+ "curso": "Informática",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade dos Açores",
+ "instituicao": "Universidade dos Açores - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "0160-9185",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n04 Economia\n16 Matemática",
+ "series": {
+  "2020f1": {
+   "colocados": 14,
+   "nota_ultimo": 128.5,
+   "sobras": 11,
+   "vagas": 25
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 109.3,
+   "sobras": 3,
+   "vagas": 12
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 13,
+   "nota_ultimo": 105.4,
+   "sobras": 13,
+   "vagas": 26
+  },
+  "2021f2": {
+   "colocados": 7,
+   "nota_ultimo": 119.4,
+   "sobras": 6,
+   "vagas": 13
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas": 3
+  },
+  "2022f1": {
+   "colocados": 12,
+   "nota_ultimo": 129.0,
+   "sobras": 14,
+   "vagas": 26
+  },
+  "2022f2": {
+   "colocados": 7,
+   "nota_ultimo": 121.5,
+   "sobras": 8,
+   "vagas": 15
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7
+  },
+  "2023f1": {
+   "candidatos": 22,
+   "candidatos_1opcao": 15,
+   "colocados": 15,
+   "colocados_1opcao": 15,
+   "media_candidatura": 138.1,
+   "media_provas": 116.1,
+   "media_secundario": 149.9,
+   "nota_ultimo": 119.9,
+   "sobras": 11,
+   "vagas": 26
+  },
+  "2023f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 137.7,
+   "media_provas": 100.0,
+   "media_secundario": 158.0,
+   "nota_ultimo": 137.7,
+   "sobras": 10,
+   "vagas": 11
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7
+  },
+  "2024f1": {
+   "candidatos": 37,
+   "candidatos_1opcao": 20,
+   "colocados": 21,
+   "colocados_1opcao": 20,
+   "media_candidatura": 148.7,
+   "media_provas": 133.1,
+   "media_secundario": 157.0,
+   "nota_ultimo": 122.2,
+   "sobras": 5,
+   "vagas": 26
+  },
+  "2024f2": {
+   "candidatos": 5,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 141.6,
+   "media_provas": 116.3,
+   "media_secundario": 155.3,
+   "nota_ultimo": 126.7,
+   "sobras": 2,
+   "vagas": 6
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 148.9,
+   "media_provas": 138.5,
+   "media_secundario": 159.3,
+   "nota_ultimo": 144.8,
+   "sobras": 22,
+   "vagas": 26
+  },
+  "2025f2": {
+   "candidatos": 5,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 144.3,
+   "media_provas": 124.0,
+   "media_secundario": 164.5,
+   "nota_ultimo": 125.3,
+   "sobras": 19,
+   "vagas": 23
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  },
+  "2026f1": {
+   "colocados": 11,
+   "nota_ultimo": 155.0,
+   "sobras": 14,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 25
+}

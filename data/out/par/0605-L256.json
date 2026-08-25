@@ -1,0 +1,137 @@
+{
+ "ativo": true,
+ "cnaef": "729",
+ "cnaef_nome": "Saúde - programas não classificados noutra área de formação",
+ "codc": "L256",
+ "code": "0605",
+ "concurso": "Nacional",
+ "curso": "Ciências Biomédicas e da Saúde",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Évora",
+ "instituicao": "Universidade de Évora - Escola de Saúde e Desenvolvimento Humano",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0605-L256",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia (50%)\nou\n02 Biologia e Geologia (25%)\n16 Matemática (25%)\nou\n02 Biologia e Geologia (25%)\n18 Português (25%)\nou\n02 Biologia e Geologia (25%)\n06 Filosofia (25%)\nou\n02 Biologia e Geologia (25%)\n07 Física e Química (25%)\nou\n02 Biologia e Geologia (15%)\n07 Física e Química (15%)\n16 Matemática (20%)",
+ "series": {
+  "2022f1": {
+   "colocados": 20,
+   "nota_ultimo": 153.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2022f2": {
+   "colocados": 4,
+   "nota_ultimo": 149.9,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f1": {
+   "candidatos": 142,
+   "candidatos_1opcao": 16,
+   "colocados": 25,
+   "colocados_1opcao": 12,
+   "media_candidatura": 152.7,
+   "media_provas": 137.5,
+   "media_secundario": 160.9,
+   "nota_ultimo": 141.9,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2023f2": {
+   "candidatos": 24,
+   "candidatos_1opcao": 5,
+   "colocados": 7,
+   "colocados_1opcao": 4,
+   "media_candidatura": 139.6,
+   "media_provas": 122.4,
+   "media_secundario": 148.9,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 155,
+   "candidatos_1opcao": 17,
+   "colocados": 28,
+   "colocados_1opcao": 16,
+   "media_candidatura": 151.5,
+   "media_provas": 134.7,
+   "media_secundario": 160.5,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 28
+  },
+  "2024f2": {
+   "candidatos": 19,
+   "candidatos_1opcao": 4,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 131.3,
+   "media_provas": 108.0,
+   "media_secundario": 143.8,
+   "nota_ultimo": 125.9,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 1
+  },
+  "2025f1": {
+   "candidatos": 202,
+   "candidatos_1opcao": 30,
+   "colocados": 32,
+   "colocados_1opcao": 18,
+   "media_candidatura": 152.8,
+   "media_provas": 143.3,
+   "media_secundario": 162.2,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2025f2": {
+   "candidatos": 39,
+   "candidatos_1opcao": 13,
+   "colocados": 8,
+   "colocados_1opcao": 7,
+   "media_candidatura": 142.3,
+   "media_provas": 132.3,
+   "media_secundario": 152.3,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 122.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 34,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 34
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 34
+}

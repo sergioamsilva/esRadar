@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9360",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Engenharia Civil",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-9360",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 33,
+   "nota_ultimo": 115.2,
+   "sobras": 3,
+   "vagas": 36
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 24,
+   "nota_ultimo": 114.6,
+   "sobras": 12,
+   "vagas": 36
+  },
+  "2019f2": {
+   "colocados": 12,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 147.6,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 45,
+   "nota_ultimo": 111.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 137.2,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

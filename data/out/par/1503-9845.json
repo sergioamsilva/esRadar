@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9845",
+ "code": "1503",
+ "concurso": null,
+ "curso": "Engenharia Biomédica e Biofísica",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1503-9845",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 40,
+   "nota_ultimo": 163.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 7,
+   "nota_ultimo": 167.3,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 40,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2020f1": {
+   "colocados": 45,
+   "nota_ultimo": 173.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 182.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

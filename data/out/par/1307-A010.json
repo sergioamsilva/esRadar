@@ -1,0 +1,40 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "A010",
+ "code": "1307",
+ "concurso": null,
+ "curso": "Engenharia Civil (ensino em inglês)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "instituicao": "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1307-A010",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 1,
+   "nota_ultimo": 189.4,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

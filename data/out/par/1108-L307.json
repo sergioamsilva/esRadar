@@ -1,0 +1,82 @@
+{
+ "ativo": true,
+ "cnaef": "720",
+ "cnaef_nome": "Saúde",
+ "codc": "L307",
+ "code": "1108",
+ "concurso": "Nacional",
+ "curso": "Saúde Digital e Inovação Biomédica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Porto",
+ "instituicao": "Universidade do Porto - Faculdade de Medicina",
+ "minimo_candidatura": 140,
+ "minimo_provas": 140,
+ "par": "1108-L307",
+ "provas_ingresso": "16 Matemática\ne\nUma das seguintes provas:\n02 Biologia e Geologia\n04 Economia\n07 Física e Química\n18 Português",
+ "series": {
+  "2024f1": {
+   "candidatos": 284,
+   "candidatos_1opcao": 83,
+   "colocados": 35,
+   "colocados_1opcao": 31,
+   "media_candidatura": 182.3,
+   "media_provas": 175.7,
+   "media_secundario": 188.9,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2024f2": {
+   "candidatos": 46,
+   "candidatos_1opcao": 27,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 187.8,
+   "media_provas": 181.5,
+   "media_secundario": 194.0,
+   "nota_ultimo": 187.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 191,
+   "candidatos_1opcao": 55,
+   "colocados": 35,
+   "colocados_1opcao": 22,
+   "media_candidatura": 182.6,
+   "media_provas": 178.6,
+   "media_secundario": 186.6,
+   "nota_ultimo": 178.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2025f2": {
+   "candidatos": 16,
+   "candidatos_1opcao": 12,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 35,
+   "nota_ultimo": 179.5,
+   "sobras": 0,
+   "vagas": 35
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 35
+}

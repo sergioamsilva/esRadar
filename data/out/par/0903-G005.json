@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "G005",
+ "code": "0903",
+ "concurso": null,
+ "curso": "Engenharia Informática",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-G005",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 170,
+   "nota_ultimo": 149.4,
+   "sobras": 0,
+   "vagas": 170
+  },
+  "2018f2": {
+   "colocados": 12,
+   "nota_ultimo": 158.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2019f1": {
+   "colocados": 170,
+   "nota_ultimo": 151.4,
+   "sobras": 0,
+   "vagas": 170
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2019f3": {
+   "colocados": 3,
+   "nota_ultimo": 156.6,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f1": {
+   "colocados": 176,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 175
+  },
+  "2020f2": {
+   "colocados": 14,
+   "nota_ultimo": 167.8,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

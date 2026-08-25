@@ -1,0 +1,56 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8449",
+ "code": "3011",
+ "concurso": null,
+ "curso": "Contabilidade (regime de ensino a distância)",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3011-8449",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 2,
+   "nota_ultimo": 106.0,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 9,
+   "nota_ultimo": 99.6,
+   "sobras": 10,
+   "vagas": 19
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 9,
+   "nota_ultimo": 117.6,
+   "sobras": 11,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 9,
+   "nota_ultimo": 104.8,
+   "sobras": 4,
+   "vagas": 13
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,152 @@
+{
+ "ativo": true,
+ "cnaef": "441",
+ "cnaef_nome": "Física",
+ "codc": "L233",
+ "code": "1518",
+ "concurso": "Nacional",
+ "curso": "Engenharia Física Tecnológica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": 120,
+ "minimo_provas": 100,
+ "par": "1518-L233",
+ "provas_ingresso": "07 Física e Química\n19 Matemática A",
+ "series": {
+  "2021f1": {
+   "colocados": 99,
+   "nota_ultimo": 189.5,
+   "sobras": 0,
+   "vagas": 96
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 191.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 102,
+   "nota_ultimo": 187.8,
+   "sobras": 0,
+   "vagas": 102
+  },
+  "2022f2": {
+   "colocados": 2,
+   "nota_ultimo": 188.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f3": {
+   "colocados": 1,
+   "nota_ultimo": 188.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f1": {
+   "candidatos": 393,
+   "candidatos_1opcao": 146,
+   "colocados": 112,
+   "colocados_1opcao": 101,
+   "media_candidatura": 189.1,
+   "media_provas": 187.0,
+   "media_secundario": 191.1,
+   "nota_ultimo": 181.0,
+   "sobras": 0,
+   "vagas": 112
+  },
+  "2023f2": {
+   "candidatos": 34,
+   "candidatos_1opcao": 22,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 188.2,
+   "media_provas": 190.6,
+   "media_secundario": 185.8,
+   "nota_ultimo": 186.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 430,
+   "candidatos_1opcao": 153,
+   "colocados": 112,
+   "colocados_1opcao": 104,
+   "media_candidatura": 188.1,
+   "media_provas": 188.1,
+   "media_secundario": 188.1,
+   "nota_ultimo": 182.8,
+   "sobras": 0,
+   "vagas": 112
+  },
+  "2024f2": {
+   "candidatos": 30,
+   "candidatos_1opcao": 20,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 188.8,
+   "media_provas": 191.5,
+   "media_secundario": 186.0,
+   "nota_ultimo": 188.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 177.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 438,
+   "candidatos_1opcao": 144,
+   "colocados": 112,
+   "colocados_1opcao": 104,
+   "media_candidatura": 186.5,
+   "media_provas": 185.9,
+   "media_secundario": 187.0,
+   "nota_ultimo": 177.8,
+   "sobras": 0,
+   "vagas": 112
+  },
+  "2025f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 13,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 151.0,
+   "media_provas": 148.0,
+   "media_secundario": 154.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f3": {
+   "colocados": 3,
+   "nota_ultimo": 178.3,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 112,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 112
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 112
+}

@@ -1,0 +1,75 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9114",
+ "code": "1201",
+ "concurso": null,
+ "curso": "Engenharia Florestal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1201-9114",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 2,
+   "nota_ultimo": 147.6,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.0,
+   "sobras": 16,
+   "vagas": 18
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16
+  },
+  "2019f1": {
+   "colocados": 2,
+   "nota_ultimo": 117.7,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 124.5,
+   "sobras": 6,
+   "vagas": 8
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 6,
+   "vagas": 6
+  },
+  "2020f1": {
+   "colocados": 5,
+   "nota_ultimo": 120.2,
+   "sobras": 5,
+   "vagas": 10
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 115.0,
+   "sobras": 1,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

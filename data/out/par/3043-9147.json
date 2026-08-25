@@ -1,0 +1,199 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9147",
+ "code": "3043",
+ "concurso": "Nacional",
+ "curso": "Gestão",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n086 Marketing (DL 74/2004)\n575 Contabilidade e Gestão (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n746 Técnico de Gestão Administrativa\n831 Agrupamento 3 / Administração\n981 Recorrente - Marketing (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP51 Técnico de Gestão\nP64 Técnico de Marketing\nR49 Técnico de Apoio à Gestão\nS17 Técnico de Apoio à Gestão\nS36 Técnico de Marketing",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Bragança",
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3043-9147",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 81,
+   "nota_ultimo": 123.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2018f2": {
+   "colocados": 18,
+   "nota_ultimo": 125.6,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2018f3": {
+   "colocados": 4,
+   "nota_ultimo": 120.0,
+   "sobras": 3,
+   "vagas": 5
+  },
+  "2019f1": {
+   "colocados": 80,
+   "nota_ultimo": 126.6,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2019f2": {
+   "colocados": 21,
+   "nota_ultimo": 124.2,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2019f3": {
+   "colocados": 5,
+   "nota_ultimo": 121.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f1": {
+   "colocados": 98,
+   "nota_ultimo": 125.4,
+   "sobras": 0,
+   "vagas": 97
+  },
+  "2020f2": {
+   "colocados": 31,
+   "nota_ultimo": 115.8,
+   "sobras": 0,
+   "vagas": 21
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2021f1": {
+   "colocados": 93,
+   "nota_ultimo": 116.4,
+   "sobras": 17,
+   "vagas": 110
+  },
+  "2021f2": {
+   "colocados": 45,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2022f1": {
+   "colocados": 110,
+   "nota_ultimo": 129.9,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2022f2": {
+   "colocados": 30,
+   "nota_ultimo": 132.1,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 3
+  },
+  "2023f1": {
+   "candidatos": 410,
+   "candidatos_1opcao": 63,
+   "colocados": 110,
+   "colocados_1opcao": 57,
+   "media_candidatura": 138.3,
+   "media_provas": 124.4,
+   "media_secundario": 145.7,
+   "nota_ultimo": 131.1,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2023f2": {
+   "candidatos": 86,
+   "candidatos_1opcao": 19,
+   "colocados": 19,
+   "colocados_1opcao": 11,
+   "media_candidatura": 145.4,
+   "media_provas": 136.1,
+   "media_secundario": 150.4,
+   "nota_ultimo": 134.1,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2024f1": {
+   "candidatos": 340,
+   "candidatos_1opcao": 76,
+   "colocados": 110,
+   "colocados_1opcao": 59,
+   "media_candidatura": 141.8,
+   "media_provas": 127.1,
+   "media_secundario": 149.7,
+   "nota_ultimo": 132.1,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2024f2": {
+   "candidatos": 88,
+   "candidatos_1opcao": 17,
+   "colocados": 28,
+   "colocados_1opcao": 9,
+   "media_candidatura": 138.9,
+   "media_provas": 123.1,
+   "media_secundario": 147.3,
+   "nota_ultimo": 128.4,
+   "sobras": 0,
+   "vagas": 19
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 296,
+   "candidatos_1opcao": 56,
+   "colocados": 95,
+   "colocados_1opcao": 56,
+   "media_candidatura": 134.9,
+   "media_provas": 124.2,
+   "media_secundario": 145.6,
+   "nota_ultimo": 102.0,
+   "sobras": 15,
+   "vagas": 111
+  },
+  "2025f2": {
+   "candidatos": 104,
+   "candidatos_1opcao": 19,
+   "colocados": 34,
+   "colocados_1opcao": 19,
+   "media_candidatura": 129.7,
+   "media_provas": 120.1,
+   "media_secundario": 139.2,
+   "nota_ultimo": 111.0,
+   "sobras": 9,
+   "vagas": 32
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5
+  },
+  "2026f1": {
+   "colocados": 106,
+   "nota_ultimo": 108.0,
+   "sobras": 0,
+   "vagas": 110
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 110
+}

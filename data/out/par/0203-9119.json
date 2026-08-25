@@ -1,0 +1,209 @@
+{
+ "ativo": true,
+ "cnaef": "523",
+ "cnaef_nome": "Eletrónica e Automação",
+ "codc": "9119",
+ "code": "0203",
+ "concurso": "Nacional",
+ "curso": "Engenharia Informática",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Algarve",
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "0203-9119",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n03 Desenho\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 64,
+   "nota_ultimo": 109.5,
+   "sobras": 6,
+   "vagas": 70
+  },
+  "2018f2": {
+   "colocados": 11,
+   "nota_ultimo": 125.6,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 129.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 63,
+   "nota_ultimo": 101.5,
+   "sobras": 7,
+   "vagas": 70
+  },
+  "2019f2": {
+   "colocados": 14,
+   "nota_ultimo": 121.7,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 116.2,
+   "sobras": 3,
+   "vagas": 4
+  },
+  "2020f1": {
+   "colocados": 96,
+   "nota_ultimo": 108.4,
+   "sobras": 7,
+   "vagas": 102
+  },
+  "2020f2": {
+   "colocados": 20,
+   "nota_ultimo": 126.4,
+   "sobras": 0,
+   "vagas": 16
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 54,
+   "nota_ultimo": 110.7,
+   "sobras": 48,
+   "vagas": 102
+  },
+  "2021f2": {
+   "colocados": 26,
+   "nota_ultimo": 113.2,
+   "sobras": 30,
+   "vagas": 53
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 142.8,
+   "sobras": 16,
+   "vagas": 15
+  },
+  "2022f1": {
+   "colocados": 84,
+   "nota_ultimo": 128.7,
+   "sobras": 0,
+   "vagas": 84
+  },
+  "2022f2": {
+   "colocados": 15,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2022f3": {
+   "colocados": 4,
+   "nota_ultimo": 126.6,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f1": {
+   "candidatos": 240,
+   "candidatos_1opcao": 75,
+   "colocados": 84,
+   "colocados_1opcao": 65,
+   "media_candidatura": 147.8,
+   "media_provas": 131.4,
+   "media_secundario": 156.6,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 84
+  },
+  "2023f2": {
+   "candidatos": 45,
+   "candidatos_1opcao": 11,
+   "colocados": 6,
+   "colocados_1opcao": 2,
+   "media_candidatura": 141.7,
+   "media_provas": 117.3,
+   "media_secundario": 154.8,
+   "nota_ultimo": 135.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2023f3": {
+   "colocados": 2,
+   "nota_ultimo": 158.1,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 213,
+   "candidatos_1opcao": 63,
+   "colocados": 82,
+   "colocados_1opcao": 63,
+   "media_candidatura": 143.9,
+   "media_provas": 128.0,
+   "media_secundario": 152.4,
+   "nota_ultimo": 111.1,
+   "sobras": 2,
+   "vagas": 84
+  },
+  "2024f2": {
+   "candidatos": 40,
+   "candidatos_1opcao": 10,
+   "colocados": 9,
+   "colocados_1opcao": 5,
+   "media_candidatura": 141.5,
+   "media_provas": 116.4,
+   "media_secundario": 155.0,
+   "nota_ultimo": 131.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2024f3": {
+   "colocados": 4,
+   "nota_ultimo": 125.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2025f1": {
+   "candidatos": 137,
+   "candidatos_1opcao": 48,
+   "colocados": 49,
+   "colocados_1opcao": 48,
+   "media_candidatura": 147.6,
+   "media_provas": 136.8,
+   "media_secundario": 158.3,
+   "nota_ultimo": 119.3,
+   "sobras": 35,
+   "vagas": 84
+  },
+  "2025f2": {
+   "candidatos": 29,
+   "candidatos_1opcao": 10,
+   "colocados": 13,
+   "colocados_1opcao": 10,
+   "media_candidatura": 135.1,
+   "media_provas": 123.9,
+   "media_secundario": 146.2,
+   "nota_ultimo": 112.8,
+   "sobras": 24,
+   "vagas": 36
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 115.3,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2026f1": {
+   "colocados": 56,
+   "nota_ultimo": 110.5,
+   "sobras": 27,
+   "vagas": 84
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 84
+}

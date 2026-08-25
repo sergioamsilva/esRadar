@@ -1,0 +1,164 @@
+---
+import Base from "../layouts/Base.astro";
+import { instituicoes, ligacao, formatarInteiro } from "../lib/dados";
+
+const todas = instituicoes();
+
+/* Agrupar por instituição-mãe: a Universidade de Coimbra são 9 faculdades
+   com códigos próprios no concurso, mas quem procura pensa na universidade. */
+const grupos = new Map<string, typeof todas>();
+for (const i of todas) {
+  const lista = grupos.get(i.grupo) ?? [];
+  lista.push(i);
+  grupos.set(i.grupo, lista);
+}
+const agregados = [...grupos.entries()]
+  .map(([grupo, membros]) => {
+    const vagas = membros.reduce((s, m) => s + m.vagas, 0);
+    const colocados = membros.reduce((s, m) => s + m.colocados_f1, 0);
+    const sobras = membros.reduce((s, m) => s + m.sobras_f1, 0);
+    return {
+      grupo,
+      membros,
+      vagas,
+      colocados,
+      sobras,
+      ocupacao: vagas ? colocados / vagas : 0,
+      subsistema: membros[0].subsistema,
+    };
+  })
+  .sort((a, b) => b.vagas - a.vagas);
+const maxVagas = Math.max(...agregados.map((a) => a.vagas));
+---
+
+<Base
+  titulo="Instituições"
+  descricao="Vagas, colocados e taxa de ocupação da 1ª fase de 2026, instituição a instituição."
+>
+  <header class="cab">
+    <h1>As instituições na 1ª fase de 2026</h1>
+    <p class="desc medida">
+      Barras ordenadas pelas vagas postas a concurso; o troço preenchido são os colocados
+      na 1ª fase, o vazio são as vagas que sobraram. A geografia da procura lê-se aqui:
+      as sobras concentram-se fora dos grandes centros.
+    </p>
+  </header>
+
+  <ol class="ranking">
+    {
+      agregados.map((a) => (
+        <li>
+          <details>
+            <summary>
+              <span class="ranking__nome">
+                {a.grupo}
+                <span class="ranking__meta">
+                  {a.subsistema === "politecnico" ? "politécnico" : "universitário"} ·{" "}
+                  {formatarInteiro(a.vagas)} vagas · {formatarInteiro(a.colocados)} colocados
+                  {a.sobras > 0 && ` · ${formatarInteiro(a.sobras)} sobras`}
+                </span>
+              </span>
+              <span
+                class="ranking__barra"
+                role="img"
+                aria-label={`${Math.round(a.ocupacao * 100)} por cento das vagas preenchidas`}
+              >
+                <span
+                  class="ranking__preenchido"
+                  style={`width:${(a.vagas / maxVagas) * 100}%`}
+                >
+                  <span style={`width:${a.ocupacao * 100}%`} />
+                </span>
+              </span>
+            </summary>
+            <ul class="membros">
+              {a.membros
+                .sort((x, y) => y.vagas - x.vagas)
+                .map((m) => (
+                  <li>
+                    <a href={ligacao(`/instituicao/${m.code}/`)}>{m.nome}</a>
+                    <span>
+                      {formatarInteiro(m.vagas)} vagas · {formatarInteiro(m.colocados_f1)}{" "}
+                      colocados · {m.n_cursos} cursos
+                    </span>
+                  </li>
+                ))}
+            </ul>
+          </details>
+        </li>
+      ))
+    }
+  </ol>
+</Base>
+
+<style>
+  .cab {
+    padding: 26px 0 12px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+  }
+  .ranking {
+    list-style: none;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+  .ranking summary {
+    display: block;
+    padding: 10px 2px;
+    border-bottom: 1px solid var(--grid);
+    cursor: pointer;
+  }
+  .ranking summary::-webkit-details-marker {
+    display: none;
+  }
+  .ranking summary:hover .ranking__nome {
+    color: var(--accent-texto);
+  }
+  .ranking__nome {
+    display: block;
+    font-weight: 650;
+  }
+  .ranking__meta {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .ranking__barra {
+    display: block;
+    height: 8px;
+    margin-top: 6px;
+  }
+  .ranking__preenchido {
+    display: block;
+    height: 100%;
+    background: var(--accent-soft);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .ranking__preenchido > span {
+    display: block;
+    height: 100%;
+    background: var(--serie-1);
+    border-radius: 4px 0 0 4px;
+  }
+  .membros {
+    list-style: none;
+    margin: 4px 0 10px;
+    padding: 0 0 0 14px;
+    border-left: 2px solid var(--grid);
+  }
+  .membros li {
+    padding: 5px 0;
+    font-size: var(--t-sm);
+  }
+  .membros span {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+</style>

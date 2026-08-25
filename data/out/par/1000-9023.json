@@ -1,0 +1,209 @@
+{
+ "ativo": true,
+ "cnaef": "321",
+ "cnaef_nome": "Jornalismo e Reportagem",
+ "codc": "9023",
+ "code": "1000",
+ "concurso": "Nacional",
+ "curso": "Ciências da Comunicação",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": 100,
+ "minimo_provas": 100,
+ "par": "1000-9023",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 66,
+   "nota_ultimo": 157.2,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2018f2": {
+   "colocados": 11,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2018f3": {
+   "colocados": 3,
+   "nota_ultimo": 153.6,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 67,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 159.6,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 160.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 69,
+   "nota_ultimo": 164.8,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 66,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 173.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 168.4,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 65,
+   "nota_ultimo": 166.6,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2022f2": {
+   "colocados": 11,
+   "nota_ultimo": 169.4,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2022f3": {
+   "colocados": 2,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f1": {
+   "candidatos": 658,
+   "candidatos_1opcao": 154,
+   "colocados": 65,
+   "colocados_1opcao": 43,
+   "media_candidatura": 174.1,
+   "media_provas": 172.0,
+   "media_secundario": 175.5,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2023f2": {
+   "candidatos": 149,
+   "candidatos_1opcao": 38,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 177.3,
+   "media_provas": 177.8,
+   "media_secundario": 177.0,
+   "nota_ultimo": 173.4,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 167.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 568,
+   "candidatos_1opcao": 133,
+   "colocados": 65,
+   "colocados_1opcao": 41,
+   "media_candidatura": 175.4,
+   "media_provas": 171.8,
+   "media_secundario": 177.8,
+   "nota_ultimo": 168.8,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2024f2": {
+   "candidatos": 104,
+   "candidatos_1opcao": 36,
+   "colocados": 7,
+   "colocados_1opcao": 3,
+   "media_candidatura": 159.1,
+   "media_provas": 158.7,
+   "media_secundario": 159.4,
+   "nota_ultimo": 168.6,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f3": {
+   "colocados": 1,
+   "nota_ultimo": 181.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 588,
+   "candidatos_1opcao": 129,
+   "colocados": 65,
+   "colocados_1opcao": 43,
+   "media_candidatura": 170.1,
+   "media_provas": 163.3,
+   "media_secundario": 177.0,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2025f2": {
+   "candidatos": 126,
+   "candidatos_1opcao": 39,
+   "colocados": 7,
+   "colocados_1opcao": 3,
+   "media_candidatura": 166.6,
+   "media_provas": 162.1,
+   "media_secundario": 171.0,
+   "nota_ultimo": 162.8,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 153.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2026f1": {
+   "colocados": 65,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 65
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 65
+}

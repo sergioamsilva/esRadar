@@ -1,0 +1,78 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9555",
+ "code": "1000",
+ "concurso": null,
+ "curso": "Psicologia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-9555",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 65,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2018f2": {
+   "colocados": 12,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 142.2,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 65,
+   "nota_ultimo": 151.6,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 152.8,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2019f3": {
+   "colocados": 4,
+   "nota_ultimo": 150.6,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f1": {
+   "colocados": 72,
+   "nota_ultimo": 164.4,
+   "sobras": 0,
+   "vagas": 71
+  },
+  "2020f2": {
+   "colocados": 6,
+   "nota_ultimo": 164.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f3": {
+   "colocados": 3,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

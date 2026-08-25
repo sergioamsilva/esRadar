@@ -1,0 +1,56 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9041",
+ "code": "0160",
+ "concurso": null,
+ "curso": "Ciências do Mar",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "instituicao": "Universidade dos Açores - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0160-9041",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 145.0,
+   "sobras": 18,
+   "vagas": 19
+  },
+  "2019f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 1,
+   "nota_ultimo": 125.1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

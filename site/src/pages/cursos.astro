@@ -1,0 +1,178 @@
+---
+import Base from "../layouts/Base.astro";
+import { cursos, ligacao, formatarNota, formatarInteiro } from "../lib/dados";
+
+const todos = cursos()
+  .slice()
+  .sort((a, b) => a.curso.localeCompare(b.curso, "pt") || a.instituicao.localeCompare(b.instituicao, "pt"));
+
+/* Índice de procura embebido: nome + instituição + nota, ~60 KB para 1100
+   cursos. Sem JavaScript, a lista completa continua toda na página — o campo
+   de procura é melhoria progressiva e esconde-se sozinho. */
+const areas = [...new Set(todos.map((c) => c.cnaef_nome).filter(Boolean))].sort((a, b) =>
+  a!.localeCompare(b!, "pt"),
+) as string[];
+---
+
+<Base
+  titulo="Cursos"
+  descricao="Todos os pares curso/instituição do Concurso Nacional de Acesso 2026, com nota do último colocado, vagas e procura."
+>
+  <header class="cab">
+    <h1>Os {formatarInteiro(todos.length)} cursos do concurso de 2026</h1>
+    <p class="desc medida">
+      Nota do último colocado na 1ª fase de 2026, vagas e procura. A procura — candidatos
+      que puseram o curso em 1ª opção por vaga — vem da época de 2025, a última com dados
+      publicados.
+    </p>
+  </header>
+
+  <form class="filtros js-so" hidden>
+    <input
+      type="search"
+      data-procura
+      placeholder="Curso ou instituição… (ex.: enfermagem porto)"
+      aria-label="Filtrar cursos por nome ou instituição"
+      autocomplete="off"
+    />
+    <select data-area aria-label="Filtrar por área de estudo">
+      <option value="">Todas as áreas</option>
+      {areas.map((a) => <option value={a}>{a}</option>)}
+    </select>
+    <p class="desc" data-contagem aria-live="polite"></p>
+  </form>
+
+  <ol class="lista" data-lista>
+    {
+      todos.map((c) => (
+        <li
+          data-b={`${c.curso} ${c.instituicao} ${c.grupo}`.toLowerCase()}
+          data-a={c.cnaef_nome ?? ""}
+        >
+          <a href={ligacao(`/curso/${c.par}/`)} class="linha">
+            <span class="linha__nome">
+              <b>{c.curso}</b>
+              <span>{c.instituicao}</span>
+            </span>
+            <span class="linha__numeros">
+              <span class="linha__nota" title="Nota do último colocado, 1ª fase 2026">
+                {formatarNota(c.nota_2026f1)}
+              </span>
+              <span class="linha__meta">
+                {formatarInteiro(c.vagas)} vagas
+                {c.racio_procura != null &&
+                  ` · ${c.racio_procura.toLocaleString("pt-PT", { maximumFractionDigits: 1 })}× procura`}
+                {c.sobras_2026f1 ? ` · ${formatarInteiro(c.sobras_2026f1)} sobras` : ""}
+              </span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+</Base>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>(".js-so");
+  const campo = document.querySelector<HTMLInputElement>("[data-procura]");
+  const area = document.querySelector<HTMLSelectElement>("[data-area]");
+  const contagem = document.querySelector<HTMLElement>("[data-contagem]");
+  const itens = [...document.querySelectorAll<HTMLLIElement>("[data-lista] > li")];
+  if (form) form.hidden = false;
+
+  const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+  const indexados = itens.map((li) => ({ li, b: semAcentos(li.dataset.b ?? "") }));
+
+  const filtrar = () => {
+    const termos = semAcentos((campo?.value ?? "").trim().toLowerCase()).split(/\s+/).filter(Boolean);
+    const a = area?.value ?? "";
+    let visiveis = 0;
+    for (const { li, b } of indexados) {
+      const passa = termos.every((t) => b.includes(t)) && (!a || li.dataset.a === a);
+      li.hidden = !passa;
+      if (passa) visiveis++;
+    }
+    if (contagem)
+      contagem.textContent =
+        termos.length || a ? `${visiveis.toLocaleString("pt-PT")} cursos encontrados` : "";
+  };
+  campo?.addEventListener("input", filtrar);
+  area?.addEventListener("change", filtrar);
+</script>
+
+<style>
+  .cab {
+    padding: 26px 0 8px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+  }
+  .filtros {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 14px 0 6px;
+  }
+  .filtros input[type="search"] {
+    flex: 1 1 260px;
+    padding: 10px 14px;
+    font: inherit;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .filtros select {
+    padding: 10px 12px;
+    font: inherit;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    max-width: 100%;
+  }
+  .lista {
+    list-style: none;
+    margin: 10px 0 40px;
+    padding: 0;
+  }
+  .linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 14px;
+    padding: 10px 2px;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+  }
+  .linha:hover b {
+    color: var(--accent-texto);
+  }
+  .linha__nome b {
+    display: block;
+    font-weight: 650;
+  }
+  .linha__nome span {
+    display: block;
+    font-size: var(--t-xs);
+    color: var(--muted);
+  }
+  .linha__numeros {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .linha__nota {
+    display: block;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .linha__meta {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+</style>

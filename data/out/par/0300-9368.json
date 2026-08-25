@@ -1,0 +1,72 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9368",
+ "code": "0300",
+ "concurso": null,
+ "curso": "Engenharia Física",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-9368",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 40,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2018f2": {
+   "colocados": 5,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 40,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 157.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 41,
+   "nota_ultimo": 161.0,
+   "sobras": 0,
+   "vagas": 41
+  },
+  "2020f2": {
+   "colocados": 2,
+   "nota_ultimo": 168.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

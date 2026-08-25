@@ -1,0 +1,197 @@
+{
+ "ativo": true,
+ "cnaef": "144",
+ "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
+ "codc": "9853",
+ "code": "3121",
+ "concurso": "Nacional",
+ "curso": "Educação Básica",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Portalegre",
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3121-9853",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 116.0,
+   "sobras": 21,
+   "vagas": 22
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 21,
+   "vagas": 21
+  },
+  "2019f1": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22
+  },
+  "2019f2": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2020f1": {
+   "colocados": 1,
+   "sobras": 21,
+   "vagas": 22
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 130.6,
+   "sobras": 18,
+   "vagas": 21
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 122.8,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2021f1": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22
+  },
+  "2021f2": {
+   "colocados": 2,
+   "nota_ultimo": 128.5,
+   "sobras": 20,
+   "vagas": 22
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2022f1": {
+   "colocados": 6,
+   "nota_ultimo": 123.6,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2022f2": {
+   "colocados": 2,
+   "nota_ultimo": 126.8,
+   "sobras": 17,
+   "vagas": 19
+  },
+  "2022f3": {
+   "colocados": 4,
+   "nota_ultimo": 118.2,
+   "sobras": 7,
+   "vagas": 11
+  },
+  "2023f1": {
+   "candidatos": 68,
+   "candidatos_1opcao": 8,
+   "colocados": 17,
+   "colocados_1opcao": 8,
+   "media_candidatura": 136.0,
+   "media_provas": 122.6,
+   "media_secundario": 143.2,
+   "nota_ultimo": 119.7,
+   "sobras": 8,
+   "vagas": 25
+  },
+  "2023f2": {
+   "candidatos": 55,
+   "candidatos_1opcao": 2,
+   "colocados": 14,
+   "colocados_1opcao": 0,
+   "media_candidatura": 137.7,
+   "media_provas": 125.8,
+   "media_secundario": 144.1,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2023f3": {
+   "colocados": 1,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 111,
+   "candidatos_1opcao": 11,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 134.5,
+   "media_provas": 124.1,
+   "media_secundario": 140.0,
+   "nota_ultimo": 125.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2024f2": {
+   "candidatos": 45,
+   "candidatos_1opcao": 6,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 185,
+   "candidatos_1opcao": 8,
+   "colocados": 40,
+   "colocados_1opcao": 8,
+   "media_candidatura": 129.2,
+   "media_provas": 122.0,
+   "media_secundario": 136.5,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2025f2": {
+   "candidatos": 85,
+   "candidatos_1opcao": 9,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 137.1,
+   "media_provas": 130.4,
+   "media_secundario": 143.8,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 27,
+   "nota_ultimo": 107.8,
+   "sobras": 37,
+   "vagas": 65
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 65
+}

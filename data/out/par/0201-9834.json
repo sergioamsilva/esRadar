@@ -1,0 +1,95 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9834",
+ "code": "0201",
+ "concurso": null,
+ "curso": "Línguas e Comunicação",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0201-9834",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 33,
+   "nota_ultimo": 105.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 8,
+   "nota_ultimo": 117.2,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f1": {
+   "colocados": 34,
+   "nota_ultimo": 104.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2019f2": {
+   "colocados": 5,
+   "nota_ultimo": 123.4,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 129.4,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 47,
+   "nota_ultimo": 113.3,
+   "sobras": 0,
+   "vagas": 43
+  },
+  "2020f2": {
+   "colocados": 7,
+   "nota_ultimo": 129.8,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 43,
+   "nota_ultimo": 127.7,
+   "sobras": 0,
+   "vagas": 43
+  },
+  "2021f2": {
+   "colocados": 6,
+   "nota_ultimo": 139.1,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2021f3": {
+   "colocados": 3,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

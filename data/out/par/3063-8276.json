@@ -1,0 +1,59 @@
+{
+ "ativo": true,
+ "cnaef": "346",
+ "cnaef_nome": "Secretariado e Trabalho Administrativo",
+ "codc": "8276",
+ "code": "3063",
+ "concurso": "Nacional",
+ "curso": "Assessoria de Direção",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Coimbra",
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "3063-8276",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n16 Matemática\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português\nou\n09 Geografia\n13 Inglês\nou\n09 Geografia\n16 Matemática",
+ "series": {
+  "2025f1": {
+   "candidatos": 123,
+   "candidatos_1opcao": 18,
+   "colocados": 43,
+   "colocados_1opcao": 17,
+   "media_candidatura": 132.8,
+   "media_provas": 122.9,
+   "media_secundario": 142.8,
+   "nota_ultimo": 116.8,
+   "sobras": 0,
+   "vagas": 43
+  },
+  "2025f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 7,
+   "colocados": 6,
+   "colocados_1opcao": 2,
+   "media_candidatura": 134.3,
+   "media_provas": 120.6,
+   "media_secundario": 148.0,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 43,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 43
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 43
+}

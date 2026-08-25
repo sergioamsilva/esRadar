@@ -1,0 +1,70 @@
+# Definição declarativa dos indicadores do esRadar.
+#
+# polaridade: subir_e_bom | subir_e_mau | neutro — controla setas e cores no
+# site. cautela é texto obrigatório quando a leitura ingénua induz em erro;
+# o frontend mostra-o junto ao indicador.
+
+indicadores:
+  - id: nota_ultimo
+    nome: Nota do último colocado (contingente geral)
+    unidade: pontos (0–200)
+    polaridade: neutro
+    fonte: DGES — resultados do CNA por fase; guia da candidatura
+    cautela: >-
+      A nota do último colocado mede o equilíbrio entre procura e vagas,
+      não a qualidade do curso. Um curso com poucas vagas e procura média
+      pode ter nota de corte mais alta do que um curso excelente com muitas
+      vagas. Só existe quando o curso preencheu todas as vagas nessa fase.
+
+  - id: vagas
+    nome: Vagas iniciais
+    unidade: vagas
+    polaridade: neutro
+    fonte: DGES — resultados do CNA; guia da candidatura
+
+  - id: colocados
+    nome: Colocados
+    unidade: estudantes
+    polaridade: neutro
+    fonte: DGES — resultados do CNA por fase
+
+  - id: candidatos
+    nome: Candidatos
+    unidade: candidaturas
+    polaridade: neutro
+    fonte: DGES — guia da candidatura (estatísticas de anos anteriores)
+    cautela: >-
+      Cada estudante concorre até 6 pares curso/instituição: o total de
+      candidatos de um curso conta candidaturas, não pessoas.
+
+  - id: candidatos_1opcao
+    nome: Candidatos em 1ª opção
+    unidade: candidaturas
+    polaridade: neutro
+    fonte: DGES — guia da candidatura
+
+  - id: racio_procura
+    nome: Candidatos em 1ª opção por vaga
+    unidade: rácio
+    polaridade: neutro
+    derivado: candidatos_1opcao / vagas (1ª fase)
+    cautela: >-
+      Mede a pressão real sobre o curso: quantos o escolheram como primeira
+      preferência por cada vaga. Acima de 1 significa que nem todos os que o
+      queriam em primeiro lugar conseguem entrar.
+
+  - id: ocupacao
+    nome: Taxa de ocupação das vagas
+    unidade: percentagem
+    polaridade: neutro
+    derivado: colocados (todas as fases) / vagas iniciais
+    cautela: >-
+      Vagas por preencher concentram-se em cursos e regiões com menor
+      procura; a taxa de ocupação de uma instituição mistura cursos muito
+      diferentes.
+
+  - id: sobras
+    nome: Vagas sobrantes para a fase seguinte
+    unidade: vagas
+    polaridade: neutro
+    fonte: DGES — resultados do CNA por fase

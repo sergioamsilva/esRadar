@@ -1,0 +1,59 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9061",
+ "code": "3186",
+ "concurso": null,
+ "curso": "Contabilidade e Auditoria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3186-9061",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 9,
+   "nota_ultimo": 98.0,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2018f2": {
+   "colocados": 9,
+   "nota_ultimo": 109.9,
+   "sobras": 11,
+   "vagas": 19
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 7,
+   "nota_ultimo": 110.5,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2019f2": {
+   "colocados": 7,
+   "nota_ultimo": 104.0,
+   "sobras": 14,
+   "vagas": 18
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 125.9,
+   "sobras": 8,
+   "vagas": 10
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

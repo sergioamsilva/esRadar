@@ -1,0 +1,210 @@
+{
+ "ativo": true,
+ "cnaef": "311",
+ "cnaef_nome": "Psicologia",
+ "codc": "9219",
+ "code": "1202",
+ "concurso": "Nacional",
+ "curso": "Psicologia",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "1202-9219",
+ "provas_ingresso": "18 Português\ne\nUma das seguintes provas:\n02 Biologia e Geologia\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 60,
+   "nota_ultimo": 144.9,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2018f2": {
+   "colocados": 19,
+   "nota_ultimo": 144.6,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2018f3": {
+   "colocados": 5,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 65,
+   "nota_ultimo": 149.3,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2019f2": {
+   "colocados": 13,
+   "nota_ultimo": 148.9,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 161.6,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 75,
+   "nota_ultimo": 153.9,
+   "sobras": 0,
+   "vagas": 73
+  },
+  "2020f2": {
+   "colocados": 22,
+   "nota_ultimo": 153.4,
+   "sobras": 0,
+   "vagas": 19
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 153.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 67,
+   "nota_ultimo": 164.1,
+   "sobras": 0,
+   "vagas": 67
+  },
+  "2021f2": {
+   "colocados": 20,
+   "nota_ultimo": 160.6,
+   "sobras": 0,
+   "vagas": 17
+  },
+  "2021f3": {
+   "colocados": 9,
+   "nota_ultimo": 158.1,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2022f1": {
+   "colocados": 70,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2022f2": {
+   "colocados": 11,
+   "nota_ultimo": 162.9,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2022f3": {
+   "colocados": 3,
+   "nota_ultimo": 162.8,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f1": {
+   "candidatos": 900,
+   "candidatos_1opcao": 200,
+   "colocados": 69,
+   "colocados_1opcao": 37,
+   "media_candidatura": 169.1,
+   "media_provas": 166.5,
+   "media_secundario": 170.5,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 69
+  },
+  "2023f2": {
+   "candidatos": 295,
+   "candidatos_1opcao": 71,
+   "colocados": 10,
+   "colocados_1opcao": 3,
+   "media_candidatura": 167.6,
+   "media_provas": 166.1,
+   "media_secundario": 168.4,
+   "nota_ultimo": 165.4,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2023f3": {
+   "colocados": 2,
+   "nota_ultimo": 165.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 775,
+   "candidatos_1opcao": 161,
+   "colocados": 71,
+   "colocados_1opcao": 27,
+   "media_candidatura": 167.8,
+   "media_provas": 160.8,
+   "media_secundario": 171.5,
+   "nota_ultimo": 164.2,
+   "sobras": 0,
+   "vagas": 71
+  },
+  "2024f2": {
+   "candidatos": 258,
+   "candidatos_1opcao": 81,
+   "colocados": 12,
+   "colocados_1opcao": 4,
+   "media_candidatura": 173.7,
+   "media_provas": 177.0,
+   "media_secundario": 171.9,
+   "nota_ultimo": 171.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2024f3": {
+   "colocados": 5,
+   "nota_ultimo": 166.9,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2025f1": {
+   "candidatos": 519,
+   "candidatos_1opcao": 79,
+   "colocados": 72,
+   "colocados_1opcao": 22,
+   "media_candidatura": 165.8,
+   "media_provas": 161.2,
+   "media_secundario": 170.4,
+   "nota_ultimo": 161.0,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2025f2": {
+   "candidatos": 168,
+   "candidatos_1opcao": 39,
+   "colocados": 13,
+   "colocados_1opcao": 2,
+   "media_candidatura": 167.3,
+   "media_provas": 165.4,
+   "media_secundario": 169.2,
+   "nota_ultimo": 163.3,
+   "sobras": 0,
+   "vagas": 11
+  },
+  "2025f3": {
+   "colocados": 5,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2026f1": {
+   "colocados": 72,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 72
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 72
+}

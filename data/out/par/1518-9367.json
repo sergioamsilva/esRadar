@@ -1,0 +1,78 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9367",
+ "code": "1518",
+ "concurso": null,
+ "curso": "Engenharia Eletrotécnica e de Computadores",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1518-9367",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 220,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 220
+  },
+  "2018f2": {
+   "colocados": 24,
+   "nota_ultimo": 162.3,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2018f3": {
+   "colocados": 3,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f1": {
+   "colocados": 220,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 220
+  },
+  "2019f2": {
+   "colocados": 14,
+   "nota_ultimo": 162.0,
+   "sobras": 0,
+   "vagas": 8
+  },
+  "2019f3": {
+   "colocados": 1,
+   "nota_ultimo": 185.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f1": {
+   "colocados": 232,
+   "nota_ultimo": 164.5,
+   "sobras": 0,
+   "vagas": 230
+  },
+  "2020f2": {
+   "colocados": 11,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 166.8,
+   "sobras": 0,
+   "vagas": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

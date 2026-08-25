@@ -1,0 +1,196 @@
+{
+ "ativo": true,
+ "cnaef": "345",
+ "cnaef_nome": "Gestão e Administração",
+ "codc": "9147",
+ "code": "3117",
+ "concurso": "Nacional",
+ "curso": "Gestão",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico de Lisboa",
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
+ "minimo_candidatura": 100,
+ "minimo_provas": 95,
+ "par": "3117-9147",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
+ "series": {
+  "2018f1": {
+   "colocados": 106,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 104
+  },
+  "2018f2": {
+   "colocados": 29,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 4
+  },
+  "2019f1": {
+   "colocados": 105,
+   "nota_ultimo": 153.1,
+   "sobras": 0,
+   "vagas": 104
+  },
+  "2019f2": {
+   "colocados": 20,
+   "nota_ultimo": 157.3,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2020f1": {
+   "colocados": 153,
+   "nota_ultimo": 156.1,
+   "sobras": 0,
+   "vagas": 149
+  },
+  "2020f2": {
+   "colocados": 46,
+   "nota_ultimo": 158.4,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2021f1": {
+   "colocados": 105,
+   "nota_ultimo": 163.6,
+   "sobras": 0,
+   "vagas": 104
+  },
+  "2021f2": {
+   "colocados": 26,
+   "nota_ultimo": 163.6,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 3
+  },
+  "2022f1": {
+   "colocados": 104,
+   "nota_ultimo": 162.6,
+   "sobras": 0,
+   "vagas": 104
+  },
+  "2022f2": {
+   "colocados": 26,
+   "nota_ultimo": 163.6,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 4
+  },
+  "2023f1": {
+   "candidatos": 1190,
+   "candidatos_1opcao": 311,
+   "colocados": 101,
+   "colocados_1opcao": 39,
+   "media_candidatura": 166.2,
+   "media_provas": 163.2,
+   "media_secundario": 167.8,
+   "nota_ultimo": 164.8,
+   "sobras": 0,
+   "vagas": 101
+  },
+  "2023f2": {
+   "candidatos": 416,
+   "candidatos_1opcao": 145,
+   "colocados": 20,
+   "colocados_1opcao": 7,
+   "media_candidatura": 169.8,
+   "media_provas": 176.8,
+   "media_secundario": 166.0,
+   "nota_ultimo": 166.7,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 9
+  },
+  "2024f1": {
+   "candidatos": 936,
+   "candidatos_1opcao": 248,
+   "colocados": 103,
+   "colocados_1opcao": 31,
+   "media_candidatura": 165.1,
+   "media_provas": 163.2,
+   "media_secundario": 166.0,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 103
+  },
+  "2024f2": {
+   "candidatos": 378,
+   "candidatos_1opcao": 121,
+   "colocados": 19,
+   "colocados_1opcao": 7,
+   "media_candidatura": 168.7,
+   "media_provas": 169.8,
+   "media_secundario": 168.1,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 12
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 2
+  },
+  "2025f1": {
+   "candidatos": 670,
+   "candidatos_1opcao": 152,
+   "colocados": 106,
+   "colocados_1opcao": 44,
+   "media_candidatura": 161.2,
+   "media_provas": 159.9,
+   "media_secundario": 162.5,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 106
+  },
+  "2025f2": {
+   "candidatos": 304,
+   "candidatos_1opcao": 98,
+   "colocados": 40,
+   "colocados_1opcao": 17,
+   "media_candidatura": 158.4,
+   "media_provas": 155.9,
+   "media_secundario": 160.9,
+   "nota_ultimo": 155.3,
+   "sobras": 0,
+   "vagas": 29
+  },
+  "2025f3": {
+   "colocados": 5,
+   "nota_ultimo": 152.3,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2026f1": {
+   "colocados": 125,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 125
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 125
+}

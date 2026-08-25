@@ -1,0 +1,77 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9913",
+ "code": "1518",
+ "concurso": null,
+ "curso": "Engenharia Geológica e de Minas",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1518-9913",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 20,
+   "nota_ultimo": 130.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2018f3": {
+   "colocados": 2,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 20,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 20,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2020f2": {
+   "colocados": 3,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 2,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

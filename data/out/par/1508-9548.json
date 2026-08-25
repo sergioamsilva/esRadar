@@ -1,0 +1,200 @@
+{
+ "ativo": true,
+ "cnaef": "724",
+ "cnaef_nome": "Ciências Dentárias",
+ "codc": "9548",
+ "code": "1508",
+ "concurso": "Nacional",
+ "curso": "Medicina Dentária",
+ "duracao": "10 Semestres",
+ "ects": 300,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Medicina Dentária",
+ "minimo_candidatura": 140,
+ "minimo_provas": 140,
+ "par": "1508-9548",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 65,
+   "nota_ultimo": 172.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2018f2": {
+   "colocados": 12,
+   "nota_ultimo": 175.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 65,
+   "nota_ultimo": 173.8,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 181.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 71,
+   "nota_ultimo": 180.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2020f2": {
+   "colocados": 4,
+   "nota_ultimo": 185.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 74,
+   "nota_ultimo": 182.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2021f2": {
+   "colocados": 6,
+   "nota_ultimo": 186.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 70,
+   "nota_ultimo": 181.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2022f2": {
+   "colocados": 9,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2023f1": {
+   "candidatos": 555,
+   "candidatos_1opcao": 120,
+   "colocados": 70,
+   "colocados_1opcao": 29,
+   "media_candidatura": 180.3,
+   "media_provas": 176.4,
+   "media_secundario": 184.2,
+   "nota_ultimo": 178.3,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2023f2": {
+   "candidatos": 141,
+   "candidatos_1opcao": 55,
+   "colocados": 8,
+   "colocados_1opcao": 3,
+   "media_candidatura": 182.3,
+   "media_provas": 181.6,
+   "media_secundario": 183.0,
+   "nota_ultimo": 180.3,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2023f3": {
+   "colocados": 2,
+   "nota_ultimo": 177.8,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f1": {
+   "candidatos": 496,
+   "candidatos_1opcao": 146,
+   "colocados": 70,
+   "colocados_1opcao": 43,
+   "media_candidatura": 179.8,
+   "media_provas": 177.7,
+   "media_secundario": 181.8,
+   "nota_ultimo": 178.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2024f2": {
+   "candidatos": 137,
+   "candidatos_1opcao": 54,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 184.2,
+   "media_provas": 184.3,
+   "media_secundario": 184.0,
+   "nota_ultimo": 183.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2025f1": {
+   "candidatos": 580,
+   "candidatos_1opcao": 160,
+   "colocados": 70,
+   "colocados_1opcao": 36,
+   "media_candidatura": 179.8,
+   "media_provas": 176.9,
+   "media_secundario": 182.6,
+   "nota_ultimo": 177.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2025f2": {
+   "candidatos": 153,
+   "candidatos_1opcao": 54,
+   "colocados": 5,
+   "colocados_1opcao": 0,
+   "media_candidatura": 182.5,
+   "media_provas": 179.7,
+   "media_secundario": 185.2,
+   "nota_ultimo": 181.8,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 2,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2026f1": {
+   "colocados": 70,
+   "nota_ultimo": 178.8,
+   "sobras": 0,
+   "vagas": 70
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 70
+}

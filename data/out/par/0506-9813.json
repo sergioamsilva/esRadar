@@ -1,0 +1,199 @@
+{
+ "ativo": true,
+ "cnaef": "721",
+ "cnaef_nome": "Medicina",
+ "codc": "9813",
+ "code": "0506",
+ "concurso": "Nacional",
+ "curso": "Medicina",
+ "duracao": "12 Semestres",
+ "ects": 360,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Medicina",
+ "minimo_candidatura": 140,
+ "minimo_provas": 140,
+ "par": "0506-9813",
+ "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
+ "series": {
+  "2018f1": {
+   "colocados": 255,
+   "nota_ultimo": 177.7,
+   "sobras": 0,
+   "vagas": 255
+  },
+  "2018f2": {
+   "colocados": 3,
+   "nota_ultimo": 186.2,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2019f1": {
+   "colocados": 255,
+   "nota_ultimo": 179.7,
+   "sobras": 0,
+   "vagas": 255
+  },
+  "2019f2": {
+   "colocados": 2,
+   "nota_ultimo": 189.2,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 184.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2020f1": {
+   "colocados": 256,
+   "nota_ultimo": 185.8,
+   "sobras": 0,
+   "vagas": 255
+  },
+  "2020f2": {
+   "colocados": 1,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2021f1": {
+   "colocados": 256,
+   "nota_ultimo": 185.2,
+   "sobras": 0,
+   "vagas": 255
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 191.7,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f3": {
+   "colocados": 2,
+   "nota_ultimo": 189.7,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2022f1": {
+   "colocados": 260,
+   "nota_ultimo": 184.2,
+   "sobras": 0,
+   "vagas": 260
+  },
+  "2022f2": {
+   "colocados": 3,
+   "nota_ultimo": 188.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2022f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2023f1": {
+   "candidatos": 1253,
+   "candidatos_1opcao": 294,
+   "colocados": 273,
+   "colocados_1opcao": 200,
+   "media_candidatura": 184.0,
+   "media_provas": 177.8,
+   "media_secundario": 190.2,
+   "nota_ultimo": 179.5,
+   "sobras": 0,
+   "vagas": 273
+  },
+  "2023f2": {
+   "candidatos": 312,
+   "candidatos_1opcao": 73,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 186.6,
+   "media_provas": 181.9,
+   "media_secundario": 191.3,
+   "nota_ultimo": 186.2,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f1": {
+   "candidatos": 1630,
+   "candidatos_1opcao": 347,
+   "colocados": 289,
+   "colocados_1opcao": 181,
+   "media_candidatura": 184.0,
+   "media_provas": 178.1,
+   "media_secundario": 189.9,
+   "nota_ultimo": 180.2,
+   "sobras": 0,
+   "vagas": 289
+  },
+  "2024f2": {
+   "candidatos": 228,
+   "candidatos_1opcao": 67,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2025f1": {
+   "candidatos": 1486,
+   "candidatos_1opcao": 324,
+   "colocados": 287,
+   "colocados_1opcao": 166,
+   "media_candidatura": 182.8,
+   "media_provas": 176.7,
+   "media_secundario": 188.8,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 287
+  },
+  "2025f2": {
+   "candidatos": 329,
+   "candidatos_1opcao": 99,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 175.0,
+   "media_provas": 171.5,
+   "media_secundario": 178.5,
+   "nota_ultimo": 187.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 291,
+   "nota_ultimo": 180.7,
+   "sobras": 0,
+   "vagas": 291
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 291
+}

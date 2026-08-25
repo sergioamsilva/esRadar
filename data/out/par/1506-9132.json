@@ -1,0 +1,59 @@
+{
+ "ativo": true,
+ "cnaef": "212",
+ "cnaef_nome": "Artes do Espetáculo",
+ "codc": "9132",
+ "code": "1506",
+ "concurso": "Nacional",
+ "curso": "Estudos Artísticos",
+ "duracao": "6 Semestres",
+ "ects": 180,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "1506-9132",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n06 Filosofia\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n12 Hist. da Cultura e Artes\nou\n06 Filosofia\n13 Inglês",
+ "series": {
+  "2025f1": {
+   "candidatos": 204,
+   "candidatos_1opcao": 67,
+   "colocados": 49,
+   "colocados_1opcao": 47,
+   "media_candidatura": 159.2,
+   "media_provas": 158.0,
+   "media_secundario": 160.3,
+   "nota_ultimo": 145.8,
+   "sobras": 0,
+   "vagas": 49
+  },
+  "2025f2": {
+   "candidatos": 44,
+   "candidatos_1opcao": 16,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 151.6,
+   "media_provas": 145.8,
+   "media_secundario": 157.4,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 54,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 54
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 54
+}

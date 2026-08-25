@@ -1,0 +1,56 @@
+# Publica o site no GitHub Pages a partir do que está commitado.
+#
+# O workflow NÃO corre o pipeline Python: os dados de data/out entram no
+# repositório por commit revisto por um humano. Publicar é só construir o
+# Astro sobre esses ficheiros — e falhar alto se o resultado não tiver o
+# tamanho esperado.
+name: publicar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+        working-directory: site
+      - run: npm run build
+        working-directory: site
+      - name: Gates — o site tem o tamanho que devia
+        run: |
+          n=$(find site/dist/curso -name index.html | wc -l)
+          echo "$n fichas de curso geradas"
+          test "$n" -ge 1000
+          test -f site/dist/index.html
+          test -f site/dist/metodologia/index.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

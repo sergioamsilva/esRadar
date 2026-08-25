@@ -1,0 +1,196 @@
+{
+ "ativo": true,
+ "cnaef": "726",
+ "cnaef_nome": "Terapia e Reabilitação",
+ "codc": "9504",
+ "code": "7230",
+ "concurso": "Nacional",
+ "curso": "Fisioterapia",
+ "duracao": "8 Semestres",
+ "ects": 240,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Licenciatura - 1º ciclo",
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "7230-9504",
+ "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2018f1": {
+   "colocados": 55,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2018f2": {
+   "colocados": 4,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2019f1": {
+   "colocados": 55,
+   "nota_ultimo": 157.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2019f2": {
+   "colocados": 4,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2020f1": {
+   "colocados": 64,
+   "nota_ultimo": 170.5,
+   "sobras": 0,
+   "vagas": 62
+  },
+  "2020f2": {
+   "colocados": 5,
+   "nota_ultimo": 172.8,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2021f1": {
+   "colocados": 58,
+   "nota_ultimo": 174.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2021f2": {
+   "colocados": 3,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2021f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2022f1": {
+   "colocados": 61,
+   "nota_ultimo": 167.8,
+   "sobras": 0,
+   "vagas": 61
+  },
+  "2022f2": {
+   "colocados": 9,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 7
+  },
+  "2022f3": {
+   "colocados": 2,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2023f1": {
+   "candidatos": 649,
+   "candidatos_1opcao": 256,
+   "colocados": 63,
+   "colocados_1opcao": 55,
+   "media_candidatura": 171.9,
+   "media_provas": 165.1,
+   "media_secundario": 178.6,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2023f2": {
+   "candidatos": 183,
+   "candidatos_1opcao": 107,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 181.5,
+   "media_provas": 177.0,
+   "media_secundario": 186.0,
+   "nota_ultimo": 181.5,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2023f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2024f1": {
+   "candidatos": 558,
+   "candidatos_1opcao": 217,
+   "colocados": 63,
+   "colocados_1opcao": 55,
+   "media_candidatura": 169.2,
+   "media_provas": 163.5,
+   "media_secundario": 175.0,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2024f2": {
+   "candidatos": 152,
+   "candidatos_1opcao": 99,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 173.8,
+   "media_provas": 181.5,
+   "media_secundario": 166.0,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2024f3": {
+   "colocados": 0,
+   "sobras": 1
+  },
+  "2025f1": {
+   "candidatos": 385,
+   "candidatos_1opcao": 129,
+   "colocados": 63,
+   "colocados_1opcao": 55,
+   "media_candidatura": 164.9,
+   "media_provas": 152.7,
+   "media_secundario": 177.0,
+   "nota_ultimo": 155.8,
+   "sobras": 0,
+   "vagas": 63
+  },
+  "2025f2": {
+   "candidatos": 72,
+   "candidatos_1opcao": 42,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "media_candidatura": 165.9,
+   "media_provas": 156.9,
+   "media_secundario": 174.8,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2025f3": {
+   "colocados": 0,
+   "sobras": 0
+  },
+  "2026f1": {
+   "colocados": 70,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 70
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": "Ensino Superior Público Politécnico",
+ "vagas_2026": 70
+}

@@ -1,0 +1,96 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9767",
+ "code": "3131",
+ "concurso": null,
+ "curso": "Gestão do Património",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-9767",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 31,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2018f2": {
+   "colocados": 11,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2018f3": {
+   "colocados": 4,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2019f1": {
+   "colocados": 28,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 28
+  },
+  "2019f2": {
+   "colocados": 11,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2019f3": {
+   "colocados": 4,
+   "nota_ultimo": 124.9,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2020f1": {
+   "colocados": 35,
+   "nota_ultimo": 134.9,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2020f2": {
+   "colocados": 11,
+   "nota_ultimo": 138.1,
+   "sobras": 0,
+   "vagas": 9
+  },
+  "2020f3": {
+   "colocados": 3,
+   "nota_ultimo": 141.3,
+   "sobras": 0,
+   "vagas": 1
+  },
+  "2021f1": {
+   "colocados": 33,
+   "nota_ultimo": 134.1,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2021f2": {
+   "colocados": 5,
+   "nota_ultimo": 143.6,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2021f3": {
+   "colocados": 1,
+   "nota_ultimo": 147.6,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

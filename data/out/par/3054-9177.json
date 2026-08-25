@@ -1,0 +1,59 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9177",
+ "code": "3054",
+ "concurso": null,
+ "curso": "Gestão Turística",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3054-9177",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 7,
+   "nota_ultimo": 112.7,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2018f2": {
+   "colocados": 2,
+   "nota_ultimo": 110.0,
+   "sobras": 19,
+   "vagas": 21
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17
+  },
+  "2019f1": {
+   "colocados": 8,
+   "nota_ultimo": 121.3,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2019f2": {
+   "colocados": 3,
+   "nota_ultimo": 116.6,
+   "sobras": 22,
+   "vagas": 24
+  },
+  "2019f3": {
+   "colocados": 2,
+   "nota_ultimo": 95.0,
+   "sobras": 22,
+   "vagas": 24
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

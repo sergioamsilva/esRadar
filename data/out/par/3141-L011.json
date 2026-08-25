@@ -1,0 +1,41 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L011",
+ "code": "3141",
+ "concurso": null,
+ "curso": "Produção Animal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-L011",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 7,
+   "nota_ultimo": 100.7,
+   "sobras": 35,
+   "vagas": 42
+  },
+  "2018f2": {
+   "colocados": 1,
+   "nota_ultimo": 113.0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2018f3": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,210 @@
+{
+ "ativo": true,
+ "cnaef": "727",
+ "cnaef_nome": "Ciências Farmacêuticas",
+ "codc": "9494",
+ "code": "1505",
+ "concurso": "Nacional",
+ "curso": "Ciências Farmacêuticas",
+ "duracao": "10 Semestres",
+ "ects": 300,
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
+ "grau": "Mestrado Integrado",
+ "grupo": "Universidade de Lisboa",
+ "instituicao": "Universidade de Lisboa - Faculdade de Farmácia",
+ "minimo_candidatura": 95,
+ "minimo_provas": 95,
+ "par": "1505-9494",
+ "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
+ "series": {
+  "2018f1": {
+   "colocados": 209,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 209
+  },
+  "2018f2": {
+   "colocados": 23,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 16
+  },
+  "2018f3": {
+   "colocados": 4,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 4
+  },
+  "2019f1": {
+   "colocados": 209,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 209
+  },
+  "2019f2": {
+   "colocados": 23,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 16
+  },
+  "2019f3": {
+   "colocados": 3,
+   "nota_ultimo": 145.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2020f1": {
+   "colocados": 236,
+   "nota_ultimo": 154.5,
+   "sobras": 0,
+   "vagas": 234
+  },
+  "2020f2": {
+   "colocados": 21,
+   "nota_ultimo": 174.0,
+   "sobras": 0,
+   "vagas": 17
+  },
+  "2020f3": {
+   "colocados": 3,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2021f1": {
+   "colocados": 220,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 220
+  },
+  "2021f2": {
+   "colocados": 15,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2021f3": {
+   "colocados": 3,
+   "nota_ultimo": 171.3,
+   "sobras": 0,
+   "vagas": 3
+  },
+  "2022f1": {
+   "colocados": 218,
+   "nota_ultimo": 158.3,
+   "sobras": 0,
+   "vagas": 218
+  },
+  "2022f2": {
+   "colocados": 28,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 24
+  },
+  "2022f3": {
+   "colocados": 5,
+   "nota_ultimo": 151.5,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2023f1": {
+   "candidatos": 799,
+   "candidatos_1opcao": 241,
+   "colocados": 215,
+   "colocados_1opcao": 147,
+   "media_candidatura": 162.9,
+   "media_provas": 151.6,
+   "media_secundario": 174.2,
+   "nota_ultimo": 151.3,
+   "sobras": 0,
+   "vagas": 215
+  },
+  "2023f2": {
+   "candidatos": 123,
+   "candidatos_1opcao": 70,
+   "colocados": 17,
+   "colocados_1opcao": 10,
+   "media_candidatura": 163.4,
+   "media_provas": 153.6,
+   "media_secundario": 173.1,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2023f3": {
+   "colocados": 3,
+   "nota_ultimo": 155.3,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2024f1": {
+   "candidatos": 772,
+   "candidatos_1opcao": 245,
+   "colocados": 215,
+   "colocados_1opcao": 157,
+   "media_candidatura": 160.0,
+   "media_provas": 147.1,
+   "media_secundario": 172.8,
+   "nota_ultimo": 148.3,
+   "sobras": 0,
+   "vagas": 215
+  },
+  "2024f2": {
+   "candidatos": 91,
+   "candidatos_1opcao": 55,
+   "colocados": 19,
+   "colocados_1opcao": 14,
+   "media_candidatura": 159.0,
+   "media_provas": 151.6,
+   "media_secundario": 166.4,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2024f3": {
+   "colocados": 2,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 2
+  },
+  "2025f1": {
+   "candidatos": 849,
+   "candidatos_1opcao": 232,
+   "colocados": 215,
+   "colocados_1opcao": 141,
+   "media_candidatura": 161.3,
+   "media_provas": 151.5,
+   "media_secundario": 171.0,
+   "nota_ultimo": 148.8,
+   "sobras": 0,
+   "vagas": 215
+  },
+  "2025f2": {
+   "candidatos": 127,
+   "candidatos_1opcao": 61,
+   "colocados": 23,
+   "colocados_1opcao": 18,
+   "media_candidatura": 159.0,
+   "media_provas": 152.3,
+   "media_secundario": 165.7,
+   "nota_ultimo": 151.8,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2025f3": {
+   "colocados": 1,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 0
+  },
+  "2026f1": {
+   "colocados": 215,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 215
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": "Ensino Superior Público Universitário",
+ "vagas_2026": 215
+}

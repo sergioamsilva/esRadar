@@ -1,0 +1,76 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9508",
+ "code": "0501",
+ "concurso": null,
+ "curso": "Engenharia do Ambiente",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-9508",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 8,
+   "nota_ultimo": 114.5,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2018f2": {
+   "colocados": 11,
+   "nota_ultimo": 110.3,
+   "sobras": 19,
+   "vagas": 28
+  },
+  "2018f3": {
+   "colocados": 1,
+   "nota_ultimo": 112.8,
+   "sobras": 20,
+   "vagas": 21
+  },
+  "2019f1": {
+   "colocados": 6,
+   "nota_ultimo": 104.3,
+   "sobras": 24,
+   "vagas": 30
+  },
+  "2019f2": {
+   "colocados": 15,
+   "nota_ultimo": 114.0,
+   "sobras": 10,
+   "vagas": 24
+  },
+  "2019f3": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 11
+  },
+  "2020f1": {
+   "colocados": 17,
+   "nota_ultimo": 113.3,
+   "sobras": 8,
+   "vagas": 25
+  },
+  "2020f2": {
+   "colocados": 10,
+   "nota_ultimo": 112.8,
+   "sobras": 3,
+   "vagas": 11
+  },
+  "2020f3": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

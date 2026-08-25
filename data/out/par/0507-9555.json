@@ -1,0 +1,78 @@
+{
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9555",
+ "code": "0507",
+ "concurso": null,
+ "curso": "Psicologia",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "instituicao": "Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0507-9555",
+ "provas_ingresso": null,
+ "series": {
+  "2018f1": {
+   "colocados": 131,
+   "nota_ultimo": 150.6,
+   "sobras": 0,
+   "vagas": 130
+  },
+  "2018f2": {
+   "colocados": 25,
+   "nota_ultimo": 151.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2018f3": {
+   "colocados": 10,
+   "nota_ultimo": 143.6,
+   "sobras": 0,
+   "vagas": 6
+  },
+  "2019f1": {
+   "colocados": 132,
+   "nota_ultimo": 155.4,
+   "sobras": 0,
+   "vagas": 130
+  },
+  "2019f2": {
+   "colocados": 20,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 13
+  },
+  "2019f3": {
+   "colocados": 6,
+   "nota_ultimo": 152.6,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2020f1": {
+   "colocados": 132,
+   "nota_ultimo": 164.4,
+   "sobras": 0,
+   "vagas": 130
+  },
+  "2020f2": {
+   "colocados": 22,
+   "nota_ultimo": 163.2,
+   "sobras": 0,
+   "vagas": 17
+  },
+  "2020f3": {
+   "colocados": 1,
+   "nota_ultimo": 170.6,
+   "sobras": 0,
+   "vagas": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}
