@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade da Beira Interior",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 5,
+    "inscritos": 37,
+    "mulheres": 20
+   },
+   "2020/21": {
+    "estrangeiros": 3,
+    "inscritos": 29,
+    "mulheres": 16
+   },
+   "2021/22": {
+    "estrangeiros": 1,
+    "inscritos": 10,
+    "mulheres": 5
+   }
+  }
+ },
  "instituicao": "Universidade da Beira Interior",
  "minimo_candidatura": null,
  "minimo_provas": null,

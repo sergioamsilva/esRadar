@@ -41,6 +41,23 @@
    "muda_estabelecimento": 5.2,
    "novos_inscritos": 77
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 29,
+    "inscritos": 95,
+    "mulheres": 21
+   },
+   "2023/24": {
+    "estrangeiros": 33,
+    "inscritos": 99,
+    "mulheres": 17
+   },
+   "2024/25": {
+    "estrangeiros": 32,
+    "inscritos": 88,
+    "mulheres": 13
+   }
+  },
   "desemprego": {
    "diplomados": 41,
    "periodo": "2020/21_2023/24",
@@ -119,6 +136,9 @@
  "minimo_provas": 95,
  "par": "3053-L275",
  "pct_colocados_1opcao_2025": 100,
+ "percentil_fica": 6,
+ "percentil_fidelidade": 91,
+ "percentil_procura": 4,
  "preferencia_regional": {
   "area_influencia": "Castelo Branco, Guarda, Portalegre, Santarém, R. A. Açores, R. A. Madeira",
   "pct_vagas": 30

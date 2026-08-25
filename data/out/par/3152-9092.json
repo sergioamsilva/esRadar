@@ -41,6 +41,38 @@
    "muda_estabelecimento": 2.2,
    "novos_inscritos": 45
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 29,
+    "inscritos": 163,
+    "mulheres": 16
+   },
+   "2020/21": {
+    "estrangeiros": 24,
+    "inscritos": 174,
+    "mulheres": 20
+   },
+   "2021/22": {
+    "estrangeiros": 20,
+    "inscritos": 143,
+    "mulheres": 14
+   },
+   "2022/23": {
+    "estrangeiros": 17,
+    "inscritos": 134,
+    "mulheres": 9
+   },
+   "2023/24": {
+    "estrangeiros": 16,
+    "inscritos": 118,
+    "mulheres": 6
+   },
+   "2024/25": {
+    "estrangeiros": 14,
+    "inscritos": 135,
+    "mulheres": 9
+   }
+  },
   "desemprego": {
    "diplomados": 80,
    "periodo": "2020/21_2023/24",
@@ -128,6 +160,7 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3152-9092",
+ "percentil_fica": 50,
  "percentil_nota_2026": 40,
  "preferencia_regional": {
   "area_influencia": "Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. Madeira",
@@ -180,13 +213,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 12,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 11,
+   "candidatos_mulheres": 1,
    "colocados": 3,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 1,
+   "media_candidatura": 138.2,
+   "media_provas": 133.5,
    "nota_ultimo": 142.6,
    "sobras": 41,
    "vagas": 44
   },
   "2018f2": {
+   "candidatos": 11,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 9,
+   "candidatos_mulheres": 2,
    "colocados": 5,
+   "colocados_1opcao": 4,
+   "colocados_homens": 4,
+   "colocados_mulheres": 1,
+   "media_candidatura": 129.3,
+   "media_provas": 121.9,
    "nota_ultimo": 115.9,
    "sobras": 37,
    "vagas": 41,
@@ -200,13 +251,27 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 11,
+   "candidatos_1opcao": 3,
    "colocados": 3,
+   "colocados_1opcao": 3,
+   "media_candidatura": 130.4,
+   "media_provas": 110.0,
    "nota_ultimo": 119.7,
    "sobras": 42,
    "vagas": 45
   },
   "2019f2": {
+   "candidatos": 21,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 20,
+   "candidatos_mulheres": 1,
    "colocados": 3,
+   "colocados_1opcao": 2,
+   "colocados_homens": 3,
+   "colocados_mulheres": 0,
+   "media_candidatura": 120.0,
+   "media_provas": 105.0,
    "nota_ultimo": 116.0,
    "sobras": 39,
    "vagas": 42,

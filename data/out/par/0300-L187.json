@@ -46,6 +46,38 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 52
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 15,
+    "inscritos": 107,
+    "mulheres": 76
+   },
+   "2020/21": {
+    "estrangeiros": 11,
+    "inscritos": 100,
+    "mulheres": 69
+   },
+   "2021/22": {
+    "estrangeiros": 11,
+    "inscritos": 95,
+    "mulheres": 61
+   },
+   "2022/23": {
+    "estrangeiros": 9,
+    "inscritos": 92,
+    "mulheres": 53
+   },
+   "2023/24": {
+    "estrangeiros": 5,
+    "inscritos": 96,
+    "mulheres": 57
+   },
+   "2024/25": {
+    "estrangeiros": 8,
+    "inscritos": 88,
+    "mulheres": 56
+   }
+  },
   "desemprego": {
    "diplomados": 87,
    "periodo": "2020/21_2023/24",
@@ -134,7 +166,10 @@
  "minimo_provas": 95,
  "par": "0300-L187",
  "pct_colocados_1opcao_2025": 73,
+ "percentil_fica": 77,
+ "percentil_fidelidade": 64,
  "percentil_nota_2026": 49,
+ "percentil_procura": 71,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n17 Mat. Apl. Ciências Soc.\nou\n16 Matemática\n18 Português\nou\n04 Economia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
@@ -176,13 +211,31 @@
  ],
  "series": {
   "2019f1": {
+   "candidatos": 139,
+   "candidatos_1opcao": 38,
+   "candidatos_homens": 58,
+   "candidatos_mulheres": 81,
    "colocados": 26,
+   "colocados_1opcao": 17,
+   "colocados_homens": 9,
+   "colocados_mulheres": 17,
+   "media_candidatura": 153.3,
+   "media_provas": 151.0,
    "nota_ultimo": 139.8,
    "sobras": 0,
    "vagas": 26
   },
   "2019f2": {
+   "candidatos": 41,
+   "candidatos_1opcao": 15,
+   "candidatos_homens": 26,
+   "candidatos_mulheres": 15,
    "colocados": 6,
+   "colocados_1opcao": 5,
+   "colocados_homens": 3,
+   "colocados_mulheres": 3,
+   "media_candidatura": 140.4,
+   "media_provas": 142.0,
    "nota_ultimo": 137.6,
    "sobras": 0,
    "vagas": 4,

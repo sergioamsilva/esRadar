@@ -40,6 +40,18 @@
    "muda_estabelecimento": 5.6,
    "novos_inscritos": 18
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 1,
+    "inscritos": 18,
+    "mulheres": 9
+   },
+   "2024/25": {
+    "estrangeiros": 2,
+    "inscritos": 32,
+    "mulheres": 19
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 66.7,
    "cna_outras": 0,
@@ -90,7 +102,10 @@
  "minimo_provas": 95,
  "par": "3185-9016",
  "pct_colocados_1opcao_2025": 77,
+ "percentil_fica": 79,
+ "percentil_fidelidade": 71,
  "percentil_nota_2026": 44,
+ "percentil_procura": 37,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Vila Real, Viseu",
   "pct_vagas": 50

@@ -45,6 +45,33 @@
    "muda_estabelecimento": 10.4,
    "novos_inscritos": 67
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 24,
+    "mulheres": 8
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 63,
+    "mulheres": 29
+   },
+   "2022/23": {
+    "estrangeiros": 14,
+    "inscritos": 99,
+    "mulheres": 50
+   },
+   "2023/24": {
+    "estrangeiros": 13,
+    "inscritos": 109,
+    "mulheres": 56
+   },
+   "2024/25": {
+    "estrangeiros": 11,
+    "inscritos": 117,
+    "mulheres": 49
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -128,7 +155,10 @@
  "minimo_provas": 95,
  "par": "3063-8029",
  "pct_colocados_1opcao_2025": 77,
+ "percentil_fica": 61,
+ "percentil_fidelidade": 71,
  "percentil_nota_2026": 67,
+ "percentil_procura": 31,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n04 Economia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática",
  "semelhantes": [

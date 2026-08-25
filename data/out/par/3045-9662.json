@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Bragança",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 25,
+    "inscritos": 96,
+    "mulheres": 58
+   },
+   "2020/21": {
+    "estrangeiros": 45,
+    "inscritos": 133,
+    "mulheres": 87
+   },
+   "2021/22": {
+    "estrangeiros": 62,
+    "inscritos": 163,
+    "mulheres": 105
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +42,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 74,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 29,
+   "candidatos_mulheres": 45,
    "colocados": 25,
+   "colocados_1opcao": 7,
+   "colocados_homens": 8,
+   "colocados_mulheres": 17,
+   "media_candidatura": 122.7,
+   "media_provas": 110.6,
    "nota_ultimo": 102.8,
    "sobras": 0,
    "vagas": 25
   },
   "2018f2": {
+   "candidatos": 21,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 9,
+   "candidatos_mulheres": 12,
    "colocados": 7,
+   "colocados_1opcao": 2,
+   "colocados_homens": 3,
+   "colocados_mulheres": 4,
+   "media_candidatura": 118.1,
+   "media_provas": 105.6,
    "nota_ultimo": 107.1,
    "sobras": 8,
    "vagas": 11,
@@ -43,13 +79,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 136,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 46,
+   "candidatos_mulheres": 90,
    "colocados": 32,
+   "colocados_1opcao": 11,
+   "colocados_homens": 9,
+   "colocados_mulheres": 23,
+   "media_candidatura": 125.1,
+   "media_provas": 118.5,
    "nota_ultimo": 96.0,
    "sobras": 1,
    "vagas": 33
   },
   "2019f2": {
+   "candidatos": 61,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 17,
+   "candidatos_mulheres": 44,
    "colocados": 13,
+   "colocados_1opcao": 3,
+   "colocados_homens": 3,
+   "colocados_mulheres": 10,
+   "media_candidatura": 126.5,
+   "media_provas": 121.8,
    "nota_ultimo": 117.0,
    "sobras": 0,
    "vagas": 12,

@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 1,
+    "inscritos": 34,
+    "mulheres": 12
+   },
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 31,
+    "mulheres": 4
+   }
+  }
+ },
  "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,27 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 11,
+   "candidatos_1opcao": 2,
    "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 154.0,
+   "media_provas": 143.8,
    "nota_ultimo": 147.6,
    "sobras": 18,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 7,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 1,
    "colocados": 2,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 0,
+   "media_candidatura": 122.4,
+   "media_provas": 107.3,
    "nota_ultimo": 120.0,
    "sobras": 16,
    "vagas": 18,
@@ -43,13 +70,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 12,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 9,
+   "candidatos_mulheres": 3,
    "colocados": 2,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 0,
+   "media_candidatura": 143.0,
+   "media_provas": 138.3,
    "nota_ultimo": 117.7,
    "sobras": 8,
    "vagas": 10
   },
   "2019f2": {
+   "candidatos": 12,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 7,
+   "candidatos_mulheres": 5,
    "colocados": 2,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 0,
+   "media_candidatura": 126.5,
+   "media_provas": 111.5,
    "nota_ultimo": 124.5,
    "sobras": 6,
    "vagas": 8,

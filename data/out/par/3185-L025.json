@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Viseu",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 1,
+    "inscritos": 18,
+    "mulheres": 16
+   },
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 11,
+    "mulheres": 9
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu",
  "minimo_candidatura": null,
  "minimo_provas": null,

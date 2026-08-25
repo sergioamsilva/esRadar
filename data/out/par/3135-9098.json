@@ -50,6 +50,33 @@
    "muda_estabelecimento": 9.5,
    "novos_inscritos": 105
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 57,
+    "mulheres": 4
+   },
+   "2021/22": {
+    "estrangeiros": 1,
+    "inscritos": 100,
+    "mulheres": 11
+   },
+   "2022/23": {
+    "estrangeiros": 5,
+    "inscritos": 140,
+    "mulheres": 15
+   },
+   "2023/24": {
+    "estrangeiros": 6,
+    "inscritos": 155,
+    "mulheres": 18
+   },
+   "2024/25": {
+    "estrangeiros": 12,
+    "inscritos": 171,
+    "mulheres": 15
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -133,7 +160,10 @@
  "minimo_provas": 95,
  "par": "3135-9098",
  "pct_colocados_1opcao_2025": 42,
+ "percentil_fica": 22,
+ "percentil_fidelidade": 20,
  "percentil_nota_2026": 56,
+ "percentil_procura": 41,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
   "pct_vagas": 50

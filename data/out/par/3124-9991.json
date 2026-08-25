@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Portalegre",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 8,
+    "inscritos": 81,
+    "mulheres": 43
+   },
+   "2023/24": {
+    "estrangeiros": 8,
+    "inscritos": 74,
+    "mulheres": 42
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design",
  "minimo_candidatura": null,
  "minimo_provas": null,

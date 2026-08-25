@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade do Algarve",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 21,
+    "inscritos": 110,
+    "mulheres": 78
+   },
+   "2020/21": {
+    "estrangeiros": 20,
+    "inscritos": 122,
+    "mulheres": 82
+   }
+  }
+ },
  "instituicao": "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 90,
+   "candidatos_1opcao": 13,
+   "candidatos_homens": 25,
+   "candidatos_mulheres": 65,
    "colocados": 33,
+   "colocados_1opcao": 13,
+   "colocados_homens": 9,
+   "colocados_mulheres": 24,
+   "media_candidatura": 122.3,
+   "media_provas": 110.8,
    "nota_ultimo": 105.8,
    "sobras": 0,
    "vagas": 30
   },
   "2018f2": {
+   "candidatos": 37,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 14,
+   "candidatos_mulheres": 23,
    "colocados": 8,
+   "colocados_1opcao": 3,
+   "colocados_homens": 2,
+   "colocados_mulheres": 6,
+   "media_candidatura": 127.4,
+   "media_provas": 117.0,
    "nota_ultimo": 117.2,
    "sobras": 0,
    "vagas": 6,
@@ -44,13 +75,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 100,
+   "candidatos_1opcao": 16,
+   "candidatos_homens": 25,
+   "candidatos_mulheres": 75,
    "colocados": 34,
+   "colocados_1opcao": 16,
+   "colocados_homens": 8,
+   "colocados_mulheres": 26,
+   "media_candidatura": 127.1,
+   "media_provas": 114.8,
    "nota_ultimo": 104.8,
    "sobras": 0,
    "vagas": 30
   },
   "2019f2": {
+   "candidatos": 33,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 10,
+   "candidatos_mulheres": 23,
    "colocados": 5,
+   "colocados_1opcao": 1,
+   "colocados_homens": 2,
+   "colocados_mulheres": 3,
+   "media_candidatura": 128.4,
+   "media_provas": 116.6,
    "nota_ultimo": 123.4,
    "sobras": 0,
    "vagas": 5,

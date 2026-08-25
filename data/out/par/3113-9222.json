@@ -56,6 +56,38 @@
    "muda_estabelecimento": 2.9,
    "novos_inscritos": 138
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 18,
+    "inscritos": 229,
+    "mulheres": 172
+   },
+   "2020/21": {
+    "estrangeiros": 24,
+    "inscritos": 240,
+    "mulheres": 184
+   },
+   "2021/22": {
+    "estrangeiros": 24,
+    "inscritos": 248,
+    "mulheres": 188
+   },
+   "2022/23": {
+    "estrangeiros": 26,
+    "inscritos": 241,
+    "mulheres": 186
+   },
+   "2023/24": {
+    "estrangeiros": 24,
+    "inscritos": 222,
+    "mulheres": 169
+   },
+   "2024/25": {
+    "estrangeiros": 20,
+    "inscritos": 223,
+    "mulheres": 162
+   }
+  },
   "desemprego": {
    "diplomados": 381,
    "periodo": "2020/21_2023/24",
@@ -144,7 +176,10 @@
  "minimo_provas": 95,
  "par": "3113-9222",
  "pct_colocados_1opcao_2025": 68,
+ "percentil_fica": 91,
+ "percentil_fidelidade": 58,
  "percentil_nota_2026": 85,
+ "percentil_procura": 93,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n16 Matemática\nou\n11 História\n18 Português\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n16 Matemática",
  "semelhantes": [
@@ -193,13 +228,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 703,
+   "candidatos_1opcao": 214,
+   "candidatos_homens": 187,
+   "candidatos_mulheres": 516,
    "colocados": 59,
+   "colocados_1opcao": 40,
+   "colocados_homens": 14,
+   "colocados_mulheres": 45,
+   "media_candidatura": 156.5,
+   "media_provas": 153.5,
    "nota_ultimo": 152.5,
    "sobras": 0,
    "vagas": 57
   },
   "2018f2": {
+   "candidatos": 208,
+   "candidatos_1opcao": 79,
+   "candidatos_homens": 64,
+   "candidatos_mulheres": 144,
    "colocados": 8,
+   "colocados_1opcao": 3,
+   "colocados_homens": 1,
+   "colocados_mulheres": 7,
+   "media_candidatura": 150.8,
+   "media_provas": 153.5,
    "nota_ultimo": 152.5,
    "sobras": 0,
    "vagas": 6,
@@ -211,13 +264,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 734,
+   "candidatos_1opcao": 231,
+   "candidatos_homens": 198,
+   "candidatos_mulheres": 536,
    "colocados": 58,
+   "colocados_1opcao": 46,
+   "colocados_homens": 17,
+   "colocados_mulheres": 41,
+   "media_candidatura": 163.7,
+   "media_provas": 165.2,
    "nota_ultimo": 154.5,
    "sobras": 0,
    "vagas": 57
   },
   "2019f2": {
+   "candidatos": 284,
+   "candidatos_1opcao": 94,
+   "candidatos_homens": 82,
+   "candidatos_mulheres": 202,
    "colocados": 8,
+   "colocados_1opcao": 4,
+   "colocados_homens": 2,
+   "colocados_mulheres": 6,
+   "media_candidatura": 160.3,
+   "media_provas": 162.4,
    "nota_ultimo": 155.5,
    "sobras": 0,
    "vagas": 5,

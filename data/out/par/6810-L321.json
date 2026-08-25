@@ -35,6 +35,18 @@
    "muda_estabelecimento": 12.5,
    "novos_inscritos": 24
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 1,
+    "inscritos": 43,
+    "mulheres": 18
+   },
+   "2024/25": {
+    "estrangeiros": 3,
+    "inscritos": 73,
+    "mulheres": 37
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 31.0,
    "cna_outras": 24.1,
@@ -80,7 +92,10 @@
  "minimo_provas": 95,
  "par": "6810-L321",
  "pct_colocados_1opcao_2025": 38,
+ "percentil_fica": 71,
+ "percentil_fidelidade": 16,
  "percentil_nota_2026": 31,
+ "percentil_procura": 53,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [

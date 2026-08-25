@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Bragança",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 39,
+    "inscritos": 41,
+    "mulheres": 10
+   },
+   "2021/22": {
+    "estrangeiros": 169,
+    "inscritos": 216,
+    "mulheres": 114
+   },
+   "2022/23": {
+    "estrangeiros": 181,
+    "inscritos": 231,
+    "mulheres": 119
+   },
+   "2023/24": {
+    "estrangeiros": 271,
+    "inscritos": 328,
+    "mulheres": 169
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 22,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 7,
+   "candidatos_mulheres": 15,
    "colocados": 6,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 4,
+   "media_candidatura": 121.1,
+   "media_provas": 106.2,
    "nota_ultimo": 95.0,
    "sobras": 54,
    "vagas": 60
   },
   "2018f2": {
+   "candidatos": 12,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 5,
+   "candidatos_mulheres": 7,
    "colocados": 5,
+   "colocados_1opcao": 4,
+   "colocados_homens": 2,
+   "colocados_mulheres": 3,
+   "media_candidatura": 113.8,
+   "media_provas": 104.8,
    "nota_ultimo": 105.1,
    "sobras": 53,
    "vagas": 57,
@@ -43,13 +84,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 26,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 13,
+   "candidatos_mulheres": 13,
    "colocados": 9,
+   "colocados_1opcao": 6,
+   "colocados_homens": 3,
+   "colocados_mulheres": 6,
+   "media_candidatura": 128.3,
+   "media_provas": 118.0,
    "nota_ultimo": 105.2,
    "sobras": 56,
    "vagas": 65
   },
   "2019f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 7,
    "colocados": 5,
+   "colocados_1opcao": 2,
+   "colocados_homens": 1,
+   "colocados_mulheres": 4,
+   "media_candidatura": 120.7,
+   "media_provas": 111.8,
    "nota_ultimo": 105.8,
    "sobras": 54,
    "vagas": 59,

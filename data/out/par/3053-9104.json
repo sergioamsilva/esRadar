@@ -27,6 +27,23 @@
    "muda_estabelecimento": 3.3,
    "novos_inscritos": 60
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 36,
+    "inscritos": 84,
+    "mulheres": 19
+   },
+   "2023/24": {
+    "estrangeiros": 30,
+    "inscritos": 76,
+    "mulheres": 10
+   },
+   "2024/25": {
+    "estrangeiros": 37,
+    "inscritos": 79,
+    "mulheres": 14
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -77,6 +94,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3053-9104",
+ "percentil_fica": 8,
  "preferencia_regional": {
   "area_influencia": "Castelo Branco, Guarda, Leiria, Portalegre, Santarém, R. A. Açores, R. A. Madeira",
   "pct_vagas": 30

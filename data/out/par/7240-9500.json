@@ -65,6 +65,18 @@
    "muda_estabelecimento": 3.9,
    "novos_inscritos": 692
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 157,
+    "inscritos": 1459,
+    "mulheres": 1186
+   },
+   "2024/25": {
+    "estrangeiros": 178,
+    "inscritos": 1476,
+    "mulheres": 1190
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -148,7 +160,10 @@
  "minimo_provas": 95,
  "par": "7240-9500",
  "pct_colocados_1opcao_2025": 55,
+ "percentil_fica": 95,
+ "percentil_fidelidade": 37,
  "percentil_nota_2026": 72,
+ "percentil_procura": 47,
  "preferencia_regional": {
   "area_influencia": "Coimbra, Guarda, Leiria",
   "pct_vagas": 50

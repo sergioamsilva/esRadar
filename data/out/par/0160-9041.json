@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade dos Açores",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 15,
+    "inscritos": 23,
+    "mulheres": 9
+   },
+   "2020/21": {
+    "estrangeiros": 11,
+    "inscritos": 16,
+    "mulheres": 8
+   }
+  }
+ },
  "instituicao": "Universidade dos Açores - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": null,
  "minimo_provas": null,

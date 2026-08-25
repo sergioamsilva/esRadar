@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Lisboa",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 8,
+    "inscritos": 168,
+    "mulheres": 135
+   },
+   "2020/21": {
+    "estrangeiros": 8,
+    "inscritos": 168,
+    "mulheres": 139
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 160,
+    "mulheres": 134
+   },
+   "2022/23": {
+    "estrangeiros": 6,
+    "inscritos": 148,
+    "mulheres": 121
+   },
+   "2023/24": {
+    "estrangeiros": 9,
+    "inscritos": 143,
+    "mulheres": 121
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +52,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 183,
+   "candidatos_1opcao": 18,
+   "candidatos_homens": 35,
+   "candidatos_mulheres": 148,
    "colocados": 35,
+   "colocados_1opcao": 10,
+   "colocados_homens": 8,
+   "colocados_mulheres": 27,
+   "media_candidatura": 132.3,
+   "media_provas": 116.0,
    "nota_ultimo": 123.2,
    "sobras": 0,
    "vagas": 35
   },
   "2018f2": {
+   "candidatos": 63,
+   "candidatos_1opcao": 9,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 48,
    "colocados": 7,
+   "colocados_1opcao": 3,
+   "colocados_homens": 1,
+   "colocados_mulheres": 6,
+   "media_candidatura": 129.9,
+   "media_provas": 119.4,
    "nota_ultimo": 125.9,
    "sobras": 0,
    "vagas": 5,
@@ -42,13 +88,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 170,
+   "candidatos_1opcao": 17,
+   "candidatos_homens": 42,
+   "candidatos_mulheres": 128,
    "colocados": 33,
+   "colocados_1opcao": 11,
+   "colocados_homens": 8,
+   "colocados_mulheres": 25,
+   "media_candidatura": 132.5,
+   "media_provas": 116.1,
    "nota_ultimo": 126.5,
    "sobras": 0,
    "vagas": 33
   },
   "2019f2": {
+   "candidatos": 54,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 14,
+   "candidatos_mulheres": 40,
    "colocados": 4,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 2,
+   "media_candidatura": 132.3,
+   "media_provas": 112.3,
    "nota_ultimo": 130.0,
    "sobras": 0,
    "vagas": 2,
@@ -62,13 +126,31 @@
    "vagas_recolocacao": 3
   },
   "2020f1": {
+   "candidatos": 242,
+   "candidatos_1opcao": 33,
+   "candidatos_homens": 55,
+   "candidatos_mulheres": 187,
    "colocados": 43,
+   "colocados_1opcao": 16,
+   "colocados_homens": 2,
+   "colocados_mulheres": 41,
+   "media_candidatura": 150.6,
+   "media_provas": 155.2,
    "nota_ultimo": 143.4,
    "sobras": 0,
    "vagas": 40
   },
   "2020f2": {
+   "candidatos": 127,
+   "candidatos_1opcao": 18,
+   "candidatos_homens": 32,
+   "candidatos_mulheres": 95,
    "colocados": 3,
+   "colocados_1opcao": 1,
+   "colocados_homens": 0,
+   "colocados_mulheres": 3,
+   "media_candidatura": 151.4,
+   "media_provas": 149.0,
    "nota_ultimo": 150.8,
    "sobras": 0,
    "vagas": 2,

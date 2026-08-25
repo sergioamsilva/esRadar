@@ -40,6 +40,23 @@
    "muda_estabelecimento": 4.6,
    "novos_inscritos": 131
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 9,
+    "inscritos": 176,
+    "mulheres": 149
+   },
+   "2023/24": {
+    "estrangeiros": 13,
+    "inscritos": 197,
+    "mulheres": 169
+   },
+   "2024/25": {
+    "estrangeiros": 10,
+    "inscritos": 204,
+    "mulheres": 177
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,7 +140,10 @@
  "minimo_provas": 95,
  "par": "3125-9085",
  "pct_colocados_1opcao_2025": 50,
+ "percentil_fica": 89,
+ "percentil_fidelidade": 28,
  "percentil_nota_2026": 12,
+ "percentil_procura": 29,
  "preferencia_regional": {
   "area_influencia": "Évora, Portalegre",
   "pct_vagas": 30

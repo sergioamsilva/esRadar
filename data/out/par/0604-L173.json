@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Évora",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 3,
+    "inscritos": 19,
+    "mulheres": 11
+   },
+   "2022/23": {
+    "estrangeiros": 6,
+    "inscritos": 34,
+    "mulheres": 20
+   }
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências Sociais",
  "minimo_candidatura": null,
  "minimo_provas": null,

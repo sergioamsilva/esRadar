@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Leiria",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 0,
+    "inscritos": 50,
+    "mulheres": 16
+   },
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 25,
+    "mulheres": 7
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
  "minimo_candidatura": null,
  "minimo_provas": null,

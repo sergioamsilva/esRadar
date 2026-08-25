@@ -40,6 +40,38 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 31
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 9,
+    "inscritos": 39,
+    "mulheres": 3
+   },
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 35,
+    "mulheres": 2
+   },
+   "2021/22": {
+    "estrangeiros": 3,
+    "inscritos": 47,
+    "mulheres": 3
+   },
+   "2022/23": {
+    "estrangeiros": 9,
+    "inscritos": 45,
+    "mulheres": 6
+   },
+   "2023/24": {
+    "estrangeiros": 13,
+    "inscritos": 60,
+    "mulheres": 9
+   },
+   "2024/25": {
+    "estrangeiros": 13,
+    "inscritos": 46,
+    "mulheres": 10
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -91,7 +123,10 @@
  "minimo_provas": 95,
  "par": "1307-9107",
  "pct_colocados_1opcao_2025": 100,
+ "percentil_fica": 11,
+ "percentil_fidelidade": 91,
  "percentil_nota_2026": 70,
+ "percentil_procura": 18,
  "preferencia_regional": {
   "area_influencia": "R. A. Madeira",
   "pct_vagas": 50
@@ -143,12 +178,30 @@
  ],
  "series": {
   "2019f1": {
+   "candidatos": 11,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 10,
+   "candidatos_mulheres": 1,
    "colocados": 3,
+   "colocados_1opcao": 3,
+   "colocados_homens": 3,
+   "colocados_mulheres": 0,
+   "media_candidatura": 136.5,
+   "media_provas": 119.5,
    "sobras": 17,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 1,
    "colocados": 1,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 134.7,
+   "media_provas": 111.0,
    "nota_ultimo": 134.7,
    "sobras": 16,
    "vagas": 17,

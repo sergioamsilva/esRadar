@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Coimbra",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 41,
+    "mulheres": 10
+   },
+   "2021/22": {
+    "estrangeiros": 6,
+    "inscritos": 84,
+    "mulheres": 23
+   },
+   "2022/23": {
+    "estrangeiros": 13,
+    "inscritos": 126,
+    "mulheres": 37
+   }
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
  "minimo_candidatura": null,
  "minimo_provas": null,

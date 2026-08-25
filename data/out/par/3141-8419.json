@@ -28,6 +28,38 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 26
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 1,
+    "inscritos": 62,
+    "mulheres": 18
+   },
+   "2020/21": {
+    "estrangeiros": 7,
+    "inscritos": 89,
+    "mulheres": 18
+   },
+   "2021/22": {
+    "estrangeiros": 6,
+    "inscritos": 99,
+    "mulheres": 24
+   },
+   "2022/23": {
+    "estrangeiros": 4,
+    "inscritos": 83,
+    "mulheres": 18
+   },
+   "2023/24": {
+    "estrangeiros": 4,
+    "inscritos": 76,
+    "mulheres": 19
+   },
+   "2024/25": {
+    "estrangeiros": 2,
+    "inscritos": 68,
+    "mulheres": 19
+   }
+  },
   "desemprego": {
    "diplomados": 139,
    "periodo": "2020/21_2023/24",
@@ -83,6 +115,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3141-8419",
+ "percentil_fica": 8,
  "preferencia_regional": {
   "area_influencia": "Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
   "pct_vagas": 20
@@ -127,7 +160,10 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 33,
    "vagas": 33
   },
@@ -143,7 +179,12 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 160.7,
+   "media_provas": 160.0,
    "nota_ultimo": 160.7,
    "sobras": 32,
    "vagas": 33

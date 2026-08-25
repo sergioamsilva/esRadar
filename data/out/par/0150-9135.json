@@ -40,6 +40,23 @@
    "muda_estabelecimento": 6.8,
    "novos_inscritos": 44
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 10,
+    "inscritos": 68,
+    "mulheres": 33
+   },
+   "2023/24": {
+    "estrangeiros": 18,
+    "inscritos": 83,
+    "mulheres": 47
+   },
+   "2024/25": {
+    "estrangeiros": 13,
+    "inscritos": 79,
+    "mulheres": 42
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -113,7 +130,10 @@
  "minimo_provas": 95,
  "par": "0150-9135",
  "pct_colocados_1opcao_2025": 50,
+ "percentil_fica": 26,
+ "percentil_fidelidade": 28,
  "percentil_nota_2026": 21,
+ "percentil_procura": 11,
  "preferencia_regional": {
   "area_influencia": "R. A. Açores",
   "pct_vagas": 50

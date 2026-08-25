@@ -19,6 +19,38 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Saúde do Norte",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 16,
+    "inscritos": 54,
+    "mulheres": 31
+   },
+   "2020/21": {
+    "estrangeiros": 27,
+    "inscritos": 70,
+    "mulheres": 39
+   },
+   "2021/22": {
+    "estrangeiros": 48,
+    "inscritos": 95,
+    "mulheres": 58
+   },
+   "2022/23": {
+    "estrangeiros": 52,
+    "inscritos": 97,
+    "mulheres": 55
+   },
+   "2023/24": {
+    "estrangeiros": 30,
+    "inscritos": 65,
+    "mulheres": 41
+   },
+   "2024/25": {
+    "estrangeiros": 18,
+    "inscritos": 43,
+    "mulheres": 28
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,

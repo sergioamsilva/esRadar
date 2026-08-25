@@ -35,6 +35,38 @@
    "muda_estabelecimento": 2.4,
    "novos_inscritos": 42
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 32,
+    "inscritos": 49,
+    "mulheres": 13
+   },
+   "2020/21": {
+    "estrangeiros": 43,
+    "inscritos": 52,
+    "mulheres": 10
+   },
+   "2021/22": {
+    "estrangeiros": 32,
+    "inscritos": 41,
+    "mulheres": 9
+   },
+   "2022/23": {
+    "estrangeiros": 32,
+    "inscritos": 40,
+    "mulheres": 9
+   },
+   "2023/24": {
+    "estrangeiros": 35,
+    "inscritos": 43,
+    "mulheres": 12
+   },
+   "2024/25": {
+    "estrangeiros": 41,
+    "inscritos": 56,
+    "mulheres": 13
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -97,6 +129,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3053-9089",
+ "percentil_fica": 1,
  "percentil_nota_2026": 22,
  "preferencia_regional": {
   "area_influencia": "Castelo Branco, Guarda, Leiria, Portalegre, Santarém, R. A. Açores, R. A. Madeira",
@@ -149,7 +182,10 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },
@@ -166,7 +202,14 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 25,
    "vagas": 25
   },

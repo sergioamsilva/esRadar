@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Beja",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 12,
+    "inscritos": 18,
+    "mulheres": 15
+   },
+   "2020/21": {
+    "estrangeiros": 14,
+    "inscritos": 25,
+    "mulheres": 20
+   },
+   "2021/22": {
+    "estrangeiros": 10,
+    "inscritos": 19,
+    "mulheres": 14
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Beja - Escola Superior Agrária",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,7 +42,10 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },
@@ -41,7 +62,10 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },

@@ -40,6 +40,38 @@
    "muda_estabelecimento": 3.8,
    "novos_inscritos": 26
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 20,
+    "inscritos": 23,
+    "mulheres": 10
+   },
+   "2020/21": {
+    "estrangeiros": 12,
+    "inscritos": 17,
+    "mulheres": 9
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 23,
+    "mulheres": 12
+   },
+   "2022/23": {
+    "estrangeiros": 8,
+    "inscritos": 26,
+    "mulheres": 12
+   },
+   "2023/24": {
+    "estrangeiros": 16,
+    "inscritos": 33,
+    "mulheres": 16
+   },
+   "2024/25": {
+    "estrangeiros": 14,
+    "inscritos": 33,
+    "mulheres": 19
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,7 +155,10 @@
  "minimo_provas": 95,
  "par": "3242-L142",
  "pct_colocados_1opcao_2025": 50,
+ "percentil_fica": 0,
+ "percentil_fidelidade": 28,
  "percentil_nota_2026": 17,
+ "percentil_procura": 4,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Braga, Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Porto, Santarém, Setúbal, Viana do Castelo, Viseu",
   "pct_vagas": 50
@@ -175,12 +210,22 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 3,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 25,
    "vagas": 25
   },
   "2018f2": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25,
    "vagas_recolocacao": 0
@@ -192,12 +237,22 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 25,
    "vagas": 25
   },
   "2019f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25,
    "vagas_recolocacao": 0

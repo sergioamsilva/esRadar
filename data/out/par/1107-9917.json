@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade do Porto",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 65,
+    "mulheres": 47
+   },
+   "2020/21": {
+    "estrangeiros": 3,
+    "inscritos": 72,
+    "mulheres": 57
+   }
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Letras",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 76,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 18,
+   "candidatos_mulheres": 58,
    "colocados": 20,
+   "colocados_1opcao": 4,
+   "colocados_homens": 6,
+   "colocados_mulheres": 14,
+   "media_candidatura": 135.2,
+   "media_provas": 118.1,
    "nota_ultimo": 110.0,
    "sobras": 0,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 43,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 12,
+   "candidatos_mulheres": 31,
    "colocados": 5,
+   "colocados_1opcao": 2,
+   "colocados_homens": 1,
+   "colocados_mulheres": 4,
+   "media_candidatura": 143.3,
+   "media_provas": 138.6,
    "nota_ultimo": 129.4,
    "sobras": 0,
    "vagas": 3,
@@ -42,13 +73,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 154,
+   "candidatos_1opcao": 24,
+   "candidatos_homens": 38,
+   "candidatos_mulheres": 116,
    "colocados": 20,
+   "colocados_1opcao": 8,
+   "colocados_homens": 3,
+   "colocados_mulheres": 17,
+   "media_candidatura": 143.6,
+   "media_provas": 130.8,
    "nota_ultimo": 130.8,
    "sobras": 0,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 65,
+   "candidatos_1opcao": 13,
+   "candidatos_homens": 24,
+   "candidatos_mulheres": 41,
    "colocados": 7,
+   "colocados_1opcao": 3,
+   "colocados_homens": 3,
+   "colocados_mulheres": 4,
+   "media_candidatura": 133.2,
+   "media_provas": 131.6,
    "nota_ultimo": 128.0,
    "sobras": 0,
    "vagas": 5,

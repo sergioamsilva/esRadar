@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Setúbal",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 9,
+    "inscritos": 58,
+    "mulheres": 10
+   },
+   "2020/21": {
+    "estrangeiros": 11,
+    "inscritos": 58,
+    "mulheres": 14
+   },
+   "2021/22": {
+    "estrangeiros": 10,
+    "inscritos": 67,
+    "mulheres": 15
+   },
+   "2022/23": {
+    "estrangeiros": 13,
+    "inscritos": 68,
+    "mulheres": 17
+   },
+   "2023/24": {
+    "estrangeiros": 7,
+    "inscritos": 65,
+    "mulheres": 17
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,7 +52,10 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 20,
    "vagas": 20
   },
@@ -41,7 +72,10 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 20,
    "vagas": 20
   },

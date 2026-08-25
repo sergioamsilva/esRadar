@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 1,
+    "inscritos": 10,
+    "mulheres": 3
+   },
+   "2022/23": {
+    "estrangeiros": 1,
+    "inscritos": 11,
+    "mulheres": 4
+   }
+  }
+ },
  "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias",
  "minimo_candidatura": null,
  "minimo_provas": null,

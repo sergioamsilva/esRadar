@@ -28,6 +28,33 @@
    "muda_estabelecimento": 4.2,
    "novos_inscritos": 24
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 26,
+    "inscritos": 44,
+    "mulheres": 31
+   },
+   "2021/22": {
+    "estrangeiros": 23,
+    "inscritos": 35,
+    "mulheres": 21
+   },
+   "2022/23": {
+    "estrangeiros": 25,
+    "inscritos": 33,
+    "mulheres": 21
+   },
+   "2023/24": {
+    "estrangeiros": 23,
+    "inscritos": 28,
+    "mulheres": 20
+   },
+   "2024/25": {
+    "estrangeiros": 20,
+    "inscritos": 22,
+    "mulheres": 17
+   }
+  },
   "desemprego": {
    "diplomados": 32,
    "periodo": "2020/21_2023/24",
@@ -83,6 +110,7 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9087",
+ "percentil_fica": 0,
  "preferencia_regional": {
   "area_influencia": "Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
   "pct_vagas": 50
@@ -134,12 +162,26 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 2,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 25,
    "vagas": 25
   },
   "2018f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 25,
    "vagas": 25,
    "vagas_recolocacao": 0
@@ -151,12 +193,18 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },
   "2019f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25,
    "vagas_recolocacao": 0

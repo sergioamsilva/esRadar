@@ -19,6 +19,38 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Europeia",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 44,
+    "inscritos": 454,
+    "mulheres": 133
+   },
+   "2020/21": {
+    "estrangeiros": 134,
+    "inscritos": 552,
+    "mulheres": 187
+   },
+   "2021/22": {
+    "estrangeiros": 223,
+    "inscritos": 602,
+    "mulheres": 254
+   },
+   "2022/23": {
+    "estrangeiros": 223,
+    "inscritos": 613,
+    "mulheres": 232
+   },
+   "2023/24": {
+    "estrangeiros": 209,
+    "inscritos": 602,
+    "mulheres": 241
+   },
+   "2024/25": {
+    "estrangeiros": 238,
+    "inscritos": 638,
+    "mulheres": 262
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,

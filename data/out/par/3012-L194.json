@@ -51,6 +51,33 @@
    "muda_estabelecimento": 13.2,
    "novos_inscritos": 76
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 3,
+    "inscritos": 35,
+    "mulheres": 1
+   },
+   "2021/22": {
+    "estrangeiros": 7,
+    "inscritos": 64,
+    "mulheres": 2
+   },
+   "2022/23": {
+    "estrangeiros": 7,
+    "inscritos": 92,
+    "mulheres": 1
+   },
+   "2023/24": {
+    "estrangeiros": 2,
+    "inscritos": 98,
+    "mulheres": 8
+   },
+   "2024/25": {
+    "estrangeiros": 3,
+    "inscritos": 104,
+    "mulheres": 9
+   }
+  },
   "desemprego": {
    "diplomados": 77,
    "periodo": "2020/21_2023/24",
@@ -139,7 +166,10 @@
  "minimo_provas": 95,
  "par": "3012-L194",
  "pct_colocados_1opcao_2025": 45,
+ "percentil_fica": 24,
+ "percentil_fidelidade": 23,
  "percentil_nota_2026": 13,
+ "percentil_procura": 13,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
   "pct_vagas": 30

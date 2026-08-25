@@ -19,6 +19,38 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Maia",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 30,
+    "mulheres": 14
+   },
+   "2020/21": {
+    "estrangeiros": 8,
+    "inscritos": 49,
+    "mulheres": 24
+   },
+   "2021/22": {
+    "estrangeiros": 10,
+    "inscritos": 41,
+    "mulheres": 22
+   },
+   "2022/23": {
+    "estrangeiros": 12,
+    "inscritos": 39,
+    "mulheres": 16
+   },
+   "2023/24": {
+    "estrangeiros": 4,
+    "inscritos": 17,
+    "mulheres": 6
+   },
+   "2024/25": {
+    "estrangeiros": 10,
+    "inscritos": 29,
+    "mulheres": 15
+   }
+  },
   "desemprego": {
    "diplomados": 34,
    "periodo": "2020/21_2023/24",

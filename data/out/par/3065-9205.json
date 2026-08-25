@@ -56,6 +56,33 @@
    "muda_estabelecimento": 13.1,
    "novos_inscritos": 61
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 15,
+    "inscritos": 75,
+    "mulheres": 46
+   },
+   "2021/22": {
+    "estrangeiros": 9,
+    "inscritos": 92,
+    "mulheres": 58
+   },
+   "2022/23": {
+    "estrangeiros": 10,
+    "inscritos": 85,
+    "mulheres": 52
+   },
+   "2023/24": {
+    "estrangeiros": 10,
+    "inscritos": 91,
+    "mulheres": 59
+   },
+   "2024/25": {
+    "estrangeiros": 9,
+    "inscritos": 94,
+    "mulheres": 54
+   }
+  },
   "desemprego": {
    "diplomados": 52,
    "periodo": "2020/21_2023/24",
@@ -144,7 +171,10 @@
  "minimo_provas": 95,
  "par": "3065-9205",
  "pct_colocados_1opcao_2025": 21,
+ "percentil_fica": 15,
+ "percentil_fidelidade": 4,
  "percentil_nota_2026": 56,
+ "percentil_procura": 21,
  "preferencia_regional": {
   "area_influencia": "Coimbra, Guarda, Viseu",
   "pct_vagas": 20

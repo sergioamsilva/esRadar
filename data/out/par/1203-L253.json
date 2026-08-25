@@ -45,6 +45,23 @@
    "muda_estabelecimento": 3.4,
    "novos_inscritos": 88
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 1,
+    "inscritos": 41,
+    "mulheres": 22
+   },
+   "2023/24": {
+    "estrangeiros": 3,
+    "inscritos": 84,
+    "mulheres": 53
+   },
+   "2024/25": {
+    "estrangeiros": 9,
+    "inscritos": 130,
+    "mulheres": 89
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 38.2,
    "cna_outras": 16.7,
@@ -100,7 +117,10 @@
  "minimo_provas": 95,
  "par": "1203-L253",
  "pct_colocados_1opcao_2025": 65,
+ "percentil_fica": 71,
+ "percentil_fidelidade": 52,
  "percentil_nota_2026": 14,
+ "percentil_procura": 42,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n10 Geometria Descritiva\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n16 Matemática\nou\n03 Desenho\n11 História\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n18 Português",
  "semelhantes": [

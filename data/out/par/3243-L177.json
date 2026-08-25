@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Tomar",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 10,
+    "inscritos": 50,
+    "mulheres": 21
+   },
+   "2020/21": {
+    "estrangeiros": 13,
+    "inscritos": 58,
+    "mulheres": 23
+   },
+   "2021/22": {
+    "estrangeiros": 6,
+    "inscritos": 65,
+    "mulheres": 28
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +42,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 35,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 13,
+   "candidatos_mulheres": 22,
    "colocados": 9,
+   "colocados_1opcao": 2,
+   "colocados_homens": 4,
+   "colocados_mulheres": 5,
+   "media_candidatura": 122.2,
+   "media_provas": 108.2,
    "nota_ultimo": 113.4,
    "sobras": 11,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 18,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 12,
+   "candidatos_mulheres": 6,
    "colocados": 9,
+   "colocados_1opcao": 2,
+   "colocados_homens": 5,
+   "colocados_mulheres": 4,
+   "media_candidatura": 123.7,
+   "media_provas": 111.1,
    "nota_ultimo": 111.0,
    "sobras": 4,
    "vagas": 13,
@@ -43,13 +79,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 36,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 21,
    "colocados": 10,
+   "colocados_1opcao": 5,
+   "colocados_homens": 5,
+   "colocados_mulheres": 5,
+   "media_candidatura": 124.5,
+   "media_provas": 110.7,
    "nota_ultimo": 112.1,
    "sobras": 12,
    "vagas": 22
   },
   "2019f2": {
+   "candidatos": 8,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 4,
    "colocados": 6,
+   "colocados_1opcao": 3,
+   "colocados_homens": 3,
+   "colocados_mulheres": 3,
+   "media_candidatura": 131.5,
+   "media_provas": 135.5,
    "nota_ultimo": 123.0,
    "sobras": 10,
    "vagas": 14,

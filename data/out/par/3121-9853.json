@@ -40,6 +40,38 @@
    "muda_estabelecimento": 3.7,
    "novos_inscritos": 54
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 8,
+    "inscritos": 31,
+    "mulheres": 29
+   },
+   "2020/21": {
+    "estrangeiros": 9,
+    "inscritos": 29,
+    "mulheres": 26
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 32,
+    "mulheres": 24
+   },
+   "2022/23": {
+    "estrangeiros": 8,
+    "inscritos": 43,
+    "mulheres": 36
+   },
+   "2023/24": {
+    "estrangeiros": 6,
+    "inscritos": 69,
+    "mulheres": 62
+   },
+   "2024/25": {
+    "estrangeiros": 3,
+    "inscritos": 91,
+    "mulheres": 87
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,7 +155,10 @@
  "minimo_provas": 95,
  "par": "3121-9853",
  "pct_colocados_1opcao_2025": 20,
+ "percentil_fica": 41,
+ "percentil_fidelidade": 4,
  "percentil_nota_2026": 5,
+ "percentil_procura": 10,
  "preferencia_regional": {
   "area_influencia": "Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
   "pct_vagas": 50
@@ -154,12 +189,28 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 10,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 8,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 22,
    "vagas": 22
   },
   "2018f2": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 6,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 1,
+   "media_candidatura": 116.0,
+   "media_provas": 121.5,
    "nota_ultimo": 116.0,
    "sobras": 21,
    "vagas": 22,
@@ -172,12 +223,26 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 16,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 15,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 22,
    "vagas": 22
   },
   "2019f2": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 6,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 22,
    "vagas": 22,
    "vagas_recolocacao": 0

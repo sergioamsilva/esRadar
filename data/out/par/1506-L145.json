@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Lisboa",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 14,
+    "inscritos": 179,
+    "mulheres": 131
+   },
+   "2020/21": {
+    "estrangeiros": 7,
+    "inscritos": 186,
+    "mulheres": 139
+   }
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Letras",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 460,
+   "candidatos_1opcao": 76,
+   "candidatos_homens": 115,
+   "candidatos_mulheres": 345,
    "colocados": 57,
+   "colocados_1opcao": 29,
+   "colocados_homens": 13,
+   "colocados_mulheres": 44,
+   "media_candidatura": 154.0,
+   "media_provas": 156.2,
    "nota_ultimo": 143.5,
    "sobras": 0,
    "vagas": 56
   },
   "2018f2": {
+   "candidatos": 139,
+   "candidatos_1opcao": 29,
+   "candidatos_homens": 37,
+   "candidatos_mulheres": 102,
    "colocados": 19,
+   "colocados_1opcao": 8,
+   "colocados_homens": 3,
+   "colocados_mulheres": 16,
+   "media_candidatura": 147.3,
+   "media_provas": 148.9,
    "nota_ultimo": 141.0,
    "sobras": 0,
    "vagas": 15,
@@ -44,13 +75,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 405,
+   "candidatos_1opcao": 69,
+   "candidatos_homens": 123,
+   "candidatos_mulheres": 282,
    "colocados": 56,
+   "colocados_1opcao": 32,
+   "colocados_homens": 14,
+   "colocados_mulheres": 42,
+   "media_candidatura": 157.8,
+   "media_provas": 162.4,
    "nota_ultimo": 149.0,
    "sobras": 0,
    "vagas": 56
   },
   "2019f2": {
+   "candidatos": 128,
+   "candidatos_1opcao": 27,
+   "candidatos_homens": 45,
+   "candidatos_mulheres": 83,
    "colocados": 16,
+   "colocados_1opcao": 8,
+   "colocados_homens": 4,
+   "colocados_mulheres": 12,
+   "media_candidatura": 151.9,
+   "media_provas": 159.1,
    "nota_ultimo": 147.5,
    "sobras": 0,
    "vagas": 11,

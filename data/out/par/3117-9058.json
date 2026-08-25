@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Lisboa",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 62,
+    "inscritos": 564,
+    "mulheres": 308
+   },
+   "2020/21": {
+    "estrangeiros": 63,
+    "inscritos": 590,
+    "mulheres": 326
+   },
+   "2021/22": {
+    "estrangeiros": 62,
+    "inscritos": 573,
+    "mulheres": 321
+   },
+   "2022/23": {
+    "estrangeiros": 71,
+    "inscritos": 566,
+    "mulheres": 321
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 587,
+   "candidatos_1opcao": 89,
+   "candidatos_homens": 264,
+   "candidatos_mulheres": 323,
    "colocados": 120,
+   "colocados_1opcao": 35,
+   "colocados_homens": 59,
+   "colocados_mulheres": 61,
+   "media_candidatura": 145.1,
+   "media_provas": 141.7,
    "nota_ultimo": 139.9,
    "sobras": 0,
    "vagas": 118
   },
   "2018f2": {
+   "candidatos": 215,
+   "candidatos_1opcao": 35,
+   "candidatos_homens": 93,
+   "candidatos_mulheres": 122,
    "colocados": 23,
+   "colocados_1opcao": 2,
+   "colocados_homens": 9,
+   "colocados_mulheres": 14,
+   "media_candidatura": 147.7,
+   "media_provas": 145.5,
    "nota_ultimo": 143.5,
    "sobras": 0,
    "vagas": 12,
@@ -42,13 +83,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 743,
+   "candidatos_1opcao": 134,
+   "candidatos_homens": 327,
+   "candidatos_mulheres": 416,
    "colocados": 118,
+   "colocados_1opcao": 32,
+   "colocados_homens": 49,
+   "colocados_mulheres": 69,
+   "media_candidatura": 148.2,
+   "media_provas": 144.8,
    "nota_ultimo": 144.5,
    "sobras": 0,
    "vagas": 118
   },
   "2019f2": {
+   "candidatos": 256,
+   "candidatos_1opcao": 49,
+   "candidatos_homens": 119,
+   "candidatos_mulheres": 137,
    "colocados": 15,
+   "colocados_1opcao": 1,
+   "colocados_homens": 5,
+   "colocados_mulheres": 10,
+   "media_candidatura": 152.4,
+   "media_provas": 153.9,
    "nota_ultimo": 150.5,
    "sobras": 0,
    "vagas": 9,

@@ -45,6 +45,38 @@
    "muda_estabelecimento": 11.1,
    "novos_inscritos": 63
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 1,
+    "inscritos": 39,
+    "mulheres": 33
+   },
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 58,
+    "mulheres": 49
+   },
+   "2021/22": {
+    "estrangeiros": 5,
+    "inscritos": 95,
+    "mulheres": 80
+   },
+   "2022/23": {
+    "estrangeiros": 5,
+    "inscritos": 100,
+    "mulheres": 83
+   },
+   "2023/24": {
+    "estrangeiros": 9,
+    "inscritos": 106,
+    "mulheres": 89
+   },
+   "2024/25": {
+    "estrangeiros": 9,
+    "inscritos": 98,
+    "mulheres": 86
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -128,7 +160,10 @@
  "minimo_provas": 120,
  "par": "0901-9554",
  "pct_colocados_1opcao_2025": 45,
+ "percentil_fica": 13,
+ "percentil_fidelidade": 23,
  "percentil_nota_2026": 94,
+ "percentil_procura": 58,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
@@ -156,13 +191,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 147,
+   "candidatos_1opcao": 16,
+   "candidatos_homens": 24,
+   "candidatos_mulheres": 123,
    "colocados": 20,
+   "colocados_1opcao": 12,
+   "colocados_homens": 3,
+   "colocados_mulheres": 17,
+   "media_candidatura": 164.9,
+   "media_provas": 155.4,
    "nota_ultimo": 156.5,
    "sobras": 0,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 3,
+   "candidatos_mulheres": 28,
    "colocados": 6,
+   "colocados_1opcao": 2,
+   "colocados_homens": 1,
+   "colocados_mulheres": 5,
+   "media_candidatura": 159.5,
+   "media_provas": 152.7,
    "nota_ultimo": 155.0,
    "sobras": 0,
    "vagas": 5,
@@ -176,13 +229,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 140,
+   "candidatos_1opcao": 23,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 125,
    "colocados": 20,
+   "colocados_1opcao": 11,
+   "colocados_homens": 4,
+   "colocados_mulheres": 16,
+   "media_candidatura": 165.8,
+   "media_provas": 157.0,
    "nota_ultimo": 158.5,
    "sobras": 0,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 12,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 27,
    "colocados": 2,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 1,
+   "media_candidatura": 170.6,
+   "media_provas": 167.0,
    "nota_ultimo": 162.3,
    "sobras": 0,
    "vagas": 2,

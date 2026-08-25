@@ -514,6 +514,125 @@ def construir() -> None:
         },
     )
 
+    # Perfil de percentis (5 dimensões) — todos «% de cursos abaixo deste».
+    def _percentis(chave: str, valor_de, *, inverso: bool = False) -> None:
+        valores = sorted(v for v in (valor_de(f) for f in cna) if v is not None)
+        if not valores:
+            return
+        for f in cna:
+            v = valor_de(f)
+            if v is None:
+                continue
+            abaixo = sum(1 for x in valores if x < v)
+            pct = round(100 * abaixo / len(valores))
+            f[chave] = 100 - pct if inverso else pct
+
+    _percentis("percentil_procura", lambda f: (
+        None
+        if not (f["series"].get(f"{ANO_CORRENTE - 1}f1", {}).get("candidatos_1opcao") and f["vagas_2026"])
+        else f["series"][f"{ANO_CORRENTE - 1}f1"]["candidatos_1opcao"] / f["vagas_2026"]
+    ))
+    _percentis("percentil_fica", lambda f: (f.get("infocursos") or {}).get("apos_1_ano", {}).get("fica"))
+    _percentis("percentil_fidelidade", lambda f: f.get("pct_colocados_1opcao_2025"))
+
+    # «A 2ª fase compensa?» + absorção das sobras — o histórico completo.
+    deltas_2f: list[float] = []
+    fases_por_ano: dict[int, dict] = defaultdict(lambda: {"n": 0, "sobe": 0, "deltas": []})
+    absorcao_por_ano: dict[int, dict] = defaultdict(lambda: {"sobras_f1": 0, "colocados_f2": 0})
+    for f in fichas.values():
+        for ano in range(ANO_MINIMO, ANO_CORRENTE + 1):
+            r1 = f["series"].get(f"{ano}f1", {})
+            r2 = f["series"].get(f"{ano}f2", {})
+            n1, n2 = r1.get("nota_ultimo"), r2.get("nota_ultimo")
+            if n1 is not None and n2 is not None:
+                delta = round(n2 - n1, 1)
+                deltas_2f.append(delta)
+                fases_por_ano[ano]["n"] += 1
+                fases_por_ano[ano]["deltas"].append(delta)
+                if delta > 0:
+                    fases_por_ano[ano]["sobe"] += 1
+            if r1.get("sobras"):
+                absorcao_por_ano[ano]["sobras_f1"] += r1["sobras"]
+            if r2.get("colocados"):
+                absorcao_por_ano[ano]["colocados_f2"] += r2["colocados"]
+    caixas_2f: dict[str, int] = defaultdict(int)
+    for d in deltas_2f:
+        caixas_2f[str(max(-12, min(12, int(round(d / 2) * 2))))] += 1
+    _escrever(
+        common.DIR_SAIDA / "fases.json",
+        {
+            "n": len(deltas_2f),
+            "pct_sobe": round(100 * sum(1 for d in deltas_2f if d > 0) / max(1, len(deltas_2f))),
+            "delta_mediano": sorted(deltas_2f)[len(deltas_2f) // 2] if deltas_2f else None,
+            "caixas": caixas_2f,
+            "por_ano": {
+                str(a): {
+                    "n": v["n"],
+                    "pct_sobe": round(100 * v["sobe"] / v["n"]) if v["n"] else None,
+                    "delta_mediano": sorted(v["deltas"])[len(v["deltas"]) // 2] if v["deltas"] else None,
+                }
+                for a, v in sorted(fases_por_ano.items())
+            },
+            "absorcao": {
+                str(a): {
+                    **v,
+                    "taxa": round(100 * min(1, v["colocados_f2"] / v["sobras_f1"])) if v["sobras_f1"] else None,
+                }
+                for a, v in sorted(absorcao_por_ano.items())
+                if v["sobras_f1"]
+            },
+        },
+    )
+
+    # O radar de histórias: factos notáveis detetados por regras, para o
+    # Panorama — reescrito a cada build, muda a cada fase arquivada.
+    historias: list[dict] = []
+    for f in cna:
+        notas = {
+            int(k[:4]): v["nota_ultimo"]
+            for k, v in f["series"].items()
+            if k.endswith("f1") and v.get("nota_ultimo") is not None
+        }
+        alvo = notas.get(ANO_CORRENTE)
+        anteriores = {a: n for a, n in notas.items() if a < ANO_CORRENTE}
+        rotulo = f"{f['curso']} — {f['grupo']}"
+        caminho = f"/curso/{f['par']}-{slug(f['curso'])}/"
+        if alvo is not None and anteriores:
+            delta = alvo - notas.get(ANO_CORRENTE - 1, alvo)
+            if len(anteriores) >= 4 and alvo > max(anteriores.values()) + 0.5:
+                historias.append({"tipo": "recorde", "peso": alvo - max(anteriores.values()),
+                                  "texto": f"{rotulo} fechou a {alvo:.1f} — o máximo da sua série desde {min(anteriores)}.",
+                                  "url": caminho})
+            if abs(delta) >= 25 and notas.get(ANO_CORRENTE - 1) is not None:
+                historias.append({"tipo": "salto" if delta > 0 else "queda", "peso": abs(delta),
+                                  "texto": f"{rotulo} {'saltou' if delta > 0 else 'caiu'} {abs(delta):.1f} pontos num ano ({notas[ANO_CORRENTE - 1]:.1f} → {alvo:.1f}).",
+                                  "url": caminho})
+        sobras = {
+            int(k[:4]): v.get("sobras")
+            for k, v in f["series"].items()
+            if k.endswith("f1") and v.get("sobras") is not None
+        }
+        if (
+            sobras.get(ANO_CORRENTE) == 0
+            and len([a for a in sobras if a < ANO_CORRENTE]) >= 4
+            and all(s > 0 for a, s in sobras.items() if a < ANO_CORRENTE)
+        ):
+            historias.append({"tipo": "esgotou", "peso": 20 + (f["vagas_2026"] or 0) / 10,
+                              "texto": f"{rotulo} esgotou as vagas pela primeira vez em {len(sobras)} anos.",
+                              "url": caminho})
+        if alvo is not None and not anteriores and alvo >= 168:
+            historias.append({"tipo": "estreia", "peso": alvo - 150,
+                              "texto": f"{rotulo} estreou-se no concurso já a fechar em {alvo:.1f}.",
+                              "url": caminho})
+        c1 = f["series"].get(f"{ANO_CORRENTE - 1}f1", {}).get("candidatos_1opcao")
+        c3 = f["series"].get(f"{ANO_CORRENTE - 3}f1", {}).get("candidatos_1opcao")
+        if c1 is not None and c3 and c3 >= 40 and c1 <= c3 * 0.45:
+            historias.append({"tipo": "fuga", "peso": (1 - c1 / c3) * 30,
+                              "texto": f"{rotulo}: a procura em 1ª opção caiu de {c3} para {c1} em dois anos.",
+                              "url": caminho})
+    historias.sort(key=lambda h: h["peso"], reverse=True)
+    _escrever(common.DIR_SAIDA / "historias.json", {"geradas_de": f"época {ANO_CORRENTE}", "historias": historias[:14]})
+
     # Agregados por estabelecimento e nacional.
     por_inst: dict[str, dict] = defaultdict(lambda: {"cursos": [], "vagas": 0, "colocados_f1": 0, "sobras_f1": 0})
     nacional_anos: dict[int, dict] = defaultdict(

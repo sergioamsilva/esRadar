@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 106,
+    "mulheres": 61
+   },
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 111,
+    "mulheres": 54
+   },
+   "2021/22": {
+    "estrangeiros": 3,
+    "inscritos": 116,
+    "mulheres": 54
+   },
+   "2022/23": {
+    "estrangeiros": 3,
+    "inscritos": 121,
+    "mulheres": 60
+   },
+   "2023/24": {
+    "estrangeiros": 2,
+    "inscritos": 131,
+    "mulheres": 64
+   }
+  }
+ },
  "instituicao": "Escola Superior de Hotelaria e Turismo do Estoril",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +52,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 168,
+   "candidatos_1opcao": 14,
+   "candidatos_homens": 85,
+   "candidatos_mulheres": 83,
    "colocados": 36,
+   "colocados_1opcao": 5,
+   "colocados_homens": 20,
+   "colocados_mulheres": 16,
+   "media_candidatura": 132.9,
+   "media_provas": 132.7,
    "nota_ultimo": 131.0,
    "sobras": 0,
    "vagas": 35
   },
   "2018f2": {
+   "candidatos": 70,
+   "candidatos_1opcao": 23,
+   "candidatos_homens": 34,
+   "candidatos_mulheres": 36,
    "colocados": 11,
+   "colocados_1opcao": 3,
+   "colocados_homens": 2,
+   "colocados_mulheres": 9,
+   "media_candidatura": 138.7,
+   "media_provas": 139.3,
    "nota_ultimo": 132.8,
    "sobras": 0,
    "vagas": 9,
@@ -42,13 +88,31 @@
    "vagas_recolocacao": 2
   },
   "2019f1": {
+   "candidatos": 110,
+   "candidatos_1opcao": 19,
+   "candidatos_homens": 54,
+   "candidatos_mulheres": 56,
    "colocados": 33,
+   "colocados_1opcao": 12,
+   "colocados_homens": 13,
+   "colocados_mulheres": 20,
+   "media_candidatura": 135.5,
+   "media_provas": 137.1,
    "nota_ultimo": 127.6,
    "sobras": 0,
    "vagas": 33
   },
   "2019f2": {
+   "candidatos": 52,
+   "candidatos_1opcao": 9,
+   "candidatos_homens": 27,
+   "candidatos_mulheres": 25,
    "colocados": 8,
+   "colocados_1opcao": 5,
+   "colocados_homens": 5,
+   "colocados_mulheres": 3,
+   "media_candidatura": 141.4,
+   "media_provas": 142.0,
    "nota_ultimo": 133.4,
    "sobras": 0,
    "vagas": 6,
@@ -62,13 +126,31 @@
    "vagas_recolocacao": 1
   },
   "2020f1": {
+   "candidatos": 135,
+   "candidatos_1opcao": 15,
+   "candidatos_homens": 67,
+   "candidatos_mulheres": 68,
    "colocados": 43,
+   "colocados_1opcao": 9,
+   "colocados_homens": 21,
+   "colocados_mulheres": 22,
+   "media_candidatura": 139.9,
+   "media_provas": 147.6,
    "nota_ultimo": 130.2,
    "sobras": 0,
    "vagas": 41
   },
   "2020f2": {
+   "candidatos": 80,
+   "candidatos_1opcao": 14,
+   "candidatos_homens": 37,
+   "candidatos_mulheres": 43,
    "colocados": 16,
+   "colocados_1opcao": 3,
+   "colocados_homens": 8,
+   "colocados_mulheres": 8,
+   "media_candidatura": 140.2,
+   "media_provas": 138.7,
    "nota_ultimo": 136.4,
    "sobras": 0,
    "vagas": 15,

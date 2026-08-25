@@ -274,6 +274,46 @@ def extrair(caminho: Path) -> dict[str, dict]:
     return dados
 
 
+def serie_demografica(*, forcar: bool = False) -> dict[str, dict[str, dict]]:
+    """A evolução de mulheres e estrangeiros por curso, cruzando edições.
+
+    Cada edição anual do Infocursos só traz UM ano letivo nas folhas de
+    sexo/nacionalidade (a edição Y traz (Y-2)/(Y-1)); a série constrói-se
+    descarregando as edições de 2021 em diante.
+    """
+    serie: dict[str, dict[str, dict]] = {}
+    for edicao in range(2021, ANO_EDICAO + 1):
+        destino = common.DIR_BRUTO / "infocursos" / f"Infocursos_{edicao}.xlsx"
+        try:
+            common.descarregar(
+                f"{common.BASE_INFOCURSOS}/Infocursos_{edicao}.xlsx", destino, forcar=forcar
+            )
+        except RuntimeError as erro:
+            print(f"  aviso: edição {edicao} indisponível ({erro})")
+            continue
+        try:
+            sexo = tabela(destino, "Inscritos por Sexo")
+            nacionalidade = tabela(destino, "Inscritos por Nacionalidade")
+        except RuntimeError as erro:
+            print(f"  aviso: edição {edicao}: {erro}")
+            continue
+        estrangeiros = {
+            (_par(l), l.get("AnoLetivo")): _i(l.get("NumeroEstrangeiros")) for l in nacionalidade
+        }
+        for linha in sexo:
+            par = _par(linha)
+            total = _i(linha.get("NumeroInscritos"))
+            ano_letivo = linha.get("AnoLetivo") or ""
+            if not par or not total or not ano_letivo:
+                continue
+            serie.setdefault(par, {})[ano_letivo] = {
+                "inscritos": total,
+                "mulheres": _i(linha.get("NumeroMulheres")),
+                "estrangeiros": estrangeiros.get((par, ano_letivo)),
+            }
+    return serie
+
+
 def atualizar(*, forcar: bool = False) -> Path:
     destino_xlsx = common.DIR_BRUTO / "infocursos" / f"Infocursos_{ANO_EDICAO}.xlsx"
     common.descarregar(
@@ -282,6 +322,9 @@ def atualizar(*, forcar: bool = False) -> Path:
     dados = extrair(destino_xlsx)
     if len(dados) < 800:
         raise RuntimeError(f"só {len(dados)} pares extraídos do Infocursos — formato mudou?")
+    for par, serie in serie_demografica(forcar=forcar).items():
+        if len(serie) >= 2:
+            dados.setdefault(par, {})["demografia_serie"] = dict(sorted(serie.items()))
     destino = common.DIR_BRUTO / "infocursos" / "infocursos.json"
     destino.write_text(
         json.dumps(

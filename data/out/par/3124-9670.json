@@ -40,6 +40,23 @@
    "muda_estabelecimento": 1.1,
    "novos_inscritos": 94
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 21,
+    "inscritos": 119,
+    "mulheres": 80
+   },
+   "2023/24": {
+    "estrangeiros": 20,
+    "inscritos": 122,
+    "mulheres": 82
+   },
+   "2024/25": {
+    "estrangeiros": 17,
+    "inscritos": 130,
+    "mulheres": 83
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,7 +140,10 @@
  "minimo_provas": 95,
  "par": "3124-9670",
  "pct_colocados_1opcao_2025": 87,
+ "percentil_fica": 56,
+ "percentil_fidelidade": 83,
  "percentil_nota_2026": 1,
+ "percentil_procura": 41,
  "preferencia_regional": {
   "area_influencia": "Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
   "pct_vagas": 50

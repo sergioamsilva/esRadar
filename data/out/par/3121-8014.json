@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Portalegre",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 5,
+    "inscritos": 37,
+    "mulheres": 29
+   },
+   "2020/21": {
+    "estrangeiros": 15,
+    "inscritos": 56,
+    "mulheres": 45
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 49,
+    "mulheres": 34
+   },
+   "2022/23": {
+    "estrangeiros": 6,
+    "inscritos": 57,
+    "mulheres": 41
+   },
+   "2023/24": {
+    "estrangeiros": 7,
+    "inscritos": 59,
+    "mulheres": 44
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,12 +52,28 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 4,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 20,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 3,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 1,
+   "media_candidatura": 119.6,
+   "media_provas": 117.0,
    "nota_ultimo": 119.6,
    "sobras": 19,
    "vagas": 20,
@@ -43,13 +87,29 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 4,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 1,
+   "media_candidatura": 112.5,
+   "media_provas": 106.0,
    "nota_ultimo": 112.5,
    "sobras": 19,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 3,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 20,
    "vagas": 20,
    "vagas_recolocacao": 0

@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 13,
+    "inscritos": 113,
+    "mulheres": 23
+   },
+   "2020/21": {
+    "estrangeiros": 6,
+    "inscritos": 104,
+    "mulheres": 29
+   },
+   "2021/22": {
+    "estrangeiros": 15,
+    "inscritos": 104,
+    "mulheres": 33
+   },
+   "2022/23": {
+    "estrangeiros": 17,
+    "inscritos": 100,
+    "mulheres": 26
+   }
+  }
+ },
  "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 50,
+   "candidatos_1opcao": 12,
+   "candidatos_homens": 36,
+   "candidatos_mulheres": 14,
    "colocados": 12,
+   "colocados_1opcao": 12,
+   "colocados_homens": 10,
+   "colocados_mulheres": 2,
+   "media_candidatura": 127.6,
+   "media_provas": 111.5,
    "nota_ultimo": 110.4,
    "sobras": 22,
    "vagas": 34
   },
   "2018f2": {
+   "candidatos": 20,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 16,
+   "candidatos_mulheres": 4,
    "colocados": 8,
+   "colocados_1opcao": 7,
+   "colocados_homens": 7,
+   "colocados_mulheres": 1,
+   "media_candidatura": 126.6,
+   "media_provas": 112.0,
    "nota_ultimo": 116.3,
    "sobras": 16,
    "vagas": 22,
@@ -43,13 +84,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 38,
+   "candidatos_1opcao": 12,
+   "candidatos_homens": 24,
+   "candidatos_mulheres": 14,
    "colocados": 13,
+   "colocados_1opcao": 12,
+   "colocados_homens": 7,
+   "colocados_mulheres": 6,
+   "media_candidatura": 134.1,
+   "media_provas": 113.7,
    "nota_ultimo": 115.3,
    "sobras": 11,
    "vagas": 24
   },
   "2019f2": {
+   "candidatos": 22,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 16,
+   "candidatos_mulheres": 6,
    "colocados": 10,
+   "colocados_1opcao": 10,
+   "colocados_homens": 9,
+   "colocados_mulheres": 1,
+   "media_candidatura": 126.3,
+   "media_provas": 113.5,
    "nota_ultimo": 112.6,
    "sobras": 2,
    "vagas": 12,

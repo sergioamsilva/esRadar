@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade do Porto",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 36,
+    "inscritos": 301,
+    "mulheres": 224
+   },
+   "2020/21": {
+    "estrangeiros": 45,
+    "inscritos": 319,
+    "mulheres": 236
+   }
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Letras",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 642,
+   "candidatos_1opcao": 226,
+   "candidatos_homens": 160,
+   "candidatos_mulheres": 482,
    "colocados": 74,
+   "colocados_1opcao": 60,
+   "colocados_homens": 17,
+   "colocados_mulheres": 57,
+   "media_candidatura": 167.1,
+   "media_provas": 156.3,
    "nota_ultimo": 161.6,
    "sobras": 0,
    "vagas": 74
   },
   "2018f2": {
+   "candidatos": 160,
+   "candidatos_1opcao": 79,
+   "candidatos_homens": 49,
+   "candidatos_mulheres": 111,
    "colocados": 9,
+   "colocados_1opcao": 7,
+   "colocados_homens": 1,
+   "colocados_mulheres": 8,
+   "media_candidatura": 166.8,
+   "media_provas": 166.8,
    "nota_ultimo": 168.4,
    "sobras": 0,
    "vagas": 7,
@@ -44,13 +75,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 628,
+   "candidatos_1opcao": 234,
+   "candidatos_homens": 164,
+   "candidatos_mulheres": 464,
    "colocados": 75,
+   "colocados_1opcao": 65,
+   "colocados_homens": 19,
+   "colocados_mulheres": 56,
+   "media_candidatura": 171.8,
+   "media_provas": 165.8,
    "nota_ultimo": 165.6,
    "sobras": 0,
    "vagas": 74
   },
   "2019f2": {
+   "candidatos": 128,
+   "candidatos_1opcao": 68,
+   "candidatos_homens": 34,
+   "candidatos_mulheres": 94,
    "colocados": 6,
+   "colocados_1opcao": 5,
+   "colocados_homens": 1,
+   "colocados_mulheres": 5,
+   "media_candidatura": 168.7,
+   "media_provas": 173.5,
    "nota_ultimo": 165.2,
    "sobras": 0,
    "vagas": 4,
@@ -63,13 +112,31 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 672,
+   "candidatos_1opcao": 227,
+   "candidatos_homens": 189,
+   "candidatos_mulheres": 483,
    "colocados": 75,
+   "colocados_1opcao": 54,
+   "colocados_homens": 15,
+   "colocados_mulheres": 60,
+   "media_candidatura": 172.2,
+   "media_provas": 166.8,
    "nota_ultimo": 170.2,
    "sobras": 0,
    "vagas": 74
   },
   "2020f2": {
+   "candidatos": 162,
+   "candidatos_1opcao": 66,
+   "candidatos_homens": 45,
+   "candidatos_mulheres": 117,
    "colocados": 9,
+   "colocados_1opcao": 8,
+   "colocados_homens": 1,
+   "colocados_mulheres": 8,
+   "media_candidatura": 169.1,
+   "media_provas": 174.7,
    "nota_ultimo": 172.4,
    "sobras": 0,
    "vagas": 5,

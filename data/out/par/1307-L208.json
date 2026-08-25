@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade da Madeira",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 1,
+    "mulheres": 0
+   },
+   "2021/22": {
+    "estrangeiros": 2,
+    "inscritos": 5,
+    "mulheres": 0
+   },
+   "2022/23": {
+    "estrangeiros": 5,
+    "inscritos": 11,
+    "mulheres": 2
+   }
+  }
+ },
  "instituicao": "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia",
  "minimo_candidatura": null,
  "minimo_provas": null,

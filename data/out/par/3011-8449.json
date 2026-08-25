@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Aveiro",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 65,
+    "mulheres": 46
+   },
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 41,
+    "mulheres": 30
+   }
+  }
+ },
  "instituicao": "Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro",
  "minimo_candidatura": null,
  "minimo_provas": null,

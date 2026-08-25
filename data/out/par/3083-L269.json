@@ -40,6 +40,23 @@
    "muda_estabelecimento": 1.7,
    "novos_inscritos": 59
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 0,
+    "inscritos": 26,
+    "mulheres": 3
+   },
+   "2023/24": {
+    "estrangeiros": 18,
+    "inscritos": 72,
+    "mulheres": 11
+   },
+   "2024/25": {
+    "estrangeiros": 35,
+    "inscritos": 112,
+    "mulheres": 17
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 14.3,
    "cna_outras": 7.9,
@@ -95,7 +112,10 @@
  "minimo_provas": 95,
  "par": "3083-L269",
  "pct_colocados_1opcao_2025": 100,
+ "percentil_fica": 26,
+ "percentil_fidelidade": 91,
  "percentil_nota_2026": 6,
+ "percentil_procura": 2,
  "preferencia_regional": {
   "area_influencia": "Beja, Faro",
   "pct_vagas": 50

@@ -46,6 +46,38 @@
    "muda_estabelecimento": 1.4,
    "novos_inscritos": 74
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 127,
+    "mulheres": 25
+   },
+   "2020/21": {
+    "estrangeiros": 3,
+    "inscritos": 141,
+    "mulheres": 26
+   },
+   "2021/22": {
+    "estrangeiros": 3,
+    "inscritos": 136,
+    "mulheres": 23
+   },
+   "2022/23": {
+    "estrangeiros": 1,
+    "inscritos": 138,
+    "mulheres": 23
+   },
+   "2023/24": {
+    "estrangeiros": 1,
+    "inscritos": 135,
+    "mulheres": 20
+   },
+   "2024/25": {
+    "estrangeiros": 16,
+    "inscritos": 151,
+    "mulheres": 25
+   }
+  },
   "desemprego": {
    "diplomados": 133,
    "periodo": "2020/21_2023/24",
@@ -134,7 +166,10 @@
  "minimo_provas": 95,
  "par": "3151-9563",
  "pct_colocados_1opcao_2025": 82,
+ "percentil_fica": 73,
+ "percentil_fidelidade": 78,
  "percentil_nota_2026": 43,
+ "percentil_procura": 63,
  "preferencia_regional": {
   "area_influencia": "Beja, Évora, Lisboa, Santarém, Setúbal",
   "pct_vagas": 50
@@ -186,13 +221,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 63,
+   "candidatos_1opcao": 43,
+   "candidatos_homens": 51,
+   "candidatos_mulheres": 12,
    "colocados": 31,
+   "colocados_1opcao": 29,
+   "colocados_homens": 24,
+   "colocados_mulheres": 7,
+   "media_candidatura": 125.3,
+   "media_provas": 117.1,
    "nota_ultimo": 116.6,
    "sobras": 0,
    "vagas": 30
   },
   "2018f2": {
+   "candidatos": 26,
+   "candidatos_1opcao": 19,
+   "candidatos_homens": 21,
+   "candidatos_mulheres": 5,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 133.6,
+   "media_provas": 142.0,
    "nota_ultimo": 133.6,
    "sobras": 0,
    "vagas": 0,
@@ -204,13 +257,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 51,
+   "candidatos_1opcao": 27,
+   "candidatos_homens": 40,
+   "candidatos_mulheres": 11,
    "colocados": 30,
+   "colocados_1opcao": 23,
+   "colocados_homens": 26,
+   "colocados_mulheres": 4,
+   "media_candidatura": 123.2,
+   "media_provas": 113.2,
    "nota_ultimo": 115.8,
    "sobras": 0,
    "vagas": 30
   },
   "2019f2": {
+   "candidatos": 29,
+   "candidatos_1opcao": 18,
+   "candidatos_homens": 24,
+   "candidatos_mulheres": 5,
    "colocados": 5,
+   "colocados_1opcao": 4,
+   "colocados_homens": 5,
+   "colocados_mulheres": 0,
+   "media_candidatura": 131.6,
+   "media_provas": 132.8,
    "nota_ultimo": 129.0,
    "sobras": 0,
    "vagas": 4,

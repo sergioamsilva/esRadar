@@ -60,6 +60,18 @@
    "muda_estabelecimento": 9.6,
    "novos_inscritos": 575
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 71,
+    "inscritos": 1220,
+    "mulheres": 1050
+   },
+   "2024/25": {
+    "estrangeiros": 82,
+    "inscritos": 1204,
+    "mulheres": 1035
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -143,7 +155,10 @@
  "minimo_provas": 100,
  "par": "7270-9500",
  "pct_colocados_1opcao_2025": 75,
+ "percentil_fica": 69,
+ "percentil_fidelidade": 67,
  "percentil_nota_2026": 87,
+ "percentil_procura": 94,
  "preferencia_regional": {
   "area_influencia": "Porto",
   "pct_vagas": 50

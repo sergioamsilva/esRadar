@@ -40,6 +40,38 @@
    "muda_estabelecimento": 6.1,
    "novos_inscritos": 33
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 15,
+    "inscritos": 43,
+    "mulheres": 14
+   },
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 35,
+    "mulheres": 15
+   },
+   "2021/22": {
+    "estrangeiros": 5,
+    "inscritos": 50,
+    "mulheres": 26
+   },
+   "2022/23": {
+    "estrangeiros": 4,
+    "inscritos": 58,
+    "mulheres": 31
+   },
+   "2023/24": {
+    "estrangeiros": 2,
+    "inscritos": 55,
+    "mulheres": 28
+   },
+   "2024/25": {
+    "estrangeiros": 4,
+    "inscritos": 50,
+    "mulheres": 21
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,7 +155,10 @@
  "minimo_provas": 95,
  "par": "1307-9209",
  "pct_colocados_1opcao_2025": 100,
+ "percentil_fica": 29,
+ "percentil_fidelidade": 91,
  "percentil_nota_2026": 44,
+ "percentil_procura": 33,
  "preferencia_regional": {
   "area_influencia": "R. A. Madeira",
   "pct_vagas": 50

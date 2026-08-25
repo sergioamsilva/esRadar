@@ -27,6 +27,23 @@
    "muda_estabelecimento": 5.3,
    "novos_inscritos": 19
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 1,
+    "inscritos": 5,
+    "mulheres": 3
+   },
+   "2023/24": {
+    "estrangeiros": 11,
+    "inscritos": 18,
+    "mulheres": 10
+   },
+   "2024/25": {
+    "estrangeiros": 16,
+    "inscritos": 23,
+    "mulheres": 14
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 16.0,
    "cna_outras": 0,
@@ -82,6 +99,9 @@
  "minimo_provas": 95,
  "par": "1203-9113",
  "pct_colocados_1opcao_2025": 50,
+ "percentil_fica": 10,
+ "percentil_fidelidade": 28,
+ "percentil_procura": 7,
  "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [

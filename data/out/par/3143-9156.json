@@ -50,6 +50,33 @@
    "muda_estabelecimento": 3.3,
    "novos_inscritos": 120
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 63,
+    "mulheres": 30
+   },
+   "2021/22": {
+    "estrangeiros": 6,
+    "inscritos": 121,
+    "mulheres": 61
+   },
+   "2022/23": {
+    "estrangeiros": 11,
+    "inscritos": 185,
+    "mulheres": 92
+   },
+   "2023/24": {
+    "estrangeiros": 8,
+    "inscritos": 211,
+    "mulheres": 117
+   },
+   "2024/25": {
+    "estrangeiros": 14,
+    "inscritos": 196,
+    "mulheres": 109
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -133,7 +160,10 @@
  "minimo_provas": 95,
  "par": "3143-9156",
  "pct_colocados_1opcao_2025": 71,
+ "percentil_fica": 68,
+ "percentil_fidelidade": 62,
  "percentil_nota_2026": 41,
+ "percentil_procura": 22,
  "preferencia_regional": {
   "area_influencia": "Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
   "pct_vagas": 50

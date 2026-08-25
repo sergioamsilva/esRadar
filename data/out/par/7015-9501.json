@@ -28,6 +28,38 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 69,
+    "inscritos": 241,
+    "mulheres": 195
+   },
+   "2020/21": {
+    "estrangeiros": 59,
+    "inscritos": 270,
+    "mulheres": 211
+   },
+   "2021/22": {
+    "estrangeiros": 64,
+    "inscritos": 279,
+    "mulheres": 221
+   },
+   "2022/23": {
+    "estrangeiros": 70,
+    "inscritos": 314,
+    "mulheres": 259
+   },
+   "2023/24": {
+    "estrangeiros": 54,
+    "inscritos": 307,
+    "mulheres": 255
+   },
+   "2024/25": {
+    "estrangeiros": 41,
+    "inscritos": 264,
+    "mulheres": 223
+   }
+  },
   "desemprego": {
    "diplomados": 433,
    "periodo": "2020/21_2023/24",
@@ -116,7 +148,9 @@
  "minimo_provas": 95,
  "par": "7015-9501",
  "pct_colocados_1opcao_2025": 18,
+ "percentil_fidelidade": 3,
  "percentil_nota_2026": 17,
+ "percentil_procura": 2,
  "preferencia_regional": {
   "area_influencia": "Bragança, Vila Real",
   "pct_vagas": 50
@@ -168,13 +202,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 17,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 5,
+   "candidatos_mulheres": 12,
    "colocados": 5,
+   "colocados_1opcao": 0,
+   "colocados_homens": 2,
+   "colocados_mulheres": 3,
+   "media_candidatura": 110.4,
+   "media_provas": 105.1,
    "nota_ultimo": 101.4,
    "sobras": 44,
    "vagas": 49
   },
   "2018f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 11,
+   "candidatos_mulheres": 20,
    "colocados": 7,
+   "colocados_1opcao": 2,
+   "colocados_homens": 4,
+   "colocados_mulheres": 3,
+   "media_candidatura": 110.9,
+   "media_provas": 102.3,
    "nota_ultimo": 98.0,
    "sobras": 37,
    "vagas": 44,
@@ -188,13 +240,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 14,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 5,
+   "candidatos_mulheres": 9,
    "colocados": 2,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 2,
+   "media_candidatura": 121.7,
+   "media_provas": 100.5,
    "nota_ultimo": 120.0,
    "sobras": 48,
    "vagas": 50
   },
   "2019f2": {
+   "candidatos": 30,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 24,
    "colocados": 9,
+   "colocados_1opcao": 2,
+   "colocados_homens": 1,
+   "colocados_mulheres": 8,
+   "media_candidatura": 119.6,
+   "media_provas": 107.3,
    "nota_ultimo": 108.5,
    "sobras": 39,
    "vagas": 48,
@@ -208,13 +278,31 @@
    "vagas_recolocacao": 1
   },
   "2020f1": {
+   "candidatos": 33,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 5,
+   "candidatos_mulheres": 28,
    "colocados": 12,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 12,
+   "media_candidatura": 127.4,
+   "media_provas": 110.3,
    "nota_ultimo": 120.1,
    "sobras": 38,
    "vagas": 50
   },
   "2020f2": {
+   "candidatos": 236,
+   "candidatos_1opcao": 43,
+   "candidatos_homens": 51,
+   "candidatos_mulheres": 185,
    "colocados": 40,
+   "colocados_1opcao": 6,
+   "colocados_homens": 8,
+   "colocados_mulheres": 33,
+   "media_candidatura": 144.3,
+   "media_provas": 138.5,
    "nota_ultimo": 141.3,
    "sobras": 0,
    "vagas": 39,

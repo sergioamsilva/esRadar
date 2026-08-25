@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Viana do Castelo",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 5,
+    "inscritos": 96,
+    "mulheres": 93
+   },
+   "2020/21": {
+    "estrangeiros": 6,
+    "inscritos": 102,
+    "mulheres": 91
+   },
+   "2021/22": {
+    "estrangeiros": 12,
+    "inscritos": 106,
+    "mulheres": 93
+   },
+   "2022/23": {
+    "estrangeiros": 17,
+    "inscritos": 93,
+    "mulheres": 81
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 72,
+   "candidatos_1opcao": 17,
+   "candidatos_homens": 10,
+   "candidatos_mulheres": 62,
    "colocados": 27,
+   "colocados_1opcao": 16,
+   "colocados_homens": 4,
+   "colocados_mulheres": 23,
+   "media_candidatura": 129.8,
+   "media_provas": 116.3,
    "nota_ultimo": 113.6,
    "sobras": 0,
    "vagas": 27
   },
   "2018f2": {
+   "candidatos": 22,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 18,
    "colocados": 7,
+   "colocados_1opcao": 3,
+   "colocados_homens": 2,
+   "colocados_mulheres": 5,
+   "media_candidatura": 124.7,
+   "media_provas": 112.3,
    "nota_ultimo": 119.3,
    "sobras": 0,
    "vagas": 5,
@@ -44,13 +85,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 56,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 52,
    "colocados": 23,
+   "colocados_1opcao": 11,
+   "colocados_homens": 1,
+   "colocados_mulheres": 22,
+   "media_candidatura": 125.1,
+   "media_provas": 113.9,
    "nota_ultimo": 111.9,
    "sobras": 4,
    "vagas": 27
   },
   "2019f2": {
+   "candidatos": 30,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 3,
+   "candidatos_mulheres": 27,
    "colocados": 12,
+   "colocados_1opcao": 5,
+   "colocados_homens": 1,
+   "colocados_mulheres": 11,
+   "media_candidatura": 127.3,
+   "media_provas": 113.3,
    "nota_ultimo": 122.0,
    "sobras": 0,
    "vagas": 12,

@@ -27,6 +27,33 @@
    "muda_estabelecimento": 4.5,
    "novos_inscritos": 22
   },
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 11,
+    "mulheres": 3
+   },
+   "2021/22": {
+    "estrangeiros": 3,
+    "inscritos": 21,
+    "mulheres": 7
+   },
+   "2022/23": {
+    "estrangeiros": 5,
+    "inscritos": 27,
+    "mulheres": 10
+   },
+   "2023/24": {
+    "estrangeiros": 16,
+    "inscritos": 33,
+    "mulheres": 14
+   },
+   "2024/25": {
+    "estrangeiros": 18,
+    "inscritos": 28,
+    "mulheres": 14
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -77,6 +104,7 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9752",
+ "percentil_fica": 22,
  "preferencia_regional": {
   "area_influencia": "Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
   "pct_vagas": 50

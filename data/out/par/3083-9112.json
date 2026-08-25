@@ -24,13 +24,27 @@
  "provas_ingresso": null,
  "series": {
   "2020f1": {
+   "candidatos": 30,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 26,
+   "candidatos_mulheres": 4,
    "colocados": 7,
+   "colocados_1opcao": 7,
+   "colocados_homens": 7,
+   "colocados_mulheres": 0,
+   "media_candidatura": 141.3,
+   "media_provas": 142.0,
    "nota_ultimo": 165.6,
    "sobras": 16,
    "vagas": 23
   },
   "2020f2": {
+   "candidatos": 9,
+   "candidatos_1opcao": 0,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 117.2,
+   "media_provas": 97.0,
    "nota_ultimo": 117.2,
    "sobras": 15,
    "vagas": 16,

@@ -36,6 +36,38 @@
    "muda_estabelecimento": 4.2,
    "novos_inscritos": 48
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 52,
+    "inscritos": 61,
+    "mulheres": 10
+   },
+   "2020/21": {
+    "estrangeiros": 34,
+    "inscritos": 44,
+    "mulheres": 11
+   },
+   "2021/22": {
+    "estrangeiros": 34,
+    "inscritos": 45,
+    "mulheres": 11
+   },
+   "2022/23": {
+    "estrangeiros": 49,
+    "inscritos": 69,
+    "mulheres": 20
+   },
+   "2023/24": {
+    "estrangeiros": 34,
+    "inscritos": 46,
+    "mulheres": 13
+   },
+   "2024/25": {
+    "estrangeiros": 30,
+    "inscritos": 38,
+    "mulheres": 9
+   }
+  },
   "desemprego": {
    "diplomados": 45,
    "periodo": "2020/21_2023/24",
@@ -91,6 +123,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3092-9089",
+ "percentil_fica": 0,
  "percentil_nota_2026": 31,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Portalegre, Porto, Vila Real, Viseu, R. A. Açores",
@@ -143,12 +176,20 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 24,
    "vagas": 24
   },
   "2018f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 122.6,
+   "media_provas": 112.5,
    "nota_ultimo": 122.6,
    "sobras": 23,
    "vagas": 24,
@@ -161,12 +202,22 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 24,
    "vagas": 24
   },
   "2019f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 24,
    "vagas": 24,
    "vagas_recolocacao": 0

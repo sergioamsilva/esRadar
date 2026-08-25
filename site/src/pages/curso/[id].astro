@@ -130,6 +130,43 @@ const percentilRecente = percentilEntrada.length
   ? info?.percentil_entrada?.[String(percentilEntrada[percentilEntrada.length - 1].ano)]
   : null;
 
+/* Séries demográficas (edições cruzadas do Infocursos). */
+const demografia = info?.demografia_serie
+  ? Object.entries(info.demografia_serie).map(([al, v]) => ({
+      ano: Number(al.slice(0, 4)) + 1,
+      mulheres: v.mulheres != null && v.inscritos ? Math.round((100 * v.mulheres) / v.inscritos) : null,
+      estrangeiros: v.estrangeiros != null && v.inscritos ? Math.round((100 * v.estrangeiros) / v.inscritos) : null,
+    }))
+  : [];
+const serieMulheres = demografia.filter((d) => d.mulheres != null).map((d) => ({ ano: d.ano, valor: d.mulheres! }));
+const serieEstrangeiros = demografia.filter((d) => d.estrangeiros != null).map((d) => ({ ano: d.ano, valor: d.estrangeiros! }));
+
+/* O padrão das fases deste curso: em quantos anos a 2ª fechou acima da 1ª? */
+const paresFases = Object.keys(ficha.series)
+  .filter((k) => k.endsWith("f1"))
+  .map((k) => {
+    const ano = Number(k.slice(0, 4));
+    const n1 = ficha.series[`${ano}f1`]?.nota_ultimo;
+    const n2 = ficha.series[`${ano}f2`]?.nota_ultimo;
+    return n1 != null && n2 != null ? { ano, delta: Math.round((n2 - n1) * 10) / 10 } : null;
+  })
+  .filter((x): x is { ano: number; delta: number } => x != null);
+const fasesSobe = paresFases.filter((x) => x.delta > 0).length;
+
+/* O perfil: cinco dimensões, todas como percentil nacional. */
+const perfil = [
+  { rotulo: "nota de corte", pct: ficha.percentil_nota_2026 ?? null, cor: "nota", nota: "acima de" },
+  { rotulo: "procura em 1ª opção por vaga", pct: ficha.percentil_procura ?? null, cor: "procura", nota: "acima de" },
+  { rotulo: "colocados que o queriam em 1º lugar", pct: ficha.percentil_fidelidade ?? null, cor: "fidelidade", nota: "acima de" },
+  { rotulo: "permanência ao fim de 1 ano", pct: ficha.percentil_fica ?? null, cor: "fica", nota: "acima de" },
+  {
+    rotulo: "emprego à saída (menos desemprego)",
+    pct: ficha.desemprego_percentil != null ? 100 - ficha.desemprego_percentil : null,
+    cor: "emprego",
+    nota: "melhor do que",
+  },
+].filter((d) => d.pct != null);
+
 const urlPortal = new URL(ligacao("/"), Astro.site).href;
 const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
 const urlFicha = new URL(ligacaoCurso(ficha), Astro.site).href;
@@ -347,6 +384,20 @@ const descricao =
         A nota do último colocado mede o equilíbrio entre procura e vagas, não a qualidade
         do curso. Só existe nas fases em que todas as vagas se preencheram.
       </p>
+      {
+        paresFases.length >= 3 && (
+          <p class="fases-padrao">
+            <b>Esperar pela 2ª fase?</b> Neste curso, a 2ª fase fechou <b>acima</b> da 1ª
+            em {fasesSobe} de {paresFases.length} anos
+            {" ("}
+            {paresFases
+              .slice(-4)
+              .map((x) => `${String(x.ano).slice(2)}: ${x.delta > 0 ? "+" : ""}${x.delta.toLocaleString("pt-PT")}`)
+              .join(" · ")}
+            {")"}.
+          </p>
+        )
+      }
     </section>
 
     <section class="card">
@@ -551,35 +602,27 @@ const descricao =
       (ficha.percentil_nota_2026 != null || ficha.pct_colocados_1opcao_2025 != null) && (
         <section class="card reveal">
           <h3>Posição no país</h3>
-          {ficha.percentil_nota_2026 != null && (
-            <div class="faixa">
+          <p class="desc">
+            O perfil em cinco dimensões — cada barra é a posição entre os 1170 cursos do
+            concurso (percentil nacional).
+          </p>
+          {perfil.map((d, i) => (
+            <div class="faixa" data-dica={`${d.rotulo}: ${d.nota} ${d.pct}% dos cursos do concurso`}>
               <p class="faixa__texto">
-                Nota de corte acima de <b>{ficha.percentil_nota_2026}%</b> dos cursos do
-                concurso de 2026
+                <b>{d.pct}%</b> · {d.rotulo}
               </p>
               <div class="faixa__pista">
                 <span
-                  class="faixa__fill faixa__fill--nota cresce"
-                  style={`width:${ficha.percentil_nota_2026}%`}
+                  class={`faixa__fill faixa__fill--${d.cor} cresce`}
+                  style={`width:${d.pct}%;--d:${i * 0.1}s`}
                 />
               </div>
             </div>
-          )}
-          {ficha.pct_colocados_1opcao_2025 != null && (
-            <div class="faixa">
-              <p class="faixa__texto">
-                <b>{ficha.pct_colocados_1opcao_2025}%</b> dos colocados de 2025 tinham-no em
-                1ª opção — entraram no curso que queriam
-              </p>
-              <div class="faixa__pista">
-                <span
-                  class="faixa__fill faixa__fill--opcao cresce"
-                  style={`width:${ficha.pct_colocados_1opcao_2025}%;--d:.15s`}
-                />
-              </div>
-            </div>
-          )}
-          <p class="fonte-lin">Calculado sobre os 1170 pares do concurso nacional.</p>
+          ))}
+          <p class="fonte-lin">
+            Nota e procura da época; permanência, fidelidade e emprego das coortes
+            recentes (Infocursos). 50% = curso mediano.
+          </p>
         </section>
       )
     }
@@ -727,6 +770,19 @@ const descricao =
                   unidade="inscritos"
                   inteiro
                   series={[{ rotulo: "Inscritos", pontos: inscritosSerie, cor: "serie-1" }]}
+                />
+              </li>
+            )}
+            {(serieMulheres.length >= 3 || serieEstrangeiros.length >= 3) && (
+              <li>
+                <SerieAnual
+                  titulo="Evolução: % de mulheres e de estrangeiros entre os inscritos"
+                  unidade="%"
+                  inteiro
+                  series={[
+                    { rotulo: "Mulheres", pontos: serieMulheres, cor: "serie-2" },
+                    { rotulo: "Estrangeiros", pontos: serieEstrangeiros, cor: "serie-1" },
+                  ]}
                 />
               </li>
             )}
@@ -1465,8 +1521,27 @@ const descricao =
   .faixa__fill--nota {
     background: linear-gradient(90deg, color-mix(in srgb, var(--serie-1) 45%, transparent), var(--serie-1));
   }
-  .faixa__fill--opcao {
+  .faixa__fill--opcao,
+  .faixa__fill--procura {
     background: linear-gradient(90deg, color-mix(in srgb, var(--serie-2) 45%, transparent), var(--serie-2));
+  }
+  .faixa__fill--fidelidade {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--cat3) 45%, transparent), var(--cat3));
+  }
+  .faixa__fill--fica {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--cat2) 45%, transparent), var(--cat2));
+  }
+  .faixa__fill--emprego {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--pos) 45%, transparent), var(--pos));
+  }
+  .fases-padrao {
+    margin: 12px 0 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--serie-1) 8%, var(--surface));
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
   }
 
   /* ── barras de composição (1 ano depois; sexo) ───────────────────── */

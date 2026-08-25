@@ -50,6 +50,28 @@
    "muda_estabelecimento": 2.1,
    "novos_inscritos": 97
   },
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 0,
+    "inscritos": 133,
+    "mulheres": 102
+   },
+   "2022/23": {
+    "estrangeiros": 0,
+    "inscritos": 139,
+    "mulheres": 103
+   },
+   "2023/24": {
+    "estrangeiros": 0,
+    "inscritos": 144,
+    "mulheres": 97
+   },
+   "2024/25": {
+    "estrangeiros": 1,
+    "inscritos": 148,
+    "mulheres": 100
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 51.5,
    "cna_outras": 14.4,
@@ -115,7 +137,10 @@
  "minimo_provas": 140,
  "par": "0160-8083",
  "pct_colocados_1opcao_2025": 32,
+ "percentil_fica": 99,
+ "percentil_fidelidade": 10,
  "percentil_nota_2026": 97,
+ "percentil_procura": 56,
  "preferencia_regional": {
   "area_influencia": "R. A. Açores",
   "pct_vagas": 50
@@ -167,13 +192,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 475,
+   "candidatos_1opcao": 25,
+   "candidatos_homens": 100,
+   "candidatos_mulheres": 375,
    "colocados": 38,
+   "colocados_1opcao": 19,
+   "colocados_homens": 10,
+   "colocados_mulheres": 28,
+   "media_candidatura": 170.6,
+   "media_provas": 163.3,
    "nota_ultimo": 173.8,
    "sobras": 0,
    "vagas": 38
   },
   "2018f2": {
+   "candidatos": 157,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 21,
+   "candidatos_mulheres": 136,
    "colocados": 3,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 3,
+   "media_candidatura": 182.3,
+   "media_provas": 176.6,
    "nota_ultimo": 180.8,
    "sobras": 0,
    "vagas": 1,
@@ -185,13 +228,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 412,
+   "candidatos_1opcao": 33,
+   "candidatos_homens": 96,
+   "candidatos_mulheres": 316,
    "colocados": 38,
+   "colocados_1opcao": 21,
+   "colocados_homens": 13,
+   "colocados_mulheres": 25,
+   "media_candidatura": 173.0,
+   "media_provas": 165.7,
    "nota_ultimo": 174.8,
    "sobras": 0,
    "vagas": 38
   },
   "2019f2": {
+   "candidatos": 163,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 25,
+   "candidatos_mulheres": 138,
    "colocados": 2,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 1,
+   "media_candidatura": 184.3,
+   "media_provas": 183.0,
    "nota_ultimo": 184.0,
    "sobras": 0,
    "vagas": 2,

@@ -66,6 +66,23 @@
    "muda_estabelecimento": 2.3,
    "novos_inscritos": 217
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 24,
+    "inscritos": 126,
+    "mulheres": 100
+   },
+   "2023/24": {
+    "estrangeiros": 63,
+    "inscritos": 336,
+    "mulheres": 258
+   },
+   "2024/25": {
+    "estrangeiros": 63,
+    "inscritos": 330,
+    "mulheres": 269
+   }
+  },
   "desemprego": {
    "diplomados": 338,
    "periodo": "2020/21_2023/24",
@@ -144,7 +161,10 @@
  "minimo_provas": 95,
  "par": "1107-9023",
  "pct_colocados_1opcao_2025": 95,
+ "percentil_fica": 74,
+ "percentil_fidelidade": 89,
  "percentil_nota_2026": 93,
+ "percentil_procura": 99,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [

@@ -51,6 +51,38 @@
    "muda_estabelecimento": 1.1,
    "novos_inscritos": 90
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 8,
+    "inscritos": 165,
+    "mulheres": 151
+   },
+   "2020/21": {
+    "estrangeiros": 6,
+    "inscritos": 176,
+    "mulheres": 164
+   },
+   "2021/22": {
+    "estrangeiros": 6,
+    "inscritos": 186,
+    "mulheres": 173
+   },
+   "2022/23": {
+    "estrangeiros": 4,
+    "inscritos": 180,
+    "mulheres": 169
+   },
+   "2023/24": {
+    "estrangeiros": 3,
+    "inscritos": 184,
+    "mulheres": 172
+   },
+   "2024/25": {
+    "estrangeiros": 5,
+    "inscritos": 183,
+    "mulheres": 171
+   }
+  },
   "desemprego": {
    "diplomados": 124,
    "periodo": "2020/21_2023/24",
@@ -139,7 +171,10 @@
  "minimo_provas": 95,
  "par": "7230-9890",
  "pct_colocados_1opcao_2025": 54,
+ "percentil_fica": 83,
+ "percentil_fidelidade": 35,
  "percentil_nota_2026": 72,
+ "percentil_procura": 94,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português",
  "semelhantes": [
@@ -188,13 +223,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 162,
+   "candidatos_1opcao": 13,
+   "candidatos_homens": 25,
+   "candidatos_mulheres": 137,
    "colocados": 40,
+   "colocados_1opcao": 11,
+   "colocados_homens": 4,
+   "colocados_mulheres": 36,
+   "media_candidatura": 124.9,
+   "media_provas": 107.8,
    "nota_ultimo": 116.0,
    "sobras": 0,
    "vagas": 40
   },
   "2018f2": {
+   "candidatos": 65,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 9,
+   "candidatos_mulheres": 56,
    "colocados": 12,
+   "colocados_1opcao": 2,
+   "colocados_homens": 0,
+   "colocados_mulheres": 12,
+   "media_candidatura": 126.0,
+   "media_provas": 106.0,
    "nota_ultimo": 120.5,
    "sobras": 0,
    "vagas": 11,
@@ -208,13 +261,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 143,
+   "candidatos_1opcao": 21,
+   "candidatos_homens": 24,
+   "candidatos_mulheres": 119,
    "colocados": 39,
+   "colocados_1opcao": 14,
+   "colocados_homens": 7,
+   "colocados_mulheres": 32,
+   "media_candidatura": 125.2,
+   "media_provas": 106.9,
    "nota_ultimo": 117.5,
    "sobras": 0,
    "vagas": 38
   },
   "2019f2": {
+   "candidatos": 59,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 14,
+   "candidatos_mulheres": 45,
    "colocados": 7,
+   "colocados_1opcao": 3,
+   "colocados_homens": 2,
+   "colocados_mulheres": 5,
+   "media_candidatura": 131.1,
+   "media_provas": 114.7,
    "nota_ultimo": 125.5,
    "sobras": 0,
    "vagas": 5,
@@ -228,13 +299,31 @@
    "vagas_recolocacao": 1
   },
   "2020f1": {
+   "candidatos": 229,
+   "candidatos_1opcao": 28,
+   "candidatos_homens": 30,
+   "candidatos_mulheres": 199,
    "colocados": 47,
+   "colocados_1opcao": 14,
+   "colocados_homens": 1,
+   "colocados_mulheres": 46,
+   "media_candidatura": 143.1,
+   "media_provas": 137.2,
    "nota_ultimo": 134.5,
    "sobras": 0,
    "vagas": 47
   },
   "2020f2": {
+   "candidatos": 101,
+   "candidatos_1opcao": 12,
+   "candidatos_homens": 14,
+   "candidatos_mulheres": 87,
    "colocados": 7,
+   "colocados_1opcao": 0,
+   "colocados_homens": 2,
+   "colocados_mulheres": 5,
+   "media_candidatura": 148.2,
+   "media_provas": 146.1,
    "nota_ultimo": 143.5,
    "sobras": 0,
    "vagas": 6,

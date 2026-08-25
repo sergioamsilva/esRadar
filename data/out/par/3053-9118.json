@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Castelo Branco",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 23,
+    "inscritos": 45,
+    "mulheres": 9
+   },
+   "2020/21": {
+    "estrangeiros": 35,
+    "inscritos": 67,
+    "mulheres": 14
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,7 +37,10 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },
@@ -41,12 +57,18 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },
   "2019f2": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25,
    "vagas_recolocacao": 0
@@ -58,7 +80,10 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 27,
    "vagas": 27
   },

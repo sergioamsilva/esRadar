@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Coimbra",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 11,
+    "inscritos": 66,
+    "mulheres": 28
+   },
+   "2020/21": {
+    "estrangeiros": 5,
+    "inscritos": 70,
+    "mulheres": 26
+   },
+   "2021/22": {
+    "estrangeiros": 6,
+    "inscritos": 83,
+    "mulheres": 32
+   },
+   "2022/23": {
+    "estrangeiros": 12,
+    "inscritos": 98,
+    "mulheres": 36
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 34,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 17,
+   "candidatos_mulheres": 17,
    "colocados": 6,
+   "colocados_1opcao": 3,
+   "colocados_homens": 4,
+   "colocados_mulheres": 2,
+   "media_candidatura": 124.0,
+   "media_provas": 120.8,
    "nota_ultimo": 95.0,
    "sobras": 21,
    "vagas": 27
   },
   "2018f2": {
+   "candidatos": 33,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 20,
+   "candidatos_mulheres": 13,
    "colocados": 7,
+   "colocados_1opcao": 2,
+   "colocados_homens": 4,
+   "colocados_mulheres": 3,
+   "media_candidatura": 111.1,
+   "media_provas": 101.0,
    "nota_ultimo": 102.3,
    "sobras": 17,
    "vagas": 21,
@@ -44,13 +85,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 44,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 25,
+   "candidatos_mulheres": 19,
    "colocados": 7,
+   "colocados_1opcao": 4,
+   "colocados_homens": 4,
+   "colocados_mulheres": 3,
+   "media_candidatura": 113.7,
+   "media_provas": 106.0,
    "nota_ultimo": 95.0,
    "sobras": 20,
    "vagas": 27
   },
   "2019f2": {
+   "candidatos": 27,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 17,
+   "candidatos_mulheres": 10,
    "colocados": 7,
+   "colocados_1opcao": 2,
+   "colocados_homens": 5,
+   "colocados_mulheres": 2,
+   "media_candidatura": 118.3,
+   "media_provas": 107.7,
    "nota_ultimo": 112.6,
    "sobras": 16,
    "vagas": 22,

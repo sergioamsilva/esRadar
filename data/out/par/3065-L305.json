@@ -40,6 +40,18 @@
    "muda_estabelecimento": 28.6,
    "novos_inscritos": 7
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 4,
+    "inscritos": 12,
+    "mulheres": 8
+   },
+   "2024/25": {
+    "estrangeiros": 6,
+    "inscritos": 20,
+    "mulheres": 12
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 37.5,
    "cna_outras": 37.5,
@@ -90,7 +102,10 @@
  "minimo_provas": 95,
  "par": "3065-L305",
  "pct_colocados_1opcao_2025": 57,
+ "percentil_fica": 1,
+ "percentil_fidelidade": 39,
  "percentil_nota_2026": 8,
+ "percentil_procura": 18,
  "preferencia_regional": {
   "area_influencia": "Coimbra, Guarda, Viseu",
   "pct_vagas": 20

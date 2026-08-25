@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Leiria",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 4,
+    "inscritos": 20,
+    "mulheres": 13
+   },
+   "2020/21": {
+    "estrangeiros": 4,
+    "inscritos": 27,
+    "mulheres": 19
+   },
+   "2021/22": {
+    "estrangeiros": 5,
+    "inscritos": 29,
+    "mulheres": 18
+   },
+   "2022/23": {
+    "estrangeiros": 3,
+    "inscritos": 18,
+    "mulheres": 13
+   },
+   "2023/24": {
+    "estrangeiros": 5,
+    "inscritos": 21,
+    "mulheres": 13
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,12 +52,28 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 2,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 20,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 2,
    "colocados": 1,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 112.1,
+   "media_provas": 95.5,
    "nota_ultimo": 112.1,
    "sobras": 19,
    "vagas": 20,
@@ -42,12 +86,30 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 4,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 3,
+   "candidatos_mulheres": 1,
    "colocados": 1,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 126.2,
+   "media_provas": 100.5,
    "sobras": 19,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 1,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 113.3,
+   "media_provas": 99.0,
    "nota_ultimo": 113.3,
    "sobras": 18,
    "vagas": 19,

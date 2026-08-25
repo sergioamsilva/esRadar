@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Évora",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 4,
+    "inscritos": 5,
+    "mulheres": 1
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 18,
+    "mulheres": 8
+   }
+  }
+ },
  "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
  "minimo_candidatura": null,
  "minimo_provas": null,

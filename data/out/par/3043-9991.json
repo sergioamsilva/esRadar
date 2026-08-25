@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Bragança",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 9,
+    "inscritos": 47,
+    "mulheres": 24
+   },
+   "2020/21": {
+    "estrangeiros": 2,
+    "inscritos": 29,
+    "mulheres": 14
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
  "minimo_candidatura": null,
  "minimo_provas": null,

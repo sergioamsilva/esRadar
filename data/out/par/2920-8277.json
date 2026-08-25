@@ -19,6 +19,28 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Centro Universitário Lusófona",
  "infocursos": {
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 5,
+    "inscritos": 20,
+    "mulheres": 2
+   },
+   "2022/23": {
+    "estrangeiros": 4,
+    "inscritos": 21,
+    "mulheres": 3
+   },
+   "2023/24": {
+    "estrangeiros": 1,
+    "inscritos": 11,
+    "mulheres": 1
+   },
+   "2024/25": {
+    "estrangeiros": 5,
+    "inscritos": 10,
+    "mulheres": 2
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,

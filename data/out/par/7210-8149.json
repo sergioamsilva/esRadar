@@ -56,6 +56,38 @@
    "muda_estabelecimento": 2.0,
    "novos_inscritos": 102
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 9,
+    "inscritos": 194,
+    "mulheres": 180
+   },
+   "2020/21": {
+    "estrangeiros": 9,
+    "inscritos": 192,
+    "mulheres": 175
+   },
+   "2021/22": {
+    "estrangeiros": 14,
+    "inscritos": 189,
+    "mulheres": 164
+   },
+   "2022/23": {
+    "estrangeiros": 21,
+    "inscritos": 188,
+    "mulheres": 157
+   },
+   "2023/24": {
+    "estrangeiros": 23,
+    "inscritos": 194,
+    "mulheres": 154
+   },
+   "2024/25": {
+    "estrangeiros": 24,
+    "inscritos": 193,
+    "mulheres": 150
+   }
+  },
   "desemprego": {
    "diplomados": 169,
    "periodo": "2020/21_2023/24",
@@ -144,7 +176,10 @@
  "minimo_provas": 95,
  "par": "7210-8149",
  "pct_colocados_1opcao_2025": 75,
+ "percentil_fica": 88,
+ "percentil_fidelidade": 67,
  "percentil_nota_2026": 47,
+ "percentil_procura": 42,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
   "pct_vagas": 20
@@ -196,13 +231,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 224,
+   "candidatos_1opcao": 35,
+   "candidatos_homens": 30,
+   "candidatos_mulheres": 194,
    "colocados": 38,
+   "colocados_1opcao": 25,
+   "colocados_homens": 6,
+   "colocados_mulheres": 32,
+   "media_candidatura": 144.8,
+   "media_provas": 128.7,
    "nota_ultimo": 134.0,
    "sobras": 0,
    "vagas": 38
   },
   "2018f2": {
+   "candidatos": 37,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 7,
+   "candidatos_mulheres": 30,
    "colocados": 4,
+   "colocados_1opcao": 2,
+   "colocados_homens": 0,
+   "colocados_mulheres": 4,
+   "media_candidatura": 139.3,
+   "media_provas": 126.8,
    "nota_ultimo": 137.3,
    "sobras": 0,
    "vagas": 4,
@@ -214,13 +267,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 219,
+   "candidatos_1opcao": 33,
+   "candidatos_homens": 36,
+   "candidatos_mulheres": 183,
    "colocados": 39,
+   "colocados_1opcao": 24,
+   "colocados_homens": 4,
+   "colocados_mulheres": 35,
+   "media_candidatura": 142.1,
+   "media_provas": 123.5,
    "nota_ultimo": 134.9,
    "sobras": 0,
    "vagas": 38
   },
   "2019f2": {
+   "candidatos": 42,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 8,
+   "candidatos_mulheres": 34,
    "colocados": 3,
+   "colocados_1opcao": 2,
+   "colocados_homens": 0,
+   "colocados_mulheres": 3,
+   "media_candidatura": 136.8,
+   "media_provas": 127.2,
    "nota_ultimo": 134.3,
    "sobras": 0,
    "vagas": 2,
@@ -232,13 +303,31 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 315,
+   "candidatos_1opcao": 57,
+   "candidatos_homens": 49,
+   "candidatos_mulheres": 266,
    "colocados": 42,
+   "colocados_1opcao": 20,
+   "colocados_homens": 6,
+   "colocados_mulheres": 36,
+   "media_candidatura": 155.1,
+   "media_provas": 156.3,
    "nota_ultimo": 146.5,
    "sobras": 0,
    "vagas": 38
   },
   "2020f2": {
+   "candidatos": 74,
+   "candidatos_1opcao": 20,
+   "candidatos_homens": 11,
+   "candidatos_mulheres": 63,
    "colocados": 7,
+   "colocados_1opcao": 2,
+   "colocados_homens": 0,
+   "colocados_mulheres": 7,
+   "media_candidatura": 149.4,
+   "media_provas": 147.9,
    "nota_ultimo": 146.1,
    "sobras": 0,
    "vagas": 4,

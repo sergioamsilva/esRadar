@@ -41,6 +41,23 @@
    "muda_estabelecimento": 6.9,
    "novos_inscritos": 116
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 3,
+    "inscritos": 57,
+    "mulheres": 45
+   },
+   "2023/24": {
+    "estrangeiros": 8,
+    "inscritos": 112,
+    "mulheres": 88
+   },
+   "2024/25": {
+    "estrangeiros": 11,
+    "inscritos": 148,
+    "mulheres": 108
+   }
+  },
   "desemprego": {
    "diplomados": 159,
    "periodo": "2020/21_2023/24",
@@ -119,7 +136,10 @@
  "minimo_provas": 95,
  "par": "1506-L288",
  "pct_colocados_1opcao_2025": 52,
+ "percentil_fica": 25,
+ "percentil_fidelidade": 32,
  "percentil_nota_2026": 51,
+ "percentil_procura": 52,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n06 Filosofia\n18 Português\nou\n11 História\n13 Inglês\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n13 Inglês",
  "semelhantes": [

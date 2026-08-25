@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade do Minho",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 11,
+    "inscritos": 207,
+    "mulheres": 128
+   },
+   "2020/21": {
+    "estrangeiros": 8,
+    "inscritos": 141,
+    "mulheres": 83
+   }
+  }
+ },
  "instituicao": "Universidade do Minho",
  "minimo_candidatura": null,
  "minimo_provas": null,

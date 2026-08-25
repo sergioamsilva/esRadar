@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Santarém",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 5,
+    "inscritos": 97,
+    "mulheres": 34
+   },
+   "2020/21": {
+    "estrangeiros": 4,
+    "inscritos": 90,
+    "mulheres": 35
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 117,
+    "mulheres": 48
+   },
+   "2022/23": {
+    "estrangeiros": 8,
+    "inscritos": 124,
+    "mulheres": 54
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 33,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 21,
+   "candidatos_mulheres": 12,
    "colocados": 5,
+   "colocados_1opcao": 4,
+   "colocados_homens": 3,
+   "colocados_mulheres": 2,
+   "media_candidatura": 121.0,
+   "media_provas": 118.6,
    "nota_ultimo": 105.4,
    "sobras": 31,
    "vagas": 36
   },
   "2018f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 7,
+   "candidatos_mulheres": 6,
    "colocados": 5,
+   "colocados_1opcao": 0,
+   "colocados_homens": 3,
+   "colocados_mulheres": 2,
+   "media_candidatura": 116.9,
+   "media_provas": 105.2,
    "nota_ultimo": 110.4,
    "sobras": 26,
    "vagas": 31,
@@ -42,12 +83,28 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 14,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 9,
+   "candidatos_mulheres": 5,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 36,
    "vagas": 36
   },
   "2019f2": {
+   "candidatos": 14,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 8,
+   "candidatos_mulheres": 6,
    "colocados": 6,
+   "colocados_1opcao": 1,
+   "colocados_homens": 3,
+   "colocados_mulheres": 3,
+   "media_candidatura": 115.8,
+   "media_provas": 106.3,
    "nota_ultimo": 96.0,
    "sobras": 30,
    "vagas": 36,

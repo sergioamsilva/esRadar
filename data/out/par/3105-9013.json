@@ -55,6 +55,23 @@
    "muda_estabelecimento": 5.8,
    "novos_inscritos": 121
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 10,
+    "inscritos": 63,
+    "mulheres": 39
+   },
+   "2023/24": {
+    "estrangeiros": 17,
+    "inscritos": 117,
+    "mulheres": 71
+   },
+   "2024/25": {
+    "estrangeiros": 19,
+    "inscritos": 159,
+    "mulheres": 96
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -128,7 +145,10 @@
  "minimo_provas": 95,
  "par": "3105-9013",
  "pct_colocados_1opcao_2025": 83,
+ "percentil_fica": 50,
+ "percentil_fidelidade": 79,
  "percentil_nota_2026": 7,
+ "percentil_procura": 11,
  "preferencia_regional": {
   "area_influencia": "Coimbra, Leiria, Lisboa, Santarém, Setúbal",
   "pct_vagas": 40

@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Leiria",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 1,
+    "inscritos": 83,
+    "mulheres": 1
+   },
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 92,
+    "mulheres": 2
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,12 +37,18 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 15,
    "vagas": 15
   },
   "2018f2": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 15,
    "vagas": 15,
    "vagas_recolocacao": 0
@@ -41,12 +60,22 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 15,
    "vagas": 15
   },
   "2019f2": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 15,
    "vagas": 15,
    "vagas_recolocacao": 0
@@ -57,12 +86,22 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 15,
    "vagas": 15
   },
   "2020f2": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 3,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 15,
    "vagas": 15,
    "vagas_recolocacao": 0

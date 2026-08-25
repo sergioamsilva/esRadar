@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import SerieAnual from "../components/SerieAnual.astro";
 import Mapa from "../components/Mapa.astro";
 import Dispersao from "../components/Dispersao.astro";
-import { cursos, pares, nacional, epoca, genero, instituicoes, ligacao, ligacaoCurso, formatarInteiro, formatarNota } from "../lib/dados";
+import { cursos, pares, nacional, epoca, genero, instituicoes, fases, historias, ligacao, ligacaoCurso, formatarInteiro, formatarNota } from "../lib/dados";
 
 const indice = cursos();
 const nac = nacional();
@@ -103,6 +103,48 @@ const ALCANCE = indice
   .filter((c) => c.nota_2026f1 != null || (c.sobras_2026f1 ?? 0) > 0)
   .map((c) => ({ n: c.nota_2026f1, c: c.curso, i: c.grupo, u: ligacaoCurso(c) }));
 const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
+
+/* ── radar de histórias, 2ª fase e bump chart ─────────────────────── */
+const radar = historias();
+const ICONES: Record<string, string> = {
+  recorde: "🏔", salto: "▲", queda: "▼", esgotou: "⛔", estreia: "✦", fuga: "↯",
+};
+const f2f = fases();
+const caixasFases = Object.entries(f2f.caixas)
+  .map(([k, n]) => ({ delta: Number(k), n }))
+  .sort((a, b) => a.delta - b.delta);
+const maxCaixaFase = Math.max(...caixasFases.map((c) => c.n));
+const absorcaoRecente = Object.entries(f2f.absorcao).filter(([a]) => Number(a) < 2026).slice(-3);
+
+/* Bump: os 20 mais disputados de 2026 e as suas posições desde 2018. */
+const ANOS_BUMP = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+const fichasCNA = pares().filter((p) => p.ativo && p.concurso === "Nacional");
+const rankPorAno = new Map<number, Map<string, number>>();
+for (const ano of ANOS_BUMP) {
+  const comNota = fichasCNA
+    .map((p) => ({ par: p.par, nota: p.series[`${ano}f1`]?.nota_ultimo }))
+    .filter((x): x is { par: string; nota: number } => x.nota != null)
+    .sort((a, b) => b.nota - a.nota);
+  const m = new Map<string, number>();
+  comNota.forEach((x, i) => m.set(x.par, i + 1));
+  rankPorAno.set(ano, m);
+}
+const top20 = fichasCNA
+  .filter((p) => rankPorAno.get(2026)?.has(p.par))
+  .sort((a, b) => rankPorAno.get(2026)!.get(a.par)! - rankPorAno.get(2026)!.get(b.par)!)
+  .slice(0, 20);
+const RANK_MAX = 30;
+const bump = top20.map((p) => ({
+  p,
+  nome: p.curso.length > 26 ? p.curso.slice(0, 25).trimEnd() + "…" : p.curso,
+  trajeto: ANOS_BUMP.map((ano) => {
+    const r = rankPorAno.get(ano)?.get(p.par) ?? null;
+    return { ano, rank: r, recortado: r != null && r > RANK_MAX };
+  }),
+  rank2026: rankPorAno.get(2026)!.get(p.par)!,
+}));
+const BX = (ano: number) => 4 + ((ano - 2018) / 8) * 74;
+const BY = (rank: number) => 4 + ((Math.min(rank, RANK_MAX) - 1) / (RANK_MAX - 1)) * 88;
 
 /* ── funil do acesso: o último ano completo (2025), da oferta à permanência. */
 const a25 = nac.anos["2025"];
@@ -234,6 +276,28 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
   </section>
   <script type="application/json" is:inline data-alcance-dados set:html={JSON.stringify(ALCANCE)} />
 
+  <section class="card full reveal radar-card">
+    <h3><span class="radar-ping" aria-hidden="true"></span>O radar de histórias</h3>
+    <p class="desc">
+      Factos notáveis detetados automaticamente nos dados desta época — recordes, saltos,
+      estreias e fugas. Renova-se a cada fase arquivada.
+    </p>
+    <ol class="radar">
+      {
+        radar.map((h, i) => (
+          <li class="reveal" style={`--d:${Math.min(i * 0.07, 0.8)}s`}>
+            <a href={ligacao(h.url)} class="radar__item">
+              <span class={`radar__tipo radar__tipo--${h.tipo}`} aria-hidden="true">
+                {ICONES[h.tipo] ?? "•"}
+              </span>
+              <span class="radar__texto">{h.texto}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
   <section class="card full reveal funil-card">
     <h3>O funil do acesso — o ano completo de 2025</h3>
     <p class="desc">
@@ -259,6 +323,35 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
     </ol>
     <p class="fonte-lin">
       DGES (3 fases de 2025) e Infocursos (situação após 1 ano, coortes recentes).
+    </p>
+  </section>
+
+  <section class="card full reveal">
+    <h3>Esperar pela 2ª fase compensa?</h3>
+    <p class="desc">
+      Em {formatarInteiro(f2f.n)} pares curso·ano desde 2018, a nota do último colocado
+      <b> subiu na 2ª fase em {f2f.pct_sobe}% dos casos</b> (mediana{" "}
+      {f2f.delta_mediano != null && f2f.delta_mediano > 0 ? "+" : ""}{f2f.delta_mediano?.toLocaleString("pt-PT")} pontos).
+      Esperar raramente baixa a fasquia — mas as sobras são absorvidas:
+      {absorcaoRecente.map(([a, v]) => ` ${v.taxa}% em ${a}`).join(",")}.
+    </p>
+    <div class="fases2" role="img" aria-label={`Distribuição da diferença de nota entre a 2ª e a 1ª fase: sobe em ${f2f.pct_sobe}% dos casos.`}>
+      {
+        caixasFases.map((c, i) => (
+          <div class="fases2__coluna" data-dica={`${c.delta >= 0 ? "+" : ""}${c.delta} pontos na 2ª fase: ${formatarInteiro(c.n)} pares curso·ano`}>
+            <span
+              class={`fases2__barra ${c.delta > 0 ? "fases2__barra--sobe" : c.delta < 0 ? "fases2__barra--desce" : ""} cresce`}
+              style={`height:${(c.n / maxCaixaFase) * 100}%;--d:${i * 0.05}s`}
+            />
+            <span class="fases2__rotulo">{c.delta > 0 ? `+${c.delta}` : c.delta}</span>
+          </div>
+        ))
+      }
+      <span class="fases2__zero" aria-hidden="true"></span>
+    </div>
+    <p class="fonte-lin">
+      Diferença (2ª − 1ª fase) da nota do último colocado, no mesmo curso e ano, 2018–2025.
+      Só cursos que preencheram vagas nas duas fases.
     </p>
   </section>
 
@@ -499,6 +592,57 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
       ))
     }
   </div>
+
+  <section class="card full reveal">
+    <h3>A corrida do topo: os 20 mais disputados, desde 2018</h3>
+    <p class="desc">
+      A posição de cada curso no ranking nacional das notas de corte. Passe o rato sobre
+      uma linha para a isolar; clique para abrir o curso.
+    </p>
+    <figure class="bump">
+      <svg viewBox="0 0 100 96" preserveAspectRatio="none" aria-label="Trajetória no ranking dos 20 cursos mais disputados de 2026, desde 2018.">
+        {ANOS_BUMP.map((a) => <line x1={BX(a)} y1="2" x2={BX(a)} y2="94" class="bump__grelha" />)}
+        {
+          bump.map((b, i) => {
+            const segmentos: string[] = [];
+            let atual: string[] = [];
+            for (const t of b.trajeto) {
+              if (t.rank == null) {
+                if (atual.length > 1) segmentos.push(atual.join(" "));
+                atual = [];
+              } else {
+                atual.push(`${atual.length ? "L" : "M"}${BX(t.ano).toFixed(2)},${BY(t.rank).toFixed(2)}`);
+              }
+            }
+            if (atual.length > 1) segmentos.push(atual.join(" "));
+            return (
+              <a href={ligacaoCurso(b.p)} aria-label={`${b.p.curso}: ${b.rank2026}º em 2026`}>
+                <g
+                  class={`bump__serie ${i < 3 ? `bump__serie--top${i + 1}` : ""}`}
+                  data-dica={`${b.p.curso} — ${b.p.grupo}\n${b.trajeto.filter((t) => t.rank).map((t) => `${String(t.ano).slice(2)}: ${t.rank}º${t.recortado ? " (fora do top 30)" : ""}`).join(" · ")}`}
+                >
+                  {segmentos.map((d) => <path d={d} class="bump__linha" />)}
+                  {b.trajeto.filter((t) => t.rank != null).map((t) => (
+                    <circle cx={BX(t.ano).toFixed(2)} cy={BY(t.rank!).toFixed(2)} r="1" />
+                  ))}
+                </g>
+              </a>
+            );
+          })
+        }
+      </svg>
+      <div class="bump__eixo" aria-hidden="true">
+        {ANOS_BUMP.map((a) => <span style={`left:${BX(a)}%`}>{String(a).slice(2)}</span>)}
+      </div>
+      <ol class="bump__nomes" aria-hidden="true">
+        {bump.slice(0, 10).map((b) => (
+          <li style={`top:${BY(b.rank2026)}%`}>
+            <b>{b.rank2026}º</b> {b.nome}
+          </li>
+        ))}
+      </ol>
+    </figure>
+  </section>
 
   <section class="card full reveal">
     <h3>Cortar vagas fabrica nota? O teste da elasticidade</h3>
@@ -1009,5 +1153,230 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
   }
   .legenda-scatter__ponto--p {
     background: var(--serie-2);
+  }
+
+  /* ── radar de histórias ─────────────────────────────────────────── */
+  .radar-card {
+    margin-top: 22px;
+  }
+  .radar-ping {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: var(--serie-2);
+    position: relative;
+    vertical-align: 2px;
+  }
+  .radar-ping::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: var(--serie-2);
+    animation: radar-ping 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  .radar {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr));
+    gap: 6px 22px;
+  }
+  .radar__item {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 8px 2px;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+    font-size: var(--t-sm);
+    transition: transform 0.15s ease;
+  }
+  .radar__item:hover {
+    transform: translateX(4px);
+    color: var(--accent-texto);
+  }
+  .radar__tipo {
+    flex-shrink: 0;
+    width: 1.6em;
+    text-align: center;
+  }
+  .radar__tipo--salto, .radar__tipo--recorde, .radar__tipo--estreia {
+    color: var(--pos-texto);
+  }
+  .radar__tipo--queda, .radar__tipo--fuga {
+    color: var(--neg-texto);
+  }
+  .radar__tipo--esgotou {
+    color: var(--cat3-texto);
+  }
+
+  /* ── 2ª fase ────────────────────────────────────────────────────── */
+  .fases2 {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 130px;
+    margin-top: 14px;
+  }
+  .fases2__coluna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    height: 100%;
+    min-width: 0;
+  }
+  .fases2__barra {
+    display: block;
+    border-radius: 3px 3px 0 0;
+    min-height: 2px;
+    background: var(--baseline);
+    transform-origin: bottom center;
+  }
+  :global(html.js) .fases2 .fases2__barra.cresce {
+    transform: scaleY(0);
+  }
+  :global(html.js) .on .fases2 .fases2__barra.cresce {
+    transform: scaleY(1);
+  }
+  .fases2__barra--sobe {
+    background: linear-gradient(180deg, var(--pos), color-mix(in srgb, var(--pos) 55%, var(--surface)));
+  }
+  .fases2__barra--desce {
+    background: linear-gradient(180deg, var(--neg), color-mix(in srgb, var(--neg) 55%, var(--surface)));
+  }
+  .fases2__rotulo {
+    height: 15px;
+    font-size: var(--t-3xs);
+    color: var(--muted);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+  .fases2__zero {
+    position: absolute;
+    left: calc(50% - 1px);
+    top: -4px;
+    bottom: 15px;
+    width: 2px;
+    background: var(--ink);
+    opacity: 0.4;
+  }
+  .fases2__coluna:hover .fases2__barra {
+    filter: brightness(1.15);
+  }
+
+  /* ── bump ───────────────────────────────────────────────────────── */
+  .bump {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
+    gap: 14px;
+    margin: 12px 0 0;
+  }
+  .bump svg {
+    display: block;
+    width: 100%;
+    height: clamp(20rem, 44vw, 28rem);
+    overflow: visible;
+    grid-row: 1;
+  }
+  .bump__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .bump__serie {
+    opacity: 0.38;
+    transition: opacity 0.18s ease;
+  }
+  .bump svg:hover .bump__serie {
+    opacity: 0.14;
+  }
+  .bump svg .bump__serie:hover {
+    opacity: 1;
+  }
+  .bump__serie--top1, .bump__serie--top2, .bump__serie--top3 {
+    opacity: 0.95;
+  }
+  .bump__linha {
+    fill: none;
+    stroke: var(--ink-2);
+    stroke-width: 1.4;
+    vector-effect: non-scaling-stroke;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .bump__serie circle {
+    fill: var(--ink-2);
+    stroke: var(--surface);
+    stroke-width: 0.6;
+    vector-effect: non-scaling-stroke;
+  }
+  .bump__serie--top1 .bump__linha, .bump__serie--top1 circle {
+    stroke: var(--serie-1);
+    fill: var(--serie-1);
+  }
+  .bump__serie--top1 .bump__linha { fill: none; stroke-width: 2.2; }
+  .bump__serie--top2 .bump__linha, .bump__serie--top2 circle {
+    stroke: var(--serie-2);
+    fill: var(--serie-2);
+  }
+  .bump__serie--top2 .bump__linha { fill: none; stroke-width: 2; }
+  .bump__serie--top3 .bump__linha, .bump__serie--top3 circle {
+    stroke: var(--cat2);
+    fill: var(--cat2);
+  }
+  .bump__serie--top3 .bump__linha { fill: none; stroke-width: 2; }
+  .bump__serie:hover .bump__linha {
+    stroke-width: 2.8;
+  }
+  .bump__eixo {
+    position: relative;
+    height: 1rem;
+    grid-column: 1;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .bump__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .bump__nomes {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: var(--t-2xs);
+    color: var(--ink-2);
+  }
+  .bump__nomes li {
+    position: absolute;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .bump__nomes b {
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+  @media (max-width: 720px) {
+    .bump {
+      grid-template-columns: 1fr;
+    }
+    .bump__nomes {
+      position: static;
+      display: none;
+    }
   }
 </style>

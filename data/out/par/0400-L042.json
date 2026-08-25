@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade da Beira Interior",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 18,
+    "inscritos": 101,
+    "mulheres": 16
+   },
+   "2020/21": {
+    "estrangeiros": 20,
+    "inscritos": 116,
+    "mulheres": 13
+   }
+  }
+ },
  "instituicao": "Universidade da Beira Interior",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 38,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 29,
+   "candidatos_mulheres": 9,
    "colocados": 9,
+   "colocados_1opcao": 5,
+   "colocados_homens": 6,
+   "colocados_mulheres": 3,
+   "media_candidatura": 128.7,
+   "media_provas": 114.1,
    "nota_ultimo": 111.1,
    "sobras": 16,
    "vagas": 25
   },
   "2018f2": {
+   "candidatos": 22,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 17,
+   "candidatos_mulheres": 5,
    "colocados": 7,
+   "colocados_1opcao": 4,
+   "colocados_homens": 6,
+   "colocados_mulheres": 1,
+   "media_candidatura": 121.1,
+   "media_provas": 102.1,
    "nota_ultimo": 110.9,
    "sobras": 9,
    "vagas": 16,
@@ -44,13 +75,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 41,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 34,
+   "candidatos_mulheres": 7,
    "colocados": 12,
+   "colocados_1opcao": 6,
+   "colocados_homens": 11,
+   "colocados_mulheres": 1,
+   "media_candidatura": 121.2,
+   "media_provas": 108.2,
    "nota_ultimo": 112.2,
    "sobras": 8,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 26,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 21,
+   "candidatos_mulheres": 5,
    "colocados": 11,
+   "colocados_1opcao": 4,
+   "colocados_homens": 8,
+   "colocados_mulheres": 3,
+   "media_candidatura": 122.3,
+   "media_provas": 114.5,
    "nota_ultimo": 112.4,
    "sobras": 0,
    "vagas": 9,

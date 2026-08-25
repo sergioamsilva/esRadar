@@ -19,6 +19,38 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISEC Lisboa",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 40,
+    "mulheres": 8
+   },
+   "2020/21": {
+    "estrangeiros": 5,
+    "inscritos": 49,
+    "mulheres": 9
+   },
+   "2021/22": {
+    "estrangeiros": 2,
+    "inscritos": 58,
+    "mulheres": 12
+   },
+   "2022/23": {
+    "estrangeiros": 2,
+    "inscritos": 50,
+    "mulheres": 9
+   },
+   "2023/24": {
+    "estrangeiros": 0,
+    "inscritos": 30,
+    "mulheres": 5
+   },
+   "2024/25": {
+    "estrangeiros": 0,
+    "inscritos": 18,
+    "mulheres": 5
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,

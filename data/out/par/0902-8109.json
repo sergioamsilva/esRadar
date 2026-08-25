@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade Nova de Lisboa",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 10,
+    "inscritos": 97,
+    "mulheres": 59
+   },
+   "2020/21": {
+    "estrangeiros": 11,
+    "inscritos": 100,
+    "mulheres": 60
+   },
+   "2021/22": {
+    "estrangeiros": 8,
+    "inscritos": 97,
+    "mulheres": 55
+   },
+   "2022/23": {
+    "estrangeiros": 8,
+    "inscritos": 87,
+    "mulheres": 52
+   },
+   "2023/24": {
+    "estrangeiros": 11,
+    "inscritos": 85,
+    "mulheres": 51
+   }
+  }
+ },
  "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +52,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 163,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 59,
+   "candidatos_mulheres": 104,
    "colocados": 26,
+   "colocados_1opcao": 3,
+   "colocados_homens": 10,
+   "colocados_mulheres": 16,
+   "media_candidatura": 129.5,
+   "media_provas": 125.5,
    "nota_ultimo": 122.0,
    "sobras": 0,
    "vagas": 25
   },
   "2018f2": {
+   "candidatos": 62,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 47,
    "colocados": 3,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 3,
+   "media_candidatura": 135.2,
+   "media_provas": 135.0,
    "nota_ultimo": 133.5,
    "sobras": 0,
    "vagas": 3,
@@ -42,13 +88,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 144,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 43,
+   "candidatos_mulheres": 101,
    "colocados": 25,
+   "colocados_1opcao": 1,
+   "colocados_homens": 10,
+   "colocados_mulheres": 15,
+   "media_candidatura": 132.2,
+   "media_provas": 126.4,
    "nota_ultimo": 127.0,
    "sobras": 0,
    "vagas": 24
   },
   "2019f2": {
+   "candidatos": 101,
+   "candidatos_1opcao": 9,
+   "candidatos_homens": 29,
+   "candidatos_mulheres": 72,
    "colocados": 11,
+   "colocados_1opcao": 2,
+   "colocados_homens": 3,
+   "colocados_mulheres": 8,
+   "media_candidatura": 136.2,
+   "media_provas": 136.3,
    "nota_ultimo": 132.0,
    "sobras": 0,
    "vagas": 8,

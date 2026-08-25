@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Coimbra",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 0,
+    "inscritos": 105,
+    "mulheres": 14
+   },
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 76,
+    "mulheres": 10
+   }
+  }
+ },
  "instituicao": "Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física",
  "minimo_candidatura": null,
  "minimo_provas": null,

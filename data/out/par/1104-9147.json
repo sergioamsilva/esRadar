@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade do Porto",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 60,
+    "inscritos": 541,
+    "mulheres": 295
+   },
+   "2020/21": {
+    "estrangeiros": 52,
+    "inscritos": 593,
+    "mulheres": 325
+   },
+   "2021/22": {
+    "estrangeiros": 53,
+    "inscritos": 706,
+    "mulheres": 397
+   },
+   "2022/23": {
+    "estrangeiros": 66,
+    "inscritos": 801,
+    "mulheres": 451
+   },
+   "2023/24": {
+    "estrangeiros": 60,
+    "inscritos": 830,
+    "mulheres": 464
+   }
+  }
+ },
  "instituicao": "Universidade do Porto - Faculdade de Economia",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +52,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 954,
+   "candidatos_1opcao": 386,
+   "candidatos_homens": 405,
+   "candidatos_mulheres": 549,
    "colocados": 115,
+   "colocados_1opcao": 102,
+   "colocados_homens": 40,
+   "colocados_mulheres": 75,
+   "media_candidatura": 180.5,
+   "media_provas": 178.5,
    "nota_ultimo": 175.0,
    "sobras": 0,
    "vagas": 115
   },
   "2018f2": {
+   "candidatos": 235,
+   "candidatos_1opcao": 123,
+   "candidatos_homens": 96,
+   "candidatos_mulheres": 139,
    "colocados": 14,
+   "colocados_1opcao": 11,
+   "colocados_homens": 3,
+   "colocados_mulheres": 11,
+   "media_candidatura": 183.1,
+   "media_provas": 183.7,
    "nota_ultimo": 180.0,
    "sobras": 0,
    "vagas": 14,
@@ -44,13 +90,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 1111,
+   "candidatos_1opcao": 444,
+   "candidatos_homens": 461,
+   "candidatos_mulheres": 650,
    "colocados": 132,
+   "colocados_1opcao": 109,
+   "colocados_homens": 44,
+   "colocados_mulheres": 88,
+   "media_candidatura": 181.2,
+   "media_provas": 180.1,
    "nota_ultimo": 178.0,
    "sobras": 0,
    "vagas": 132
   },
   "2019f2": {
+   "candidatos": 180,
+   "candidatos_1opcao": 116,
+   "candidatos_homens": 86,
+   "candidatos_mulheres": 94,
    "colocados": 13,
+   "colocados_1opcao": 10,
+   "colocados_homens": 6,
+   "colocados_mulheres": 7,
+   "media_candidatura": 180.8,
+   "media_provas": 182.8,
    "nota_ultimo": 182.5,
    "sobras": 0,
    "vagas": 10,

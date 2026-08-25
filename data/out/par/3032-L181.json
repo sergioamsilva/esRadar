@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico do Cávado e do Ave",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 74,
+    "mulheres": 19
+   },
+   "2020/21": {
+    "estrangeiros": 6,
+    "inscritos": 95,
+    "mulheres": 21
+   },
+   "2021/22": {
+    "estrangeiros": 5,
+    "inscritos": 91,
+    "mulheres": 21
+   },
+   "2022/23": {
+    "estrangeiros": 13,
+    "inscritos": 104,
+    "mulheres": 27
+   },
+   "2023/24": {
+    "estrangeiros": 9,
+    "inscritos": 110,
+    "mulheres": 29
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +52,31 @@
  "provas_ingresso": null,
  "series": {
   "2019f1": {
+   "candidatos": 57,
+   "candidatos_1opcao": 8,
+   "candidatos_homens": 46,
+   "candidatos_mulheres": 11,
    "colocados": 17,
+   "colocados_1opcao": 8,
+   "colocados_homens": 13,
+   "colocados_mulheres": 4,
+   "media_candidatura": 123.9,
+   "media_provas": 109.9,
    "nota_ultimo": 110.5,
    "sobras": 8,
    "vagas": 25
   },
   "2019f2": {
+   "candidatos": 49,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 43,
+   "candidatos_mulheres": 6,
    "colocados": 9,
+   "colocados_1opcao": 2,
+   "colocados_homens": 8,
+   "colocados_mulheres": 1,
+   "media_candidatura": 128.9,
+   "media_provas": 113.9,
    "nota_ultimo": 121.7,
    "sobras": 0,
    "vagas": 8,

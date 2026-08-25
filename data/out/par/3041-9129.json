@@ -28,6 +28,38 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 15
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 14,
+    "inscritos": 49,
+    "mulheres": 19
+   },
+   "2020/21": {
+    "estrangeiros": 8,
+    "inscritos": 36,
+    "mulheres": 18
+   },
+   "2021/22": {
+    "estrangeiros": 7,
+    "inscritos": 27,
+    "mulheres": 12
+   },
+   "2022/23": {
+    "estrangeiros": 12,
+    "inscritos": 27,
+    "mulheres": 18
+   },
+   "2023/24": {
+    "estrangeiros": 11,
+    "inscritos": 28,
+    "mulheres": 18
+   },
+   "2024/25": {
+    "estrangeiros": 10,
+    "inscritos": 29,
+    "mulheres": 17
+   }
+  },
   "desemprego": {
    "diplomados": 36,
    "periodo": "2020/21_2023/24",
@@ -83,6 +115,7 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9129",
+ "percentil_fica": 3,
  "preferencia_regional": {
   "area_influencia": "Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
   "pct_vagas": 50
@@ -134,12 +167,28 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 5,
    "colocados": 1,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 116.9,
+   "media_provas": 105.5,
    "sobras": 22,
    "vagas": 23
   },
   "2018f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 2,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 23,
    "vagas": 23,
    "vagas_recolocacao": 0
@@ -151,12 +200,26 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 4,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 2,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 28,
    "vagas": 28
   },
   "2019f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 3,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 28,
    "vagas": 28,
    "vagas_recolocacao": 0

@@ -46,6 +46,28 @@
    "muda_estabelecimento": 7.4,
    "novos_inscritos": 81
   },
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 7,
+    "inscritos": 97,
+    "mulheres": 56
+   },
+   "2022/23": {
+    "estrangeiros": 13,
+    "inscritos": 94,
+    "mulheres": 53
+   },
+   "2023/24": {
+    "estrangeiros": 6,
+    "inscritos": 94,
+    "mulheres": 61
+   },
+   "2024/25": {
+    "estrangeiros": 7,
+    "inscritos": 106,
+    "mulheres": 68
+   }
+  },
   "desemprego": {
    "diplomados": 145,
    "periodo": "2020/21_2023/24",
@@ -124,7 +146,10 @@
  "minimo_provas": 95,
  "par": "3131-L246",
  "pct_colocados_1opcao_2025": 45,
+ "percentil_fica": 5,
+ "percentil_fidelidade": 23,
  "percentil_nota_2026": 44,
+ "percentil_procura": 32,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
   "pct_vagas": 50

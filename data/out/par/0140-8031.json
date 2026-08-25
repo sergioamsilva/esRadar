@@ -40,6 +40,23 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 11
   },
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 2,
+    "inscritos": 19,
+    "mulheres": 15
+   },
+   "2022/23": {
+    "estrangeiros": 0,
+    "inscritos": 21,
+    "mulheres": 13
+   },
+   "2024/25": {
+    "estrangeiros": 0,
+    "inscritos": 4,
+    "mulheres": 2
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 66.7,
    "cna_outras": 33.3,
@@ -72,6 +89,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0140-8031",
+ "percentil_fica": 86,
  "percentil_nota_2026": 73,
  "preferencia_regional": {
   "area_influencia": "R. A. Açores",
@@ -117,13 +135,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 23,
+   "candidatos_1opcao": 9,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 19,
    "colocados": 10,
+   "colocados_1opcao": 9,
+   "colocados_homens": 3,
+   "colocados_mulheres": 7,
+   "media_candidatura": 128.0,
+   "media_provas": 114.4,
    "nota_ultimo": 109.0,
    "sobras": 5,
    "vagas": 15
   },
   "2018f2": {
+   "candidatos": 4,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 3,
    "colocados": 2,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 1,
+   "media_candidatura": 130.3,
+   "media_provas": 121.0,
    "nota_ultimo": 129.5,
    "sobras": 3,
    "vagas": 5,
@@ -136,13 +172,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 21,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 5,
+   "candidatos_mulheres": 16,
    "colocados": 9,
+   "colocados_1opcao": 5,
+   "colocados_homens": 3,
+   "colocados_mulheres": 6,
+   "media_candidatura": 137.3,
+   "media_provas": 120.5,
    "nota_ultimo": 132.8,
    "sobras": 6,
    "vagas": 15
   },
   "2019f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 1,
    "colocados": 2,
+   "colocados_1opcao": 1,
+   "colocados_homens": 1,
+   "colocados_mulheres": 1,
+   "media_candidatura": 133.2,
+   "media_provas": 121.3,
    "nota_ultimo": 124.8,
    "sobras": 7,
    "vagas": 9,

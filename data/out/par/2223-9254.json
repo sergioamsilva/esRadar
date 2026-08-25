@@ -16,6 +16,38 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 30,
+    "inscritos": 108,
+    "mulheres": 52
+   },
+   "2020/21": {
+    "estrangeiros": 35,
+    "inscritos": 83,
+    "mulheres": 40
+   },
+   "2021/22": {
+    "estrangeiros": 29,
+    "inscritos": 65,
+    "mulheres": 34
+   },
+   "2022/23": {
+    "estrangeiros": 29,
+    "inscritos": 48,
+    "mulheres": 26
+   },
+   "2023/24": {
+    "estrangeiros": 8,
+    "inscritos": 24,
+    "mulheres": 13
+   },
+   "2024/25": {
+    "estrangeiros": 6,
+    "inscritos": 19,
+    "mulheres": 9
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,

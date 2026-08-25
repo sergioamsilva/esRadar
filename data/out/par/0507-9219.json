@@ -66,6 +66,28 @@
    "muda_estabelecimento": 2.2,
    "novos_inscritos": 365
   },
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 139,
+    "inscritos": 618,
+    "mulheres": 525
+   },
+   "2022/23": {
+    "estrangeiros": 157,
+    "inscritos": 636,
+    "mulheres": 523
+   },
+   "2023/24": {
+    "estrangeiros": 168,
+    "inscritos": 640,
+    "mulheres": 515
+   },
+   "2024/25": {
+    "estrangeiros": 171,
+    "inscritos": 638,
+    "mulheres": 527
+   }
+  },
   "desemprego": {
    "diplomados": 859,
    "periodo": "2020/21_2023/24",
@@ -149,7 +171,10 @@
  "minimo_provas": 100,
  "par": "0507-9219",
  "pct_colocados_1opcao_2025": 77,
+ "percentil_fica": 83,
+ "percentil_fidelidade": 71,
  "percentil_nota_2026": 94,
+ "percentil_procura": 94,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [

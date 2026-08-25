@@ -51,6 +51,38 @@
    "muda_estabelecimento": 6.1,
    "novos_inscritos": 131
   },
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 31,
+    "inscritos": 202,
+    "mulheres": 137
+   },
+   "2020/21": {
+    "estrangeiros": 23,
+    "inscritos": 198,
+    "mulheres": 139
+   },
+   "2021/22": {
+    "estrangeiros": 40,
+    "inscritos": 215,
+    "mulheres": 146
+   },
+   "2022/23": {
+    "estrangeiros": 41,
+    "inscritos": 203,
+    "mulheres": 138
+   },
+   "2023/24": {
+    "estrangeiros": 38,
+    "inscritos": 210,
+    "mulheres": 142
+   },
+   "2024/25": {
+    "estrangeiros": 27,
+    "inscritos": 205,
+    "mulheres": 134
+   }
+  },
   "desemprego": {
    "diplomados": 239,
    "periodo": "2020/21_2023/24",
@@ -139,7 +171,10 @@
  "minimo_provas": 95,
  "par": "3163-9254",
  "pct_colocados_1opcao_2025": 82,
+ "percentil_fica": 14,
+ "percentil_fidelidade": 78,
  "percentil_nota_2026": 26,
+ "percentil_procura": 45,
  "preferencia_regional": {
   "area_influencia": "Braga, Porto, Viana do Castelo",
   "pct_vagas": 50
@@ -191,13 +226,31 @@
  ],
  "series": {
   "2018f1": {
+   "candidatos": 262,
+   "candidatos_1opcao": 67,
+   "candidatos_homens": 84,
+   "candidatos_mulheres": 178,
    "colocados": 50,
+   "colocados_1opcao": 33,
+   "colocados_homens": 9,
+   "colocados_mulheres": 41,
+   "media_candidatura": 139.1,
+   "media_provas": 129.9,
    "nota_ultimo": 132.9,
    "sobras": 0,
    "vagas": 50
   },
   "2018f2": {
+   "candidatos": 90,
+   "candidatos_1opcao": 34,
+   "candidatos_homens": 39,
+   "candidatos_mulheres": 51,
    "colocados": 4,
+   "colocados_1opcao": 4,
+   "colocados_homens": 0,
+   "colocados_mulheres": 4,
+   "media_candidatura": 149.2,
+   "media_provas": 142.0,
    "nota_ultimo": 142.2,
    "sobras": 0,
    "vagas": 3,
@@ -209,13 +262,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 209,
+   "candidatos_1opcao": 68,
+   "candidatos_homens": 78,
+   "candidatos_mulheres": 131,
    "colocados": 50,
+   "colocados_1opcao": 38,
+   "colocados_homens": 18,
+   "colocados_mulheres": 32,
+   "media_candidatura": 140.6,
+   "media_provas": 133.0,
    "nota_ultimo": 132.8,
    "sobras": 0,
    "vagas": 50
   },
   "2019f2": {
+   "candidatos": 70,
+   "candidatos_1opcao": 20,
+   "candidatos_homens": 26,
+   "candidatos_mulheres": 44,
    "colocados": 8,
+   "colocados_1opcao": 4,
+   "colocados_homens": 4,
+   "colocados_mulheres": 4,
+   "media_candidatura": 134.7,
+   "media_provas": 121.3,
    "nota_ultimo": 131.6,
    "sobras": 0,
    "vagas": 6,

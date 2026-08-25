@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Coimbra",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 1,
+    "inscritos": 13,
+    "mulheres": 5
+   },
+   "2020/21": {
+    "estrangeiros": 3,
+    "inscritos": 14,
+    "mulheres": 4
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 11,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 5,
    "colocados": 3,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 1,
+   "media_candidatura": 125.1,
+   "media_provas": 101.7,
    "nota_ultimo": 115.8,
    "sobras": 7,
    "vagas": 10
   },
   "2018f2": {
+   "candidatos": 7,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 3,
    "colocados": 2,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 1,
+   "media_candidatura": 119.9,
+   "media_provas": 113.0,
    "nota_ultimo": 117.8,
    "sobras": 8,
    "vagas": 9,
@@ -43,13 +74,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 12,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 6,
    "colocados": 3,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 2,
+   "media_candidatura": 119.7,
+   "media_provas": 104.3,
    "nota_ultimo": 115.8,
    "sobras": 7,
    "vagas": 10
   },
   "2019f2": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 4,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 1,
+   "media_candidatura": 119.7,
+   "media_provas": 106.0,
    "nota_ultimo": 119.7,
    "sobras": 9,
    "vagas": 9,
@@ -62,13 +111,31 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 12,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 8,
+   "candidatos_mulheres": 4,
    "colocados": 3,
+   "colocados_1opcao": 1,
+   "colocados_homens": 2,
+   "colocados_mulheres": 1,
+   "media_candidatura": 125.1,
+   "media_provas": 111.0,
    "nota_ultimo": 126.2,
    "sobras": 9,
    "vagas": 12
   },
   "2020f2": {
+   "candidatos": 9,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 5,
+   "candidatos_mulheres": 4,
    "colocados": 2,
+   "colocados_1opcao": 0,
+   "colocados_homens": 2,
+   "colocados_mulheres": 0,
+   "media_candidatura": 130.4,
+   "media_provas": 119.0,
    "nota_ultimo": 118.0,
    "sobras": 9,
    "vagas": 11,

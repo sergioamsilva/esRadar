@@ -19,6 +19,33 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Lusíada",
  "infocursos": {
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 4,
+    "inscritos": 85,
+    "mulheres": 55
+   },
+   "2021/22": {
+    "estrangeiros": 2,
+    "inscritos": 61,
+    "mulheres": 40
+   },
+   "2022/23": {
+    "estrangeiros": 4,
+    "inscritos": 49,
+    "mulheres": 29
+   },
+   "2023/24": {
+    "estrangeiros": 3,
+    "inscritos": 42,
+    "mulheres": 18
+   },
+   "2024/25": {
+    "estrangeiros": 2,
+    "inscritos": 20,
+    "mulheres": 12
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,

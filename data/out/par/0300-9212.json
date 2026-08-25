@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Aveiro",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 12,
+    "inscritos": 75,
+    "mulheres": 34
+   },
+   "2020/21": {
+    "estrangeiros": 4,
+    "inscritos": 66,
+    "mulheres": 28
+   }
+  }
+ },
  "instituicao": "Universidade de Aveiro",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 70,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 40,
+   "candidatos_mulheres": 30,
    "colocados": 20,
+   "colocados_1opcao": 10,
+   "colocados_homens": 10,
+   "colocados_mulheres": 10,
+   "media_candidatura": 122.6,
+   "media_provas": 109.4,
    "nota_ultimo": 101.0,
    "sobras": 0,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 23,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 13,
+   "candidatos_mulheres": 10,
    "colocados": 5,
+   "colocados_1opcao": 2,
+   "colocados_homens": 5,
+   "colocados_mulheres": 0,
+   "media_candidatura": 118.4,
+   "media_provas": 107.8,
    "nota_ultimo": 114.5,
    "sobras": 0,
    "vagas": 2,
@@ -44,13 +75,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 71,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 39,
+   "candidatos_mulheres": 32,
    "colocados": 17,
+   "colocados_1opcao": 11,
+   "colocados_homens": 10,
+   "colocados_mulheres": 7,
+   "media_candidatura": 125.2,
+   "media_provas": 116.7,
    "nota_ultimo": 108.0,
    "sobras": 3,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 25,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 17,
+   "candidatos_mulheres": 8,
    "colocados": 6,
+   "colocados_1opcao": 2,
+   "colocados_homens": 3,
+   "colocados_mulheres": 3,
+   "media_candidatura": 130.3,
+   "media_provas": 123.5,
    "nota_ultimo": 124.0,
    "sobras": 0,
    "vagas": 3,

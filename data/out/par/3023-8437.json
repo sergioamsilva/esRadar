@@ -16,6 +16,28 @@
  "grau": null,
  "grupo": "Instituto Politécnico de Beja",
  "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 5,
+    "inscritos": 151,
+    "mulheres": 98
+   },
+   "2020/21": {
+    "estrangeiros": 3,
+    "inscritos": 180,
+    "mulheres": 120
+   },
+   "2023/24": {
+    "estrangeiros": 3,
+    "inscritos": 118,
+    "mulheres": 85
+   },
+   "2024/25": {
+    "estrangeiros": 3,
+    "inscritos": 139,
+    "mulheres": 99
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -70,13 +92,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 23,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 8,
+   "candidatos_mulheres": 15,
    "colocados": 14,
+   "colocados_1opcao": 10,
+   "colocados_homens": 4,
+   "colocados_mulheres": 10,
+   "media_candidatura": 118.8,
+   "media_provas": 110.2,
    "nota_ultimo": 104.4,
    "sobras": 13,
    "vagas": 27
   },
   "2018f2": {
+   "candidatos": 12,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 8,
    "colocados": 8,
+   "colocados_1opcao": 5,
+   "colocados_homens": 2,
+   "colocados_mulheres": 6,
+   "media_candidatura": 112.0,
+   "media_provas": 102.1,
    "nota_ultimo": 99.0,
    "sobras": 10,
    "vagas": 17,
@@ -88,13 +128,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 13,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 3,
+   "candidatos_mulheres": 10,
    "colocados": 7,
+   "colocados_1opcao": 6,
+   "colocados_homens": 2,
+   "colocados_mulheres": 5,
+   "media_candidatura": 134.1,
+   "media_provas": 119.1,
    "nota_ultimo": 105.0,
    "sobras": 33,
    "vagas": 40
   },
   "2019f2": {
+   "candidatos": 13,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 11,
    "colocados": 8,
+   "colocados_1opcao": 3,
+   "colocados_homens": 1,
+   "colocados_mulheres": 7,
+   "media_candidatura": 121.5,
+   "media_provas": 107.0,
    "nota_ultimo": 106.1,
    "sobras": 27,
    "vagas": 35,
@@ -106,13 +164,31 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 42,
+   "candidatos_1opcao": 17,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 27,
    "colocados": 26,
+   "colocados_1opcao": 17,
+   "colocados_homens": 10,
+   "colocados_mulheres": 16,
+   "media_candidatura": 129.0,
+   "media_provas": 122.0,
    "nota_ultimo": 97.0,
    "sobras": 17,
    "vagas": 43
   },
   "2020f2": {
+   "candidatos": 55,
+   "candidatos_1opcao": 16,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 40,
    "colocados": 23,
+   "colocados_1opcao": 9,
+   "colocados_homens": 6,
+   "colocados_mulheres": 17,
+   "media_candidatura": 137.1,
+   "media_provas": 132.9,
    "nota_ultimo": 121.6,
    "sobras": 0,
    "vagas": 22,

@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 58,
+    "mulheres": 35
+   },
+   "2021/22": {
+    "estrangeiros": 5,
+    "inscritos": 68,
+    "mulheres": 43
+   },
+   "2022/23": {
+    "estrangeiros": 6,
+    "inscritos": 62,
+    "mulheres": 41
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico do Porto - Escola Superior de Música e Artes do Espectáculo",
  "minimo_candidatura": null,
  "minimo_provas": null,

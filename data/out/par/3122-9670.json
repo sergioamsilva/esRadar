@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Portalegre",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 11,
+    "inscritos": 108,
+    "mulheres": 66
+   },
+   "2020/21": {
+    "estrangeiros": 14,
+    "inscritos": 127,
+    "mulheres": 88
+   },
+   "2021/22": {
+    "estrangeiros": 15,
+    "inscritos": 116,
+    "mulheres": 69
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +42,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 94,
+   "candidatos_1opcao": 17,
+   "candidatos_homens": 33,
+   "candidatos_mulheres": 61,
    "colocados": 27,
+   "colocados_1opcao": 17,
+   "colocados_homens": 4,
+   "colocados_mulheres": 23,
+   "media_candidatura": 118.5,
+   "media_provas": 107.1,
    "nota_ultimo": 107.3,
    "sobras": 3,
    "vagas": 30
   },
   "2018f2": {
+   "candidatos": 42,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 16,
+   "candidatos_mulheres": 26,
    "colocados": 9,
+   "colocados_1opcao": 8,
+   "colocados_homens": 3,
+   "colocados_mulheres": 6,
+   "media_candidatura": 125.0,
+   "media_provas": 114.3,
    "nota_ultimo": 116.5,
    "sobras": 0,
    "vagas": 6,
@@ -43,13 +79,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 81,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 27,
+   "candidatos_mulheres": 54,
    "colocados": 26,
+   "colocados_1opcao": 11,
+   "colocados_homens": 6,
+   "colocados_mulheres": 20,
+   "media_candidatura": 120.4,
+   "media_provas": 117.8,
    "nota_ultimo": 100.0,
    "sobras": 4,
    "vagas": 30
   },
   "2019f2": {
+   "candidatos": 34,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 19,
    "colocados": 13,
+   "colocados_1opcao": 6,
+   "colocados_homens": 8,
+   "colocados_mulheres": 5,
+   "media_candidatura": 121.8,
+   "media_provas": 115.4,
    "nota_ultimo": 101.9,
    "sobras": 0,
    "vagas": 10,

@@ -45,6 +45,18 @@
    "muda_estabelecimento": 10.5,
    "novos_inscritos": 19
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 0,
+    "inscritos": 19,
+    "mulheres": 17
+   },
+   "2024/25": {
+    "estrangeiros": 0,
+    "inscritos": 39,
+    "mulheres": 29
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 70.7,
    "cna_outras": 12.2,
@@ -95,7 +107,10 @@
  "minimo_provas": 95,
  "par": "0605-9494",
  "pct_colocados_1opcao_2025": 80,
+ "percentil_fica": 81,
+ "percentil_fidelidade": 75,
  "percentil_nota_2026": 81,
+ "percentil_procura": 93,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia (50%)\nou\n02 Biologia e Geologia (25%)\n16 Matemática (25%)\nou\n02 Biologia e Geologia (25%)\n18 Português (25%)\nou\n02 Biologia e Geologia (25%)\n06 Filosofia (25%)\nou\n02 Biologia e Geologia (25%)\n07 Física e Química (25%)\nou\n02 Biologia e Geologia (15%)\n07 Física e Química (15%)\n16 Matemática (20%)",
  "semelhantes": [

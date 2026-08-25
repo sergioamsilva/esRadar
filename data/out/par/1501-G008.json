@@ -15,7 +15,25 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Lisboa",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 35,
+    "inscritos": 282,
+    "mulheres": 229
+   },
+   "2020/21": {
+    "estrangeiros": 37,
+    "inscritos": 303,
+    "mulheres": 242
+   },
+   "2021/22": {
+    "estrangeiros": 30,
+    "inscritos": 309,
+    "mulheres": 252
+   }
+  }
+ },
  "instituicao": "Universidade de Lisboa - Faculdade de Arquitetura",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +42,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 160,
+   "candidatos_1opcao": 28,
+   "candidatos_homens": 36,
+   "candidatos_mulheres": 124,
    "colocados": 38,
+   "colocados_1opcao": 28,
+   "colocados_homens": 4,
+   "colocados_mulheres": 34,
+   "media_candidatura": 143.2,
+   "media_provas": 141.4,
    "nota_ultimo": 117.8,
    "sobras": 12,
    "vagas": 50
   },
   "2018f2": {
+   "candidatos": 56,
+   "candidatos_1opcao": 16,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 41,
    "colocados": 17,
+   "colocados_1opcao": 10,
+   "colocados_homens": 2,
+   "colocados_mulheres": 15,
+   "media_candidatura": 146.2,
+   "media_provas": 146.0,
    "nota_ultimo": 127.3,
    "sobras": 0,
    "vagas": 15,
@@ -43,13 +79,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 181,
+   "candidatos_1opcao": 43,
+   "candidatos_homens": 49,
+   "candidatos_mulheres": 132,
    "colocados": 58,
+   "colocados_1opcao": 43,
+   "colocados_homens": 12,
+   "colocados_mulheres": 46,
+   "media_candidatura": 146.0,
+   "media_provas": 143.2,
    "nota_ultimo": 111.3,
    "sobras": 2,
    "vagas": 60
   },
   "2019f2": {
+   "candidatos": 55,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 20,
+   "candidatos_mulheres": 35,
    "colocados": 6,
+   "colocados_1opcao": 4,
+   "colocados_homens": 0,
+   "colocados_mulheres": 6,
+   "media_candidatura": 143.3,
+   "media_provas": 136.2,
    "nota_ultimo": 134.3,
    "sobras": 0,
    "vagas": 6,

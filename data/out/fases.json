@@ -1,0 +1,109 @@
+{
+ "absorcao": {
+  "2018": {
+   "colocados_f2": 9452,
+   "sobras_f1": 7290,
+   "taxa": 100
+  },
+  "2019": {
+   "colocados_f2": 9274,
+   "sobras_f1": 6734,
+   "taxa": 100
+  },
+  "2020": {
+   "colocados_f2": 9767,
+   "sobras_f1": 6050,
+   "taxa": 100
+  },
+  "2021": {
+   "colocados_f2": 9154,
+   "sobras_f1": 6393,
+   "taxa": 100
+  },
+  "2022": {
+   "colocados_f2": 9472,
+   "sobras_f1": 5284,
+   "taxa": 100
+  },
+  "2023": {
+   "colocados_f2": 8190,
+   "sobras_f1": 5212,
+   "taxa": 100
+  },
+  "2024": {
+   "colocados_f2": 8029,
+   "sobras_f1": 4996,
+   "taxa": 100
+  },
+  "2025": {
+   "colocados_f2": 8824,
+   "sobras_f1": 11513,
+   "taxa": 77
+  },
+  "2026": {
+   "colocados_f2": 0,
+   "sobras_f1": 6639,
+   "taxa": 0
+  }
+ },
+ "caixas": {
+  "-10": 128,
+  "-12": 403,
+  "-2": 642,
+  "-4": 464,
+  "-6": 291,
+  "-8": 219,
+  "0": 1000,
+  "10": 427,
+  "12": 1520,
+  "2": 751,
+  "4": 911,
+  "6": 605,
+  "8": 674
+ },
+ "delta_mediano": 3.2,
+ "n": 8035,
+ "pct_sobe": 66,
+ "por_ano": {
+  "2018": {
+   "delta_mediano": 3.8,
+   "n": 980,
+   "pct_sobe": 68
+  },
+  "2019": {
+   "delta_mediano": 3.9,
+   "n": 982,
+   "pct_sobe": 68
+  },
+  "2020": {
+   "delta_mediano": 3.8,
+   "n": 993,
+   "pct_sobe": 69
+  },
+  "2021": {
+   "delta_mediano": 3.6,
+   "n": 994,
+   "pct_sobe": 70
+  },
+  "2022": {
+   "delta_mediano": 1.9,
+   "n": 1039,
+   "pct_sobe": 58
+  },
+  "2023": {
+   "delta_mediano": 2.8,
+   "n": 1017,
+   "pct_sobe": 66
+  },
+  "2024": {
+   "delta_mediano": 4.1,
+   "n": 1027,
+   "pct_sobe": 72
+  },
+  "2025": {
+   "delta_mediano": 1.3,
+   "n": 1003,
+   "pct_sobe": 56
+  }
+ }
+}

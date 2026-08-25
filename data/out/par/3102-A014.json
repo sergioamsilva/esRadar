@@ -55,6 +55,18 @@
    "muda_estabelecimento": 4.1,
    "novos_inscritos": 74
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 11,
+    "inscritos": 83,
+    "mulheres": 27
+   },
+   "2024/25": {
+    "estrangeiros": 24,
+    "inscritos": 168,
+    "mulheres": 51
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,7 +135,10 @@
  "minimo_provas": 95,
  "par": "3102-A014",
  "pct_colocados_1opcao_2025": 94,
+ "percentil_fica": 61,
+ "percentil_fidelidade": 88,
  "percentil_nota_2026": 41,
+ "percentil_procura": 43,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
   "pct_vagas": 30

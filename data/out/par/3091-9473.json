@@ -40,6 +40,18 @@
    "muda_estabelecimento": 7.1,
    "novos_inscritos": 14
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 1,
+    "inscritos": 15,
+    "mulheres": 14
+   },
+   "2024/25": {
+    "estrangeiros": 4,
+    "inscritos": 30,
+    "mulheres": 26
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 35.5,
    "cna_outras": 6.5,
@@ -72,6 +84,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3091-9473",
+ "percentil_fica": 37,
  "percentil_nota_2026": 8,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Braga, Bragança, Castelo Branco, Guarda, Porto, Santarém, Vila Real, R. A. Açores, R. A. Madeira",

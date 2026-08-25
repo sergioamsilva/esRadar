@@ -35,6 +35,18 @@
    "muda_estabelecimento": 3.8,
    "novos_inscritos": 26
   },
+  "demografia_serie": {
+   "2023/24": {
+    "estrangeiros": 7,
+    "inscritos": 28,
+    "mulheres": 3
+   },
+   "2024/25": {
+    "estrangeiros": 11,
+    "inscritos": 44,
+    "mulheres": 5
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -103,7 +115,10 @@
  "minimo_provas": 95,
  "par": "0400-L303",
  "pct_colocados_1opcao_2025": 50,
+ "percentil_fica": 45,
+ "percentil_fidelidade": 28,
  "percentil_nota_2026": 5,
+ "percentil_procura": 2,
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n03 Desenho\n16 Matemática\nou\n06 Filosofia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [

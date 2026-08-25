@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Bragança",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 29,
+    "inscritos": 40,
+    "mulheres": 16
+   },
+   "2020/21": {
+    "estrangeiros": 22,
+    "inscritos": 27,
+    "mulheres": 9
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 1,
+   "candidatos_homens": 8,
+   "candidatos_mulheres": 1,
    "colocados": 3,
+   "colocados_1opcao": 1,
+   "colocados_homens": 3,
+   "colocados_mulheres": 0,
+   "media_candidatura": 126.7,
+   "media_provas": 128.0,
    "nota_ultimo": 116.2,
    "sobras": 30,
    "vagas": 33
   },
   "2018f2": {
+   "candidatos": 7,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 1,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 115.1,
+   "media_provas": 106.0,
    "nota_ultimo": 115.1,
    "sobras": 31,
    "vagas": 30,
@@ -43,13 +74,29 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 10,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 7,
+   "candidatos_mulheres": 3,
    "colocados": 2,
+   "colocados_1opcao": 0,
+   "colocados_homens": 2,
+   "colocados_mulheres": 0,
+   "media_candidatura": 129.4,
+   "media_provas": 117.0,
    "nota_ultimo": 122.0,
    "sobras": 31,
    "vagas": 33
   },
   "2019f2": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 2,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 33,
    "vagas": 32,
    "vagas_recolocacao": 1
@@ -61,12 +108,26 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 9,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 7,
+   "candidatos_mulheres": 2,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 33,
    "vagas": 33
   },
   "2020f2": {
+   "candidatos": 7,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 33,
    "vagas": 33,
    "vagas_recolocacao": 0

@@ -45,6 +45,23 @@
    "muda_estabelecimento": 9.2,
    "novos_inscritos": 65
   },
+  "demografia_serie": {
+   "2022/23": {
+    "estrangeiros": 2,
+    "inscritos": 29,
+    "mulheres": 19
+   },
+   "2023/24": {
+    "estrangeiros": 1,
+    "inscritos": 60,
+    "mulheres": 39
+   },
+   "2024/25": {
+    "estrangeiros": 5,
+    "inscritos": 91,
+    "mulheres": 63
+   }
+  },
   "formas_ingresso": {
    "cna_1opcao": 33.3,
    "cna_outras": 23.6,
@@ -100,7 +117,10 @@
  "minimo_provas": 100,
  "par": "3034-9173",
  "pct_colocados_1opcao_2025": 47,
+ "percentil_fica": 47,
+ "percentil_fidelidade": 25,
  "percentil_nota_2026": 33,
+ "percentil_procura": 44,
  "preferencia_regional": {
   "area_influencia": "Braga, Porto, Viana do Castelo",
   "pct_vagas": 20

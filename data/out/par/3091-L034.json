@@ -45,6 +45,28 @@
    "muda_estabelecimento": 8.8,
    "novos_inscritos": 57
   },
+  "demografia_serie": {
+   "2021/22": {
+    "estrangeiros": 1,
+    "inscritos": 32,
+    "mulheres": 12
+   },
+   "2022/23": {
+    "estrangeiros": 6,
+    "inscritos": 57,
+    "mulheres": 18
+   },
+   "2023/24": {
+    "estrangeiros": 2,
+    "inscritos": 68,
+    "mulheres": 18
+   },
+   "2024/25": {
+    "estrangeiros": 2,
+    "inscritos": 70,
+    "mulheres": 22
+   }
+  },
   "diplomados": {
    "distribuicao": {
     "10": 0.0,
@@ -123,6 +145,8 @@
  "minimo_provas": 95,
  "par": "3091-L034",
  "pct_colocados_1opcao_2025": 0,
+ "percentil_fica": 21,
+ "percentil_fidelidade": 0,
  "percentil_nota_2026": 23,
  "preferencia_regional": {
   "area_influencia": "Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",

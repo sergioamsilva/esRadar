@@ -15,7 +15,35 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico do Porto",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 69,
+    "mulheres": 15
+   },
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 78,
+    "mulheres": 15
+   },
+   "2021/22": {
+    "estrangeiros": 2,
+    "inscritos": 55,
+    "mulheres": 8
+   },
+   "2022/23": {
+    "estrangeiros": 5,
+    "inscritos": 71,
+    "mulheres": 11
+   },
+   "2023/24": {
+    "estrangeiros": 2,
+    "inscritos": 62,
+    "mulheres": 8
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +52,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 47,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 33,
+   "candidatos_mulheres": 14,
    "colocados": 16,
+   "colocados_1opcao": 3,
+   "colocados_homens": 12,
+   "colocados_mulheres": 4,
+   "media_candidatura": 123.0,
+   "media_provas": 106.8,
    "nota_ultimo": 114.1,
    "sobras": 4,
    "vagas": 20
   },
   "2018f2": {
+   "candidatos": 45,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 35,
+   "candidatos_mulheres": 10,
    "colocados": 11,
+   "colocados_1opcao": 0,
+   "colocados_homens": 10,
+   "colocados_mulheres": 1,
+   "media_candidatura": 131.7,
+   "media_provas": 115.2,
    "nota_ultimo": 119.8,
    "sobras": 0,
    "vagas": 10,
@@ -44,13 +90,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 52,
+   "candidatos_1opcao": 2,
+   "candidatos_homens": 38,
+   "candidatos_mulheres": 14,
    "colocados": 20,
+   "colocados_1opcao": 2,
+   "colocados_homens": 15,
+   "colocados_mulheres": 5,
+   "media_candidatura": 121.4,
+   "media_provas": 107.3,
    "nota_ultimo": 110.0,
    "sobras": 0,
    "vagas": 20
   },
   "2019f2": {
+   "candidatos": 23,
+   "candidatos_1opcao": 3,
+   "candidatos_homens": 22,
+   "candidatos_mulheres": 1,
    "colocados": 6,
+   "colocados_1opcao": 1,
+   "colocados_homens": 6,
+   "colocados_mulheres": 0,
+   "media_candidatura": 125.6,
+   "media_provas": 111.1,
    "nota_ultimo": 121.9,
    "sobras": 0,
    "vagas": 5,

@@ -88,6 +88,7 @@ export type Par = {
       pct_24_ou_mais: number;
     };
     inscritos_serie?: Record<string, number>;
+    demografia_serie?: Record<string, { inscritos: number; mulheres: number | null; estrangeiros: number | null }>;
     formas_ingresso?: {
       coorte: string | null;
       cna_1opcao: number;
@@ -102,6 +103,9 @@ export type Par = {
   percentil_nota_2026?: number;
   /** % de cursos do CNA com desemprego IEFP abaixo do deste. */
   desemprego_percentil?: number;
+  percentil_procura?: number;
+  percentil_fica?: number;
+  percentil_fidelidade?: number;
   /** % dos colocados de 2025 que tinham este curso em 1ª opção. */
   pct_colocados_1opcao_2025?: number;
   /** Vizinhos na mesma área CNAEF, ordenados por nota. */
@@ -200,6 +204,19 @@ export const instituicoes = (): Instituicao[] =>
 export const nacional = (): Nacional => ler<Nacional>("nacional.json");
 export const epoca = (): Epoca => ler<Epoca>("epoca.json");
 export const genero = (): Genero => ler<Genero>("genero.json");
+
+export type Fases = {
+  n: number;
+  pct_sobe: number;
+  delta_mediano: number | null;
+  caixas: Record<string, number>;
+  por_ano: Record<string, { n: number; pct_sobe: number | null; delta_mediano: number | null }>;
+  absorcao: Record<string, { sobras_f1: number; colocados_f2: number; taxa: number | null }>;
+};
+export const fases = (): Fases => ler<Fases>("fases.json");
+
+export type Historia = { tipo: string; peso: number; texto: string; url: string };
+export const historias = (): Historia[] => ler<{ historias: Historia[] }>("historias.json").historias;
 
 export const pares = (): Par[] =>
   fs

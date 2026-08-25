@@ -15,7 +15,30 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Santarém",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 16,
+    "inscritos": 282,
+    "mulheres": 139
+   },
+   "2020/21": {
+    "estrangeiros": 25,
+    "inscritos": 302,
+    "mulheres": 143
+   },
+   "2021/22": {
+    "estrangeiros": 30,
+    "inscritos": 313,
+    "mulheres": 162
+   },
+   "2022/23": {
+    "estrangeiros": 26,
+    "inscritos": 306,
+    "mulheres": 139
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +47,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 247,
+   "candidatos_1opcao": 37,
+   "candidatos_homens": 114,
+   "candidatos_mulheres": 133,
    "colocados": 76,
+   "colocados_1opcao": 36,
+   "colocados_homens": 38,
+   "colocados_mulheres": 38,
+   "media_candidatura": 123.4,
+   "media_provas": 113.7,
    "nota_ultimo": 98.9,
    "sobras": 0,
    "vagas": 76
   },
   "2018f2": {
+   "candidatos": 58,
+   "candidatos_1opcao": 11,
+   "candidatos_homens": 33,
+   "candidatos_mulheres": 25,
    "colocados": 13,
+   "colocados_1opcao": 8,
+   "colocados_homens": 6,
+   "colocados_mulheres": 7,
+   "media_candidatura": 124.3,
+   "media_provas": 111.7,
    "nota_ultimo": 115.8,
    "sobras": 0,
    "vagas": 12,
@@ -42,13 +83,31 @@
    "vagas_recolocacao": 1
   },
   "2019f1": {
+   "candidatos": 238,
+   "candidatos_1opcao": 38,
+   "candidatos_homens": 108,
+   "candidatos_mulheres": 130,
    "colocados": 82,
+   "colocados_1opcao": 38,
+   "colocados_homens": 40,
+   "colocados_mulheres": 42,
+   "media_candidatura": 122.3,
+   "media_provas": 112.4,
    "nota_ultimo": 102.2,
    "sobras": 3,
    "vagas": 85
   },
   "2019f2": {
+   "candidatos": 110,
+   "candidatos_1opcao": 15,
+   "candidatos_homens": 67,
+   "candidatos_mulheres": 43,
    "colocados": 21,
+   "colocados_1opcao": 8,
+   "colocados_homens": 12,
+   "colocados_mulheres": 9,
+   "media_candidatura": 129.2,
+   "media_provas": 120.7,
    "nota_ultimo": 121.2,
    "sobras": 0,
    "vagas": 20,

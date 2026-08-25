@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Tomar",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 11,
+    "inscritos": 108,
+    "mulheres": 75
+   },
+   "2020/21": {
+    "estrangeiros": 23,
+    "inscritos": 126,
+    "mulheres": 81
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 87,
+   "candidatos_1opcao": 15,
+   "candidatos_homens": 26,
+   "candidatos_mulheres": 61,
    "colocados": 27,
+   "colocados_1opcao": 15,
+   "colocados_homens": 7,
+   "colocados_mulheres": 20,
+   "media_candidatura": 123.1,
+   "media_provas": 116.9,
    "nota_ultimo": 95.0,
    "sobras": 5,
    "vagas": 32
   },
   "2018f2": {
+   "candidatos": 39,
+   "candidatos_1opcao": 7,
+   "candidatos_homens": 15,
+   "candidatos_mulheres": 24,
    "colocados": 14,
+   "colocados_1opcao": 5,
+   "colocados_homens": 6,
+   "colocados_mulheres": 8,
+   "media_candidatura": 122.0,
+   "media_provas": 111.9,
    "nota_ultimo": 115.9,
    "sobras": 0,
    "vagas": 11,
@@ -44,13 +75,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 26,
+   "candidatos_mulheres": 54,
    "colocados": 30,
+   "colocados_1opcao": 10,
+   "colocados_homens": 12,
+   "colocados_mulheres": 18,
+   "media_candidatura": 117.9,
+   "media_provas": 113.1,
    "nota_ultimo": 95.7,
    "sobras": 5,
    "vagas": 35
   },
   "2019f2": {
+   "candidatos": 35,
+   "candidatos_1opcao": 4,
+   "candidatos_homens": 6,
+   "candidatos_mulheres": 29,
    "colocados": 13,
+   "colocados_1opcao": 4,
+   "colocados_homens": 2,
+   "colocados_mulheres": 11,
+   "media_candidatura": 121.0,
+   "media_provas": 113.2,
    "nota_ultimo": 101.0,
    "sobras": 3,
    "vagas": 14,
@@ -64,13 +113,31 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 83,
+   "candidatos_1opcao": 12,
+   "candidatos_homens": 29,
+   "candidatos_mulheres": 54,
    "colocados": 26,
+   "colocados_1opcao": 12,
+   "colocados_homens": 11,
+   "colocados_mulheres": 15,
+   "media_candidatura": 125.1,
+   "media_provas": 116.3,
    "nota_ultimo": 110.0,
    "sobras": 14,
    "vagas": 40
   },
   "2020f2": {
+   "candidatos": 50,
+   "candidatos_1opcao": 6,
+   "candidatos_homens": 19,
+   "candidatos_mulheres": 31,
    "colocados": 15,
+   "colocados_1opcao": 6,
+   "colocados_homens": 5,
+   "colocados_mulheres": 10,
+   "media_candidatura": 129.7,
+   "media_provas": 122.2,
    "nota_ultimo": 113.8,
    "sobras": 5,
    "vagas": 20,

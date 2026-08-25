@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Universidade de Lisboa",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 8,
+    "inscritos": 102,
+    "mulheres": 52
+   },
+   "2020/21": {
+    "estrangeiros": 5,
+    "inscritos": 61,
+    "mulheres": 32
+   }
+  }
+ },
  "instituicao": "Universidade de Lisboa - Instituto Superior de Economia e Gestão",
  "minimo_candidatura": null,
  "minimo_provas": null,

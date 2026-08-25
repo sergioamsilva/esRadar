@@ -15,7 +15,20 @@
  "formula_pesos": null,
  "grau": null,
  "grupo": "Instituto Politécnico de Leiria",
- "infocursos": null,
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 23,
+    "inscritos": 194,
+    "mulheres": 47
+   },
+   "2020/21": {
+    "estrangeiros": 29,
+    "inscritos": 228,
+    "mulheres": 54
+   }
+  }
+ },
  "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
  "minimo_candidatura": null,
  "minimo_provas": null,
@@ -24,13 +37,31 @@
  "provas_ingresso": null,
  "series": {
   "2018f1": {
+   "candidatos": 155,
+   "candidatos_1opcao": 65,
+   "candidatos_homens": 121,
+   "candidatos_mulheres": 34,
    "colocados": 45,
+   "colocados_1opcao": 42,
+   "colocados_homens": 27,
+   "colocados_mulheres": 18,
+   "media_candidatura": 152.2,
+   "media_provas": 157.0,
    "nota_ultimo": 136.5,
    "sobras": 0,
    "vagas": 44
   },
   "2018f2": {
+   "candidatos": 65,
+   "candidatos_1opcao": 36,
+   "candidatos_homens": 53,
+   "candidatos_mulheres": 12,
    "colocados": 4,
+   "colocados_1opcao": 4,
+   "colocados_homens": 2,
+   "colocados_mulheres": 2,
+   "media_candidatura": 156.2,
+   "media_provas": 169.5,
    "nota_ultimo": 146.6,
    "sobras": 0,
    "vagas": 4,
@@ -42,13 +73,31 @@
    "vagas_recolocacao": 0
   },
   "2019f1": {
+   "candidatos": 141,
+   "candidatos_1opcao": 64,
+   "candidatos_homens": 117,
+   "candidatos_mulheres": 24,
    "colocados": 45,
+   "colocados_1opcao": 43,
+   "colocados_homens": 33,
+   "colocados_mulheres": 12,
+   "media_candidatura": 152.0,
+   "media_provas": 159.9,
    "nota_ultimo": 135.8,
    "sobras": 0,
    "vagas": 44
   },
   "2019f2": {
+   "candidatos": 39,
+   "candidatos_1opcao": 18,
+   "candidatos_homens": 34,
+   "candidatos_mulheres": 5,
    "colocados": 3,
+   "colocados_1opcao": 3,
+   "colocados_homens": 2,
+   "colocados_mulheres": 1,
+   "media_candidatura": 161.1,
+   "media_provas": 177.3,
    "nota_ultimo": 151.5,
    "sobras": 0,
    "vagas": 3,
@@ -60,13 +109,31 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 166,
+   "candidatos_1opcao": 67,
+   "candidatos_homens": 121,
+   "candidatos_mulheres": 45,
    "colocados": 53,
+   "colocados_1opcao": 51,
+   "colocados_homens": 43,
+   "colocados_mulheres": 10,
+   "media_candidatura": 152.6,
+   "media_provas": 158.4,
    "nota_ultimo": 139.8,
    "sobras": 0,
    "vagas": 51
   },
   "2020f2": {
+   "candidatos": 42,
+   "candidatos_1opcao": 21,
+   "candidatos_homens": 30,
+   "candidatos_mulheres": 12,
    "colocados": 5,
+   "colocados_1opcao": 4,
+   "colocados_homens": 3,
+   "colocados_mulheres": 2,
+   "media_candidatura": 156.4,
+   "media_provas": 169.2,
    "nota_ultimo": 151.2,
    "sobras": 0,
    "vagas": 4,
