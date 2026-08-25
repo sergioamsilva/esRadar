@@ -1,11 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
 import SerieAnual from "../components/SerieAnual.astro";
-import { cursos, nacional, epoca, ligacao, formatarInteiro } from "../lib/dados";
+import Mapa from "../components/Mapa.astro";
+import { cursos, nacional, epoca, genero, instituicoes, ligacao, formatarInteiro, formatarNota } from "../lib/dados";
 
 const indice = cursos();
 const nac = nacional();
 const ep = epoca();
+const gen = genero();
+const inst = instituicoes();
 
 const vagas2026 = indice.reduce((s, c) => s + (c.vagas ?? 0), 0);
 const colocadosF1 = indice.reduce((s, c) => s + (c.colocados_2026f1 ?? 0), 0);
@@ -13,6 +16,9 @@ const sobrasF1 = indice.reduce((s, c) => s + (c.sobras_2026f1 ?? 0), 0);
 
 const serieColocados = Object.entries(nac.anos)
   .map(([ano, v]) => ({ ano: Number(ano), valor: v.colocados }))
+  .filter((p) => p.valor > 0);
+const serieVagas = Object.entries(nac.anos)
+  .map(([ano, v]) => ({ ano: Number(ano), valor: v.vagas_f1 }))
   .filter((p) => p.valor > 0);
 
 /* Maiores movimentos da nota de corte entre 2025 e 2026, 1ª fase. */
@@ -22,23 +28,70 @@ const comVariacao = indice
 const subidas = [...comVariacao].sort((a, b) => b.delta - a.delta).slice(0, 6);
 const descidas = [...comVariacao].sort((a, b) => a.delta - b.delta).slice(0, 6);
 
-/* «Onde entro com a minha média?» — as notas de corte de 2026, compactas
-   (par|nota), para o cálculo no cliente. ~30 KB. Sem JavaScript o bloco
-   não aparece; a lista de cursos é o caminho. */
+/* Distribuição das notas de corte de 2026: caixas de 5 pontos, 95–200. */
+const notas2026 = indice.map((c) => c.nota_2026f1).filter((n): n is number => n != null);
+const mediana = [...notas2026].sort((a, b) => a - b)[Math.floor(notas2026.length / 2)];
+const caixas: { de: number; n: number }[] = [];
+for (let de = 95; de < 200; de += 5) caixas.push({ de, n: 0 });
+for (const n of notas2026) {
+  const i = Math.min(caixas.length - 1, Math.max(0, Math.floor((n - 95) / 5)));
+  caixas[i].n++;
+}
+const maxCaixa = Math.max(...caixas.map((c) => c.n));
+
+/* As áreas de 2026, pelas colocações. */
+const porArea = new Map<string, { colocados: number; vagas: number; sobras: number; notas: number[] }>();
+for (const c of indice) {
+  if (!c.cnaef_nome) continue;
+  const a = porArea.get(c.cnaef_nome) ?? { colocados: 0, vagas: 0, sobras: 0, notas: [] };
+  a.colocados += c.colocados_2026f1 ?? 0;
+  a.vagas += c.vagas ?? 0;
+  a.sobras += c.sobras_2026f1 ?? 0;
+  if (c.nota_2026f1 != null) a.notas.push(c.nota_2026f1);
+  porArea.set(c.cnaef_nome, a);
+}
+const areas = [...porArea.entries()]
+  .map(([area, a]) => ({
+    area,
+    ...a,
+    ocupacao: a.vagas ? a.colocados / a.vagas : 0,
+    notaMediana: a.notas.length ? [...a.notas].sort((x, y) => x - y)[Math.floor(a.notas.length / 2)] : null,
+  }))
+  .sort((a, b) => b.colocados - a.colocados)
+  .slice(0, 12);
+const maxAreaColocados = Math.max(...areas.map((a) => a.colocados));
+
+/* Rankings rápidos. */
+const disputados = [...indice]
+  .filter((c) => c.nota_2026f1 != null)
+  .sort((a, b) => b.nota_2026f1! - a.nota_2026f1!)
+  .slice(0, 6);
+const procurados = [...indice]
+  .filter((c) => c.racio_procura != null && (c.vagas ?? 0) >= 20)
+  .sort((a, b) => b.racio_procura! - a.racio_procura!)
+  .slice(0, 6);
+const maisSobras = [...indice]
+  .filter((c) => (c.sobras_2026f1 ?? 0) > 0)
+  .sort((a, b) => b.sobras_2026f1! - a.sobras_2026f1!)
+  .slice(0, 6);
+const menorDesemprego = [...indice]
+  .filter((c) => c.desemprego != null && (c.colocados_2026f1 ?? 0) >= 30)
+  .sort((a, b) => a.desemprego! - b.desemprego!)
+  .slice(0, 6);
+
+const gn = gen.nacional;
+const pctColocadas = Math.round((100 * gn.colocados_mulheres) / (gn.colocados_mulheres + gn.colocados_homens));
+
+/* «Onde entro com a minha média?» — notas de corte compactas p/ o cliente. */
 const ALCANCE = indice
   .filter((c) => c.nota_2026f1 != null || (c.sobras_2026f1 ?? 0) > 0)
-  .map((c) => ({
-    n: c.nota_2026f1,
-    c: c.curso,
-    i: c.grupo,
-    u: ligacao(`/curso/${c.par}/`),
-  }));
+  .map((c) => ({ n: c.nota_2026f1, c: c.curso, i: c.grupo, u: ligacao(`/curso/${c.par}/`) }));
 const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
 ---
 
 <Base
   titulo="Panorama"
-  descricao="As colocações no ensino superior público, curso a curso: notas do último colocado, vagas, procura e sobras, de 2018 a 2026."
+  descricao="As colocações no ensino superior público, curso a curso: notas do último colocado, vagas, procura, áreas, género e sobras, de 2018 a 2026."
 >
   <section class="hero">
     <h1>
@@ -59,8 +112,9 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
       <em>{formatarInteiro(indice.length)} pares curso/instituição</em>
     </div>
     <div class="stat reveal" style="--d:.08s">
-      <b data-contar={colocadosF1}>{formatarInteiro(colocadosF1)}</b>
-      <span>colocados na 1ª fase</span>
+      <b data-contar={mediana} data-casas="1">{formatarNota(mediana)}</b>
+      <span>nota de corte mediana, 1ª fase</span>
+      <em>{formatarInteiro(notas2026.length)} cursos preencheram as vagas</em>
     </div>
     <div class="stat reveal" style="--d:.16s">
       <b data-contar={sobrasF1}>{formatarInteiro(sobrasF1)}</b>
@@ -103,14 +157,39 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
   </section>
   <script type="application/json" is:inline data-alcance-dados set:html={JSON.stringify(ALCANCE)} />
 
+  <section class="card full reveal">
+    <h3>Como se distribuem as notas de corte</h3>
+    <p class="desc">
+      Cada coluna são os cursos cuja nota do último colocado caiu nesse intervalo de 5
+      pontos, na 1ª fase de 2026. O traço é a mediana ({formatarNota(mediana)}).
+    </p>
+    <div class="hist" role="img" aria-label={`Distribuição das notas de corte de ${formatarInteiro(notas2026.length)} cursos; mediana ${formatarNota(mediana)}.`}>
+      {
+        caixas.map((c, i) => (
+          <div class="hist__coluna" title={`${c.de}–${c.de + 5}: ${c.n} cursos`}>
+            <span
+              class="hist__barra cresce"
+              style={`height:${maxCaixa ? (c.n / maxCaixa) * 100 : 0}%;--d:${i * 0.03}s`}
+            />
+            {c.de % 20 === 15 ? <span class="hist__rotulo">{c.de + 5}</span> : <span class="hist__rotulo" />}
+          </div>
+        ))
+      }
+      <span class="hist__mediana" style={`left:${((mediana - 95) / (200 - 95)) * 100}%`} aria-hidden="true"></span>
+    </div>
+  </section>
+
   <div class="grid">
     <section class="card reveal">
-      <h3>Colocados por ano, todas as fases</h3>
+      <h3>Vagas e colocados, ano a ano</h3>
       <SerieAnual
-        titulo="Estudantes colocados no concurso nacional"
+        titulo="1ª fase: vagas iniciais vs. estudantes colocados (todas as fases)"
         unidade="estudantes"
         inteiro
-        series={[{ rotulo: "Colocados", pontos: serieColocados, cor: "serie-1" }]}
+        series={[
+          { rotulo: "Vagas (1ª fase)", pontos: serieVagas, cor: "serie-1" },
+          { rotulo: "Colocados (todas as fases)", pontos: serieColocados, cor: "serie-2" },
+        ]}
       />
       <p class="fonte-lin">
         DGES, resultados do CNA 2018–2026. 2026 só inclui as fases já decorridas.
@@ -154,7 +233,108 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
         })
       }
     </section>
+
+    <section class="card reveal">
+      <h3>As áreas de 2026, pelas colocações</h3>
+      <p class="desc">As 12 maiores áreas CNAEF: colocados na 1ª fase e ocupação das vagas.</p>
+      <ol class="areas12">
+        {
+          areas.map((a, i) => (
+            <li>
+              <span class="areas12__nome">
+                {a.area}
+                <span>
+                  {formatarInteiro(a.colocados)} colocados · {Math.round(a.ocupacao * 100)}%
+                  das vagas{a.notaMediana != null ? ` · corte mediano ${formatarNota(a.notaMediana)}` : ""}
+                </span>
+              </span>
+              <span class="areas12__pista" aria-hidden="true">
+                <span
+                  class="areas12__barra cresce"
+                  style={`width:${(a.colocados / maxAreaColocados) * 100}%;--d:${i * 0.05}s`}
+                />
+              </span>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section class="card reveal" style="--d:.1s">
+      <h3>Homens e mulheres</h3>
+      <p class="genero-strip__texto">
+        As mulheres foram <b>{pctColocadas}%</b> dos colocados de {gen.ano} — mas as áreas
+        vão dos 8% aos 93%.
+      </p>
+      <div class="composicao" role="img" aria-label={`${pctColocadas}% mulheres, ${100 - pctColocadas}% homens`}>
+        <span class="composicao__seg composicao__seg--mulheres cresce" style={`width:${pctColocadas}%`} />
+        <span class="composicao__seg composicao__seg--homens cresce" style={`width:${100 - pctColocadas}%;--d:.15s`} />
+      </div>
+      <ul class="composicao__legenda">
+        <li><span class="composicao__ponto composicao__seg--mulheres" aria-hidden="true" /><b>{pctColocadas}%</b> mulheres</li>
+        <li><span class="composicao__ponto composicao__seg--homens" aria-hidden="true" /><b>{100 - pctColocadas}%</b> homens</li>
+      </ul>
+      <p class="fonte-lin">
+        <a href={ligacao("/genero/")}>Ver a linha dos 50%, área a área →</a>
+      </p>
+    </section>
   </div>
+
+  <div class="grid trios">
+    {
+      [
+        {
+          titulo: "Os mais disputados",
+          desc: "Notas de corte mais altas de 2026",
+          lista: disputados.map((c) => ({ ...c, valor: formatarNota(c.nota_2026f1) })),
+        },
+        {
+          titulo: "A maior procura",
+          desc: "Candidatos em 1ª opção por vaga (2025, ≥20 vagas)",
+          lista: procurados.map((c) => ({
+            ...c,
+            valor: `${c.racio_procura!.toLocaleString("pt-PT", { maximumFractionDigits: 1 })}×`,
+          })),
+        },
+        {
+          titulo: "Mais vagas por preencher",
+          desc: "Sobras para a 2ª fase de 2026",
+          lista: maisSobras.map((c) => ({ ...c, valor: formatarInteiro(c.sobras_2026f1) })),
+        },
+        {
+          titulo: "Menos desemprego à saída",
+          desc: "Recém-diplomados no IEFP (cursos com ≥30 colocados)",
+          lista: menorDesemprego.map((c) => ({
+            ...c,
+            valor: `${c.desemprego!.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}%`,
+          })),
+        },
+      ].map((bloco, bi) => (
+        <section class="card reveal" style={`--d:${bi * 0.06}s`}>
+          <h3>{bloco.titulo}</h3>
+          <p class="desc">{bloco.desc}</p>
+          <ul class="mov">
+            {bloco.lista.map((c) => (
+              <li>
+                <a href={ligacao(`/curso/${c.par}/`)}>
+                  {c.curso} <span>{c.grupo}</span>
+                </a>
+                <b>{c.valor}</b>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+
+  <section class="card full reveal mapa-home">
+    <h3>Onde ficaram os colocados</h3>
+    <Mapa instituicoes={inst} />
+    <p class="fonte-lin">
+      <a href={ligacao("/instituicoes/")}>Ver as instituições, com ocupação e sobras →</a>
+    </p>
+  </section>
 </Base>
 
 <script>
@@ -175,7 +355,6 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
       if (!slider || !valor || !resultado) return;
       const nota = Number(slider.value);
       valor.textContent = nota.toLocaleString("pt-PT", { minimumFractionDigits: 1 });
-      slider.style.setProperty("--p", `${((nota - 95) / (200 - 95)) * 100}%`);
       const alcancaveis = dados.filter((d) => d.n == null || d.n <= nota);
       resultado.innerHTML = `<b>${alcancaveis.length.toLocaleString("pt-PT")}</b> de ${dados.length.toLocaleString(
         "pt-PT",
@@ -209,7 +388,7 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
     color: var(--ink-2);
     margin-top: 6px;
   }
-  .alcance {
+  .card.full {
     margin-top: 22px;
   }
   .alcance__controlo {
@@ -236,6 +415,143 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
     font-size: 1.25em;
     font-variant-numeric: tabular-nums;
   }
+
+  /* ── histograma das notas de corte ──────────────────────────────── */
+  .hist {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 130px;
+    margin-top: 14px;
+  }
+  .hist__coluna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    min-width: 0;
+  }
+  .hist__barra {
+    display: block;
+    background: linear-gradient(180deg, var(--serie-1), color-mix(in srgb, var(--serie-1) 55%, var(--surface)));
+    border-radius: 3px 3px 0 0;
+    min-height: 2px;
+    transform-origin: bottom center;
+  }
+  :global(html.js) .hist .hist__barra.cresce {
+    transform: scaleY(0);
+  }
+  :global(html.js) .on .hist .hist__barra.cresce {
+    transform: scaleY(1);
+  }
+  .hist__rotulo {
+    height: 14px;
+    font-size: var(--t-3xs);
+    color: var(--muted);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+  .hist__mediana {
+    position: absolute;
+    top: -4px;
+    bottom: 14px;
+    width: 2px;
+    background: var(--serie-2);
+  }
+
+  /* ── áreas ──────────────────────────────────────────────────────── */
+  .areas12 {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .areas12 li {
+    padding: 5px 0;
+  }
+  .areas12__nome {
+    display: block;
+    font-size: var(--t-sm);
+    font-weight: 600;
+  }
+  .areas12__nome span {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .areas12__pista {
+    display: block;
+    height: 7px;
+    margin-top: 3px;
+    border-radius: 4px;
+    background: var(--grid);
+    overflow: hidden;
+  }
+  .areas12__barra {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    background: var(--serie-1);
+  }
+
+  /* ── género ─────────────────────────────────────────────────────── */
+  .genero-strip__texto {
+    font-size: var(--t-md);
+    margin: 8px 0 10px;
+  }
+  .genero-strip__texto b {
+    font-variant-numeric: tabular-nums;
+  }
+  .composicao {
+    display: flex;
+    gap: 2px;
+    height: 14px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 6px 0 10px;
+  }
+  .composicao__seg {
+    display: block;
+    height: 100%;
+  }
+  .composicao__seg--mulheres {
+    background: var(--serie-2);
+  }
+  .composicao__seg--homens {
+    background: var(--serie-1);
+  }
+  .composicao__legenda {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .composicao__legenda b {
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .composicao__ponto {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 3px;
+    margin-right: 6px;
+  }
+
+  .trios {
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  }
+  .mapa-home {
+    margin-bottom: 30px;
+  }
+
   .mov {
     list-style: none;
     margin: 0 0 8px;
@@ -267,6 +583,18 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
   }
+  .mov__rotulo {
+    font-size: var(--t-2xs);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 12px 0 2px;
+  }
+  .mov__rotulo--sobe {
+    color: var(--pos-texto);
+  }
+  .mov__rotulo--desce {
+    color: var(--neg-texto);
+  }
   .mov__delta {
     display: flex;
     align-items: center;
@@ -284,17 +612,5 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
   }
   .mov__barra--desce {
     background: var(--neg);
-  }
-  .mov__rotulo {
-    font-size: var(--t-2xs);
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    margin: 12px 0 2px;
-  }
-  .mov__rotulo--sobe {
-    color: var(--pos-texto);
-  }
-  .mov__rotulo--desce {
-    color: var(--neg-texto);
   }
 </style>

@@ -128,6 +128,8 @@ export type Curso = {
   sobras_2026f1: number | null;
   candidatos_1opcao_2025f1: number | null;
   racio_procura: number | null;
+  desemprego: number | null;
+  fica_1ano: number | null;
 };
 
 export type Instituicao = {

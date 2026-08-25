@@ -318,6 +318,13 @@ def construir() -> None:
                 "sobras_2026f1": f1_atual.get("sobras"),
                 "candidatos_1opcao_2025f1": procura,
                 "racio_procura": round(procura / vagas, 2) if procura and vagas else None,
+                # Do Infocursos, para rankings e agregados sem abrir as fichas.
+                "desemprego": (ficha.get("infocursos") or {}).get("desemprego", {}).get("taxa")
+                if ficha.get("infocursos")
+                else None,
+                "fica_1ano": (ficha.get("infocursos") or {}).get("apos_1_ano", {}).get("fica")
+                if ficha.get("infocursos")
+                else None,
             }
         )
 
