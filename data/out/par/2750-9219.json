@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "311",
  "cnaef_nome": "Psicologia",
  "codc": "9219",
  "code": "2750",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Psicologia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 2.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 100.0,
+    "12": 7.8,
+    "13": 18.4,
+    "14": 28.2,
+    "15": 14.6,
+    "16": 14.6,
+    "17": 10.7,
+    "18": 4.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 103,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8830.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 80.0,
+   "mudanca_curso": 330.0,
+   "outros": 750.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 32,
+   "inscritos": 222
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2750-9219",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n13 Inglês\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n07 Física e Química",
  "series": {},
  "subsistema": "universitario",

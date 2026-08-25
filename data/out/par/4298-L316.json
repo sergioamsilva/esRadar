@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "525",
  "cnaef_nome": "Construção e Reparação de Veículos a Motor",
  "codc": "L316",
  "code": "4298",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Ciências Aeronáuticas e do Espaço",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 12
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 2170.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 870.0,
+   "mudanca_curso": 870.0,
+   "outros": 6090.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 11,
+   "inscritos": 26
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 21,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4298-L316",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\nou\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n19 Matemática A\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "461",
  "cnaef_nome": "Matemática",
  "codc": "9209",
  "code": "1307",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 6,
+    "nome": "Madeira pref. regional nível 1",
+    "nota": 125.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 130.5
+   }
+  ]
+ },
  "curso": "Matemática",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
  "infocursos": {
@@ -21,9 +36,36 @@
    "novos_inscritos": 33
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 28.6,
+    "13": 25.0,
+    "14": 14.3,
+    "15": 17.9,
+    "16": 7.1,
+    "17": 7.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 28,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 60.6,
+   "cna_outras": 6.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 6.1,
+   "mudanca_curso": 12.1,
+   "outros": 15.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 50
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +112,10 @@
  "par": "1307-9209",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 44,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A (50%)\nou\n04 Economia (20%)\n19 Matemática A (30%)\nou\n07 Física e Química (20%)\n19 Matemática A (30%)\nou\n19 Matemática A (30%)\n18 Português (20%)\nou\n02 Biologia e Geologia (20%)\n19 Matemática A (30%)",
  "semelhantes": [
   {

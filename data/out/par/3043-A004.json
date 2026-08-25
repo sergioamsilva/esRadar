@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "A004",
  "code": "3043",
  "concurso": null,
+ "contingentes": null,
  "curso": "Gestão de Negócios Internacionais (Curso Europeu, ensino em Inglês)",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3043-A004",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -60,7 +63,7 @@
    "vagas": 65
   },
   "2020f2": {
-   "colocados": 9,
+   "colocados": 10,
    "nota_ultimo": 98.0,
    "sobras": 45,
    "vagas": 54
@@ -90,13 +93,13 @@
    "vagas": 10
   },
   "2022f1": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 109.0,
    "sobras": 50,
    "vagas": 65
   },
   "2022f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 110.0,
    "sobras": 43,
    "vagas": 52
@@ -108,13 +111,13 @@
    "vagas": 5
   },
   "2023f1": {
-   "colocados": 14,
+   "colocados": 16,
    "nota_ultimo": 95.0,
    "sobras": 49,
    "vagas": 65
   },
   "2023f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 110.0,
    "sobras": 44,
    "vagas": 54
@@ -144,13 +147,13 @@
    "vagas": 10
   },
   "2025f1": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 108.5,
    "sobras": 37,
    "vagas": 50
   },
   "2025f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 118.3,
    "sobras": 34,
    "vagas": 40

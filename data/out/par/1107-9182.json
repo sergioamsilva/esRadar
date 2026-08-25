@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "211",
  "cnaef_nome": "Belas-Artes",
  "codc": "9182",
  "code": "1107",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 147.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 148.3
+   }
+  ]
+ },
  "curso": "História da Arte",
  "desemprego_percentil": 26,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 4.3,
+    "14": 34.8,
+    "15": 19.6,
+    "16": 26.1,
+    "17": 15.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 46,
    "nota_final_media": 15.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 42.3,
+   "cna_outras": 14.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.2,
+   "mudanca_curso": 0,
+   "outros": 38.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 28,
+   "inscritos": 147
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "1107-9182",
  "pct_colocados_1opcao_2025": 74,
  "percentil_nota_2026": 72,
+ "preferencia_regional": null,
  "provas_ingresso": "Duas das seguintes provas:\n06 Filosofia\n12 Hist. da Cultura e Artes\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -217,7 +260,7 @@
    "candidatos_1opcao": 31,
    "candidatos_homens": 56,
    "candidatos_mulheres": 142,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 21,
    "colocados_homens": 7,
    "colocados_mulheres": 32,

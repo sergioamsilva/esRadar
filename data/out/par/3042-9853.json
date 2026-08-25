@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "3042",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 126.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 118.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 123.0
+   }
+  ]
+ },
  "curso": "Educação Básica",
  "desemprego_percentil": 6,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n721 Técnico de Serviços Pessoais e à Comunidade\nG55 Ação Social (Portaria n.º 266/2013)\nP18 Técnico de Apoio à Infância\nP19 Técnico de Apoio Psicossocial\nT06 Técnico de Ação Educativa",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 1.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 2.9,
+    "13": 23.5,
+    "14": 38.2,
+    "15": 20.6,
+    "16": 11.8,
+    "17": 2.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 34,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 11.5,
+   "cna_outras": 15.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.3,
+   "mudanca_curso": 0.6,
+   "outros": 70.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 56,
+   "inscritos": 282
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3042-9853",
  "pct_colocados_1opcao_2025": 39,
  "percentil_nota_2026": 32,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n19 Matemática A\n18 Português",
  "semelhantes": [
   {
@@ -144,7 +195,7 @@
    "vagas": 50
   },
   "2019f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 112.5,
    "sobras": 43,
    "vagas": 49
@@ -249,7 +300,7 @@
    "candidatos_1opcao": 7,
    "candidatos_homens": 15,
    "candidatos_mulheres": 166,
-   "colocados": 70,
+   "colocados": 72,
    "colocados_1opcao": 7,
    "colocados_homens": 6,
    "colocados_mulheres": 66,

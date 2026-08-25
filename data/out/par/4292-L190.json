@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "L190",
  "code": "4292",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão Industrial e Inovação Tecnológica",
  "duracao": "3 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 15
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 20.0,
+    "14": 30.0,
+    "15": 30.0,
+    "16": 20.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 10,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 910.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1820.0,
+   "mudanca_curso": 910.0,
+   "outros": 6360.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 12
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4292-L190",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n13 Inglês\n18 Português\nou\n09 Geografia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

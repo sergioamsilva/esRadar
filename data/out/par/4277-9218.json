@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "861",
  "cnaef_nome": "Proteção de Pessoas e Bens",
  "codc": "9218",
  "code": "4277",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Proteção Civil",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 2.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 9.3,
+    "13": 16.3,
+    "14": 30.2,
+    "15": 23.3,
+    "16": 18.6,
+    "17": 2.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 43,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 1370.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4900.0,
+   "mudanca_curso": 1370.0,
+   "outros": 2350.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 0,
+   "inscritos": 82
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4277-9218",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n07 Física e Química\n09 Geografia\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "222",
  "cnaef_nome": "Línguas e Literaturas Estrangeiras",
  "codc": "9378",
  "code": "2220",
  "concurso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
+ "contingentes": null,
  "curso": "Línguas Estrangeiras Aplicadas",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 14.8,
+    "13": 31.1,
+    "14": 21.3,
+    "15": 19.7,
+    "16": 9.8,
+    "17": 3.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 61,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8810.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 750.0,
+   "outros": 450.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 22,
+   "inscritos": 115
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "2220-9378",
+ "preferencia_regional": null,
  "provas_ingresso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
  "series": {},
  "subsistema": "universitario",

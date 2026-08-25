@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "213",
  "cnaef_nome": "Áudio-Visuais e Produção dos Media",
  "codc": "9683",
  "code": "4010",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Artes Visuais - Fotografia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 7.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.8,
+    "13": 11.8,
+    "14": 29.4,
+    "15": 11.8,
+    "16": 23.5,
+    "17": 11.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 17,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7200.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 2800.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 33
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4010-9683",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n06 Filosofia\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n13 Inglês\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês",
  "series": {},
  "subsistema": "universitario",

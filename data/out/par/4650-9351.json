@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "721",
  "cnaef_nome": "Medicina",
  "codc": "9351",
  "code": "4650",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Ciências Biomédicas",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 121
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 12.8,
+    "12": 29.8,
+    "13": 29.8,
+    "14": 14.9,
+    "15": 8.5,
+    "16": 2.1,
+    "17": 2.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 47,
    "nota_final_media": 12.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8660.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 240.0,
+   "mudanca_curso": 120.0,
+   "outros": 980.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 24,
+   "inscritos": 123
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4650-9351",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
  "series": {},
  "subsistema": "universitario",

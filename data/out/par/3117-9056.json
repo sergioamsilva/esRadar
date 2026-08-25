@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "344",
  "cnaef_nome": "Contabilidade e Fiscalidade",
  "codc": "9056",
  "code": "3117",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 127.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 140.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 132.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 124.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 143.5
+   }
+  ]
+ },
  "curso": "Contabilidade",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,6 +56,7 @@
  "par": "3117-9056",
  "pct_colocados_1opcao_2025": 31,
  "percentil_nota_2026": 65,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -109,7 +140,7 @@
    "sobras": 2
   },
   "2026f1": {
-   "colocados": 148,
+   "colocados": 150,
    "nota_ultimo": 143.5,
    "sobras": 0,
    "vagas": 148

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9059",
  "code": "2270",
  "concurso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
+ "contingentes": null,
  "curso": "Administração e Gestão de Empresas",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 40.0,
+    "12": 9.7,
+    "13": 27.3,
+    "14": 28.8,
+    "15": 17.6,
+    "16": 9.7,
+    "17": 6.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 267,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9760.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 240.0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 598
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "2270-9059",
+ "preferencia_regional": null,
  "provas_ingresso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
  "series": {},
  "subsistema": "universitario",

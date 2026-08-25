@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "522",
  "cnaef_nome": "Eletricidade e Energia",
  "codc": "9109",
  "code": "3118",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 137.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 120.0
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 131.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 125.0
+   }
+  ]
+ },
  "curso": "Engenharia Eletrotécnica",
  "desemprego_percentil": 94,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 80.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.1,
+    "12": 25.0,
+    "13": 41.3,
+    "14": 17.4,
+    "15": 10.9,
+    "16": 2.2,
+    "17": 2.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 92,
    "nota_final_media": 13.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 30.9,
+   "cna_outras": 20.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 13.0,
+   "mudanca_curso": 3.3,
+   "outros": 32.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 25,
+   "inscritos": 373
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,7 @@
  "par": "3118-9109",
  "pct_colocados_1opcao_2025": 88,
  "percentil_nota_2026": 35,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [
   {
@@ -193,7 +246,7 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 32,
+   "colocados": 33,
    "nota_ultimo": 115.5,
    "sobras": 55,
    "vagas": 88

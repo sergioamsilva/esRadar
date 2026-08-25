@@ -1,14 +1,49 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "813",
  "cnaef_nome": "Desporto",
  "codc": "L386",
  "code": "3052",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 119.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 152.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 121.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 99.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 121.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 106.0
+   }
+  ]
+ },
  "curso": "Treino Desportivo e Preparação Física",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Évora, Guarda, Leiria, Portalegre, Santarém, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n089 Desporto (DL 74/2004)\n573 Animação e Gestão Desportiva (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n667 Gestão e Dinamização Desportiva (Port. 817/2009)\n984 Recorrente - Desporto (DL 74/2004)\nA05 Animação Sociodesportiva (VC) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nA53 Animação e Gestão Desportiva (Port. 960/2009)\nG01 Animação Sócio Desportiva (VC) (Portaria n.º 260/2013)\nG14 Animação Sócio Desportiva (VT) (Portaria n.º 260/2013)\nG29 Animação e Gestão Desportiva (Portaria n.º 262/2013)\nG49 Desporto e Dinamização da Atividade Física (Port. 265/2013)\nG85 Atividade Física e Desporto Adaptados (Port. 33/2015)\nG86 Desporto e Dinamização da Atividade Física (Port. 32/2015)\nH14 Animação Sociodesportiva (VT)\nH49 Desporto e Dinamização da Atividade Física\nH85 Atividade Física e Desporto Adaptados\nH86 Desporto e Dinamização da Atividade Física\nR05 Técnico de Apoio à Gestão Desportiva\nR10 Técnico de Desporto e Condição Física\nR15 Técnico de Desporto\nS64 Técnico de Apoio à Gestão Desportiva\nT26 Técnico de Gestão Desportiva\nT54 Técnico de Desporto",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
  "infocursos": null,
@@ -17,6 +52,10 @@
  "minimo_provas": 95,
  "par": "3052-L386",
  "percentil_nota_2026": 3,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Coimbra, Évora, Guarda, Leiria, Portalegre, Santarém, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -50,7 +89,7 @@
  ],
  "series": {
   "2026f1": {
-   "colocados": 19,
+   "colocados": 21,
    "nota_ultimo": 106.0,
    "sobras": 4,
    "vagas": 25

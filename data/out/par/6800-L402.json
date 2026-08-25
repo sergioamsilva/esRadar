@@ -1,10 +1,50 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "L402",
  "code": "6800",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 146.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 161.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 180.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 168.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 136.3
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 134.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 172.8
+   }
+  ]
+ },
  "curso": "Direito",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -17,6 +57,7 @@
  "minimo_provas": 95,
  "par": "6800-L402",
  "percentil_nota_2026": 95,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n11 História",
  "semelhantes": [
   {

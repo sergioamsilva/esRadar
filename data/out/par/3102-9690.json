@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "529",
  "cnaef_nome": "Engenharia e Técnicas Afins - programas não classificados noutra área de formação",
  "codc": "9690",
  "code": "3102",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 124.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 119.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 115.5
+   }
+  ]
+ },
  "curso": "Biomecânica",
  "desemprego_percentil": 72,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n072 Design de Produto (DL 74/2004)\n089 Desporto (DL 74/2004)\n572 Análises Químico-Biológicas (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n670 Mecânica (Port. 817/2009)\n711 Técnico de CAD/CAM\n755 Técnico de Laboratório\n777 Técnico de Maquinação e Programação CNC\n783 Técn. Apoio à Clínica Dentária e Eletrom. Equip. Méd. Dent.\n814 Agrupamento 1 / Mecânica\n984 Recorrente - Desporto (DL 74/2004)\n987 Recorrente - Design de Produto (DL 74/2004)\nA04 Biotecnologia (VCT) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG29 Animação e Gestão Desportiva (Portaria n.º 262/2013)\nG38 Tecnologias da Saúde (Portaria n.º 262/2013)\nG44 Biotecnologia Aplicada (Portaria n.º 265/2013)\nG49 Desporto e Dinamização da Atividade Física (Port. 265/2013)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG85 Atividade Física e Desporto Adaptados (Port. 33/2015)\nP11 Técnico Auxiliar de Saúde\nP12 Técnico Auxiliar Protésico\nP16 Técnico de Análise Laboratorial\nP35 Técnico de Desenho de Construções Mecânicas\nP36 Técnico de Desenho Digital 3D\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP66 Técnico de Mecatrónica\nP74 Técnico de Produção em Metalomecânica\nP89 Técnico de Transformação de Polímeros/Processos de Produção\nR05 Técnico de Apoio à Gestão Desportiva\nR10 Técnico de Desporto e Condição Física\nS24 Técnico de Desenho de Construções Mecânicas/Máquinas\nS35 Técnico de Maquinação e Programação\nS44 Técnico de Planeamento Industrial (Metalurgia e Metalomec.)\nS47 Técnico de Segurança e Higiene do Trabalho\nS64 Técnico de Apoio à Gestão Desportiva\nT07 Técnico de Análise Laboratorial\nT15 Técnico de Eletrónica Médica\nT26 Técnico de Gestão Desportiva\nT37 Técnico de Mecatrónica\nT44 Técnico de Produção e Transformação de Compósitos\nT50 Técnico de Transformação de Polímeros/Processos de Produção",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 5.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 8.0,
+    "13": 64.0,
+    "14": 16.0,
+    "15": 4.0,
+    "16": 4.0,
+    "17": 4.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 25,
    "nota_final_media": 13.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 65.3,
+   "cna_outras": 10.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 24.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 78
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3102-9690",
  "pct_colocados_1opcao_2025": 80,
  "percentil_nota_2026": 18,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n07 Física e Química\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {
@@ -193,7 +244,7 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 25,
+   "colocados": 26,
    "nota_ultimo": 128.6,
    "sobras": 0,
    "vagas": 25
@@ -213,7 +264,7 @@
    "candidatos_1opcao": 24,
    "candidatos_homens": 86,
    "candidatos_mulheres": 22,
-   "colocados": 25,
+   "colocados": 26,
    "colocados_1opcao": 20,
    "colocados_homens": 23,
    "colocados_mulheres": 3,
@@ -305,7 +356,7 @@
    "candidatos_1opcao": 7,
    "candidatos_homens": 26,
    "candidatos_mulheres": 5,
-   "colocados": 9,
+   "colocados": 10,
    "colocados_1opcao": 7,
    "colocados_homens": 9,
    "colocados_mulheres": 1,

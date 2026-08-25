@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "9242",
  "code": "4581",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Solicitadoria",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 5.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 10.4,
+    "12": 47.9,
+    "13": 20.8,
+    "14": 10.4,
+    "15": 4.2,
+    "16": 6.3,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 48,
    "nota_final_media": 12.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6040.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1250.0,
+   "mudanca_curso": 830.0,
+   "outros": 1880.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 89
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4581-9242",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7080",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 118.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 155.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 107.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 150.5
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "desemprego_percentil": 88,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Trás-os-Montes e Alto Douro",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 40.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 60.0,
+    "13": 60.0,
+    "14": 6.3,
+    "15": 40.8,
+    "16": 42.5,
+    "17": 7.5,
+    "18": 1.7,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 174,
    "nota_final_media": 15.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 57.7,
+   "cna_outras": 16.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.6,
+   "mudanca_curso": 0.5,
+   "outros": 19.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 15,
+   "inscritos": 425
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "7080-9500",
  "pct_colocados_1opcao_2025": 59,
  "percentil_nota_2026": 74,
+ "preferencia_regional": {
+  "area_influencia": "Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "semelhantes": [
   {

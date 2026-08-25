@@ -1,14 +1,24 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "443",
  "cnaef_nome": "Ciências da Terra",
  "codc": "A017",
  "code": "0160",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 108.0
+   }
+  ]
+ },
  "curso": "Ciências do Oceano (ensino em inglês)",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -26,6 +36,10 @@
  "par": "0160-A017",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 5,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -85,7 +99,7 @@
    "vagas": 12
   },
   "2026f1": {
-   "colocados": 4,
+   "colocados": 5,
    "nota_ultimo": 108.0,
    "sobras": 9,
    "vagas": 14

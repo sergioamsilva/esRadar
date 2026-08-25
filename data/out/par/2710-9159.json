@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "9159",
  "code": "2710",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão de Sistemas e Computação",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 38
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.1,
+    "13": 5.6,
+    "14": 22.2,
+    "15": 16.7,
+    "16": 22.2,
+    "17": 16.7,
+    "18": 5.6,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 15.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 880.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 6180.0,
+   "mudanca_curso": 290.0,
+   "outros": 2650.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 56
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2710-9159",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
  "series": {},
  "subsistema": "universitario",

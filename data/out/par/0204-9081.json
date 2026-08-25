@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "314",
  "cnaef_nome": "Economia",
  "codc": "9081",
  "code": "0204",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 124.5
+   }
+  ]
+ },
  "curso": "Economia",
  "desemprego_percentil": 22,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 2.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.9,
+    "12": 26.9,
+    "13": 30.8,
+    "14": 23.1,
+    "15": 5.8,
+    "16": 5.8,
+    "17": 3.8,
+    "18": 1.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 52,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 39.7,
+   "cna_outras": 17.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 1.6,
+   "outros": 41.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 26,
+   "inscritos": 136
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "0204-9081",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 34,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n04 Economia\n16 Matemática\nou\n09 Geografia\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {

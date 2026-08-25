@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "344",
  "cnaef_nome": "Contabilidade e Fiscalidade",
  "codc": "9498",
  "code": "3164",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 131.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 131.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 125.0
+   }
+  ]
+ },
  "curso": "Contabilidade e Fiscalidade",
  "desemprego_percentil": 55,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 4.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 12.2,
+    "12": 32.7,
+    "13": 22.4,
+    "14": 10.2,
+    "15": 4.1,
+    "16": 12.2,
+    "17": 4.1,
+    "18": 2.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 49,
    "nota_final_media": 13.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 25.9,
+   "cna_outras": 14.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.6,
+   "mudanca_curso": 0,
+   "outros": 53.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 88
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3164-9498",
  "pct_colocados_1opcao_2025": 75,
  "percentil_nota_2026": 35,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {

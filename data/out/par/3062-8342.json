@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "347",
  "cnaef_nome": "Enquadramento na Organização/Empresa",
  "codc": "8342",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 130.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 113.5
+   }
+  ]
+ },
  "curso": "Comunicação Organizacional (regime pós-laboral)",
  "desemprego_percentil": 62,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Leiria, Lisboa, Porto, Santarém, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n086 Marketing (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\n841 Agrupamento 4 / Comunicação\n980 Recorrente - Administração (DL 74/2004)\n981 Recorrente - Marketing (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 4.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.9,
+    "13": 19.6,
+    "14": 35.3,
+    "15": 21.6,
+    "16": 13.7,
+    "17": 5.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 51,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 13.0,
+   "cna_outras": 42.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 13.0,
+   "mudanca_curso": 0,
+   "outros": 31.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 94
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +116,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3062-8342",
- "pct_colocados_1opcao_2025": 67,
+ "pct_colocados_1opcao_2025": 57,
  "percentil_nota_2026": 15,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Leiria, Lisboa, Porto, Santarém, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n09 Geografia\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n18 Português",
  "semelhantes": [
   {
@@ -111,7 +157,7 @@
    "vagas": 25
   },
   "2019f2": {
-   "colocados": 2,
+   "colocados": 3,
    "nota_ultimo": 137.7,
    "sobras": 0,
    "vagas": 1
@@ -216,7 +262,7 @@
    "candidatos_1opcao": 13,
    "candidatos_homens": 25,
    "candidatos_mulheres": 73,
-   "colocados": 25,
+   "colocados": 27,
    "colocados_1opcao": 5,
    "colocados_homens": 4,
    "colocados_mulheres": 23,
@@ -253,7 +299,7 @@
    "candidatos_1opcao": 8,
    "candidatos_homens": 21,
    "candidatos_mulheres": 27,
-   "colocados": 12,
+   "colocados": 14,
    "colocados_1opcao": 8,
    "colocados_homens": 10,
    "colocados_mulheres": 4,
@@ -287,7 +333,7 @@
    "vagas": 2
   },
   "2026f1": {
-   "colocados": 25,
+   "colocados": 28,
    "nota_ultimo": 113.5,
    "sobras": 0,
    "vagas": 25

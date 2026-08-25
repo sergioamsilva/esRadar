@@ -1,22 +1,48 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "314",
  "cnaef_nome": "Economia",
  "codc": "A006",
  "code": "1116",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 167.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 172.5
+   }
+  ]
+ },
  "curso": "Economia (ensino em Inglês)",
  "duracao": "6 Semestres",
  "ects": 180,
  "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
- "infocursos": null,
+ "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  }
+ },
  "instituicao": "Universidade do Porto - FEP Faculdade de Economia e Gestão",
  "minimo_candidatura": 110,
  "minimo_provas": 120,
  "par": "1116-A006",
  "percentil_nota_2026": 95,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
  "semelhantes": [
   {

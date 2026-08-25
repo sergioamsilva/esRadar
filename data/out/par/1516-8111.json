@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "8111",
  "code": "1516",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 135.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 142.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 137.5
+   }
+  ]
+ },
  "curso": "Gestão de Recursos Humanos (regime pós-laboral)",
  "desemprego_percentil": 49,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 3.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 100.0,
+    "12": 9.0,
+    "13": 32.0,
+    "14": 36.0,
+    "15": 14.0,
+    "16": 5.0,
+    "17": 3.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 100,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 31.9,
+   "cna_outras": 23.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.8,
+   "mudanca_curso": 0,
+   "outros": 36.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 15,
+   "inscritos": 190
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "1516-8111",
  "pct_colocados_1opcao_2025": 35,
  "percentil_nota_2026": 54,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -193,7 +241,7 @@
    "vagas": 52
   },
   "2022f2": {
-   "colocados": 17,
+   "colocados": 18,
    "nota_ultimo": 146.0,
    "sobras": 0,
    "vagas": 12
@@ -207,7 +255,7 @@
    "candidatos_1opcao": 43,
    "candidatos_homens": 99,
    "candidatos_mulheres": 154,
-   "colocados": 52,
+   "colocados": 56,
    "colocados_1opcao": 12,
    "colocados_homens": 26,
    "colocados_mulheres": 30,
@@ -223,7 +271,7 @@
    "candidatos_1opcao": 24,
    "candidatos_homens": 33,
    "candidatos_mulheres": 70,
-   "colocados": 10,
+   "colocados": 11,
    "colocados_1opcao": 4,
    "colocados_homens": 4,
    "colocados_mulheres": 7,
@@ -299,7 +347,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 20,
    "candidatos_mulheres": 46,
-   "colocados": 17,
+   "colocados": 18,
    "colocados_1opcao": 9,
    "colocados_homens": 8,
    "colocados_mulheres": 10,
@@ -317,7 +365,7 @@
    "vagas": 4
   },
   "2026f1": {
-   "colocados": 52,
+   "colocados": 54,
    "nota_ultimo": 137.5,
    "sobras": 0,
    "vagas": 52

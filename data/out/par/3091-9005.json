@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9005",
  "code": "3091",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 114.0
+   }
+  ]
+ },
  "curso": "Animação Sociocultural",
  "desemprego_percentil": 74,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 6.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 12.1,
+    "14": 27.3,
+    "15": 39.4,
+    "16": 12.1,
+    "17": 9.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 33,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 41.3,
+   "cna_outras": 13.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 10.9,
+   "mudanca_curso": 0,
+   "outros": 34.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 11,
+   "inscritos": 77
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3091-9005",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 15,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -146,7 +192,7 @@
    "vagas": 23
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 9,
    "nota_ultimo": 98.0,
    "sobras": 7,
    "vagas": 15
@@ -194,7 +240,7 @@
    "vagas": 10
   },
   "2022f1": {
-   "colocados": 11,
+   "colocados": 12,
    "nota_ultimo": 115.8,
    "sobras": 13,
    "vagas": 25
@@ -252,7 +298,7 @@
    "candidatos_1opcao": 3,
    "candidatos_homens": 4,
    "candidatos_mulheres": 38,
-   "colocados": 8,
+   "colocados": 9,
    "colocados_1opcao": 3,
    "colocados_homens": 2,
    "colocados_mulheres": 7,
@@ -322,7 +368,7 @@
    "vagas": 10
   },
   "2026f1": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 114.0,
    "sobras": 9,
    "vagas": 15

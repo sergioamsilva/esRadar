@@ -1,15 +1,50 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "9205",
  "code": "3102",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 112.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 119.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 128.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 137.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 153.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 131.0
+   }
+  ]
+ },
  "curso": "Marketing",
  "desemprego_percentil": 74,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n086 Marketing (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\nG76 Colégio de S. Miguel - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP28 Técnico de Comunicação - Marketing, Relações Públicas e Publ\nP51 Técnico de Gestão\nP64 Técnico de Marketing",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +62,36 @@
    "taxa": 6.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 9.5,
+    "13": 40.0,
+    "14": 32.6,
+    "15": 11.6,
+    "16": 2.1,
+    "17": 3.2,
+    "18": 1.1,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 95,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 40.8,
+   "cna_outras": 9.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.0,
+   "mudanca_curso": 7.2,
+   "outros": 40.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 32,
+   "inscritos": 281
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +136,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3102-9205",
- "pct_colocados_1opcao_2025": 78,
+ "pct_colocados_1opcao_2025": 72,
  "percentil_nota_2026": 44,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -191,7 +257,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 46,
+   "colocados": 47,
    "nota_ultimo": 138.4,
    "sobras": 0,
    "vagas": 46
@@ -213,7 +279,7 @@
    "candidatos_1opcao": 47,
    "candidatos_homens": 92,
    "candidatos_mulheres": 126,
-   "colocados": 47,
+   "colocados": 48,
    "colocados_1opcao": 25,
    "colocados_homens": 23,
    "colocados_mulheres": 25,
@@ -289,7 +355,7 @@
    "candidatos_1opcao": 44,
    "candidatos_homens": 85,
    "candidatos_mulheres": 135,
-   "colocados": 50,
+   "colocados": 54,
    "colocados_1opcao": 39,
    "colocados_homens": 22,
    "colocados_mulheres": 32,
@@ -323,7 +389,7 @@
    "vagas": 2
   },
   "2026f1": {
-   "colocados": 50,
+   "colocados": 53,
    "nota_ultimo": 131.0,
    "sobras": 0,
    "vagas": 50

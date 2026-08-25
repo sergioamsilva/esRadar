@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "340",
  "cnaef_nome": "Ciências Empresariais",
  "codc": "L007",
  "code": "3117",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 183.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 131.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 141.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 152.8
+   }
+  ]
+ },
  "curso": "Comércio e Negócios Internacionais",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -17,6 +42,7 @@
  "minimo_provas": 95,
  "par": "3117-L007",
  "percentil_nota_2026": 77,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -50,7 +76,7 @@
  ],
  "series": {
   "2026f1": {
-   "colocados": 28,
+   "colocados": 30,
    "nota_ultimo": 152.8,
    "sobras": 0,
    "vagas": 28

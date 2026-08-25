@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9716",
  "code": "4280",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Comércio Internacional",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 25.0,
+    "13": 31.3,
+    "14": 25.0,
+    "15": 6.3,
+    "16": 0.0,
+    "17": 12.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 16,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 2920.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3330.0,
+   "mudanca_curso": 420.0,
+   "outros": 3330.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 40
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4280-9716",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

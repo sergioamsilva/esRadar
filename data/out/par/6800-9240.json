@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "312",
  "cnaef_nome": "Sociologia e Outros Estudos",
  "codc": "9240",
  "code": "6800",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 154.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 146.3
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 145.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 150.8
+   }
+  ]
+ },
  "curso": "Sociologia",
  "desemprego_percentil": 43,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 3.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 80.0,
+    "12": 4.1,
+    "13": 16.4,
+    "14": 27.9,
+    "15": 34.4,
+    "16": 9.8,
+    "17": 6.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 122,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 18.7,
+   "cna_outras": 29.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.7,
+   "mudanca_curso": 2.6,
+   "outros": 41.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 16,
+   "inscritos": 201
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,7 @@
  "par": "6800-9240",
  "pct_colocados_1opcao_2025": 17,
  "percentil_nota_2026": 75,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -140,7 +193,7 @@
    "vagas": 63
   },
   "2019f2": {
-   "colocados": 23,
+   "colocados": 24,
    "nota_ultimo": 139.0,
    "sobras": 0,
    "vagas": 15
@@ -190,7 +243,7 @@
    "vagas": 63
   },
   "2022f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 153.0,
    "sobras": 0,
    "vagas": 11
@@ -206,7 +259,7 @@
    "candidatos_1opcao": 44,
    "candidatos_homens": 127,
    "candidatos_mulheres": 353,
-   "colocados": 63,
+   "colocados": 65,
    "colocados_1opcao": 10,
    "colocados_homens": 16,
    "colocados_mulheres": 49,
@@ -282,7 +335,7 @@
    "candidatos_1opcao": 55,
    "candidatos_homens": 143,
    "candidatos_mulheres": 332,
-   "colocados": 63,
+   "colocados": 64,
    "colocados_1opcao": 11,
    "colocados_homens": 20,
    "colocados_mulheres": 44,

@@ -41,6 +41,10 @@ export type Par = {
   formula: string | null;
   minimo_candidatura: number | null;
   minimo_provas: number | null;
+  preferencia_regional: { pct_vagas: number; area_influencia: string } | null;
+  acessos_preferenciais_pct: number | null;
+  /** Notas do último colocado por contingente, por época («{ano}f{fase}»). */
+  contingentes: Record<string, { etapa: number; nome: string; nota: number }[]> | null;
   vagas_2026: number | null;
   /** Chaves «{ano}f{fase}», ex. «2025f1». */
   series: Record<string, Registo>;
@@ -65,7 +69,22 @@ export type Par = {
       muda_estabelecimento: number;
       fora: number;
     };
-    diplomados?: { nota_final_media: number; n: number | null; periodo: string | null };
+    diplomados?: {
+      nota_final_media: number;
+      n: number | null;
+      periodo: string | null;
+      distribuicao: Record<string, number> | null;
+    };
+    nacionalidade?: { ano_letivo: string; inscritos: number; estrangeiros: number | null };
+    formas_ingresso?: {
+      coorte: string | null;
+      cna_1opcao: number;
+      cna_outras: number;
+      concurso_local: number;
+      mudanca_curso: number;
+      maiores_23: number;
+      outros: number;
+    };
   } | null;
   /** % de cursos do CNA com nota de corte abaixo da deste (2026, 1ª fase). */
   percentil_nota_2026?: number;

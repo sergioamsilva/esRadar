@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "L417",
  "code": "3014",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 122.5
+   }
+  ]
+ },
  "curso": "Engenharia de Software Industrial",
  "duracao": "3 Anos",
  "ects": 180,
@@ -17,6 +27,7 @@
  "minimo_provas": 95,
  "par": "3014-L417",
  "percentil_nota_2026": 30,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [
   {

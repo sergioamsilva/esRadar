@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "9205",
  "code": "3045",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 137.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 104.0
+   }
+  ]
+ },
  "curso": "Marketing",
  "desemprego_percentil": 85,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 10.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 33.3,
+    "13": 37.3,
+    "14": 19.6,
+    "15": 5.9,
+    "16": 2.0,
+    "17": 2.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 51,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 17.3,
+   "cna_outras": 22.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.9,
+   "mudanca_curso": 3.7,
+   "outros": 51.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 16,
+   "inscritos": 145
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "3045-9205",
  "pct_colocados_1opcao_2025": 42,
  "percentil_nota_2026": 2,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n09 Geografia\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -133,7 +176,7 @@
    "vagas": 44
   },
   "2019f2": {
-   "colocados": 22,
+   "colocados": 23,
    "nota_ultimo": 110.5,
    "sobras": 0,
    "vagas": 22
@@ -179,7 +222,7 @@
    "sobras": 2
   },
   "2022f1": {
-   "colocados": 44,
+   "colocados": 45,
    "nota_ultimo": 129.3,
    "sobras": 0,
    "vagas": 44
@@ -199,7 +242,7 @@
    "candidatos_1opcao": 14,
    "candidatos_homens": 80,
    "candidatos_mulheres": 144,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 2,
    "colocados_homens": 7,
    "colocados_mulheres": 32,
@@ -237,7 +280,7 @@
    "candidatos_1opcao": 18,
    "candidatos_homens": 81,
    "candidatos_mulheres": 158,
-   "colocados": 39,
+   "colocados": 40,
    "colocados_1opcao": 8,
    "colocados_homens": 12,
    "colocados_mulheres": 28,

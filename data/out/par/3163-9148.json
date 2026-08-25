@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9148",
  "code": "3163",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 115.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 119.0
+   }
+  ]
+ },
  "curso": "Gestão (regime noturno)",
  "desemprego_percentil": 54,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n086 Marketing (DL 74/2004)\n216 Contabilidade e Administração (Port. 32/2005)\n345 Profissionais de Formação Bancária (IFB)\n571 Administração e Marketing (Port. 26/2005)\n575 Contabilidade e Gestão (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n672 Contabilidade e Gestão (Port. 817/2009)\n708 Geral Bancário\n720 Técnico Comercial de Seguros\n722 Técnico Administrativo\n725 Técnico Comercial\n733 Técnico de Contabilidade e Gestão\n746 Técnico de Gestão Administrativa\n764 Técnico de Secretariado\n765 Técnico de Seguros\n784 Técnico Administrativo de Seguros\n831 Agrupamento 3 / Administração\nA13 Contabilidade e Gestão (VC) (Port. 941/2009)\nA14 Contabilidade e Gestão (VCT) (Port. 941/2009)\nA17 Marketing e Estratégia Empresarial (VC) (Port. 941/2009)\nA18 Marketing e Estratégia Empresarial (VCT) (Port. 941/2009)\nA57 Contabilidade e Gestão Empresarial (Port. 960/2009)\nA58 Administração e Marketing (Port. 960/2009)\nG05 Contabilidade e Gestão (VC) (Portaria n.º 260/2013)\nG11 Marketing e Estratégia Empresarial (VC) (Port. 260/2013)\nG18 Contabilidade e Gestão (VT) (Portaria n.º 260/2013)\nG22 Informática de Gestão (VT) (Portaria n.º 260/2013)\nG24 Marketing e Estratégia Empresarial (VT) (Port. 260/2013)\nG27 Administração e Marketing (Portaria n.º 262/2013)\nG31 Contabilidade e Gestão Empresarial (Portaria n.º 262/2013)\nG47 Contabilidade e Empreendedorismo (Portaria n.º 265/2013)\nG56 Contabilidade e Gestão (Portaria n.º 266/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH18 Contabilidade e Gestão (VT)\nH24 Marketing e Estratégia Empresarial (VT)\nH27 Administração e Marketing\nH47 Contabilidade e Empreendedorismo\nH56 Contabilidade e Gestão\nP22 Técnico de Banca e Seguros\nP31 Técnico de Contabilidade\nP51 Técnico de Gestão\nP64 Técnico de Marketing\nP93 Técnico de Vendas\nR07 Contabilidade e Administração (Port. 816/2009)\nR16 Técnico Administrativo\nS05 Assistente Comercial Bancário\nS17 Técnico de Apoio à Gestão\nS18 Técnico de Aprovisionamento e Venda de Peças\nS21 Técnico de Contabilidade\nS36 Técnico de Marketing\nS50 Técnico de Vendas\nS66 Técnico de Banca e Seguros\nT05 Técnico Comercial Bancário\nU26 Técnico de Vendas e Marketing",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 3.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 7.1,
+    "12": 38.1,
+    "13": 26.2,
+    "14": 11.9,
+    "15": 9.5,
+    "16": 4.8,
+    "17": 2.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 42,
    "nota_final_media": 13.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 13.5,
+   "cna_outras": 28.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.4,
+   "mudanca_curso": 9.5,
+   "outros": 47.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 155
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +116,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3163-9148",
- "pct_colocados_1opcao_2025": 45,
+ "pct_colocados_1opcao_2025": 42,
  "percentil_nota_2026": 24,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -147,7 +193,7 @@
    "vagas": 42
   },
   "2019f2": {
-   "colocados": 10,
+   "colocados": 12,
    "nota_ultimo": 95.0,
    "sobras": 9,
    "vagas": 21
@@ -165,7 +211,7 @@
    "vagas": 46
   },
   "2020f2": {
-   "colocados": 23,
+   "colocados": 25,
    "nota_ultimo": 102.0,
    "sobras": 3,
    "vagas": 27
@@ -215,7 +261,7 @@
    "candidatos_1opcao": 6,
    "candidatos_homens": 34,
    "candidatos_mulheres": 19,
-   "colocados": 18,
+   "colocados": 22,
    "colocados_1opcao": 6,
    "colocados_homens": 13,
    "colocados_mulheres": 9,
@@ -251,7 +297,7 @@
    "candidatos_1opcao": 4,
    "candidatos_homens": 24,
    "candidatos_mulheres": 25,
-   "colocados": 23,
+   "colocados": 24,
    "colocados_1opcao": 4,
    "colocados_homens": 11,
    "colocados_mulheres": 13,
@@ -288,7 +334,7 @@
    "candidatos_1opcao": 5,
    "candidatos_homens": 29,
    "candidatos_mulheres": 22,
-   "colocados": 11,
+   "colocados": 12,
    "colocados_1opcao": 5,
    "colocados_homens": 5,
    "colocados_mulheres": 7,

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9147",
  "code": "2920",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 2.4,
+    "12": 5.9,
+    "13": 21.2,
+    "14": 34.1,
+    "15": 17.6,
+    "16": 16.5,
+    "17": 1.2,
+    "18": 1.2,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 85,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8510.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 590.0,
+   "mudanca_curso": 400.0,
+   "outros": 500.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 37,
+   "inscritos": 197
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2920-9147",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "universitario",

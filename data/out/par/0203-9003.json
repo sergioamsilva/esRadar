@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "9003",
  "code": "0203",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 126.8
+   }
+  ]
+ },
  "curso": "Agronomia",
  "desemprego_percentil": 10,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 1.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 35.0,
+    "13": 30.0,
+    "14": 30.0,
+    "15": 5.0,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 20,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 54.1,
+   "cna_outras": 16.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.7,
+   "mudanca_curso": 8.1,
+   "outros": 18.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 74
   },
   "percentil_entrada": {
    "2020": {
@@ -75,6 +112,7 @@
  "minimo_provas": 95,
  "par": "0203-9003",
  "percentil_nota_2026": 38,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -145,7 +183,7 @@
    "vagas": 20
   },
   "2019f2": {
-   "colocados": 1,
+   "colocados": 4,
    "nota_ultimo": 102.0,
    "sobras": 15,
    "vagas": 19
@@ -214,7 +252,7 @@
    "candidatos_1opcao": 10,
    "candidatos_homens": 38,
    "candidatos_mulheres": 13,
-   "colocados": 18,
+   "colocados": 19,
    "colocados_1opcao": 10,
    "colocados_homens": 15,
    "colocados_mulheres": 4,

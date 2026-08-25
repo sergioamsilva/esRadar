@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9147",
  "code": "0904",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 154.7
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 137.2
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 144.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 176.8
+   }
+  ]
+ },
  "curso": "Gestão",
  "desemprego_percentil": 94,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 80.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.6,
+    "13": 15.2,
+    "14": 23.3,
+    "15": 27.5,
+    "16": 17.1,
+    "17": 10.0,
+    "18": 2.7,
+    "19": 70.0,
+    "20": 0.0
+   },
    "n": 673,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 83.5,
+   "cna_outras": 2.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.5,
+   "mudanca_curso": 1.9,
+   "outros": 12.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 122,
+   "inscritos": 1239
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,7 @@
  "par": "0904-9147",
  "pct_colocados_1opcao_2025": 97,
  "percentil_nota_2026": 97,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A (50%)\nou\n06 Filosofia (20%)\n19 Matemática A (30%)\nou\n07 Física e Química (20%)\n19 Matemática A (30%)\nou\n09 Geografia (20%)\n19 Matemática A (30%)\nou\n13 Inglês (20%)\n19 Matemática A (30%)\nou\n19 Matemática A (30%)\n18 Português (20%)\nou\n04 Economia (20%)\n19 Matemática A (30%)",
  "semelhantes": [
   {
@@ -243,7 +296,7 @@
    "candidatos_1opcao": 664,
    "candidatos_homens": 721,
    "candidatos_mulheres": 728,
-   "colocados": 295,
+   "colocados": 296,
    "colocados_1opcao": 283,
    "colocados_homens": 141,
    "colocados_mulheres": 155,
@@ -311,7 +364,7 @@
    "sobras": 0
   },
   "2026f1": {
-   "colocados": 295,
+   "colocados": 298,
    "nota_ultimo": 176.8,
    "sobras": 0,
    "vagas": 295

@@ -1,14 +1,39 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "640",
  "cnaef_nome": "Ciências Veterinárias",
  "codc": "8086",
  "code": "0140",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 156.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 171.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 135.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 171.0
+   }
+  ]
+ },
  "curso": "Medicina Veterinária (Preparatórios)",
  "duracao": "4 Semestres",
  "ects": null,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. AçoresObservaçõesAo abrigo do convénio existente entre a Universidade dos Açores e a Universidade de Trás-os-Montes e Alto Douro (UTAD), são ministrados na Universidade dos Açores os dois primeiros anos do curso conducente ao grau de mestre em Medicina Veterinária pela UTAD. Os alunos que concluírem com aproveitamento os dois primeiros anos do curso na Universidade dos Açores prosseguem estudos naquela Instituição, ingressando no 3.º ano do curso.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Preparatórios de Mestrado Integrado",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -19,6 +44,20 @@
    "muda_curso": 2.6,
    "muda_estabelecimento": 2.6,
    "novos_inscritos": 38
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 53.3,
+   "cna_outras": 28.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 6.7,
+   "outros": 11.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 45
   },
   "percentil_entrada": {
    "2020": {
@@ -65,6 +104,10 @@
  "par": "0140-8086",
  "pct_colocados_1opcao_2025": 55,
  "percentil_nota_2026": 94,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {

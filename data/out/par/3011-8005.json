@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "8005",
  "code": "3011",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 143.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 125.5
+   }
+  ]
+ },
  "curso": "Marketing (regime pós-laboral)",
  "desemprego_percentil": 48,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 3.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.4,
+    "13": 17.2,
+    "14": 34.5,
+    "15": 31.0,
+    "16": 10.3,
+    "17": 3.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 29,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 10.5,
+   "cna_outras": 26.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 13.2,
+   "mudanca_curso": 0,
+   "outros": 50.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 74
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +116,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3011-8005",
- "pct_colocados_1opcao_2025": 25,
+ "pct_colocados_1opcao_2025": 22,
  "percentil_nota_2026": 36,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 20
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -282,7 +328,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 15,
    "candidatos_mulheres": 18,
-   "colocados": 8,
+   "colocados": 9,
    "colocados_1opcao": 2,
    "colocados_homens": 5,
    "colocados_mulheres": 4,
@@ -315,7 +361,7 @@
    "vagas": 11
   },
   "2026f1": {
-   "colocados": 20,
+   "colocados": 21,
    "nota_ultimo": 125.5,
    "sobras": 0,
    "vagas": 20

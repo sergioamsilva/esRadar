@@ -1,14 +1,39 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "0150",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 155.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 132.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 140.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 143.8
+   }
+  ]
+ },
  "curso": "Educação Básica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -21,9 +46,36 @@
    "novos_inscritos": 57
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 9.8,
+    "14": 36.6,
+    "15": 34.1,
+    "16": 19.5,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 41,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 67.2,
+   "cna_outras": 1.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.6,
+   "mudanca_curso": 8.6,
+   "outros": 13.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 101
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +122,10 @@
  "par": "0150-9853",
  "pct_colocados_1opcao_2025": 85,
  "percentil_nota_2026": 66,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -301,7 +357,7 @@
    "sobras": 0
   },
   "2026f1": {
-   "colocados": 28,
+   "colocados": 29,
    "nota_ultimo": 143.8,
    "sobras": 0,
    "vagas": 28

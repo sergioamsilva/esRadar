@@ -1,15 +1,17 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "811",
  "cnaef_nome": "Hotelaria e Restauração",
  "codc": "9484",
  "code": "3095",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Restauração e Catering",
  "desemprego_percentil": 66,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Viana do Castelo, Vila Real, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n677 Turismo Cultural e Ambiental (Port. 817/2009)\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n727 Técnico de Alimentação e Bebidas\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG12 Património e Turismo (VC) (Portaria n.º 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG54 Turismo Cultural e Recreativo (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP77 Técnico de Receção\nP81 Técnico de Restauração\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR17 Técnico em Animação de Turismo\nR39 Rececionista de Hotel\nR76 Técnico de Indústrias Alimentares\nR77 Técnico de Informação e Animação Turística\nS54 Técnicas de Cozinha/Pastelaria (Portaria n.º 57/2009)\nS55 Técnicas de Serviço de Restauração e Bebidas (Port 57/2009)\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS58 Restaurante/Bar (Portaria n.º 846/2007)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS67 Técnico de Cozinha/Pastelaria\nS78 Técnico de Restaurante/Bar\nS85 Técnico de Cozinha Pastelaria (Portaria n.º 102/2020)\nS86 Técnico de Restaurante Bar (Portaria n.º 102/2020)\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nT01 Acompanhante de Turismo Equestre\nT10 Técnico de Controlo de Qualidade Alimentar\nT28 Técnico de Informação e Animação Turística\nT40 Técnico de Organização de Eventos\nT52 Técnico de Turismo Ambiental e Rural\nU16 Técnico de Restaurante/Bar\nU17 Técnico de Receção Hoteleira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -27,9 +29,36 @@
    "taxa": 5.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 28.6,
+    "15": 71.4,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 7,
    "nota_final_media": 14.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 4440.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 560.0,
+   "mudanca_curso": 0,
+   "outros": 5000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 18,
+   "inscritos": 38
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -42,6 +71,10 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3095-9484",
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Viana do Castelo, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n13 Inglês\n18 Português",
  "semelhantes": [
   {
@@ -98,7 +131,7 @@
    "vagas": 26
   },
   "2019f2": {
-   "colocados": 1,
+   "colocados": 2,
    "nota_ultimo": 101.0,
    "sobras": 21,
    "vagas": 22

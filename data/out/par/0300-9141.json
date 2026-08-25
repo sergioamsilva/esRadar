@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "441",
  "cnaef_nome": "Física",
  "codc": "9141",
  "code": "0300",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 158.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 132.0
+   }
+  ]
+ },
  "curso": "Física",
  "desemprego_percentil": 32,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 2.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 6.5,
+    "12": 29.0,
+    "13": 25.8,
+    "14": 16.1,
+    "15": 3.2,
+    "16": 6.5,
+    "17": 6.5,
+    "18": 6.5,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 31,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 70.8,
+   "cna_outras": 12.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 16.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 45
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "0300-9141",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 46,
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

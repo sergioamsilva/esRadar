@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 5,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9016",
  "code": "3154",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 128.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 126.5
+   }
+  ]
+ },
  "curso": "Biotecnologia",
  "desemprego_percentil": 72,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Beja, Évora, Lisboa, Portalegre, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 5%\nCursos com acesso preferencial:\n178 DIDÁXIS - Química e Controlo de Qualidade (DL 286/89)\n572 Análises Químico-Biológicas (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n668 Química Industrial e Ambiental (Port. 49/2005)\n678 Química Industrial e Ambiental (Port. 817/2009)\n726 Técnico da Qualidade\n743 Técnico de Fabrico de Produtos Lácteos\n745 Técnico de Laboratório - Fundição\n755 Técnico de Laboratório\n769 Técnico de Transformação de Produtos Alimentares\n771 Técnico Florestal\n792 Técnico Instalador de Sistemas de Bioenergia\n815 Agrupamento 1 / Química\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA03 Biotecnologia (VC) (Port. 941/2009)\nA04 Biotecnologia (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG04 Biotecnologia (VC) (Portaria n.º 260/2013)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG38 Tecnologias da Saúde (Portaria n.º 262/2013)\nG44 Biotecnologia Aplicada (Portaria n.º 265/2013)\nG53 Química Industrial e Laboratorial (Portaria n.º 265/2013)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG73 Colégio de Gaia - Cursos do DL 286/89\nG75 Colégio de S. Gonçalo - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nP11 Técnico Auxiliar de Saúde\nP16 Técnico de Análise Laboratorial\nP55 Técnico de Gestão do Ambiente\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP72 Técnico de Produção Agrária\nP76 Técnico de Química Industrial\nP79 Técnico de Recursos Florestais e Ambientais\nP89 Técnico de Transformação de Polímeros/Processos de Produção\nP96 Técnico de Viticultura e Enologia\nS62 Técnico Auxiliar de Saúde\nT07 Técnico de Análise Laboratorial\nT10 Técnico de Controlo de Qualidade Alimentar\nT27 Técnico de Gestão do Ambiente\nT42 Técnico de Produção Agrária\nT46 Técnico de Química Industrial\nT47 Técnico de Recursos Florestais e Ambientais\nT50 Técnico de Transformação de Polímeros/Processos de Produção",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 5.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.8,
+    "13": 22.5,
+    "14": 32.5,
+    "15": 22.5,
+    "16": 12.5,
+    "17": 3.8,
+    "18": 2.5,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 80,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 54.5,
+   "cna_outras": 15.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.0,
+   "mudanca_curso": 4.0,
+   "outros": 23.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 29,
+   "inscritos": 207
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3154-9016",
  "pct_colocados_1opcao_2025": 71,
  "percentil_nota_2026": 37,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Lisboa, Portalegre, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 25
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -163,7 +209,7 @@
    "vagas": 59
   },
   "2020f2": {
-   "colocados": 18,
+   "colocados": 19,
    "nota_ultimo": 130.2,
    "sobras": 0,
    "vagas": 12

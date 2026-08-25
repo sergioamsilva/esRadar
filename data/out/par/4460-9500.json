@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "4460",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Enfermagem",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -26,9 +28,36 @@
    "taxa": 60.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.9,
+    "13": 7.4,
+    "14": 20.4,
+    "15": 31.5,
+    "16": 33.3,
+    "17": 5.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 54,
    "nota_final_media": 15.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6180.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1030.0,
+   "mudanca_curso": 0,
+   "outros": 2790.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 181
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4460-9500",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n13 Inglês\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "series": {},
  "subsistema": "politecnico",

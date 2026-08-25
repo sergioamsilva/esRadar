@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "312",
  "cnaef_nome": "Sociologia e Outros Estudos",
  "codc": "9240",
  "code": "0400",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 135.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 127.5
+   }
+  ]
+ },
  "curso": "Sociologia",
  "desemprego_percentil": 60,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 4.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 12.3,
+    "13": 26.3,
+    "14": 36.8,
+    "15": 17.5,
+    "16": 5.3,
+    "17": 1.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 57,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 24.7,
+   "cna_outras": 40.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.1,
+   "mudanca_curso": 1.0,
+   "outros": 30.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 21,
+   "inscritos": 151
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "0400-9240",
  "pct_colocados_1opcao_2025": 40,
  "percentil_nota_2026": 39,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n09 Geografia\nou\n09 Geografia\n18 Português\nou\n11 História\n13 Inglês\nou\n09 Geografia\n13 Inglês\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -194,7 +237,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 45,
+   "colocados": 46,
    "nota_ultimo": 139.1,
    "sobras": 0,
    "vagas": 45
@@ -216,7 +259,7 @@
    "candidatos_1opcao": 19,
    "candidatos_homens": 53,
    "candidatos_mulheres": 118,
-   "colocados": 46,
+   "colocados": 47,
    "colocados_1opcao": 9,
    "colocados_homens": 17,
    "colocados_mulheres": 30,
@@ -270,7 +313,7 @@
    "candidatos_1opcao": 13,
    "candidatos_homens": 19,
    "candidatos_mulheres": 47,
-   "colocados": 11,
+   "colocados": 12,
    "colocados_1opcao": 4,
    "colocados_homens": 5,
    "colocados_mulheres": 7,
@@ -326,7 +369,7 @@
    "vagas": 4
   },
   "2026f1": {
-   "colocados": 47,
+   "colocados": 48,
    "nota_ultimo": 127.5,
    "sobras": 0,
    "vagas": 47

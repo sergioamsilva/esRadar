@@ -22,6 +22,19 @@ def test_ultimos_colocados() -> None:
     assert all(0 <= r["nota_ultimo"] <= 200 for r in registos)
 
 
+def test_etapas() -> None:
+    html = (FIXTURES / "col1listamintp_0300.html").read_bytes().decode("windows-1252")
+    etapas = coloc.parse_etapas(html)
+    assert len(etapas) > 30, f"só {len(etapas)} cursos com etapas"
+    adm = etapas["9002"]
+    geral = next(e for e in adm if e["nome"] == "Contingente geral")
+    assert geral["etapa"] == 17 and geral["nota"] == 145.5
+    ase = next(e for e in adm if "ASE" in e["nome"])
+    assert ase["nota"] == 144.0
+    for lista in etapas.values():
+        assert all(0 <= e["nota"] <= 200 for e in lista)
+
+
 def main() -> None:
     for nome, teste in sorted(globals().items()):
         if nome.startswith("test_"):

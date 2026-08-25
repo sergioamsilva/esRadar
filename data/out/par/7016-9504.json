@@ -1,14 +1,44 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "9504",
  "code": "7016",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 142.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 149.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 136.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 120.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 156.5
+   }
+  ]
+ },
  "curso": "Fisioterapia",
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -26,6 +56,10 @@
  "par": "7016-9504",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 82,
+ "preferencia_regional": {
+  "area_influencia": "Bragança, Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português",
  "semelhantes": [
   {

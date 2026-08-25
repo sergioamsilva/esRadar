@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "8417",
  "code": "3032",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 136.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 131.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 111.0
+   }
+  ]
+ },
  "curso": "Engenharia de Sistemas Informáticos (regime pós-laboral)",
  "desemprego_percentil": 48,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n082 Informática (DL 74/2004)\n578 Informática (Port. 26/2005)\n582 Informática de Gestão (T) -Port. 38/2005\n997 Informática (INA) (Port. 37/2005)\nA51 Tecnologias e Sistemas de Informação (Port. 960/2009)\nA56 Informática e Tecnologias Multimédia (Port. 960/2009)\nG35 Informática e Tecnologias Multimédia (Portaria n.º 262/2013)\nG39 Tecnologias e Sistemas de Informação (Portaria n.º 262/2013)\nG65 Informática de Gestão (Portaria n.º 263/2013)\nH39 Tecnologias e Sistemas de Informação\nH50 Informática Aplicada à Web\nP53 Técnico de Gestão de Equipamentos Informáticos\nP56 Técnico de Gestão e Programação de Sistemas Informáticos\nP59 Técnico de Informática de Gestão\nR25 Técnico de Informática - Sistemas\nR79 Técnico de Informática - Instalação e Gestão de Redes",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 3.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 10.9,
+    "13": 27.3,
+    "14": 32.7,
+    "15": 18.2,
+    "16": 9.1,
+    "17": 1.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 55,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 26.9,
+   "cna_outras": 41.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.7,
+   "mudanca_curso": 3.8,
+   "outros": 20.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 26,
+   "inscritos": 229
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3032-8417",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 9,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -243,7 +294,7 @@
    "candidatos_1opcao": 17,
    "candidatos_homens": 104,
    "candidatos_mulheres": 4,
-   "colocados": 32,
+   "colocados": 33,
    "colocados_1opcao": 11,
    "colocados_homens": 31,
    "colocados_mulheres": 2,

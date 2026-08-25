@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "811",
  "cnaef_nome": "Hotelaria e Restauração",
  "codc": "9076",
  "code": "3046",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 115.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 110.5
+   }
+  ]
+ },
  "curso": "Direção e Gestão Hoteleira",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -19,6 +34,20 @@
    "muda_curso": 6.7,
    "muda_estabelecimento": 0,
    "novos_inscritos": 15
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 10.3,
+   "cna_outras": 12.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 30.8,
+   "mudanca_curso": 2.6,
+   "outros": 43.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 36
   },
   "percentil_entrada": {
    "2023": {
@@ -50,6 +79,10 @@
  "par": "3046-9076",
  "pct_colocados_1opcao_2025": 27,
  "percentil_nota_2026": 9,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -139,7 +172,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 21,
    "candidatos_mulheres": 46,
-   "colocados": 9,
+   "colocados": 10,
    "colocados_1opcao": 2,
    "colocados_homens": 2,
    "colocados_mulheres": 8,

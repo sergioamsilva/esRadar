@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "313",
  "cnaef_nome": "Ciência Política e Cidadania",
  "codc": "8378",
  "code": "2920",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Estudos Europeus, Estudos Lusófonos e Relações Internacionais",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 54
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 10.7,
+    "13": 28.6,
+    "14": 42.9,
+    "15": 7.1,
+    "16": 10.7,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 28,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9000.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 250.0,
+   "mudanca_curso": 250.0,
+   "outros": 500.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 28,
+   "inscritos": 91
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2920-8378",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n11 História\nou\n11 História\n18 Português\nou\n06 Filosofia\n18 Português",
  "series": {},
  "subsistema": "universitario",

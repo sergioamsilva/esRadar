@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9002",
  "code": "0300",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 144.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 145.5
+   }
+  ]
+ },
  "curso": "Administração Pública",
  "desemprego_percentil": 47,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 3.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 13.9,
+    "13": 40.7,
+    "14": 29.6,
+    "15": 8.3,
+    "16": 3.7,
+    "17": 3.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 108,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 35.9,
+   "cna_outras": 20.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.9,
+   "mudanca_curso": 7.0,
+   "outros": 32.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 210
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "0300-9002",
  "pct_colocados_1opcao_2025": 51,
  "percentil_nota_2026": 68,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -217,7 +260,7 @@
    "candidatos_1opcao": 59,
    "candidatos_homens": 134,
    "candidatos_mulheres": 274,
-   "colocados": 54,
+   "colocados": 56,
    "colocados_1opcao": 18,
    "colocados_homens": 20,
    "colocados_mulheres": 36,
@@ -255,7 +298,7 @@
    "candidatos_1opcao": 63,
    "candidatos_homens": 112,
    "candidatos_mulheres": 283,
-   "colocados": 55,
+   "colocados": 56,
    "colocados_1opcao": 21,
    "colocados_homens": 17,
    "colocados_mulheres": 39,

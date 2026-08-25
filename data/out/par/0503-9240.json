@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "312",
  "cnaef_nome": "Sociologia e Outros Estudos",
  "codc": "9240",
  "code": "0503",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 138.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 143.2
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 142.5
+   }
+  ]
+ },
  "curso": "Sociologia",
  "desemprego_percentil": 49,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 3.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.8,
+    "13": 29.4,
+    "14": 33.3,
+    "15": 15.7,
+    "16": 7.8,
+    "17": 3.9,
+    "18": 2.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 51,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 31.5,
+   "cna_outras": 26.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.1,
+   "mudanca_curso": 9.8,
+   "outros": 31.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 45,
+   "inscritos": 182
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "0503-9240",
  "pct_colocados_1opcao_2025": 48,
  "percentil_nota_2026": 63,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português (50%)\nou\n11 História (50%)\nou\n09 Geografia (20%)\n18 Português (30%)\nou\n11 História (20%)\n18 Português (30%)\nou\n19 Matemática A (20%)\n18 Português (30%)\nou\n04 Economia (20%)\n18 Português (30%)\nou\n06 Filosofia (20%)\n18 Português (30%)",
  "semelhantes": [
   {
@@ -165,7 +213,7 @@
    "vagas": 46
   },
   "2020f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 148.0,
    "sobras": 0,
    "vagas": 6

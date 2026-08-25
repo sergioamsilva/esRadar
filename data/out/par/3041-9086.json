@@ -1,15 +1,17 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "9086",
  "code": "3041",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Engenharia Agronómica",
  "desemprego_percentil": 65,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n727 Técnico de Alimentação e Bebidas\n747 Técnico de Gestão Agrícola\n779 Técnico Topógrafo\n780 Técnico Vitivinícola\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP61 Técnico de Jardinagem e Espaços Verdes\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP72 Técnico de Produção Agrária\nP96 Técnico de Viticultura e Enologia\nS13 Técnico Agrícola\nS43 Técnico de Produção Agropecuária\nT32 Técnico de Jardinagem e Espaços Verdes\nT42 Técnico de Produção Agrária",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +29,36 @@
    "taxa": 4.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 28.3,
+    "12": 21.7,
+    "13": 21.7,
+    "14": 17.4,
+    "15": 6.5,
+    "16": 4.3,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 46,
    "nota_final_media": 12.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 670.0,
+   "mudanca_curso": 330.0,
+   "outros": 9000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 50,
+   "inscritos": 99
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -42,6 +71,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3041-9086",
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

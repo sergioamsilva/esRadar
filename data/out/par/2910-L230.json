@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "214",
  "cnaef_nome": "Design",
  "codc": "L230",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Design e Produção de Moda",
  "duracao": "3 Anos",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 70
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 4.2,
+    "13": 12.5,
+    "14": 12.5,
+    "15": 33.3,
+    "16": 16.7,
+    "17": 20.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 24,
    "nota_final_media": 15.1,
    "periodo": "2023/24_"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8900.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 140.0,
+   "mudanca_curso": 680.0,
+   "outros": 270.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 22,
+   "inscritos": 132
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-L230",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n17 Mat. Apl. Ciências Soc.\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n11 História",
  "series": {},
  "subsistema": "universitario",

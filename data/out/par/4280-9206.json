@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "9206",
  "code": "4280",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Marketing e Publicidade",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 5.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.8,
+    "13": 16.5,
+    "14": 30.4,
+    "15": 31.6,
+    "16": 12.7,
+    "17": 5.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 79,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6500.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 670.0,
+   "mudanca_curso": 830.0,
+   "outros": 2000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 21,
+   "inscritos": 126
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4280-9206",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,15 +1,25 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "314",
  "cnaef_nome": "Economia",
  "codc": "9785",
  "code": "3143",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 164.0
+   }
+  ]
+ },
  "curso": "Negócios Internacionais",
  "desemprego_percentil": 60,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n216 Contabilidade e Administração (Port. 32/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n722 Técnico Administrativo\n831 Agrupamento 3 / Administração\nG76 Colégio de S. Miguel - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": {
@@ -27,9 +37,36 @@
    "taxa": 4.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 12.2,
+    "13": 51.2,
+    "14": 14.6,
+    "15": 19.5,
+    "16": 2.4,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 41,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 44.0,
+   "cna_outras": 14.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.2,
+   "mudanca_curso": 1.1,
+   "outros": 38.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 26,
+   "inscritos": 150
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -43,6 +80,10 @@
  "minimo_provas": 95,
  "par": "3143-9785",
  "pct_colocados_1opcao_2025": 100,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -109,7 +150,7 @@
    "vagas": 40
   },
   "2020f2": {
-   "colocados": 18,
+   "colocados": 20,
    "nota_ultimo": 116.3,
    "sobras": 0,
    "vagas": 15
@@ -135,13 +176,13 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 45,
+   "colocados": 48,
    "nota_ultimo": 123.4,
    "sobras": 0,
    "vagas": 45
   },
   "2022f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 134.6,
    "sobras": 0,
    "vagas": 4
@@ -155,7 +196,7 @@
    "candidatos_1opcao": 26,
    "candidatos_homens": 113,
    "candidatos_mulheres": 93,
-   "colocados": 45,
+   "colocados": 47,
    "colocados_1opcao": 22,
    "colocados_homens": 28,
    "colocados_mulheres": 19,

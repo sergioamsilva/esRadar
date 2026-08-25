@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "9129",
  "code": "3185",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Engenharia Zootécnica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n728 Técnico de Aquicultura\n743 Técnico de Fabrico de Produtos Lácteos\n747 Técnico de Gestão Agrícola\n750 Técnico de Gestão Pecuária\n769 Técnico de Transformação de Produtos Alimentares\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
  "infocursos": {
@@ -21,9 +23,36 @@
    "novos_inscritos": 27
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 8.3,
+    "13": 33.3,
+    "14": 41.7,
+    "15": 16.7,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 12,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 16.7,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 22.2,
+   "mudanca_curso": 0,
+   "outros": 61.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 31
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -37,6 +66,10 @@
  "minimo_provas": 95,
  "par": "3185-9129",
  "pct_colocados_1opcao_2025": 100,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

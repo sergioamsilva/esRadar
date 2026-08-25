@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9876",
  "code": "3151",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 114.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 116.3
+   }
+  ]
+ },
  "curso": "Educação Básica (regime pós-laboral)",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Lisboa, Santarém, Setúbal",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": null,
@@ -17,6 +32,10 @@
  "minimo_provas": 95,
  "par": "3151-9876",
  "percentil_nota_2026": 20,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Lisboa, Santarém, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português",
  "semelhantes": [
   {
@@ -64,7 +83,7 @@
  ],
  "series": {
   "2026f1": {
-   "colocados": 17,
+   "colocados": 19,
    "nota_ultimo": 116.3,
    "sobras": 1,
    "vagas": 20

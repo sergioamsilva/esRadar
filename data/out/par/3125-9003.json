@@ -1,14 +1,24 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "9003",
  "code": "3125",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 124.3
+   }
+  ]
+ },
  "curso": "Agronomia",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Évora, PortalegreOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n747 Técnico de Gestão Agrícola\n750 Técnico de Gestão Pecuária\n769 Técnico de Transformação de Produtos Alimentares\n771 Técnico Florestal\n780 Técnico Vitivinícola\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP61 Técnico de Jardinagem e Espaços Verdes\nP72 Técnico de Produção Agrária\nP79 Técnico de Recursos Florestais e Ambientais\nP92 Técnico de Turismo Ambiental e Rural\nP96 Técnico de Viticultura e Enologia\nR18 Técnico Vitivinícola\nR22 Técnico de Produção Agropecuária\nR76 Técnico de Indústrias Alimentares\nS13 Técnico Agrícola\nS43 Técnico de Produção Agropecuária\nS69 Técnico de Máquinas Florestais\nT25 Técnico de Gestão da Produção da Indústria da Cortiça\nT32 Técnico de Jardinagem e Espaços Verdes\nT42 Técnico de Produção Agrária\nT47 Técnico de Recursos Florestais e Ambientais\nT52 Técnico de Turismo Ambiental e Rural",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
  "infocursos": {
@@ -21,9 +31,36 @@
    "novos_inscritos": 72
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 6.5,
+    "12": 16.1,
+    "13": 32.3,
+    "14": 19.4,
+    "15": 19.4,
+    "16": 0.0,
+    "17": 3.2,
+    "18": 3.2,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 31,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 17.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 37.7,
+   "mudanca_curso": 1.9,
+   "outros": 43.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 11,
+   "inscritos": 107
   },
   "percentil_entrada": {
    "2020": {
@@ -68,6 +105,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3125-9003",
+ "preferencia_regional": {
+  "area_influencia": "Évora, Portalegre",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português",
  "semelhantes": [
   {

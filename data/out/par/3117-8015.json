@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "8015",
  "code": "3117",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 134.0
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 127.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 138.5
+   }
+  ]
+ },
  "curso": "Solicitadoria (regime pós-laboral)",
  "desemprego_percentil": 22,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 2.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 13.3,
+    "12": 29.3,
+    "13": 32.0,
+    "14": 13.3,
+    "15": 10.7,
+    "16": 1.3,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 75,
    "nota_final_media": 12.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 13.7,
+   "cna_outras": 16.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 19.4,
+   "mudanca_curso": 1.6,
+   "outros": 48.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 17,
+   "inscritos": 211
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "3117-8015",
  "pct_colocados_1opcao_2025": 18,
  "percentil_nota_2026": 56,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n11 História\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -145,7 +193,7 @@
    "vagas": 52
   },
   "2019f2": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 138.0,
    "sobras": 0,
    "vagas": 11
@@ -161,7 +209,7 @@
    "vagas": 70
   },
   "2020f2": {
-   "colocados": 19,
+   "colocados": 21,
    "nota_ultimo": 140.2,
    "sobras": 0,
    "vagas": 13
@@ -187,7 +235,7 @@
    "sobras": 2
   },
   "2022f1": {
-   "colocados": 52,
+   "colocados": 53,
    "nota_ultimo": 142.0,
    "sobras": 0,
    "vagas": 52
@@ -207,7 +255,7 @@
    "candidatos_1opcao": 32,
    "candidatos_homens": 86,
    "candidatos_mulheres": 154,
-   "colocados": 50,
+   "colocados": 51,
    "colocados_1opcao": 9,
    "colocados_homens": 19,
    "colocados_mulheres": 32,
@@ -295,7 +343,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 19,
    "candidatos_mulheres": 45,
-   "colocados": 21,
+   "colocados": 22,
    "colocados_1opcao": 6,
    "colocados_homens": 6,
    "colocados_mulheres": 16,
@@ -313,7 +361,7 @@
    "vagas": 5
   },
   "2026f1": {
-   "colocados": 48,
+   "colocados": 49,
    "nota_ultimo": 138.5,
    "sobras": 0,
    "vagas": 48

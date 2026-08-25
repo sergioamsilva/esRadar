@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "443",
  "cnaef_nome": "Ciências da Terra",
  "codc": "L096",
  "code": "1103",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 120.0
+   }
+  ]
+ },
  "curso": "Engenharia Geoespacial",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +31,36 @@
    "novos_inscritos": 14
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.1,
+    "13": 55.6,
+    "14": 22.2,
+    "15": 11.1,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 13.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 55.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 5.0,
+   "outros": 40.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 35
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +107,7 @@
  "par": "1103-L096",
  "pct_colocados_1opcao_2025": 57,
  "percentil_nota_2026": 26,
+ "preferencia_regional": null,
  "provas_ingresso": "19 Matemática A\ne\nUma das seguintes provas:\n02 Biologia e Geologia\n07 Física e Química\n10 Geometria Descritiva\n18 Português",
  "semelhantes": [
   {

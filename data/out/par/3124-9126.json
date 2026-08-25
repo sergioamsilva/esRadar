@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9126",
  "code": "3124",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Engenharia Química e Biológica",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Lisboa, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n572 Análises Químico-Biológicas (Port. 26/2005)\n668 Química Industrial e Ambiental (Port. 49/2005)\n678 Química Industrial e Ambiental (Port. 817/2009)\n726 Técnico da Qualidade\n728 Técnico de Aquicultura\n747 Técnico de Gestão Agrícola\n748 Técnico de Gestão de Energia\n750 Técnico de Gestão Pecuária\n754 Técnico de Instrumentação\n755 Técnico de Laboratório\n771 Técnico Florestal\n780 Técnico Vitivinícola\n785 Técnico de Manutenção Industrial (Mecatrónica)\n792 Técnico Instalador de Sistemas de Bioenergia\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA04 Biotecnologia (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG04 Biotecnologia (VC) (Portaria n.º 260/2013)\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG36 Produção Controlo Industrial (Portaria n.º 262/2013)\nG44 Biotecnologia Aplicada (Portaria n.º 265/2013)\nG53 Química Industrial e Laboratorial (Portaria n.º 265/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP16 Técnico de Análise Laboratorial\nP47 Técnico de Energias Renováveis\nP55 Técnico de Gestão do Ambiente\nP72 Técnico de Produção Agrária\nP76 Técnico de Química Industrial\nP79 Técnico de Recursos Florestais e Ambientais\nS43 Técnico de Produção Agropecuária\nT07 Técnico de Análise Laboratorial\nT27 Técnico de Gestão do Ambiente\nT42 Técnico de Produção Agrária\nT46 Técnico de Química Industrial\nT47 Técnico de Recursos Florestais e Ambientais",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
  "infocursos": null,
@@ -16,6 +18,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3124-9126",
+ "preferencia_regional": {
+  "area_influencia": "Beja, Castelo Branco, Évora, Guarda, Lisboa, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

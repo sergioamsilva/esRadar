@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "520",
  "cnaef_nome": "Engenharia e Técnicas Afins",
  "codc": "L225",
  "code": "4292",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Engenharia e Gestão da Produção de Moldes",
  "duracao": "3 Anos",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 12
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 20.0,
+    "15": 60.0,
+    "16": 20.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 5,
    "nota_final_media": 15.0,
    "periodo": "2023/24_"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 5000.0,
+   "outros": 5000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 12
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4292-L225",
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "series": {},
  "subsistema": "politecnico",

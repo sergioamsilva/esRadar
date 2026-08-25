@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "211",
  "cnaef_nome": "Belas-Artes",
  "codc": "9898",
  "code": "3042",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 141.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 136.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 119.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 145.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 122.5
+   }
+  ]
+ },
  "curso": "Arte e Design",
  "desemprego_percentil": 76,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n083 Design de Equipamento (DL 74/2004)\n218 Design, Cerâmica e Escultura (Port. 32/2005)\n594 Produção Gráfica (Port. 33/2005)\n821 Agrupamento 2 / Design\n822 Agrupamento 2 / Artes e Ofícios\n978 Recorrente - Design de Equipamento (DL 74/2004)\nC72 Design de Produto\nG02 Artes Gráficas (VC) (Portaria n.º 260/2013)\nG57 Design, Cerâmica e Escultura (Portaria n.º 266/2013)\nG61 Produção Gráfica (Portaria n.º 267/2013)\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nP20 Técnico de Artes Gráficas\nP37 Técnico de Design\nR08 Design, Cerâmica e Escultura (Port. 816/2009)\nS12 Técnico de Pintura Cerâmica\nS73 Técnico de Pintura Decorativa",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 6.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 2.2,
+    "13": 16.9,
+    "14": 33.7,
+    "15": 31.5,
+    "16": 11.2,
+    "17": 4.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 89,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 40.3,
+   "cna_outras": 13.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.8,
+   "mudanca_curso": 2.4,
+   "outros": 42.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 75,
+   "inscritos": 255
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +131,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3042-9898",
- "pct_colocados_1opcao_2025": 64,
+ "pct_colocados_1opcao_2025": 63,
  "percentil_nota_2026": 30,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português",
  "semelhantes": [
   {
@@ -180,7 +241,7 @@
    "vagas": 61
   },
   "2022f2": {
-   "colocados": 22,
+   "colocados": 24,
    "nota_ultimo": 119.6,
    "sobras": 0,
    "vagas": 16
@@ -234,7 +295,7 @@
    "candidatos_1opcao": 23,
    "candidatos_homens": 44,
    "candidatos_mulheres": 139,
-   "colocados": 55,
+   "colocados": 56,
    "colocados_1opcao": 20,
    "colocados_homens": 16,
    "colocados_mulheres": 40,
@@ -250,7 +311,7 @@
    "candidatos_1opcao": 13,
    "candidatos_homens": 19,
    "candidatos_mulheres": 54,
-   "colocados": 9,
+   "colocados": 10,
    "colocados_1opcao": 3,
    "colocados_homens": 0,
    "colocados_mulheres": 10,
@@ -270,7 +331,7 @@
    "candidatos_1opcao": 27,
    "candidatos_homens": 47,
    "candidatos_mulheres": 114,
-   "colocados": 42,
+   "colocados": 43,
    "colocados_1opcao": 27,
    "colocados_homens": 14,
    "colocados_mulheres": 29,

@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "211",
  "cnaef_nome": "Belas-Artes",
  "codc": "L010",
  "code": "1502",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 146.5
+   }
+  ]
+ },
  "curso": "Ciências da Arte e do Património",
  "desemprego_percentil": 57,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 4.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 1.9,
+    "14": 9.4,
+    "15": 28.3,
+    "16": 45.3,
+    "17": 13.2,
+    "18": 1.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 53,
    "nota_final_media": 15.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 62.5,
+   "cna_outras": 12.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.6,
+   "mudanca_curso": 3.1,
+   "outros": 20.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 89
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "1502-L010",
  "pct_colocados_1opcao_2025": 77,
  "percentil_nota_2026": 69,
+ "preferencia_regional": null,
  "provas_ingresso": "03 Desenho\n12 Hist. da Cultura e Artes",
  "semelhantes": [
   {
@@ -317,7 +355,7 @@
    "sobras": 0
   },
   "2026f1": {
-   "colocados": 25,
+   "colocados": 26,
    "nota_ultimo": 146.5,
    "sobras": 0,
    "vagas": 25

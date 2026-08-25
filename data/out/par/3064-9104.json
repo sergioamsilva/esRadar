@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "529",
  "cnaef_nome": "Engenharia e Técnicas Afins - programas não classificados noutra área de formação",
  "codc": "9104",
  "code": "3064",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 123.8
+   }
+  ]
+ },
  "curso": "Engenharia e Gestão Industrial",
  "desemprego_percentil": 65,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 4.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.8,
+    "12": 16.1,
+    "13": 44.6,
+    "14": 25.0,
+    "15": 12.5,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 56,
    "nota_final_media": 13.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 20.0,
+   "cna_outras": 28.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 1.7,
+   "outros": 50.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 17,
+   "inscritos": 137
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "3064-9104",
  "pct_colocados_1opcao_2025": 24,
  "percentil_nota_2026": 33,
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

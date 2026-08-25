@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "321",
  "cnaef_nome": "Jornalismo e Reportagem",
  "codc": "L337",
  "code": "4298",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Comunicação Global",
  "duracao": "3 Anos",
  "ects": 180,
@@ -12,6 +14,20 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "ISEC Lisboa",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 2670.0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 7330.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 30
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 10,
@@ -23,6 +39,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4298-L337",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "politecnico",

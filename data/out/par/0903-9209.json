@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "461",
  "cnaef_nome": "Matemática",
  "codc": "9209",
  "code": "0903",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 183.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 156.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 128.9
+   }
+  ]
+ },
  "curso": "Matemática",
  "desemprego_percentil": 96,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 90.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 10.0,
+    "13": 25.0,
+    "14": 20.0,
+    "15": 30.0,
+    "16": 10.0,
+    "17": 2.5,
+    "18": 2.5,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 40,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 71.4,
+   "cna_outras": 16.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 2.0,
+   "outros": 10.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 92
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "0903-9209",
  "pct_colocados_1opcao_2025": 68,
  "percentil_nota_2026": 41,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A (50%)\nou\n02 Biologia e Geologia (20%)\n19 Matemática A (30%)\nou\n19 Matemática A (30%)\n18 Português (20%)\nou\n07 Física e Química (20%)\n19 Matemática A (30%)",
  "semelhantes": [
   {

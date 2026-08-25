@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9254",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 134.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 115.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 138.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 117.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 127.0
+   }
+  ]
+ },
  "curso": "Turismo",
  "desemprego_percentil": 42,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Vila RealOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n780 Técnico Vitivinícola\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP77 Técnico de Receção\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR17 Técnico em Animação de Turismo\nR77 Técnico de Informação e Animação Turística\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS78 Técnico de Restaurante/Bar\nS86 Técnico de Restaurante Bar (Portaria n.º 102/2020)\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nT28 Técnico de Informação e Animação Turística\nT52 Técnico de Turismo Ambiental e Rural\nU16 Técnico de Restaurante/Bar\nU17 Técnico de Receção Hoteleira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 3.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 6.7,
+    "13": 13.3,
+    "14": 37.3,
+    "15": 20.0,
+    "16": 14.7,
+    "17": 8.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 75,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 57.7,
+   "cna_outras": 11.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 3.8,
+   "outros": 27.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 122
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +131,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3062-9254",
- "pct_colocados_1opcao_2025": 66,
+ "pct_colocados_1opcao_2025": 64,
  "percentil_nota_2026": 38,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Vila Real",
+  "pct_vagas": 20
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -290,7 +351,7 @@
    "candidatos_1opcao": 21,
    "candidatos_homens": 37,
    "candidatos_mulheres": 64,
-   "colocados": 32,
+   "colocados": 33,
    "colocados_1opcao": 21,
    "colocados_homens": 11,
    "colocados_mulheres": 22,
@@ -306,7 +367,7 @@
    "candidatos_1opcao": 6,
    "candidatos_homens": 16,
    "candidatos_mulheres": 20,
-   "colocados": 11,
+   "colocados": 13,
    "colocados_1opcao": 6,
    "colocados_homens": 6,
    "colocados_mulheres": 7,

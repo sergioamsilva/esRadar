@@ -1,14 +1,44 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "8138",
  "code": "7210",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 149.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 138.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 127.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 145.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 138.0
+   }
+  ]
+ },
  "curso": "Terapia Ocupacional",
  "duracao": "4 Anos",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": null,
@@ -17,6 +47,10 @@
  "minimo_provas": 95,
  "par": "7210-8138",
  "percentil_nota_2026": 55,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
+  "pct_vagas": 20
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {

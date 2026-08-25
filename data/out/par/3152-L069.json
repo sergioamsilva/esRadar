@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "L069",
  "code": "3152",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 133.8
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 104.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 107.0
+   }
+  ]
+ },
  "curso": "Tecnologia Biomédica",
  "desemprego_percentil": 36,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 2.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.1,
+    "13": 44.6,
+    "14": 32.1,
+    "15": 12.5,
+    "16": 3.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 56,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 52.5,
+   "cna_outras": 14.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.0,
+   "mudanca_curso": 3.0,
+   "outros": 28.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 172
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +121,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3152-L069",
- "pct_colocados_1opcao_2025": 36,
+ "pct_colocados_1opcao_2025": 35,
  "percentil_nota_2026": 4,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {
@@ -289,7 +340,7 @@
    "candidatos_1opcao": 16,
    "candidatos_homens": 56,
    "candidatos_mulheres": 66,
-   "colocados": 45,
+   "colocados": 46,
    "colocados_1opcao": 16,
    "colocados_homens": 14,
    "colocados_mulheres": 32,

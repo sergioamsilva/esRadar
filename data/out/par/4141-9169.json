@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9169",
  "code": "4141",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão e Negócios",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 4.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 9.8,
+    "13": 9.8,
+    "14": 23.5,
+    "15": 35.3,
+    "16": 21.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 51,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 910.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2500.0,
+   "mudanca_curso": 450.0,
+   "outros": 6140.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 32,
+   "inscritos": 93
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4141-9169",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n11 História\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "politecnico",

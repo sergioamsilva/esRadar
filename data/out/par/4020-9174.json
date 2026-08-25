@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "341",
  "cnaef_nome": "Comércio",
  "codc": "9174",
  "code": "4020",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão Imobiliária",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesEm outubro de 2024, foi publicada pela Agência de Avaliação e Acreditação do Ensino Superior decisão negativa de avaliação institucional para este estabelecimento. Tendo sido, entretanto, instaurada, pela entidade instituidora deste estabelecimento, uma providência cautelar com vista à suspensão da eficácia do ato de não acreditação, até respetiva decisão judicial, encontra-se suspenso o ato de não acreditação da A3ES, não podendo a tutela atuar noutro sentido que não seja o da divulgação das vagas fixadas para este estabelecimento, nos termos do despacho n.º 528/2025, de 10 de janeiro.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Actividades Imobiliárias",
  "infocursos": {
@@ -26,9 +28,36 @@
    "taxa": 2.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.6,
+    "13": 34.4,
+    "14": 31.3,
+    "15": 15.6,
+    "16": 10.9,
+    "17": 3.1,
+    "18": 3.1,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 64,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 1880.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5700.0,
+   "mudanca_curso": 1170.0,
+   "outros": 1250.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 154
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4020-9174",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "L023",
  "code": "3063",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 132.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 133.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 151.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 120.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 145.0
+   }
+  ]
+ },
  "curso": "Marketing e Negócios Internacionais",
  "desemprego_percentil": 60,
  "duracao": "6 Semestres",
@@ -27,9 +57,36 @@
    "taxa": 4.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 4.1,
+    "13": 40.5,
+    "14": 38.8,
+    "15": 14.0,
+    "16": 1.7,
+    "17": 80.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 121,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 55.6,
+   "cna_outras": 19.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.6,
+   "mudanca_curso": 1.6,
+   "outros": 21.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 48,
+   "inscritos": 274
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,7 @@
  "par": "3063-L023",
  "pct_colocados_1opcao_2025": 77,
  "percentil_nota_2026": 67,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -147,7 +205,7 @@
    "vagas": 53
   },
   "2019f2": {
-   "colocados": 15,
+   "colocados": 16,
    "nota_ultimo": 138.0,
    "sobras": 0,
    "vagas": 10
@@ -165,7 +223,7 @@
    "vagas": 68
   },
   "2020f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 141.4,
    "sobras": 0,
    "vagas": 7
@@ -194,13 +252,13 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 53,
+   "colocados": 57,
    "nota_ultimo": 147.7,
    "sobras": 0,
    "vagas": 53
   },
   "2022f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 144.3,
    "sobras": 0,
    "vagas": 12
@@ -253,7 +311,7 @@
    "candidatos_1opcao": 80,
    "candidatos_homens": 192,
    "candidatos_mulheres": 255,
-   "colocados": 57,
+   "colocados": 58,
    "colocados_1opcao": 32,
    "colocados_homens": 28,
    "colocados_mulheres": 30,
@@ -307,7 +365,7 @@
    "candidatos_1opcao": 10,
    "candidatos_homens": 28,
    "candidatos_mulheres": 23,
-   "colocados": 19,
+   "colocados": 20,
    "colocados_1opcao": 9,
    "colocados_homens": 7,
    "colocados_mulheres": 13,
@@ -325,7 +383,7 @@
    "vagas": 4
   },
   "2026f1": {
-   "colocados": 57,
+   "colocados": 59,
    "nota_ultimo": 145.0,
    "sobras": 0,
    "vagas": 57

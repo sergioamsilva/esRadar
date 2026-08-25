@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "213",
  "cnaef_nome": "Áudio-Visuais e Produção dos Media",
  "codc": "L220",
  "code": "4350",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Animação e Criação Visual",
  "duracao": "3 Anos",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 37
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 11.8,
+    "15": 41.2,
+    "16": 11.8,
+    "17": 23.5,
+    "18": 11.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 17,
    "nota_final_media": 15.8,
    "periodo": "2023/24_"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8520.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 740.0,
+   "outros": 740.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 78
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4350-L220",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n16 Matemática\nou\n10 Geometria Descritiva\n18 Português\nou\n16 Matemática\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

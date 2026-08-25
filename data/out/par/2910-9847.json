@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "640",
  "cnaef_nome": "Ciências Veterinárias",
  "codc": "9847",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Medicina Veterinária",
  "duracao": "11 Semestres",
  "ects": 330,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.3,
+    "13": 15.2,
+    "14": 35.1,
+    "15": 26.5,
+    "16": 16.6,
+    "17": 3.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 151,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8680.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 380.0,
+   "mudanca_curso": 470.0,
+   "outros": 470.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 39,
+   "inscritos": 675
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9847",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
  "series": {},
  "subsistema": "universitario",

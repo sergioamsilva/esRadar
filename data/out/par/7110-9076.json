@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "811",
  "cnaef_nome": "Hotelaria e Restauração",
  "codc": "9076",
  "code": "7110",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 134.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 114.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 120.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 139.5
+   }
+  ]
+ },
  "curso": "Direção e Gestão Hoteleira",
  "desemprego_percentil": 16,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n716 Rececionista de Hotel\nP77 Técnico de Receção\nP81 Técnico de Restauração\nR39 Rececionista de Hotel\nS55 Técnicas de Serviço de Restauração e Bebidas (Port 57/2009)\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS58 Restaurante/Bar (Portaria n.º 846/2007)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS78 Técnico de Restaurante/Bar\nS86 Técnico de Restaurante Bar (Portaria n.º 102/2020)\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nU16 Técnico de Restaurante/Bar\nU17 Técnico de Receção Hoteleira\nU56 Técnico de Alojamento Hoteleiro",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 1.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.6,
+    "13": 11.9,
+    "14": 33.3,
+    "15": 31.7,
+    "16": 18.3,
+    "17": 3.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 126,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 63.0,
+   "cna_outras": 14.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.4,
+   "mudanca_curso": 1.6,
+   "outros": 18.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 224
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +126,9 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7110-9076",
- "pct_colocados_1opcao_2025": 59,
+ "pct_colocados_1opcao_2025": 56,
  "percentil_nota_2026": 58,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n19 Matemática A\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n19 Matemática A",
  "semelhantes": [
   {
@@ -131,7 +184,7 @@
    "vagas": 60
   },
   "2019f2": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 146.8,
    "sobras": 0,
    "vagas": 9
@@ -149,7 +202,7 @@
    "vagas": 62
   },
   "2020f2": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 154.0,
    "sobras": 0,
    "vagas": 8
@@ -183,7 +236,7 @@
    "vagas": 60
   },
   "2022f2": {
-   "colocados": 18,
+   "colocados": 19,
    "nota_ultimo": 150.4,
    "sobras": 0,
    "vagas": 17
@@ -197,7 +250,7 @@
    "candidatos_1opcao": 96,
    "candidatos_homens": 168,
    "candidatos_mulheres": 152,
-   "colocados": 60,
+   "colocados": 61,
    "colocados_1opcao": 34,
    "colocados_homens": 18,
    "colocados_mulheres": 43,
@@ -235,7 +288,7 @@
    "candidatos_1opcao": 94,
    "candidatos_homens": 155,
    "candidatos_mulheres": 168,
-   "colocados": 61,
+   "colocados": 63,
    "colocados_1opcao": 31,
    "colocados_homens": 30,
    "colocados_mulheres": 33,
@@ -251,7 +304,7 @@
    "candidatos_1opcao": 32,
    "candidatos_homens": 51,
    "candidatos_mulheres": 32,
-   "colocados": 16,
+   "colocados": 17,
    "colocados_1opcao": 8,
    "colocados_homens": 10,
    "colocados_mulheres": 7,
@@ -273,7 +326,7 @@
    "candidatos_1opcao": 22,
    "candidatos_homens": 41,
    "candidatos_mulheres": 35,
-   "colocados": 37,
+   "colocados": 39,
    "colocados_1opcao": 22,
    "colocados_homens": 22,
    "colocados_mulheres": 17,
@@ -289,7 +342,7 @@
    "candidatos_1opcao": 10,
    "candidatos_homens": 20,
    "candidatos_mulheres": 9,
-   "colocados": 18,
+   "colocados": 19,
    "colocados_1opcao": 9,
    "colocados_homens": 12,
    "colocados_mulheres": 7,
@@ -307,7 +360,7 @@
    "vagas": 23
   },
   "2026f1": {
-   "colocados": 124,
+   "colocados": 125,
    "nota_ultimo": 139.5,
    "sobras": 0,
    "vagas": 124

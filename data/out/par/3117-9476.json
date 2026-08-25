@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "343",
  "cnaef_nome": "Finanças, Banca e Seguros",
  "codc": "9476",
  "code": "3117",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 152.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 136.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 155.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 132.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 154.0
+   }
+  ]
+ },
  "curso": "Finanças Empresariais",
  "desemprego_percentil": 92,
  "duracao": "6 Semestres",
@@ -27,9 +57,36 @@
    "taxa": 70.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 3.6,
+    "12": 6.0,
+    "13": 24.1,
+    "14": 32.5,
+    "15": 15.7,
+    "16": 12.0,
+    "17": 6.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 83,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 14.1,
+   "cna_outras": 25.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 13.3,
+   "outros": 47.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 19,
+   "inscritos": 206
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,7 @@
  "par": "3117-9476",
  "pct_colocados_1opcao_2025": 44,
  "percentil_nota_2026": 79,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -163,7 +221,7 @@
    "vagas": 56
   },
   "2020f2": {
-   "colocados": 18,
+   "colocados": 19,
    "nota_ultimo": 153.5,
    "sobras": 0,
    "vagas": 4
@@ -189,7 +247,7 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 56,
+   "colocados": 58,
    "nota_ultimo": 159.9,
    "sobras": 0,
    "vagas": 56
@@ -225,7 +283,7 @@
    "candidatos_1opcao": 21,
    "candidatos_homens": 97,
    "candidatos_mulheres": 90,
-   "colocados": 14,
+   "colocados": 15,
    "colocados_1opcao": 4,
    "colocados_homens": 8,
    "colocados_mulheres": 7,
@@ -245,7 +303,7 @@
    "candidatos_1opcao": 43,
    "candidatos_homens": 288,
    "candidatos_mulheres": 169,
-   "colocados": 54,
+   "colocados": 55,
    "colocados_1opcao": 11,
    "colocados_homens": 38,
    "colocados_mulheres": 17,

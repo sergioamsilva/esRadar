@@ -1,10 +1,45 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "9504",
  "code": "7230",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 145.5
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 162.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 167.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 174.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 123.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 167.0
+   }
+  ]
+ },
  "curso": "Fisioterapia",
  "desemprego_percentil": 4,
  "duracao": "8 Semestres",
@@ -27,9 +62,36 @@
    "taxa": 1.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 5.0,
+    "15": 22.7,
+    "16": 55.5,
+    "17": 16.0,
+    "18": 80.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 119,
    "nota_final_media": 15.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 70.8,
+   "cna_outras": 6.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.8,
+   "mudanca_curso": 5.8,
+   "outros": 9.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 311
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +136,9 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7230-9504",
- "pct_colocados_1opcao_2025": 87,
+ "pct_colocados_1opcao_2025": 86,
  "percentil_nota_2026": 92,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -267,7 +330,7 @@
    "candidatos_1opcao": 129,
    "candidatos_homens": 115,
    "candidatos_mulheres": 270,
-   "colocados": 63,
+   "colocados": 64,
    "colocados_1opcao": 55,
    "colocados_homens": 19,
    "colocados_mulheres": 45,
@@ -299,7 +362,7 @@
    "sobras": 0
   },
   "2026f1": {
-   "colocados": 70,
+   "colocados": 71,
    "nota_ultimo": 167.0,
    "sobras": 0,
    "vagas": 70

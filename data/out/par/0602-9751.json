@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9751",
  "code": "0602",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 128.0
+   }
+  ]
+ },
  "curso": "Engenharia Mecatrónica",
  "desemprego_percentil": 66,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 5.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 12.0,
+    "13": 52.0,
+    "14": 28.0,
+    "15": 4.0,
+    "16": 4.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 25,
    "nota_final_media": 13.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 44.6,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.1,
+   "mudanca_curso": 0,
+   "outros": 48.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 29,
+   "inscritos": 136
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "0602-9751",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 40,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química (25%)\n19 Matemática A (25%)\nou\n07 Física e Química (15%)\n19 Matemática A (15%)\n18 Português (20%)",
  "semelhantes": [
   {

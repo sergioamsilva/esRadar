@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "8249",
  "code": "4091",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Podologia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +23,36 @@
    "novos_inscritos": 19
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 15.0,
+    "13": 5.0,
+    "14": 30.0,
+    "15": 35.0,
+    "16": 5.0,
+    "17": 10.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 20,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3330.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3330.0,
+   "mudanca_curso": 830.0,
+   "outros": 2500.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 32
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4091-8249",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "series": {},
  "subsistema": "politecnico",

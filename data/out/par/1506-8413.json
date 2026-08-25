@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "229",
  "cnaef_nome": "Humanidades - programas não classificados noutra área de formação",
  "codc": "8413",
  "code": "1506",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 129.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 130.5
+   }
+  ]
+ },
  "curso": "Artes e Humanidades",
  "desemprego_percentil": 38,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 2.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 4.4,
+    "13": 17.6,
+    "14": 33.0,
+    "15": 29.7,
+    "16": 6.6,
+    "17": 7.7,
+    "18": 1.1,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 91,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 42.2,
+   "cna_outras": 17.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.7,
+   "mudanca_curso": 7.4,
+   "outros": 32.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 14,
+   "inscritos": 219
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "1506-8413",
  "pct_colocados_1opcao_2025": 40,
  "percentil_nota_2026": 44,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n11 História\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -167,13 +210,13 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 63,
+   "colocados": 64,
    "nota_ultimo": 144.5,
    "sobras": 0,
    "vagas": 63
   },
   "2022f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 143.0,
    "sobras": 0,
    "vagas": 12
@@ -189,7 +232,7 @@
    "candidatos_1opcao": 47,
    "candidatos_homens": 73,
    "candidatos_mulheres": 259,
-   "colocados": 62,
+   "colocados": 64,
    "colocados_1opcao": 26,
    "colocados_homens": 7,
    "colocados_mulheres": 57,
@@ -227,7 +270,7 @@
    "candidatos_1opcao": 42,
    "candidatos_homens": 75,
    "candidatos_mulheres": 221,
-   "colocados": 62,
+   "colocados": 63,
    "colocados_1opcao": 26,
    "colocados_homens": 16,
    "colocados_mulheres": 47,
@@ -299,7 +342,7 @@
    "vagas": 2
   },
   "2026f1": {
-   "colocados": 62,
+   "colocados": 64,
    "nota_ultimo": 130.5,
    "sobras": 0,
    "vagas": 62

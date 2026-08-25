@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "L066",
  "code": "7250",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 129.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 169.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 166.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 143.0
+   }
+  ]
+ },
  "curso": "Imagem Médica e Radioterapia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +46,36 @@
    "novos_inscritos": 126
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 2.0,
+    "13": 6.9,
+    "14": 29.4,
+    "15": 43.1,
+    "16": 17.6,
+    "17": 100.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 102,
    "nota_final_media": 14.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 58.9,
+   "cna_outras": 22.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.6,
+   "mudanca_curso": 0.8,
+   "outros": 16.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 240
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +121,7 @@
  "minimo_provas": 95,
  "par": "7250-L066",
  "percentil_nota_2026": 64,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -188,7 +241,7 @@
    "media_secundario": 151.0
   },
   "2026f1": {
-   "colocados": 63,
+   "colocados": 64,
    "nota_ultimo": 143.0,
    "sobras": 0,
    "vagas": 63

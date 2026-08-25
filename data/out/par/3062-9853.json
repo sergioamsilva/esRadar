@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 126.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 128.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 125.8
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 139.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 144.5
+   }
+  ]
+ },
  "curso": "Educação Básica",
  "desemprego_percentil": 21,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, CoimbraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n842 Agrupamento 4 / Animação Social\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 1.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 3.4,
+    "14": 14.5,
+    "15": 34.2,
+    "16": 35.9,
+    "17": 9.4,
+    "18": 2.6,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 117,
    "nota_final_media": 15.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 69.4,
+   "cna_outras": 12.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.0,
+   "mudanca_curso": 3.2,
+   "outros": 11.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 31,
+   "inscritos": 217
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +131,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3062-9853",
- "pct_colocados_1opcao_2025": 84,
+ "pct_colocados_1opcao_2025": 83,
  "percentil_nota_2026": 67,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Coimbra",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {
@@ -214,7 +275,7 @@
    "candidatos_1opcao": 94,
    "candidatos_homens": 17,
    "candidatos_mulheres": 393,
-   "colocados": 53,
+   "colocados": 54,
    "colocados_1opcao": 43,
    "colocados_homens": 2,
    "colocados_mulheres": 52,
@@ -289,7 +350,7 @@
    "candidatos_1opcao": 143,
    "candidatos_homens": 33,
    "candidatos_mulheres": 541,
-   "colocados": 70,
+   "colocados": 71,
    "colocados_1opcao": 59,
    "colocados_homens": 4,
    "colocados_mulheres": 67,

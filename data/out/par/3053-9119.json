@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9119",
  "code": "3053",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 126.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 115.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 111.5
+   }
+  ]
+ },
  "curso": "Engenharia Informática",
  "desemprego_percentil": 26,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Guarda, Portalegre, Santarém, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n813 Agrupamento 1 / Informática\nP44 Técnico de Eletrónica, Automação e Computadores\nP53 Técnico de Gestão de Equipamentos Informáticos\nP56 Técnico de Gestão e Programação de Sistemas Informáticos",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 10.8,
+    "13": 27.7,
+    "14": 33.7,
+    "15": 8.4,
+    "16": 8.4,
+    "17": 8.4,
+    "18": 2.4,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 83,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 39.3,
+   "cna_outras": 9.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.5,
+   "mudanca_curso": 1.1,
+   "outros": 46.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 27,
+   "inscritos": 345
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3053-9119",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 10,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Guarda, Portalegre, Santarém, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n03 Desenho\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -145,7 +196,7 @@
    "vagas": 80
   },
   "2019f2": {
-   "colocados": 15,
+   "colocados": 16,
    "nota_ultimo": 96.0,
    "sobras": 41,
    "vagas": 56
@@ -213,7 +264,7 @@
    "candidatos_1opcao": 22,
    "candidatos_homens": 145,
    "candidatos_mulheres": 15,
-   "colocados": 33,
+   "colocados": 34,
    "colocados_1opcao": 22,
    "colocados_homens": 29,
    "colocados_mulheres": 5,

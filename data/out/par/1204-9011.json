@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "421",
  "cnaef_nome": "Biologia e Bioquímica",
  "codc": "9011",
  "code": "1204",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 167.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 110.0
+   }
+  ]
+ },
  "curso": "Biologia",
  "desemprego_percentil": 26,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 28.2,
+    "13": 48.7,
+    "14": 17.9,
+    "15": 2.6,
+    "16": 2.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 39,
    "nota_final_media": 13.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.9,
+   "cna_outras": 25.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.2,
+   "mudanca_curso": 3.7,
+   "outros": 36.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 133
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "1204-9011",
  "pct_colocados_1opcao_2025": 26,
  "percentil_nota_2026": 8,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n18 Português",
  "semelhantes": [
   {
@@ -306,7 +349,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 19,
    "candidatos_mulheres": 28,
-   "colocados": 11,
+   "colocados": 12,
    "colocados_1opcao": 4,
    "colocados_homens": 5,
    "colocados_mulheres": 7,

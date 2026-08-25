@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "321",
  "cnaef_nome": "Jornalismo e Reportagem",
  "codc": "9054",
  "code": "3181",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 134.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 138.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 107.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 119.5
+   }
+  ]
+ },
  "curso": "Comunicação Social",
  "desemprego_percentil": 70,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 5.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.6,
+    "13": 33.9,
+    "14": 33.0,
+    "15": 17.9,
+    "16": 11.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 112,
    "nota_final_media": 14.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 38.2,
+   "cna_outras": 17.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.4,
+   "mudanca_curso": 2.8,
+   "outros": 40.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 21,
+   "inscritos": 209
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3181-9054",
  "pct_colocados_1opcao_2025": 59,
  "percentil_nota_2026": 25,
+ "preferencia_regional": {
+  "area_influencia": "Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -188,7 +244,7 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 63,
+   "colocados": 64,
    "nota_ultimo": 132.7,
    "sobras": 0,
    "vagas": 63
@@ -210,7 +266,7 @@
    "candidatos_1opcao": 31,
    "candidatos_homens": 77,
    "candidatos_mulheres": 148,
-   "colocados": 62,
+   "colocados": 63,
    "colocados_1opcao": 24,
    "colocados_homens": 20,
    "colocados_mulheres": 43,
@@ -247,7 +303,7 @@
    "candidatos_1opcao": 34,
    "candidatos_homens": 55,
    "candidatos_mulheres": 111,
-   "colocados": 63,
+   "colocados": 64,
    "colocados_1opcao": 30,
    "colocados_homens": 27,
    "colocados_mulheres": 37,

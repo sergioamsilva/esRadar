@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "311",
  "cnaef_nome": "Psicologia",
  "codc": "9219",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Psicologia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.2,
+    "12": 17.9,
+    "13": 26.7,
+    "14": 30.3,
+    "15": 13.9,
+    "16": 7.6,
+    "17": 1.6,
+    "18": 80.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 251,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8270.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 370.0,
+   "mudanca_curso": 540.0,
+   "outros": 810.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 72,
+   "inscritos": 706
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9219",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n13 Inglês\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português",
  "series": {},
  "subsistema": "universitario",

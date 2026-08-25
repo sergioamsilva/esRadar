@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "8516",
  "code": "3164",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 136.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 132.5
+   }
+  ]
+ },
  "curso": "Organização e Gestão Empresariais",
  "desemprego_percentil": 47,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 3.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 2.3,
+    "12": 14.0,
+    "13": 27.9,
+    "14": 34.9,
+    "15": 11.6,
+    "16": 7.0,
+    "17": 2.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 43,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 40.0,
+   "cna_outras": 21.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.7,
+   "mudanca_curso": 0,
+   "outros": 30.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 109
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3164-8516",
  "pct_colocados_1opcao_2025": 43,
  "percentil_nota_2026": 46,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {

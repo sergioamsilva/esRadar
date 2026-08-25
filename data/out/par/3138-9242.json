@@ -1,15 +1,55 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "9242",
  "code": "3138",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 146.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 152.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 149.0
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 138.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 152.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 137.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 163.5
+   }
+  ]
+ },
  "curso": "Solicitadoria",
  "desemprego_percentil": 77,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n088 Ação Social (DL 74/2004)\n345 Profissionais de Formação Bancária (IFB)\n571 Administração e Marketing (Port. 26/2005)\n579 Comunicação Social (T) -Port. 38/2005\n674 Animação Sociocultural (Port. 817/2009)\n708 Geral Bancário\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n720 Técnico Comercial de Seguros\n722 Técnico Administrativo\n725 Técnico Comercial\n726 Técnico da Qualidade\n764 Técnico de Secretariado\n765 Técnico de Seguros\n784 Técnico Administrativo de Seguros\n789 Técnico de Relações Laborais\n831 Agrupamento 3 / Administração\n832 Agrupamento 3 / Serviços Comerciais\n842 Agrupamento 4 / Animação Social\n980 Recorrente - Administração (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\n983 Recorrente - Ação Social (DL 74/2004)\n996 Administração (INA) (Port. 37/2005)\nA21 Assessoria Jurídica e Documentação (VC) (Port. 941/2009)\nA22 Assessoria Jurídica e Documentação (VCT) (Port. 941/2009)\nA58 Administração e Marketing (Port. 960/2009)\nA77 Comunicação Social (T) -Port. 814/2009\nG03 Assessoria Jurídica e Documentação (VC) (Port. 260/2013)\nG16 Assessoria Jurídica e Documentação (VT) (Port. 260/2013)\nG27 Administração e Marketing (Portaria n.º 262/2013)\nG43 Animação Sociocultural (Portaria n.º 265/2013)\nG62 Comunicação Social (Portaria n.º 263/2013)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG73 Colégio de Gaia - Cursos do DL 286/89\nG74 Instituto Nun'Álvares - Cursos do DL 286/89\nG75 Colégio de S. Gonçalo - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nH27 Administração e Marketing\nP01 Animador Sociocultural\nP18 Técnico de Apoio à Infância\nP19 Técnico de Apoio Psicossocial\nP22 Técnico de Banca e Seguros\nP23 Técnico de Biblioteca, Arquivo e Documentação\nP27 Técnico de Comércio\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP64 Técnico de Marketing\nP77 Técnico de Receção\nP82 Técnico de Secretariado\nP84 Técnico de Serviços Jurídicos\nP93 Técnico de Vendas\nR16 Técnico Administrativo\nR17 Técnico em Animação de Turismo\nR19 Técnico de Juventude\nR21 Técnico Comercial\nR77 Técnico de Informação e Animação Turística\nR78 Técnico de Informação, Documentação e Comunicação\nR92 Técnico de Operações Turísticas\nS05 Assistente Comercial Bancário\nS36 Técnico de Marketing\nS47 Técnico de Segurança e Higiene do Trabalho\nS50 Técnico de Vendas\nT02 Animador Sociocultural\nT05 Técnico Comercial Bancário\nT40 Técnico de Organização de Eventos\nU14 Técnico de Relações Laborais\nU18 Técnico de Segurança e Higiene do Trabalho\nU26 Técnico de Vendas e Marketing",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
  "infocursos": {
@@ -27,9 +67,36 @@
    "taxa": 7.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 6.2,
+    "12": 46.9,
+    "13": 25.9,
+    "14": 16.0,
+    "15": 3.7,
+    "16": 0.0,
+    "17": 1.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 81,
    "nota_final_media": 12.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 27.7,
+   "cna_outras": 8.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 10.9,
+   "mudanca_curso": 11.7,
+   "outros": 40.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 18,
+   "inscritos": 189
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +141,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3138-9242",
- "pct_colocados_1opcao_2025": 71,
+ "pct_colocados_1opcao_2025": 69,
  "percentil_nota_2026": 89,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n09 Geografia\n18 Português",
  "semelhantes": [
   {
@@ -214,7 +285,7 @@
    "candidatos_1opcao": 81,
    "candidatos_homens": 97,
    "candidatos_mulheres": 315,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 23,
    "colocados_homens": 10,
    "colocados_mulheres": 29,
@@ -290,7 +361,7 @@
    "candidatos_1opcao": 85,
    "candidatos_homens": 94,
    "candidatos_mulheres": 281,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 27,
    "colocados_homens": 13,
    "colocados_mulheres": 26,
@@ -306,7 +377,7 @@
    "candidatos_1opcao": 37,
    "candidatos_homens": 29,
    "candidatos_mulheres": 106,
-   "colocados": 20,
+   "colocados": 21,
    "colocados_1opcao": 9,
    "colocados_homens": 4,
    "colocados_mulheres": 17,

@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "421",
  "cnaef_nome": "Biologia e Bioquímica",
  "codc": "9015",
  "code": "1503",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 164.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 153.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 145.5
+   }
+  ]
+ },
  "curso": "Bioquímica",
  "desemprego_percentil": 88,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 40.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 90.0,
+    "13": 9.9,
+    "14": 27.0,
+    "15": 31.5,
+    "16": 17.1,
+    "17": 11.7,
+    "18": 1.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 111,
    "nota_final_media": 15.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 69.7,
+   "cna_outras": 14.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 2.1,
+   "outros": 14.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 236
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "1503-9015",
  "pct_colocados_1opcao_2025": 73,
  "percentil_nota_2026": 68,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

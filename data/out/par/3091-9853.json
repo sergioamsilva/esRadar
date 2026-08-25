@@ -1,14 +1,34 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "3091",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 125.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 100.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 111.5
+   }
+  ]
+ },
  "curso": "Educação Básica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -21,9 +41,36 @@
    "novos_inscritos": 68
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 23.1,
+    "14": 23.1,
+    "15": 23.1,
+    "16": 15.4,
+    "17": 7.7,
+    "18": 7.7,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 13,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.3,
+   "cna_outras": 10.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.1,
+   "mudanca_curso": 0,
+   "outros": 53.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 16,
+   "inscritos": 97
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +117,10 @@
  "par": "3091-9853",
  "pct_colocados_1opcao_2025": 23,
  "percentil_nota_2026": 10,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português",
  "semelhantes": [
   {
@@ -295,7 +346,7 @@
    "sobras": 1
   },
   "2026f1": {
-   "colocados": 41,
+   "colocados": 42,
    "nota_ultimo": 111.5,
    "sobras": 2,
    "vagas": 44

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "729",
  "cnaef_nome": "Saúde - programas não classificados noutra área de formação",
  "codc": "L136",
  "code": "4603",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Osteopatia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -13,9 +15,36 @@
  "grupo": "Instituto Politécnico Jean Piaget do Sul",
  "infocursos": {
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 20.0,
+    "13": 40.0,
+    "14": 20.0,
+    "15": 0.0,
+    "16": 20.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 5,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 5450.0,
+   "mudanca_curso": 0,
+   "outros": 4550.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 0,
+   "inscritos": 24
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -28,6 +57,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4603-L136",
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
  "series": {},
  "subsistema": "politecnico",

@@ -83,6 +83,41 @@ def estabelecimentos(html: str) -> list[tuple[str, str]]:
 _NOTA = re.compile(r"^\d{1,3},\d$|^\d{1,3}$")
 
 
+_CURSO_ETAPA = re.compile(r"^([A-Z0-9]\d{3}) - (.+)$")
+
+
+def parse_etapas(html: str) -> dict[str, list[dict]]:
+    """Notas do último colocado por contingente (página col{n}listamintp.asp).
+
+    A DGES coloca por «etapas»: primeiro os contingentes prioritários
+    (Açores, Madeira, emigrantes, militares, deficiência, beneficiários ASE)
+    e por fim o contingente geral — cada um com a sua nota de corte.
+    Devolve {codc: [{etapa, nome, nota}, …]}.
+    """
+    resultado: dict[str, list[dict]] = {}
+    codc_atual: str | None = None
+    for linha in linhas_de_tabela(html):
+        if len(linha) == 1:
+            m = _CURSO_ETAPA.match(linha[0].strip())
+            if m:
+                codc_atual = m.group(1)
+                resultado[codc_atual] = []
+            continue
+        if codc_atual is None or len(linha) < 3:
+            continue
+        etapa, nome, nota = linha[0].strip(), linha[1], linha[2].strip()
+        if not etapa.isdigit() or not _NOTA.match(nota):
+            continue
+        resultado[codc_atual].append(
+            {
+                "etapa": int(etapa),
+                "nome": " ".join(nome.replace("-", " ").replace("\xa0", " ").split()),
+                "nota": float(nota.replace(",", ".")),
+            }
+        )
+    return {codc: etapas for codc, etapas in resultado.items() if etapas}
+
+
 def parse_ultimos(html: str) -> list[dict]:
     """Linhas [codc, curso, grau, nota] da página col{n}listamin.asp."""
     registos = []
@@ -158,8 +193,10 @@ def arquivar_fase(ano: int, fase: int, *, forcar: bool = False) -> Path:
             forcar=forcar,
         )
 
-    # 4. Extração: notas do último colocado por par, a partir das páginas min.
+    # 4. Extração: notas do último colocado por par (páginas min) e por
+    #    contingente (páginas mintp).
     registos = []
+    etapas: dict[str, dict[str, list[dict]]] = {}
     sem_dados = []
     for cod, meta in sorted(estabs.items()):
         pagina = destino / "min" / f"{cod}.html"
@@ -168,6 +205,9 @@ def arquivar_fase(ano: int, fase: int, *, forcar: bool = False) -> Path:
             sem_dados.append(cod)
         for curso in cursos:
             registos.append({"code": cod, "estabelecimento": meta["nome"], "subsistema": meta["subsistema"], **curso})
+        por_curso = parse_etapas(common.ler_html(destino / "mintp" / f"{cod}.html"))
+        if por_curso:
+            etapas[cod] = por_curso
     if len(sem_dados) > len(estabs) * 0.05:
         raise RuntimeError(
             f"{len(sem_dados)} de {len(estabs)} estabelecimentos sem cursos extraídos "
@@ -175,7 +215,13 @@ def arquivar_fase(ano: int, fase: int, *, forcar: bool = False) -> Path:
         )
     (destino / "listas.json").write_text(
         json.dumps(
-            {"ano": ano, "fase": fase, "estabelecimentos": estabs, "ultimos_colocados": registos},
+            {
+                "ano": ano,
+                "fase": fase,
+                "estabelecimentos": estabs,
+                "ultimos_colocados": registos,
+                "etapas": etapas,
+            },
             ensure_ascii=False,
             indent=1,
             sort_keys=True,

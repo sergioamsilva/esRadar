@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "L163",
  "code": "3062",
  "concurso": "Local",
+ "contingentes": null,
  "curso": "Estudos Musicais Aplicados",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.6,
+    "13": 0.0,
+    "14": 33.3,
+    "15": 16.7,
+    "16": 16.7,
+    "17": 5.6,
+    "18": 22.2,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 15.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 95.7,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.3,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 43
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3062-L163",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n18 Português\nou\n10 Geometria Descritiva\n15 Literatura Portuguesa\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n11 História\n18 Português",
  "series": {
   "2018f1": {

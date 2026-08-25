@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "312",
  "cnaef_nome": "Sociologia e Outros Estudos",
  "codc": "9143",
  "code": "0505",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 141.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 140.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 150.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 140.0
+   }
+  ]
+ },
  "curso": "Geografia",
  "desemprego_percentil": 32,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 2.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 9.1,
+    "12": 19.2,
+    "13": 30.3,
+    "14": 24.2,
+    "15": 14.1,
+    "16": 2.0,
+    "17": 0.0,
+    "18": 100.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 99,
    "nota_final_media": 13.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 62.9,
+   "cna_outras": 20.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.7,
+   "mudanca_curso": 2.9,
+   "outros": 13.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 236
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +126,9 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "0505-9143",
- "pct_colocados_1opcao_2025": 78,
+ "pct_colocados_1opcao_2025": 76,
  "percentil_nota_2026": 59,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n02 Biologia e Geologia\nou\n04 Economia\n09 Geografia\nou\n09 Geografia\n11 História\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n18 Português",
  "semelhantes": [
   {
@@ -193,7 +246,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 68,
+   "colocados": 69,
    "nota_ultimo": 138.0,
    "sobras": 0,
    "vagas": 68
@@ -253,7 +306,7 @@
    "candidatos_1opcao": 73,
    "candidatos_homens": 162,
    "candidatos_mulheres": 112,
-   "colocados": 69,
+   "colocados": 70,
    "colocados_1opcao": 50,
    "colocados_homens": 37,
    "colocados_mulheres": 33,
@@ -291,7 +344,7 @@
    "candidatos_1opcao": 96,
    "candidatos_homens": 208,
    "candidatos_mulheres": 153,
-   "colocados": 69,
+   "colocados": 71,
    "colocados_1opcao": 54,
    "colocados_homens": 37,
    "colocados_mulheres": 34,
@@ -325,7 +378,7 @@
    "vagas": 3
   },
   "2026f1": {
-   "colocados": 76,
+   "colocados": 78,
    "nota_ultimo": 140.0,
    "sobras": 0,
    "vagas": 76

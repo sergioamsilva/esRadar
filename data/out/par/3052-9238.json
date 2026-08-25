@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9238",
  "code": "3052",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 127.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 120.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 130.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 114.0
+   }
+  ]
+ },
  "curso": "Serviço Social",
  "desemprego_percentil": 77,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n088 Ação Social (DL 74/2004)\n184 Escola de Form. Social e Rural - Educador Social (DL 286/89)\n215 Ação Social - Ação Educativa (Port. 32/2005)\n217 Ação Social - Assistente de Gerontologia (Port. 32/2005)\n219 Ação Social (Port. 816/2009)\n569 Educação Social (Port. 834/2009)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n674 Animação Sociocultural (Port. 817/2009)\n721 Técnico de Serviços Pessoais e à Comunidade\n842 Agrupamento 4 / Animação Social\n870 Grande Colégio Universal - Técn. Ação Educativa (DL 286/89)\n983 Recorrente - Ação Social (DL 74/2004)\nG43 Animação Sociocultural (Portaria n.º 265/2013)\nG55 Ação Social (Portaria n.º 266/2013)\nG58 Educação Social (Portaria n.º 259/2013)\nG66 Técnico de Ação Educativa\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nH43 Animação Sociocultural\nH55 Ação Social\nH58 Educação Social\nH65 Técnico de Ação Educativa\nP01 Animador Sociocultural\nP18 Técnico de Apoio à Infância\nP19 Técnico de Apoio Psicossocial\nR19 Técnico de Juventude\nR46 Técnico de Ação Educativa\nR50 Técnico de Apoio Familiar e de Apoio à Comunidade\nR72 Técnico de Geriatria\nS65 Técnico de Apoio Familiar e de Apoio à Comunidade\nT02 Animador Sociocultural\nT06 Técnico de Ação Educativa",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 6.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.0,
+    "13": 16.0,
+    "14": 27.0,
+    "15": 34.0,
+    "16": 10.0,
+    "17": 2.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 100,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 46.6,
+   "cna_outras": 13.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.8,
+   "mudanca_curso": 1.4,
+   "outros": 29.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 21,
+   "inscritos": 225
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3052-9238",
  "pct_colocados_1opcao_2025": 80,
  "percentil_nota_2026": 15,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n11 História\nou\n04 Economia\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -190,7 +246,7 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 60,
+   "colocados": 61,
    "nota_ultimo": 118.6,
    "sobras": 0,
    "vagas": 60
@@ -298,7 +354,7 @@
    "candidatos_1opcao": 8,
    "candidatos_homens": 8,
    "candidatos_mulheres": 36,
-   "colocados": 14,
+   "colocados": 15,
    "colocados_1opcao": 8,
    "colocados_homens": 3,
    "colocados_mulheres": 12,
@@ -315,7 +371,7 @@
    "vagas": 20
   },
   "2026f1": {
-   "colocados": 61,
+   "colocados": 64,
    "nota_ultimo": 114.0,
    "sobras": 0,
    "vagas": 61

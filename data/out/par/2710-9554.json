@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "9554",
  "code": "2710",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Ciências da Nutrição",
  "duracao": "4 Anos",
  "ects": 240,
@@ -21,9 +23,36 @@
    "novos_inscritos": 20
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 11.8,
+    "14": 41.2,
+    "15": 17.6,
+    "16": 17.6,
+    "17": 11.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 17,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3750.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3330.0,
+   "mudanca_curso": 830.0,
+   "outros": 2080.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 40
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2710-9554",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n11 História\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "series": {},
  "subsistema": "universitario",

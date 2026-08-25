@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9147",
  "code": "3087",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 125.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 129.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 124.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 126.0
+   }
+  ]
+ },
  "curso": "Gestão",
  "desemprego_percentil": 12,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: FaroOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n216 Contabilidade e Administração (Port. 32/2005)\n345 Profissionais de Formação Bancária (IFB)\n672 Contabilidade e Gestão (Port. 817/2009)\n733 Técnico de Contabilidade e Gestão\n996 Administração (INA) (Port. 37/2005)\nA14 Contabilidade e Gestão (VCT) (Port. 941/2009)\nA57 Contabilidade e Gestão Empresarial (Port. 960/2009)\nG05 Contabilidade e Gestão (VC) (Portaria n.º 260/2013)\nG18 Contabilidade e Gestão (VT) (Portaria n.º 260/2013)\nG22 Informática de Gestão (VT) (Portaria n.º 260/2013)\nG31 Contabilidade e Gestão Empresarial (Portaria n.º 262/2013)\nG47 Contabilidade e Empreendedorismo (Portaria n.º 265/2013)\nG56 Contabilidade e Gestão (Portaria n.º 266/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP31 Técnico de Contabilidade\nP51 Técnico de Gestão\nP52 Técnico de Gestão Cinegética\nP59 Técnico de Informática de Gestão\nR07 Contabilidade e Administração (Port. 816/2009)\nR49 Técnico de Apoio à Gestão\nS17 Técnico de Apoio à Gestão\nS21 Técnico de Contabilidade",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 1.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 2.6,
+    "12": 12.8,
+    "13": 35.9,
+    "14": 20.5,
+    "15": 15.4,
+    "16": 10.3,
+    "17": 2.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 39,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 45.7,
+   "cna_outras": 14.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 14.3,
+   "outros": 25.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 119
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3087-9147",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 37,
+ "preferencia_regional": {
+  "area_influencia": "Faro",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n13 Inglês\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n06 Filosofia\nou\n04 Economia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -147,7 +203,7 @@
    "vagas": 30
   },
   "2019f2": {
-   "colocados": 9,
+   "colocados": 10,
    "nota_ultimo": 116.0,
    "sobras": 0,
    "vagas": 8
@@ -195,7 +251,7 @@
    "vagas": 4
   },
   "2022f1": {
-   "colocados": 30,
+   "colocados": 31,
    "nota_ultimo": 135.7,
    "sobras": 0,
    "vagas": 30
@@ -324,7 +380,7 @@
    "vagas": 5
   },
   "2026f1": {
-   "colocados": 31,
+   "colocados": 33,
    "nota_ultimo": 126.0,
    "sobras": 0,
    "vagas": 31

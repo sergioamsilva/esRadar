@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9016",
  "code": "3161",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 112.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 137.0
+   }
+  ]
+ },
  "curso": "Biotecnologia",
  "desemprego_percentil": 77,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 6.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 21.4,
+    "14": 35.7,
+    "15": 28.6,
+    "16": 7.1,
+    "17": 7.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 14,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 46.5,
+   "cna_outras": 11.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.3,
+   "mudanca_curso": 0,
+   "outros": 39.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 73
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3161-9016",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 54,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

@@ -1,15 +1,25 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "421",
  "cnaef_nome": "Biologia e Bioquímica",
  "codc": "L029",
  "code": "3041",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 124.5
+   }
+  ]
+ },
  "curso": "Biologia e Biotecnologia",
  "desemprego_percentil": 55,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n178 DIDÁXIS - Química e Controlo de Qualidade (DL 286/89)\n572 Análises Químico-Biológicas (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n755 Técnico de Laboratório\n769 Técnico de Transformação de Produtos Alimentares\nA04 Biotecnologia (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG44 Biotecnologia Aplicada (Portaria n.º 265/2013)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG73 Colégio de Gaia - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP16 Técnico de Análise Laboratorial\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nT07 Técnico de Análise Laboratorial",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +37,36 @@
    "taxa": 4.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 13.2,
+    "13": 31.6,
+    "14": 23.7,
+    "15": 23.7,
+    "16": 2.6,
+    "17": 0.0,
+    "18": 5.3,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 38,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 15.0,
+   "cna_outras": 10.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 7.5,
+   "outros": 67.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 49,
+   "inscritos": 114
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,10 @@
  "par": "3041-L029",
  "pct_colocados_1opcao_2025": 0,
  "percentil_nota_2026": 34,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Castelo Branco, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -147,7 +188,7 @@
    "vagas": 38
   },
   "2019f2": {
-   "colocados": 1,
+   "colocados": 2,
    "nota_ultimo": 96.0,
    "sobras": 35,
    "vagas": 36
@@ -194,13 +235,13 @@
    "vagas": 5
   },
   "2022f1": {
-   "colocados": 37,
+   "colocados": 39,
    "nota_ultimo": 116.0,
    "sobras": 0,
    "vagas": 39
   },
   "2022f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 128.3,
    "sobras": 0,
    "vagas": 11
@@ -216,7 +257,7 @@
    "candidatos_1opcao": 4,
    "candidatos_homens": 39,
    "candidatos_mulheres": 48,
-   "colocados": 13,
+   "colocados": 14,
    "colocados_1opcao": 4,
    "colocados_homens": 4,
    "colocados_mulheres": 10,

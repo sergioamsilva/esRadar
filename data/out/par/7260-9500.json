@@ -1,10 +1,45 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7260",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 126.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 116.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 151.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 136.5
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 99.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 155.3
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +56,36 @@
    "novos_inscritos": 585
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 3.2,
+    "14": 6.7,
+    "15": 34.2,
+    "16": 44.5,
+    "17": 10.7,
+    "18": 80.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 524,
    "nota_final_media": 15.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 69.3,
+   "cna_outras": 8.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.3,
+   "mudanca_curso": 0.9,
+   "outros": 15.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 88,
+   "inscritos": 1146
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +131,7 @@
  "minimo_provas": 95,
  "par": "7260-9500",
  "percentil_nota_2026": 81,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português",
  "semelhantes": [
   {
@@ -181,7 +244,7 @@
    "media_secundario": 158.8
   },
   "2026f1": {
-   "colocados": 278,
+   "colocados": 280,
    "nota_ultimo": 155.3,
    "sobras": 0,
    "vagas": 278

@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "L405",
  "code": "1503",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 145.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 148.5
+   }
+  ]
+ },
  "curso": "Ciência de Dados",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -17,6 +32,7 @@
  "minimo_provas": 100,
  "par": "1503-L405",
  "percentil_nota_2026": 72,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n04 Economia\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [
   {

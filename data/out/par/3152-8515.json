@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "522",
  "cnaef_nome": "Eletricidade e Energia",
  "codc": "8515",
  "code": "3152",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 110.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 107.5
+   }
+  ]
+ },
  "curso": "Tecnologias de Energia",
  "desemprego_percentil": 22,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 2.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 13.6,
+    "13": 52.3,
+    "14": 27.3,
+    "15": 6.8,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 44,
    "nota_final_media": 13.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 41.5,
+   "cna_outras": 18.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 1.5,
+   "outros": 38.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 89
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3152-8515",
  "pct_colocados_1opcao_2025": 55,
  "percentil_nota_2026": 4,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\nou\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n18 Português\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {
@@ -147,7 +193,7 @@
    "vagas": 30
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 115.3,
    "sobras": 0,
    "vagas": 2
@@ -164,7 +210,7 @@
    "vagas": 35
   },
   "2020f2": {
-   "colocados": 15,
+   "colocados": 16,
    "nota_ultimo": 123.5,
    "sobras": 0,
    "vagas": 13
@@ -192,7 +238,7 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 33,
+   "colocados": 34,
    "nota_ultimo": 127.3,
    "sobras": 0,
    "vagas": 33
@@ -214,7 +260,7 @@
    "candidatos_1opcao": 14,
    "candidatos_homens": 99,
    "candidatos_mulheres": 27,
-   "colocados": 34,
+   "colocados": 36,
    "colocados_1opcao": 12,
    "colocados_homens": 32,
    "colocados_mulheres": 4,
@@ -304,7 +350,7 @@
    "candidatos_1opcao": 9,
    "candidatos_homens": 38,
    "candidatos_mulheres": 7,
-   "colocados": 15,
+   "colocados": 16,
    "colocados_1opcao": 7,
    "colocados_homens": 16,
    "colocados_mulheres": 0,

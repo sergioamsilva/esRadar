@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "9504",
  "code": "4109",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Fisioterapia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -26,9 +28,36 @@
    "taxa": 70.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.4,
+    "13": 21.9,
+    "14": 39.0,
+    "15": 26.0,
+    "16": 11.0,
+    "17": 70.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 146,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7970.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 110.0,
+   "mudanca_curso": 990.0,
+   "outros": 930.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 155,
+   "inscritos": 356
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4109-9504",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "series": {},
  "subsistema": "politecnico",

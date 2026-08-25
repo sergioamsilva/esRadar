@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9996",
  "code": "7110",
  "concurso": null,
+ "contingentes": null,
  "curso": "Gestão Turística (regime pós-laboral)",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "7110-9996",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -43,7 +46,7 @@
    "vagas": 41
   },
   "2019f2": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 136.6,
    "sobras": 0,
    "vagas": 10
@@ -91,7 +94,7 @@
    "vagas": 3
   },
   "2022f1": {
-   "colocados": 42,
+   "colocados": 44,
    "nota_ultimo": 132.6,
    "sobras": 0,
    "vagas": 42
@@ -107,13 +110,13 @@
    "sobras": 4
   },
   "2023f1": {
-   "colocados": 40,
+   "colocados": 41,
    "nota_ultimo": 125.2,
    "sobras": 0,
    "vagas": 40
   },
   "2023f2": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 133.6,
    "sobras": 0,
    "vagas": 10

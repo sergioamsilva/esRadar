@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "9243",
  "code": "4010",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Teatro",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 16
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 15.4,
+    "14": 15.4,
+    "15": 23.1,
+    "16": 23.1,
+    "17": 15.4,
+    "18": 7.7,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 13,
    "nota_final_media": 15.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6670.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 670.0,
+   "mudanca_curso": 670.0,
+   "outros": 2000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 24
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4010-9243",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n13 Inglês\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n18 Português\nou\n06 Filosofia\n12 Hist. da Cultura e Artes\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n12 Hist. da Cultura e Artes\n18 Português",
  "series": {},
  "subsistema": "universitario",

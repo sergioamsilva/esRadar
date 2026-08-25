@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "142",
  "cnaef_nome": "Ciências da Educação",
  "codc": "L130",
  "code": "3142",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 108.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 99.0
+   }
+  ]
+ },
  "curso": "Educação Ambiental e Turismo de Natureza",
  "desemprego_percentil": 76,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, Portalegre, Santarém, Setúbal",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 6.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 14.3,
+    "14": 35.7,
+    "15": 35.7,
+    "16": 10.7,
+    "17": 3.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 28,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 40.0,
+   "cna_outras": 10.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.5,
+   "mudanca_curso": 2.5,
+   "outros": 45.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 61
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +116,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3142-L130",
- "pct_colocados_1opcao_2025": 80,
+ "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 0,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Coimbra, Leiria, Lisboa, Portalegre, Santarém, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n11 História\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "semelhantes": [
   {
@@ -133,7 +179,7 @@
    "vagas": 33
   },
   "2019f2": {
-   "colocados": 8,
+   "colocados": 9,
    "nota_ultimo": 107.0,
    "sobras": 13,
    "vagas": 22
@@ -151,7 +197,7 @@
    "vagas": 30
   },
   "2020f2": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 113.6,
    "sobras": 8,
    "vagas": 22
@@ -179,7 +225,7 @@
    "vagas": 12
   },
   "2022f1": {
-   "colocados": 19,
+   "colocados": 21,
    "nota_ultimo": 114.0,
    "sobras": 9,
    "vagas": 30
@@ -277,7 +323,7 @@
    "candidatos_1opcao": 4,
    "candidatos_homens": 7,
    "candidatos_mulheres": 13,
-   "colocados": 5,
+   "colocados": 6,
    "colocados_1opcao": 4,
    "colocados_homens": 4,
    "colocados_mulheres": 2,
@@ -311,7 +357,7 @@
    "vagas": 30
   },
   "2026f1": {
-   "colocados": 3,
+   "colocados": 4,
    "nota_ultimo": 99.0,
    "sobras": 31,
    "vagas": 35

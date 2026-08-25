@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9668",
  "code": "3062",
  "concurso": null,
+ "contingentes": null,
  "curso": "Gerontologia Social",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3062-9668",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -43,7 +46,7 @@
    "vagas": 40
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 125.3,
    "sobras": 0,
    "vagas": 4
@@ -61,7 +64,7 @@
    "vagas": 40
   },
   "2020f2": {
-   "colocados": 7,
+   "colocados": 9,
    "nota_ultimo": 133.4,
    "sobras": 0,
    "vagas": 6
@@ -91,7 +94,7 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 42,
+   "colocados": 44,
    "nota_ultimo": 115.1,
    "sobras": 0,
    "vagas": 42
@@ -115,7 +118,7 @@
    "vagas": 40
   },
   "2023f2": {
-   "colocados": 9,
+   "colocados": 10,
    "nota_ultimo": 134.4,
    "sobras": 0,
    "vagas": 8
@@ -127,7 +130,7 @@
    "vagas": 1
   },
   "2024f1": {
-   "colocados": 40,
+   "colocados": 41,
    "nota_ultimo": 126.9,
    "sobras": 0,
    "vagas": 40

@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9254",
  "code": "3082",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 129.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 131.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 113.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 115.5
+   }
+  ]
+ },
  "curso": "Turismo",
  "desemprego_percentil": 49,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: FaroOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP91 Técnico de Turismo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 3.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.1,
+    "12": 7.5,
+    "13": 23.7,
+    "14": 29.0,
+    "15": 23.7,
+    "16": 7.5,
+    "17": 5.4,
+    "18": 2.2,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 93,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 41.8,
+   "cna_outras": 19.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.1,
+   "mudanca_curso": 1.4,
+   "outros": 34.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 27,
+   "inscritos": 226
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +126,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3082-9254",
- "pct_colocados_1opcao_2025": 74,
+ "pct_colocados_1opcao_2025": 71,
  "percentil_nota_2026": 18,
+ "preferencia_regional": {
+  "area_influencia": "Faro",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n04 Economia\nou\n11 História\n13 Inglês\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -194,7 +250,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 63,
+   "colocados": 65,
    "nota_ultimo": 129.8,
    "sobras": 0,
    "vagas": 63
@@ -292,7 +348,7 @@
    "candidatos_1opcao": 32,
    "candidatos_homens": 81,
    "candidatos_mulheres": 110,
-   "colocados": 43,
+   "colocados": 45,
    "colocados_1opcao": 32,
    "colocados_homens": 17,
    "colocados_mulheres": 28,
@@ -326,7 +382,7 @@
    "vagas": 10
   },
   "2026f1": {
-   "colocados": 65,
+   "colocados": 68,
    "nota_ultimo": 115.5,
    "sobras": 0,
    "vagas": 65

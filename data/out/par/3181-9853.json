@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "3181",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 112.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 145.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 134.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 131.3
+   }
+  ]
+ },
  "curso": "Educação Básica",
  "desemprego_percentil": 24,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 2.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.0,
+    "13": 16.3,
+    "14": 40.7,
+    "15": 22.1,
+    "16": 9.3,
+    "17": 4.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 86,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 53.8,
+   "cna_outras": 11.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.4,
+   "mudanca_curso": 0,
+   "outros": 26.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 216
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3181-9853",
  "pct_colocados_1opcao_2025": 62,
  "percentil_nota_2026": 45,
+ "preferencia_regional": {
+  "area_influencia": "Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -146,7 +202,7 @@
    "vagas": 45
   },
   "2019f2": {
-   "colocados": 8,
+   "colocados": 9,
    "nota_ultimo": 109.3,
    "sobras": 29,
    "vagas": 38
@@ -164,7 +220,7 @@
    "vagas": 46
   },
   "2020f2": {
-   "colocados": 18,
+   "colocados": 19,
    "nota_ultimo": 109.9,
    "sobras": 14,
    "vagas": 32
@@ -194,7 +250,7 @@
    "vagas": 15
   },
   "2022f1": {
-   "colocados": 42,
+   "colocados": 43,
    "nota_ultimo": 106.0,
    "sobras": 5,
    "vagas": 48

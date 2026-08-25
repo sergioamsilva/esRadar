@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9147",
  "code": "1116",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 148.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 176.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 137.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 178.3
+   }
+  ]
+ },
  "curso": "Gestão",
  "desemprego_percentil": 36,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 2.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.3,
+    "12": 12.6,
+    "13": 20.7,
+    "14": 26.4,
+    "15": 18.1,
+    "16": 11.8,
+    "17": 7.1,
+    "18": 1.8,
+    "19": 30.0,
+    "20": 0.0
+   },
    "n": 382,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 80.0,
+   "cna_outras": 4.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.7,
+   "mudanca_curso": 5.9,
+   "outros": 8.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 50,
+   "inscritos": 805
   },
   "percentil_entrada": {
    "2020": {
@@ -75,6 +127,7 @@
  "minimo_provas": 120,
  "par": "1116-9147",
  "percentil_nota_2026": 98,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
  "semelhantes": [
   {

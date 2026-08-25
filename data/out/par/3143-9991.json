@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9991",
  "code": "3143",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 98.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 113.5
+   }
+  ]
+ },
  "curso": "Gestão (regime pós-laboral)",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n085 Administração (DL 74/2004)\n216 Contabilidade e Administração (Port. 32/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n722 Técnico Administrativo\n831 Agrupamento 3 / Administração\nG56 Contabilidade e Gestão (Portaria n.º 266/2013)\nG76 Colégio de S. Miguel - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP51 Técnico de Gestão",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": {
@@ -26,6 +41,10 @@
  "par": "3143-9991",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 15,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -109,7 +128,7 @@
    "vagas": 19
   },
   "2026f1": {
-   "colocados": 5,
+   "colocados": 8,
    "nota_ultimo": 113.5,
    "sobras": 16,
    "vagas": 24

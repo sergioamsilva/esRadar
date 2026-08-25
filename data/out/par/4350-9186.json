@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "9186",
  "code": "4350",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Informática de Gestão",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 5.0,
+    "14": 45.0,
+    "15": 35.0,
+    "16": 15.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 20,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6500.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1000.0,
+   "mudanca_curso": 0,
+   "outros": 2500.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 16,
+   "inscritos": 63
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4350-9186",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n09 Geografia\n16 Matemática\nou\n13 Inglês\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

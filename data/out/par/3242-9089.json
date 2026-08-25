@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "582",
  "cnaef_nome": "Construção Civil e Engenharia Civil",
  "codc": "9089",
  "code": "3242",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 129.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 122.5
+   }
+  ]
+ },
  "curso": "Engenharia Civil",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Leiria, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n709 Medidor Orçamentista\n715 Preparador de Obras\n732 Técnico de Construção Civil\n779 Técnico Topógrafo\nP98 Topógrafo-Geómetra\nR68 Técnico de Ensaios da Construção Civil e Obras Públicas\nR69 Técnico de Fabrico de Componentes de Construção Metálica\nR88 Técnico de Medições e Orçamentos\nS26 Técnico de Desenho/Preparador de Obra\nS38 Técnico de Medições e Orçamentos\nS41 Técnico de Obra/Condutor de Obra\nS48 Técnico de Topografia\nS68 Técnico de Ensaios da Construção Civil e Obras Públicas\nT11 Técnico de Desenho de Construção Civil",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
  "infocursos": {
@@ -19,6 +34,20 @@
    "muda_curso": 0,
    "muda_estabelecimento": 2.9,
    "novos_inscritos": 34
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2500.0,
+   "mudanca_curso": 0,
+   "outros": 7500.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 15,
+   "inscritos": 50
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -32,6 +61,10 @@
  "minimo_provas": 95,
  "par": "3242-9089",
  "percentil_nota_2026": 30,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Leiria, Portalegre, Santarém",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "16 Matemática\ne\nUma das seguintes provas:\n02 Biologia e Geologia\n04 Economia\n07 Física e Química\n09 Geografia\n10 Geometria Descritiva\n18 Português",
  "semelhantes": [
   {

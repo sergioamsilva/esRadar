@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "9243",
  "code": "3116",
  "concurso": "Local",
+ "contingentes": null,
  "curso": "Teatro",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 2.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 80.0,
+    "14": 6.7,
+    "15": 20.8,
+    "16": 40.0,
+    "17": 30.0,
+    "18": 1.7,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 120,
    "nota_final_media": 16.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8070.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 670.0,
+   "mudanca_curso": 300.0,
+   "outros": 960.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 16,
+   "inscritos": 209
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3116-9243",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n15 Literatura Portuguesa\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português",
  "series": {},
  "subsistema": "politecnico",

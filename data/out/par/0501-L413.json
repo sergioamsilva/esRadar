@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "520",
  "cnaef_nome": "Engenharia e Técnicas Afins",
  "codc": "L413",
  "code": "0501",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 115.5
+   }
+  ]
+ },
  "curso": "Construção Digital",
  "duracao": "3 Anos",
  "ects": 180,
@@ -17,6 +27,7 @@
  "minimo_provas": 95,
  "par": "0501-L413",
  "percentil_nota_2026": 18,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n19 Matemática A\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n03 Desenho\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

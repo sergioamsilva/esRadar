@@ -1,14 +1,44 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "214",
  "cnaef_nome": "Design",
  "codc": "L335",
  "code": "3092",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 131.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 138.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 126.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 118.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 130.5
+   }
+  ]
+ },
  "curso": "Design de Equipamento e Ambientes",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Leiria, Portalegre, Porto, Vila Real, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n083 Design de Equipamento (DL 74/2004)\n218 Design, Cerâmica e Escultura (Port. 32/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n735 Técnico de Desenho Gráfico\n756 Técnico de Desenho de Mobiliário e Construções em Madeira\n821 Agrupamento 2 / Design\n978 Recorrente - Design de Equipamento (DL 74/2004)\n987 Recorrente - Design de Produto (DL 74/2004)\nC72 Design de Produto\nG48 Design (Portaria n.º 265/2013)\nG57 Design, Cerâmica e Escultura (Portaria n.º 266/2013)\nG67 Técnico de Design Gráfico\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH36 Mecânica e Design Industrial\nH40 Conservação e Restauro do Património, área das Artes Visuais\nH41 Desenho de Arquitetura, na área das Artes Visuais\nH48 Design\nH52 Produção e Desenho Industrial de Mecânica\nH57 Design, Cerâmica e Escultura\nH66 Técnico de Desenho Digital 3D\nH67 Técnico de Desenho Gráfico\nP33 Técnico de Desenho de Mobiliário\nP35 Técnico de Desenho de Construções Mecânicas\nP36 Técnico de Desenho Digital 3D\nP37 Técnico de Design\nP39 Técnico de Design Gráfico\nR08 Design, Cerâmica e Escultura (Port. 816/2009)\nR35 Desenhador de Sistemas de Refrigeração e Climatização\nR37 Pintor Artístico em Azulejo\nR59 Técnico de Desenho da Construção Civil\nR60 Técnico de Desenho de Cunhos e Cortantes\nR61 Técnico de Desenho de Mobiliário e Construções em Madeira\nR62 Técnico de Desenho de Moldes\nR64 Técnico de Desenho Gráfico\nR69 Técnico de Fabrico de Componentes de Construção Metálica\nS22 Técnico de Desenho de Construções em Madeira e Mobiliário\nT12 Técnico de Desenho de Mobiliário\nT45 Técnico de Projeto de Moldes e Modelos",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -19,6 +49,20 @@
    "muda_curso": 0,
    "muda_estabelecimento": 4.2,
    "novos_inscritos": 24
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 23.3,
+   "cna_outras": 16.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 2.3,
+   "outros": 58.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 48
   },
   "percentil_entrada": {
    "2024": {
@@ -45,6 +89,10 @@
  "par": "3092-L335",
  "pct_colocados_1opcao_2025": 50,
  "percentil_nota_2026": 44,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Leiria, Portalegre, Porto, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n10 Geometria Descritiva\n16 Matemática\nou\n03 Desenho\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -160,7 +208,7 @@
    "vagas": 2
   },
   "2026f1": {
-   "colocados": 23,
+   "colocados": 24,
    "nota_ultimo": 130.5,
    "sobras": 0,
    "vagas": 23

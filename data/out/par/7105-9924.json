@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 15,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9924",
  "code": "7105",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 154.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 129.0
+   }
+  ]
+ },
  "curso": "Gestão de Transportes e Logística",
  "desemprego_percentil": 41,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n770 Técnico de Transportes\nP15 Técnico de Administração Naval\nP90 Técnico de Transportes\nS34 Técnico de Logística",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior Náutica Infante D. Henrique",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 3.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 7.1,
+    "12": 22.9,
+    "13": 35.7,
+    "14": 15.7,
+    "15": 7.1,
+    "16": 10.0,
+    "17": 1.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 70,
    "nota_final_media": 13.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.9,
+   "cna_outras": 27.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.3,
+   "mudanca_curso": 0,
+   "outros": 38.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 122
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +116,9 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7105-9924",
- "pct_colocados_1opcao_2025": 70,
+ "pct_colocados_1opcao_2025": 66,
  "percentil_nota_2026": 41,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n13 Inglês",
  "semelhantes": [
   {
@@ -191,7 +234,7 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 38,
+   "colocados": 39,
    "nota_ultimo": 135.9,
    "sobras": 0,
    "vagas": 38
@@ -213,7 +256,7 @@
    "candidatos_1opcao": 34,
    "candidatos_homens": 181,
    "candidatos_mulheres": 37,
-   "colocados": 40,
+   "colocados": 41,
    "colocados_1opcao": 14,
    "colocados_homens": 33,
    "colocados_mulheres": 8,
@@ -267,7 +310,7 @@
    "candidatos_1opcao": 15,
    "candidatos_homens": 38,
    "candidatos_mulheres": 12,
-   "colocados": 9,
+   "colocados": 10,
    "colocados_1opcao": 3,
    "colocados_homens": 6,
    "colocados_mulheres": 4,
@@ -289,7 +332,7 @@
    "candidatos_1opcao": 21,
    "candidatos_homens": 69,
    "candidatos_mulheres": 22,
-   "colocados": 30,
+   "colocados": 32,
    "colocados_1opcao": 21,
    "colocados_homens": 22,
    "colocados_mulheres": 10,
@@ -323,7 +366,7 @@
    "vagas": 7
   },
   "2026f1": {
-   "colocados": 41,
+   "colocados": 42,
    "nota_ultimo": 129.0,
    "sobras": 0,
    "vagas": 41

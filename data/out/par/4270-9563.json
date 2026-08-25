@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "813",
  "cnaef_nome": "Desporto",
  "codc": "9563",
  "code": "4270",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Desporto",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.6,
+    "13": 18.7,
+    "14": 31.8,
+    "15": 22.4,
+    "16": 16.8,
+    "17": 3.7,
+    "18": 90.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 107,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6080.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1480.0,
+   "mudanca_curso": 210.0,
+   "outros": 2220.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 325
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4270-9563",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

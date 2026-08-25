@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "A022",
  "code": "1000",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 167.3
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 157.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 182.3
+   }
+  ]
+ },
  "curso": "Gestão + Negócios Internacionais",
  "duracao": "4 Anos",
  "ects": 360,
@@ -17,6 +37,7 @@
  "minimo_provas": 100,
  "par": "1000-A022",
  "percentil_nota_2026": 99,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
  "semelhantes": [
   {

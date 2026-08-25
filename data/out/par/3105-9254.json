@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9254",
  "code": "3105",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 114.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 115.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 123.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 107.5
+   }
+  ]
+ },
  "curso": "Turismo",
  "desemprego_percentil": 55,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Setúbal, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n086 Marketing (DL 74/2004)\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n674 Animação Sociocultural (Port. 817/2009)\n677 Turismo Cultural e Ambiental (Port. 817/2009)\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n778 Técnico de Agências de Viagens e Transportes\n831 Agrupamento 3 / Administração\n841 Agrupamento 4 / Comunicação\n842 Agrupamento 4 / Animação Social\n981 Recorrente - Marketing (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA17 Marketing e Estratégia Empresarial (VC) (Port. 941/2009)\nA18 Marketing e Estratégia Empresarial (VCT) (Port. 941/2009)\nA19 Línguas e Relações Empresariais (VC) (Port. 941/2009)\nA20 Línguas e Relações Empresariais (VCT) (Port. 941/2009)\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG11 Marketing e Estratégia Empresarial (VC) (Port. 260/2013)\nG12 Património e Turismo (VC) (Portaria n.º 260/2013)\nG23 Línguas e Relações Empresariais (VT) (Portaria n.º 260/2013)\nG24 Marketing e Estratégia Empresarial (VT) (Port. 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG43 Animação Sociocultural (Portaria n.º 265/2013)\nG54 Turismo Cultural e Recreativo (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nH23 Línguas e Relações Empresariais (VT)\nH24 Marketing e Estratégia Empresarial (VT)\nH25 Património e Turismo (VT)\nH43 Animação Sociocultural\nH54 Turismo Cultural e Recreativo\nP01 Animador Sociocultural\nP28 Técnico de Comunicação - Marketing, Relações Públicas e Publ\nP64 Técnico de Marketing\nP67 Técnico de Museografia e Gestão do Património\nP69 Técnico de Organização de Eventos\nP77 Técnico de Receção\nP85 Técnico de Sistemas de Informação Geográfica\nP90 Técnico de Transportes\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR17 Técnico em Animação de Turismo\nR27 Acompanhante de Turismo Equestre\nR39 Rececionista de Hotel\nR77 Técnico de Informação e Animação Turística\nR92 Técnico de Operações Turísticas\nS36 Técnico de Marketing\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS71 Técnico de Museografia e Gestão do Património\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nT01 Acompanhante de Turismo Equestre\nT02 Animador Sociocultural\nT28 Técnico de Informação e Animação Turística\nT40 Técnico de Organização de Eventos\nT52 Técnico de Turismo Ambiental e Rural\nU17 Técnico de Receção Hoteleira\nU26 Técnico de Vendas e Marketing\nU56 Técnico de Alojamento Hoteleiro",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 4.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.2,
+    "13": 13.6,
+    "14": 34.6,
+    "15": 33.3,
+    "16": 12.3,
+    "17": 3.7,
+    "18": 1.2,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 81,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 47.8,
+   "cna_outras": 17.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.9,
+   "mudanca_curso": 2.6,
+   "outros": 31.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 17,
+   "inscritos": 197
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3105-9254",
  "pct_colocados_1opcao_2025": 93,
  "percentil_nota_2026": 4,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Setúbal, Viseu",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -197,7 +253,7 @@
    "vagas": 50
   },
   "2022f2": {
-   "colocados": 8,
+   "colocados": 9,
    "nota_ultimo": 124.4,
    "sobras": 0,
    "vagas": 7
@@ -213,7 +269,7 @@
    "candidatos_1opcao": 30,
    "candidatos_homens": 80,
    "candidatos_mulheres": 112,
-   "colocados": 51,
+   "colocados": 52,
    "colocados_1opcao": 30,
    "colocados_homens": 19,
    "colocados_mulheres": 33,
@@ -323,7 +379,7 @@
    "vagas": 16
   },
   "2026f1": {
-   "colocados": 22,
+   "colocados": 23,
    "nota_ultimo": 107.5,
    "sobras": 22,
    "vagas": 45

@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "L143",
  "code": "3243",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 109.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 128.3
+   }
+  ]
+ },
  "curso": "Informática e Tecnologias Multimédia",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Leiria, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n813 Agrupamento 1 / Informática\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP44 Técnico de Eletrónica, Automação e Computadores\nP56 Técnico de Gestão e Programação de Sistemas Informáticos\nP59 Técnico de Informática de Gestão\nP85 Técnico de Sistemas de Informação Geográfica",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
  "infocursos": {
@@ -21,9 +36,36 @@
    "novos_inscritos": 37
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.1,
+    "13": 0.0,
+    "14": 35.7,
+    "15": 28.6,
+    "16": 28.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 14,
    "nota_final_media": 14.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 19.1,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 2.1,
+   "outros": 78.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 25,
+   "inscritos": 63
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +112,10 @@
  "par": "3243-L143",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 41,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Leiria, Portalegre, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n10 Geometria Descritiva\n16 Matemática",
  "semelhantes": [
   {

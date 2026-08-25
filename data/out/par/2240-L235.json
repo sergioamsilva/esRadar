@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "221",
  "cnaef_nome": "Religião e Teologia",
  "codc": "L235",
  "code": "2240",
  "concurso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
+ "contingentes": null,
  "curso": "Teologia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 92
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.1,
+    "13": 11.1,
+    "14": 16.7,
+    "15": 27.8,
+    "16": 11.1,
+    "17": 16.7,
+    "18": 5.6,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 14.9,
    "periodo": "2023/24_"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3040.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 380.0,
+   "mudanca_curso": 380.0,
+   "outros": 6200.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 50,
+   "inscritos": 138
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "2240-L235",
+ "preferencia_regional": null,
  "provas_ingresso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
  "series": {},
  "subsistema": "universitario",

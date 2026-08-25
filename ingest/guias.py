@@ -88,8 +88,14 @@ _CAMPOS = {
 _MINIMOS = re.compile(
     r"Classificações Mínimas</h2>Nota de candidatura: (\d+)[^<]*<br>Provas de ingresso: (\d+)"
 )
-_FORMULA = re.compile(r"Fórmula de Cálculo</h2>(.*?)<a name", re.S)
+# A fórmula termina na secção seguinte — que nos politécnicos é a
+# «Preferência Regional», antes ignorada e colada ao texto da fórmula.
+_FORMULA = re.compile(r"Fórmula de Cálculo</h2>(.*?)(?=<h2>|<a name)", re.S)
 _PROVAS = re.compile(r"Provas de Ingresso</h2>(.*?)<h2>", re.S)
+_PREF_REGIONAL = re.compile(
+    r"Preferência Regional</h2>Percentagem de vagas: (\d+)%<br>Área de influência: ([^<]+)"
+)
+_OUTROS_PREF = re.compile(r"Outros Acessos Preferenciais</h2>Percentagem de vagas: (\d+)%")
 _ANOS = re.compile(r'<th colspan="2" class="th1">(\d{4})</th>')
 _LINHA_STATS = re.compile(r"<th class=\"tlab[^\"]*\"[^>]*>(.*?)</th>(.*?)</tr>", re.S)
 _CELULA = re.compile(r"<td[^>]*>(.*?)</td>", re.S)
@@ -156,6 +162,15 @@ def parse_detalhe(html: str) -> dict:
     provas = _PROVAS.search(html)
     if provas:
         ficha["provas_ingresso"] = _limpar(provas.group(1))
+    pref = _PREF_REGIONAL.search(html)
+    if pref:
+        ficha["preferencia_regional"] = {
+            "pct_vagas": int(pref.group(1)),
+            "area_influencia": pref.group(2).strip(),
+        }
+    outros = _OUTROS_PREF.search(html)
+    if outros:
+        ficha["acessos_preferenciais_pct"] = int(outros.group(1))
 
     anos = [int(a) for a in _ANOS.findall(html)]
     series: dict[str, dict] = {}

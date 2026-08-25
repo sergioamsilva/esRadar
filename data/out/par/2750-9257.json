@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "581",
  "cnaef_nome": "Arquitetura e Urbanismo",
  "codc": "9257",
  "code": "2750",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Arquitetura",
  "duracao": "5 Anos",
  "ects": 300,
@@ -12,6 +14,20 @@
  "grau": "Mestrado Integrado",
  "grupo": "Universidade Fernando Pessoa",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 10000.0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 32,
+   "inscritos": 77
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 19,
@@ -23,6 +39,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2750-9257",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n10 Geometria Descritiva\n18 Português\nou\n16 Matemática\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português",
  "series": {},
  "subsistema": "universitario",

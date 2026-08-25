@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9879",
  "code": "3131",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 134.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 129.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 134.0
+   }
+  ]
+ },
  "curso": "Educação Social (regime pós-laboral)",
  "desemprego_percentil": 68,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 5.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 4.7,
+    "13": 16.3,
+    "14": 40.7,
+    "15": 20.9,
+    "16": 17.4,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 86,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 16.4,
+   "cna_outras": 35.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 9.0,
+   "mudanca_curso": 4.5,
+   "outros": 34.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 103
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3131-9879",
  "pct_colocados_1opcao_2025": 4,
  "percentil_nota_2026": 49,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -165,7 +216,7 @@
    "vagas": 46
   },
   "2020f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 139.4,
    "sobras": 0,
    "vagas": 8
@@ -323,7 +374,7 @@
    "vagas": 4
   },
   "2026f1": {
-   "colocados": 30,
+   "colocados": 31,
    "nota_ultimo": 134.0,
    "sobras": 0,
    "vagas": 30

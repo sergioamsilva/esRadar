@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "310",
  "cnaef_nome": "Ciências Sociais e do Comportamento",
  "codc": "L380",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 126.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 117.5
+   }
+  ]
+ },
  "curso": "Gerontologia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -17,6 +32,7 @@
  "minimo_provas": 95,
  "par": "3062-L380",
  "percentil_nota_2026": 22,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n07 Física e Química\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {

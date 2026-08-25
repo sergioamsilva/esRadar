@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "L067",
  "code": "7250",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 123.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 123.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 133.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 118.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 147.5
+   }
+  ]
+ },
  "curso": "Fisiologia Clínica",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +51,36 @@
    "novos_inscritos": 92
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 9.2,
+    "14": 46.2,
+    "15": 38.5,
+    "16": 6.2,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 65,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 60.0,
+   "cna_outras": 17.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.2,
+   "mudanca_curso": 2.2,
+   "outros": 17.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 14,
+   "inscritos": 169
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +126,7 @@
  "minimo_provas": 95,
  "par": "7250-L067",
  "percentil_nota_2026": 70,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -188,7 +246,7 @@
    "media_secundario": 157.7
   },
   "2026f1": {
-   "colocados": 43,
+   "colocados": 44,
    "nota_ultimo": 147.5,
    "sobras": 0,
    "vagas": 43

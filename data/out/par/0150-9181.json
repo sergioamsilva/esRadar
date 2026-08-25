@@ -1,14 +1,39 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "225",
  "cnaef_nome": "História e Arqueologia",
  "codc": "9181",
  "code": "0150",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 143.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 150.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 142.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 137.8
+   }
+  ]
+ },
  "curso": "História",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -21,9 +46,36 @@
    "novos_inscritos": 49
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 5.3,
+    "12": 15.8,
+    "13": 13.2,
+    "14": 36.8,
+    "15": 26.3,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 2.6,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 38,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 65.3,
+   "cna_outras": 4.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.2,
+   "mudanca_curso": 14.3,
+   "outros": 8.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 76
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +122,10 @@
  "par": "0150-9181",
  "pct_colocados_1opcao_2025": 84,
  "percentil_nota_2026": 55,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n11 História\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português",
  "semelhantes": [
   {

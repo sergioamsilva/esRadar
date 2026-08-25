@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9455",
  "code": "3064",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 139.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 106.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 128.5
+   }
+  ]
+ },
  "curso": "Engenharia Biomédica",
  "desemprego_percentil": 90,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -25,6 +45,20 @@
    "diplomados": 81,
    "periodo": "2020/21_2023/24",
    "taxa": 60.0
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 43.9,
+   "cna_outras": 28.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.8,
+   "mudanca_curso": 0,
+   "outros": 26.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 99
   },
   "percentil_entrada": {
    "2022": {
@@ -61,6 +95,10 @@
  "par": "3064-9455",
  "pct_colocados_1opcao_2025": 56,
  "percentil_nota_2026": 41,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Viseu",
+  "pct_vagas": 25
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

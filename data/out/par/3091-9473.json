@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9473",
  "code": "3091",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 107.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 110.0
+   }
+  ]
+ },
  "curso": "Educação Social Gerontológica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Guarda, Porto, Santarém, Vila Real, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -19,6 +34,20 @@
    "muda_curso": 7.1,
    "muda_estabelecimento": 7.1,
    "novos_inscritos": 14
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 35.5,
+   "cna_outras": 6.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 12.9,
+   "mudanca_curso": 0,
+   "outros": 45.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 30
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -32,6 +61,10 @@
  "minimo_provas": 95,
  "par": "3091-9473",
  "percentil_nota_2026": 8,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Castelo Branco, Guarda, Porto, Santarém, Vila Real, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {

@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9455",
  "code": "1307",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 6,
+    "nome": "Madeira pref. regional nível 1",
+    "nota": 137.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 125.3
+   }
+  ]
+ },
  "curso": "Engenharia Biomédica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
  "infocursos": {
@@ -26,6 +41,10 @@
  "par": "1307-9455",
  "pct_colocados_1opcao_2025": 82,
  "percentil_nota_2026": 36,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

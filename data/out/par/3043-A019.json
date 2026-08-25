@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "A019",
  "code": "3043",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 148.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 116.8
+   }
+  ]
+ },
  "curso": "Gestão de Negócios Internacionais (ensino em Inglês)",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n575 Contabilidade e Gestão (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n733 Técnico de Contabilidade e Gestão\n746 Técnico de Gestão Administrativa\n831 Agrupamento 3 / Administração\nA18 Marketing e Estratégia Empresarial (VCT) (Port. 941/2009)\nA20 Línguas e Relações Empresariais (VCT) (Port. 941/2009)\nA57 Contabilidade e Gestão Empresarial (Port. 960/2009)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP51 Técnico de Gestão\nP64 Técnico de Marketing\nR49 Técnico de Apoio à Gestão\nS17 Técnico de Apoio à Gestão\nS36 Técnico de Marketing",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": null,
@@ -17,6 +32,10 @@
  "minimo_provas": 95,
  "par": "3043-A019",
  "percentil_nota_2026": 21,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {

@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "8438",
  "code": "3113",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 128.5
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 111.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 143.5
+   }
+  ]
+ },
  "curso": "Relações Públicas e Comunicação Empresarial (regime pós-laboral)",
  "desemprego_percentil": 44,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 3.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.9,
+    "13": 42.9,
+    "14": 28.6,
+    "15": 9.5,
+    "16": 4.8,
+    "17": 2.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 42,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 15.9,
+   "cna_outras": 31.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 6.3,
+   "mudanca_curso": 4.8,
+   "outros": 41.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 100
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "3113-8438",
  "pct_colocados_1opcao_2025": 17,
  "percentil_nota_2026": 65,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\n16 Matemática\nou\n06 Filosofia\n18 Português\nou\n11 História\n16 Matemática\nou\n11 História\n18 Português\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n11 História",
  "semelhantes": [
   {

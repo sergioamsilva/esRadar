@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "3121",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 109.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 107.8
+   }
+  ]
+ },
  "curso": "Educação Básica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
  "infocursos": {
@@ -21,9 +36,36 @@
    "novos_inscritos": 54
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.7,
+    "13": 30.8,
+    "14": 46.2,
+    "15": 7.7,
+    "16": 7.7,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 13,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 26.0,
+   "cna_outras": 5.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 11.0,
+   "mudanca_curso": 0,
+   "outros": 57.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 91
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +112,10 @@
  "par": "3121-9853",
  "pct_colocados_1opcao_2025": 20,
  "percentil_nota_2026": 5,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -198,7 +244,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 2,
    "candidatos_mulheres": 53,
-   "colocados": 14,
+   "colocados": 15,
    "colocados_1opcao": 0,
    "colocados_homens": 1,
    "colocados_mulheres": 14,
@@ -253,7 +299,7 @@
    "candidatos_1opcao": 8,
    "candidatos_homens": 12,
    "candidatos_mulheres": 173,
-   "colocados": 40,
+   "colocados": 41,
    "colocados_1opcao": 8,
    "colocados_homens": 3,
    "colocados_mulheres": 38,
@@ -269,7 +315,7 @@
    "candidatos_1opcao": 9,
    "candidatos_homens": 4,
    "candidatos_mulheres": 81,
-   "colocados": 7,
+   "colocados": 8,
    "colocados_1opcao": 2,
    "colocados_homens": 1,
    "colocados_mulheres": 7,
@@ -287,7 +333,7 @@
    "vagas": 0
   },
   "2026f1": {
-   "colocados": 27,
+   "colocados": 28,
    "nota_ultimo": 107.8,
    "sobras": 37,
    "vagas": 65

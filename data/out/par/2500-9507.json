@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "581",
  "cnaef_nome": "Arquitetura e Urbanismo",
  "codc": "9507",
  "code": "2500",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Arquitetura e Urbanismo",
  "duracao": "10 Semestres",
  "ects": 300,
@@ -21,9 +23,36 @@
    "novos_inscritos": 43
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 22.2,
+    "13": 27.8,
+    "14": 16.7,
+    "15": 22.2,
+    "16": 11.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3850.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 920.0,
+   "mudanca_curso": 920.0,
+   "outros": 4310.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 70,
+   "inscritos": 135
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2500-9507",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n16 Matemática\nou\n03 Desenho\n18 Português\nou\n16 Matemática\n18 Português",
  "series": {},
  "subsistema": "universitario",

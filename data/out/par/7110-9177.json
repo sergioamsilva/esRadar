@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9177",
  "code": "7110",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 140.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 129.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 102.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 125.0
+   }
+  ]
+ },
  "curso": "Gestão Turística",
  "desemprego_percentil": 24,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n717 Rececionista de Turismo\n778 Técnico de Agências de Viagens e Transportes\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP69 Técnico de Organização de Eventos\nP87 Técnico de Termalismo\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nR39 Rececionista de Hotel\nR47 Técnico de Agências de Viagens e Transportes\nR92 Técnico de Operações Turísticas\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nS87 Técnico de Alojamento Hoteleiro (Portaria n.º 102/2020)\nT40 Técnico de Organização de Eventos\nT52 Técnico de Turismo Ambiental e Rural\nU17 Técnico de Receção Hoteleira\nU56 Técnico de Alojamento Hoteleiro",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 2.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.8,
+    "13": 23.7,
+    "14": 44.7,
+    "15": 21.1,
+    "16": 5.3,
+    "17": 3.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 114,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 61.1,
+   "cna_outras": 17.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.8,
+   "mudanca_curso": 2.4,
+   "outros": 18.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 216
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +126,9 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7110-9177",
- "pct_colocados_1opcao_2025": 68,
+ "pct_colocados_1opcao_2025": 66,
  "percentil_nota_2026": 35,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -147,7 +200,7 @@
    "vagas": 60
   },
   "2019f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 143.8,
    "sobras": 0,
    "vagas": 4
@@ -195,7 +248,7 @@
    "vagas": 3
   },
   "2022f1": {
-   "colocados": 60,
+   "colocados": 61,
    "nota_ultimo": 144.4,
    "sobras": 0,
    "vagas": 60
@@ -255,7 +308,7 @@
    "candidatos_1opcao": 74,
    "candidatos_homens": 165,
    "candidatos_mulheres": 152,
-   "colocados": 61,
+   "colocados": 62,
    "colocados_1opcao": 32,
    "colocados_homens": 26,
    "colocados_mulheres": 36,
@@ -293,7 +346,7 @@
    "candidatos_1opcao": 19,
    "candidatos_homens": 58,
    "candidatos_mulheres": 28,
-   "colocados": 28,
+   "colocados": 29,
    "colocados_1opcao": 19,
    "colocados_homens": 16,
    "colocados_mulheres": 13,
@@ -326,7 +379,7 @@
    "vagas": 30
   },
   "2026f1": {
-   "colocados": 111,
+   "colocados": 117,
    "nota_ultimo": 125.0,
    "sobras": 0,
    "vagas": 111

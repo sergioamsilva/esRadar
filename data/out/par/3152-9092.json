@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9092",
  "code": "3152",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 127.8
+   }
+  ]
+ },
  "curso": "Engenharia de Automação, Controlo e Instrumentação",
  "desemprego_percentil": 6,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 1.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.4,
+    "13": 51.4,
+    "14": 24.3,
+    "15": 10.8,
+    "16": 8.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 37,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 8.0,
+   "cna_outras": 4.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.0,
+   "mudanca_curso": 6.0,
+   "outros": 78.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 14,
+   "inscritos": 135
   },
   "percentil_entrada": {
    "2020": {
@@ -75,6 +117,10 @@
  "minimo_provas": 95,
  "par": "3152-9092",
  "percentil_nota_2026": 40,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Lisboa, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {

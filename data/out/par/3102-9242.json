@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": 5,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "9242",
  "code": "3102",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 120.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 143.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 142.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 138.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 140.3
+   }
+  ]
+ },
  "curso": "Solicitadoria",
  "desemprego_percentil": 69,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 5%\nCursos com acesso preferencial:\nA22 Assessoria Jurídica e Documentação (VCT) (Port. 941/2009)\nG16 Assessoria Jurídica e Documentação (VT) (Port. 260/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP84 Técnico de Serviços Jurídicos",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 5.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 5.2,
+    "12": 35.4,
+    "13": 30.2,
+    "14": 13.5,
+    "15": 9.4,
+    "16": 5.2,
+    "17": 100.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 96,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 48.2,
+   "cna_outras": 11.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.1,
+   "mudanca_curso": 9.9,
+   "outros": 28.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 224
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,10 @@
  "par": "3102-9242",
  "pct_colocados_1opcao_2025": 42,
  "percentil_nota_2026": 60,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -190,7 +251,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 66,
+   "colocados": 67,
    "nota_ultimo": 140.2,
    "sobras": 0,
    "vagas": 66
@@ -212,7 +273,7 @@
    "candidatos_1opcao": 85,
    "candidatos_homens": 90,
    "candidatos_mulheres": 286,
-   "colocados": 62,
+   "colocados": 63,
    "colocados_1opcao": 34,
    "colocados_homens": 15,
    "colocados_mulheres": 48,
@@ -320,7 +381,7 @@
    "vagas": 6
   },
   "2026f1": {
-   "colocados": 62,
+   "colocados": 65,
    "nota_ultimo": 140.3,
    "sobras": 0,
    "vagas": 62

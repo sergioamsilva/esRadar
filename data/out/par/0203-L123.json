@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "851",
  "cnaef_nome": "Tecnologia de Proteção do Ambiente",
  "codc": "L123",
  "code": "0203",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 117.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 110.0
+   }
+  ]
+ },
  "curso": "Gestão Marinha e Costeira",
  "desemprego_percentil": 22,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 2.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 27.3,
+    "14": 36.4,
+    "15": 27.3,
+    "16": 9.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 33,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 46.3,
+   "cna_outras": 16.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 1.9,
+   "outros": 35.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 90
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "0203-L123",
  "pct_colocados_1opcao_2025": 73,
  "percentil_nota_2026": 8,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n09 Geografia\nou\n09 Geografia\n18 Português\nou\n19 Matemática A\n18 Português\nou\n09 Geografia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [
   {
@@ -147,7 +190,7 @@
    "vagas": 25
   },
   "2019f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 110.0,
    "sobras": 5,
    "vagas": 11
@@ -165,7 +208,7 @@
    "vagas": 36
   },
   "2020f2": {
-   "colocados": 11,
+   "colocados": 14,
    "nota_ultimo": 106.0,
    "sobras": 5,
    "vagas": 17
@@ -195,7 +238,7 @@
    "vagas": 3
   },
   "2022f1": {
-   "colocados": 27,
+   "colocados": 29,
    "nota_ultimo": 128.8,
    "sobras": 0,
    "vagas": 27
@@ -217,7 +260,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 69,
    "candidatos_mulheres": 34,
-   "colocados": 28,
+   "colocados": 29,
    "colocados_1opcao": 12,
    "colocados_homens": 20,
    "colocados_mulheres": 9,
@@ -309,7 +352,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 10,
    "candidatos_mulheres": 3,
-   "colocados": 4,
+   "colocados": 5,
    "colocados_1opcao": 2,
    "colocados_homens": 4,
    "colocados_mulheres": 1,
@@ -326,7 +369,7 @@
    "vagas": 5
   },
   "2026f1": {
-   "colocados": 18,
+   "colocados": 22,
    "nota_ultimo": 110.0,
    "sobras": 7,
    "vagas": 29

@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "225",
  "cnaef_nome": "História e Arqueologia",
  "codc": "8251",
  "code": "0604",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 143.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 142.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 143.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 135.8
+   }
+  ]
+ },
  "curso": "História e Arqueologia",
  "desemprego_percentil": 26,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 19.2,
+    "13": 19.2,
+    "14": 19.2,
+    "15": 32.7,
+    "16": 5.8,
+    "17": 1.9,
+    "18": 1.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 52,
    "nota_final_media": 14.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 33.9,
+   "cna_outras": 12.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.4,
+   "mudanca_curso": 4.8,
+   "outros": 46.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 32,
+   "inscritos": 167
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +126,9 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "0604-8251",
- "pct_colocados_1opcao_2025": 80,
+ "pct_colocados_1opcao_2025": 78,
  "percentil_nota_2026": 52,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n12 Hist. da Cultura e Artes\nou\n09 Geografia\n18 Português\nou\n06 Filosofia\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n09 Geografia\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -217,7 +270,7 @@
    "candidatos_1opcao": 46,
    "candidatos_homens": 100,
    "candidatos_mulheres": 110,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 23,
    "colocados_homens": 14,
    "colocados_mulheres": 25,
@@ -292,7 +345,7 @@
    "candidatos_1opcao": 42,
    "candidatos_homens": 102,
    "candidatos_mulheres": 97,
-   "colocados": 40,
+   "colocados": 41,
    "colocados_1opcao": 32,
    "colocados_homens": 20,
    "colocados_mulheres": 21,

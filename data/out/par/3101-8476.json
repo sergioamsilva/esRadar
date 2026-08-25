@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "8476",
  "code": "3101",
  "concurso": null,
+ "contingentes": null,
  "curso": "Relações Humanas e Comunicação Organizacional (reg. de ensino a distância)",
  "duracao": null,
  "ects": null,
@@ -26,9 +28,36 @@
    "taxa": 3.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.0,
+    "13": 15.0,
+    "14": 20.0,
+    "15": 20.0,
+    "16": 27.5,
+    "17": 10.0,
+    "18": 2.5,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 40,
    "nota_final_media": 14.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 3790.0,
+   "outros": 6210.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 71
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3101-8476",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -84,7 +114,7 @@
    "vagas": 24
   },
   "2020f2": {
-   "colocados": 18,
+   "colocados": 21,
    "nota_ultimo": 115.4,
    "sobras": 0,
    "vagas": 18

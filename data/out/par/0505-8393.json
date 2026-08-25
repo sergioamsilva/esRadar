@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "223",
  "cnaef_nome": "Língua e Literatura Materna",
  "codc": "8393",
  "code": "0505",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 109.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 135.0
+   }
+  ]
+ },
  "curso": "Português",
  "desemprego_percentil": 98,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 100.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 3.4,
+    "12": 25.4,
+    "13": 27.1,
+    "14": 20.3,
+    "15": 13.6,
+    "16": 6.8,
+    "17": 3.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 59,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 48.6,
+   "cna_outras": 21.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.7,
+   "mudanca_curso": 2.7,
+   "outros": 24.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 21,
+   "inscritos": 148
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "0505-8393",
  "pct_colocados_1opcao_2025": 58,
  "percentil_nota_2026": 51,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n15 Literatura Portuguesa\nou\n18 Português\nou\n08 Francês\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n15 Literatura Portuguesa\n18 Português\nou\n05 Espanhol\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -195,7 +238,7 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 36,
+   "colocados": 37,
    "nota_ultimo": 144.0,
    "sobras": 0,
    "vagas": 36

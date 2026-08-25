@@ -83,11 +83,17 @@ def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
             "codc": _coluna(cab, "código curso"),
             "curso": _coluna(cab, "nome do curso"),
             "vagas": _coluna(cab, "vagas iniciais"),
-            "colocados": _coluna(cab, "colocados"),
             "nota": _coluna(cab, "nota do últ"),
             "sobras": _coluna(cab, "sobras", "vagas sobrantes"),
         }
-        if None in (col["code"], col["codc"], col["colocados"], col["nota"]):
+        # «Colocados» reparte-se por colunas de desempate («desemp.», «sem
+        # class. final») consoante o ano/fase — somam-se todas: é essa soma
+        # que bate com os totais anunciados pela DGES. «Vaga adic.» fica de
+        # fora (vagas criadas, não contam no anúncio).
+        cols_colocados = [
+            i for i, nome in enumerate(cab) if " ".join(nome.split()).lower().startswith("colocados")
+        ]
+        if None in (col["code"], col["codc"], col["nota"]) or not cols_colocados:
             raise RuntimeError(f"{ficheiro}: colunas em falta no cabeçalho {cab}")
         n = 0
         for linha in linhas[cab_idx + 1 :]:
@@ -97,8 +103,11 @@ def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
             codc = linha[col["codc"]].strip()
             if not re.fullmatch(r"\d{4}", code) or not re.fullmatch(r"[A-Z0-9]\d{3}", codc):
                 continue
+            parcelas = [
+                _int(linha[i]) for i in cols_colocados if len(linha) > i and _int(linha[i]) is not None
+            ]
             registo = {
-                "colocados": _int(linha[col["colocados"]]),
+                "colocados": sum(parcelas) if parcelas else None,
                 "nota_ultimo": _nota(linha[col["nota"]]),
             }
             if col["vagas"] is not None:
@@ -120,6 +129,18 @@ def ler_guia() -> dict:
     if not caminho.exists():
         raise RuntimeError(f"{caminho} não existe — correr ingest.guias")
     return json.loads(caminho.read_text(encoding="utf-8"))
+
+
+def ler_etapas() -> dict[str, dict[str, list[dict]]]:
+    """Notas por contingente da época corrente: {par: {"{ano}f{fase}": [...]}}."""
+    etapas: dict[str, dict[str, list[dict]]] = defaultdict(dict)
+    for listas in sorted(common.DIR_BRUTO.glob(f"coloc/{ANO_CORRENTE}/fase*/listas.json")):
+        dados = json.loads(listas.read_text(encoding="utf-8"))
+        chave = f"{dados['ano']}f{dados['fase']}"
+        for code, cursos in dados.get("etapas", {}).items():
+            for codc, lista in cursos.items():
+                etapas[f"{code}-{codc}"][chave] = lista
+    return etapas
 
 
 def ler_infocursos() -> dict[str, dict]:
@@ -147,6 +168,7 @@ def construir() -> None:
     guia = ler_guia()
     instituicoes = ler_instituicoes()
     infocursos = ler_infocursos()
+    etapas = ler_etapas()
     pares_guia = guia["pares"]
 
     orfaos = [p for p in resultados if p.split("-")[0] not in instituicoes]
@@ -191,10 +213,12 @@ def construir() -> None:
                 for k in (
                     "grau", "cnaef", "cnaef_nome", "duracao", "ects", "tipo_ensino",
                     "provas_ingresso", "formula", "minimo_candidatura", "minimo_provas",
+                    "preferencia_regional", "acessos_preferenciais_pct",
                 )
             },
             "vagas_2026": ficha_guia.get("vagas"),
             "series": dict(sorted(serie.items())),
+            "contingentes": etapas.get(par) or None,
             "infocursos": infocursos.get(par),
         }
         if fichas[par]["curso"] is None:

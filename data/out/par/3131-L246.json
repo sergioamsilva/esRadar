@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "225",
  "cnaef_nome": "História e Arqueologia",
  "codc": "L246",
  "code": "3131",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 131.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 118.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 131.0
+   }
+  ]
+ },
  "curso": "Gestão do Património Cultural",
  "desemprego_percentil": 64,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 4.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 4.3,
+    "13": 39.1,
+    "14": 34.8,
+    "15": 19.6,
+    "16": 0.0,
+    "17": 2.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 46,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 30.6,
+   "cna_outras": 16.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.1,
+   "mudanca_curso": 2.0,
+   "outros": 45.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 106
   },
   "percentil_entrada": {
    "2022": {
@@ -66,6 +113,10 @@
  "par": "3131-L246",
  "pct_colocados_1opcao_2025": 45,
  "percentil_nota_2026": 44,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n06 Filosofia\n11 História\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n06 Filosofia\n18 Português\nou\n06 Filosofia\n12 Hist. da Cultura e Artes",
  "semelhantes": [
   {
@@ -166,7 +217,7 @@
    "candidatos_1opcao": 26,
    "candidatos_homens": 57,
    "candidatos_mulheres": 85,
-   "colocados": 44,
+   "colocados": 45,
    "colocados_1opcao": 15,
    "colocados_homens": 16,
    "colocados_mulheres": 29,
@@ -238,7 +289,7 @@
    "vagas": 8
   },
   "2026f1": {
-   "colocados": 44,
+   "colocados": 47,
    "nota_ultimo": 131.0,
    "sobras": 0,
    "vagas": 44

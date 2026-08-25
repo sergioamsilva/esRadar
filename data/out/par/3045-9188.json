@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "9188",
  "code": "3045",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Informática e Comunicações",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n753 Técnico de Informática\n813 Agrupamento 1 / Informática\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -21,9 +23,36 @@
    "novos_inscritos": 50
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 11.1,
+    "12": 11.1,
+    "13": 22.2,
+    "14": 22.2,
+    "15": 22.2,
+    "16": 0.0,
+    "17": 11.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 9,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 190.0,
+   "mudanca_curso": 190.0,
+   "outros": 9620.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 60,
+   "inscritos": 79
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3045-9188",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n09 Geografia\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

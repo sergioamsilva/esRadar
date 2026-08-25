@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "225",
  "cnaef_nome": "História e Arqueologia",
  "codc": "9181",
  "code": "2100",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "História",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 5.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 2.2,
+    "13": 31.1,
+    "14": 24.4,
+    "15": 11.1,
+    "16": 24.4,
+    "17": 6.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 45,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8060.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 830.0,
+   "mudanca_curso": 830.0,
+   "outros": 280.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 73
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2100-9181",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n09 Geografia\nou\n06 Filosofia\n11 História",
  "series": {},
  "subsistema": "universitario",

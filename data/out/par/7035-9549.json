@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "727",
  "cnaef_nome": "Ciências Farmacêuticas",
  "codc": "9549",
  "code": "7035",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 110.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 119.3
+   }
+  ]
+ },
  "curso": "Farmácia",
  "desemprego_percentil": 16,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Faro, Portalegre, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\nP11 Técnico Auxiliar de Saúde\nP16 Técnico de Análise Laboratorial\nR42 Técnico Auxiliar de Farmácia\nR72 Técnico de Geriatria",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 1.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 19.2,
+    "14": 50.0,
+    "15": 19.2,
+    "16": 0.0,
+    "17": 7.7,
+    "18": 3.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 26,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 23.1,
+   "cna_outras": 32.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.8,
+   "mudanca_curso": 1.9,
+   "outros": 38.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 18,
+   "inscritos": 110
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "7035-9549",
  "pct_colocados_1opcao_2025": 26,
  "percentil_nota_2026": 24,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Faro, Portalegre, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -157,7 +203,7 @@
    "vagas": 25
   },
   "2020f2": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 127.7,
    "sobras": 0,
    "vagas": 13
@@ -318,7 +364,7 @@
    "vagas": 4
   },
   "2026f1": {
-   "colocados": 26,
+   "colocados": 28,
    "nota_ultimo": 119.3,
    "sobras": 0,
    "vagas": 26

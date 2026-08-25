@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7005",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 126.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 127.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 129.0
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "desemprego_percentil": 0,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Faro, Setúbal",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Beja",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 2.5,
+    "14": 21.0,
+    "15": 37.0,
+    "16": 25.9,
+    "17": 11.1,
+    "18": 2.5,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 81,
    "nota_final_media": 15.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 45.3,
+   "cna_outras": 14.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 6.3,
+   "mudanca_curso": 2.1,
+   "outros": 31.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 29,
+   "inscritos": 201
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +121,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7005-9500",
- "pct_colocados_1opcao_2025": 38,
+ "pct_colocados_1opcao_2025": 36,
  "percentil_nota_2026": 41,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Faro, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
  "semelhantes": [
   {
@@ -193,7 +244,7 @@
    "vagas": 35
   },
   "2022f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 143.4,
    "sobras": 0,
    "vagas": 3
@@ -207,7 +258,7 @@
    "candidatos_1opcao": 27,
    "candidatos_homens": 31,
    "candidatos_mulheres": 160,
-   "colocados": 35,
+   "colocados": 36,
    "colocados_1opcao": 20,
    "colocados_homens": 6,
    "colocados_mulheres": 30,
@@ -279,7 +330,7 @@
    "candidatos_1opcao": 18,
    "candidatos_homens": 32,
    "candidatos_mulheres": 131,
-   "colocados": 37,
+   "colocados": 39,
    "colocados_1opcao": 14,
    "colocados_homens": 10,
    "colocados_mulheres": 29,
@@ -311,7 +362,7 @@
    "sobras": 2
   },
   "2026f1": {
-   "colocados": 37,
+   "colocados": 38,
    "nota_ultimo": 129.0,
    "sobras": 0,
    "vagas": 37

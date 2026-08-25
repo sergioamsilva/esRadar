@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "9214",
  "code": "4002",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Música",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 4.8,
+    "14": 12.7,
+    "15": 28.6,
+    "16": 27.0,
+    "17": 19.0,
+    "18": 4.8,
+    "19": 3.2,
+    "20": 0.0
+   },
    "n": 63,
    "nota_final_media": 15.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8290.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 290.0,
+   "outros": 1430.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 71
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4002-9214",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n06 Filosofia\nou\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n16 Matemática\n18 Português\nou\n05 Espanhol\n18 Português\nou\n12 Hist. da Cultura e Artes\n15 Literatura Portuguesa\nou\n13 Inglês\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português",
  "series": {},
  "subsistema": "politecnico",

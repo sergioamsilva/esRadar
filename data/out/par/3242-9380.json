@@ -1,15 +1,50 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "215",
  "cnaef_nome": "Artesanato",
  "codc": "9380",
  "code": "3242",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 157.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 174.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 128.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 135.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 164.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 156.0
+   }
+  ]
+ },
  "curso": "Conservação e Restauro",
  "desemprego_percentil": 51,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Coimbra, Leiria, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n756 Técnico de Desenho de Mobiliário e Construções em Madeira\n822 Agrupamento 2 / Artes e Ofícios\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP80 Técnico de Relojoaria",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
  "infocursos": {
@@ -27,9 +62,36 @@
    "taxa": 3.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.6,
+    "13": 32.6,
+    "14": 34.9,
+    "15": 11.6,
+    "16": 9.3,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 43,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 74.2,
+   "cna_outras": 3.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.5,
+   "mudanca_curso": 1.5,
+   "outros": 19.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 138
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +138,10 @@
  "par": "3242-9380",
  "pct_colocados_1opcao_2025": 91,
  "percentil_nota_2026": 81,
+ "preferencia_regional": {
+  "area_influencia": "Coimbra, Leiria, Santarém",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n11 História\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n12 Hist. da Cultura e Artes\n11 História\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes",
  "semelhantes": [
   {
@@ -176,7 +242,7 @@
    "candidatos_1opcao": 27,
    "candidatos_homens": 16,
    "candidatos_mulheres": 62,
-   "colocados": 30,
+   "colocados": 31,
    "colocados_1opcao": 24,
    "colocados_homens": 5,
    "colocados_mulheres": 26,

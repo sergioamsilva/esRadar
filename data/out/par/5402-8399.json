@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "211",
  "cnaef_nome": "Belas-Artes",
  "codc": "8399",
  "code": "5402",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 135.7
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 160.6
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 168.1
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 171.3
+   }
+  ]
+ },
  "curso": "Desenho",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -19,6 +44,20 @@
    "muda_curso": 0,
    "muda_estabelecimento": 2.1,
    "novos_inscritos": 47
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 93.5,
+   "cna_outras": 4.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 2.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 66
   },
   "percentil_entrada": {
    "2022": {
@@ -55,6 +94,7 @@
  "par": "5402-8399",
  "pct_colocados_1opcao_2025": 88,
  "percentil_nota_2026": 94,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho (30%)\n10 Geometria Descritiva (20%)\nou\n03 Desenho (30%)\n12 Hist. da Cultura e Artes\n(20%)",
  "semelhantes": [
   {

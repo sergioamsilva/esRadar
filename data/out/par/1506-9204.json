@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "222",
  "cnaef_nome": "Línguas e Literaturas Estrangeiras",
  "codc": "9204",
  "code": "1506",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 175.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 114.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 190.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 148.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 139.5
+   }
+  ]
+ },
  "curso": "Línguas, Literaturas e Culturas",
  "desemprego_percentil": 40,
  "duracao": "6 Semestres",
@@ -27,9 +57,36 @@
    "taxa": 2.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.8,
+    "13": 22.1,
+    "14": 30.2,
+    "15": 22.1,
+    "16": 11.4,
+    "17": 7.1,
+    "18": 1.3,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 308,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 47.2,
+   "cna_outras": 19.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.1,
+   "mudanca_curso": 2.6,
+   "outros": 29.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 73,
+   "inscritos": 865
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +131,9 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "1506-9204",
- "pct_colocados_1opcao_2025": 77,
+ "pct_colocados_1opcao_2025": 75,
  "percentil_nota_2026": 58,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n08 Francês\n18 Português\nou\n13 Inglês\n18 Português\nou\n21 Italiano\n18 Português\nou\n01 Alemão\n18 Português\nou\n05 Espanhol\n18 Português",
  "semelhantes": [
   {
@@ -147,7 +205,7 @@
    "vagas": 211
   },
   "2019f2": {
-   "colocados": 24,
+   "colocados": 27,
    "nota_ultimo": 146.0,
    "sobras": 0,
    "vagas": 19
@@ -165,7 +223,7 @@
    "vagas": 222
   },
   "2020f2": {
-   "colocados": 22,
+   "colocados": 23,
    "nota_ultimo": 157.0,
    "sobras": 0,
    "vagas": 15
@@ -195,7 +253,7 @@
    "vagas": 4
   },
   "2022f1": {
-   "colocados": 223,
+   "colocados": 229,
    "nota_ultimo": 154.0,
    "sobras": 0,
    "vagas": 223
@@ -255,7 +313,7 @@
    "candidatos_1opcao": 136,
    "candidatos_homens": 108,
    "candidatos_mulheres": 367,
-   "colocados": 211,
+   "colocados": 212,
    "colocados_1opcao": 131,
    "colocados_homens": 45,
    "colocados_mulheres": 167,
@@ -271,7 +329,7 @@
    "candidatos_1opcao": 31,
    "candidatos_homens": 29,
    "candidatos_mulheres": 66,
-   "colocados": 22,
+   "colocados": 25,
    "colocados_1opcao": 13,
    "colocados_homens": 8,
    "colocados_mulheres": 17,
@@ -293,7 +351,7 @@
    "candidatos_1opcao": 204,
    "candidatos_homens": 159,
    "candidatos_mulheres": 498,
-   "colocados": 211,
+   "colocados": 217,
    "colocados_1opcao": 163,
    "colocados_homens": 47,
    "colocados_mulheres": 170,
@@ -327,7 +385,7 @@
    "vagas": 2
   },
   "2026f1": {
-   "colocados": 211,
+   "colocados": 219,
    "nota_ultimo": 139.5,
    "sobras": 0,
    "vagas": 211

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "8138",
  "code": "4097",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Terapia Ocupacional",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 2.8,
    "novos_inscritos": 36
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8160.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 260.0,
+   "mudanca_curso": 0,
+   "outros": 1580.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 71
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 7,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4097-8138",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n07 Física e Química",
  "series": {},
  "subsistema": "politecnico",

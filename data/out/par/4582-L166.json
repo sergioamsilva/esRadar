@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "341",
  "cnaef_nome": "Comércio",
  "codc": "L166",
  "code": "4582",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Negócios e Comércio Internacional",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -18,9 +20,36 @@
    "taxa": 2.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.6,
+    "13": 55.6,
+    "14": 27.8,
+    "15": 5.6,
+    "16": 5.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3570.0,
+   "coorte": "2024/25_",
+   "maiores_23": 710.0,
+   "mudanca_curso": 0,
+   "outros": 5710.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 29
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -33,6 +62,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4582-L166",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "politecnico",

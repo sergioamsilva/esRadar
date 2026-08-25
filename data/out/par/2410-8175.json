@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "8175",
  "code": "2410",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Jazz e Música Moderna",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 39
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 8.0,
+    "13": 24.0,
+    "14": 24.0,
+    "15": 16.0,
+    "16": 20.0,
+    "17": 8.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 25,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7740.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 650.0,
+   "mudanca_curso": 320.0,
+   "outros": 1290.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 48
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2410-8175",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n12 Hist. da Cultura e Artes\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português\nou\n13 Inglês\n15 Literatura Portuguesa\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português",
  "series": {},
  "subsistema": "universitario",

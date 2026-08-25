@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "529",
  "cnaef_nome": "Engenharia e Técnicas Afins - programas não classificados noutra área de formação",
  "codc": "8316",
  "code": "3135",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 124.8
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 145.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 138.5
+   }
+  ]
+ },
  "curso": "Engenharia de Sistemas",
  "desemprego_percentil": 34,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 2.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.4,
+    "13": 34.2,
+    "14": 36.7,
+    "15": 16.5,
+    "16": 1.3,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 79,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 31.3,
+   "cna_outras": 24.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.1,
+   "mudanca_curso": 3.1,
+   "outros": 38.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 173
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +121,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3135-8316",
- "pct_colocados_1opcao_2025": 54,
+ "pct_colocados_1opcao_2025": 53,
  "percentil_nota_2026": 56,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n19 Matemática A\nou\n19 Matemática A\n18 Português",
  "semelhantes": [
   {
@@ -285,7 +336,7 @@
    "candidatos_1opcao": 20,
    "candidatos_homens": 134,
    "candidatos_mulheres": 37,
-   "colocados": 37,
+   "colocados": 38,
    "colocados_1opcao": 20,
    "colocados_homens": 30,
    "colocados_mulheres": 8,

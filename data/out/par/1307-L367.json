@@ -1,14 +1,24 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "441",
  "cnaef_nome": "Física",
  "codc": "L367",
  "code": "1307",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 182.8
+   }
+  ]
+ },
  "curso": "Engenharia Física e Computacional",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
  "infocursos": {
@@ -26,6 +36,10 @@
  "par": "1307-L367",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 99,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

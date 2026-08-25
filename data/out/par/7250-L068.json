@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "L068",
  "code": "7250",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 172.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 147.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 154.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 135.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 155.5
+   }
+  ]
+ },
  "curso": "Ciências Biomédicas Laboratoriais",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +51,36 @@
    "novos_inscritos": 126
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 7.0,
+    "14": 22.0,
+    "15": 36.0,
+    "16": 24.0,
+    "17": 9.0,
+    "18": 2.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 100,
    "nota_final_media": 15.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 69.0,
+   "cna_outras": 7.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.4,
+   "mudanca_curso": 2.3,
+   "outros": 15.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 31,
+   "inscritos": 278
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +126,7 @@
  "minimo_provas": 95,
  "par": "7250-L068",
  "percentil_nota_2026": 81,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {

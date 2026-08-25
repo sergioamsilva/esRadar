@@ -1,14 +1,39 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "721",
  "cnaef_nome": "Medicina",
  "codc": "8083",
  "code": "0160",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 171.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 156.7
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 167.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 177.7
+   }
+  ]
+ },
  "curso": "Ciclo Básico de Medicina",
  "duracao": "6 Semestres",
  "ects": null,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. AçoresObservaçõesAo abrigo do convénio existente entre a Universidade dos Açores e a Faculdade de Medicina da Universidade de Coimbra, são ministrados na Universidade dos Açores os três primeiros anos do curso conducente ao grau de mestre em Medicina pela Faculdade de Medicina da Universidade de Coimbra. Os alunos que concluírem com aproveitamento os três primeiros anos do curso (Ciclo Básico de Medicina) prosseguem estudos na Faculdade de Medicina da Universidade de Coimbra, ingressando no 4.º do Mestrado Integrado em Medicina.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Preparatórios de Mestrado Integrado",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -19,6 +44,20 @@
    "muda_curso": 0,
    "muda_estabelecimento": 2.1,
    "novos_inscritos": 97
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 51.5,
+   "cna_outras": 14.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 34.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 148
   },
   "percentil_entrada": {
    "2020": {
@@ -65,6 +104,10 @@
  "par": "0160-8083",
  "pct_colocados_1opcao_2025": 32,
  "percentil_nota_2026": 97,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {
@@ -176,7 +219,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 50,
+   "colocados": 51,
    "nota_ultimo": 181.8,
    "sobras": 0,
    "vagas": 50
@@ -196,7 +239,7 @@
    "candidatos_1opcao": 46,
    "candidatos_homens": 116,
    "candidatos_mulheres": 395,
-   "colocados": 50,
+   "colocados": 51,
    "colocados_1opcao": 28,
    "colocados_homens": 17,
    "colocados_mulheres": 34,
@@ -304,7 +347,7 @@
    "vagas": 1
   },
   "2026f1": {
-   "colocados": 50,
+   "colocados": 52,
    "nota_ultimo": 177.7,
    "sobras": 0,
    "vagas": 50

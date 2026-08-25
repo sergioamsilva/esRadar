@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "2218",
  "concurso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
+ "contingentes": null,
  "curso": "Enfermagem",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 1.5,
+    "14": 6.0,
+    "15": 24.8,
+    "16": 41.4,
+    "17": 21.8,
+    "18": 4.5,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 133,
    "nota_final_media": 15.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8930.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 180.0,
+   "outros": 890.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 30,
+   "inscritos": 352
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "2218-9500",
+ "preferencia_regional": null,
  "provas_ingresso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
  "series": {},
  "subsistema": "politecnico",

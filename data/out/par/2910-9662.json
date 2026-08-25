@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "321",
  "cnaef_nome": "Jornalismo e Reportagem",
  "codc": "9662",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Comunicação e Jornalismo",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.3,
+    "12": 5.0,
+    "13": 33.8,
+    "14": 32.5,
+    "15": 22.5,
+    "16": 5.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 80,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9380.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 180.0,
+   "mudanca_curso": 360.0,
+   "outros": 90.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 18,
+   "inscritos": 178
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9662",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n11 História\n18 Português",
  "series": {},
  "subsistema": "universitario",

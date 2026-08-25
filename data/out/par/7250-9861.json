@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "853",
  "cnaef_nome": "Serviços de Saúde Pública",
  "codc": "9861",
  "code": "7250",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 125.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 124.0
+   }
+  ]
+ },
  "curso": "Saúde Ambiental",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +36,36 @@
    "novos_inscritos": 50
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 8.6,
+    "14": 40.0,
+    "15": 22.9,
+    "16": 22.9,
+    "17": 5.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 35,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 42.3,
+   "cna_outras": 21.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 36.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 97
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +111,7 @@
  "minimo_provas": 95,
  "par": "7250-9861",
  "percentil_nota_2026": 33,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -167,7 +210,7 @@
    "media_secundario": 135.5
   },
   "2026f1": {
-   "colocados": 24,
+   "colocados": 26,
    "nota_ultimo": 124.0,
    "sobras": 0,
    "vagas": 24

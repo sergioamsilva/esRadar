@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "342",
  "cnaef_nome": "Marketing e Publicidade",
  "codc": "9205",
  "code": "2500",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Marketing",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 76
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 4.8,
+    "14": 9.5,
+    "15": 42.9,
+    "16": 33.3,
+    "17": 9.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 21,
    "nota_final_media": 15.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8290.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 140.0,
+   "mudanca_curso": 710.0,
+   "outros": 860.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 31,
+   "inscritos": 155
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2500-9205",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "universitario",

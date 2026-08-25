@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "144",
  "cnaef_nome": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
  "codc": "9853",
  "code": "4601",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Educação Básica",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 20.0,
+    "14": 40.0,
+    "15": 22.5,
+    "16": 10.0,
+    "17": 5.0,
+    "18": 0.0,
+    "19": 2.5,
+    "20": 0.0
+   },
    "n": 40,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 4940.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2730.0,
+   "mudanca_curso": 0,
+   "outros": 2340.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 22,
+   "inscritos": 148
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4601-9853",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "9890",
  "code": "4620",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Terapia da Fala",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 7
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9170.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 830.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 34
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 2,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4620-9890",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "series": {},
  "subsistema": "politecnico",

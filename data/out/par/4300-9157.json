@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9157",
  "code": "4300",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão de Recursos Humanos",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 10.5,
+    "13": 21.1,
+    "14": 26.3,
+    "15": 26.3,
+    "16": 5.3,
+    "17": 10.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 19,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8150.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 370.0,
+   "mudanca_curso": 1110.0,
+   "outros": 370.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 52
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4300-9157",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português\nou\n09 Geografia\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n11 História",
  "series": {},
  "subsistema": "universitario",

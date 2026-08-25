@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9130",
  "code": "3123",
  "concurso": null,
+ "contingentes": null,
  "curso": "Equinicultura",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3123-9130",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -59,7 +62,7 @@
    "vagas": 22
   },
   "2020f2": {
-   "colocados": 2,
+   "colocados": 3,
    "nota_ultimo": 115.0,
    "sobras": 14,
    "vagas": 17
@@ -89,7 +92,7 @@
    "vagas": 9
   },
   "2022f1": {
-   "colocados": 6,
+   "colocados": 7,
    "nota_ultimo": 95.0,
    "sobras": 15,
    "vagas": 22

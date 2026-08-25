@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "8014",
  "code": "6800",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 142.0
+   }
+  ]
+ },
  "curso": "Serviço Social (regime pós-laboral)",
  "desemprego_percentil": 19,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 1.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 100.0,
+    "13": 3.9,
+    "14": 28.4,
+    "15": 40.2,
+    "16": 21.6,
+    "17": 4.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 102,
    "nota_final_media": 14.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 12.1,
+   "cna_outras": 22.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 27.6,
+   "mudanca_curso": 5.2,
+   "outros": 32.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 114
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "6800-8014",
  "pct_colocados_1opcao_2025": 7,
  "percentil_nota_2026": 62,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n06 Filosofia\n11 História\nou\n04 Economia\n06 Filosofia\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -190,7 +228,7 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 38,
+   "colocados": 39,
    "nota_ultimo": 141.5,
    "sobras": 0,
    "vagas": 38

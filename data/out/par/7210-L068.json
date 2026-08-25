@@ -1,15 +1,50 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "L068",
  "code": "7210",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 136.3
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 147.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 164.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 148.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 161.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 154.5
+   }
+  ]
+ },
  "curso": "Ciências Biomédicas Laboratoriais",
  "desemprego_percentil": 4,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +62,36 @@
    "taxa": 1.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.3,
+    "13": 10.0,
+    "14": 31.3,
+    "15": 40.0,
+    "16": 15.0,
+    "17": 2.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 80,
    "nota_final_media": 14.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 65.8,
+   "cna_outras": 22.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 11.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 32,
+   "inscritos": 187
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +136,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "7210-L068",
- "pct_colocados_1opcao_2025": 84,
+ "pct_colocados_1opcao_2025": 82,
  "percentil_nota_2026": 79,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Viseu",
+  "pct_vagas": 20
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -281,7 +347,7 @@
    "candidatos_1opcao": 36,
    "candidatos_homens": 30,
    "candidatos_mulheres": 164,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 32,
    "colocados_homens": 6,
    "colocados_mulheres": 33,

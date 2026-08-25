@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "9242",
  "code": "4283",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Solicitadoria",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 4.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 9.1,
+    "12": 36.4,
+    "13": 27.3,
+    "14": 18.2,
+    "15": 6.1,
+    "16": 3.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 33,
    "nota_final_media": 12.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 4550.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2730.0,
+   "mudanca_curso": 450.0,
+   "outros": 2270.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 75
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4283-9242",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n11 História\n18 Português\nou\n04 Economia\n11 História\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "529",
  "cnaef_nome": "Engenharia e Técnicas Afins - programas não classificados noutra área de formação",
  "codc": "9104",
  "code": "3032",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 142.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 135.3
+   }
+  ]
+ },
  "curso": "Engenharia e Gestão Industrial",
  "desemprego_percentil": 36,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Bragança, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n083 Design de Equipamento (DL 74/2004)\n777 Técnico de Maquinação e Programação CNC\n978 Recorrente - Design de Equipamento (DL 74/2004)\nG36 Produção Controlo Industrial (Portaria n.º 262/2013)\nG51 Mecânica do Automóvel (Portaria n.º 265/2013)\nG52 Produção e Desenho Industrial de Mecânica (Port. 265/2013)\nP36 Técnico de Desenho Digital 3D\nP54 Técnico de Gestão de Produção Têxtil e Vestuário\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP63 Técnico de Manutenção Industrial\nP66 Técnico de Mecatrónica\nP74 Técnico de Produção em Metalomecânica\nR23 Técnico de Logística\nR26 Técnico de Mecatrónica Automóvel\nR44 Técnico da Qualidade\nR49 Técnico de Apoio à Gestão\nR53 Técnico de CAD/CAM\nR62 Técnico de Desenho de Moldes\nR69 Técnico de Fabrico de Componentes de Construção Metálica\nR70 Técnico de Fabrico e Manutenção de Cunhos e Cortantes\nR85 Técnico de Maquinação e Programação CNC\nR98 Técnico de Plan. Industrial de Metalurgia e Metalomecânica\nS82 Técnico de Soldadura\nT34 Técnico de Maquinação CNC\nT37 Técnico de Mecatrónica\nU01 Técnico de Produção Aeronáutica - Maquinação CNC\nU02 Técnico de Produção Aeronáutica - Montagem de Estruturas\nU03 Técnico de Produção Aeronáutica - Processos Especiais\nU04 Técn. de Prod. Aeronáutica - Prod. e Transf. de Compósitos\nU05 Técn. de Prod. Aeronáutica - Qualidade e Controlo Industrial\nU06 Técnico de Produção Automóvel\nU09 Técnico de Projeto Aeronáutico\nU10 Técnico de Projeto de Moldes e Modelos - Fundição\nU18 Técnico de Segurança e Higiene do Trabalho\nU22 Técnico de Soldadura\nU36 Técnico de Gestão de Transportes\nU37 Técnico de Segurança no Trabalho\nU42 Técnico de Mecatrónica de Motociclos\nU44 Técnico de Maquinação CNC\nU49 Técnico de Manutenção Industrial / Manutenção de Aeronaves\nU50 Técnico de Manutenção Industrial / Mecatrónica Automóvel\nU51 Técnico de Manutenção Industrial / Eletromecânica\nU52 Técnico de Manutenção Industrial / Mecatrónica\nU53 Técnico de Desenho de Construções Mecânicas - Moldes",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 2.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 3.9,
+    "14": 31.4,
+    "15": 27.5,
+    "16": 15.7,
+    "17": 11.8,
+    "18": 9.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 51,
    "nota_final_media": 15.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.8,
+   "cna_outras": 4.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.7,
+   "mudanca_curso": 4.7,
+   "outros": 53.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 108
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3032-9104",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 51,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Porto, Viana do Castelo",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "16 Matemática\ne\nUma das seguintes provas:\n02 Biologia e Geologia\n04 Economia\n07 Física e Química\n10 Geometria Descritiva\n18 Português",
  "semelhantes": [
   {

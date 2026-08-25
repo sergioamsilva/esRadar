@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "853",
  "cnaef_nome": "Serviços de Saúde Pública",
  "codc": "L350",
  "code": "0908",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 139.5
+   }
+  ]
+ },
  "curso": "Saúde Pública Global",
  "duracao": "3 Anos",
  "ects": 180,
@@ -17,6 +27,7 @@
  "minimo_provas": 95,
  "par": "0908-L350",
  "percentil_nota_2026": 58,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n09 Geografia",
  "semelhantes": [
   {

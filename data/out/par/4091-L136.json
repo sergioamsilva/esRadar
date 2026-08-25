@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "729",
  "cnaef_nome": "Saúde - programas não classificados noutra área de formação",
  "codc": "L136",
  "code": "4091",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Osteopatia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -26,9 +28,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 11.1,
+    "14": 7.4,
+    "15": 29.6,
+    "16": 29.6,
+    "17": 14.8,
+    "18": 7.4,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 27,
    "nota_final_media": 15.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 2670.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4000.0,
+   "mudanca_curso": 0,
+   "outros": 3330.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 73
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4091-L136",
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia (30%)\n07 Física e Química (20%)",
  "series": {},
  "subsistema": "politecnico",

@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "582",
  "cnaef_nome": "Construção Civil e Engenharia Civil",
  "codc": "9089",
  "code": "1307",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 6,
+    "nome": "Madeira pref. regional nível 1",
+    "nota": 116.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 116.8
+   }
+  ]
+ },
  "curso": "Engenharia Civil",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
  "infocursos": {
@@ -21,9 +36,36 @@
    "novos_inscritos": 38
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 18.2,
+    "13": 36.4,
+    "14": 36.4,
+    "15": 0.0,
+    "16": 9.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 11,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 53.8,
+   "cna_outras": 2.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.7,
+   "mudanca_curso": 2.6,
+   "outros": 33.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 15,
+   "inscritos": 60
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +112,10 @@
  "par": "1307-9089",
  "pct_colocados_1opcao_2025": 86,
  "percentil_nota_2026": 21,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

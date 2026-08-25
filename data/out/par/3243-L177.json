@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "L177",
  "code": "3243",
  "concurso": null,
+ "contingentes": null,
  "curso": "Cinema Documental",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3243-L177",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -60,7 +63,7 @@
    "vagas": 25
   },
   "2020f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 118.0,
    "sobras": 10,
    "vagas": 15
@@ -96,7 +99,7 @@
    "vagas": 24
   },
   "2022f2": {
-   "colocados": 8,
+   "colocados": 9,
    "nota_ultimo": 114.5,
    "sobras": 0,
    "vagas": 7
@@ -114,7 +117,7 @@
    "vagas": 20
   },
   "2023f2": {
-   "colocados": 9,
+   "colocados": 10,
    "nota_ultimo": 109.4,
    "sobras": 1,
    "vagas": 10

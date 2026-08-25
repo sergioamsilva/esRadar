@@ -1,14 +1,34 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "223",
  "cnaef_nome": "Língua e Literatura Materna",
  "codc": "L401",
  "code": "3121",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 160.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 137.0
+   }
+  ]
+ },
  "curso": "Línguas Aplicadas em Comunicação Digital",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
  "infocursos": null,
@@ -17,6 +37,10 @@
  "minimo_provas": 95,
  "par": "3121-L401",
  "percentil_nota_2026": 54,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n08 Francês\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n18 Português\nou\n05 Espanhol\n18 Português",
  "semelhantes": [
   {
@@ -64,7 +88,7 @@
  ],
  "series": {
   "2026f1": {
-   "colocados": 8,
+   "colocados": 9,
    "nota_ultimo": 137.0,
    "sobras": 11,
    "vagas": 20

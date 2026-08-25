@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9185",
  "code": "3143",
  "concurso": null,
+ "contingentes": null,
  "curso": "Informática",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3143-9185",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -125,7 +128,7 @@
    "vagas": 20
   },
   "2024f1": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 119.0,
    "sobras": 51,
    "vagas": 66

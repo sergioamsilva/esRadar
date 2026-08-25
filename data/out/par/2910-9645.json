@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "213",
  "cnaef_nome": "Áudio-Visuais e Produção dos Media",
  "codc": "9645",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Fotografia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 27
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 20.0,
+    "14": 32.0,
+    "15": 32.0,
+    "16": 12.0,
+    "17": 4.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 25,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6000.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1200.0,
+   "mudanca_curso": 2000.0,
+   "outros": 800.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 38
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9645",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português\nou\n09 Geografia\n18 Português",
  "series": {},
  "subsistema": "universitario",

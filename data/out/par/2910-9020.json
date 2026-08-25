@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "313",
  "cnaef_nome": "Ciência Política e Cidadania",
  "codc": "9020",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Ciência Política e Relações Internacionais",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 87
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 16.2,
+    "13": 35.1,
+    "14": 20.3,
+    "15": 16.2,
+    "16": 6.8,
+    "17": 5.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 74,
    "nota_final_media": 13.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8780.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 670.0,
+   "mudanca_curso": 220.0,
+   "outros": 330.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 44,
+   "inscritos": 191
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9020",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
  "series": {},
  "subsistema": "universitario",

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "211",
  "cnaef_nome": "Belas-Artes",
  "codc": "9817",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Artes Visuais",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 45
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 5.6,
+    "14": 11.1,
+    "15": 25.0,
+    "16": 30.6,
+    "17": 13.9,
+    "18": 11.1,
+    "19": 2.8,
+    "20": 0.0
+   },
    "n": 36,
    "nota_final_media": 15.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9560.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 440.0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 78
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9817",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n18 Português\nou\n06 Filosofia\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n17 Mat. Apl. Ciências Soc.\nou\n03 Desenho\n10 Geometria Descritiva\nou\n10 Geometria Descritiva\n18 Português",
  "series": {},
  "subsistema": "universitario",

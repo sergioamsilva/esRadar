@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "142",
  "cnaef_nome": "Ciências da Educação",
  "codc": "9082",
  "code": "3042",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Educação Ambiental",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG25 Património e Turismo (VT) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nP47 Técnico de Energias Renováveis\nP52 Técnico de Gestão Cinegética\nP92 Técnico de Turismo Ambiental e Rural\nT27 Técnico de Gestão do Ambiente\nT52 Técnico de Turismo Ambiental e Rural",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -21,9 +23,36 @@
    "novos_inscritos": 60
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.1,
+    "13": 16.7,
+    "14": 33.3,
+    "15": 27.8,
+    "16": 5.6,
+    "17": 0.0,
+    "18": 5.6,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 10.3,
+   "cna_outras": 3.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.7,
+   "mudanca_curso": 5.2,
+   "outros": 79.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 40,
+   "inscritos": 62
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3042-9082",
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -168,7 +201,7 @@
    "candidatos_1opcao": 1,
    "candidatos_homens": 7,
    "candidatos_mulheres": 9,
-   "colocados": 2,
+   "colocados": 3,
    "colocados_1opcao": 1,
    "colocados_homens": 2,
    "colocados_mulheres": 1,
@@ -206,7 +239,7 @@
    "candidatos_1opcao": 5,
    "candidatos_homens": 11,
    "candidatos_mulheres": 15,
-   "colocados": 8,
+   "colocados": 9,
    "colocados_1opcao": 5,
    "colocados_homens": 2,
    "colocados_mulheres": 7,

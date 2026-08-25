@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9084",
  "code": "3101",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 125.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 130.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 125.3
+   }
+  ]
+ },
  "curso": "Educação Social",
  "desemprego_percentil": 67,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Coimbra, Leiria, Lisboa, Santarém",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 5.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.1,
+    "13": 5.7,
+    "14": 34.5,
+    "15": 36.8,
+    "16": 19.5,
+    "17": 2.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 87,
    "nota_final_media": 14.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 51.0,
+   "cna_outras": 13.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.0,
+   "mudanca_curso": 1.0,
+   "outros": 33.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 15,
+   "inscritos": 163
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3101-9084",
  "pct_colocados_1opcao_2025": 58,
  "percentil_nota_2026": 36,
+ "preferencia_regional": {
+  "area_influencia": "Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n09 Geografia\nou\n06 Filosofia\n11 História",
  "semelhantes": [
   {
@@ -194,7 +245,7 @@
    "vagas": 42
   },
   "2022f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 137.8,
    "sobras": 0,
    "vagas": 9

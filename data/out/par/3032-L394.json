@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "480",
  "cnaef_nome": "Informática",
  "codc": "L394",
  "code": "3032",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 136.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 129.5
+   }
+  ]
+ },
  "curso": "Engenharia de Dados e Inteligência Artificial",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do Castelo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
  "infocursos": null,
@@ -17,6 +32,10 @@
  "minimo_provas": 100,
  "par": "3032-L394",
  "percentil_nota_2026": 42,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [
   {

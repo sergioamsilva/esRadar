@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7035",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 120.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 169.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 148.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 146.0
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "desemprego_percentil": 0,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Faro",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 20.3,
+    "15": 52.5,
+    "16": 25.4,
+    "17": 1.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 59,
    "nota_final_media": 15.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 81.4,
+   "cna_outras": 3.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.3,
+   "mudanca_curso": 5.8,
+   "outros": 7.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 152
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +126,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7035-9500",
- "pct_colocados_1opcao_2025": 75,
+ "pct_colocados_1opcao_2025": 73,
  "percentil_nota_2026": 69,
+ "preferencia_regional": {
+  "area_influencia": "Faro",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -146,7 +202,7 @@
    "vagas": 33
   },
   "2019f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 134.9,
    "sobras": 0,
    "vagas": 5
@@ -162,7 +218,7 @@
    "vagas": 33
   },
   "2020f2": {
-   "colocados": 2,
+   "colocados": 3,
    "nota_ultimo": 149.0,
    "sobras": 0,
    "vagas": 2
@@ -287,7 +343,7 @@
    "candidatos_1opcao": 50,
    "candidatos_homens": 54,
    "candidatos_mulheres": 249,
-   "colocados": 40,
+   "colocados": 41,
    "colocados_1opcao": 30,
    "colocados_homens": 8,
    "colocados_mulheres": 33,

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9119",
  "code": "4530",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Engenharia Informática",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 4.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 2.9,
+    "13": 20.6,
+    "14": 41.2,
+    "15": 20.6,
+    "16": 11.8,
+    "17": 2.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 170,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 2770.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1820.0,
+   "mudanca_curso": 540.0,
+   "outros": 4860.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 33,
+   "inscritos": 423
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4530-9119",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n19 Matemática A\n18 Português\nou\n16 Matemática\n18 Português",
  "series": {},
  "subsistema": "politecnico",

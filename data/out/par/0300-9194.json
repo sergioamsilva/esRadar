@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "222",
  "cnaef_nome": "Línguas e Literaturas Estrangeiras",
  "codc": "9194",
  "code": "0300",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 161.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 139.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 147.5
+   }
+  ]
+ },
  "curso": "Línguas e Estudos Editoriais",
  "desemprego_percentil": 30,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 2.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 37.5,
+    "14": 30.0,
+    "15": 20.0,
+    "16": 10.0,
+    "17": 2.5,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 40,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 62.3,
+   "cna_outras": 15.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 1.9,
+   "outros": 20.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 90
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "0300-9194",
  "pct_colocados_1opcao_2025": 29,
  "percentil_nota_2026": 70,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n08 Francês\n18 Português\nou\n01 Alemão\n18 Português\nou\n15 Literatura Portuguesa\n18 Português\nou\n13 Inglês\n15 Literatura Portuguesa\nou\n13 Inglês\n18 Português\nou\n05 Espanhol\n18 Português",
  "semelhantes": [
   {
@@ -193,7 +241,7 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 27,
+   "colocados": 28,
    "nota_ultimo": 158.0,
    "sobras": 0,
    "vagas": 27
@@ -251,7 +299,7 @@
    "candidatos_1opcao": 27,
    "candidatos_homens": 29,
    "candidatos_mulheres": 150,
-   "colocados": 24,
+   "colocados": 25,
    "colocados_1opcao": 15,
    "colocados_homens": 3,
    "colocados_mulheres": 22,

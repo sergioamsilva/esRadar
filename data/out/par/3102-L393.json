@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "851",
  "cnaef_nome": "Tecnologia de Proteção do Ambiente",
  "codc": "L393",
  "code": "3102",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 134.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 113.0
+   }
+  ]
+ },
  "curso": "Gestão Sustentável das Cidades e da Indústria",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n178 DIDÁXIS - Química e Controlo de Qualidade (DL 286/89)\n572 Análises Químico-Biológicas (Port. 26/2005)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n668 Química Industrial e Ambiental (Port. 49/2005)\n678 Química Industrial e Ambiental (Port. 817/2009)\n718 Refrigeração e Climatização\n726 Técnico da Qualidade\n748 Técnico de Gestão de Energia\n755 Técnico de Laboratório\n766 Técnico de Sistemas Energéticos\n792 Técnico Instalador de Sistemas de Bioenergia\n793 Técnico Instalador de Sistemas Eólicos\n794 Técnico Instalador de Sistemas Solares Fotovoltaicos\n795 Técnico Instalador de Sistemas Solares Térmicos\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n814 Agrupamento 1 / Mecânica\n815 Agrupamento 1 / Química\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA01 Química, Ambiente e Qualidade (VC) (Port. 941/2009)\nA02 Química, Ambiente e Qualidade (VCT) (Port. 941/2009)\nA03 Biotecnologia (VC) (Port. 941/2009)\nA04 Biotecnologia (VCT) (Port. 941/2009)\nA52 Análises Químico-Biológicas (Port. 960/2009)\nA79 Energias Renováveis (Port. 815/2009)\nG04 Biotecnologia (VC) (Portaria n.º 260/2013)\nG13 Química, Ambiente e Qualidade (VC) (Portaria n.º 260/2013)\nG17 Biotecnologia (VT) (Portaria n.º 260/2013)\nG26 Química, Ambiente e Qualidade (VT) (Portaria n.º 260/2013)\nG28 Análises Químico-Biológicas (Portaria n.º 262/2013)\nG36 Produção Controlo Industrial (Portaria n.º 262/2013)\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG44 Biotecnologia Aplicada (Portaria n.º 265/2013)\nG53 Química Industrial e Laboratorial (Portaria n.º 265/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH17 Biotecnologia (VT)\nH26 Química, Ambiente e Qualidade (VT)\nH28 Análises Químico-Biológicas\nH37 Tecnologias e Segurança Alimentar\nH53 Química Industrial e Laboratorial\nH59 Energias Renováveis\nP16 Técnico de Análise Laboratorial\nP25 Técnico de Cartografia\nP46 Técnico de Eletrotecnia\nP47 Técnico de Energias Renováveis\nP49 Técnico de Frio e Climatização\nP55 Técnico de Gestão do Ambiente\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP76 Técnico de Química Industrial\nP79 Técnico de Recursos Florestais e Ambientais\nP85 Técnico de Sistemas de Informação Geográfica\nP92 Técnico de Turismo Ambiental e Rural\nR44 Técnico da Qualidade\nR52 Técnico de Aquicultura\nR58 Técnico de Controlo de Qualidade Alimentar\nR76 Técnico de Indústrias Alimentares\nS46 Técnico de Refrigeração e Climatização\nS47 Técnico de Segurança e Higiene do Trabalho\nS80 Técnico de Sistemas de Tratamento de Águas\nT07 Técnico de Análise Laboratorial\nT20 Técnico de Eletrotecnia\nT27 Técnico de Gestão do Ambiente\nT46 Técnico de Química Industrial\nT47 Técnico de Recursos Florestais e Ambientais\nT51 Técnico de Tratamento de Metais\nT52 Técnico de Turismo Ambiental e Rural\nU18 Técnico de Segurança e Higiene do Trabalho\nU20 Técnico de Sistemas de Tratamento de Águas\nU29 Técnico Instalador de Sistemas Eólicos\nU30 Técnico Instalador de Sistemas Solares Fotovoltaicos\nU31 Técn. Instalador de Sistemas Térmicos de Energias Renováveis\nU37 Técnico de Segurança no Trabalho\nU47 Técnico Instalador de Sistemas de Bioenergia\nU48 Técnico Instalador de Sistemas Solares Térmicos",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": null,
@@ -17,6 +32,10 @@
  "minimo_provas": 95,
  "par": "3102-L393",
  "percentil_nota_2026": 13,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n07 Física e Química\n18 Português\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {

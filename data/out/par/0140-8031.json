@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "727",
  "cnaef_nome": "Ciências Farmacêuticas",
  "codc": "8031",
  "code": "0140",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 112.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 149.5
+   }
+  ]
+ },
  "curso": "Ciências Farmacêuticas (Preparatórios)",
  "duracao": null,
  "ects": null,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. AçoresObservaçõesAo abrigo do convénio existente entre a Universidade dos Açores e a Faculdade de Farmácia da Universidade do Porto são ministrados na Universidade dos Açores os dois primeiros anos do curso conducente ao grau de mestre em Ciências Farmacêuticas pela Faculdade de Farmácia da Universidade do Porto. Os alunos que concluírem com aproveitamento os dois primeiros anos do curso prosseguem estudos na Faculdade de Farmácia da Universidade do Porto, ingressando no 3.º ano do curso.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Preparatórios de Mestrado Integrado",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -19,6 +34,20 @@
    "muda_curso": 0,
    "muda_estabelecimento": 0,
    "novos_inscritos": 11
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 66.7,
+   "cna_outras": 33.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 0,
+   "inscritos": 4
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -32,6 +61,10 @@
  "minimo_provas": 95,
  "par": "0140-8031",
  "percentil_nota_2026": 73,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {

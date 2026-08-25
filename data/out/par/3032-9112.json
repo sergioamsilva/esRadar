@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9112",
  "code": "3032",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 165.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 138.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 151.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 126.5
+   }
+  ]
+ },
  "curso": "Engenharia Eletrotécnica e de Computadores",
  "desemprego_percentil": 44,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n576 Eletrónica Industrial e Automação (Port. 26/2005)\n577 Eletrónica e Telecomunicações (Port. 26/2005)\n736 Técnico de Eletricidade de Edificações\n737 Técnico de Eletricidade de Manutenção\n738 Técnico de Eletricidade e Eletrónica Auto\n739 Técnico de Eletricidade Naval\n740 Técnico de Eletrónica\n782 Técnico de Manutenção Industrial (Eletromecânica)\n785 Técnico de Manutenção Industrial (Mecatrónica)\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n976 Recorrente - Eletrotecnia e Eletrónica (DL 74/2004)\nA07 Eletrotecnia e Automação (VC) (Port. 941/2009)\nA08 Eletrotecnia e Automação (VCT) (Port. 941/2009)\nA09 Eletrónica e Telecomunicações (VC) (Port. 941/2009)\nA10 Eletrónica e Telecomunicações (VCT) (Port. 941/2009)\nA54 Eletrónica Industrial e Automação (Port. 960/2009)\nA55 Eletrónica e Telecomunicações (Port. 960/2009)\nA75 Eletrónica e Computadores (T) -Port. 814/2009\nG06 Eletrónica e Telecomunicações (VC) (Portaria n.º 260/2013)\nG07 Eletrotecnia e Automação (VC) (Portaria n.º 260/2013)\nG19 Eletrónica e Telecomunicações (VT) (Portaria n.º 260/2013)\nG20 Eletrotecnia e Automação (VT) (Portaria n.º 260/2013)\nG33 Eletrónica e Telecomunicações (Portaria n.º 262/2013)\nG34 Eletrónica Industrial e Automação (Portaria n.º 262/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nG64 Eletrónica e Computadores (Portaria n.º 263/2013)\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nG78 Ext. N.ª Sr.ª do Perpétuo Socorro - Cursos do DL 286/89\nH19 Eletrónica e Telecomunicações (VT)\nH20 Eletrotecnia e Automação Industrial (VT)\nH33 Eletrónica, Telecomunicações e Computadores\nH34 Eletrónica Industrial e Automação\nH59 Energias Renováveis\nH70 Técnico de Eletrónica e Telecomunicações\nP40 Técnico de Eletricidade Naval\nP41 Técnico de Eletrónica e Telecomunicações\nP42 Técnico de Eletrónica, Áudio, Vídeo e TV\nP43 Técnico de Eletrónica, Automação e Comando\nP44 Técnico de Eletrónica, Automação e Computadores\nP45 Técnico de Eletrónica, Automação e Instrumentação\nP46 Técnico de Eletrotecnia\nP47 Técnico de Energias Renováveis\nP60 Técnico de Instalações Elétricas\nP63 Técnico de Manutenção Industrial\nP66 Técnico de Mecatrónica\nR66 Técnico de Eletrónica Médica\nS27 Técnico de Eletrónica de Computadores\nS28 Técnico de Eletrónica/Industrial e de Equipamentos\nS29 Técnico de Eletrónica/Instrumentação, Controlo e Telemanut.\nS30 Técnico de Eletrónica e Telecomunicações\nS77 Técnico de Redes Elétricas\nT15 Técnico de Eletrónica Médica\nT16 Técnico de Eletrónica, Áudio, Vídeo e TV\nT17 Técnico de Eletrónica, Automação e Comando\nT18 Técnico de Eletrónica, Automação e Computadores\nT19 Técnico de Eletrónica, Automação e Instrumentação\nT20 Técnico de Eletrotecnia\nT31 Técnico de Instalações Elétricas\nT37 Técnico de Mecatrónica\nU12 Técnico de Redes Elétricas\nU29 Técnico Instalador de Sistemas Eólicos\nU30 Técnico Instalador de Sistemas Solares Fotovoltaicos",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Cávado e do Ave",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 3.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.6,
+    "12": 6.5,
+    "13": 30.6,
+    "14": 22.6,
+    "15": 17.7,
+    "16": 8.1,
+    "17": 11.3,
+    "18": 0.0,
+    "19": 1.6,
+    "20": 0.0
+   },
    "n": 62,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 18.4,
+   "cna_outras": 6.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.4,
+   "mudanca_curso": 2.3,
+   "outros": 69.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 196
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3032-9112",
  "pct_colocados_1opcao_2025": 71,
  "percentil_nota_2026": 37,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

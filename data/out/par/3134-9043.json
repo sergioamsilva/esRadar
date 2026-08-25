@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "322",
  "cnaef_nome": "Biblioteconomia, Arquivo e Documentação (BAD)",
  "codc": "9043",
  "code": "3134",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 149.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 135.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 141.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 145.0
+   }
+  ]
+ },
  "curso": "Ciências e Tecnologias da Documentação e Informação",
  "desemprego_percentil": 85,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 10.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 6.5,
+    "13": 21.7,
+    "14": 30.4,
+    "15": 17.4,
+    "16": 19.6,
+    "17": 4.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 46,
    "nota_final_media": 14.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 30.0,
+   "cna_outras": 11.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 10.0,
+   "mudanca_curso": 5.0,
+   "outros": 43.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 101
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3134-9043",
  "pct_colocados_1opcao_2025": 33,
  "percentil_nota_2026": 67,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -295,7 +351,7 @@
    "vagas": 7
   },
   "2026f1": {
-   "colocados": 25,
+   "colocados": 26,
    "nota_ultimo": 145.0,
    "sobras": 0,
    "vagas": 25

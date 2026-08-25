@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "721",
  "cnaef_nome": "Medicina",
  "codc": "9813",
  "code": "2750",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Medicina",
  "duracao": "12 Semestres",
  "ects": 360,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 2
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8860.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 290.0,
+   "outros": 860.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 43
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 11,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2750-9813",
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n19 Matemática A",
  "series": {},
  "subsistema": "universitario",

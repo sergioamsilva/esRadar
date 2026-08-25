@@ -1,15 +1,25 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "222",
  "cnaef_nome": "Línguas e Literaturas Estrangeiras",
  "codc": "L088",
  "code": "3042",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 127.0
+   }
+  ]
+ },
  "curso": "Relações Lusófonas e Língua Portuguesa",
  "desemprego_percentil": 75,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\nA19 Línguas e Relações Empresariais (VC) (Port. 941/2009)\nA20 Línguas e Relações Empresariais (VCT) (Port. 941/2009)\nG10 Línguas e Relações Empresariais (VC) (Portaria n.º 260/2013)\nG23 Línguas e Relações Empresariais (VT) (Portaria n.º 260/2013)",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +37,36 @@
    "taxa": 6.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 36.8,
+    "13": 10.5,
+    "14": 26.3,
+    "15": 15.8,
+    "16": 10.5,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 19,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 7.0,
+   "cna_outras": 4.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.3,
+   "mudanca_curso": 4.7,
+   "outros": 81.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 76,
+   "inscritos": 91
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,10 @@
  "par": "3042-L088",
  "pct_colocados_1opcao_2025": 0,
  "percentil_nota_2026": 38,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n09 Geografia\nou\n06 Filosofia\n11 História",
  "semelhantes": [
   {

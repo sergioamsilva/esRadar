@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9179",
  "code": "3186",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 128.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 124.0
+   }
+  ]
+ },
  "curso": "Gestão Turística, Cultural e Patrimonial",
  "desemprego_percentil": 78,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Guarda, Porto, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n778 Técnico de Agências de Viagens e Transportes\n831 Agrupamento 3 / Administração\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP51 Técnico de Gestão\nP87 Técnico de Termalismo\nP92 Técnico de Turismo Ambiental e Rural\nS17 Técnico de Apoio à Gestão\nS56 Técnicas de Operações Turísticas e Hoteleiras (Port 57/2009)\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)\nT02 Animador Sociocultural\nT28 Técnico de Informação e Animação Turística\nT48 Técnico de Termalismo\nT52 Técnico de Turismo Ambiental e Rural",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 7.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.3,
+    "13": 23.3,
+    "14": 36.7,
+    "15": 33.3,
+    "16": 3.3,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 30,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 55.9,
+   "cna_outras": 14.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.9,
+   "mudanca_curso": 0,
+   "outros": 26.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 51
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3186-9179",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 33,
+ "preferencia_regional": {
+  "area_influencia": "Bragança, Guarda, Porto, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n11 História\n13 Inglês\nou\n09 Geografia\n11 História\nou\n09 Geografia\n13 Inglês",
  "semelhantes": [
   {
@@ -145,7 +191,7 @@
    "vagas": 23
   },
   "2019f2": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 98.0,
    "sobras": 3,
    "vagas": 16
@@ -252,7 +298,7 @@
    "candidatos_1opcao": 4,
    "candidatos_homens": 26,
    "candidatos_mulheres": 23,
-   "colocados": 6,
+   "colocados": 7,
    "colocados_1opcao": 4,
    "colocados_homens": 3,
    "colocados_mulheres": 4,

@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "8093",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 151.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 115.0
+   }
+  ]
+ },
  "curso": "Animação Socioeducativa (regime pós-laboral)",
  "desemprego_percentil": 68,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Beja, Castelo Branco, Coimbra, Faro, Portalegre, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n088 Ação Social (DL 74/2004)\n215 Ação Social - Ação Educativa (Port. 32/2005)\n217 Ação Social - Assistente de Gerontologia (Port. 32/2005)\n219 Ação Social (Port. 816/2009)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n674 Animação Sociocultural (Port. 817/2009)\n983 Recorrente - Ação Social (DL 74/2004)\nA05 Animação Sociodesportiva (VC) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nG01 Animação Sócio Desportiva (VC) (Portaria n.º 260/2013)\nG43 Animação Sociocultural (Portaria n.º 265/2013)\nG55 Ação Social (Portaria n.º 266/2013)\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nH14 Animação Sociodesportiva (VT)\nH43 Animação Sociocultural\nH55 Ação Social\nH58 Educação Social\nP01 Animador Sociocultural\nP19 Técnico de Apoio Psicossocial\nR17 Técnico em Animação de Turismo\nT02 Animador Sociocultural",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 5.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.3,
+    "13": 52.6,
+    "14": 5.3,
+    "15": 15.8,
+    "16": 21.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 19,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 11.1,
+   "cna_outras": 20.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 13.3,
+   "mudanca_curso": 0,
+   "outros": 55.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 69
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -44,6 +91,10 @@
  "par": "3062-8093",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 17,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Castelo Branco, Coimbra, Faro, Portalegre, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n18 Português\nou\n06 Filosofia\n11 História\nou\n11 História\n18 Português\nou\n09 Geografia\n18 Português",
  "semelhantes": [
   {
@@ -114,7 +165,7 @@
    "vagas": 20
   },
   "2019f2": {
-   "colocados": 6,
+   "colocados": 7,
    "nota_ultimo": 124.8,
    "sobras": 0,
    "vagas": 6
@@ -161,7 +212,7 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 17,
+   "colocados": 19,
    "nota_ultimo": 110.0,
    "sobras": 2,
    "vagas": 21
@@ -199,7 +250,7 @@
    "candidatos_1opcao": 11,
    "candidatos_homens": 6,
    "candidatos_mulheres": 34,
-   "colocados": 9,
+   "colocados": 10,
    "colocados_1opcao": 2,
    "colocados_homens": 1,
    "colocados_mulheres": 9,
@@ -274,7 +325,7 @@
    "candidatos_1opcao": 0,
    "candidatos_homens": 1,
    "candidatos_mulheres": 11,
-   "colocados": 3,
+   "colocados": 4,
    "colocados_1opcao": 0,
    "colocados_homens": 0,
    "colocados_mulheres": 4,

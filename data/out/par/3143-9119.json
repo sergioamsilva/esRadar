@@ -1,14 +1,39 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9119",
  "code": "3143",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 166.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 125.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 133.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 118.5
+   }
+  ]
+ },
  "curso": "Engenharia Informática",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n082 Informática (DL 74/2004)\n084 Multimédia (DL 74/2004)\n578 Informática (Port. 26/2005)\n753 Técnico de Informática\n813 Agrupamento 1 / Informática\n997 Informática (INA) (Port. 37/2005)\nA11 Informática (VC) (Port. 941/2009)\nA12 Informática (VCT) (Port. 941/2009)\nA15 Informática de Gestão (VC) (Port. 941/2009)\nA16 Informática de Gestão (VCT) (Port. 941/2009)\nG06 Eletrónica e Telecomunicações (VC) (Portaria n.º 260/2013)\nG08 Informática (VC) (Portaria n.º 260/2013)\nG09 Informática de Gestão (VC) (Portaria n.º 260/2013)\nG21 Informática (VT) (Portaria n.º 260/2013)\nG22 Informática de Gestão (VT) (Portaria n.º 260/2013)\nG35 Informática e Tecnologias Multimédia (Portaria n.º 262/2013)\nG50 Informática Aplicada à Web (Portaria n.º 265/2013)\nG64 Eletrónica e Computadores (Portaria n.º 263/2013)\nG84 Informática (Portaria n.º 33/2015)\nH19 Eletrónica e Telecomunicações (VT)\nH21 Informática (VT)\nH22 Informática de Gestão (VT)\nH35 Informática e Tecnologias Multimédia\nP44 Técnico de Eletrónica, Automação e Computadores\nP59 Técnico de Informática de Gestão\nR25 Técnico de Informática - Sistemas\nR38 Programador de Informática\nR79 Técnico de Informática - Instalação e Gestão de Redes\nT04 Programador de Informática\nT29 Técnico de Informática - Sistemas\nT30 Técnico de Informática - Instalação e Gestão de Redes",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": null,
@@ -17,6 +42,10 @@
  "minimo_provas": 95,
  "par": "3143-9119",
  "percentil_nota_2026": 23,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n16 Matemática\n18 Português",
  "semelhantes": [
   {
@@ -64,7 +93,7 @@
  ],
  "series": {
   "2026f1": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 118.5,
    "sobras": 52,
    "vagas": 66

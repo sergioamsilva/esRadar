@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "429",
  "cnaef_nome": "Ciências da Vida - programas não classificados noutra área de formação",
  "codc": "L294",
  "code": "4650",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Ciências Forenses",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 48
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 17.6,
+    "13": 38.2,
+    "14": 11.8,
+    "15": 23.5,
+    "16": 5.9,
+    "17": 2.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 34,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8410.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 230.0,
+   "mudanca_curso": 680.0,
+   "outros": 680.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 69
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4650-L294",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n07 Física e Química\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

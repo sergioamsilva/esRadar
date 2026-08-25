@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 15,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9926",
  "code": "7105",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 144.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 150.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 136.5
+   }
+  ]
+ },
  "curso": "Gestão Portuária",
  "desemprego_percentil": 96,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n770 Técnico de Transportes\nP15 Técnico de Administração Naval\nP90 Técnico de Transportes\nS34 Técnico de Logística",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior Náutica Infante D. Henrique",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 90.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 6.3,
+    "13": 28.1,
+    "14": 37.5,
+    "15": 25.0,
+    "16": 3.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 32,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 42.9,
+   "cna_outras": 32.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.1,
+   "mudanca_curso": 0,
+   "outros": 20.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 82
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "7105-9926",
  "pct_colocados_1opcao_2025": 76,
  "percentil_nota_2026": 53,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n13 Inglês",
  "semelhantes": [
   {
@@ -232,7 +280,7 @@
    "candidatos_1opcao": 10,
    "candidatos_homens": 61,
    "candidatos_mulheres": 8,
-   "colocados": 5,
+   "colocados": 6,
    "colocados_1opcao": 2,
    "colocados_homens": 6,
    "colocados_mulheres": 0,

@@ -1,15 +1,25 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "582",
  "cnaef_nome": "Construção Civil e Engenharia Civil",
  "codc": "9089",
  "code": "3092",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 122.8
+   }
+  ]
+ },
  "curso": "Engenharia Civil",
  "desemprego_percentil": 69,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Portalegre, Porto, Vila Real, Viseu, R. A. AçoresOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n080 Construção Civil e Edificações (DL 74/2004)\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n580 Desenho de Projeto, Eng. e Arquitetura (T) -Port. 38/2005\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n709 Medidor Orçamentista\n715 Preparador de Obras\n732 Técnico de Construção Civil\n811 Agrupamento 1 / Construção Civil\n975 Recorrente - Construção Civil e Edificações (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA30 Conservação e Restauro do Património (Port. 836/2004)\nA50 Desenhador de Projetos - Arquitetura e Eng. (Port. 960/2009)\nA71 Desenho de Projeto Eng. e Arquitetura (T) -Port. 814/2009\nG63 Desenho de Projeto - Eng. e Arquitetura (Port. 263/2013)\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nH32 Desenhador de Projetos - Arquitetura e Engenharia\nP29 Técnico de Construção Civil\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP70 Técnico de Pedreiras\nR48 Técnico de Andares\nR59 Técnico de Desenho da Construção Civil\nS26 Técnico de Desenho/Preparador de Obra\nS38 Técnico de Medições e Orçamentos\nS41 Técnico de Obra/Condutor de Obra\nS68 Técnico de Ensaios da Construção Civil e Obras Públicas\nT11 Técnico de Desenho de Construção Civil",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -27,9 +37,36 @@
    "taxa": 5.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 33.3,
+    "12": 22.2,
+    "13": 7.4,
+    "14": 14.8,
+    "15": 18.5,
+    "16": 0.0,
+    "17": 3.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 27,
    "nota_final_media": 12.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 360.0,
+   "mudanca_curso": 360.0,
+   "outros": 9290.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 30,
+   "inscritos": 38
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -43,6 +80,10 @@
  "minimo_provas": 95,
  "par": "3092-9089",
  "percentil_nota_2026": 31,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Portalegre, Porto, Vila Real, Viseu, R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

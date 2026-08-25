@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "L021",
  "code": "2920",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão Comercial",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 12
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7830.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 1740.0,
+   "outros": 430.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 24
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 14,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2920-L021",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "universitario",

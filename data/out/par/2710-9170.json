@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9170",
  "code": "2710",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão em Saúde",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 15
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 8.3,
+    "15": 41.7,
+    "16": 25.0,
+    "17": 25.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 12,
    "nota_final_media": 15.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 590.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8240.0,
+   "mudanca_curso": 0,
+   "outros": 1180.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 26
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2710-9170",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n13 Inglês\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "universitario",

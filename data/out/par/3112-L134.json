@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "310",
  "cnaef_nome": "Ciências Sociais e do Comportamento",
  "codc": "L134",
  "code": "3112",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 122.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 120.5
+   }
+  ]
+ },
  "curso": "Mediação Artística e Cultural",
  "desemprego_percentil": 26,
  "duracao": "3 Anos",
@@ -27,9 +42,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 24.1,
+    "14": 20.7,
+    "15": 24.1,
+    "16": 17.2,
+    "17": 10.3,
+    "18": 3.4,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 29,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 33.3,
+   "cna_outras": 8.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.2,
+   "mudanca_curso": 2.2,
+   "outros": 53.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 60
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "3112-L134",
  "pct_colocados_1opcao_2025": 31,
  "percentil_nota_2026": 27,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n13 Inglês\n16 Matemática\nou\n11 História\n16 Matemática\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -142,7 +185,7 @@
    "vagas": 31
   },
   "2020f2": {
-   "colocados": 11,
+   "colocados": 12,
    "nota_ultimo": 132.5,
    "sobras": 0,
    "vagas": 10
@@ -188,7 +231,7 @@
    "candidatos_1opcao": 11,
    "candidatos_homens": 19,
    "candidatos_mulheres": 72,
-   "colocados": 24,
+   "colocados": 25,
    "colocados_1opcao": 7,
    "colocados_homens": 8,
    "colocados_mulheres": 17,
@@ -204,7 +247,7 @@
    "candidatos_1opcao": 8,
    "candidatos_homens": 14,
    "candidatos_mulheres": 39,
-   "colocados": 6,
+   "colocados": 7,
    "colocados_1opcao": 3,
    "colocados_homens": 1,
    "colocados_mulheres": 6,
@@ -293,7 +336,7 @@
    "vagas": 12
   },
   "2026f1": {
-   "colocados": 25,
+   "colocados": 26,
    "nota_ultimo": 120.5,
    "sobras": 0,
    "vagas": 25

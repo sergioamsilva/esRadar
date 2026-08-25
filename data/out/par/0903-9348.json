@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "421",
  "cnaef_nome": "Biologia e Bioquímica",
  "codc": "9348",
  "code": "0903",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 147.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 178.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 116.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 157.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 165.3
+   }
+  ]
+ },
  "curso": "Biologia Celular e Molecular",
  "desemprego_percentil": 84,
  "duracao": "6 Semestres",
@@ -27,9 +57,36 @@
    "taxa": 10.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 3.2,
+    "14": 12.0,
+    "15": 30.4,
+    "16": 28.0,
+    "17": 20.8,
+    "18": 5.6,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 125,
    "nota_final_media": 15.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 83.0,
+   "cna_outras": 5.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 11.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 17,
+   "inscritos": 216
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,7 @@
  "par": "0903-9348",
  "pct_colocados_1opcao_2025": 77,
  "percentil_nota_2026": 90,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n04 Economia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

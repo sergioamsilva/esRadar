@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "640",
  "cnaef_nome": "Ciências Veterinárias",
  "codc": "9085",
  "code": "3161",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 128.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 120.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 161.8
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 125.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 137.5
+   }
+  ]
+ },
  "curso": "Enfermagem Veterinária",
  "desemprego_percentil": 74,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 6.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.5,
+    "13": 19.2,
+    "14": 42.5,
+    "15": 26.0,
+    "16": 5.5,
+    "17": 1.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 73,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 33.3,
+   "cna_outras": 15.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 10.8,
+   "mudanca_curso": 0,
+   "outros": 40.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 172
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +131,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3161-9085",
- "pct_colocados_1opcao_2025": 67,
+ "pct_colocados_1opcao_2025": 64,
  "percentil_nota_2026": 54,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -145,7 +206,7 @@
    "vagas": 35
   },
   "2019f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 120.2,
    "sobras": 0,
    "vagas": 16
@@ -187,7 +248,7 @@
    "sobras": 1
   },
   "2022f1": {
-   "colocados": 35,
+   "colocados": 37,
    "nota_ultimo": 152.5,
    "sobras": 0,
    "vagas": 35
@@ -280,7 +341,7 @@
    "candidatos_1opcao": 14,
    "candidatos_homens": 10,
    "candidatos_mulheres": 43,
-   "colocados": 21,
+   "colocados": 22,
    "colocados_1opcao": 14,
    "colocados_homens": 3,
    "colocados_mulheres": 19,

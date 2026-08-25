@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "521",
  "cnaef_nome": "Metalurgia e Metalomecânica",
  "codc": "9123",
  "code": "3064",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 120.3
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 120.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 118.5
+   }
+  ]
+ },
  "curso": "Engenharia Mecânica",
  "desemprego_percentil": 53,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n711 Técnico de CAD/CAM\n718 Refrigeração e Climatização\n745 Técnico de Laboratório - Fundição\n748 Técnico de Gestão de Energia\n766 Técnico de Sistemas Energéticos\n773 Técnico Intermédio de Desenho de Construções Mecânicas\n774 Técnico de Desenho de Moldes\n814 Agrupamento 1 / Mecânica\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG83 Cursos de Aprendizagem (IEFP) - extintos\nP35 Técnico de Desenho de Construções Mecânicas\nP49 Técnico de Frio e Climatização\nP63 Técnico de Manutenção Industrial\nP74 Técnico de Produção em Metalomecânica\nS23 Técnico de Desenho de Constr. Mecânicas/Cunhos e Cortantes\nS24 Técnico de Desenho de Construções Mecânicas/Máquinas\nS25 Técnico de Desenho de Construções Mecânicas/Moldes\nS46 Técnico de Refrigeração e Climatização\nT34 Técnico de Maquinação CNC\nT43 Técnico de Produção Automóvel\nT51 Técnico de Tratamento de Metais",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 3.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 6.4,
+    "12": 48.6,
+    "13": 33.0,
+    "14": 9.2,
+    "15": 90.0,
+    "16": 1.8,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 109,
    "nota_final_media": 12.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 36.8,
+   "cna_outras": 26.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.9,
+   "mudanca_curso": 4.4,
+   "outros": 31.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 22,
+   "inscritos": 318
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +121,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3064-9123",
- "pct_colocados_1opcao_2025": 61,
+ "pct_colocados_1opcao_2025": 59,
  "percentil_nota_2026": 23,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Viseu",
+  "pct_vagas": 25
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {
@@ -213,7 +264,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 160,
    "candidatos_mulheres": 17,
-   "colocados": 26,
+   "colocados": 27,
    "colocados_1opcao": 12,
    "colocados_homens": 23,
    "colocados_mulheres": 4,
@@ -284,7 +335,7 @@
    "candidatos_1opcao": 19,
    "candidatos_homens": 162,
    "candidatos_mulheres": 17,
-   "colocados": 31,
+   "colocados": 32,
    "colocados_1opcao": 19,
    "colocados_homens": 28,
    "colocados_mulheres": 4,

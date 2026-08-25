@@ -1,14 +1,39 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9147",
  "code": "0170",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 143.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 141.5
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 118.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 136.0
+   }
+  ]
+ },
  "curso": "Gestão",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -21,9 +46,36 @@
    "novos_inscritos": 140
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.1,
+    "12": 20.4,
+    "13": 32.3,
+    "14": 23.7,
+    "15": 8.6,
+    "16": 6.5,
+    "17": 5.4,
+    "18": 1.1,
+    "19": 1.1,
+    "20": 0.0
+   },
    "n": 93,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 55.8,
+   "cna_outras": 1.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 16.7,
+   "mudanca_curso": 9.4,
+   "outros": 16.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 247
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +122,10 @@
  "par": "0170-9147",
  "pct_colocados_1opcao_2025": 93,
  "percentil_nota_2026": 52,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -208,7 +264,7 @@
    "candidatos_1opcao": 37,
    "candidatos_homens": 42,
    "candidatos_mulheres": 38,
-   "colocados": 43,
+   "colocados": 44,
    "colocados_1opcao": 37,
    "colocados_homens": 21,
    "colocados_mulheres": 23,

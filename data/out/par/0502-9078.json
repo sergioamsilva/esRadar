@@ -1,10 +1,50 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "9078",
  "code": "0502",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 143.3
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 160.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 166.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 166.3
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 113.0
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 120.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 167.0
+   }
+  ]
+ },
  "curso": "Direito",
  "desemprego_percentil": 41,
  "duracao": "8 Semestres",
@@ -27,9 +67,36 @@
    "taxa": 3.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 60.0,
+    "12": 17.6,
+    "13": 36.7,
+    "14": 25.4,
+    "15": 12.6,
+    "16": 5.7,
+    "17": 1.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 629,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 52.4,
+   "cna_outras": 11.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.9,
+   "mudanca_curso": 9.3,
+   "outros": 25.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 479,
+   "inscritos": 2450
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +143,7 @@
  "par": "0502-9078",
  "pct_colocados_1opcao_2025": 74,
  "percentil_nota_2026": 92,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n11 História\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -147,7 +215,7 @@
    "vagas": 334
   },
   "2019f2": {
-   "colocados": 55,
+   "colocados": 57,
    "nota_ultimo": 159.0,
    "sobras": 0,
    "vagas": 44
@@ -165,7 +233,7 @@
    "vagas": 334
   },
   "2020f2": {
-   "colocados": 50,
+   "colocados": 54,
    "nota_ultimo": 169.5,
    "sobras": 0,
    "vagas": 36
@@ -195,7 +263,7 @@
    "vagas": 7
   },
   "2022f1": {
-   "colocados": 334,
+   "colocados": 337,
    "nota_ultimo": 168.0,
    "sobras": 0,
    "vagas": 334
@@ -217,7 +285,7 @@
    "candidatos_1opcao": 650,
    "candidatos_homens": 540,
    "candidatos_mulheres": 1581,
-   "colocados": 338,
+   "colocados": 339,
    "colocados_1opcao": 214,
    "colocados_homens": 71,
    "colocados_mulheres": 268,
@@ -255,7 +323,7 @@
    "candidatos_1opcao": 614,
    "candidatos_homens": 510,
    "candidatos_mulheres": 1445,
-   "colocados": 339,
+   "colocados": 340,
    "colocados_1opcao": 233,
    "colocados_homens": 95,
    "colocados_mulheres": 245,
@@ -309,7 +377,7 @@
    "candidatos_1opcao": 181,
    "candidatos_homens": 114,
    "candidatos_mulheres": 322,
-   "colocados": 41,
+   "colocados": 42,
    "colocados_1opcao": 25,
    "colocados_homens": 9,
    "colocados_mulheres": 33,
@@ -327,7 +395,7 @@
    "vagas": 10
   },
   "2026f1": {
-   "colocados": 350,
+   "colocados": 354,
    "nota_ultimo": 167.0,
    "sobras": 0,
    "vagas": 350

@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "L207",
  "code": "3241",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 118.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 107.0
+   }
+  ]
+ },
  "curso": "Turismo e Gestão do Património Cultural",
  "desemprego_percentil": 19,
  "duracao": "6 semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Leiria, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n677 Turismo Cultural e Ambiental (Port. 817/2009)\n717 Rececionista de Turismo\nA23 Património e Turismo (VC) (Port. 941/2009)\nA24 Património e Turismo (VCT) (Port. 941/2009)\nG12 Património e Turismo (VC) (Portaria n.º 260/2013)\nG54 Turismo Cultural e Recreativo (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP67 Técnico de Museografia e Gestão do Património\nP69 Técnico de Organização de Eventos\nP77 Técnico de Receção\nP91 Técnico de Turismo\nR92 Técnico de Operações Turísticas\nT28 Técnico de Informação e Animação Turística",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 1.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 33.3,
+    "14": 33.3,
+    "15": 16.7,
+    "16": 16.7,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 12,
    "nota_final_media": 14.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 38.7,
+   "cna_outras": 9.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 3.2,
+   "outros": 48.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 20,
+   "inscritos": 95
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3241-L207",
  "pct_colocados_1opcao_2025": 60,
  "percentil_nota_2026": 4,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Leiria, Portalegre, Santarém",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n11 História\n13 Inglês\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n11 História\nou\n04 Economia\n13 Inglês",
  "semelhantes": [
   {
@@ -235,7 +281,7 @@
    "candidatos_1opcao": 3,
    "candidatos_homens": 13,
    "candidatos_mulheres": 16,
-   "colocados": 14,
+   "colocados": 15,
    "colocados_1opcao": 3,
    "colocados_homens": 6,
    "colocados_mulheres": 9,

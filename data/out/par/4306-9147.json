@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9147",
  "code": "4306",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesEm outubro de 2024, foi publicada pela Agência de Avaliação e Acreditação do Ensino Superior decisão negativa de avaliação institucional para este estabelecimento. Tendo sido, entretanto, instaurada, pela entidade instituidora deste estabelecimento, uma providência cautelar com vista à suspensão da eficácia do ato de não acreditação, até respetiva decisão judicial, encontra-se suspenso o ato de não acreditação da A3ES, não podendo a tutela atuar noutro sentido que não seja o da divulgação das vagas fixadas para este estabelecimento, nos termos do despacho n.º 528/2025, de 10 de janeiro.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior de Estudos Interculturais e Transdisciplinares de Almada",
  "infocursos": {
@@ -26,9 +28,36 @@
    "taxa": 4.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 9.1,
+    "12": 45.5,
+    "13": 24.2,
+    "14": 9.1,
+    "15": 6.1,
+    "16": 3.0,
+    "17": 3.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 33,
    "nota_final_media": 12.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6300.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 650.0,
+   "mudanca_curso": 430.0,
+   "outros": 2610.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 31,
+   "inscritos": 86
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4306-9147",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n06 Filosofia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "universitario",

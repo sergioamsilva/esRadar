@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "9890",
  "code": "4105",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Terapia da Fala",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -26,9 +28,36 @@
    "taxa": 2.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 10.0,
+    "15": 16.7,
+    "16": 30.0,
+    "17": 30.0,
+    "18": 10.0,
+    "19": 3.3,
+    "20": 0.0
+   },
    "n": 30,
    "nota_final_media": 16.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7500.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 500.0,
+   "mudanca_curso": 0,
+   "outros": 2000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 77
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4105-9890",
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia\ne\nUma das seguintes provas:\n07 Física e Química\n09 Geografia\n11 História\n17 Mat. Apl. Ciências Soc.\n16 Matemática\n18 Português",
  "series": {},
  "subsistema": "politecnico",

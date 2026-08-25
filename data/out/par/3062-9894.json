@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "213",
  "cnaef_nome": "Áudio-Visuais e Produção dos Media",
  "codc": "9894",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 127.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 138.5
+   }
+  ]
+ },
  "curso": "Comunicação e Design Multimédia",
  "desemprego_percentil": 66,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Leiria, Lisboa, Porto, Santarém, Setúbal, Viana do Castelo, Vila Real, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n813 Agrupamento 1 / Informática\n821 Agrupamento 2 / Design\n841 Agrupamento 4 / Comunicação\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 5.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 5.5,
+    "14": 38.4,
+    "15": 31.5,
+    "16": 23.3,
+    "17": 1.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 73,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 70.1,
+   "cna_outras": 11.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.6,
+   "mudanca_curso": 0,
+   "outros": 15.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 133
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +116,12 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3062-9894",
- "pct_colocados_1opcao_2025": 59,
+ "pct_colocados_1opcao_2025": 58,
  "percentil_nota_2026": 56,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Castelo Branco, Coimbra, Guarda, Leiria, Lisboa, Porto, Santarém, Setúbal, Viana do Castelo, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n17 Mat. Apl. Ciências Soc.\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n10 Geometria Descritiva\n17 Mat. Apl. Ciências Soc.\nou\n10 Geometria Descritiva\n18 Português",
  "semelhantes": [
   {
@@ -252,7 +298,7 @@
    "candidatos_1opcao": 59,
    "candidatos_homens": 93,
    "candidatos_mulheres": 176,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 23,
    "colocados_homens": 13,
    "colocados_mulheres": 26,
@@ -289,7 +335,7 @@
    "candidatos_1opcao": 25,
    "candidatos_homens": 37,
    "candidatos_mulheres": 95,
-   "colocados": 39,
+   "colocados": 40,
    "colocados_1opcao": 23,
    "colocados_homens": 10,
    "colocados_mulheres": 30,

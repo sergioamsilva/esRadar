@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "721",
  "cnaef_nome": "Medicina",
  "codc": "9813",
  "code": "1204",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 161.7
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 158.7
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 180.8
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 181.8
+   }
+  ]
+ },
  "curso": "Medicina",
  "duracao": "6 Anos",
  "ects": 360,
@@ -17,6 +42,7 @@
  "minimo_provas": 140,
  "par": "1204-9813",
  "percentil_nota_2026": 99,
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

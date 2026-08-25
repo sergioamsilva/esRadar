@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "813",
  "cnaef_nome": "Desporto",
  "codc": "L399",
  "code": "1204",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 130.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 111.8
+   }
+  ]
+ },
  "curso": "Psicomotricidade",
  "duracao": "3 Anos",
  "ects": 180,
@@ -17,6 +32,7 @@
  "minimo_provas": 95,
  "par": "1204-L399",
  "percentil_nota_2026": 11,
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia\ne\nUma das seguintes provas:\n06 Filosofia\n07 Física e Química\n09 Geografia\n17 Mat. Apl. Ciências Soc.\n19 Matemática A\n18 Português",
  "semelhantes": [
   {

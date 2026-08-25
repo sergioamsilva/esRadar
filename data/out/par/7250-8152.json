@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "8152",
  "code": "7250",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 124.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 137.3
+   }
+  ]
+ },
  "curso": "Ortoprotesia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +36,36 @@
    "novos_inscritos": 56
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 17.9,
+    "13": 57.1,
+    "14": 17.9,
+    "15": 7.1,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 28,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 21.4,
+   "cna_outras": 41.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.8,
+   "mudanca_curso": 0,
+   "outros": 35.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 95
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +111,7 @@
  "minimo_provas": 95,
  "par": "7250-8152",
  "percentil_nota_2026": 54,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -188,7 +231,7 @@
    "media_secundario": 141.3
   },
   "2026f1": {
-   "colocados": 26,
+   "colocados": 27,
    "nota_ultimo": 137.3,
    "sobras": 0,
    "vagas": 26

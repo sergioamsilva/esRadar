@@ -1,15 +1,50 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "813",
  "cnaef_nome": "Desporto",
  "codc": "L034",
  "code": "3145",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 132.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 123.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 120.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 111.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 119.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 116.0
+   }
+  ]
+ },
  "curso": "Desporto, Condição Física e Saúde",
  "desemprego_percentil": 12,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n089 Desporto (DL 74/2004)\n573 Animação e Gestão Desportiva (Port. 26/2005)\n667 Gestão e Dinamização Desportiva (Port. 817/2009)\n674 Animação Sociocultural (Port. 817/2009)\n842 Agrupamento 4 / Animação Social\n846 Complementar/Secundário de Dança (Decreto-Lei n.º 286/89)\n847 Dança - Formação de Bailarinos (Decreto-Lei n.º 286/89)\n870 Grande Colégio Universal - Técn. Ação Educativa (DL 286/89)\n984 Recorrente - Desporto (DL 74/2004)\nA05 Animação Sociodesportiva (VC) (Port. 941/2009)\nA06 Animação Sociodesportiva (VCT) (Port. 941/2009)\nA53 Animação e Gestão Desportiva (Port. 960/2009)\nF75 Secundário de Dança\nG01 Animação Sócio Desportiva (VC) (Portaria n.º 260/2013)\nG14 Animação Sócio Desportiva (VT) (Portaria n.º 260/2013)\nG29 Animação e Gestão Desportiva (Portaria n.º 262/2013)\nG49 Desporto e Dinamização da Atividade Física (Port. 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG85 Atividade Física e Desporto Adaptados (Port. 33/2015)\nG86 Desporto e Dinamização da Atividade Física (Port. 32/2015)\nH14 Animação Sociodesportiva (VT)\nH29 Animação e Gestão Desportiva\nH49 Desporto e Dinamização da Atividade Física\nH85 Atividade Física e Desporto Adaptados\nH86 Desporto e Dinamização da Atividade Física\nP01 Animador Sociocultural\nP83 Técnico de Segurança e Salvamento em Meio Aquático\nR05 Técnico de Apoio à Gestão Desportiva\nR10 Técnico de Desporto e Condição Física\nR15 Técnico de Desporto\nS64 Técnico de Apoio à Gestão Desportiva\nT02 Animador Sociocultural\nT06 Técnico de Ação Educativa\nT26 Técnico de Gestão Desportiva\nT54 Técnico de Desporto",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": {
@@ -27,9 +62,36 @@
    "taxa": 1.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 100.0,
+    "13": 9.7,
+    "14": 34.0,
+    "15": 44.7,
+    "16": 9.7,
+    "17": 0.0,
+    "18": 100.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 103,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 56.5,
+   "cna_outras": 17.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.6,
+   "mudanca_curso": 1.6,
+   "outros": 22.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 17,
+   "inscritos": 311
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +138,10 @@
  "par": "3145-L034",
  "pct_colocados_1opcao_2025": 82,
  "percentil_nota_2026": 19,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Évora, Leiria, Lisboa, Portalegre, Santarém, Setúbal",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -195,7 +261,7 @@
    "vagas": 5
   },
   "2022f1": {
-   "colocados": 90,
+   "colocados": 91,
    "nota_ultimo": 129.2,
    "sobras": 0,
    "vagas": 90
@@ -255,7 +321,7 @@
    "candidatos_1opcao": 53,
    "candidatos_homens": 246,
    "candidatos_mulheres": 86,
-   "colocados": 90,
+   "colocados": 91,
    "colocados_1opcao": 49,
    "colocados_homens": 59,
    "colocados_mulheres": 32,
@@ -271,7 +337,7 @@
    "candidatos_1opcao": 26,
    "candidatos_homens": 110,
    "candidatos_mulheres": 33,
-   "colocados": 24,
+   "colocados": 25,
    "colocados_1opcao": 13,
    "colocados_homens": 18,
    "colocados_mulheres": 7,
@@ -327,7 +393,7 @@
    "vagas": 29
   },
   "2026f1": {
-   "colocados": 90,
+   "colocados": 93,
    "nota_ultimo": 116.0,
    "sobras": 0,
    "vagas": 90

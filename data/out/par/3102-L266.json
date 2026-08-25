@@ -1,14 +1,34 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "L266",
  "code": "3102",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 130.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 122.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 105.0
+   }
+  ]
+ },
  "curso": "Engenharia Eletrotécnica e de Computadores (regime noturno)",
  "duracao": "8 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n576 Eletrónica Industrial e Automação (Port. 26/2005)\n577 Eletrónica e Telecomunicações (Port. 26/2005)\n581 Eletrónica (T) -Port. 38/2005\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n736 Técnico de Eletricidade de Edificações\n737 Técnico de Eletricidade de Manutenção\n738 Técnico de Eletricidade e Eletrónica Auto\n739 Técnico de Eletricidade Naval\n740 Técnico de Eletrónica\n748 Técnico de Gestão de Energia\n766 Técnico de Sistemas Energéticos\n775 Técnico Intermédio de Manutenção Eletromecânica\n782 Técnico de Manutenção Industrial (Eletromecânica)\n785 Técnico de Manutenção Industrial (Mecatrónica)\n790 Técnico de Manutenção Industrial (Metalurgia e Metalomecân.)\n793 Técnico Instalador de Sistemas Eólicos\n794 Técnico Instalador de Sistemas Solares Fotovoltaicos\n795 Técnico Instalador de Sistemas Solares Térmicos\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n976 Recorrente - Eletrotecnia e Eletrónica (DL 74/2004)\nA07 Eletrotecnia e Automação (VC) (Port. 941/2009)\nA08 Eletrotecnia e Automação (VCT) (Port. 941/2009)\nA09 Eletrónica e Telecomunicações (VC) (Port. 941/2009)\nA10 Eletrónica e Telecomunicações (VCT) (Port. 941/2009)\nA54 Eletrónica Industrial e Automação (Port. 960/2009)\nA55 Eletrónica e Telecomunicações (Port. 960/2009)\nA75 Eletrónica e Computadores (T) -Port. 814/2009\nA79 Energias Renováveis (Port. 815/2009)\nG06 Eletrónica e Telecomunicações (VC) (Portaria n.º 260/2013)\nG07 Eletrotecnia e Automação (VC) (Portaria n.º 260/2013)\nG19 Eletrónica e Telecomunicações (VT) (Portaria n.º 260/2013)\nG20 Eletrotecnia e Automação (VT) (Portaria n.º 260/2013)\nG33 Eletrónica e Telecomunicações (Portaria n.º 262/2013)\nG34 Eletrónica Industrial e Automação (Portaria n.º 262/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nG64 Eletrónica e Computadores (Portaria n.º 263/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH19 Eletrónica e Telecomunicações (VT)\nH20 Eletrotecnia e Automação Industrial (VT)\nH33 Eletrónica, Telecomunicações e Computadores\nH34 Eletrónica Industrial e Automação\nH59 Energias Renováveis\nH62 Telecomunicações e Redes\nH70 Técnico de Eletrónica e Telecomunicações\nP40 Técnico de Eletricidade Naval\nP41 Técnico de Eletrónica e Telecomunicações\nP42 Técnico de Eletrónica, Áudio, Vídeo e TV\nP43 Técnico de Eletrónica, Automação e Comando\nP44 Técnico de Eletrónica, Automação e Computadores\nP45 Técnico de Eletrónica, Automação e Instrumentação\nP46 Técnico de Eletrotecnia\nP47 Técnico de Energias Renováveis\nP60 Técnico de Instalações Elétricas\nP63 Técnico de Manutenção Industrial\nP66 Técnico de Mecatrónica\nR66 Técnico de Eletrónica Médica\nS27 Técnico de Eletrónica de Computadores\nS28 Técnico de Eletrónica/Industrial e de Equipamentos\nS29 Técnico de Eletrónica/Instrumentação, Controlo e Telemanut.\nS30 Técnico de Eletrónica e Telecomunicações\nS37 Técnico de Mecatrónica Automóvel\nS77 Técnico de Redes Elétricas\nT15 Técnico de Eletrónica Médica\nT16 Técnico de Eletrónica, Áudio, Vídeo e TV\nT17 Técnico de Eletrónica, Automação e Comando\nT18 Técnico de Eletrónica, Automação e Computadores\nT19 Técnico de Eletrónica, Automação e Instrumentação\nT20 Técnico de Eletrotecnia\nT31 Técnico de Instalações Elétricas\nT37 Técnico de Mecatrónica\nU12 Técnico de Redes Elétricas\nU29 Técnico Instalador de Sistemas Eólicos\nU30 Técnico Instalador de Sistemas Solares Fotovoltaicos\nU31 Técn. Instalador de Sistemas Térmicos de Energias Renováveis\nU48 Técnico Instalador de Sistemas Solares Térmicos\nU50 Técnico de Manutenção Industrial / Mecatrónica Automóvel\nU51 Técnico de Manutenção Industrial / Eletromecânica\nU52 Técnico de Manutenção Industrial / Mecatrónica",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -19,6 +39,20 @@
    "muda_curso": 0,
    "muda_estabelecimento": 0,
    "novos_inscritos": 22
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 2.4,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 9.5,
+   "mudanca_curso": 45.2,
+   "outros": 42.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 66
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -32,6 +66,10 @@
  "minimo_provas": 95,
  "par": "3102-L266",
  "percentil_nota_2026": 2,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -162,7 +200,7 @@
    "sobras": 0
   },
   "2026f1": {
-   "colocados": 4,
+   "colocados": 5,
    "nota_ultimo": 105.0,
    "sobras": 0,
    "vagas": 5

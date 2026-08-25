@@ -1,10 +1,25 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "443",
  "cnaef_nome": "Ciências da Terra",
  "codc": "9212",
  "code": "1503",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 120.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 117.0
+   }
+  ]
+ },
  "curso": "Meteorologia, Oceanografia e Geofísica",
  "desemprego_percentil": 0,
  "duracao": "6 Semestres",
@@ -27,9 +42,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 17.6,
+    "13": 26.5,
+    "14": 32.4,
+    "15": 20.6,
+    "16": 2.9,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 34,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.6,
+   "cna_outras": 25.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 2.3,
+   "outros": 39.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 58
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,7 @@
  "par": "1503-9212",
  "pct_colocados_1opcao_2025": 60,
  "percentil_nota_2026": 21,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n07 Física e Química\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n02 Biologia e Geologia\n19 Matemática A",
  "semelhantes": [
   {

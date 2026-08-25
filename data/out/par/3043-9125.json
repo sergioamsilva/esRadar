@@ -1,15 +1,17 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9125",
  "code": "3043",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Engenharia Química",
  "desemprego_percentil": 96,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Portalegre, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n755 Técnico de Laboratório\n815 Agrupamento 1 / Química\nG53 Química Industrial e Laboratorial (Portaria n.º 265/2013)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH53 Química Industrial e Laboratorial\nP16 Técnico de Análise Laboratorial\nP76 Técnico de Química Industrial\nP89 Técnico de Transformação de Polímeros/Processos de Produção\nP99 Técnico de Transformação de Polímeros/Controle da Qualidade\nR58 Técnico de Controlo de Qualidade Alimentar\nT07 Técnico de Análise Laboratorial\nT10 Técnico de Controlo de Qualidade Alimentar\nT46 Técnico de Química Industrial\nT50 Técnico de Transformação de Polímeros/Processos de Produção\nU20 Técnico de Sistemas de Tratamento de Águas",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +29,36 @@
    "taxa": 90.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 3.1,
+    "12": 21.9,
+    "13": 21.9,
+    "14": 18.8,
+    "15": 9.4,
+    "16": 18.8,
+    "17": 6.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 32,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 200.0,
+   "mudanca_curso": 200.0,
+   "outros": 9590.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 85,
+   "inscritos": 90
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -42,6 +71,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3043-9125",
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Portalegre, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

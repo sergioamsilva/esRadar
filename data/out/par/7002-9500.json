@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9500",
  "code": "7002",
  "concurso": null,
+ "contingentes": null,
  "curso": "Enfermagem",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "7002-9500",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -43,7 +46,7 @@
    "vagas": 285
   },
   "2019f2": {
-   "colocados": 37,
+   "colocados": 38,
    "nota_ultimo": 138.4,
    "sobras": 0,
    "vagas": 29
@@ -59,7 +62,7 @@
    "vagas": 288
   },
   "2020f2": {
-   "colocados": 33,
+   "colocados": 35,
    "nota_ultimo": 155.6,
    "sobras": 0,
    "vagas": 29
@@ -85,13 +88,13 @@
    "sobras": 1
   },
   "2022f1": {
-   "colocados": 285,
+   "colocados": 288,
    "nota_ultimo": 154.6,
    "sobras": 0,
    "vagas": 285
   },
   "2022f2": {
-   "colocados": 56,
+   "colocados": 57,
    "nota_ultimo": 152.0,
    "sobras": 0,
    "vagas": 49
@@ -101,7 +104,7 @@
    "sobras": 0
   },
   "2023f1": {
-   "colocados": 278,
+   "colocados": 279,
    "nota_ultimo": 150.6,
    "sobras": 0,
    "vagas": 278
@@ -117,7 +120,7 @@
    "sobras": 0
   },
   "2024f1": {
-   "colocados": 278,
+   "colocados": 279,
    "nota_ultimo": 146.6,
    "sobras": 0,
    "vagas": 278

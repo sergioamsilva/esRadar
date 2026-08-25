@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "521",
  "cnaef_nome": "Metalurgia e Metalomecânica",
  "codc": "9123",
  "code": "4442",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Engenharia Mecânica",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 5.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 25.6,
+    "13": 35.9,
+    "14": 30.8,
+    "15": 7.7,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 39,
    "nota_final_media": 13.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3060.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4170.0,
+   "mudanca_curso": 560.0,
+   "outros": 2220.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 96
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4442-9123",
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "series": {},
  "subsistema": "politecnico",

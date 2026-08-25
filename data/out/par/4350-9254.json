@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9254",
  "code": "4350",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Turismo",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 17.9,
+    "14": 32.1,
+    "15": 29.5,
+    "16": 10.3,
+    "17": 5.1,
+    "18": 5.1,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 78,
    "nota_final_media": 14.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8130.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 270.0,
+   "mudanca_curso": 400.0,
+   "outros": 1200.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 14,
+   "inscritos": 128
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 98,
  "minimo_provas": 95,
  "par": "4350-9254",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n17 Mat. Apl. Ciências Soc.\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.",
  "series": {},
  "subsistema": "universitario",

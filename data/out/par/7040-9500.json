@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 3,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7040",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 127.8
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 116.0
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 132.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 113.3
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "desemprego_percentil": 4,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Castelo Branco, Coimbra, Guarda, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 3%\nCursos com acesso preferencial:\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP11 Técnico Auxiliar de Saúde\nP12 Técnico Auxiliar Protésico\nP16 Técnico de Análise Laboratorial\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP68 Técnico de Ótica Ocular\nP76 Técnico de Química Industrial\nP87 Técnico de Termalismo\nR33 Bombeiro\nR41 Técnico Assistente Dentário\nR42 Técnico Auxiliar de Farmácia\nR44 Técnico da Qualidade\nR50 Técnico de Apoio Familiar e de Apoio à Comunidade\nR72 Técnico de Geriatria\nU18 Técnico de Segurança e Higiene do Trabalho",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 1.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 6.4,
+    "14": 28.9,
+    "15": 46.6,
+    "16": 15.2,
+    "17": 2.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 204,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 30.6,
+   "cna_outras": 23.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.5,
+   "mudanca_curso": 1.1,
+   "outros": 39.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 27,
+   "inscritos": 415
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "7040-9500",
  "pct_colocados_1opcao_2025": 32,
  "percentil_nota_2026": 14,
+ "preferencia_regional": {
+  "area_influencia": "Bragança, Castelo Branco, Coimbra, Guarda, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -145,7 +201,7 @@
    "vagas": 100
   },
   "2019f2": {
-   "colocados": 43,
+   "colocados": 45,
    "nota_ultimo": 122.0,
    "sobras": 0,
    "vagas": 42
@@ -187,7 +243,7 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 90,
+   "colocados": 91,
    "nota_ultimo": 141.4,
    "sobras": 0,
    "vagas": 90
@@ -207,7 +263,7 @@
    "candidatos_1opcao": 28,
    "candidatos_homens": 82,
    "candidatos_mulheres": 301,
-   "colocados": 90,
+   "colocados": 91,
    "colocados_1opcao": 25,
    "colocados_homens": 22,
    "colocados_mulheres": 69,
@@ -279,7 +335,7 @@
    "candidatos_1opcao": 33,
    "candidatos_homens": 63,
    "candidatos_mulheres": 275,
-   "colocados": 90,
+   "colocados": 92,
    "colocados_1opcao": 29,
    "colocados_homens": 22,
    "colocados_mulheres": 70,
@@ -311,7 +367,7 @@
    "sobras": 0
   },
   "2026f1": {
-   "colocados": 88,
+   "colocados": 91,
    "nota_ultimo": 113.3,
    "sobras": 0,
    "vagas": 88

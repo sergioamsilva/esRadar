@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "L021",
  "code": "3186",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 107.5
+   }
+  ]
+ },
  "curso": "Gestão Comercial",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Bragança, Coimbra, Guarda, Porto, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n082 Informática (DL 74/2004)\n085 Administração (DL 74/2004)\n086 Marketing (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n980 Recorrente - Administração (DL 74/2004)\n981 Recorrente - Marketing (DL 74/2004)\nP22 Técnico de Banca e Seguros\nP27 Técnico de Comércio\nP28 Técnico de Comunicação - Marketing, Relações Públicas e Publ\nP31 Técnico de Contabilidade\nP51 Técnico de Gestão\nP64 Técnico de Marketing\nP82 Técnico de Secretariado\nP93 Técnico de Vendas\nR16 Técnico Administrativo\nR21 Técnico Comercial\nR23 Técnico de Logística\nR43 Técnico Comercial Bancário\nR49 Técnico de Apoio à Gestão\nR51 Técnico de Aprovisionamento e Venda de Peças\nR56 Técnico de Comunicação e Serviço Digital\nR65 Técnico de Distribuição\nU26 Técnico de Vendas e Marketing",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
  "infocursos": {
@@ -19,6 +34,20 @@
    "muda_curso": 3.4,
    "muda_estabelecimento": 13.8,
    "novos_inscritos": 58
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 40.0,
+   "cna_outras": 10.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.5,
+   "mudanca_curso": 4.6,
+   "outros": 43.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 64
   },
   "percentil_entrada": {
    "2022": {
@@ -55,6 +84,10 @@
  "par": "3186-L021",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 4,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Bragança, Coimbra, Guarda, Porto, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -108,7 +141,7 @@
    "vagas": 36
   },
   "2022f2": {
-   "colocados": 16,
+   "colocados": 17,
    "nota_ultimo": 112.3,
    "sobras": 13,
    "vagas": 30
@@ -233,7 +266,7 @@
    "vagas": 20
   },
   "2026f1": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 107.5,
    "sobras": 21,
    "vagas": 35

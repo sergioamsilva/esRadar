@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "314",
  "cnaef_nome": "Economia",
  "codc": "9081",
  "code": "1116",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 165.3
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 144.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 173.5
+   }
+  ]
+ },
  "curso": "Economia",
  "desemprego_percentil": 13,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 1.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 20.0,
+    "11": 6.4,
+    "12": 34.6,
+    "13": 27.7,
+    "14": 13.4,
+    "15": 7.4,
+    "16": 6.0,
+    "17": 3.8,
+    "18": 50.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 419,
    "nota_final_media": 13.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 54.7,
+   "cna_outras": 31.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 3.0,
+   "outros": 10.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 112,
+   "inscritos": 936
   },
   "percentil_entrada": {
    "2020": {
@@ -75,6 +122,7 @@
  "minimo_provas": 120,
  "par": "1116-9081",
  "percentil_nota_2026": 96,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n11 História\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A\n18 Português",
  "semelhantes": [
   {

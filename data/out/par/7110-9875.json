@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9875",
  "code": "7110",
  "concurso": null,
+ "contingentes": null,
  "curso": "Direção e Gestão Hoteleira (regime pós-laboral)",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "7110-9875",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -127,13 +130,13 @@
    "vagas": 5
   },
   "2024f1": {
-   "colocados": 55,
+   "colocados": 56,
    "nota_ultimo": 126.4,
    "sobras": 0,
    "vagas": 55
   },
   "2024f2": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 128.0,
    "sobras": 0,
    "vagas": 7

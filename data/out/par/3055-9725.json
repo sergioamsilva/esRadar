@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "214",
  "cnaef_nome": "Design",
  "codc": "9725",
  "code": "3055",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 145.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 145.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 126.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 140.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 144.5
+   }
+  ]
+ },
  "curso": "Design de Interiores e Equipamento",
  "desemprego_percentil": 84,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n072 Design de Produto (DL 74/2004)\n073 Produção Artística (DL 74/2004)\n080 Construção Civil e Edificações (DL 74/2004)\n083 Design de Equipamento (DL 74/2004)\n218 Design, Cerâmica e Escultura (Port. 32/2005)\n580 Desenho de Projeto, Eng. e Arquitetura (T) -Port. 38/2005\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n709 Medidor Orçamentista\n711 Técnico de CAD/CAM\n719 Tecnologia dos Produtos de Cortiça\n732 Técnico de Construção Civil\n756 Técnico de Desenho de Mobiliário e Construções em Madeira\n811 Agrupamento 1 / Construção Civil\n821 Agrupamento 2 / Design\n822 Agrupamento 2 / Artes e Ofícios\n975 Recorrente - Construção Civil e Edificações (DL 74/2004)\n978 Recorrente - Design de Equipamento (DL 74/2004)\n987 Recorrente - Design de Produto (DL 74/2004)\n988 Recorrente - Produção Artística (DL 74/2004)\nA32 Desenho de Arquitetura (Port. 836/2004)\nA50 Desenhador de Projetos - Arquitetura e Eng. (Port. 960/2009)\nA71 Desenho de Projeto Eng. e Arquitetura (T) -Port. 814/2009\nC72 Design de Produto\nC73 Produção Artística\nF72 Design de Produto\nG32 Desenhador de Projetos - Arquitetura e Eng. (Port. 262/2013)\nG41 Desenho de Arquitetura (Portaria n.º 42/2014)\nG48 Design (Portaria n.º 265/2013)\nG57 Design, Cerâmica e Escultura (Portaria n.º 266/2013)\nG60 Património e Restauro (Portaria n.º 267/2013)\nG63 Desenho de Projeto - Eng. e Arquitetura (Port. 263/2013)\nG70 Escola Secundária António Arroio - Cursos do DL 286/89\nG71 Escola Secundária Soares dos Reis - Cursos do DL 286/89\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nG79 Instituto das Artes e da Imagem - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH36 Mecânica e Design Industrial\nH48 Design\nP29 Técnico de Construção Civil\nP33 Técnico de Desenho de Mobiliário\nP35 Técnico de Desenho de Construções Mecânicas\nP36 Técnico de Desenho Digital 3D\nP37 Técnico de Design\nP97 Técnico de Vitrinismo\nR11 Desenho de Arquitetura (Instituto Jacob Rodrigues Pereira)\nS01 Artesão das Artes e Ofícios em Madeira\nS02 Artesão das Artes do Metal\nS16 Técnico de Acabamento em Madeira e Mobiliário\nS22 Técnico de Desenho de Construções em Madeira e Mobiliário\nS38 Técnico de Medições e Orçamentos\nS40 Técnico de Modelação Cerâmica\nS48 Técnico de Topografia\nS53 Técnico de Vitrinismo\nT11 Técnico de Desenho de Construção Civil\nT12 Técnico de Desenho de Mobiliário",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Castelo Branco",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 9.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 15.5,
+    "14": 20.7,
+    "15": 37.9,
+    "16": 20.7,
+    "17": 5.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 58,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 72.6,
+   "cna_outras": 4.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.1,
+   "mudanca_curso": 6.3,
+   "outros": 15.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 141
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,10 @@
  "par": "3055-9725",
  "pct_colocados_1opcao_2025": 53,
  "percentil_nota_2026": 67,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Portalegre, Santarém",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n10 Geometria Descritiva\nou\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n16 Matemática\n18 Português\nou\n11 História\n13 Inglês\nou\n03 Desenho\n18 Português\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -146,7 +207,7 @@
    "vagas": 42
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 9,
    "nota_ultimo": 97.0,
    "sobras": 1,
    "vagas": 8
@@ -214,7 +275,7 @@
    "candidatos_1opcao": 55,
    "candidatos_homens": 33,
    "candidatos_mulheres": 188,
-   "colocados": 44,
+   "colocados": 45,
    "colocados_1opcao": 35,
    "colocados_homens": 3,
    "colocados_mulheres": 42,

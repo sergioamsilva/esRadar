@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "9803",
  "code": "1202",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 112.5
+   }
+  ]
+ },
  "curso": "Teatro e Artes Performativas",
  "desemprego_percentil": 83,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 9.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 0.0,
+    "15": 32.4,
+    "16": 40.5,
+    "17": 27.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 37,
    "nota_final_media": 15.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 58.3,
+   "cna_outras": 19.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.8,
+   "mudanca_curso": 0,
+   "outros": 19.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 53
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "1202-9803",
  "pct_colocados_1opcao_2025": 69,
  "percentil_nota_2026": 12,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n15 Literatura Portuguesa\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n12 Hist. da Cultura e Artes\nou\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -203,7 +241,7 @@
    "candidatos_1opcao": 18,
    "candidatos_homens": 27,
    "candidatos_mulheres": 78,
-   "colocados": 23,
+   "colocados": 24,
    "colocados_1opcao": 16,
    "colocados_homens": 8,
    "colocados_mulheres": 16,
@@ -256,7 +294,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 8,
    "candidatos_mulheres": 17,
-   "colocados": 13,
+   "colocados": 14,
    "colocados_1opcao": 2,
    "colocados_homens": 6,
    "colocados_mulheres": 8,

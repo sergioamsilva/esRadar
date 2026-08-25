@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "9214",
  "code": "1000",
  "concurso": "Local",
+ "contingentes": null,
  "curso": "Música",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 50.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 8.6,
+    "14": 11.4,
+    "15": 30.0,
+    "16": 40.0,
+    "17": 7.1,
+    "18": 2.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 70,
    "nota_final_media": 15.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9880.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 120.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 128
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "1000-9214",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

@@ -165,10 +165,53 @@ def extrair(caminho: Path) -> dict[str, dict]:
         media = _f(linha.get("NotaFinalMedia"))
         if not par or media is None:
             continue
+        distribuicao = {}
+        for nota in range(10, 21):
+            pct = _f(linha.get(f"PercentagemNota{nota}"))
+            if pct is not None:
+                distribuicao[str(nota)] = round(pct * 100, 1) if pct <= 1 else round(pct, 1)
         bloco(par)["diplomados"] = {
             "nota_final_media": round(media, 1),
             "n": _i(linha.get("NumeroDiplomados2AnosRaides")),
             "periodo": linha.get("AnosObtencaoDiploma"),
+            "distribuicao": distribuicao or None,
+        }
+
+    # Nacionalidade: como no sexo, fica o ano letivo mais recente.
+    for linha in tabela(caminho, "Inscritos por Nacionalidade"):
+        par = _par(linha)
+        total = _i(linha.get("NumeroInscritos"))
+        if not par or not total:
+            continue
+        atual = bloco(par).get("nacionalidade")
+        ano_letivo = linha.get("AnoLetivo") or ""
+        if atual and atual["ano_letivo"] >= ano_letivo:
+            continue
+        bloco(par)["nacionalidade"] = {
+            "ano_letivo": ano_letivo,
+            "inscritos": total,
+            "estrangeiros": _i(linha.get("NumeroEstrangeiros")),
+        }
+
+    # Formas de ingresso dos novos inscritos (coortes recentes).
+    for linha in tabela(caminho, "Formas Ingresso"):
+        par = _par(linha)
+        cna1 = _f(linha.get("PercentagemOpcao1ConcursoNacional"))
+        if not par or cna1 is None:
+            continue
+        escala = 100 if cna1 <= 1 else 1
+
+        def pct(chave: str) -> float:
+            return round((_f(linha.get(chave)) or 0) * escala, 1)
+
+        bloco(par)["formas_ingresso"] = {
+            "coorte": linha.get("AnosInscritosPrimeiroAnoPrimeiraVez"),
+            "cna_1opcao": round(cna1 * escala, 1),
+            "cna_outras": pct("PercentagemOpcao2ConcursoNacional"),
+            "concurso_local": pct("PercentagemConcursoLocalouInstitucional"),
+            "mudanca_curso": pct("PercentagemMudancaCurso"),
+            "maiores_23": pct("PercentagemProvasMaiores23Anos"),
+            "outros": round(pct("PercentagemOutrosRegimeGeral") + pct("PercentagemOutrosRegimes"), 1),
         }
 
     return dados

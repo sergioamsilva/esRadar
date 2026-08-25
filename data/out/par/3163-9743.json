@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "582",
  "cnaef_nome": "Construção Civil e Engenharia Civil",
  "codc": "9743",
  "code": "3163",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 127.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 124.3
+   }
+  ]
+ },
  "curso": "Engenharia Civil e do Ambiente",
  "desemprego_percentil": 0,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do CasteloOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n080 Construção Civil e Edificações (DL 74/2004)\n087 Ordenamento do Território e Ambiente (DL 74/2004)\n580 Desenho de Projeto, Eng. e Arquitetura (T) -Port. 38/2005\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n608 Cursos Vocacionais (Todos os Cursos)\n670 Mecânica (Port. 817/2009)\n709 Medidor Orçamentista\n711 Técnico de CAD/CAM\n715 Preparador de Obras\n718 Refrigeração e Climatização\n719 Tecnologia dos Produtos de Cortiça\n730 Técnico de Vidro\n732 Técnico de Construção Civil\n735 Técnico de Desenho Gráfico\n736 Técnico de Eletricidade de Edificações\n748 Técnico de Gestão de Energia\n756 Técnico de Desenho de Mobiliário e Construções em Madeira\n766 Técnico de Sistemas Energéticos\n773 Técnico Intermédio de Desenho de Construções Mecânicas\n779 Técnico Topógrafo\n793 Técnico Instalador de Sistemas Eólicos\n794 Técnico Instalador de Sistemas Solares Fotovoltaicos\n795 Técnico Instalador de Sistemas Solares Térmicos\n811 Agrupamento 1 / Construção Civil\n814 Agrupamento 1 / Mecânica\n975 Recorrente - Construção Civil e Edificações (DL 74/2004)\n982 Recorrente - Orden. do Território e Ambiente (DL 74/2004)\nA30 Conservação e Restauro do Património (Port. 836/2004)\nA32 Desenho de Arquitetura (Port. 836/2004)\nA50 Desenhador de Projetos - Arquitetura e Eng. (Port. 960/2009)\nA71 Desenho de Projeto Eng. e Arquitetura (T) -Port. 814/2009\nA79 Energias Renováveis (Port. 815/2009)\nG32 Desenhador de Projetos - Arquitetura e Eng. (Port. 262/2013)\nG40 Conservação e Restauro do Património (Portaria n.º 42/2014)\nG41 Desenho de Arquitetura (Portaria n.º 42/2014)\nG52 Produção e Desenho Industrial de Mecânica (Port. 265/2013)\nG59 Energias Renováveis (Portaria n.º 267/2013)\nG60 Património e Restauro (Portaria n.º 267/2013)\nG63 Desenho de Projeto - Eng. e Arquitetura (Port. 263/2013)\nG67 Técnico de Design Gráfico\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH32 Desenhador de Projetos - Arquitetura e Engenharia\nH36 Mecânica e Design Industrial\nH41 Desenho de Arquitetura, na área das Artes Visuais\nH52 Produção e Desenho Industrial de Mecânica\nH59 Energias Renováveis\nH66 Técnico de Desenho Digital 3D\nH67 Técnico de Desenho Gráfico\nP03 Assistente de Arqueólogo\nP04 Assistente de Conservação e Restauro\nP24 Técnico de Cantaria Artística\nP25 Técnico de Cartografia\nP29 Técnico de Construção Civil\nP35 Técnico de Desenho de Construções Mecânicas\nP36 Técnico de Desenho Digital 3D\nP47 Técnico de Energias Renováveis\nP49 Técnico de Frio e Climatização\nP50 Técnico de Gás\nP55 Técnico de Gestão do Ambiente\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP60 Técnico de Instalações Elétricas\nP63 Técnico de Manutenção Industrial\nP67 Técnico de Museografia e Gestão do Património\nP70 Técnico de Pedreiras\nP74 Técnico de Produção em Metalomecânica\nP75 Técnico de Proteção Civil\nP78 Técnico de Recuperação do Património Edificado\nP79 Técnico de Recursos Florestais e Ambientais\nP85 Técnico de Sistemas de Informação Geográfica\nP90 Técnico de Transportes\nP98 Topógrafo-Geómetra\nP99 Técnico de Transformação de Polímeros/Controle da Qualidade\nR11 Desenho de Arquitetura (Instituto Jacob Rodrigues Pereira)\nR35 Desenhador de Sistemas de Refrigeração e Climatização\nR53 Técnico de CAD/CAM\nR59 Técnico de Desenho da Construção Civil\nR61 Técnico de Desenho de Mobiliário e Construções em Madeira\nR64 Técnico de Desenho Gráfico\nR68 Técnico de Ensaios da Construção Civil e Obras Públicas\nR69 Técnico de Fabrico de Componentes de Construção Metálica\nR73 Técnico de Gestão da Produção da Indústria da Cortiça\nR75 Técnico de Gestão da Produção em Madeira e Mobiliário\nR88 Técnico de Medições e Orçamentos\nR91 Técnico de Obra/Condutor de Obra\nR99 Técnico de Preparação de Cortiça\nS06 Desenhador de Sistemas de Refrigeração e Climatização\nS22 Técnico de Desenho de Construções em Madeira e Mobiliário\nS23 Técnico de Desenho de Constr. Mecânicas/Cunhos e Cortantes\nS24 Técnico de Desenho de Construções Mecânicas/Máquinas\nS25 Técnico de Desenho de Construções Mecânicas/Moldes\nS26 Técnico de Desenho/Preparador de Obra\nS32 Técnico de Gestão da Produção em Madeira e Mobiliário\nS38 Técnico de Medições e Orçamentos\nS41 Técnico de Obra/Condutor de Obra\nS46 Técnico de Refrigeração e Climatização\nS47 Técnico de Segurança e Higiene do Trabalho\nS48 Técnico de Topografia\nS68 Técnico de Ensaios da Construção Civil e Obras Públicas\nS71 Técnico de Museografia e Gestão do Património\nS76 Técnico de Proteção Civil\nS80 Técnico de Sistemas de Tratamento de Águas\nS82 Técnico de Soldadura\nT11 Técnico de Desenho de Construção Civil\nT23 Técnico de Gás\nT25 Técnico de Gestão da Produção da Indústria da Cortiça\nT27 Técnico de Gestão do Ambiente\nT44 Técnico de Produção e Transformação de Compósitos\nU13 Técnico de Refrigeração e Climatização\nU18 Técnico de Segurança e Higiene do Trabalho\nU20 Técnico de Sistemas de Tratamento de Águas\nU22 Técnico de Soldadura\nU24 Técnico de Topografia\nU27 Técnico de Vidro\nU29 Técnico Instalador de Sistemas Eólicos\nU30 Técnico Instalador de Sistemas Solares Fotovoltaicos\nU31 Técn. Instalador de Sistemas Térmicos de Energias Renováveis\nU35 Técnico de Manutenção - Hotelaria\nU37 Técnico de Segurança no Trabalho\nU41 Técnico Supervisor de Redes e Aparelhos de Gás\nU43 Técnico de Manutenção e Operação Ferroviária\nU45 Técnico de Produção e Transformação de Compósitos\nU46 Técnico de Tratamento de Metais\nU48 Técnico Instalador de Sistemas Solares Térmicos",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 40.0,
+    "13": 6.7,
+    "14": 20.0,
+    "15": 13.3,
+    "16": 13.3,
+    "17": 6.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 15,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 12.2,
+   "cna_outras": 6.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 8.2,
+   "outros": 73.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 27,
+   "inscritos": 74
   },
   "percentil_entrada": {
    "2021": {
@@ -71,6 +113,10 @@
  "par": "3163-9743",
  "pct_colocados_1opcao_2025": 29,
  "percentil_nota_2026": 34,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

@@ -1,14 +1,34 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "222",
  "cnaef_nome": "Línguas e Literaturas Estrangeiras",
  "codc": "L041",
  "code": "0150",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 145.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 158.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 132.8
+   }
+  ]
+ },
  "curso": "Estudos Portugueses e Ingleses",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -21,9 +41,36 @@
    "novos_inscritos": 57
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 11.5,
+    "12": 15.4,
+    "13": 30.8,
+    "14": 7.7,
+    "15": 11.5,
+    "16": 15.4,
+    "17": 3.8,
+    "18": 3.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 26,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 80.4,
+   "cna_outras": 5.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.8,
+   "mudanca_curso": 3.6,
+   "outros": 8.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 91
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +117,10 @@
  "par": "0150-L041",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 47,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n13 Inglês\n15 Literatura Portuguesa\nou\n13 Inglês\n15 Literatura Portuguesa\n18 Português",
  "semelhantes": [
   {

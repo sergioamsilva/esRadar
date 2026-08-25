@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "8149",
  "code": "7250",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 138.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 142.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 138.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 143.0
+   }
+  ]
+ },
  "curso": "Dietética e Nutrição",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -21,9 +46,36 @@
    "novos_inscritos": 100
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.4,
+    "13": 1.4,
+    "14": 20.8,
+    "15": 51.4,
+    "16": 25.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 72,
    "nota_final_media": 15.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 43.5,
+   "cna_outras": 13.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.9,
+   "mudanca_curso": 6.5,
+   "outros": 34.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 20,
+   "inscritos": 193
   },
   "percentil_entrada": {
    "2020": {
@@ -69,6 +121,7 @@
  "minimo_provas": 95,
  "par": "7250-8149",
  "percentil_nota_2026": 64,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -188,7 +241,7 @@
    "media_secundario": 147.2
   },
   "2026f1": {
-   "colocados": 47,
+   "colocados": 48,
    "nota_ultimo": 143.0,
    "sobras": 0,
    "vagas": 47

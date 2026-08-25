@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "314",
  "cnaef_nome": "Economia",
  "codc": "9785",
  "code": "1000",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 157.8
+   }
+  ]
+ },
  "curso": "Negócios Internacionais",
  "desemprego_percentil": 44,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 3.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 1.4,
+    "12": 6.9,
+    "13": 11.1,
+    "14": 31.9,
+    "15": 33.3,
+    "16": 12.5,
+    "17": 2.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 72,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 23.8,
+   "cna_outras": 20.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.0,
+   "mudanca_curso": 8.8,
+   "outros": 42.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 11,
+   "inscritos": 128
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "1000-9785",
  "pct_colocados_1opcao_2025": 45,
  "percentil_nota_2026": 83,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\nou\n06 Filosofia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n09 Geografia\n19 Matemática A\nou\n13 Inglês\n19 Matemática A\nou\n19 Matemática A\n18 Português\nou\n04 Economia\n19 Matemática A",
  "semelhantes": [
   {
@@ -234,7 +272,7 @@
    "candidatos_1opcao": 20,
    "candidatos_homens": 56,
    "candidatos_mulheres": 101,
-   "colocados": 33,
+   "colocados": 34,
    "colocados_1opcao": 4,
    "colocados_homens": 10,
    "colocados_mulheres": 24,

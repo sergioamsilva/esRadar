@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9670",
  "code": "3122",
  "concurso": null,
+ "contingentes": null,
  "curso": "Administração de Publicidade e Marketing",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3122-9670",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -42,7 +45,7 @@
    "vagas": 30
   },
   "2019f2": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 101.9,
    "sobras": 0,
    "vagas": 10
@@ -89,7 +92,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 30,
+   "colocados": 33,
    "nota_ultimo": 125.9,
    "sobras": 0,
    "vagas": 30
@@ -112,7 +115,7 @@
    "vagas": 30
   },
   "2023f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 138.9,
    "sobras": 0,
    "vagas": 4

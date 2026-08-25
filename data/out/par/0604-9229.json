@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "313",
  "cnaef_nome": "Ciência Política e Cidadania",
  "codc": "9229",
  "code": "0604",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 133.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 157.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 143.5
+   }
+  ]
+ },
  "curso": "Relações Internacionais",
  "desemprego_percentil": 57,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 4.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.6,
+    "13": 26.7,
+    "14": 28.9,
+    "15": 27.8,
+    "16": 8.9,
+    "17": 2.2,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 90,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 41.1,
+   "cna_outras": 14.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.1,
+   "mudanca_curso": 0,
+   "outros": 41.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 61,
+   "inscritos": 253
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "0604-9229",
  "pct_colocados_1opcao_2025": 44,
  "percentil_nota_2026": 65,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n09 Geografia\nou\n11 História\n13 Inglês\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n11 História\nou\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -144,7 +192,7 @@
    "vagas": 60
   },
   "2020f2": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 148.1,
    "sobras": 0,
    "vagas": 8
@@ -174,13 +222,13 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 64,
+   "colocados": 68,
    "nota_ultimo": 154.0,
    "sobras": 0,
    "vagas": 64
   },
   "2022f2": {
-   "colocados": 19,
+   "colocados": 20,
    "nota_ultimo": 152.5,
    "sobras": 0,
    "vagas": 14
@@ -195,7 +243,7 @@
    "candidatos_1opcao": 50,
    "candidatos_homens": 134,
    "candidatos_mulheres": 269,
-   "colocados": 66,
+   "colocados": 69,
    "colocados_1opcao": 25,
    "colocados_homens": 23,
    "colocados_mulheres": 46,
@@ -211,7 +259,7 @@
    "candidatos_1opcao": 21,
    "candidatos_homens": 35,
    "candidatos_mulheres": 75,
-   "colocados": 22,
+   "colocados": 24,
    "colocados_1opcao": 8,
    "colocados_homens": 9,
    "colocados_mulheres": 15,
@@ -249,7 +297,7 @@
    "candidatos_1opcao": 37,
    "candidatos_homens": 37,
    "candidatos_mulheres": 82,
-   "colocados": 29,
+   "colocados": 30,
    "colocados_1opcao": 12,
    "colocados_homens": 8,
    "colocados_mulheres": 22,

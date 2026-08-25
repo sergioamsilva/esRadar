@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9870",
  "code": "3117",
  "concurso": null,
+ "contingentes": null,
  "curso": "Contabilidade e Administração (regime pós-laboral)",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3117-9870",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -41,7 +44,7 @@
    "vagas": 99
   },
   "2019f2": {
-   "colocados": 10,
+   "colocados": 12,
    "nota_ultimo": 140.8,
    "sobras": 0,
    "vagas": 8
@@ -57,7 +60,7 @@
    "vagas": 140
   },
   "2020f2": {
-   "colocados": 23,
+   "colocados": 25,
    "nota_ultimo": 142.4,
    "sobras": 0,
    "vagas": 14
@@ -99,13 +102,13 @@
    "sobras": 0
   },
   "2023f1": {
-   "colocados": 99,
+   "colocados": 100,
    "nota_ultimo": 141.9,
    "sobras": 0,
    "vagas": 99
   },
   "2023f2": {
-   "colocados": 17,
+   "colocados": 18,
    "nota_ultimo": 147.3,
    "sobras": 0,
    "vagas": 13

@@ -1,10 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "720",
  "cnaef_nome": "Saúde",
  "codc": "L307",
  "code": "1108",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 146.5
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 174.8
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 172.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 170.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 179.5
+   }
+  ]
+ },
  "curso": "Saúde Digital e Inovação Biomédica",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -12,6 +42,20 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 81.1,
+   "cna_outras": 2.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 16.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 0,
+   "inscritos": 38
+  },
   "percentil_entrada": {
    "2024": {
     "matriculados": 35,
@@ -37,6 +81,7 @@
  "par": "1108-L307",
  "pct_colocados_1opcao_2025": 63,
  "percentil_nota_2026": 98,
+ "preferencia_regional": null,
  "provas_ingresso": "16 Matemática\ne\nUma das seguintes provas:\n02 Biologia e Geologia\n04 Economia\n07 Física e Química\n18 Português",
  "semelhantes": [
   {

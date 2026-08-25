@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "422",
  "cnaef_nome": "Ciências do Ambiente",
  "codc": "L164",
  "code": "3161",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Engenharia do Ambiente e Geoinformática",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Porto, Viana do Castelo",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viana do Castelo",
  "infocursos": {
@@ -21,9 +23,36 @@
    "novos_inscritos": 23
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 16.7,
+    "14": 33.3,
+    "15": 41.7,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 8.3,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 12,
    "nota_final_media": 14.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 5.3,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.3,
+   "mudanca_curso": 10.5,
+   "outros": 78.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 7,
+   "inscritos": 41
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3161-L164",
+ "preferencia_regional": {
+  "area_influencia": "Braga, Porto, Viana do Castelo",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática\nou\n09 Geografia\n16 Matemática",
  "semelhantes": [
   {

@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "524",
  "cnaef_nome": "Tecnologia dos Processos Químicos",
  "codc": "9540",
  "code": "3064",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 140.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 123.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 121.5
+   }
+  ]
+ },
  "curso": "Bioengenharia",
  "desemprego_percentil": 42,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Aveiro, Braga, Coimbra, Leiria, Porto, Santarém, Viseu",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 3.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 3.1,
+    "13": 28.1,
+    "14": 46.9,
+    "15": 12.5,
+    "16": 9.4,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 32,
    "nota_final_media": 14.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 46.9,
+   "cna_outras": 12.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.1,
+   "mudanca_curso": 3.1,
+   "outros": 34.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 116
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3064-9540",
  "pct_colocados_1opcao_2025": 12,
  "percentil_nota_2026": 29,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Coimbra, Leiria, Porto, Santarém, Viseu",
+  "pct_vagas": 25
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -193,7 +244,7 @@
    "vagas": 20
   },
   "2022f1": {
-   "colocados": 27,
+   "colocados": 28,
    "nota_ultimo": 132.0,
    "sobras": 0,
    "vagas": 27

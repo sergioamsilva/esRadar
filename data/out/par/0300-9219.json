@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "311",
  "cnaef_nome": "Psicologia",
  "codc": "9219",
  "code": "0300",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 129.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 154.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 165.0
+   }
+  ]
+ },
  "curso": "Psicologia",
  "desemprego_percentil": 90,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 60.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 6.4,
+    "14": 12.8,
+    "15": 30.8,
+    "16": 28.2,
+    "17": 17.9,
+    "18": 3.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 78,
    "nota_final_media": 15.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 47.7,
+   "cna_outras": 17.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 9.1,
+   "mudanca_curso": 2.3,
+   "outros": 23.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 25,
+   "inscritos": 143
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "0300-9219",
  "pct_colocados_1opcao_2025": 52,
  "percentil_nota_2026": 90,
+ "preferencia_regional": null,
  "provas_ingresso": "Duas das seguintes provas:\n02 Biologia e Geologia\n16 Matemática\n18 Português",
  "semelhantes": [
   {
@@ -226,7 +274,7 @@
    "candidatos_1opcao": 26,
    "candidatos_homens": 19,
    "candidatos_mulheres": 76,
-   "colocados": 4,
+   "colocados": 5,
    "colocados_1opcao": 2,
    "colocados_homens": 2,
    "colocados_mulheres": 3,

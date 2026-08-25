@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "9630",
  "code": "3153",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 126.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 114.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 105.0
+   }
+  ]
+ },
  "curso": "Gestão de Sistemas de Informação",
  "desemprego_percentil": 53,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Évora, Lisboa, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n831 Agrupamento 3 / Administração\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 3.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.8,
+    "13": 38.8,
+    "14": 28.2,
+    "15": 17.5,
+    "16": 9.7,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 103,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 60.7,
+   "cna_outras": 11.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.3,
+   "mudanca_curso": 0,
+   "outros": 23.3
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 25,
+   "inscritos": 299
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3153-9630",
  "pct_colocados_1opcao_2025": 60,
  "percentil_nota_2026": 2,
+ "preferencia_regional": {
+  "area_influencia": "Évora, Lisboa, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -187,13 +238,13 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 68,
+   "colocados": 69,
    "nota_ultimo": 137.3,
    "sobras": 0,
    "vagas": 68
   },
   "2022f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 140.4,
    "sobras": 0,
    "vagas": 10
@@ -207,7 +258,7 @@
    "candidatos_1opcao": 87,
    "candidatos_homens": 221,
    "candidatos_mulheres": 91,
-   "colocados": 69,
+   "colocados": 71,
    "colocados_1opcao": 46,
    "colocados_homens": 49,
    "colocados_mulheres": 22,
@@ -223,7 +274,7 @@
    "candidatos_1opcao": 45,
    "candidatos_homens": 109,
    "candidatos_mulheres": 43,
-   "colocados": 13,
+   "colocados": 14,
    "colocados_1opcao": 9,
    "colocados_homens": 9,
    "colocados_mulheres": 5,
@@ -313,7 +364,7 @@
    "vagas": 32
   },
   "2026f1": {
-   "colocados": 47,
+   "colocados": 48,
    "nota_ultimo": 105.0,
    "sobras": 17,
    "vagas": 65

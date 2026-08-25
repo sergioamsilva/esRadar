@@ -1,10 +1,50 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "311",
  "cnaef_nome": "Psicologia",
  "codc": "9219",
  "code": "0507",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 132.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 120.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 138.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 167.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 119.3
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 140.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 170.5
+   }
+  ]
+ },
  "curso": "Psicologia",
  "desemprego_percentil": 10,
  "duracao": "6 Semestres",
@@ -27,9 +67,36 @@
    "taxa": 1.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 30.0,
+    "12": 6.0,
+    "13": 10.7,
+    "14": 18.4,
+    "15": 31.4,
+    "16": 18.4,
+    "17": 11.4,
+    "18": 3.3,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 299,
    "nota_final_media": 14.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 59.5,
+   "cna_outras": 8.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.8,
+   "mudanca_curso": 2.0,
+   "outros": 26.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 171,
+   "inscritos": 638
   },
   "percentil_entrada": {
    "2021": {
@@ -69,8 +136,9 @@
  "minimo_candidatura": 100,
  "minimo_provas": 100,
  "par": "0507-9219",
- "pct_colocados_1opcao_2025": 78,
+ "pct_colocados_1opcao_2025": 77,
  "percentil_nota_2026": 94,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n17 Mat. Apl. Ciências Soc.\nou\n06 Filosofia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -144,7 +212,7 @@
    "candidatos_1opcao": 520,
    "candidatos_homens": 255,
    "candidatos_mulheres": 1446,
-   "colocados": 128,
+   "colocados": 130,
    "colocados_1opcao": 100,
    "colocados_homens": 25,
    "colocados_mulheres": 105,
@@ -160,7 +228,7 @@
    "candidatos_1opcao": 194,
    "candidatos_homens": 64,
    "candidatos_mulheres": 405,
-   "colocados": 12,
+   "colocados": 14,
    "colocados_1opcao": 12,
    "colocados_homens": 7,
    "colocados_mulheres": 7,
@@ -182,7 +250,7 @@
    "candidatos_1opcao": 413,
    "candidatos_homens": 179,
    "candidatos_mulheres": 1213,
-   "colocados": 130,
+   "colocados": 131,
    "colocados_1opcao": 100,
    "colocados_homens": 15,
    "colocados_mulheres": 116,
@@ -220,7 +288,7 @@
    "candidatos_1opcao": 281,
    "candidatos_homens": 125,
    "candidatos_mulheres": 948,
-   "colocados": 131,
+   "colocados": 133,
    "colocados_1opcao": 102,
    "colocados_homens": 12,
    "colocados_mulheres": 121,

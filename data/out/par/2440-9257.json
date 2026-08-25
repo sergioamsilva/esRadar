@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "581",
  "cnaef_nome": "Arquitetura e Urbanismo",
  "codc": "9257",
  "code": "2440",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Arquitetura",
  "duracao": "10 Semestres",
  "ects": 300,
@@ -21,9 +23,36 @@
    "novos_inscritos": 111
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 11.8,
+    "12": 35.3,
+    "13": 14.7,
+    "14": 23.5,
+    "15": 11.8,
+    "16": 2.9,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 34,
    "nota_final_media": 13.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9140.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 140.0,
+   "mudanca_curso": 360.0,
+   "outros": 360.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 241
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2440-9257",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n10 Geometria Descritiva\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n16 Matemática\nou\n10 Geometria Descritiva\n18 Português\nou\n16 Matemática\n18 Português\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "443",
  "cnaef_nome": "Ciências da Terra",
  "codc": "L096",
  "code": "1503",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 111.5
+   }
+  ]
+ },
  "curso": "Engenharia Geoespacial",
  "desemprego_percentil": 38,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 2.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 25.0,
+    "13": 18.8,
+    "14": 43.8,
+    "15": 12.5,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 16,
    "nota_final_media": 13.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 50.0,
+   "cna_outras": 5.6,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 44.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 40
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "1503-L096",
  "pct_colocados_1opcao_2025": 50,
  "percentil_nota_2026": 10,
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

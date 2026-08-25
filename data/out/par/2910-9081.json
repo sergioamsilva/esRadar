@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "314",
  "cnaef_nome": "Economia",
  "codc": "9081",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Economia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 41
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 5.0,
+    "12": 30.0,
+    "13": 20.0,
+    "14": 35.0,
+    "15": 5.0,
+    "16": 5.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 20,
    "nota_final_media": 13.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7110.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1050.0,
+   "mudanca_curso": 0,
+   "outros": 1840.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 31,
+   "inscritos": 76
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9081",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n06 Filosofia\n16 Matemática\nou\n09 Geografia\n16 Matemática\nou\n11 História\n16 Matemática\nou\n13 Inglês\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n04 Economia\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

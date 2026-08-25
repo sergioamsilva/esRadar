@@ -1,14 +1,24 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "9086",
  "code": "3185",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 123.3
+   }
+  ]
+ },
  "curso": "Engenharia Agronómica",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n747 Técnico de Gestão Agrícola\n769 Técnico de Transformação de Produtos Alimentares\n780 Técnico Vitivinícola\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nH37 Tecnologias e Segurança Alimentar\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nP72 Técnico de Produção Agrária\nP79 Técnico de Recursos Florestais e Ambientais\nP96 Técnico de Viticultura e Enologia\nR58 Técnico de Controlo de Qualidade Alimentar\nT10 Técnico de Controlo de Qualidade Alimentar\nT42 Técnico de Produção Agrária\nT47 Técnico de Recursos Florestais e Ambientais",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Viseu",
  "infocursos": {
@@ -21,9 +31,36 @@
    "novos_inscritos": 38
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.3,
+    "13": 10.5,
+    "14": 26.3,
+    "15": 26.3,
+    "16": 26.3,
+    "17": 0.0,
+    "18": 5.3,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 19,
    "nota_final_media": 14.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 2.9,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.6,
+   "mudanca_curso": 5.7,
+   "outros": 82.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 70
   },
   "percentil_entrada": {
    "2025": {
@@ -44,6 +81,10 @@
  "minimo_provas": 95,
  "par": "3185-9086",
  "pct_colocados_1opcao_2025": 100,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

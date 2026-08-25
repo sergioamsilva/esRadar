@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "L332",
  "code": "4613",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Automação e Sistemas Informáticos",
  "duracao": "3 Anos",
  "ects": 180,
@@ -12,6 +14,20 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Lusofonia",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 3750.0,
+   "coorte": "2024/25_",
+   "maiores_23": 1250.0,
+   "mudanca_curso": 1250.0,
+   "outros": 3750.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 19
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 18,
@@ -23,6 +39,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4613-L332",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n18 Português\nou\n07 Física e Química\n18 Português\nou\n10 Geometria Descritiva\n18 Português\nou\n10 Geometria Descritiva\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A\nou\n19 Matemática A\n18 Português",
  "series": {},
  "subsistema": "politecnico",

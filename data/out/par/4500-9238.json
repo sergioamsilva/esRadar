@@ -1,14 +1,16 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9238",
  "code": "4500",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Serviço Social",
  "duracao": "7 Semestres",
  "ects": 210,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesEm outubro de 2024, foi publicada pela Agência de Avaliação e Acreditação do Ensino Superior decisão negativa de avaliação institucional para este estabelecimento. Tendo sido, entretanto, instaurada, pela entidade instituidora deste estabelecimento, uma providência cautelar com vista à suspensão da eficácia do ato de não acreditação, até respetiva decisão judicial, encontra-se suspenso o ato de não acreditação da A3ES, não podendo a tutela atuar noutro sentido que não seja o da divulgação das vagas fixadas para este estabelecimento, nos termos do despacho n.º 528/2025, de 10 de janeiro.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Superior Miguel Torga",
  "infocursos": {
@@ -26,9 +28,36 @@
    "taxa": 7.8
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.1,
+    "13": 18.5,
+    "14": 29.6,
+    "15": 29.6,
+    "16": 11.1,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 27,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7320.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1460.0,
+   "mudanca_curso": 730.0,
+   "outros": 490.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 85
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4500-9238",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n18 Português\nou\n06 Filosofia\n18 Português",
  "series": {},
  "subsistema": "universitario",

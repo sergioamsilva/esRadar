@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "321",
  "cnaef_nome": "Jornalismo e Reportagem",
  "codc": "9054",
  "code": "3062",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 145.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 159.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 123.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 144.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 149.5
+   }
+  ]
+ },
  "curso": "Comunicação Social",
  "desemprego_percentil": 69,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Aveiro, Braga, Coimbra, Leiria, Lisboa, Porto, Santarém, Setúbal, Viseu, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n070 Comunicação Audiovisual (DL 74/2004)\n084 Multimédia (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n841 Agrupamento 4 / Comunicação\n985 Recorrente - Comunicação Audiovisual (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 5.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 7.4,
+    "14": 11.8,
+    "15": 42.6,
+    "16": 29.4,
+    "17": 8.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 68,
    "nota_final_media": 15.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 55.8,
+   "cna_outras": 26.0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 18.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 15,
+   "inscritos": 122
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,10 @@
  "par": "3062-9054",
  "pct_colocados_1opcao_2025": 47,
  "percentil_nota_2026": 73,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Coimbra, Leiria, Lisboa, Porto, Santarém, Setúbal, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n11 História\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n11 História\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n06 Filosofia\n09 Geografia\nou\n06 Filosofia\n11 História",
  "semelhantes": [
   {
@@ -216,7 +277,7 @@
    "candidatos_1opcao": 57,
    "candidatos_homens": 92,
    "candidatos_mulheres": 264,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 19,
    "colocados_homens": 6,
    "colocados_mulheres": 33,

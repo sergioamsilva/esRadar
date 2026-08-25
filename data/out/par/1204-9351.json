@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "721",
  "cnaef_nome": "Medicina",
  "codc": "9351",
  "code": "1204",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 130.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 137.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 155.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 164.8
+   }
+  ]
+ },
  "curso": "Ciências Biomédicas",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -20,6 +45,20 @@
    "muda_estabelecimento": 8.3,
    "novos_inscritos": 36
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9860.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 140.0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 72
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 19,
@@ -33,6 +72,7 @@
  "par": "1204-9351",
  "pct_colocados_1opcao_2025": 55,
  "percentil_nota_2026": 90,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "semelhantes": [
   {
@@ -115,7 +155,7 @@
    "candidatos_1opcao": 40,
    "candidatos_homens": 83,
    "candidatos_mulheres": 233,
-   "colocados": 37,
+   "colocados": 38,
    "colocados_1opcao": 22,
    "colocados_homens": 10,
    "colocados_mulheres": 28,

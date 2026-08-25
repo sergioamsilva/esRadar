@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "529",
  "cnaef_nome": "Engenharia e Técnicas Afins - programas não classificados noutra área de formação",
  "codc": "9104",
  "code": "3102",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 104.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 119.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 132.3
+   }
+  ]
+ },
  "curso": "Engenharia e Gestão Industrial",
  "desemprego_percentil": 24,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n726 Técnico da Qualidade\n748 Técnico de Gestão de Energia\n790 Técnico de Manutenção Industrial (Metalurgia e Metalomecân.)\n811 Agrupamento 1 / Construção Civil\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n813 Agrupamento 1 / Informática\n814 Agrupamento 1 / Mecânica\n815 Agrupamento 1 / Química\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP63 Técnico de Manutenção Industrial\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nS34 Técnico de Logística\nS44 Técnico de Planeamento Industrial (Metalurgia e Metalomec.)\nT27 Técnico de Gestão do Ambiente\nT43 Técnico de Produção Automóvel",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 2.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.4,
+    "13": 32.4,
+    "14": 40.5,
+    "15": 10.8,
+    "16": 8.1,
+    "17": 2.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 37,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 21.7,
+   "cna_outras": 6.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.2,
+   "mudanca_curso": 0,
+   "outros": 69.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 12,
+   "inscritos": 83
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3102-9104",
  "pct_colocados_1opcao_2025": 50,
  "percentil_nota_2026": 46,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

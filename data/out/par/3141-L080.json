@@ -1,14 +1,24 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "421",
  "cnaef_nome": "Biologia e Bioquímica",
  "codc": "L080",
  "code": "3141",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 134.0
+   }
+  ]
+ },
  "curso": "Qualidade Alimentar e Nutrição Humana",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": {
@@ -21,9 +31,36 @@
    "novos_inscritos": 38
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 14.3,
+    "13": 23.8,
+    "14": 42.9,
+    "15": 14.3,
+    "16": 4.8,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 21,
    "nota_final_media": 13.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.4,
+   "cna_outras": 8.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.9,
+   "mudanca_curso": 11.8,
+   "outros": 44.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 58
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +107,10 @@
  "par": "3141-L080",
  "pct_colocados_1opcao_2025": 75,
  "percentil_nota_2026": 49,
+ "preferencia_regional": {
+  "area_influencia": "Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 20
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n13 Inglês\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
  "semelhantes": [
   {
@@ -123,7 +164,7 @@
    "vagas": 20
   },
   "2020f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 109.0,
    "sobras": 9,
    "vagas": 17
@@ -155,7 +196,7 @@
    "vagas": 27
   },
   "2022f2": {
-   "colocados": 20,
+   "colocados": 21,
    "nota_ultimo": 110.0,
    "sobras": 0,
    "vagas": 19
@@ -205,7 +246,7 @@
    "candidatos_1opcao": 6,
    "candidatos_homens": 22,
    "candidatos_mulheres": 22,
-   "colocados": 13,
+   "colocados": 14,
    "colocados_1opcao": 6,
    "colocados_homens": 6,
    "colocados_mulheres": 8,
@@ -221,7 +262,7 @@
    "candidatos_1opcao": 0,
    "candidatos_homens": 3,
    "candidatos_mulheres": 10,
-   "colocados": 3,
+   "colocados": 4,
    "colocados_1opcao": 0,
    "colocados_homens": 0,
    "colocados_mulheres": 4,
@@ -259,7 +300,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 5,
    "candidatos_mulheres": 7,
-   "colocados": 5,
+   "colocados": 6,
    "colocados_1opcao": 2,
    "colocados_homens": 2,
    "colocados_mulheres": 4,

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "420",
  "cnaef_nome": "Ciências da Vida",
  "codc": "L338",
  "code": "2210",
  "concurso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
+ "contingentes": null,
  "curso": "Ciências e Sociedade",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -12,6 +14,20 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade Católica Portuguesa",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7780.0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 2220.0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 0,
+   "inscritos": 9
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 5,
@@ -23,6 +39,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "2210-L338",
+ "preferencia_regional": null,
  "provas_ingresso": "A informação sobre as condições de acesso deve ser obtida diretamente junto da universidade.",
  "series": {},
  "subsistema": "universitario",

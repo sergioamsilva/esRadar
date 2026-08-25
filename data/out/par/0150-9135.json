@@ -1,14 +1,29 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "312",
  "cnaef_nome": "Sociologia e Outros Estudos",
  "codc": "9135",
  "code": "0150",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 2,
+    "nome": "Açores pref. regional nível 1",
+    "nota": 115.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 117.0
+   }
+  ]
+ },
  "curso": "Estudos Europeus",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Açores",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade dos Açores",
  "infocursos": {
@@ -21,9 +36,36 @@
    "novos_inscritos": 44
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 11.1,
+    "13": 33.3,
+    "14": 27.8,
+    "15": 16.7,
+    "16": 5.6,
+    "17": 5.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 18,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 28.3,
+   "cna_outras": 28.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.7,
+   "mudanca_curso": 6.5,
+   "outros": 28.2
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 13,
+   "inscritos": 79
   },
   "percentil_entrada": {
    "2022": {
@@ -60,6 +102,10 @@
  "par": "0150-9135",
  "pct_colocados_1opcao_2025": 50,
  "percentil_nota_2026": 21,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Açores",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n06 Filosofia\nou\n11 História\n18 Português\nou\n06 Filosofia\n11 História\nou\n06 Filosofia\n18 Português",
  "semelhantes": [
   {
@@ -220,7 +266,7 @@
    "candidatos_1opcao": 3,
    "candidatos_homens": 2,
    "candidatos_mulheres": 6,
-   "colocados": 4,
+   "colocados": 5,
    "colocados_1opcao": 3,
    "colocados_homens": 0,
    "colocados_mulheres": 5,
@@ -238,7 +284,7 @@
    "vagas": 18
   },
   "2026f1": {
-   "colocados": 12,
+   "colocados": 13,
    "nota_ultimo": 117.0,
    "sobras": 11,
    "vagas": 24

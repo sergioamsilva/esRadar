@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "727",
  "cnaef_nome": "Ciências Farmacêuticas",
  "codc": "9549",
  "code": "7015",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 147.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 112.5
+   }
+  ]
+ },
  "curso": "Farmácia",
  "desemprego_percentil": 13,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Bragança, Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 1.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 19.7,
+    "14": 26.2,
+    "15": 36.1,
+    "16": 16.4,
+    "17": 1.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 61,
    "nota_final_media": 14.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 34.6,
+   "cna_outras": 12.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.2,
+   "mudanca_curso": 0,
+   "outros": 51.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 36,
+   "inscritos": 203
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "7015-9549",
  "pct_colocados_1opcao_2025": 41,
  "percentil_nota_2026": 12,
+ "preferencia_regional": {
+  "area_influencia": "Bragança, Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português",
  "semelhantes": [
   {
@@ -216,7 +262,7 @@
    "candidatos_1opcao": 3,
    "candidatos_homens": 11,
    "candidatos_mulheres": 45,
-   "colocados": 20,
+   "colocados": 21,
    "colocados_1opcao": 3,
    "colocados_homens": 5,
    "colocados_mulheres": 16,
@@ -254,7 +300,7 @@
    "candidatos_1opcao": 5,
    "candidatos_homens": 7,
    "candidatos_mulheres": 34,
-   "colocados": 12,
+   "colocados": 13,
    "colocados_1opcao": 5,
    "colocados_homens": 2,
    "colocados_mulheres": 11,
@@ -308,7 +354,7 @@
    "vagas": 3
   },
   "2026f1": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 112.5,
    "sobras": 40,
    "vagas": 55

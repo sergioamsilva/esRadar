@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "L066",
  "code": "7220",
  "concurso": null,
+ "contingentes": null,
  "curso": "Imagem Médica e Radioterapia",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "7220-L066",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -89,13 +92,13 @@
    "vagas": 3
   },
   "2022f1": {
-   "colocados": 57,
+   "colocados": 58,
    "nota_ultimo": 150.9,
    "sobras": 0,
    "vagas": 57
   },
   "2022f2": {
-   "colocados": 21,
+   "colocados": 22,
    "nota_ultimo": 145.9,
    "sobras": 0,
    "vagas": 18

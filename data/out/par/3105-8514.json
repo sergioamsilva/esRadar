@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "8514",
  "code": "3105",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 139.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 112.0
+   }
+  ]
+ },
  "curso": "Gestão de Eventos",
  "desemprego_percentil": 83,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 40%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Setúbal, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n831 Agrupamento 3 / Administração\n841 Agrupamento 4 / Comunicação\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP28 Técnico de Comunicação - Marketing, Relações Públicas e Publ\nP51 Técnico de Gestão\nP69 Técnico de Organização de Eventos\nP77 Técnico de Receção\nP91 Técnico de Turismo\nS59 Hotelaria e Turismo (Portaria n.º 846/2007)",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 9.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 11.5,
+    "14": 19.2,
+    "15": 42.3,
+    "16": 23.1,
+    "17": 3.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 26,
    "nota_final_media": 14.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 54.4,
+   "cna_outras": 5.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1.8,
+   "mudanca_curso": 0,
+   "outros": 38.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 97
   },
   "percentil_entrada": {
    "2020": {
@@ -74,8 +121,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3105-8514",
- "pct_colocados_1opcao_2025": 133,
+ "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 11,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Évora, Guarda, Leiria, Lisboa, Portalegre, Santarém, Setúbal, Viseu",
+  "pct_vagas": 40
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n09 Geografia\nou\n04 Economia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -147,7 +198,7 @@
    "vagas": 25
   },
   "2019f2": {
-   "colocados": 5,
+   "colocados": 6,
    "nota_ultimo": 115.9,
    "sobras": 0,
    "vagas": 4
@@ -215,7 +266,7 @@
    "candidatos_1opcao": 13,
    "candidatos_homens": 16,
    "candidatos_mulheres": 72,
-   "colocados": 24,
+   "colocados": 25,
    "colocados_1opcao": 11,
    "colocados_homens": 3,
    "colocados_mulheres": 22,
@@ -253,7 +304,7 @@
    "candidatos_1opcao": 15,
    "candidatos_homens": 20,
    "candidatos_mulheres": 57,
-   "colocados": 24,
+   "colocados": 26,
    "colocados_1opcao": 15,
    "colocados_homens": 8,
    "colocados_mulheres": 18,
@@ -291,7 +342,7 @@
    "candidatos_1opcao": 4,
    "candidatos_homens": 7,
    "candidatos_mulheres": 15,
-   "colocados": 3,
+   "colocados": 4,
    "colocados_1opcao": 4,
    "colocados_homens": 2,
    "colocados_mulheres": 2,
@@ -320,7 +371,7 @@
    "vagas": 10
   },
   "2026f1": {
-   "colocados": 13,
+   "colocados": 14,
    "nota_ultimo": 112.0,
    "sobras": 6,
    "vagas": 20

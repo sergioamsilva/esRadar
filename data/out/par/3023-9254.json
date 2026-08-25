@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "812",
  "cnaef_nome": "Turismo e Lazer",
  "codc": "9254",
  "code": "3023",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 102.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 98.0
+   }
+  ]
+ },
  "curso": "Turismo",
  "desemprego_percentil": 72,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Faro, Portalegre, SetúbalOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n716 Rececionista de Hotel\n717 Rececionista de Turismo\n841 Agrupamento 4 / Comunicação\n842 Agrupamento 4 / Animação Social\nG72 Colégio Internato dos Carvalhos - Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG82 Cursos profissionais - Inst. Nac. de Formação Turística\nP69 Técnico de Organização de Eventos\nP91 Técnico de Turismo\nP92 Técnico de Turismo Ambiental e Rural\nT28 Técnico de Informação e Animação Turística",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Beja",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 5.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 5.1,
+    "12": 28.2,
+    "13": 30.8,
+    "14": 25.6,
+    "15": 7.7,
+    "16": 2.6,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 39,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 38.8,
+   "cna_outras": 13.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.8,
+   "mudanca_curso": 3.8,
+   "outros": 40.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 35,
+   "inscritos": 137
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3023-9254",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 0,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Faro, Portalegre, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n11 História\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português",
  "semelhantes": [
   {
@@ -161,7 +207,7 @@
    "vagas": 38
   },
   "2020f2": {
-   "colocados": 17,
+   "colocados": 20,
    "nota_ultimo": 97.0,
    "sobras": 0,
    "vagas": 20
@@ -207,7 +253,7 @@
    "candidatos_1opcao": 6,
    "candidatos_homens": 26,
    "candidatos_mulheres": 46,
-   "colocados": 23,
+   "colocados": 24,
    "colocados_1opcao": 6,
    "colocados_homens": 11,
    "colocados_mulheres": 13,
@@ -223,7 +269,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 24,
    "candidatos_mulheres": 44,
-   "colocados": 20,
+   "colocados": 22,
    "colocados_1opcao": 6,
    "colocados_homens": 12,
    "colocados_mulheres": 10,
@@ -245,7 +291,7 @@
    "candidatos_1opcao": 10,
    "candidatos_homens": 37,
    "candidatos_mulheres": 52,
-   "colocados": 19,
+   "colocados": 21,
    "colocados_1opcao": 10,
    "colocados_homens": 10,
    "colocados_mulheres": 11,
@@ -261,7 +307,7 @@
    "candidatos_1opcao": 7,
    "candidatos_homens": 12,
    "candidatos_mulheres": 25,
-   "colocados": 15,
+   "colocados": 16,
    "colocados_1opcao": 7,
    "colocados_homens": 6,
    "colocados_mulheres": 10,
@@ -298,7 +344,7 @@
    "candidatos_1opcao": 3,
    "candidatos_homens": 4,
    "candidatos_mulheres": 5,
-   "colocados": 2,
+   "colocados": 3,
    "colocados_1opcao": 3,
    "colocados_homens": 2,
    "colocados_mulheres": 1,
@@ -316,7 +362,7 @@
    "vagas": 20
   },
   "2026f1": {
-   "colocados": 17,
+   "colocados": 18,
    "nota_ultimo": 98.0,
    "sobras": 21,
    "vagas": 39

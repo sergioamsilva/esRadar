@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "862",
  "cnaef_nome": "Segurança e Higiene no Trabalho",
  "codc": "8187",
  "code": "4572",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Engenharia da Segurança do Trabalho",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 1.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 4.8,
+    "12": 4.8,
+    "13": 23.8,
+    "14": 33.3,
+    "15": 23.8,
+    "16": 4.8,
+    "17": 4.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 21,
    "nota_final_media": 14.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8330.0,
+   "mudanca_curso": 0,
+   "outros": 1670.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 24
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4572-8187",
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "series": {},
  "subsistema": "politecnico",

@@ -1,14 +1,54 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7240",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 151.8
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 130.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 153.0
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 132.5
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 135.8
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 122.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 149.0
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Coimbra, Guarda, Leiria",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Coimbra",
  "infocursos": {
@@ -21,9 +61,36 @@
    "novos_inscritos": 692
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 3.6,
+    "14": 17.6,
+    "15": 47.2,
+    "16": 26.2,
+    "17": 5.0,
+    "18": 50.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 646,
    "nota_final_media": 15.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 87.5,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.8,
+   "mudanca_curso": 1.0,
+   "outros": 6.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 178,
+   "inscritos": 1476
   },
   "percentil_entrada": {
    "2020": {
@@ -68,8 +135,12 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "7240-9500",
- "pct_colocados_1opcao_2025": 56,
+ "pct_colocados_1opcao_2025": 55,
  "percentil_nota_2026": 72,
+ "preferencia_regional": {
+  "area_influencia": "Coimbra, Guarda, Leiria",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n17 Mat. Apl. Ciências Soc.\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -121,7 +192,7 @@
    "candidatos_1opcao": 152,
    "candidatos_homens": 165,
    "candidatos_mulheres": 635,
-   "colocados": 272,
+   "colocados": 274,
    "colocados_1opcao": 152,
    "colocados_homens": 53,
    "colocados_mulheres": 221,
@@ -155,7 +226,7 @@
    "vagas": 22
   },
   "2026f1": {
-   "colocados": 311,
+   "colocados": 317,
    "nota_ultimo": 149.0,
    "sobras": 0,
    "vagas": 311

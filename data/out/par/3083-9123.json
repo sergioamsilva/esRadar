@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "521",
  "cnaef_nome": "Metalurgia e Metalomecânica",
  "codc": "9123",
  "code": "3083",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 145.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 134.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 121.3
+   }
+  ]
+ },
  "curso": "Engenharia Mecânica",
  "desemprego_percentil": 58,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, FaroOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n670 Mecânica (Port. 817/2009)\n711 Técnico de CAD/CAM\n718 Refrigeração e Climatização\n773 Técnico Intermédio de Desenho de Construções Mecânicas\n774 Técnico de Desenho de Moldes\n775 Técnico Intermédio de Manutenção Eletromecânica\n776 Técnico Intermédio de Manutenção Mecânica\n777 Técnico de Maquinação e Programação CNC\n782 Técnico de Manutenção Industrial (Eletromecânica)\n785 Técnico de Manutenção Industrial (Mecatrónica)\n792 Técnico Instalador de Sistemas de Bioenergia\n793 Técnico Instalador de Sistemas Eólicos\n794 Técnico Instalador de Sistemas Solares Fotovoltaicos\n795 Técnico Instalador de Sistemas Solares Térmicos\n814 Agrupamento 1 / Mecânica\nG75 Colégio de S. Gonçalo - Cursos do DL 286/89\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nG81 Cursos de Formação de Sargentos das Forças Armadas\nP30 Técnico de Construção Naval / Embarcações de Recreio\nP35 Técnico de Desenho de Construções Mecânicas\nP47 Técnico de Energias Renováveis\nP49 Técnico de Frio e Climatização\nP50 Técnico de Gás\nP58 Técnico de Higiene e Segurança do Trabalho e Ambiente\nP63 Técnico de Manutenção Industrial\nP65 Técnico de Mecânica Naval\nP66 Técnico de Mecatrónica\nP74 Técnico de Produção em Metalomecânica\nP76 Técnico de Química Industrial\nP89 Técnico de Transformação de Polímeros/Processos de Produção\nP90 Técnico de Transportes\nS06 Desenhador de Sistemas de Refrigeração e Climatização\nS20 Técnico de Construção Naval\nS23 Técnico de Desenho de Constr. Mecânicas/Cunhos e Cortantes\nS24 Técnico de Desenho de Construções Mecânicas/Máquinas\nS25 Técnico de Desenho de Construções Mecânicas/Moldes\nS35 Técnico de Maquinação e Programação\nS37 Técnico de Mecatrónica Automóvel\nS44 Técnico de Planeamento Industrial (Metalurgia e Metalomec.)\nS46 Técnico de Refrigeração e Climatização\nT09 Técnico de Construção Naval / Embarcações de Recreio\nT23 Técnico de Gás\nT37 Técnico de Mecatrónica\nT41 Técnico de Produção Aeronáutica - Montagem de Estruturas\nT43 Técnico de Produção Automóvel",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Algarve",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 4.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 2.5,
+    "12": 22.5,
+    "13": 27.5,
+    "14": 27.5,
+    "15": 20.0,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 40,
    "nota_final_media": 13.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 35.5,
+   "cna_outras": 3.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 9.2,
+   "mudanca_curso": 3.9,
+   "outros": 47.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 22,
+   "inscritos": 141
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3083-9123",
  "pct_colocados_1opcao_2025": 94,
  "percentil_nota_2026": 28,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Faro",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n16 Matemática",
  "semelhantes": [
   {

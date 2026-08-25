@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "729",
  "cnaef_nome": "Saúde - programas não classificados noutra área de formação",
  "codc": "L036",
  "code": "4298",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Ótica e Optometria",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -13,9 +15,36 @@
  "grupo": "ISEC Lisboa",
  "infocursos": {
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 2.6,
+    "12": 13.2,
+    "13": 28.9,
+    "14": 21.1,
+    "15": 18.4,
+    "16": 13.2,
+    "17": 2.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 38,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 6,
+   "inscritos": 38
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -28,6 +57,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4298-L036",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n07 Física e Química\n19 Matemática A",
  "series": {},
  "subsistema": "politecnico",

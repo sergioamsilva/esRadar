@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "762",
  "cnaef_nome": "Trabalho Social e Orientação",
  "codc": "9084",
  "code": "4076",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Educação Social",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 12.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 2.4,
+    "14": 7.3,
+    "15": 22.0,
+    "16": 36.6,
+    "17": 22.0,
+    "18": 7.3,
+    "19": 2.4,
+    "20": 0.0
+   },
    "n": 41,
    "nota_final_media": 16.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 5560.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2890.0,
+   "mudanca_curso": 440.0,
+   "outros": 1110.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 71
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4076-9084",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n16 Matemática\n18 Português\nou\n19 Matemática A\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n06 Filosofia\n18 Português",
  "series": {},
  "subsistema": "politecnico",

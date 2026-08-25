@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "L175",
  "code": "3042",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 140.4
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 129.2
+   }
+  ]
+ },
  "curso": "Música em Contextos Comunitários",
  "desemprego_percentil": 34,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 40%\nProvas de ingresso: 45%\nPré-Requisito: 15%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n845 Complementar/Secundário de Música (Decreto-Lei n.º 286/89)\nP06 Instrumentista de Cordas e de Tecla\nP07 Instrumentista de Jazz\nP08 Instrumentista de Sopro e de Percussão",
+ "formula": "Média do secundário: 40%\nProvas de ingresso: 45%\nPré-Requisito: 15%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Bragança",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 2.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 16.7,
+    "14": 0.0,
+    "15": 50.0,
+    "16": 0.0,
+    "17": 33.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 12,
    "nota_final_media": 15.3,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 2.6,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.6,
+   "mudanca_curso": 0,
+   "outros": 94.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 33,
+   "inscritos": 46
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -43,6 +85,10 @@
  "minimo_provas": 95,
  "par": "3042-L175",
  "pct_colocados_1opcao_2025": 100,
+ "preferencia_regional": {
+  "area_influencia": "Braga, Bragança, Guarda, Porto, Viana do Castelo, Vila Real, Viseu",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n12 Hist. da Cultura e Artes\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n13 Inglês\n18 Português\nou\n11 História\n18 Português\nou\n09 Geografia\n11 História\nou\n02 Biologia e Geologia\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português",
  "semelhantes": [
   {
@@ -137,7 +183,7 @@
    "vagas": 10
   },
   "2022f1": {
-   "colocados": 1,
+   "colocados": 2,
    "sobras": 28,
    "vagas": 30
   },

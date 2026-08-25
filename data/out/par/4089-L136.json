@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "729",
  "cnaef_nome": "Saúde - programas não classificados noutra área de formação",
  "codc": "L136",
  "code": "4089",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Osteopatia",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -12,6 +14,20 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Escola Superior de Saúde Norte da Cruz Vermelha Portuguesa",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 30
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 13,
@@ -23,6 +39,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4089-L136",
+ "preferencia_regional": null,
  "provas_ingresso": "02 Biologia e Geologia\n07 Física e Química",
  "series": {},
  "subsistema": "politecnico",

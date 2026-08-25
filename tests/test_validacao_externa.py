@@ -48,8 +48,11 @@ def _colocados(ano: int, fase: int) -> int:
 def test_totais_anunciados() -> None:
     for (ano, fase), anunciado in ANUNCIADOS.items():
         reconstruido = _colocados(ano, fase)
+        # Com as colunas de desempate somadas, o total reconstruído bate
+        # exatamente com o anunciado; a tolerância residual cobre revisões
+        # silenciosas da fonte.
         desvio = abs(reconstruido - anunciado) / anunciado
-        assert desvio <= 0.02, (
+        assert desvio <= 0.002, (
             f"{ano} fase {fase}: reconstruído {reconstruido}, anunciado {anunciado} "
             f"(desvio {desvio:.1%})"
         )

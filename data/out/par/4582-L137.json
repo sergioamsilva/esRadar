@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "481",
  "cnaef_nome": "Ciências Informáticas",
  "codc": "L137",
  "code": "4582",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Tecnologias de Informação, Web e Multimédia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 3.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 5.1,
+    "12": 7.7,
+    "13": 38.5,
+    "14": 30.8,
+    "15": 10.3,
+    "16": 5.1,
+    "17": 2.6,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 39,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 1920.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 380.0,
+   "outros": 7690.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 20,
+   "inscritos": 63
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4582-L137",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n19 Matemática A\nou\n16 Matemática\n18 Português\nou\n07 Física e Química\n19 Matemática A",
  "series": {},
  "subsistema": "politecnico",

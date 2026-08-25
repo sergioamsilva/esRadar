@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "443",
  "cnaef_nome": "Ciências da Terra",
  "codc": "9041",
  "code": "0300",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 114.5
+   }
+  ]
+ },
  "curso": "Ciências do Mar",
  "desemprego_percentil": 22,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 2.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 8.3,
+    "12": 30.6,
+    "13": 30.6,
+    "14": 22.2,
+    "15": 5.6,
+    "16": 0.0,
+    "17": 2.8,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 36,
    "nota_final_media": 13.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 45.2,
+   "cna_outras": 14.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 6.5,
+   "outros": 33.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 96
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "0300-9041",
  "pct_colocados_1opcao_2025": 67,
  "percentil_nota_2026": 16,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\nou\n02 Biologia e Geologia\nou\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -300,7 +338,7 @@
    "candidatos_1opcao": 2,
    "candidatos_homens": 9,
    "candidatos_mulheres": 3,
-   "colocados": 1,
+   "colocados": 2,
    "colocados_1opcao": 2,
    "colocados_homens": 2,
    "colocados_mulheres": 0,
@@ -317,7 +355,7 @@
    "vagas": 27
   },
   "2026f1": {
-   "colocados": 21,
+   "colocados": 22,
    "nota_ultimo": 114.5,
    "sobras": 3,
    "vagas": 25

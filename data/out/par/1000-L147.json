@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "222",
  "cnaef_nome": "Línguas e Literaturas Estrangeiras",
  "codc": "L147",
  "code": "1000",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 180.0
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 140.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 126.0
+   }
+  ]
+ },
  "curso": "Estudos Orientais: Estudos Chineses e Japoneses",
  "desemprego_percentil": 51,
  "duracao": "6 Semestres",
@@ -27,9 +47,36 @@
    "taxa": 3.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 1.7,
+    "13": 10.3,
+    "14": 25.9,
+    "15": 25.9,
+    "16": 17.2,
+    "17": 12.1,
+    "18": 6.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 58,
    "nota_final_media": 15.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 72.4,
+   "cna_outras": 10.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 17.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 114
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "1000-L147",
  "pct_colocados_1opcao_2025": 62,
  "percentil_nota_2026": 37,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n13 Inglês\n20 Mandarim\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n13 Inglês",
  "semelhantes": [
   {
@@ -215,7 +263,7 @@
    "candidatos_1opcao": 49,
    "candidatos_homens": 53,
    "candidatos_mulheres": 96,
-   "colocados": 38,
+   "colocados": 39,
    "colocados_1opcao": 29,
    "colocados_homens": 13,
    "colocados_mulheres": 26,
@@ -252,7 +300,7 @@
    "candidatos_1opcao": 36,
    "candidatos_homens": 32,
    "candidatos_mulheres": 75,
-   "colocados": 39,
+   "colocados": 40,
    "colocados_1opcao": 29,
    "colocados_homens": 15,
    "colocados_mulheres": 25,
@@ -323,7 +371,7 @@
    "vagas": 24
   },
   "2026f1": {
-   "colocados": 34,
+   "colocados": 37,
    "nota_ultimo": 126.0,
    "sobras": 0,
    "vagas": 34

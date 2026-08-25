@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "813",
  "cnaef_nome": "Desporto",
  "codc": "9563",
  "code": "3091",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 117.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 113.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 106.5
+   }
+  ]
+ },
  "curso": "Desporto",
  "desemprego_percentil": 57,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico da Guarda",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 4.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 17.6,
+    "13": 29.7,
+    "14": 36.5,
+    "15": 14.9,
+    "16": 1.4,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 74,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 34.7,
+   "cna_outras": 24.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.0,
+   "mudanca_curso": 4.0,
+   "outros": 34.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 14,
+   "inscritos": 184
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3091-9563",
  "pct_colocados_1opcao_2025": 73,
  "percentil_nota_2026": 3,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Castelo Branco, Coimbra, Guarda, Porto, Santarém, Vila Real, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português",
  "semelhantes": [
   {
@@ -158,7 +209,7 @@
    "vagas": 67
   },
   "2020f2": {
-   "colocados": 26,
+   "colocados": 27,
    "nota_ultimo": 129.1,
    "sobras": 0,
    "vagas": 22
@@ -184,7 +235,7 @@
    "sobras": 1
   },
   "2022f1": {
-   "colocados": 50,
+   "colocados": 51,
    "nota_ultimo": 129.5,
    "sobras": 0,
    "vagas": 50
@@ -240,7 +291,7 @@
    "candidatos_1opcao": 23,
    "candidatos_homens": 221,
    "candidatos_mulheres": 62,
-   "colocados": 50,
+   "colocados": 51,
    "colocados_1opcao": 15,
    "colocados_homens": 40,
    "colocados_mulheres": 11,
@@ -292,7 +343,7 @@
    "candidatos_1opcao": 3,
    "candidatos_homens": 39,
    "candidatos_mulheres": 15,
-   "colocados": 7,
+   "colocados": 8,
    "colocados_1opcao": 3,
    "colocados_homens": 4,
    "colocados_mulheres": 4,
@@ -310,7 +361,7 @@
    "vagas": 15
   },
   "2026f1": {
-   "colocados": 27,
+   "colocados": 28,
    "nota_ultimo": 106.5,
    "sobras": 12,
    "vagas": 40

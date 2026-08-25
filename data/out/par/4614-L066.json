@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "725",
  "cnaef_nome": "Tecnologias de Diagnóstico e Terapêutica",
  "codc": "L066",
  "code": "4614",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Imagem Médica e Radioterapia",
  "duracao": "4 Anos",
  "ects": 240,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 18.5,
    "novos_inscritos": 27
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 6250.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2500.0,
+   "mudanca_curso": 0,
+   "outros": 1250.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 32
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 11,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4614-L066",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n06 Filosofia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n09 Geografia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
  "series": {},
  "subsistema": "politecnico",

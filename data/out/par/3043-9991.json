@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9991",
  "code": "3043",
  "concurso": null,
+ "contingentes": null,
  "curso": "Gestão (regime pós-laboral)",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3043-9991",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -42,7 +45,7 @@
    "vagas": 12
   },
   "2019f2": {
-   "colocados": 2,
+   "colocados": 3,
    "nota_ultimo": 95.0,
    "sobras": 1,
    "vagas": 4

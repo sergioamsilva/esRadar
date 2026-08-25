@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "322",
  "cnaef_nome": "Biblioteconomia, Arquivo e Documentação (BAD)",
  "codc": "9694",
  "code": "1107",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 160.5
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 142.3
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 130.0
+   }
+  ]
+ },
  "curso": "Ciência da Informação",
  "desemprego_percentil": 24,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%ObservaçõesMinistrado com a Faculdade de Engenharia.",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade do Porto",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 2.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.1,
+    "13": 32.2,
+    "14": 32.2,
+    "15": 23.7,
+    "16": 5.1,
+    "17": 0.0,
+    "18": 1.7,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 59,
    "nota_final_media": 14.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 28.3,
+   "cna_outras": 21.7,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 7.5,
+   "mudanca_curso": 0.9,
+   "outros": 41.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 23,
+   "inscritos": 143
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,7 @@
  "par": "1107-9694",
  "pct_colocados_1opcao_2025": 37,
  "percentil_nota_2026": 43,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n19 Matemática A\n18 Português\nou\n13 Inglês\n18 Português",
  "semelhantes": [
   {
@@ -227,7 +275,7 @@
    "candidatos_1opcao": 28,
    "candidatos_homens": 77,
    "candidatos_mulheres": 123,
-   "colocados": 46,
+   "colocados": 47,
    "colocados_1opcao": 15,
    "colocados_homens": 17,
    "colocados_mulheres": 30,

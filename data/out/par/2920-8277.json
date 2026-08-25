@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "522",
  "cnaef_nome": "Eletricidade e Energia",
  "codc": "8277",
  "code": "2920",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Engenharia Eletrotécnica de Sistemas de Energia",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -13,9 +15,36 @@
  "grupo": "Centro Universitário Lusófona",
  "infocursos": {
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 22.2,
+    "12": 11.1,
+    "13": 44.4,
+    "14": 11.1,
+    "15": 11.1,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 9,
    "nota_final_media": 12.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 5000.0,
+   "mudanca_curso": 0,
+   "outros": 5000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 10
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -28,6 +57,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2920-8277",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n07 Física e Química\n16 Matemática",
  "series": {},
  "subsistema": "universitario",

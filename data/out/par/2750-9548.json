@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "724",
  "cnaef_nome": "Ciências Dentárias",
  "codc": "9548",
  "code": "2750",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Medicina Dentária",
  "duracao": "10 Semestres",
  "ects": 300,
@@ -26,9 +28,36 @@
    "taxa": 1.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 40.0,
+    "12": 17.7,
+    "13": 36.3,
+    "14": 28.7,
+    "15": 10.8,
+    "16": 4.0,
+    "17": 1.4,
+    "18": 40.0,
+    "19": 20.0,
+    "20": 0.0
+   },
    "n": 498,
    "nota_final_media": 13.5,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 9830.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 60.0,
+   "outros": 110.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 991,
+   "inscritos": 1327
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2750-9548",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n06 Filosofia",
  "series": {},
  "subsistema": "universitario",

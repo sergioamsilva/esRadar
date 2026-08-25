@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9227",
  "code": "3134",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 139.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 168.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 155.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 154.5
+   }
+  ]
+ },
  "curso": "Recursos Humanos",
  "desemprego_percentil": 30,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico do Porto",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 2.4
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 2.0,
+    "13": 7.8,
+    "14": 22.5,
+    "15": 35.3,
+    "16": 27.5,
+    "17": 4.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 102,
    "nota_final_media": 14.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 53.5,
+   "cna_outras": 11.4,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 10.5,
+   "mudanca_curso": 3.5,
+   "outros": 21.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 9,
+   "inscritos": 190
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3134-9227",
  "pct_colocados_1opcao_2025": 76,
  "percentil_nota_2026": 79,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Braga, Bragança, Porto, Viana do Castelo, Vila Real",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n04 Economia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.",
  "semelhantes": [
   {
@@ -146,7 +202,7 @@
    "vagas": 45
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 151.5,
    "sobras": 0,
    "vagas": 7
@@ -194,7 +250,7 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 45,
+   "colocados": 46,
    "nota_ultimo": 160.4,
    "sobras": 0,
    "vagas": 45
@@ -216,7 +272,7 @@
    "candidatos_1opcao": 113,
    "candidatos_homens": 152,
    "candidatos_mulheres": 362,
-   "colocados": 46,
+   "colocados": 47,
    "colocados_1opcao": 25,
    "colocados_homens": 11,
    "colocados_mulheres": 36,
@@ -326,7 +382,7 @@
    "vagas": 2
   },
   "2026f1": {
-   "colocados": 60,
+   "colocados": 62,
    "nota_ultimo": 154.5,
    "sobras": 0,
    "vagas": 60

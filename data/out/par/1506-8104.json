@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "8104",
  "code": "1506",
  "concurso": null,
+ "contingentes": null,
  "curso": "Estudos Artísticos, variante de Artes do Espetáculo",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "1506-8104",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -109,7 +112,7 @@
    "vagas": 1
   },
   "2023f1": {
-   "colocados": 49,
+   "colocados": 50,
    "nota_ultimo": 158.0,
    "sobras": 0,
    "vagas": 49
@@ -127,7 +130,7 @@
    "vagas": 1
   },
   "2024f1": {
-   "colocados": 49,
+   "colocados": 50,
    "nota_ultimo": 151.0,
    "sobras": 0,
    "vagas": 49

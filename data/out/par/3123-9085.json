@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "9085",
  "code": "3123",
  "concurso": null,
+ "contingentes": null,
  "curso": "Enfermagem Veterinária",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3123-9085",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -42,7 +45,7 @@
    "vagas": 38
   },
   "2019f2": {
-   "colocados": 2,
+   "colocados": 5,
    "nota_ultimo": 100.0,
    "sobras": 26,
    "vagas": 31
@@ -59,7 +62,7 @@
    "vagas": 40
   },
   "2020f2": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 122.4,
    "sobras": 0,
    "vagas": 13
@@ -87,13 +90,13 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 38,
+   "colocados": 40,
    "nota_ultimo": 135.1,
    "sobras": 0,
    "vagas": 38
   },
   "2022f2": {
-   "colocados": 13,
+   "colocados": 15,
    "nota_ultimo": 130.9,
    "sobras": 0,
    "vagas": 12
@@ -103,7 +106,7 @@
    "sobras": 0
   },
   "2023f1": {
-   "colocados": 38,
+   "colocados": 39,
    "nota_ultimo": 119.1,
    "sobras": 0,
    "vagas": 38

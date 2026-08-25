@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "863",
  "cnaef_nome": "Segurança Militar",
  "codc": "L334",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Estudos de Segurança Interna",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -12,6 +14,20 @@
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Centro Universitário Lusófona",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7690.0,
+   "coorte": "2024/25_",
+   "maiores_23": 1280.0,
+   "mudanca_curso": 1030.0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 71
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 50,
@@ -23,6 +39,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-L334",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n09 Geografia\nou\n18 Português\nou\n09 Geografia\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n13 Inglês\n18 Português\nou\n04 Economia\n18 Português\nou\n07 Física e Química\n09 Geografia\nou\n07 Física e Química\n18 Português",
  "series": {},
  "subsistema": "universitario",

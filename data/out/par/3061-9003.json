@@ -1,17 +1,41 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "9003",
  "code": "3061",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 109.0
+   }
+  ]
+ },
  "curso": "Agronomia",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Outros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\n747 Técnico de Gestão Agrícola\n750 Técnico de Gestão Pecuária\n780 Técnico Vitivinícola\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP61 Técnico de Jardinagem e Espaços Verdes\nP72 Técnico de Produção Agrária\nP96 Técnico de Viticultura e Enologia\nR18 Técnico Vitivinícola\nR22 Técnico de Produção Agropecuária\nR40 Técnico Apícola\nS13 Técnico Agrícola\nS43 Técnico de Produção Agropecuária\nT32 Técnico de Jardinagem e Espaços Verdes\nT42 Técnico de Produção Agrária",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 68.8,
+   "cna_outras": 6.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 12.5,
+   "outros": 12.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 25
+  },
   "percentil_entrada": {
    "2024": {
     "matriculados": 13,
@@ -37,6 +61,7 @@
  "par": "3061-9003",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 6,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {

@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "623",
  "cnaef_nome": "Silvicultura e Caça",
  "codc": "8377",
  "code": "1515",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 127.8
+   }
+  ]
+ },
  "curso": "Engenharia Florestal e dos Recursos Naturais",
  "desemprego_percentil": 96,
  "duracao": "6 Semestres",
@@ -27,9 +37,36 @@
    "taxa": 90.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 3.2,
+    "12": 35.5,
+    "13": 32.3,
+    "14": 12.9,
+    "15": 9.7,
+    "16": 6.5,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 31,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 75.0,
+   "cna_outras": 6.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 6.3,
+   "outros": 12.6
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 57
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +113,7 @@
  "par": "1515-8377",
  "pct_colocados_1opcao_2025": 75,
  "percentil_nota_2026": 40,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\n19 Matemática A\nou\n07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

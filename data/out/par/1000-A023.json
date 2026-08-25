@@ -1,10 +1,20 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "461",
  "cnaef_nome": "Matemática",
  "codc": "A023",
  "code": "1000",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 164.0
+   }
+  ]
+ },
  "curso": "Matemática + Física",
  "duracao": "5 Anos",
  "ects": 360,
@@ -17,6 +27,7 @@
  "minimo_provas": 100,
  "par": "1000-A023",
  "percentil_nota_2026": 89,
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

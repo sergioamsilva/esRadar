@@ -56,6 +56,27 @@ const segmentosUmAno = umAno
     ].filter((s) => s.valor > 0)
   : [];
 
+const contingentes2026 = (ficha.contingentes?.["2026f1"] ?? [])
+  .slice()
+  .sort((a, b) => b.nota - a.nota);
+
+const formas = info?.formas_ingresso;
+const segmentosIngresso = formas
+  ? [
+      { rotulo: "concurso nacional, em 1ª opção", valor: formas.cna_1opcao, classe: "fica" },
+      { rotulo: "concurso nacional, outras opções", valor: formas.cna_outras, classe: "muda-inst" },
+      { rotulo: "maiores de 23", valor: formas.maiores_23, classe: "muda-curso" },
+      {
+        rotulo: "outras vias (mudança de curso, concursos locais, outros regimes)",
+        valor: Math.round((formas.mudanca_curso + formas.concurso_local + formas.outros) * 10) / 10,
+        classe: "fora",
+      },
+    ].filter((s) => s.valor > 0)
+  : [];
+
+const distribuicao = info?.diplomados?.distribuicao ?? null;
+const maxDistribuicao = distribuicao ? Math.max(...Object.values(distribuicao)) : 0;
+
 const titulo = `${ficha.curso} — ${ficha.instituicao}`;
 const descricao =
   nota2026 != null
@@ -264,7 +285,47 @@ const descricao =
         {ficha.ects != null && `${ficha.ects} ECTS`}
         {ficha.duracao && `, ${ficha.duracao.toLowerCase()}`}.
       </p>
+      {
+        ficha.preferencia_regional && (
+          <p class="cautela">
+            <strong>{ficha.preferencia_regional.pct_vagas}% das vagas</strong> têm
+            preferência regional para quem concluiu o secundário em:{" "}
+            {ficha.preferencia_regional.area_influencia}.
+            {ficha.acessos_preferenciais_pct != null &&
+              ` Mais ${ficha.acessos_preferenciais_pct}% para cursos com acesso preferencial.`}
+          </p>
+        )
+      }
     </section>
+
+    {
+      contingentes2026.length > 1 && (
+        <section class="card reveal">
+          <h3>Notas por contingente — 1ª fase 2026</h3>
+          <p class="desc">
+            Antes do contingente geral, a DGES coloca primeiro os contingentes
+            prioritários — cada um com a sua nota de corte.
+          </p>
+          <ol class="viz">
+            {contingentes2026.map((c) => (
+              <li>
+                <span class={`viz__linha ${c.nome === "Contingente geral" ? "viz__linha--geral" : ""}`}>
+                  <span class="viz__nome">{c.nome}</span>
+                  <span class="viz__pista" aria-hidden="true">
+                    <span class="viz__ponto" style={`left:${pos(c.nota)}%`} />
+                  </span>
+                  <span class="viz__nota">{formatarNota(c.nota)}</span>
+                </span>
+              </li>
+            ))}
+          </ol>
+          <p class="fonte-lin">
+            Açores, Madeira, emigrantes, militares, candidatos com deficiência e
+            beneficiários ASE têm quotas próprias; só aparecem quando colocaram alguém.
+          </p>
+        </section>
+      )
+    }
 
     <section class="card reveal" style="--d:.1s">
       <h3>Com que notas se entrou em 2025</h3>
@@ -418,16 +479,82 @@ const descricao =
                 </span>
               </li>
             )}
+            {info?.nacionalidade?.estrangeiros != null && info.nacionalidade.inscritos > 0 && (
+              <li>
+                <b data-contar={Math.round((100 * info.nacionalidade.estrangeiros) / info.nacionalidade.inscritos)}>
+                  {Math.round((100 * info.nacionalidade.estrangeiros) / info.nacionalidade.inscritos)}
+                </b>
+                <span>
+                  % de estudantes estrangeiros ({info.nacionalidade.estrangeiros} em{" "}
+                  {info.nacionalidade.inscritos})
+                </span>
+              </li>
+            )}
             {info?.diplomados && (
               <li>
                 <b data-contar={info.diplomados.nota_final_media} data-casas="1">
                   {info.diplomados.nota_final_media.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}
                 </b>
                 <span>nota final média dos diplomados (escala 0–20)</span>
+                {distribuicao && maxDistribuicao > 0 && (
+                  <span
+                    class="histograma"
+                    role="img"
+                    aria-label={`Distribuição das notas finais: ${Object.entries(distribuicao)
+                      .filter(([, v]) => v > 0)
+                      .map(([nota, v]) => `${v}% com ${nota}`)
+                      .join(", ")}`}
+                  >
+                    {Object.entries(distribuicao).map(([nota, v], i) => (
+                      <span class="histograma__coluna">
+                        <span
+                          class="histograma__barra cresce"
+                          style={`height:${(v / maxDistribuicao) * 100}%;--d:${i * 0.05}s`}
+                        />
+                        <span class="histograma__rotulo" aria-hidden="true">
+                          {nota}
+                        </span>
+                      </span>
+                    ))}
+                  </span>
+                )}
               </li>
             )}
           </ul>
           <p class="fonte-lin">Infocursos (MECI), edição 2026.</p>
+        </section>
+      )
+    }
+
+    {
+      formas && segmentosIngresso.length > 0 && (
+        <section class="card reveal">
+          <h3>Por onde se entra, na prática</h3>
+          <p class="desc">
+            Formas de ingresso dos novos inscritos (coortes recentes) — o concurso
+            nacional não é a única porta:
+          </p>
+          <div
+            class="composicao"
+            role="img"
+            aria-label={segmentosIngresso.map((s) => `${s.valor}% ${s.rotulo}`).join("; ")}
+          >
+            {segmentosIngresso.map((s, i) => (
+              <span
+                class={`composicao__seg composicao__seg--${s.classe} cresce`}
+                style={`width:${s.valor}%;--d:${i * 0.12}s`}
+              />
+            ))}
+          </div>
+          <ul class="composicao__legenda">
+            {segmentosIngresso.map((s) => (
+              <li>
+                <span class={`composicao__ponto composicao__seg--${s.classe}`} aria-hidden="true" />
+                <b>{s.valor.toLocaleString("pt-PT")}%</b> {s.rotulo}
+              </li>
+            ))}
+          </ul>
+          <p class="fonte-lin">Infocursos (MECI), formas de ingresso dos novos inscritos.</p>
         </section>
       )
     }
@@ -856,6 +983,50 @@ const descricao =
     height: 9px;
     border-radius: 3px;
     margin-right: 6px;
+  }
+
+  /* ── histograma das notas finais ─────────────────────────────────── */
+  .medias .histograma {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 56px;
+    margin-top: 10px;
+    max-width: 300px;
+  }
+  .medias .histograma__coluna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    position: relative;
+  }
+  .medias .histograma__barra {
+    display: block;
+    background: var(--serie-1);
+    border-radius: 2px 2px 0 0;
+    min-height: 1px;
+    transform-origin: bottom center;
+  }
+  :global(html.js) .medias .histograma .histograma__barra.cresce {
+    transform: scaleY(0);
+  }
+  :global(html.js) .on .medias .histograma .histograma__barra.cresce,
+  :global(html.js) .medias .histograma .histograma__barra.cresce.on {
+    transform: scaleY(1);
+  }
+  .medias .histograma__rotulo {
+    font-size: 9px;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+  .viz__linha--geral .viz__nome,
+  .viz__linha--geral .viz__nota {
+    color: var(--accent-texto);
+    font-weight: 700;
   }
 
   /* ── vizinhos na mesma área ──────────────────────────────────────── */

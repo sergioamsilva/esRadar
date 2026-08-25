@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "223",
  "cnaef_nome": "Língua e Literatura Materna",
  "codc": "9633",
  "code": "3151",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 134.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 112.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 110.0
+   }
+  ]
+ },
  "curso": "Tradução e Interpretação de Língua Gestual Portuguesa",
  "desemprego_percentil": 70,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Évora, Lisboa, Santarém, Setúbal",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Setúbal",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 5.6
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.7,
+    "13": 34.6,
+    "14": 19.2,
+    "15": 7.7,
+    "16": 15.4,
+    "17": 11.5,
+    "18": 3.8,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 26,
    "nota_final_media": 14.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 51.4,
+   "cna_outras": 13.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.7,
+   "mudanca_curso": 0,
+   "outros": 32.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 47
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3151-9633",
  "pct_colocados_1opcao_2025": 33,
  "percentil_nota_2026": 8,
+ "preferencia_regional": {
+  "area_influencia": "Beja, Évora, Lisboa, Santarém, Setúbal",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n08 Francês\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português",
  "semelhantes": [
   {
@@ -126,7 +177,7 @@
    "vagas": 20
   },
   "2019f2": {
-   "colocados": 3,
+   "colocados": 4,
    "nota_ultimo": 126.8,
    "sobras": 0,
    "vagas": 2
@@ -194,7 +245,7 @@
    "candidatos_1opcao": 13,
    "candidatos_homens": 16,
    "candidatos_mulheres": 51,
-   "colocados": 20,
+   "colocados": 21,
    "colocados_1opcao": 8,
    "colocados_homens": 4,
    "colocados_mulheres": 17,
@@ -230,7 +281,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 8,
    "candidatos_mulheres": 46,
-   "colocados": 20,
+   "colocados": 21,
    "colocados_1opcao": 10,
    "colocados_homens": 1,
    "colocados_mulheres": 20,
@@ -300,7 +351,7 @@
    "vagas": 4
   },
   "2026f1": {
-   "colocados": 9,
+   "colocados": 12,
    "nota_ultimo": 110.0,
    "sobras": 9,
    "vagas": 21

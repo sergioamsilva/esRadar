@@ -1,15 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "346",
  "cnaef_nome": "Secretariado e Trabalho Administrativo",
  "codc": "9235",
  "code": "3012",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 115.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 121.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 124.5
+   }
+  ]
+ },
  "curso": "Secretariado e Comunicação Empresarial",
  "desemprego_percentil": 57,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
  "infocursos": {
@@ -27,9 +47,36 @@
    "taxa": 4.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.7,
+    "13": 25.7,
+    "14": 34.3,
+    "15": 22.9,
+    "16": 5.7,
+    "17": 5.7,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 35,
    "nota_final_media": 14.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 51.0,
+   "cna_outras": 6.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.2,
+   "mudanca_curso": 0,
+   "outros": 34.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 80
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +123,10 @@
  "par": "3012-9235",
  "pct_colocados_1opcao_2025": 29,
  "percentil_nota_2026": 34,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n13 Inglês\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n04 Economia\n18 Português\nou\n04 Economia\n13 Inglês",
  "semelhantes": [
   {

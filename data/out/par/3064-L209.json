@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "L209",
  "code": "3064",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 117.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 146.5
+   },
+   {
+    "etapa": 16,
+    "nome": "Preferência habilitacional",
+    "nota": 120.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 127.0
+   }
+  ]
+ },
  "curso": "Engenharia Eletrotécnica e de Computadores",
  "desemprego_percentil": 6,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 25%\nÁrea de influência: Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, ViseuOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n736 Técnico de Eletricidade de Edificações\n737 Técnico de Eletricidade de Manutenção\n740 Técnico de Eletrónica\n748 Técnico de Gestão de Energia\n766 Técnico de Sistemas Energéticos\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP41 Técnico de Eletrónica e Telecomunicações\nP42 Técnico de Eletrónica, Áudio, Vídeo e TV\nP43 Técnico de Eletrónica, Automação e Comando\nP44 Técnico de Eletrónica, Automação e Computadores\nP45 Técnico de Eletrónica, Automação e Instrumentação\nP46 Técnico de Eletrotecnia\nP47 Técnico de Energias Renováveis\nP60 Técnico de Instalações Elétricas\nP66 Técnico de Mecatrónica\nS28 Técnico de Eletrónica/Industrial e de Equipamentos\nS29 Técnico de Eletrónica/Instrumentação, Controlo e Telemanut.\nS30 Técnico de Eletrónica e Telecomunicações\nT16 Técnico de Eletrónica, Áudio, Vídeo e TV\nT17 Técnico de Eletrónica, Automação e Comando\nT18 Técnico de Eletrónica, Automação e Computadores\nT19 Técnico de Eletrónica, Automação e Instrumentação\nT20 Técnico de Eletrotecnia",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Coimbra",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 1.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 2.8,
+    "12": 27.8,
+    "13": 34.7,
+    "14": 25.0,
+    "15": 8.3,
+    "16": 1.4,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 72,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 23.7,
+   "cna_outras": 10.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 3.9,
+   "mudanca_curso": 3.9,
+   "outros": 57.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 36,
+   "inscritos": 243
   },
   "percentil_entrada": {
    "2022": {
@@ -66,6 +118,10 @@
  "par": "3064-L209",
  "pct_colocados_1opcao_2025": 75,
  "percentil_nota_2026": 38,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Castelo Branco, Coimbra, Guarda, Leiria, Santarém, Viseu",
+  "pct_vagas": 25
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {

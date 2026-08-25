@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 10,
  "ativo": true,
  "cnaef": "726",
  "cnaef_nome": "Terapia e Reabilitação",
  "codc": "8149",
  "code": "7045",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 134.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 108.0
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 117.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 126.0
+   }
+  ]
+ },
  "curso": "Dietética e Nutrição",
  "desemprego_percentil": 69,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 10%\nCursos com acesso preferencial:\n727 Técnico de Alimentação e Bebidas\nG37 Tecnologia e Segurança Alimentar (Portaria n.º 262/2013)\nG38 Tecnologias da Saúde (Portaria n.º 262/2013)\nH37 Tecnologias e Segurança Alimentar\nH38 Tecnologias da Saúde\nP71 Técnico de Processamento e Controlo de Qualidade Alimentar\nR20 Técnico de Cozinha/Pastelaria\nR76 Técnico de Indústrias Alimentares\nS54 Técnicas de Cozinha/Pastelaria (Portaria n.º 57/2009)\nS57 Cozinha/Pastelaria (Portaria n.º 846/2007)\nS67 Técnico de Cozinha/Pastelaria\nS85 Técnico de Cozinha Pastelaria (Portaria n.º 102/2020)\nT10 Técnico de Controlo de Qualidade Alimentar",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 5.5
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 16.7,
+    "15": 15.0,
+    "16": 31.7,
+    "17": 28.3,
+    "18": 6.7,
+    "19": 1.7,
+    "20": 0.0
+   },
    "n": 60,
    "nota_final_media": 16.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 32.1,
+   "cna_outras": 23.1,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.6,
+   "mudanca_curso": 1.3,
+   "outros": 41.1
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 17,
+   "inscritos": 158
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "7045-8149",
  "pct_colocados_1opcao_2025": 25,
  "percentil_nota_2026": 37,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -194,7 +250,7 @@
    "vagas": 32
   },
   "2022f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 132.2,
    "sobras": 0,
    "vagas": 4
@@ -244,7 +300,7 @@
    "candidatos_1opcao": 19,
    "candidatos_homens": 44,
    "candidatos_mulheres": 115,
-   "colocados": 29,
+   "colocados": 30,
    "colocados_1opcao": 14,
    "colocados_homens": 10,
    "colocados_mulheres": 20,
@@ -260,7 +316,7 @@
    "candidatos_1opcao": 12,
    "candidatos_homens": 5,
    "candidatos_mulheres": 31,
-   "colocados": 6,
+   "colocados": 8,
    "colocados_1opcao": 4,
    "colocados_homens": 1,
    "colocados_mulheres": 7,

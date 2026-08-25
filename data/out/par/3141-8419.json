@@ -1,15 +1,17 @@
 {
+ "acessos_preferenciais_pct": 30,
  "ativo": true,
  "cnaef": "621",
  "cnaef_nome": "Produção Agrícola e Animal",
  "codc": "8419",
  "code": "3141",
  "concurso": "Nacional",
+ "contingentes": null,
  "curso": "Agronomia (regime pós-laboral)",
  "desemprego_percentil": 43,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 20%\nÁrea de influência: Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 30%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n606 Cursos da Via Profissionalizante dos 10º/12º Anos (Todos)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Santarém",
  "infocursos": {
@@ -27,9 +29,36 @@
    "taxa": 3.2
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 15.0,
+    "12": 20.0,
+    "13": 40.0,
+    "14": 25.0,
+    "15": 0.0,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 20,
    "nota_final_media": 12.8,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 3.2,
+   "cna_outras": 3.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 41.9,
+   "mudanca_curso": 12.9,
+   "outros": 38.7
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 2,
+   "inscritos": 68
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -42,6 +71,10 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "3141-8419",
+ "preferencia_regional": {
+  "area_influencia": "Leiria, Lisboa, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 20
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n07 Física e Química\nou\n02 Biologia e Geologia\n16 Matemática\nou\n02 Biologia e Geologia\n19 Matemática A\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n04 Economia",
  "semelhantes": [
   {

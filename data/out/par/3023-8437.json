@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "8437",
  "code": "3023",
  "concurso": null,
+ "contingentes": null,
  "curso": "Solicitadoria (regime de ensino a distância)",
  "duracao": null,
  "ects": null,
@@ -13,9 +15,36 @@
  "grupo": "Instituto Politécnico de Beja",
  "infocursos": {
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 5.7,
+    "12": 31.4,
+    "13": 24.3,
+    "14": 28.6,
+    "15": 7.1,
+    "16": 2.9,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 70,
    "nota_final_media": 13.1,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 10000.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 139
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -28,6 +57,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3023-8437",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -53,7 +83,7 @@
    "vagas": 40
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 106.1,
    "sobras": 27,
    "vagas": 35
@@ -69,7 +99,7 @@
    "vagas": 43
   },
   "2020f2": {
-   "colocados": 22,
+   "colocados": 23,
    "nota_ultimo": 121.6,
    "sobras": 0,
    "vagas": 22
@@ -95,7 +125,7 @@
    "sobras": 0
   },
   "2022f1": {
-   "colocados": 30,
+   "colocados": 31,
    "nota_ultimo": 138.1,
    "sobras": 0,
    "vagas": 30

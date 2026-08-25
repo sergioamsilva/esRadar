@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "212",
  "cnaef_nome": "Artes do Espetáculo",
  "codc": "8343",
  "code": "3114",
  "concurso": "Local",
+ "contingentes": null,
  "curso": "Música, variante de Jazz (regime pós-laboral)",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -21,9 +23,36 @@
    "novos_inscritos": 41
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "14": 2.9,
+    "15": 17.6,
+    "16": 29.4,
+    "17": 35.3,
+    "18": 14.7,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 34,
    "nota_final_media": 16.4,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8570.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 480.0,
+   "mudanca_curso": 480.0,
+   "outros": 480.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 3,
+   "inscritos": 71
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -36,6 +65,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3114-8343",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n13 Inglês\nou\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n06 Filosofia\n10 Geometria Descritiva\nou\n06 Filosofia\n18 Português\nou\n12 Hist. da Cultura e Artes\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português",
  "series": {},
  "subsistema": "politecnico",

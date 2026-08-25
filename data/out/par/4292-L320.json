@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "520",
  "cnaef_nome": "Engenharia e Técnicas Afins",
  "codc": "L320",
  "code": "4292",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Engenharia e Gestão da Produção Aeronáutica",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 0,
    "novos_inscritos": 2
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 1670.0,
+   "mudanca_curso": 0,
+   "outros": 8330.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 4,
+   "inscritos": 4
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 3,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4292-L320",
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "series": {},
  "subsistema": "politecnico",

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9157",
  "code": "2910",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Gestão de Recursos Humanos",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -26,9 +28,36 @@
    "taxa": 0.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 3.0,
+    "12": 20.3,
+    "13": 22.6,
+    "14": 33.1,
+    "15": 14.3,
+    "16": 6.0,
+    "17": 80.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 133,
    "nota_final_media": 13.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 7100.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2070.0,
+   "mudanca_curso": 620.0,
+   "outros": 210.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 51,
+   "inscritos": 308
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2910-9157",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n17 Mat. Apl. Ciências Soc.\nou\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n09 Geografia\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n18 Português",
  "series": {},
  "subsistema": "universitario",

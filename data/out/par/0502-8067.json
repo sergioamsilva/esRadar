@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "8067",
  "code": "0502",
  "concurso": null,
+ "contingentes": null,
  "curso": "Administração Público-Privada",
  "duracao": null,
  "ects": null,
@@ -16,6 +18,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "0502-8067",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -42,7 +45,7 @@
    "vagas": 41
   },
   "2019f2": {
-   "colocados": 6,
+   "colocados": 7,
    "nota_ultimo": 154.5,
    "sobras": 0,
    "vagas": 4
@@ -90,7 +93,7 @@
    "vagas": 1
   },
   "2022f1": {
-   "colocados": 41,
+   "colocados": 42,
    "nota_ultimo": 161.5,
    "sobras": 0,
    "vagas": 41
@@ -114,7 +117,7 @@
    "vagas": 41
   },
   "2023f2": {
-   "colocados": 9,
+   "colocados": 10,
    "nota_ultimo": 166.0,
    "sobras": 0,
    "vagas": 1
@@ -126,13 +129,13 @@
    "vagas": 0
   },
   "2024f1": {
-   "colocados": 41,
+   "colocados": 42,
    "nota_ultimo": 166.5,
    "sobras": 0,
    "vagas": 41
   },
   "2024f2": {
-   "colocados": 6,
+   "colocados": 7,
    "nota_ultimo": 171.5,
    "sobras": 0,
    "vagas": 3

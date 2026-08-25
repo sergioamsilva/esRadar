@@ -1,14 +1,49 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "214",
  "cnaef_nome": "Design",
  "codc": "9069",
  "code": "1306",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 166.0
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 124.0
+   },
+   {
+    "etapa": 6,
+    "nome": "Madeira pref. regional nível 1",
+    "nota": 145.8
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 133.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 139.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 142.0
+   }
+  ]
+ },
  "curso": "Design",
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade da Madeira",
  "infocursos": {
@@ -21,9 +56,36 @@
    "novos_inscritos": 73
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 7.4,
+    "13": 11.1,
+    "14": 24.1,
+    "15": 18.5,
+    "16": 22.2,
+    "17": 14.8,
+    "18": 1.9,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 54,
    "nota_final_media": 14.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 75.4,
+   "cna_outras": 7.2,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.9,
+   "mudanca_curso": 1.4,
+   "outros": 13.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 104
   },
   "percentil_entrada": {
    "2020": {
@@ -70,6 +132,10 @@
  "par": "1306-9069",
  "pct_colocados_1opcao_2025": 84,
  "percentil_nota_2026": 62,
+ "preferencia_regional": {
+  "area_influencia": "R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n12 Hist. da Cultura e Artes\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n12 Hist. da Cultura e Artes",
  "semelhantes": [
   {
@@ -158,7 +224,7 @@
    "vagas": 34
   },
   "2020f2": {
-   "colocados": 5,
+   "colocados": 7,
    "nota_ultimo": 96.0,
    "sobras": 2,
    "vagas": 9
@@ -188,7 +254,7 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 30,
+   "colocados": 33,
    "nota_ultimo": 111.9,
    "sobras": 0,
    "vagas": 30
@@ -210,7 +276,7 @@
    "candidatos_1opcao": 26,
    "candidatos_homens": 11,
    "candidatos_mulheres": 48,
-   "colocados": 29,
+   "colocados": 31,
    "colocados_1opcao": 26,
    "colocados_homens": 4,
    "colocados_mulheres": 27,

@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": false,
  "cnaef": null,
  "cnaef_nome": null,
  "codc": "8402",
  "code": "3031",
  "concurso": null,
+ "contingentes": null,
  "curso": "Gestão Pública (regime de ensino a distância)",
  "duracao": null,
  "ects": null,
@@ -13,9 +15,36 @@
  "grupo": "Instituto Politécnico do Cávado e do Ave",
  "infocursos": {
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 5.7,
+    "13": 34.1,
+    "14": 34.1,
+    "15": 17.0,
+    "16": 8.0,
+    "17": 1.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 88,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 0,
+   "inscritos": 50
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -28,6 +57,7 @@
  "minimo_candidatura": null,
  "minimo_provas": null,
  "par": "3031-8402",
+ "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
   "2018f1": {
@@ -99,7 +129,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 20,
+   "colocados": 21,
    "nota_ultimo": 114.0,
    "sobras": 0,
    "vagas": 20

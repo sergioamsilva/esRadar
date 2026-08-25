@@ -1,17 +1,41 @@
 {
+ "acessos_preferenciais_pct": 20,
  "ativo": true,
  "cnaef": "582",
  "cnaef_nome": "Construção Civil e Engenharia Civil",
  "codc": "9089",
  "code": "3124",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 170.0
+   }
+  ]
+ },
  "curso": "Engenharia Civil",
  "duracao": "3 Anos",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. MadeiraOutros Acessos PreferenciaisPercentagem de vagas: 20%\nCursos com acesso preferencial:\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n709 Medidor Orçamentista\n732 Técnico de Construção Civil\n779 Técnico Topógrafo\n811 Agrupamento 1 / Construção Civil\nG77 Instituto de Educação e Desenvolvimento- Cursos do DL 286/89\nG80 Cursos profissionais das EP anteriores ao DL 74/2004",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Portalegre",
  "infocursos": {
+  "formas_ingresso": {
+   "cna_1opcao": 6.3,
+   "cna_outras": 0,
+   "concurso_local": 0,
+   "coorte": "2024/25_",
+   "maiores_23": 0,
+   "mudanca_curso": 6.3,
+   "outros": 87.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 8,
+   "inscritos": 20
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 18,
@@ -23,6 +47,10 @@
  "minimo_candidatura": 100,
  "minimo_provas": 95,
  "par": "3124-9089",
+ "preferencia_regional": {
+  "area_influencia": "Beja, Castelo Branco, Évora, Guarda, Portalegre, Santarém, Setúbal, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

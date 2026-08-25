@@ -1,15 +1,40 @@
 {
+ "acessos_preferenciais_pct": 15,
  "ativo": true,
  "cnaef": "523",
  "cnaef_nome": "Eletrónica e Automação",
  "codc": "9119",
  "code": "3242",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 162.5
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 137.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 108.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 152.0
+   }
+  ]
+ },
  "curso": "Engenharia Informática",
  "desemprego_percentil": 68,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Castelo Branco, Leiria, Lisboa, Portalegre, SantarémOutros Acessos PreferenciaisPercentagem de vagas: 15%\nCursos com acesso preferencial:\n081 Eletrotecnia e Eletrónica (DL 74/2004)\n082 Informática (DL 74/2004)\n084 Multimédia (DL 74/2004)\n602 Cursos Técnico-Profissionais (Todos os Cursos)\n604 Cursos da Via Profissionalizante do 12º Ano (Todos)\n740 Técnico de Eletrónica\n753 Técnico de Informática\n812 Agrupamento 1 / Eletrotecnia/Eletrónica\n813 Agrupamento 1 / Informática\n976 Recorrente - Eletrotecnia e Eletrónica (DL 74/2004)\n977 Recorrente - Informática (DL 74/2004)\n979 Recorrente - Multimédia (DL 74/2004)\nG80 Cursos profissionais das EP anteriores ao DL 74/2004\nP59 Técnico de Informática de Gestão\nS27 Técnico de Eletrónica de Computadores\nS30 Técnico de Eletrónica e Telecomunicações",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Tomar",
  "infocursos": {
@@ -27,9 +52,36 @@
    "taxa": 5.3
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 9.4,
+    "12": 32.1,
+    "13": 22.6,
+    "14": 20.8,
+    "15": 13.2,
+    "16": 0.0,
+    "17": 1.9,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 53,
    "nota_final_media": 13.0,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 27.9,
+   "cna_outras": 19.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 2.9,
+   "mudanca_curso": 1.5,
+   "outros": 47.8
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 38,
+   "inscritos": 272
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,10 @@
  "par": "3242-9119",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 76,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Leiria, Lisboa, Portalegre, Santarém",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n16 Matemática\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n16 Matemática\nou\n10 Geometria Descritiva\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática",
  "semelhantes": [
   {
@@ -201,7 +257,7 @@
    "vagas": 56
   },
   "2022f2": {
-   "colocados": 15,
+   "colocados": 16,
    "nota_ultimo": 130.8,
    "sobras": 0,
    "vagas": 12
@@ -215,7 +271,7 @@
    "candidatos_1opcao": 15,
    "candidatos_homens": 122,
    "candidatos_mulheres": 13,
-   "colocados": 49,
+   "colocados": 50,
    "colocados_1opcao": 15,
    "colocados_homens": 42,
    "colocados_mulheres": 8,

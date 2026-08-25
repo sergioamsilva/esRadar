@@ -1,10 +1,45 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "214",
  "cnaef_nome": "Design",
  "codc": "9499",
  "code": "1000",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 158.5
+   },
+   {
+    "etapa": 4,
+    "nome": "Açores nível 1",
+    "nota": 145.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 166.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 169.5
+   },
+   {
+    "etapa": 12,
+    "nome": "Emigrantes",
+    "nota": 115.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 166.5
+   }
+  ]
+ },
  "curso": "Design e Marketing de Moda",
  "desemprego_percentil": 85,
  "duracao": "6 Semestres",
@@ -27,9 +62,36 @@
    "taxa": 10.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 3.3,
+    "14": 3.3,
+    "15": 30.0,
+    "16": 55.0,
+    "17": 8.3,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 60,
    "nota_final_media": 15.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 69.9,
+   "cna_outras": 5.5,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 8.2,
+   "mudanca_curso": 5.5,
+   "outros": 11.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 10,
+   "inscritos": 101
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +138,7 @@
  "par": "1000-9499",
  "pct_colocados_1opcao_2025": 73,
  "percentil_nota_2026": 91,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n10 Geometria Descritiva\nou\n10 Geometria Descritiva\n16 Matemática\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n16 Matemática",
  "semelhantes": [
   {
@@ -193,7 +256,7 @@
    "vagas": 0
   },
   "2022f1": {
-   "colocados": 30,
+   "colocados": 31,
    "nota_ultimo": 164.6,
    "sobras": 0,
    "vagas": 30

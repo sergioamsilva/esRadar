@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "214",
  "cnaef_nome": "Design",
  "codc": "L270",
  "code": "4375",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Design e Produção de Moda e Têxtil",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -20,6 +22,20 @@
    "muda_estabelecimento": 11.8,
    "novos_inscritos": 17
   },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 10000.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0,
+   "mudanca_curso": 0,
+   "outros": 0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 1,
+   "inscritos": 23
+  },
   "sexo": {
    "ano_letivo": "2024/25",
    "homens": 1,
@@ -31,6 +47,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "4375-L270",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n03 Desenho\nou\n18 Português\nou\n03 Desenho\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n17 Mat. Apl. Ciências Soc.\nou\n03 Desenho\n18 Português\nou\n10 Geometria Descritiva\n12 Hist. da Cultura e Artes\nou\n03 Desenho\n10 Geometria Descritiva\nou\n03 Desenho\n11 História",
  "series": {},
  "subsistema": "universitario",

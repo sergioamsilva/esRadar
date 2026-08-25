@@ -1,10 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "520",
  "cnaef_nome": "Engenharia e Técnicas Afins",
  "codc": "L343",
  "code": "1518",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 167.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 155.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 171.0
+   }
+  ]
+ },
  "curso": "Engenharia Geral (GENI) (ensino em inglês)",
  "duracao": "6 Semestres",
  "ects": 180,
@@ -17,6 +37,7 @@
  "minimo_provas": 100,
  "par": "1518-L343",
  "percentil_nota_2026": 94,
+ "preferencia_regional": null,
  "provas_ingresso": "07 Física e Química\n19 Matemática A",
  "semelhantes": [
   {

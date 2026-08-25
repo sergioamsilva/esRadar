@@ -1,15 +1,45 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "723",
  "cnaef_nome": "Enfermagem",
  "codc": "9500",
  "code": "7045",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 123.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 134.5
+   },
+   {
+    "etapa": 13,
+    "nome": "Militares",
+    "nota": 138.5
+   },
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 140.0
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 138.0
+   }
+  ]
+ },
  "curso": "Enfermagem",
  "desemprego_percentil": 88,
  "duracao": "8 Semestres",
  "ects": 240,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 50%\nÁrea de influência: Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Instituto Politécnico de Leiria",
  "infocursos": {
@@ -27,9 +57,36 @@
    "taxa": 40.0
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 60.0,
+    "13": 2.3,
+    "14": 6.8,
+    "15": 33.9,
+    "16": 41.8,
+    "17": 14.1,
+    "18": 60.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 177,
    "nota_final_media": 15.6,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 53.6,
+   "cna_outras": 11.9,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 4.6,
+   "mudanca_curso": 1.0,
+   "outros": 28.9
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 33,
+   "inscritos": 426
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +133,10 @@
  "par": "7045-9500",
  "pct_colocados_1opcao_2025": 62,
  "percentil_nota_2026": 55,
+ "preferencia_regional": {
+  "area_influencia": "Castelo Branco, Coimbra, Leiria, Lisboa, Santarém",
+  "pct_vagas": 50
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n02 Biologia e Geologia\n18 Português\nou\n02 Biologia e Geologia\n07 Física e Química",
  "semelhantes": [
   {
@@ -145,7 +206,7 @@
    "vagas": 85
   },
   "2019f2": {
-   "colocados": 14,
+   "colocados": 15,
    "nota_ultimo": 128.2,
    "sobras": 0,
    "vagas": 11
@@ -189,13 +250,13 @@
    "vagas": 3
   },
   "2022f1": {
-   "colocados": 85,
+   "colocados": 89,
    "nota_ultimo": 143.8,
    "sobras": 0,
    "vagas": 85
   },
   "2022f2": {
-   "colocados": 19,
+   "colocados": 20,
    "nota_ultimo": 142.0,
    "sobras": 0,
    "vagas": 13
@@ -209,7 +270,7 @@
    "candidatos_1opcao": 82,
    "candidatos_homens": 114,
    "candidatos_mulheres": 441,
-   "colocados": 85,
+   "colocados": 87,
    "colocados_1opcao": 51,
    "colocados_homens": 24,
    "colocados_mulheres": 63,
@@ -299,7 +360,7 @@
    "candidatos_1opcao": 35,
    "candidatos_homens": 17,
    "candidatos_mulheres": 123,
-   "colocados": 16,
+   "colocados": 17,
    "colocados_1opcao": 8,
    "colocados_homens": 3,
    "colocados_mulheres": 14,
@@ -315,7 +376,7 @@
    "sobras": 1
   },
   "2026f1": {
-   "colocados": 85,
+   "colocados": 86,
    "nota_ultimo": 138.0,
    "sobras": 0,
    "vagas": 85

@@ -1,10 +1,35 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "9152",
  "code": "3063",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 1,
+    "nome": "Deficientes",
+    "nota": 159.5
+   },
+   {
+    "etapa": 8,
+    "nome": "Madeira nível 1",
+    "nota": 129.0
+   },
+   {
+    "etapa": 10,
+    "nome": "Beneficiários ASE",
+    "nota": 150.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 151.5
+   }
+  ]
+ },
  "curso": "Gestão de Empresas",
  "desemprego_percentil": 51,
  "duracao": "6 Semestres",
@@ -27,9 +52,36 @@
    "taxa": 3.7
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 50.0,
+    "12": 22.2,
+    "13": 45.4,
+    "14": 25.6,
+    "15": 5.8,
+    "16": 0.0,
+    "17": 50.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 207,
    "nota_final_media": 13.2,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 60.4,
+   "cna_outras": 14.3,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 0.5,
+   "mudanca_curso": 0.5,
+   "outros": 24.5
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 47,
+   "inscritos": 487
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +128,7 @@
  "par": "3063-9152",
  "pct_colocados_1opcao_2025": 52,
  "percentil_nota_2026": 76,
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n04 Economia\nou\n16 Matemática\nou\n04 Economia\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n09 Geografia\n18 Português\nou\n16 Matemática\n18 Português\nou\n04 Economia\n09 Geografia\nou\n04 Economia\n16 Matemática",
  "semelhantes": [
   {
@@ -165,7 +218,7 @@
    "vagas": 124
   },
   "2020f2": {
-   "colocados": 30,
+   "colocados": 32,
    "nota_ultimo": 150.7,
    "sobras": 0,
    "vagas": 13
@@ -195,13 +248,13 @@
    "vagas": 2
   },
   "2022f1": {
-   "colocados": 100,
+   "colocados": 101,
    "nota_ultimo": 153.5,
    "sobras": 0,
    "vagas": 100
   },
   "2022f2": {
-   "colocados": 10,
+   "colocados": 11,
    "nota_ultimo": 155.7,
    "sobras": 0,
    "vagas": 6
@@ -217,7 +270,7 @@
    "candidatos_1opcao": 185,
    "candidatos_homens": 343,
    "candidatos_mulheres": 289,
-   "colocados": 101,
+   "colocados": 102,
    "colocados_1opcao": 65,
    "colocados_homens": 46,
    "colocados_mulheres": 56,
@@ -255,7 +308,7 @@
    "candidatos_1opcao": 151,
    "candidatos_homens": 331,
    "candidatos_mulheres": 272,
-   "colocados": 101,
+   "colocados": 102,
    "colocados_1opcao": 55,
    "colocados_homens": 50,
    "colocados_mulheres": 52,

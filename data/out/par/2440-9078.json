@@ -1,10 +1,12 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "380",
  "cnaef_nome": "Direito",
  "codc": "9078",
  "code": "2440",
  "concurso": "Institucional",
+ "contingentes": null,
  "curso": "Direito",
  "duracao": "8 Semestres",
  "ects": 240,
@@ -26,9 +28,36 @@
    "taxa": 3.9
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 40.0,
+    "11": 16.8,
+    "12": 34.4,
+    "13": 23.2,
+    "14": 13.3,
+    "15": 8.4,
+    "16": 2.5,
+    "17": 1.1,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 285,
    "nota_final_media": 12.7,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 0.0,
+   "cna_outras": 0,
+   "concurso_local": 8330.0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 290.0,
+   "mudanca_curso": 750.0,
+   "outros": 630.0
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 27,
+   "inscritos": 863
   },
   "sexo": {
    "ano_letivo": "2024/25",
@@ -41,6 +70,7 @@
  "minimo_candidatura": 95,
  "minimo_provas": 95,
  "par": "2440-9078",
+ "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n11 História\nou\n06 Filosofia\n11 História\nou\n04 Economia\n18 Português\nou\n04 Economia\n11 História\nou\n09 Geografia\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n18 Português",
  "series": {},
  "subsistema": "universitario",

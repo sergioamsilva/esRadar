@@ -1,15 +1,30 @@
 {
+ "acessos_preferenciais_pct": null,
  "ativo": true,
  "cnaef": "345",
  "cnaef_nome": "Gestão e Administração",
  "codc": "8405",
  "code": "3012",
  "concurso": "Nacional",
+ "contingentes": {
+  "2026f1": [
+   {
+    "etapa": 14,
+    "nome": "Preferência regional nível 1",
+    "nota": 126.5
+   },
+   {
+    "etapa": 17,
+    "nome": "Contingente geral",
+    "nota": 123.0
+   }
+  ]
+ },
  "curso": "Gestão da Qualidade",
  "desemprego_percentil": 24,
  "duracao": "6 Semestres",
  "ects": 180,
- "formula": "Média do secundário: 50%\nProvas de ingresso: 50%Preferência RegionalPercentagem de vagas: 30%\nÁrea de influência: Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
+ "formula": "Média do secundário: 50%\nProvas de ingresso: 50%",
  "grau": "Licenciatura - 1º ciclo",
  "grupo": "Universidade de Aveiro",
  "infocursos": {
@@ -27,9 +42,36 @@
    "taxa": 2.1
   },
   "diplomados": {
+   "distribuicao": {
+    "10": 0.0,
+    "11": 0.0,
+    "12": 6.9,
+    "13": 34.5,
+    "14": 37.9,
+    "15": 10.3,
+    "16": 6.9,
+    "17": 3.4,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
+   },
    "n": 29,
    "nota_final_media": 13.9,
    "periodo": "2023/24_2022/23"
+  },
+  "formas_ingresso": {
+   "cna_1opcao": 24.5,
+   "cna_outras": 20.8,
+   "concurso_local": 0,
+   "coorte": "2024/25_2023/24",
+   "maiores_23": 5.7,
+   "mudanca_curso": 5.7,
+   "outros": 43.4
+  },
+  "nacionalidade": {
+   "ano_letivo": "2024/25",
+   "estrangeiros": 5,
+   "inscritos": 102
   },
   "percentil_entrada": {
    "2020": {
@@ -76,6 +118,10 @@
  "par": "3012-8405",
  "pct_colocados_1opcao_2025": 100,
  "percentil_nota_2026": 32,
+ "preferencia_regional": {
+  "area_influencia": "Aveiro, Coimbra, Guarda, Porto, Viseu, R. A. Açores, R. A. Madeira",
+  "pct_vagas": 30
+ },
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\nou\n04 Economia\n16 Matemática\nou\n07 Física e Química\n18 Português\nou\n09 Geografia\n16 Matemática\nou\n16 Matemática\n18 Português\nou\n02 Biologia e Geologia\n16 Matemática\nou\n04 Economia\n18 Português",
  "semelhantes": [
   {
@@ -147,7 +193,7 @@
    "vagas": 23
   },
   "2019f2": {
-   "colocados": 7,
+   "colocados": 8,
    "nota_ultimo": 119.7,
    "sobras": 0,
    "vagas": 4
@@ -195,7 +241,7 @@
    "vagas": 3
   },
   "2022f1": {
-   "colocados": 25,
+   "colocados": 26,
    "nota_ultimo": 125.8,
    "sobras": 0,
    "vagas": 25
