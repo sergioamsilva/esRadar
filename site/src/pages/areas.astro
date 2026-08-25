@@ -77,10 +77,10 @@ const intensidade = (v: number) => Math.round(12 + ((v - vMin) / (vMax - vMin ||
                       <span
                         class="calor__celula ponto-vem"
                         style={`--dp:${Math.min(li * 0.02, 0.5) + ci * 0.04}s;background:color-mix(in srgb, var(--serie-1) ${intensidade(c.valor)}%, var(--surface))`}
+                        role="img"
+                        aria-label={`${c.ano}: corte mediano ${formatarNota(c.valor)}`}
                         data-dica={`${l.area}, ${c.ano}\ncorte mediano ${formatarNota(c.valor)} (${c.n} cursos com nota)`}
-                      >
-                        <span class="calor__valor">{Math.round(c.valor)}</span>
-                      </span>
+                      />
                     ) : (
                       <span class="calor__celula calor__celula--vazia" data-dica={`${l.area}, ${c.ano}: sem dados suficientes`} />
                     )}
@@ -173,13 +173,9 @@ const intensidade = (v: number) => Math.round(12 + ((v - vMin) / (vMax - vMin ||
   .calor__celula--vazia {
     background: repeating-linear-gradient(45deg, var(--grid), var(--grid) 3px, var(--surface) 3px, var(--surface) 7px);
   }
-  .calor__valor {
-    font-size: var(--t-3xs);
-    font-variant-numeric: tabular-nums;
-    color: var(--ink);
-    mix-blend-mode: luminosity;
-    opacity: 0.85;
-  }
+  /* Sem números dentro das células: texto minúsculo sobre fundos de
+     intensidade variável nunca passa AA nos dois temas. O valor vive no
+     tooltip e no aria-label. */
   .calor__legenda {
     display: flex;
     align-items: center;
