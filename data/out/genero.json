@@ -1,0 +1,569 @@
+{
+ "ano": 2025,
+ "areas": [
+  {
+   "area": "Arquitetura e Urbanismo",
+   "candidatos_homens": 1143,
+   "candidatos_mulheres": 3153,
+   "colocados_homens": 195,
+   "colocados_mulheres": 536,
+   "cursos": 15,
+   "pct_mulheres_colocadas": 73
+  },
+  {
+   "area": "Artes do Espetáculo",
+   "candidatos_homens": 191,
+   "candidatos_mulheres": 570,
+   "colocados_homens": 56,
+   "colocados_mulheres": 169,
+   "cursos": 10,
+   "pct_mulheres_colocadas": 75
+  },
+  {
+   "area": "Belas-Artes",
+   "candidatos_homens": 806,
+   "candidatos_mulheres": 3186,
+   "colocados_homens": 125,
+   "colocados_mulheres": 579,
+   "cursos": 18,
+   "pct_mulheres_colocadas": 82
+  },
+  {
+   "area": "Biologia e Bioquímica",
+   "candidatos_homens": 3100,
+   "candidatos_mulheres": 5197,
+   "colocados_homens": 603,
+   "colocados_mulheres": 986,
+   "cursos": 41,
+   "pct_mulheres_colocadas": 62
+  },
+  {
+   "area": "Ciência Política e Cidadania",
+   "candidatos_homens": 1366,
+   "candidatos_mulheres": 2625,
+   "colocados_homens": 187,
+   "colocados_mulheres": 372,
+   "cursos": 10,
+   "pct_mulheres_colocadas": 67
+  },
+  {
+   "area": "Ciências Dentárias",
+   "candidatos_homens": 486,
+   "candidatos_mulheres": 1593,
+   "colocados_homens": 64,
+   "colocados_mulheres": 224,
+   "cursos": 6,
+   "pct_mulheres_colocadas": 78
+  },
+  {
+   "area": "Ciências Empresariais",
+   "candidatos_homens": 653,
+   "candidatos_mulheres": 414,
+   "colocados_homens": 80,
+   "colocados_mulheres": 52,
+   "cursos": 4,
+   "pct_mulheres_colocadas": 39
+  },
+  {
+   "area": "Ciências Farmacêuticas",
+   "candidatos_homens": 822,
+   "candidatos_mulheres": 3224,
+   "colocados_homens": 182,
+   "colocados_mulheres": 748,
+   "cursos": 14,
+   "pct_mulheres_colocadas": 80
+  },
+  {
+   "area": "Ciências Informáticas",
+   "candidatos_homens": 3376,
+   "candidatos_mulheres": 1205,
+   "colocados_homens": 570,
+   "colocados_mulheres": 223,
+   "cursos": 30,
+   "pct_mulheres_colocadas": 28
+  },
+  {
+   "area": "Ciências Veterinárias",
+   "candidatos_homens": 603,
+   "candidatos_mulheres": 2010,
+   "colocados_homens": 124,
+   "colocados_mulheres": 413,
+   "cursos": 12,
+   "pct_mulheres_colocadas": 77
+  },
+  {
+   "area": "Ciências da Educação",
+   "candidatos_homens": 308,
+   "candidatos_mulheres": 1097,
+   "colocados_homens": 76,
+   "colocados_mulheres": 288,
+   "cursos": 11,
+   "pct_mulheres_colocadas": 79
+  },
+  {
+   "area": "Ciências da Terra",
+   "candidatos_homens": 400,
+   "candidatos_mulheres": 245,
+   "colocados_homens": 81,
+   "colocados_mulheres": 36,
+   "cursos": 14,
+   "pct_mulheres_colocadas": 31
+  },
+  {
+   "area": "Construção Civil e Engenharia Civil",
+   "candidatos_homens": 2727,
+   "candidatos_mulheres": 913,
+   "colocados_homens": 443,
+   "colocados_mulheres": 159,
+   "cursos": 22,
+   "pct_mulheres_colocadas": 26
+  },
+  {
+   "area": "Construção e Reparação de Veículos a Motor",
+   "candidatos_homens": 1682,
+   "candidatos_mulheres": 464,
+   "colocados_homens": 355,
+   "colocados_mulheres": 84,
+   "cursos": 10,
+   "pct_mulheres_colocadas": 19
+  },
+  {
+   "area": "Contabilidade e Fiscalidade",
+   "candidatos_homens": 1783,
+   "candidatos_mulheres": 1652,
+   "colocados_homens": 405,
+   "colocados_mulheres": 377,
+   "cursos": 23,
+   "pct_mulheres_colocadas": 48
+  },
+  {
+   "area": "Design",
+   "candidatos_homens": 992,
+   "candidatos_mulheres": 3783,
+   "colocados_homens": 168,
+   "colocados_mulheres": 743,
+   "cursos": 24,
+   "pct_mulheres_colocadas": 82
+  },
+  {
+   "area": "Desporto",
+   "candidatos_homens": 2695,
+   "candidatos_mulheres": 949,
+   "colocados_homens": 815,
+   "colocados_mulheres": 254,
+   "cursos": 26,
+   "pct_mulheres_colocadas": 24
+  },
+  {
+   "area": "Direito",
+   "candidatos_homens": 2980,
+   "candidatos_mulheres": 8209,
+   "colocados_homens": 434,
+   "colocados_mulheres": 1345,
+   "cursos": 20,
+   "pct_mulheres_colocadas": 76
+  },
+  {
+   "area": "Economia",
+   "candidatos_homens": 3635,
+   "candidatos_mulheres": 3369,
+   "colocados_homens": 574,
+   "colocados_mulheres": 528,
+   "cursos": 16,
+   "pct_mulheres_colocadas": 48
+  },
+  {
+   "area": "Eletricidade e Energia",
+   "candidatos_homens": 774,
+   "candidatos_mulheres": 102,
+   "colocados_homens": 133,
+   "colocados_mulheres": 11,
+   "cursos": 8,
+   "pct_mulheres_colocadas": 8
+  },
+  {
+   "area": "Eletrónica e Automação",
+   "candidatos_homens": 14884,
+   "candidatos_mulheres": 2687,
+   "colocados_homens": 3387,
+   "colocados_mulheres": 535,
+   "cursos": 69,
+   "pct_mulheres_colocadas": 14
+  },
+  {
+   "area": "Enfermagem",
+   "candidatos_homens": 1690,
+   "candidatos_mulheres": 8124,
+   "colocados_homens": 312,
+   "colocados_mulheres": 1593,
+   "cursos": 23,
+   "pct_mulheres_colocadas": 84
+  },
+  {
+   "area": "Engenharia e Técnicas Afins - programas não classificados noutra área de formação",
+   "candidatos_homens": 2521,
+   "candidatos_mulheres": 1523,
+   "colocados_homens": 426,
+   "colocados_mulheres": 314,
+   "cursos": 19,
+   "pct_mulheres_colocadas": 42
+  },
+  {
+   "area": "Filosofia e Ética",
+   "candidatos_homens": 423,
+   "candidatos_mulheres": 662,
+   "colocados_homens": 85,
+   "colocados_mulheres": 110,
+   "cursos": 7,
+   "pct_mulheres_colocadas": 56
+  },
+  {
+   "area": "Finanças, Banca e Seguros",
+   "candidatos_homens": 1147,
+   "candidatos_mulheres": 799,
+   "colocados_homens": 164,
+   "colocados_mulheres": 105,
+   "cursos": 8,
+   "pct_mulheres_colocadas": 39
+  },
+  {
+   "area": "Formação de Professores do Ensino Básico (1.º e 2.º Ciclos)",
+   "candidatos_homens": 614,
+   "candidatos_mulheres": 6654,
+   "colocados_homens": 80,
+   "colocados_mulheres": 1119,
+   "cursos": 21,
+   "pct_mulheres_colocadas": 93
+  },
+  {
+   "area": "Física",
+   "candidatos_homens": 1628,
+   "candidatos_mulheres": 650,
+   "colocados_homens": 330,
+   "colocados_mulheres": 127,
+   "cursos": 15,
+   "pct_mulheres_colocadas": 28
+  },
+  {
+   "area": "Gestão e Administração",
+   "candidatos_homens": 9926,
+   "candidatos_mulheres": 9572,
+   "colocados_homens": 1923,
+   "colocados_mulheres": 1841,
+   "cursos": 83,
+   "pct_mulheres_colocadas": 49
+  },
+  {
+   "area": "História e Arqueologia",
+   "candidatos_homens": 1568,
+   "candidatos_mulheres": 1833,
+   "colocados_homens": 271,
+   "colocados_mulheres": 326,
+   "cursos": 16,
+   "pct_mulheres_colocadas": 55
+  },
+  {
+   "area": "Hotelaria e Restauração",
+   "candidatos_homens": 398,
+   "candidatos_mulheres": 409,
+   "colocados_homens": 117,
+   "colocados_mulheres": 110,
+   "cursos": 13,
+   "pct_mulheres_colocadas": 48
+  },
+  {
+   "area": "Informática",
+   "candidatos_homens": 628,
+   "candidatos_mulheres": 126,
+   "colocados_homens": 92,
+   "colocados_mulheres": 24,
+   "cursos": 4,
+   "pct_mulheres_colocadas": 21
+  },
+  {
+   "area": "Jornalismo e Reportagem",
+   "candidatos_homens": 1314,
+   "candidatos_mulheres": 3831,
+   "colocados_homens": 173,
+   "colocados_mulheres": 568,
+   "cursos": 15,
+   "pct_mulheres_colocadas": 77
+  },
+  {
+   "area": "Língua e Literatura Materna",
+   "candidatos_homens": 388,
+   "candidatos_mulheres": 1199,
+   "colocados_homens": 65,
+   "colocados_mulheres": 236,
+   "cursos": 12,
+   "pct_mulheres_colocadas": 78
+  },
+  {
+   "area": "Línguas e Literaturas Estrangeiras",
+   "candidatos_homens": 1569,
+   "candidatos_mulheres": 4796,
+   "colocados_homens": 354,
+   "colocados_mulheres": 1127,
+   "cursos": 32,
+   "pct_mulheres_colocadas": 76
+  },
+  {
+   "area": "Marketing e Publicidade",
+   "candidatos_homens": 1637,
+   "candidatos_mulheres": 2971,
+   "colocados_homens": 313,
+   "colocados_mulheres": 592,
+   "cursos": 26,
+   "pct_mulheres_colocadas": 65
+  },
+  {
+   "area": "Matemática",
+   "candidatos_homens": 1534,
+   "candidatos_mulheres": 1694,
+   "colocados_homens": 262,
+   "colocados_mulheres": 309,
+   "cursos": 18,
+   "pct_mulheres_colocadas": 54
+  },
+  {
+   "area": "Materiais (Indústrias da Madeira, Cortiça, Papel, Plástico, Vidro e outros)",
+   "candidatos_homens": 704,
+   "candidatos_mulheres": 343,
+   "colocados_homens": 87,
+   "colocados_mulheres": 52,
+   "cursos": 6,
+   "pct_mulheres_colocadas": 37
+  },
+  {
+   "area": "Medicina",
+   "candidatos_homens": 3113,
+   "candidatos_mulheres": 8289,
+   "colocados_homens": 522,
+   "colocados_mulheres": 1337,
+   "cursos": 14,
+   "pct_mulheres_colocadas": 72
+  },
+  {
+   "area": "Metalurgia e Metalomecânica",
+   "candidatos_homens": 4725,
+   "candidatos_mulheres": 1151,
+   "colocados_homens": 923,
+   "colocados_mulheres": 213,
+   "cursos": 19,
+   "pct_mulheres_colocadas": 19
+  },
+  {
+   "area": "Produção Agrícola e Animal",
+   "candidatos_homens": 556,
+   "candidatos_mulheres": 398,
+   "colocados_homens": 132,
+   "colocados_mulheres": 104,
+   "cursos": 21,
+   "pct_mulheres_colocadas": 44
+  },
+  {
+   "area": "Psicologia",
+   "candidatos_homens": 1415,
+   "candidatos_mulheres": 7963,
+   "colocados_homens": 113,
+   "colocados_mulheres": 809,
+   "cursos": 12,
+   "pct_mulheres_colocadas": 88
+  },
+  {
+   "area": "Sociologia e Outros Estudos",
+   "candidatos_homens": 2971,
+   "candidatos_mulheres": 4345,
+   "colocados_homens": 588,
+   "colocados_mulheres": 806,
+   "cursos": 34,
+   "pct_mulheres_colocadas": 58
+  },
+  {
+   "area": "Tecnologia de Proteção do Ambiente",
+   "candidatos_homens": 536,
+   "candidatos_mulheres": 411,
+   "colocados_homens": 77,
+   "colocados_mulheres": 64,
+   "cursos": 10,
+   "pct_mulheres_colocadas": 45
+  },
+  {
+   "area": "Tecnologia dos Processos Químicos",
+   "candidatos_homens": 2561,
+   "candidatos_mulheres": 3455,
+   "colocados_homens": 502,
+   "colocados_mulheres": 682,
+   "cursos": 39,
+   "pct_mulheres_colocadas": 58
+  },
+  {
+   "area": "Tecnologias de Diagnóstico e Terapêutica",
+   "candidatos_homens": 833,
+   "candidatos_mulheres": 2931,
+   "colocados_homens": 173,
+   "colocados_mulheres": 583,
+   "cursos": 24,
+   "pct_mulheres_colocadas": 77
+  },
+  {
+   "area": "Terapia e Reabilitação",
+   "candidatos_homens": 1554,
+   "candidatos_mulheres": 4724,
+   "colocados_homens": 208,
+   "colocados_mulheres": 743,
+   "cursos": 30,
+   "pct_mulheres_colocadas": 78
+  },
+  {
+   "area": "Trabalho Social e Orientação",
+   "candidatos_homens": 436,
+   "candidatos_mulheres": 2428,
+   "colocados_homens": 74,
+   "colocados_mulheres": 564,
+   "cursos": 28,
+   "pct_mulheres_colocadas": 88
+  },
+  {
+   "area": "Turismo e Lazer",
+   "candidatos_homens": 798,
+   "candidatos_mulheres": 1129,
+   "colocados_homens": 205,
+   "colocados_mulheres": 285,
+   "cursos": 27,
+   "pct_mulheres_colocadas": 58
+  },
+  {
+   "area": "Áudio-Visuais e Produção dos Media",
+   "candidatos_homens": 1736,
+   "candidatos_mulheres": 4705,
+   "colocados_homens": 406,
+   "colocados_mulheres": 1026,
+   "cursos": 36,
+   "pct_mulheres_colocadas": 72
+  }
+ ],
+ "cursos_mais_femininos": [
+  {
+   "colocados": 40,
+   "curso": "Psicologia",
+   "grupo": "Universidade dos Açores",
+   "par": "0150-9219",
+   "pct_mulheres": 98
+  },
+  {
+   "colocados": 37,
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico do Porto",
+   "par": "7230-9890",
+   "pct_mulheres": 97
+  },
+  {
+   "colocados": 70,
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Santarém",
+   "par": "3142-9853",
+   "pct_mulheres": 97
+  },
+  {
+   "colocados": 30,
+   "curso": "Ciências da Arte e do Património",
+   "grupo": "Universidade de Lisboa",
+   "par": "1502-L010",
+   "pct_mulheres": 97
+  },
+  {
+   "colocados": 26,
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico de Leiria",
+   "par": "7045-9890",
+   "pct_mulheres": 96
+  },
+  {
+   "colocados": 46,
+   "curso": "Enfermagem Veterinária",
+   "grupo": "Instituto Politécnico de Viseu",
+   "par": "3185-9085",
+   "pct_mulheres": 96
+  },
+  {
+   "colocados": 71,
+   "curso": "Educação Básica",
+   "grupo": "Instituto Politécnico de Viana do Castelo",
+   "par": "3162-9853",
+   "pct_mulheres": 96
+  },
+  {
+   "colocados": 26,
+   "curso": "Terapia da Fala",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "par": "3155-9890",
+   "pct_mulheres": 96
+  }
+ ],
+ "cursos_mais_masculinos": [
+  {
+   "colocados": 27,
+   "curso": "Engenharia de Sistemas Informáticos",
+   "grupo": "Instituto Politécnico do Cávado e do Ave",
+   "par": "3032-8409",
+   "pct_mulheres": 0
+  },
+  {
+   "colocados": 21,
+   "curso": "Engenharia Automóvel",
+   "grupo": "Instituto Politécnico de Leiria",
+   "par": "3102-9741",
+   "pct_mulheres": 0
+  },
+  {
+   "colocados": 40,
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade da Beira Interior",
+   "par": "0400-9119",
+   "pct_mulheres": 2
+  },
+  {
+   "colocados": 31,
+   "curso": "Engenharia Informática",
+   "grupo": "Universidade de Évora",
+   "par": "0602-9119",
+   "pct_mulheres": 3
+  },
+  {
+   "colocados": 29,
+   "curso": "Tecnologias de Energia",
+   "grupo": "Instituto Politécnico de Setúbal",
+   "par": "3152-8515",
+   "pct_mulheres": 3
+  },
+  {
+   "colocados": 35,
+   "curso": "Engenharia Informática (regime pós-laboral)",
+   "grupo": "ISCTE",
+   "par": "6800-9885",
+   "pct_mulheres": 3
+  },
+  {
+   "colocados": 20,
+   "curso": "Engenharia de Minas e Geo-Ambiente",
+   "grupo": "Universidade do Porto",
+   "par": "1105-L236",
+   "pct_mulheres": 5
+  },
+  {
+   "colocados": 43,
+   "curso": "Engenharia Mecânica Automóvel",
+   "grupo": "Instituto Politécnico do Porto",
+   "par": "3135-9936",
+   "pct_mulheres": 5
+  }
+ ],
+ "fase": 1,
+ "nacional": {
+  "candidatos_homens": 97073,
+  "candidatos_mulheres": 137118,
+  "colocados_homens": 18616,
+  "colocados_mulheres": 25138
+ }
+}

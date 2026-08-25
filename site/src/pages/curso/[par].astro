@@ -393,6 +393,11 @@ const descricao =
                 <b data-contar={pctMulheres}>{pctMulheres}</b>
                 <span>
                   % de mulheres entre os {sexo.inscritos} inscritos ({sexo.ano_letivo})
+                  {f1_2025.candidatos_mulheres != null &&
+                    f1_2025.candidatos_homens != null &&
+                    f1_2025.colocados_mulheres != null &&
+                    f1_2025.colocados_homens != null &&
+                    ` — em 2025 foram ${Math.round((100 * f1_2025.candidatos_mulheres) / (f1_2025.candidatos_mulheres + f1_2025.candidatos_homens))}% das candidaturas e ${Math.round((100 * f1_2025.colocados_mulheres) / Math.max(1, f1_2025.colocados_mulheres + f1_2025.colocados_homens))}% das colocações`}
                 </span>
                 <div class="composicao composicao--fina" aria-hidden="true">
                   <span class="composicao__seg composicao__seg--mulheres cresce" style={`width:${pctMulheres}%`} />

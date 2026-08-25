@@ -165,6 +165,8 @@ def construir() -> None:
         for chave, registo in ficha_guia.get("series", {}).items():
             for k, v in registo.items():
                 if k in ("candidatos", "candidatos_1opcao", "colocados_1opcao",
+                         "candidatos_mulheres", "candidatos_homens",
+                         "colocados_mulheres", "colocados_homens",
                          "media_candidatura", "media_provas", "media_secundario"):
                     serie[chave][k] = v
                 elif k == "nota_ultimo" and chave in serie and "nota_ultimo" in serie[chave]:
@@ -291,6 +293,60 @@ def construir() -> None:
                 "racio_procura": round(procura / vagas, 2) if procura and vagas else None,
             }
         )
+
+    # Género no acesso, 2025 1ª fase (o ano mais recente com candidatos por
+    # sexo no guia): nacional, por área CNAEF e extremos por curso.
+    ANO_GENERO = ANO_CORRENTE - 1
+    gen_nacional = {"candidatos_mulheres": 0, "candidatos_homens": 0, "colocados_mulheres": 0, "colocados_homens": 0}
+    gen_area: dict[str, dict] = defaultdict(
+        lambda: {"candidatos_mulheres": 0, "candidatos_homens": 0, "colocados_mulheres": 0, "colocados_homens": 0, "cursos": 0}
+    )
+    gen_cursos = []
+    for f in cna:
+        registo = f["series"].get(f"{ANO_GENERO}f1", {})
+        if registo.get("candidatos_mulheres") is None:
+            continue
+        area = f["cnaef_nome"] or "Sem área"
+        gen_area[area]["cursos"] += 1
+        for chave in gen_nacional:
+            valor = registo.get(chave) or 0
+            gen_nacional[chave] += valor
+            gen_area[area][chave] += valor
+        col_m = registo.get("colocados_mulheres") or 0
+        col_h = registo.get("colocados_homens") or 0
+        if col_m + col_h >= 20:
+            gen_cursos.append(
+                {
+                    "par": f["par"],
+                    "curso": f["curso"],
+                    "grupo": f["grupo"],
+                    "colocados": col_m + col_h,
+                    "pct_mulheres": round(100 * col_m / (col_m + col_h)),
+                }
+            )
+    gen_cursos.sort(key=lambda c: c["pct_mulheres"])
+    _escrever(
+        common.DIR_SAIDA / "genero.json",
+        {
+            "ano": ANO_GENERO,
+            "fase": 1,
+            "nacional": gen_nacional,
+            "areas": [
+                {
+                    "area": area,
+                    **valores,
+                    "pct_mulheres_colocadas": round(
+                        100 * valores["colocados_mulheres"]
+                        / max(1, valores["colocados_mulheres"] + valores["colocados_homens"])
+                    ),
+                }
+                for area, valores in sorted(gen_area.items())
+                if valores["colocados_mulheres"] + valores["colocados_homens"] >= 100
+            ],
+            "cursos_mais_masculinos": gen_cursos[:8],
+            "cursos_mais_femininos": gen_cursos[-8:][::-1],
+        },
+    )
 
     # Agregados por estabelecimento e nacional.
     por_inst: dict[str, dict] = defaultdict(lambda: {"cursos": [], "vagas": 0, "colocados_f1": 0, "sobras_f1": 0})

@@ -95,17 +95,25 @@ _LINHA_STATS = re.compile(r"<th class=\"tlab[^\"]*\"[^>]*>(.*?)</th>(.*?)</tr>",
 _CELULA = re.compile(r"<td[^>]*>(.*?)</td>", re.S)
 
 # Rótulo na tabela de estatísticas → chave no JSON. Rótulos de secção
-# («Candidatos», «Colocados» a negrito) têm células vazias e são ignorados;
-# os subtotais por sexo ficam de fora por não terem uso previsto no painel.
+# («Candidatos», «Colocados» a negrito) têm células vazias e são ignorados.
+# «em 1ª Opção» e os subtotais por sexo repetem-se nas duas secções e
+# resolvem-se pelo contexto (candidatos/colocados).
 _METRICAS = {
     "Vagas": "vagas",
     "Candidatos": "candidatos",
-    "em 1ª Opção": None,  # resolvido pelo contexto da secção (candidatos/colocados)
+    "em 1ª Opção": None,
+    "do Sexo Feminino": None,
+    "do Sexo Masculino": None,
     "Colocados": "colocados",
     "Nota de Candidatura": "media_candidatura",
     "Provas de Ingresso": "media_provas",
     "Média do Secundário": "media_secundario",
     "Nota de Candidatura do Último Colocado pelo Contingente Geral": "nota_ultimo",
+}
+_POR_SECCAO = {
+    "em 1ª Opção": "1opcao",
+    "do Sexo Feminino": "mulheres",
+    "do Sexo Masculino": "homens",
 }
 
 
@@ -160,8 +168,8 @@ def parse_detalhe(html: str) -> dict:
         chave = _METRICAS.get(rotulo, "ausente")
         if chave == "ausente":
             continue
-        if rotulo == "em 1ª Opção":
-            chave = f"{seccao}_1opcao" if seccao else None
+        if rotulo in _POR_SECCAO:
+            chave = f"{seccao}_{_POR_SECCAO[rotulo]}" if seccao else None
         elif rotulo in ("Candidatos", "Colocados"):
             chave = rotulo.lower()
         if chave is None:

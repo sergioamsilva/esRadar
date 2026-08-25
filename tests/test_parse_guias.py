@@ -46,6 +46,11 @@ def test_detalhe_iscte() -> None:
     assert s["2025f1"]["candidatos_1opcao"] == 77
     assert s["2024f2"]["colocados"] == 15
     assert s["2023f1"]["media_secundario"] == 171.1
+    # Desagregação por sexo, nas duas secções.
+    assert s["2025f1"]["candidatos_mulheres"] == 427
+    assert s["2025f1"]["candidatos_homens"] == 514
+    assert s["2025f1"]["colocados_mulheres"] == 36
+    assert s["2025f1"]["colocados_homens"] == 36
 
 
 def test_detalhe_acores() -> None:
@@ -58,8 +63,12 @@ def test_detalhe_acores() -> None:
             "vagas",
             "candidatos",
             "candidatos_1opcao",
+            "candidatos_mulheres",
+            "candidatos_homens",
             "colocados",
             "colocados_1opcao",
+            "colocados_mulheres",
+            "colocados_homens",
             "media_candidatura",
             "media_provas",
             "media_secundario",

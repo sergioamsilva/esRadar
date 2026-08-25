@@ -1,0 +1,251 @@
+---
+import Base from "../layouts/Base.astro";
+import { genero, ligacao, formatarInteiro } from "../lib/dados";
+
+const g = genero();
+const n = g.nacional;
+const pctCandidatas = Math.round((100 * n.candidatos_mulheres) / (n.candidatos_mulheres + n.candidatos_homens));
+const pctColocadas = Math.round((100 * n.colocados_mulheres) / (n.colocados_mulheres + n.colocados_homens));
+
+/* Ordenadas da mais masculinizada para a mais feminizada — o gradiente
+   visual é a própria história. */
+const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulheres_colocadas);
+---
+
+<Base
+  titulo="Género"
+  descricao={`As colocações no ensino superior por género: ${pctColocadas}% dos colocados de ${g.ano} são mulheres, mas as áreas vão dos 8% aos 93%.`}
+>
+  <header class="cab">
+    <h1>
+      As mulheres são <b>{pctColocadas}%</b> dos colocados.
+      <span class="cab__sub">Mas quase nenhum curso é 50/50.</span>
+    </h1>
+    <p class="desc medida">
+      Na 1ª fase de {g.ano}, {pctCandidatas}% das candidaturas e {pctColocadas}% das
+      colocações pelo contingente geral foram de mulheres. A média esconde a segregação
+      por área: da Eletricidade (8% de mulheres) à Formação de Professores (93%).
+    </p>
+  </header>
+
+  <div class="stats">
+    <div class="stat reveal">
+      <b><span data-contar={pctCandidatas}>{pctCandidatas}</span>%</b>
+      <span>das candidaturas são de mulheres</span>
+      <em>{formatarInteiro(n.candidatos_mulheres)} candidatas em {formatarInteiro(n.candidatos_mulheres + n.candidatos_homens)}</em>
+    </div>
+    <div class="stat reveal" style="--d:.08s">
+      <b><span data-contar={pctColocadas}>{pctColocadas}</span>%</b>
+      <span>das colocações são de mulheres</span>
+      <em>{formatarInteiro(n.colocados_mulheres)} colocadas em {formatarInteiro(n.colocados_mulheres + n.colocados_homens)}</em>
+    </div>
+    <div class="stat reveal" style="--d:.16s">
+      <b>{formatarInteiro(areas.length)}</b>
+      <span>áreas de estudo com ≥100 colocados</span>
+      <em>apenas {areas.filter((a) => a.pct_mulheres_colocadas >= 40 && a.pct_mulheres_colocadas <= 60).length} ficam entre os 40% e os 60%</em>
+    </div>
+  </div>
+
+  <section class="card full reveal">
+    <h3>A linha dos 50%, área a área</h3>
+    <p class="desc">
+      Percentagem de mulheres entre os colocados de cada área CNAEF, na 1ª fase de {g.ano}.
+      O traço vertical é a paridade.
+    </p>
+    <ol class="areas">
+      {
+        areas.map((a, i) => (
+          <li class="areas__linha">
+            <span class="areas__nome">{a.area}</span>
+            <span class="areas__pista">
+              <span class="areas__meio" aria-hidden="true" />
+              <span
+                class="areas__barra cresce"
+                style={`width:${a.pct_mulheres_colocadas}%;--d:${Math.min(i * 0.02, 0.6)}s`}
+                role="img"
+                aria-label={`${a.pct_mulheres_colocadas}% de mulheres entre ${formatarInteiro(a.colocados_mulheres + a.colocados_homens)} colocados`}
+              />
+            </span>
+            <b class="areas__pct">{a.pct_mulheres_colocadas}%</b>
+          </li>
+        ))
+      }
+    </ol>
+    <p class="legenda-areas">
+      <span class="legenda-areas__amostra" aria-hidden="true"></span> % de mulheres
+      colocadas · o resto da pista são homens · só áreas com ≥100 colocados
+    </p>
+  </section>
+
+  <div class="grid">
+    <section class="card reveal">
+      <h3>Os cursos mais masculinos</h3>
+      <p class="desc">Cursos com ≥20 colocados e a menor percentagem de mulheres.</p>
+      <ul class="extremos">
+        {
+          g.cursos_mais_masculinos.map((c) => (
+            <li>
+              <a href={ligacao(`/curso/${c.par}/`)}>
+                {c.curso} <span>{c.grupo}</span>
+              </a>
+              <b>{c.pct_mulheres}%</b>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <section class="card reveal" style="--d:.1s">
+      <h3>Os cursos mais femininos</h3>
+      <p class="desc">Cursos com ≥20 colocados e a maior percentagem de mulheres.</p>
+      <ul class="extremos">
+        {
+          g.cursos_mais_femininos.map((c) => (
+            <li>
+              <a href={ligacao(`/curso/${c.par}/`)}>
+                {c.curso} <span>{c.grupo}</span>
+              </a>
+              <b>{c.pct_mulheres}%</b>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+
+  <p class="cautela medida">
+    A DGES publica os dados de forma binária (feminino/masculino). As percentagens são dos
+    colocados pelo contingente geral na 1ª fase de {g.ano}; a composição dos inscritos de
+    cada curso está na respetiva ficha.
+  </p>
+</Base>
+
+<style>
+  .cab {
+    padding: 26px 0 8px;
+  }
+  .cab h1 {
+    font-size: clamp(26px, 4.6vw, 42px);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    max-width: 26ch;
+  }
+  .cab h1 b {
+    color: var(--accent-texto);
+    font-variant-numeric: tabular-nums;
+  }
+  .cab__sub {
+    display: block;
+    font-size: 0.62em;
+    font-weight: 500;
+    color: var(--ink-2);
+    margin-top: 6px;
+  }
+  .card.full {
+    margin-top: 22px;
+  }
+  .areas {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  .areas__linha {
+    display: grid;
+    grid-template-columns: minmax(160px, 0.9fr) minmax(140px, 2fr) 3.2rem;
+    gap: 14px;
+    align-items: center;
+    padding: 4px 0;
+  }
+  .areas__nome {
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .areas__pista {
+    position: relative;
+    height: 12px;
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--serie-1) 26%, var(--surface));
+    overflow: hidden;
+  }
+  .areas__barra {
+    position: absolute;
+    inset: 0 auto 0 0;
+    background: var(--serie-2);
+    border-radius: 6px 0 0 6px;
+  }
+  .areas__meio {
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    bottom: -2px;
+    width: 2px;
+    background: var(--ink);
+    opacity: 0.55;
+    z-index: 1;
+  }
+  .areas__pct {
+    font-size: var(--t-xs);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  .legenda-areas {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin: 12px 0 0;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+  }
+  .legenda-areas__amostra {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background: var(--serie-2);
+    flex-shrink: 0;
+  }
+  .extremos {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .extremos li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--grid);
+    font-size: var(--t-sm);
+  }
+  .extremos a {
+    text-decoration: none;
+    color: inherit;
+    min-width: 0;
+  }
+  .extremos a:hover {
+    color: var(--accent-texto);
+  }
+  .extremos a span {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+  }
+  .extremos b {
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+  .cautela.medida {
+    margin: 22px 0 40px;
+  }
+  @media (max-width: 620px) {
+    .areas__linha {
+      grid-template-columns: 1fr 3rem;
+    }
+    .areas__nome {
+      grid-column: 1 / -1;
+      white-space: normal;
+    }
+  }
+</style>

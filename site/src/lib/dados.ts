@@ -11,7 +11,11 @@ export type Registo = {
   sobras?: number;
   candidatos?: number;
   candidatos_1opcao?: number;
+  candidatos_mulheres?: number;
+  candidatos_homens?: number;
   colocados_1opcao?: number;
+  colocados_mulheres?: number;
+  colocados_homens?: number;
   media_candidatura?: number;
   media_provas?: number;
   media_secundario?: number;
@@ -120,6 +124,28 @@ export type Nacional = {
 
 export type Epoca = { ano: number; fases_arquivadas: number[] };
 
+export type Genero = {
+  ano: number;
+  fase: number;
+  nacional: {
+    candidatos_mulheres: number;
+    candidatos_homens: number;
+    colocados_mulheres: number;
+    colocados_homens: number;
+  };
+  areas: {
+    area: string;
+    candidatos_mulheres: number;
+    candidatos_homens: number;
+    colocados_mulheres: number;
+    colocados_homens: number;
+    cursos: number;
+    pct_mulheres_colocadas: number;
+  }[];
+  cursos_mais_masculinos: { par: string; curso: string; grupo: string; colocados: number; pct_mulheres: number }[];
+  cursos_mais_femininos: { par: string; curso: string; grupo: string; colocados: number; pct_mulheres: number }[];
+};
+
 function ler<T>(relativo: string): T {
   return JSON.parse(fs.readFileSync(path.join(RAIZ, relativo), "utf8")) as T;
 }
@@ -129,6 +155,7 @@ export const instituicoes = (): Instituicao[] =>
   ler<{ instituicoes: Instituicao[] }>("instituicoes.json").instituicoes;
 export const nacional = (): Nacional => ler<Nacional>("nacional.json");
 export const epoca = (): Epoca => ler<Epoca>("epoca.json");
+export const genero = (): Genero => ler<Genero>("genero.json");
 
 export const pares = (): Par[] =>
   fs
