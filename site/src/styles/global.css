@@ -761,3 +761,18 @@ html.js .cresce.on {
   color: var(--muted);
   border-top: 1px solid var(--grid);
 }
+
+.salto__tipo {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-style: normal;
+  font-size: var(--t-3xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: color-mix(in srgb, var(--serie-2) 18%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--serie-2) 50%, var(--border));
+  color: var(--ink-2);
+  vertical-align: 2px;
+}

@@ -243,7 +243,7 @@ const SECCOES = [
 
       /* ── a paleta de pesquisa global ─────────────────────────────────
          Índice por fetch na primeira abertura; atalho «/». */
-      type ItemPesquisa = { p: string; u: string; c: string; i: string; g: string; d: string | null; n: number | null };
+      type ItemPesquisa = { t: "i" | "c"; u: string; c: string; i: string; g: string; d: string | null; n: number | null };
       let indicePesquisa: (ItemPesquisa & { b: string })[] | null = null;
       const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
       const basePortal = document.querySelector<HTMLAnchorElement>("nav.anchors a")!.pathname.replace(/\/$/, "");
@@ -272,18 +272,23 @@ const SECCOES = [
         const desenhar = async (q: string) => {
           const lista = await carregarIndice();
           const termos = semAcentos(q.trim().toLowerCase()).split(/\s+/).filter(Boolean);
-          const achados = termos.length
-            ? lista.filter((d) => termos.every((t) => d.b.includes(t))).slice(0, 9)
+          const todos = termos.length
+            ? lista.filter((d) => termos.every((t) => d.b.includes(t)))
             : [];
+          /* Instituições primeiro (no máximo 3), depois cursos. */
+          const achados = [
+            ...todos.filter((d) => d.t === "i").slice(0, 3),
+            ...todos.filter((d) => d.t === "c"),
+          ].slice(0, 9);
           resultados.innerHTML = achados
             .map(
               (d) =>
-                `<li><a href="${d.u}"><b>${d.c}</b><span>${d.i}${d.d ? ` · ${d.d}` : ""}${d.n != null ? ` · corte ${d.n.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}` : ""}</span></a></li>`,
+                `<li><a href="${d.u}">${d.t === "i" ? '<em class="salto__tipo">instituição</em>' : ""}<b>${d.c}</b><span>${d.i}${d.d ? ` · ${d.d}` : ""}${d.n != null ? ` · corte ${d.n.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}` : ""}</span></a></li>`,
             )
             .join("");
           if (contagem)
             contagem.textContent = termos.length
-              ? `${lista.filter((d) => termos.every((t) => d.b.includes(t))).length.toLocaleString("pt-PT")} cursos`
+              ? `${todos.filter((d) => d.t === "c").length.toLocaleString("pt-PT")} cursos${todos.some((d) => d.t === "i") ? ` · ${todos.filter((d) => d.t === "i").length} instituições` : ""}`
               : "";
         };
 
