@@ -328,6 +328,10 @@ const LINHAS = [
     font-size: var(--t-2xs);
     color: var(--muted);
   }
+  /* display:flex venceria o atributo hidden — repor a semântica. */
+  .escolha__atual[hidden] {
+    display: none;
+  }
   .escolha__atual {
     display: flex;
     align-items: center;
