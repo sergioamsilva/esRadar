@@ -517,7 +517,7 @@ def construir() -> None:
     # Agregados por estabelecimento e nacional.
     por_inst: dict[str, dict] = defaultdict(lambda: {"cursos": [], "vagas": 0, "colocados_f1": 0, "sobras_f1": 0})
     nacional_anos: dict[int, dict] = defaultdict(
-        lambda: {"vagas_f1": 0, "colocados": 0, "colocados_f1": 0, "pares": 0}
+        lambda: {"vagas_f1": 0, "colocados": 0, "colocados_f1": 0, "colocados_f2": 0, "colocados_f3": 0, "pares": 0}
     )
     for par, ficha in fichas.items():
         for chave, registo in ficha["series"].items():
@@ -527,8 +527,7 @@ def construir() -> None:
                 nacional_anos[ano]["pares"] += 1
             if registo.get("colocados"):
                 nacional_anos[ano]["colocados"] += registo["colocados"]
-                if fase == 1:
-                    nacional_anos[ano]["colocados_f1"] += registo["colocados"]
+                nacional_anos[ano][f"colocados_f{fase}"] += registo["colocados"]
         if not ficha["ativo"] or ficha["concurso"] != "Nacional":
             continue
         agg = por_inst[ficha["code"]]

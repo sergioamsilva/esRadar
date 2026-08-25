@@ -58,7 +58,14 @@
    "vagas_recolocacao": 0
   },
   "2020f1": {
+   "candidatos": 1,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 0,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 32,
    "vagas": 32
   },
@@ -75,12 +82,22 @@
    "vagas_recolocacao": 0
   },
   "2021f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 27,
    "vagas": 27
   },
   "2021f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 27,
    "vagas": 27,
    "vagas_recolocacao": 0
@@ -92,12 +109,24 @@
    "vagas_recolocacao": 0
   },
   "2022f1": {
+   "candidatos": 0,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 25,
    "vagas": 25
   },
   "2022f2": {
+   "candidatos": 3,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 1,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 1,
+   "colocados_mulheres": 0,
+   "media_candidatura": 119.1,
+   "media_provas": 117.5,
    "nota_ultimo": 119.1,
    "sobras": 24,
    "vagas": 25,

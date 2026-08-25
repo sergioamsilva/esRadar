@@ -16,6 +16,7 @@ const aqui = Astro.url.pathname;
 const SECCOES = [
   { href: ligacao("/"), rotulo: "Panorama" },
   { href: ligacao("/cursos/"), rotulo: "Cursos" },
+  { href: ligacao("/areas/"), rotulo: "Áreas" },
   { href: ligacao("/comparar/"), rotulo: "Comparar" },
   { href: ligacao("/genero/"), rotulo: "Género" },
   { href: ligacao("/instituicoes/"), rotulo: "Instituições" },
@@ -89,6 +90,7 @@ const SECCOES = [
               aria-current={
                 aqui === s.href ||
                 (s.href === ligacao("/cursos/") && aqui.includes("/curso/")) ||
+                (s.href === ligacao("/areas/") && aqui.includes("/area/")) ||
                 (s.href === ligacao("/instituicoes/") && aqui.includes("/instituicao/"))
                   ? "page"
                   : undefined

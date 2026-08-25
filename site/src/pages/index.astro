@@ -2,7 +2,8 @@
 import Base from "../layouts/Base.astro";
 import SerieAnual from "../components/SerieAnual.astro";
 import Mapa from "../components/Mapa.astro";
-import { cursos, nacional, epoca, genero, instituicoes, ligacao, ligacaoCurso, formatarInteiro, formatarNota } from "../lib/dados";
+import Dispersao from "../components/Dispersao.astro";
+import { cursos, pares, nacional, epoca, genero, instituicoes, ligacao, ligacaoCurso, formatarInteiro, formatarNota } from "../lib/dados";
 
 const indice = cursos();
 const nac = nacional();
@@ -103,6 +104,62 @@ const ALCANCE = indice
   .map((c) => ({ n: c.nota_2026f1, c: c.curso, i: c.grupo, u: ligacaoCurso(c) }));
 const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
 
+/* ── funil do acesso: o último ano completo (2025), da oferta à permanência. */
+const a25 = nac.anos["2025"];
+let ficaNum = 0, ficaDen = 0;
+for (const c of indice) {
+  if (c.fica_1ano != null && c.colocados_2026f1) {
+    ficaNum += c.fica_1ano * c.colocados_2026f1;
+    ficaDen += c.colocados_2026f1;
+  }
+}
+const ficaPct = ficaDen ? ficaNum / ficaDen : null;
+const funil = a25
+  ? [
+      { rotulo: "vagas postas a concurso", valor: a25.vagas_f1, detalhe: "1ª fase de 2025" },
+      { rotulo: "colocados na 1ª fase", valor: a25.colocados_f1, detalhe: `${Math.round((100 * a25.colocados_f1) / a25.vagas_f1)}% das vagas` },
+      { rotulo: "colocados no fim das 3 fases", valor: a25.colocados, detalhe: `+${formatarInteiro(a25.colocados_f2)} na 2ª, +${formatarInteiro(a25.colocados_f3)} na 3ª` },
+      ...(ficaPct != null
+        ? [{ rotulo: "continuam no mesmo curso um ano depois", valor: Math.round(a25.colocados * (ficaPct / 100)), detalhe: `${Math.round(ficaPct)}% de permanência típica (Infocursos)` }]
+        : []),
+    ]
+  : [];
+const funilMax = funil.length ? funil[0].valor : 1;
+
+/* ── dispersão procura × nota: o retrato dos 1170 num só plano. */
+const pontosProcura = indice
+  .filter((c) => c.racio_procura != null && c.nota_2026f1 != null)
+  .map((c) => ({
+    x: c.racio_procura!,
+    y: c.nota_2026f1!,
+    rotulo: `${c.curso} — ${c.grupo}`,
+    detalhe: `corte ${formatarNota(c.nota_2026f1)} · ${c.racio_procura!.toLocaleString("pt-PT", { maximumFractionDigits: 1 })}× procura em 1ª opção · ${formatarInteiro(c.vagas)} vagas`,
+    url: ligacaoCurso(c),
+    cor: (c.subsistema === "politecnico" ? "serie-2" : "serie-1") as "serie-1" | "serie-2",
+  }));
+
+/* ── elasticidade: quem mexeu nas vagas, e o que fez a nota (2025→2026). */
+const pontosElastico = pares()
+  .filter((p) => p.ativo && p.concurso === "Nacional")
+  .map((p) => {
+    const v25 = p.series["2025f1"]?.vagas;
+    const n25 = p.series["2025f1"]?.nota_ultimo;
+    const n26 = p.series["2026f1"]?.nota_ultimo;
+    const v26 = p.vagas_2026;
+    if (!v25 || v25 < 10 || v26 == null || n25 == null || n26 == null) return null;
+    const dv = Math.round(((v26 - v25) / v25) * 100);
+    const dn = Math.round((n26 - n25) * 10) / 10;
+    return {
+      x: dv,
+      y: dn,
+      rotulo: `${p.curso} — ${p.grupo}`,
+      detalhe: `vagas ${v25}→${v26} (${dv >= 0 ? "+" : ""}${dv}%) · nota ${formatarNota(n25)}→${formatarNota(n26)} (${dn >= 0 ? "+" : ""}${dn.toLocaleString("pt-PT")})`,
+      url: ligacaoCurso({ par: p.par, curso: p.curso }),
+      cor: (p.subsistema === "politecnico" ? "serie-2" : "serie-1") as "serie-1" | "serie-2",
+    };
+  })
+  .filter((x): x is NonNullable<typeof x> => x != null && Math.abs(x.x) <= 60);
+
 /* URLs absolutos para o JSON-LD (o Astro global não chega às expressões
    dos scripts is:inline). */
 const urlPortal = new URL(ligacao("/"), Astro.site).href;
@@ -177,6 +234,34 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
   </section>
   <script type="application/json" is:inline data-alcance-dados set:html={JSON.stringify(ALCANCE)} />
 
+  <section class="card full reveal funil-card">
+    <h3>O funil do acesso — o ano completo de 2025</h3>
+    <p class="desc">
+      Da oferta à permanência: cada barra é uma etapa do percurso, à escala.
+    </p>
+    <ol class="funil">
+      {
+        funil.map((e, i) => (
+          <li class="funil__etapa">
+            <span class="funil__texto">
+              <b data-contar={e.valor}>{formatarInteiro(e.valor)}</b> {e.rotulo}
+              <span>{e.detalhe}</span>
+            </span>
+            <span class="funil__pista" data-dica={`${formatarInteiro(e.valor)} — ${e.rotulo} (${e.detalhe})`}>
+              <span
+                class="funil__barra cresce"
+                style={`width:${(e.valor / funilMax) * 100}%;--d:${i * 0.15}s;opacity:${1 - i * 0.16}`}
+              />
+            </span>
+          </li>
+        ))
+      }
+    </ol>
+    <p class="fonte-lin">
+      DGES (3 fases de 2025) e Infocursos (situação após 1 ano, coortes recentes).
+    </p>
+  </section>
+
   <section class="card full reveal">
     <h3>Como se distribuem as notas de corte</h3>
     <p class="desc">
@@ -197,6 +282,29 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
       }
       <span class="hist__mediana" style={`left:${((mediana - 95) / (200 - 95)) * 100}%`} aria-hidden="true"></span>
     </div>
+  </section>
+
+  <section class="card full reveal">
+    <h3>O país num só plano: procura contra nota de corte</h3>
+    <p class="desc">
+      Cada ponto é um curso de 2026 — passe o rato, clique para abrir. As medianas dividem
+      o plano em quatro leituras.
+    </p>
+    <Dispersao
+      pontos={pontosProcura}
+      eixoX="candidatos em 1ª opção por vaga (2025)"
+      eixoY="nota do último colocado (2026)"
+      cantos={[
+        "exigentes sem multidões — vagas escassas",
+        "os disputados: procura e nota altas",
+        "as portas abertas — entra-se com o mínimo",
+        "muito procurados, corte acessível",
+      ]}
+    />
+    <p class="legenda-scatter">
+      <span class="legenda-scatter__chave"><span class="legenda-scatter__ponto legenda-scatter__ponto--u" aria-hidden="true"></span>universitário</span>
+      <span class="legenda-scatter__chave"><span class="legenda-scatter__ponto legenda-scatter__ponto--p" aria-hidden="true"></span>politécnico</span>
+    </p>
   </section>
 
   <div class="grid">
@@ -391,6 +499,27 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
       ))
     }
   </div>
+
+  <section class="card full reveal">
+    <h3>Cortar vagas fabrica nota? O teste da elasticidade</h3>
+    <p class="desc">
+      Variação das vagas contra variação da nota de corte, de 2025 para 2026 (cursos com
+      ≥10 vagas; recorte a ±60%). Em cima à esquerda vivem os cursos que encolheram e
+      ficaram «mais exigentes» — sem mudar nada na qualidade.
+    </p>
+    <Dispersao
+      pontos={pontosElastico}
+      eixoX="variação das vagas (%)"
+      eixoY="variação da nota (pontos)"
+      cantos={[
+        "menos vagas, nota a subir",
+        "mais vagas e ainda assim a subir — procura real",
+        "menos vagas e nota a cair — procura em fuga",
+        "mais vagas, nota a cair",
+      ]}
+      limiteX={null}
+    />
+  </section>
 
   <script
     type="application/ld+json"
@@ -806,5 +935,79 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
   }
   .mov__barra--desce {
     background: var(--neg);
+  }
+
+  /* ── funil ──────────────────────────────────────────────────────── */
+  .funil-card {
+    margin-top: 22px;
+  }
+  .funil {
+    list-style: none;
+    margin: 12px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+  }
+  .funil__etapa {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.9fr) 2fr;
+    gap: 16px;
+    align-items: center;
+  }
+  .funil__texto {
+    font-size: var(--t-sm);
+    text-align: right;
+  }
+  .funil__texto b {
+    font-size: 1.25em;
+    font-variant-numeric: tabular-nums;
+  }
+  .funil__texto span {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+  }
+  .funil__pista {
+    display: block;
+  }
+  .funil__barra {
+    display: block;
+    height: 26px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, var(--serie-1), color-mix(in srgb, var(--serie-1) 70%, #7cc0ff));
+    min-width: 3px;
+  }
+  @media (max-width: 640px) {
+    .funil__etapa {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+    .funil__texto {
+      text-align: left;
+    }
+  }
+
+  .legenda-scatter {
+    display: flex;
+    gap: 16px;
+    margin: 8px 0 0;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .legenda-scatter__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .legenda-scatter__ponto {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+  .legenda-scatter__ponto--u {
+    background: var(--serie-1);
+  }
+  .legenda-scatter__ponto--p {
+    background: var(--serie-2);
   }
 </style>

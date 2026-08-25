@@ -1,0 +1,514 @@
+---
+import Base from "../../layouts/Base.astro";
+import SerieAnual from "../../components/SerieAnual.astro";
+import {
+  pares,
+  genero,
+  ligacao,
+  ligacaoCurso,
+  slug as slugify,
+  formatarNota,
+  formatarInteiro,
+  type Par,
+} from "../../lib/dados";
+
+export function getStaticPaths() {
+  const porArea = new Map<string, Par[]>();
+  for (const p of pares()) {
+    if (!p.ativo || p.concurso !== "Nacional" || !p.cnaef_nome) continue;
+    const lista = porArea.get(p.cnaef_nome) ?? [];
+    lista.push(p);
+    porArea.set(p.cnaef_nome, lista);
+  }
+  return [...porArea.entries()].map(([area, fichas]) => ({
+    params: { slug: slugify(area) },
+    props: { area, fichas },
+  }));
+}
+
+const { area, fichas } = Astro.props as { area: string; fichas: Par[] };
+
+const f1 = (p: Par, ano: number) => p.series[`${ano}f1`] ?? {};
+const vagas2026 = fichas.reduce((s, p) => s + (p.vagas_2026 ?? 0), 0);
+const colocados2026 = fichas.reduce((s, p) => s + (f1(p, 2026).colocados ?? 0), 0);
+const sobras2026 = fichas.reduce((s, p) => s + (f1(p, 2026).sobras ?? 0), 0);
+
+const notas2026 = fichas.map((p) => f1(p, 2026).nota_ultimo).filter((n): n is number => n != null);
+const mediana = (v: number[]) => (v.length ? [...v].sort((a, b) => a - b)[Math.floor(v.length / 2)] : null);
+const corteMediano = mediana(notas2026);
+const notaMin = notas2026.length ? Math.min(...notas2026) : null;
+const notaMax = notas2026.length ? Math.max(...notas2026) : null;
+
+const MIN = 90;
+const MAX = 200;
+const pos = (v: number) => ((Math.max(MIN, Math.min(MAX, v)) - MIN) / (MAX - MIN)) * 100;
+
+/* ── slope 2025 → 2026: o campo inteiro da área ─────────────────────── */
+const declives = fichas
+  .map((p) => {
+    const n25 = f1(p, 2025).nota_ultimo;
+    const n26 = f1(p, 2026).nota_ultimo;
+    if (n25 == null || n26 == null) return null;
+    return { p, n25, n26, delta: n26 - n25 };
+  })
+  .filter((d): d is NonNullable<typeof d> => d != null)
+  .sort((a, b) => b.n26 - a.n26);
+const notasSlope = declives.flatMap((d) => [d.n25, d.n26]);
+const sMin = notasSlope.length ? Math.min(...notasSlope) : 100;
+const sMax = notasSlope.length ? Math.max(...notasSlope) : 200;
+const sy = (v: number) => 6 + (1 - (v - sMin) / (sMax - sMin || 1)) * 50;
+
+/* ── beeswarm das notas de 2026 (empilhamento simples por colisão) ──── */
+const RAIO = 1.15;
+const filas: number[][] = [];
+const enxame = fichas
+  .filter((p) => f1(p, 2026).nota_ultimo != null)
+  .sort((a, b) => f1(a, 2026).nota_ultimo! - f1(b, 2026).nota_ultimo!)
+  .map((p) => {
+    const x = pos(f1(p, 2026).nota_ultimo!);
+    let fila = 0;
+    while ((filas[fila] ?? []).some((ox) => Math.abs(ox - x) < RAIO * 2.3)) fila++;
+    (filas[fila] ??= []).push(x);
+    return { p, x, fila };
+  });
+const alturaEnxame = 12 + Math.max(0, ...enxame.map((e) => e.fila)) * (RAIO * 2.4);
+
+/* ── séries agregadas ───────────────────────────────────────────────── */
+const anos = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+const serieMediana = anos
+  .map((ano) => ({ ano, valor: mediana(fichas.map((p) => f1(p, ano).nota_ultimo).filter((n): n is number => n != null)) }))
+  .filter((x): x is { ano: number; valor: number } => x.valor != null);
+const serieColocados = anos
+  .map((ano) => ({ ano, valor: fichas.reduce((s, p) => s + (f1(p, ano).colocados ?? 0), 0) }))
+  .filter((x) => x.valor > 0);
+
+/* ── género da área ─────────────────────────────────────────────────── */
+const gen = genero().areas.find((a) => a.area === area) ?? null;
+const pctMulheres = gen
+  ? gen.pct_mulheres_colocadas
+  : null;
+
+const ordenada = [...fichas].sort(
+  (a, b) => (f1(b, 2026).nota_ultimo ?? -1) - (f1(a, 2026).nota_ultimo ?? -1),
+);
+
+const titulo = `Área: ${area}`;
+const descricao = `${area} no concurso de 2026: ${fichas.length} cursos, ${formatarInteiro(vagas2026)} vagas, corte mediano ${formatarNota(corteMediano)} — com o campo completo de notas, procura e evolução desde 2018.`;
+---
+
+<Base titulo={titulo} descricao={descricao}>
+  <section class="palco-a reveal">
+    <div class="palco-a__grelha">
+      <div>
+        <p class="palco-a__kicker">Área CNAEF · Concurso Nacional de Acesso</p>
+        <h1 class="palco-a__titulo">{area}</h1>
+        <span class="palco-a__filete cresce" aria-hidden="true"></span>
+        <div class="palco-a__chips">
+          <span class="palco-a__chip"><b>{formatarInteiro(fichas.length)}</b> cursos</span>
+          <span class="palco-a__chip"><b>{formatarInteiro(vagas2026)}</b> vagas em 2026</span>
+          <span class="palco-a__chip"><b>{formatarInteiro(colocados2026)}</b> colocados na 1ª fase</span>
+          {sobras2026 > 0 && <span class="palco-a__chip"><b>{formatarInteiro(sobras2026)}</b> por preencher</span>}
+          {pctMulheres != null && <span class="palco-a__chip"><b>{pctMulheres}%</b> mulheres (2025)</span>}
+        </div>
+      </div>
+      <div class="palco-a__nota">
+        <p class="palco-a__rotulo">corte mediano · 1ª fase 2026</p>
+        <p class="palco-a__numero" {...corteMediano != null ? { "data-contar": corteMediano, "data-casas": 1 } : {}}>
+          {formatarNota(corteMediano)}
+        </p>
+        {
+          notaMin != null && notaMax != null && (
+            <p class="palco-a__sub">
+              dos {formatarNota(notaMin)} aos {formatarNota(notaMax)}
+            </p>
+          )
+        }
+      </div>
+    </div>
+  </section>
+
+  {
+    enxame.length >= 5 && (
+      <section class="card full reveal">
+        <h3>O enxame: onde caem as notas de corte da área</h3>
+        <p class="desc">
+          Cada ponto é um curso, na escala 0–200 — os empilhados partilham a mesma nota.
+          Passe o rato; clique para abrir.
+        </p>
+        <div class="enxame">
+          <svg
+            viewBox={`0 0 100 ${alturaEnxame}`}
+            aria-label={`Distribuição das notas de corte dos ${enxame.length} cursos da área.`}
+          >
+            {[100, 120, 140, 160, 180, 200].map((v) => (
+              <line x1={pos(v)} y1="0" x2={pos(v)} y2={alturaEnxame} class="enxame__grelha" />
+            ))}
+            {enxame.map(({ p, x, fila }, i) => (
+              <a href={ligacaoCurso(p)} aria-label={`${p.curso} — ${p.instituicao}`}>
+                <circle
+                  cx={x.toFixed(2)}
+                  cy={(alturaEnxame - 3 - fila * RAIO * 2.4).toFixed(2)}
+                  r={RAIO}
+                  class={`enxame__ponto enxame__ponto--${p.subsistema === "politecnico" ? "p" : "u"} ponto-vem`}
+                  style={`--dp:${0.1 + ((i * 5) % 30) * 0.03}s`}
+                  data-dica={`${p.curso} — ${p.grupo}\ncorte ${formatarNota(f1(p, 2026).nota_ultimo)} · ${formatarInteiro(p.vagas_2026)} vagas`}
+                />
+              </a>
+            ))}
+          </svg>
+          <div class="enxame__eixo" aria-hidden="true">
+            {[100, 120, 140, 160, 180, 200].map((v) => (
+              <span style={`left:${pos(v)}%`}>{v}</span>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <div class="grid">
+    {
+      declives.length >= 3 && (
+        <section class="card reveal">
+          <h3>De 2025 para 2026, curso a curso</h3>
+          <p class="desc">
+            Cada linha é um curso: verde subiu, vermelho desceu. Passe o rato para
+            identificar.
+          </p>
+          <figure class="slope">
+            <svg viewBox="0 0 100 62" preserveAspectRatio="none" aria-label={`Variação das notas de corte de ${declives.length} cursos entre 2025 e 2026.`}>
+              <line x1="18" y1="4" x2="18" y2="58" class="slope__eixo-l" />
+              <line x1="82" y1="4" x2="82" y2="58" class="slope__eixo-l" />
+              {declives.map((d, i) => (
+                <a href={ligacaoCurso(d.p)} aria-label={`${d.p.curso}: de ${formatarNota(d.n25)} para ${formatarNota(d.n26)}`}>
+                  <g
+                    class={`slope__par ${d.delta >= 0 ? "slope__par--sobe" : "slope__par--desce"}`}
+                    data-dica={`${d.p.curso} — ${d.p.grupo}\n${formatarNota(d.n25)} → ${formatarNota(d.n26)} (${d.delta >= 0 ? "+" : "−"}${Math.abs(Math.round(d.delta * 10) / 10).toLocaleString("pt-PT")})`}
+                  >
+                    <path
+                      d={`M18,${sy(d.n25).toFixed(2)} L82,${sy(d.n26).toFixed(2)}`}
+                      class="slope__linha ponto-vem"
+                      style={`--dp:${0.1 + (i % 20) * 0.05}s`}
+                    />
+                    <circle cx="18" cy={sy(d.n25).toFixed(2)} r="1.1" />
+                    <circle cx="82" cy={sy(d.n26).toFixed(2)} r="1.1" />
+                  </g>
+                </a>
+              ))}
+            </svg>
+            <figcaption class="slope__anos" aria-hidden="true">
+              <span>2025</span>
+              <span>2026</span>
+            </figcaption>
+          </figure>
+        </section>
+      )
+    }
+
+    <section class="card reveal" style="--d:.08s">
+      <h3>A área ao longo dos anos</h3>
+      <SerieAnual
+        titulo="Corte mediano da área (1ª fase, 0–200)"
+        unidade="pontos"
+        series={[{ rotulo: "Corte mediano", pontos: serieMediana, cor: "serie-1" }]}
+      />
+      <SerieAnual
+        titulo="Colocados na 1ª fase"
+        unidade="estudantes"
+        inteiro
+        series={[{ rotulo: "Colocados", pontos: serieColocados, cor: "serie-2" }]}
+      />
+    </section>
+  </div>
+
+  <section class="card full reveal">
+    <h3>Os cursos da área</h3>
+    <ol class="cursos-a">
+      {
+        ordenada.map((p) => (
+          <li>
+            <a href={ligacaoCurso(p)} class="ca">
+              <span class="ca__nome">
+                {p.curso}
+                <span>{p.instituicao}{p.distrito ? ` · ${p.distrito}` : ""}</span>
+              </span>
+              <span class="ca__pista" aria-hidden="true">
+                {f1(p, 2026).nota_ultimo != null && (
+                  <span class="ca__ponto" style={`left:${pos(f1(p, 2026).nota_ultimo!)}%`} />
+                )}
+              </span>
+              <span class="ca__nota">{formatarNota(f1(p, 2026).nota_ultimo)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <p class="fonte-lin voltar">
+    <a href={ligacao("/areas/")}>← Todas as áreas</a>
+  </p>
+</Base>
+
+<style>
+  .palco-a {
+    margin-inline: calc(50% - 50vw);
+    padding: clamp(26px, 4.2vw, 46px) calc(50vw - 50%) clamp(22px, 3.5vw, 34px);
+    background:
+      radial-gradient(1000px 400px at 85% -10%, rgba(57, 135, 229, 0.36), transparent 65%),
+      radial-gradient(650px 340px at -5% 110%, rgba(208, 105, 42, 0.2), transparent 60%),
+      linear-gradient(118deg, #0a1422 0%, #10233c 55%, #0c1a2e 100%);
+    color: #fff;
+  }
+  .palco-a__grelha {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) auto;
+    gap: clamp(18px, 4vw, 52px);
+    align-items: start;
+  }
+  .palco-a__kicker {
+    font-size: var(--t-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 0 0 10px;
+  }
+  .palco-a__titulo {
+    font-size: clamp(28px, 4.6vw, 52px);
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    margin: 0;
+    max-width: 22ch;
+  }
+  .palco-a__filete {
+    display: block;
+    width: clamp(64px, 8vw, 110px);
+    height: 4px;
+    border-radius: 2px;
+    margin: 14px 0 14px;
+    background: linear-gradient(90deg, #3987e5, #7cc0ff);
+  }
+  .palco-a__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .palco-a__chip {
+    padding: 7px 13px;
+    border-radius: 999px;
+    font-size: var(--t-xs);
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(6px);
+  }
+  .palco-a__chip b {
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+  }
+  .palco-a__nota {
+    text-align: right;
+  }
+  .palco-a__rotulo {
+    font-size: var(--t-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 4px 0 2px;
+  }
+  .palco-a__numero {
+    font-size: clamp(52px, 7.5vw, 92px);
+    font-weight: 780;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(100deg, #fff 30%, #9ecbff 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #9ecbff;
+  }
+  .palco-a__sub {
+    margin: 8px 0 0;
+    font-size: var(--t-sm);
+    color: rgba(255, 255, 255, 0.75);
+    font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 720px) {
+    .palco-a__grelha {
+      grid-template-columns: 1fr;
+    }
+    .palco-a__nota {
+      text-align: left;
+    }
+  }
+
+  .card.full {
+    margin-top: 20px;
+  }
+
+  /* ── enxame ─────────────────────────────────────────────────────── */
+  .enxame {
+    position: relative;
+  }
+  .enxame svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .enxame__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .enxame__ponto {
+    fill-opacity: 0.75;
+    stroke: var(--surface);
+    stroke-width: 0.5;
+    vector-effect: non-scaling-stroke;
+    transition: transform 0.15s ease, fill-opacity 0.15s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  .enxame__ponto:hover {
+    fill-opacity: 1;
+    transform: scale(1.8);
+  }
+  .enxame__ponto--u {
+    fill: var(--serie-1);
+  }
+  .enxame__ponto--p {
+    fill: var(--serie-2);
+  }
+  .enxame__eixo {
+    position: relative;
+    height: 20px;
+    margin-top: 4px;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .enxame__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  /* ── slope ──────────────────────────────────────────────────────── */
+  .slope {
+    margin: 8px 0 0;
+  }
+  .slope svg {
+    display: block;
+    width: 100%;
+    height: clamp(15rem, 34vw, 21rem);
+    overflow: visible;
+  }
+  .slope__eixo-l {
+    stroke: var(--baseline);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .slope__linha {
+    fill: none;
+    stroke-width: 1.3;
+    vector-effect: non-scaling-stroke;
+    stroke-linecap: round;
+    opacity: 0.55;
+    transition: opacity 0.15s ease, stroke-width 0.15s ease;
+  }
+  .slope__par circle {
+    stroke: var(--surface);
+    stroke-width: 0.5;
+    vector-effect: non-scaling-stroke;
+  }
+  .slope__par--sobe .slope__linha {
+    stroke: var(--pos);
+  }
+  .slope__par--sobe circle {
+    fill: var(--pos);
+  }
+  .slope__par--desce .slope__linha {
+    stroke: var(--neg);
+  }
+  .slope__par--desce circle {
+    fill: var(--neg);
+  }
+  .slope__par:hover .slope__linha {
+    opacity: 1;
+    stroke-width: 2.6;
+  }
+  .slope__anos {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 14% 0;
+    font-size: var(--t-xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── lista de cursos ────────────────────────────────────────────── */
+  .cursos-a {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .ca {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) minmax(120px, 2fr) 3.5rem;
+    gap: 14px;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--grid);
+    text-decoration: none;
+    color: inherit;
+  }
+  .ca:hover .ca__nome {
+    color: var(--accent-texto);
+  }
+  .ca__nome {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    min-width: 0;
+  }
+  .ca__nome span {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .ca__pista {
+    position: relative;
+    height: 2px;
+    background: var(--grid);
+    border-radius: 1px;
+  }
+  .ca__ponto {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--serie-1);
+    border: 1.5px solid var(--surface);
+  }
+  .ca__nota {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+    font-size: var(--t-sm);
+  }
+  @media (max-width: 560px) {
+    .ca {
+      grid-template-columns: 1fr 3.2rem;
+    }
+    .ca__pista {
+      display: none;
+    }
+  }
+  .voltar {
+    padding: 18px 0 30px;
+  }
+</style>

@@ -129,12 +129,22 @@
  ],
  "series": {
   "2022f1": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 4,
+   "candidatos_mulheres": 1,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 15,
    "vagas": 15
   },
   "2022f2": {
+   "candidatos": 2,
+   "candidatos_1opcao": 0,
    "colocados": 0,
+   "colocados_1opcao": 0,
    "sobras": 15,
    "vagas": 15,
    "vagas_recolocacao": 0

@@ -17,6 +17,8 @@ const PAGINAS = [
   "/genero/",
   "/instituicoes/",
   "/distritos/",
+  "/areas/",
+  "/area/enfermagem/",
   "/distrito/lisboa/",
   "/metodologia/",
 ];

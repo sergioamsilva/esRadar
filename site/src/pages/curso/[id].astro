@@ -154,7 +154,14 @@ const descricao =
       <div class="palco__id">
         <p class="palco__kicker">
           {ficha.grupo}
-          {ficha.cnaef_nome && ` · ${ficha.cnaef_nome}`}
+          {ficha.cnaef_nome && (
+            <>
+              {" · "}
+              <a class="palco__kicker-link" href={ligacao(`/area/${slug(ficha.cnaef_nome)}/`)}>
+                {ficha.cnaef_nome}
+              </a>
+            </>
+          )}
         </p>
         <h1 class="palco__titulo">{ficha.curso}</h1>
         <span class="palco__filete cresce" aria-hidden="true"></span>
@@ -807,7 +814,7 @@ const descricao =
   {
     ficha.semelhantes && ficha.semelhantes.length > 0 && (
       <section class="card full semelhantes reveal">
-        <h3>Na mesma área: {ficha.cnaef_nome}</h3>
+        <h3>Na mesma área: <a href={ligacao(`/area/${slug(ficha.cnaef_nome ?? "")}/`)}>{ficha.cnaef_nome}</a></h3>
         <p class="desc">
           Vizinhos de nota na mesma área de estudos — para comparar alternativas realistas.
         </p>
@@ -985,6 +992,14 @@ const descricao =
     border-radius: 2px;
     margin: 16px 0 12px;
     background: linear-gradient(90deg, #3987e5, #7cc0ff);
+  }
+  .palco__kicker-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.35);
+  }
+  .palco__kicker-link:hover {
+    color: #fff;
   }
   .palco__inst {
     color: rgba(255, 255, 255, 0.78);

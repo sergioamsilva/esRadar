@@ -87,13 +87,29 @@
  ],
  "series": {
   "2022f1": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 2,
+   "candidatos_mulheres": 4,
    "colocados": 1,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 1,
+   "media_candidatura": 129.7,
+   "media_provas": 116.0,
    "nota_ultimo": 129.7,
    "sobras": 39,
    "vagas": 40
   },
   "2022f2": {
+   "candidatos": 5,
+   "candidatos_1opcao": 0,
+   "candidatos_homens": 1,
+   "candidatos_mulheres": 4,
    "colocados": 0,
+   "colocados_1opcao": 0,
+   "colocados_homens": 0,
+   "colocados_mulheres": 0,
    "sobras": 40,
    "vagas": 40,
    "vagas_recolocacao": 0

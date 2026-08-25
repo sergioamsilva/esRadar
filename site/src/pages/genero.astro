@@ -10,6 +10,18 @@ const pctColocadas = Math.round((100 * n.colocados_mulheres) / (n.colocados_mulh
 /* Ordenadas da mais masculinizada para a mais feminizada — o gradiente
    visual é a própria história. */
 const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulheres_colocadas);
+
+/* Conversão candidatura→colocação: onde o funil trata os sexos de forma
+   diferente. Ordenado pelo desvio, os 12 mais marcados. */
+const conversao = g.areas
+  .map((a) => {
+    const pctCand = Math.round((100 * a.candidatos_mulheres) / (a.candidatos_mulheres + a.candidatos_homens));
+    const pctCol = a.pct_mulheres_colocadas;
+    return { area: a.area, pctCand, pctCol, gap: pctCol - pctCand };
+  })
+  .sort((x, y) => Math.abs(y.gap) - Math.abs(x.gap))
+  .slice(0, 12)
+  .sort((x, y) => y.gap - x.gap);
 ---
 
 <Base
@@ -74,6 +86,44 @@ const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulhe
     <p class="legenda-areas">
       <span class="legenda-areas__amostra" aria-hidden="true"></span> % de mulheres
       colocadas · o resto da pista são homens · só áreas com ≥100 colocados
+    </p>
+  </section>
+
+  <section class="card full reveal">
+    <h3>Da candidatura à colocação: o funil trata os sexos da mesma forma?</h3>
+    <p class="desc">
+      O anel é a % de mulheres nas <b>candidaturas</b>; o ponto cheio, nas
+      <b>colocações</b>. As 12 áreas com maior desvio — quando o ponto foge do anel, a
+      conversão difere por sexo.
+    </p>
+    <ol class="halteres">
+      {
+        conversao.map((c, i) => (
+          <li
+            class="halteres__linha"
+            data-dica={`${c.area}\ncandidaturas: ${c.pctCand}% mulheres → colocações: ${c.pctCol}% (${c.gap >= 0 ? "+" : "−"}${Math.abs(c.gap)} p.p.)`}
+          >
+            <span class="halteres__nome">{c.area}</span>
+            <span class="halteres__pista">
+              <span class="halteres__meio" aria-hidden="true" />
+              <span
+                class={`halteres__tra ${c.gap >= 0 ? "halteres__tra--sobe" : "halteres__tra--desce"} cresce`}
+                style={`left:${Math.min(c.pctCand, c.pctCol)}%;width:${Math.max(0.8, Math.abs(c.gap))}%;--d:${i * 0.06}s`}
+                aria-hidden="true"
+              />
+              <span class="halteres__anel" style={`left:${c.pctCand}%`} aria-hidden="true" />
+              <span class="halteres__ponto" style={`left:${c.pctCol}%`} aria-hidden="true" />
+            </span>
+            <b class={`halteres__gap ${c.gap >= 0 ? "halteres__gap--sobe" : "halteres__gap--desce"}`}>
+              {c.gap >= 0 ? "+" : "−"}{Math.abs(c.gap)}
+            </b>
+          </li>
+        ))
+      }
+    </ol>
+    <p class="legenda-areas">
+      anel = candidatas · ponto = colocadas · nº = diferença em pontos percentuais ·
+      traço a meio = paridade
     </p>
   </section>
 
@@ -236,6 +286,98 @@ const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulhe
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
   }
+  /* ── halteres (dumbbell) ─────────────────────────────────────────── */
+  .halteres {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  .halteres__linha {
+    display: grid;
+    grid-template-columns: minmax(160px, 0.9fr) minmax(140px, 2fr) 2.6rem;
+    gap: 14px;
+    align-items: center;
+    padding: 6px 0;
+  }
+  .halteres__nome {
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .halteres__pista {
+    position: relative;
+    height: 16px;
+  }
+  .halteres__pista::before {
+    content: "";
+    position: absolute;
+    inset: 7px 0;
+    background: var(--grid);
+    border-radius: 1px;
+  }
+  .halteres__meio {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--ink);
+    opacity: 0.35;
+  }
+  .halteres__tra {
+    position: absolute;
+    top: 6px;
+    height: 4px;
+    border-radius: 2px;
+  }
+  .halteres__tra--sobe {
+    background: var(--pos);
+  }
+  .halteres__tra--desce {
+    background: var(--neg);
+  }
+  .halteres__anel {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 2.5px solid var(--serie-2);
+    background: var(--surface);
+  }
+  .halteres__ponto {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--serie-2);
+    border: 2px solid var(--surface);
+  }
+  .halteres__gap {
+    font-size: var(--t-xs);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  .halteres__gap--sobe {
+    color: var(--pos-texto);
+  }
+  .halteres__gap--desce {
+    color: var(--neg-texto);
+  }
+  @media (max-width: 620px) {
+    .halteres__linha {
+      grid-template-columns: 1fr 2.4rem;
+    }
+    .halteres__nome {
+      grid-column: 1 / -1;
+    }
+  }
+
   .cautela.medida {
     margin: 22px 0 40px;
   }

@@ -18,8 +18,24 @@ import { ligacaoInstituicao, formatarInteiro, type Instituicao } from "../lib/da
 
 interface Props {
   instituicoes: Instituicao[];
+  /** Ativa a vista coroplética alternável (ocupação por distrito). */
+  alternavel?: boolean;
 }
-const { instituicoes } = Astro.props;
+const { instituicoes, alternavel = false } = Astro.props;
+
+/* Ocupação por distrito, para a camada coroplética. */
+const porDistrito = new Map<string, { vagas: number; colocados: number }>();
+for (const i of instituicoes) {
+  if (!i.distrito) continue;
+  const d = porDistrito.get(i.distrito) ?? { vagas: 0, colocados: 0 };
+  d.vagas += i.vagas;
+  d.colocados += i.colocados_f1;
+  porDistrito.set(i.distrito, d);
+}
+const ocupacaoDe = (nome: string) => {
+  const d = porDistrito.get(nome);
+  return d && d.vagas ? d.colocados / d.vagas : null;
+};
 
 const mapa: { w: number; h: number; paths: { n: string; d: string }[] } = JSON.parse(
   fs.readFileSync(path.resolve(process.cwd(), "..", "data", "mapa", "continente.json"), "utf8"),
@@ -54,8 +70,33 @@ const pontos = continente
   {/* Sem role="img" no svg: os pontos são links, e filhos de uma «imagem»
       não podem ser interativos (axe: nested-interactive). A descrição vive
       no aria-label de cada link e na legenda. */}
+  {
+    alternavel && (
+      <div class="mapa__modos js-so" hidden data-mapa-modos role="group" aria-label="Modo do mapa">
+        <button type="button" class="chip mapa__modo on" data-mapa-modo="pontos">Estabelecimentos</button>
+        <button type="button" class="chip mapa__modo" data-mapa-modo="coro">Ocupação por distrito</button>
+      </div>
+    )
+  }
   <svg viewBox={`0 0 ${mapa.w} ${mapa.h}`} aria-label="Mapa de Portugal continental">
-    {mapa.paths.map((p) => <path d={p.d} class="mapa__distrito" aria-hidden="true" />)}
+    {
+      mapa.paths.map((p) => {
+        const oc = ocupacaoDe(p.n);
+        const d = porDistrito.get(p.n);
+        return (
+          <path
+            d={p.d}
+            class="mapa__distrito"
+            style={oc != null ? `--fc:color-mix(in srgb, var(--serie-1) ${Math.round(8 + oc * 84)}%, var(--surface))` : undefined}
+            data-dica={
+              d
+                ? `${p.n}: ${Math.round((oc ?? 0) * 100)}% das vagas preenchidas — ${formatarInteiro(d.colocados)} colocados em ${formatarInteiro(d.vagas)} vagas`
+                : `${p.n}: sem estabelecimentos no concurso`
+            }
+          />
+        );
+      })
+    }
     {
       pontos.map((p, i) => (
         <a
@@ -96,6 +137,24 @@ const pontos = continente
   </figcaption>
 </figure>
 
+<script>
+  const armarMapa = () => {
+    document.querySelectorAll<HTMLElement>("[data-mapa-modos]:not([data-armado])").forEach((grupo) => {
+      grupo.dataset.armado = "1";
+      grupo.hidden = false;
+      const figura = grupo.closest("figure")!;
+      grupo.querySelectorAll<HTMLButtonElement>("[data-mapa-modo]").forEach((botao) =>
+        botao.addEventListener("click", () => {
+          figura.classList.toggle("mapa--coro", botao.dataset.mapaModo === "coro");
+          grupo.querySelectorAll(".mapa__modo").forEach((b) => b.classList.toggle("on", b === botao));
+        }),
+      );
+    });
+  };
+  armarMapa();
+  document.addEventListener("astro:page-load", armarMapa);
+</script>
+
 <style>
   .mapa {
     margin: 0;
@@ -110,6 +169,32 @@ const pontos = continente
     fill: color-mix(in srgb, var(--grid) 55%, var(--surface));
     stroke: var(--baseline);
     stroke-width: 0.6;
+    transition: fill 0.45s ease;
+  }
+  .mapa--coro .mapa__distrito {
+    fill: var(--fc, color-mix(in srgb, var(--grid) 55%, var(--surface)));
+  }
+  .mapa--coro .mapa__distrito:hover {
+    filter: brightness(1.12);
+  }
+  .mapa__ponto,
+  .mapa svg a {
+    transition: opacity 0.35s ease;
+  }
+  .mapa--coro svg a {
+    opacity: 0.12;
+    pointer-events: none;
+  }
+  .mapa__modos {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .mapa__modo.on {
+    background: var(--chip-on);
+    color: var(--chip-on-ink);
+    border-color: var(--chip-on);
   }
   .mapa__ponto {
     fill-opacity: 0.72;

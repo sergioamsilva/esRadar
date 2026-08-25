@@ -1,0 +1,201 @@
+---
+import Base from "../layouts/Base.astro";
+import {
+  pares,
+  ligacao,
+  slug as slugify,
+  formatarNota,
+  formatarInteiro,
+  type Par,
+} from "../lib/dados";
+
+/* Corte mediano por área × ano — a máquina do tempo do concurso. */
+const porArea = new Map<string, Par[]>();
+for (const p of pares()) {
+  if (!p.ativo || p.concurso !== "Nacional" || !p.cnaef_nome) continue;
+  const lista = porArea.get(p.cnaef_nome) ?? [];
+  lista.push(p);
+  porArea.set(p.cnaef_nome, lista);
+}
+const ANOS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+const mediana = (v: number[]) => (v.length ? [...v].sort((a, b) => a - b)[Math.floor(v.length / 2)] : null);
+
+const linhas = [...porArea.entries()]
+  .map(([area, fichas]) => {
+    const colocados2026 = fichas.reduce((s, p) => s + (p.series["2026f1"]?.colocados ?? 0), 0);
+    const celulas = ANOS.map((ano) => {
+      const notas = fichas
+        .map((p) => p.series[`${ano}f1`]?.nota_ultimo)
+        .filter((n): n is number => n != null);
+      return { ano, valor: notas.length >= 3 ? mediana(notas) : null, n: notas.length };
+    });
+    return { area, fichas: fichas.length, colocados2026, celulas };
+  })
+  .filter((l) => l.colocados2026 >= 100)
+  .sort((a, b) => b.colocados2026 - a.colocados2026);
+
+const valores = linhas.flatMap((l) => l.celulas.map((c) => c.valor)).filter((v): v is number => v != null);
+const vMin = Math.min(...valores);
+const vMax = Math.max(...valores);
+/* Intensidade sequencial de um só tom: claro = corte baixo, escuro = alto. */
+const intensidade = (v: number) => Math.round(12 + ((v - vMin) / (vMax - vMin || 1)) * 78);
+---
+
+<Base
+  titulo="Áreas de estudo"
+  descricao={`As áreas CNAEF do concurso nacional, 2018–2026: o corte mediano de cada área, ano a ano, num mapa de calor — de ${formatarNota(vMin)} a ${formatarNota(vMax)}.`}
+>
+  <header class="cab">
+    <h1>Nove anos de notas, área a área</h1>
+    <p class="desc medida">
+      Cada célula é o corte mediano de uma área num ano — quanto mais escura, mais alto.
+      As ondas lêem-se na horizontal: o que aqueceu, o que arrefeceu, o que resistiu.
+      Passe o rato; clique no nome para abrir a área.
+    </p>
+  </header>
+
+  <section class="card full reveal">
+    <div class="rolavel">
+      <table class="calor">
+        <thead>
+          <tr>
+            <th scope="col" class="calor__area">Área ({linhas.length} com ≥100 colocados)</th>
+            {ANOS.map((a) => <th scope="col" class="calor__ano">{String(a).slice(2)}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {
+            linhas.map((l, li) => (
+              <tr>
+                <th scope="row" class="calor__area">
+                  <a href={ligacao(`/area/${slugify(l.area)}/`)}>{l.area}</a>
+                  <span>{formatarInteiro(l.colocados2026)} colocados · {l.fichas} cursos</span>
+                </th>
+                {l.celulas.map((c, ci) => (
+                  <td>
+                    {c.valor != null ? (
+                      <span
+                        class="calor__celula ponto-vem"
+                        style={`--dp:${Math.min(li * 0.02, 0.5) + ci * 0.04}s;background:color-mix(in srgb, var(--serie-1) ${intensidade(c.valor)}%, var(--surface))`}
+                        data-dica={`${l.area}, ${c.ano}\ncorte mediano ${formatarNota(c.valor)} (${c.n} cursos com nota)`}
+                      >
+                        <span class="calor__valor">{Math.round(c.valor)}</span>
+                      </span>
+                    ) : (
+                      <span class="calor__celula calor__celula--vazia" data-dica={`${l.area}, ${c.ano}: sem dados suficientes`} />
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="calor__legenda">
+      <span class="calor__rampa" aria-hidden="true"></span>
+      {formatarNota(vMin)} → {formatarNota(vMax)} pontos (corte mediano da 1ª fase, contingente geral)
+    </p>
+  </section>
+</Base>
+
+<style>
+  .cab {
+    padding: 26px 0 8px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+  }
+  .card.full {
+    margin-top: 14px;
+    margin-bottom: 36px;
+  }
+  .rolavel {
+    overflow-x: auto;
+  }
+  .calor {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .calor th {
+    border: 0;
+    white-space: nowrap;
+  }
+  .calor__ano {
+    text-align: center !important;
+    padding: 4px 2px !important;
+    font-variant-numeric: tabular-nums;
+  }
+  .calor__area {
+    text-align: left;
+    padding: 4px 12px 4px 0 !important;
+    max-width: 24ch;
+    white-space: normal !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    font-size: var(--t-xs) !important;
+    color: var(--ink) !important;
+  }
+  .calor__area a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 650;
+  }
+  .calor__area a:hover {
+    color: var(--accent-texto);
+  }
+  .calor__area span {
+    display: block;
+    font-size: var(--t-3xs);
+    font-weight: 400;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .calor td {
+    padding: 2px;
+    border: 0;
+  }
+  .calor__celula {
+    display: grid;
+    place-items: center;
+    min-width: 34px;
+    height: 30px;
+    border-radius: 6px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  .calor__celula:hover {
+    transform: scale(1.12);
+    box-shadow: 0 4px 14px -4px color-mix(in srgb, var(--serie-1) 60%, transparent);
+    position: relative;
+    z-index: 2;
+  }
+  .calor__celula--vazia {
+    background: repeating-linear-gradient(45deg, var(--grid), var(--grid) 3px, var(--surface) 3px, var(--surface) 7px);
+  }
+  .calor__valor {
+    font-size: var(--t-3xs);
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    mix-blend-mode: luminosity;
+    opacity: 0.85;
+  }
+  .calor__legenda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0 0;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+  }
+  .calor__rampa {
+    width: 120px;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--serie-1) 12%, var(--surface)),
+      color-mix(in srgb, var(--serie-1) 90%, var(--surface))
+    );
+  }
+</style>

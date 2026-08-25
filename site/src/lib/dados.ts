@@ -153,7 +153,17 @@ export type Instituicao = {
 export type Nacional = {
   fontes: string[];
   mediana_desemprego_cursos: number | null;
-  anos: Record<string, { vagas_f1: number; colocados: number; colocados_f1: number; pares: number }>;
+  anos: Record<
+    string,
+    {
+      vagas_f1: number;
+      colocados: number;
+      colocados_f1: number;
+      colocados_f2: number;
+      colocados_f3: number;
+      pares: number;
+    }
+  >;
 };
 
 export type Epoca = { ano: number; fases_arquivadas: number[] };
