@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { cursos, ligacao, slug, formatarInteiro, formatarNota, type Curso } from "../../lib/dados";
+import { cursos, ligacao, ligacaoCurso, slug, formatarInteiro, formatarNota, type Curso } from "../../lib/dados";
 
 export function getStaticPaths() {
   const porDistrito = new Map<string, Curso[]>();
@@ -65,7 +65,7 @@ const ordenada = [...oferta].sort(
     {
       ordenada.map((c) => (
         <li>
-          <a href={ligacao(`/curso/${c.par}/`)} class="linha">
+          <a href={ligacaoCurso(c)} class="linha">
             <span class="linha__nome">
               <b>{c.curso}</b>
               <span>{c.instituicao}</span>

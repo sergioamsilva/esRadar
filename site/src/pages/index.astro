@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import SerieAnual from "../components/SerieAnual.astro";
 import Mapa from "../components/Mapa.astro";
-import { cursos, nacional, epoca, genero, instituicoes, ligacao, formatarInteiro, formatarNota } from "../lib/dados";
+import { cursos, nacional, epoca, genero, instituicoes, ligacao, ligacaoCurso, formatarInteiro, formatarNota } from "../lib/dados";
 
 const indice = cursos();
 const nac = nacional();
@@ -100,8 +100,13 @@ const pctColocadas = Math.round((100 * gn.colocados_mulheres) / (gn.colocados_mu
 /* «Onde entro com a minha média?» — notas de corte compactas p/ o cliente. */
 const ALCANCE = indice
   .filter((c) => c.nota_2026f1 != null || (c.sobras_2026f1 ?? 0) > 0)
-  .map((c) => ({ n: c.nota_2026f1, c: c.curso, i: c.grupo, u: ligacao(`/curso/${c.par}/`) }));
+  .map((c) => ({ n: c.nota_2026f1, c: c.curso, i: c.grupo, u: ligacaoCurso(c) }));
 const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
+
+/* URLs absolutos para o JSON-LD (o Astro global não chega às expressões
+   dos scripts is:inline). */
+const urlPortal = new URL(ligacao("/"), Astro.site).href;
+const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
 ---
 
 <Base
@@ -267,7 +272,7 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
               <ul class="mov">
                 {lista.map((c, i) => (
                   <li>
-                    <a href={ligacao(`/curso/${c.par}/`)}>
+                    <a href={ligacaoCurso(c)}>
                       {c.curso} <span>{c.grupo}</span>
                     </a>
                     <span class="mov__delta">
@@ -372,7 +377,7 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
           <ul class="mov">
             {bloco.lista.map((c) => (
               <li>
-                <a href={ligacao(`/curso/${c.par}/`)}>
+                <a href={ligacaoCurso(c)}>
                   {c.curso} <span>{c.grupo}</span>
                 </a>
                 <b>{c.valor}</b>
@@ -383,6 +388,25 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
       ))
     }
   </div>
+
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "esRadar",
+      url: urlPortal,
+      description:
+        "As colocações no ensino superior público português, curso a curso — notas de corte, vagas, procura e sobras, 2018 a 2026.",
+      inLanguage: "pt-PT",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${urlCursos}?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    })}
+  />
 
   <section class="card full reveal mapa-home">
     <h3>Onde ficaram os colocados</h3>

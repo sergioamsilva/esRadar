@@ -14,7 +14,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { ligacao, formatarInteiro, type Instituicao } from "../lib/dados";
+import { ligacaoInstituicao, formatarInteiro, type Instituicao } from "../lib/dados";
 
 interface Props {
   instituicoes: Instituicao[];
@@ -59,7 +59,7 @@ const pontos = continente
     {
       pontos.map((p, i) => (
         <a
-          href={ligacao(`/instituicao/${p.code}/`)}
+          href={ligacaoInstituicao(p)}
           aria-label={`${p.nome} — ${formatarInteiro(p.colocados_f1)} colocados em ${formatarInteiro(p.vagas)} vagas`}
         >
           <circle

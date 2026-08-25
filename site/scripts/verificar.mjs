@@ -12,7 +12,7 @@ const BASE = process.env.BASE_URL ?? "http://localhost:4321/esRadar";
 const PAGINAS = [
   "/",
   "/cursos/",
-  "/curso/6800-9081/",
+  "/curso/6800-9081-economia/",
   "/comparar/",
   "/genero/",
   "/instituicoes/",

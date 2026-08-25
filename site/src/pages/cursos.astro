@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { cursos, ligacao, formatarNota, formatarInteiro } from "../lib/dados";
+import { cursos, ligacao, ligacaoCurso, formatarNota, formatarInteiro } from "../lib/dados";
 
 const todos = cursos()
   .slice()
@@ -49,7 +49,7 @@ const areas = [...new Set(todos.map((c) => c.cnaef_nome).filter(Boolean))].sort(
           data-b={`${c.curso} ${c.instituicao} ${c.grupo}`.toLowerCase()}
           data-a={c.cnaef_nome ?? ""}
         >
-          <a href={ligacao(`/curso/${c.par}/`)} class="linha">
+          <a href={ligacaoCurso(c)} class="linha">
             <span class="linha__nome">
               <b>{c.curso}</b>
               <span>{c.instituicao}</span>

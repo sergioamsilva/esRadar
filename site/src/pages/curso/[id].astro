@@ -4,6 +4,9 @@ import SerieAnual from "../../components/SerieAnual.astro";
 import {
   pares,
   ligacao,
+  ligacaoCurso,
+  ligacaoInstituicao,
+  idCurso,
   slug,
   formatarNota,
   formatarInteiro,
@@ -12,7 +15,7 @@ import {
 } from "../../lib/dados";
 
 export function getStaticPaths() {
-  return pares().map((p) => ({ params: { par: p.par }, props: { ficha: p } }));
+  return pares().map((p) => ({ params: { id: idCurso(p) }, props: { ficha: p } }));
 }
 
 const { ficha } = Astro.props as { ficha: Par };
@@ -126,6 +129,10 @@ const mediasSecundario = serieAnual(ficha, "media_secundario", 1);
 const percentilRecente = percentilEntrada.length
   ? info?.percentil_entrada?.[String(percentilEntrada[percentilEntrada.length - 1].ano)]
   : null;
+
+const urlPortal = new URL(ligacao("/"), Astro.site).href;
+const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
+const urlFicha = new URL(ligacaoCurso(ficha), Astro.site).href;
 
 const titulo = `${ficha.curso} — ${ficha.instituicao}`;
 const descricao =
@@ -807,7 +814,7 @@ const descricao =
         <ol class="viz">
           {ficha.semelhantes.map((s) => (
             <li>
-              <a href={ligacao(`/curso/${s.par}/`)} class="viz__linha">
+              <a href={ligacaoCurso(s)} class="viz__linha">
                 <span class="viz__nome">
                   {s.curso}
                   <span>{s.grupo}</span>
@@ -837,6 +844,24 @@ const descricao =
     is:inline
     set:html={JSON.stringify({
       "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "esRadar", item: urlPortal },
+        { "@type": "ListItem", position: 2, name: "Cursos", item: urlCursos },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: `${ficha.curso} — ${ficha.instituicao}`,
+          item: urlFicha,
+        },
+      ],
+    })}
+  />
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
       "@type": "Course",
       name: ficha.curso,
       description: descricao,
@@ -848,7 +873,7 @@ const descricao =
 
   <p class="fonte-lin voltar">
     <a href={ligacao("/cursos/")}>← Todos os cursos</a> ·
-    <a href={ligacao(`/instituicao/${ficha.code}/`)}>{ficha.instituicao}</a>
+    <a href={ligacaoInstituicao({ code: ficha.code, nome: ficha.instituicao })}>{ficha.instituicao}</a>
     {
       ficha.distrito && (
         <>

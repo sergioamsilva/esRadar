@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { genero, ligacao, formatarInteiro } from "../lib/dados";
+import { genero, ligacao, ligacaoCurso, formatarInteiro } from "../lib/dados";
 
 const g = genero();
 const n = g.nacional;
@@ -85,7 +85,7 @@ const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulhe
         {
           g.cursos_mais_masculinos.map((c) => (
             <li>
-              <a href={ligacao(`/curso/${c.par}/`)}>
+              <a href={ligacaoCurso(c)}>
                 {c.curso} <span>{c.grupo}</span>
               </a>
               <b>{c.pct_mulheres}%</b>
@@ -101,7 +101,7 @@ const areas = [...g.areas].sort((a, b) => a.pct_mulheres_colocadas - b.pct_mulhe
         {
           g.cursos_mais_femininos.map((c) => (
             <li>
-              <a href={ligacao(`/curso/${c.par}/`)}>
+              <a href={ligacaoCurso(c)}>
                 {c.curso} <span>{c.grupo}</span>
               </a>
               <b>{c.pct_mulheres}%</b>

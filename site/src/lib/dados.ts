@@ -212,6 +212,20 @@ export const slug = (texto: string): string =>
 export const ligacao = (caminho: string): string =>
   `${import.meta.env.BASE_URL.replace(/\/$/, "")}${caminho}`;
 
+/** URL de uma instituição com o nome no caminho, para indexação
+ * (/instituicao/3061-instituto-politecnico-de-coimbra-…/). O código à
+ * cabeça mantém a unicidade; os URLs antigos só-código redirecionam. */
+export const idInstituicao = (i: { code: string; nome: string }): string =>
+  `${i.code}-${slug(i.nome)}`;
+export const ligacaoInstituicao = (i: { code: string; nome: string }): string =>
+  ligacao(`/instituicao/${idInstituicao(i)}/`);
+
+/** Idem para cursos: /curso/3102-9002-administracao-publica/. */
+export const idCurso = (c: { par: string; curso: string }): string =>
+  `${c.par}-${slug(c.curso)}`;
+export const ligacaoCurso = (c: { par: string; curso: string }): string =>
+  ligacao(`/curso/${idCurso(c)}/`);
+
 export function formatarNota(valor: number | null | undefined): string {
   if (valor == null) return "—";
   return valor.toLocaleString("pt-PT", { minimumFractionDigits: 1, maximumFractionDigits: 1 });

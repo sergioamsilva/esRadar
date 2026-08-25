@@ -39,6 +39,7 @@ const SECCOES = [
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="esRadar" />
     <meta property="og:locale" content="pt_PT" />
     <link rel="canonical" href={new URL(aqui, Astro.site).href} />
     <link
@@ -242,7 +243,7 @@ const SECCOES = [
 
       /* ── a paleta de pesquisa global ─────────────────────────────────
          Índice por fetch na primeira abertura; atalho «/». */
-      type ItemPesquisa = { p: string; c: string; i: string; g: string; d: string | null; n: number | null };
+      type ItemPesquisa = { p: string; u: string; c: string; i: string; g: string; d: string | null; n: number | null };
       let indicePesquisa: (ItemPesquisa & { b: string })[] | null = null;
       const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
       const basePortal = document.querySelector<HTMLAnchorElement>("nav.anchors a")!.pathname.replace(/\/$/, "");
@@ -277,7 +278,7 @@ const SECCOES = [
           resultados.innerHTML = achados
             .map(
               (d) =>
-                `<li><a href="${basePortal}/curso/${d.p}/"><b>${d.c}</b><span>${d.i}${d.d ? ` · ${d.d}` : ""}${d.n != null ? ` · corte ${d.n.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}` : ""}</span></a></li>`,
+                `<li><a href="${d.u}"><b>${d.c}</b><span>${d.i}${d.d ? ` · ${d.d}` : ""}${d.n != null ? ` · corte ${d.n.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}` : ""}</span></a></li>`,
             )
             .join("");
           if (contagem)

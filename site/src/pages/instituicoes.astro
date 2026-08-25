@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Mapa from "../components/Mapa.astro";
-import { instituicoes, ligacao, formatarInteiro } from "../lib/dados";
+import { instituicoes, ligacao, ligacaoInstituicao, formatarInteiro } from "../lib/dados";
 
 const todas = instituicoes();
 
@@ -86,7 +86,7 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
                 .sort((x, y) => y.vagas - x.vagas)
                 .map((m) => (
                   <li>
-                    <a href={ligacao(`/instituicao/${m.code}/`)}>{m.nome}</a>
+                    <a href={ligacaoInstituicao(m)}>{m.nome}</a>
                     <span>
                       {formatarInteiro(m.vagas)} vagas · {formatarInteiro(m.colocados_f1)}{" "}
                       colocados · {m.n_cursos} cursos

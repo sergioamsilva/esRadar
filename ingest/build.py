@@ -153,6 +153,16 @@ def ler_series_guias_antigos() -> dict[str, dict[str, dict]]:
     return series
 
 
+def slug(texto: str) -> str:
+    """kebab-case sem acentos — TEM de bater com o slug() de site/src/lib/dados.ts."""
+    import unicodedata
+
+    t = unicodedata.normalize("NFD", texto)
+    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    t = re.sub(r"[^a-z0-9]+", "-", t)
+    return t.strip("-")
+
+
 _PESO_SEC = re.compile(r"Média do secundário:\s*(\d+)\s*%")
 _PESO_PROVAS = re.compile(r"Provas de ingresso:\s*(\d+)\s*%")
 
@@ -580,6 +590,17 @@ def construir() -> None:
             ),
         },
     )
+    # Mapa de redirects dos URLs antigos (só código) para os novos com nome
+    # no caminho — consumido por site/astro.config.mjs. Sem o prefixo base.
+    redirects = {}
+    for par, ficha in fichas.items():
+        redirects[f"/curso/{par}"] = f"/curso/{par}-{slug(ficha['curso'])}/"
+    for inst in saida_inst:
+        redirects[f"/instituicao/{inst['code']}"] = (
+            f"/instituicao/{inst['code']}-{slug(inst['nome'])}/"
+        )
+    _escrever(common.DIR_SAIDA / "redirects.json", redirects)
+
     print(
         f"build: {len(fichas)} fichas ({len(indice)} ativas), {len(saida_inst)} estabelecimentos, "
         f"{len(validacoes_falhadas)} divergências guia↔XLS"

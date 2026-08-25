@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { cursos, ligacao, formatarInteiro } from "../lib/dados";
+import { cursos, ligacao, ligacaoCurso, formatarInteiro } from "../lib/dados";
 
 /* Índice leve embebido para a escolha (par, nome, instituição, nota).
    As fichas completas vêm por fetch de dados/{par}.json quando escolhidas —
@@ -8,6 +8,7 @@ import { cursos, ligacao, formatarInteiro } from "../lib/dados";
    aponta para o índice de cursos. */
 const INDICE = cursos().map((c) => ({
   p: c.par,
+  u: ligacaoCurso(c),
   c: c.curso,
   i: c.instituicao,
   g: c.grupo,
@@ -111,7 +112,7 @@ const LINHAS = [
     caixa.dataset.armado = "1";
     caixa.hidden = false;
 
-    type Item = { p: string; c: string; i: string; g: string; n: number | null; b: string };
+    type Item = { p: string; u: string; c: string; i: string; g: string; n: number | null; b: string };
     const INDICE: Item[] = JSON.parse(document.querySelector("[data-indice]")?.textContent ?? "[]");
     const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
     const indexado = INDICE.map((d) => ({ ...d, b: semAcentos(d.b) }));
@@ -158,7 +159,7 @@ const LINHAS = [
       for (const e of ativos) {
         const th = document.createElement("th");
         th.scope = "col";
-        th.innerHTML = `<a href="${base}/curso/${e.p}/"><b>${e.c}</b><span>${e.i}</span></a>`;
+        th.innerHTML = `<a href="${e.u}"><b>${e.c}</b><span>${e.i}</span></a>`;
         cab.appendChild(th);
       }
       for (const linha of tabela.tBodies[0].rows) {

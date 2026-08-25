@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { cursos, instituicoes, ligacao, formatarNota, formatarInteiro } from "../../lib/dados";
+import { cursos, instituicoes, ligacao, ligacaoCurso, idInstituicao, formatarNota, formatarInteiro } from "../../lib/dados";
 
 export function getStaticPaths() {
   const porInstituicao = new Map<string, ReturnType<typeof cursos>>();
@@ -13,7 +13,7 @@ export function getStaticPaths() {
   return instituicoes()
     .filter((i) => porInstituicao.has(i.code))
     .map((i) => ({
-      params: { code: i.code },
+      params: { id: idInstituicao(i) },
       props: { instituicao: i, oferta: porInstituicao.get(i.code)! },
     }));
 }
@@ -70,7 +70,7 @@ const MAX = 200;
       {
         ordenada.map((c) => (
           <li>
-            <a href={ligacao(`/curso/${c.par}/`)} class="cr">
+            <a href={ligacaoCurso(c)} class="cr">
               <span class="cr__nome">
                 {c.curso}
                 <span class="cr__meta">

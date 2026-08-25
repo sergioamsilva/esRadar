@@ -1,6 +1,19 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import fs from 'node:fs';
+import path from 'node:path';
+
+/* Os URLs de cursos e instituições levam o nome no caminho (indexação);
+   os antigos, só com o código, redirecionam. O mapa vem do build
+   (data/out/redirects.json, sem base) — o base entra aqui, porque o Astro
+   não o aplica aos destinos dos redirects. */
+const BASE = '/esRadar';
+const redirects = Object.fromEntries(
+  Object.entries(
+    JSON.parse(fs.readFileSync(path.resolve('..', 'data', 'out', 'redirects.json'), 'utf8')),
+  ).map(([de, para]) => [de, `${BASE}${para}`]),
+);
 
 /**
  * Servido pelo GitHub Pages em https://sergioamsilva.github.io/esRadar/ —
@@ -12,5 +25,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://sergioamsilva.github.io',
   base: '/esRadar',
+  redirects,
   integrations: [sitemap()],
 });
