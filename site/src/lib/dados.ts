@@ -65,6 +65,8 @@ export type Par = {
   } | null;
   /** % de cursos do CNA com nota de corte abaixo da deste (2026, 1ª fase). */
   percentil_nota_2026?: number;
+  /** % de cursos do CNA com desemprego IEFP abaixo do deste. */
+  desemprego_percentil?: number;
   /** % dos colocados de 2025 que tinham este curso em 1ª opção. */
   pct_colocados_1opcao_2025?: number;
   /** Vizinhos na mesma área CNAEF, ordenados por nota. */
@@ -102,6 +104,7 @@ export type Instituicao = {
   grupo: string;
   subsistema: string | null;
   distrito: string | null;
+  geo: { lat: number; lon: number } | null;
   n_cursos: number;
   vagas: number;
   colocados_f1: number;
@@ -111,6 +114,7 @@ export type Instituicao = {
 
 export type Nacional = {
   fontes: string[];
+  mediana_desemprego_cursos: number | null;
   anos: Record<string, { vagas_f1: number; colocados: number; pares: number }>;
 };
 

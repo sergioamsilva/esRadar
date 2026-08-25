@@ -248,6 +248,20 @@ def construir() -> None:
                 if v is not f
             ][:6]
 
+    # Contexto de emprego: posição do desemprego IEFP de cada curso entre os
+    # cursos do CNA com dados, e a mediana nacional para referência.
+    taxas = sorted(
+        f["infocursos"]["desemprego"]["taxa"]
+        for f in cna
+        if f.get("infocursos") and f["infocursos"].get("desemprego")
+    )
+    mediana_desemprego = taxas[len(taxas) // 2] if taxas else None
+    for f in cna:
+        blocos = f.get("infocursos") or {}
+        if blocos.get("desemprego") and taxas:
+            taxa = blocos["desemprego"]["taxa"]
+            f["desemprego_percentil"] = round(100 * sum(1 for t in taxas if t < taxa) / len(taxas))
+
     # Índice plano para pesquisa e rankings — só pares ativos no guia corrente.
     indice = []
     for par, ficha in fichas.items():
@@ -308,6 +322,7 @@ def construir() -> None:
                 "grupo": inst["grupo"],
                 "subsistema": inst["subsistema"],
                 "distrito": inst.get("distrito"),
+                "geo": inst.get("geo"),
                 "n_cursos": len(agg["cursos"]),
                 "vagas": agg["vagas"],
                 "colocados_f1": agg["colocados_f1"],
@@ -332,7 +347,9 @@ def construir() -> None:
             "fontes": [
                 "DGES — resultados do CNA por fase (2018-2026, via Arquivo.pt até 2025)",
                 "DGES — guia da candidatura 2026",
+                "Infocursos (MECI) — edição 2026",
             ],
+            "mediana_desemprego_cursos": mediana_desemprego,
             "anos": {str(a): v for a, v in sorted(nacional_anos.items())},
         },
     )

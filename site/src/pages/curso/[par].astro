@@ -408,6 +408,8 @@ const descricao =
                 <span>
                   % de recém-diplomados registados como desempregados no IEFP
                   {info.desemprego.diplomados ? ` (${info.desemprego.diplomados} diplomados)` : ""}
+                  {ficha.desemprego_percentil != null &&
+                    ` — desemprego mais baixo do que ${100 - ficha.desemprego_percentil}% dos cursos`}
                 </span>
               </li>
             )}

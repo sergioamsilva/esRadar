@@ -1,0 +1,387 @@
+---
+import Base from "../layouts/Base.astro";
+import { cursos, ligacao, formatarInteiro } from "../lib/dados";
+
+/* Índice leve embebido para a escolha (par, nome, instituição, nota).
+   As fichas completas vêm por fetch de dados/{par}.json quando escolhidas —
+   a comparação é inerentemente interativa, e sem JavaScript esta página
+   aponta para o índice de cursos. */
+const INDICE = cursos().map((c) => ({
+  p: c.par,
+  c: c.curso,
+  i: c.instituicao,
+  g: c.grupo,
+  n: c.nota_2026f1,
+  b: `${c.curso} ${c.instituicao} ${c.grupo}`.toLowerCase(),
+}));
+
+const LINHAS = [
+  { chave: "nota_2026", rotulo: "Nota do último colocado, 1ª fase 2026", casas: 1 },
+  { chave: "nota_2025", rotulo: "Nota do último colocado, 1ª fase 2025", casas: 1 },
+  { chave: "vagas", rotulo: "Vagas em 2026", casas: 0 },
+  { chave: "colocados", rotulo: "Colocados na 1ª fase de 2026", casas: 0 },
+  { chave: "sobras", rotulo: "Vagas sobrantes para a 2ª fase", casas: 0 },
+  { chave: "candidatos_1op", rotulo: "Candidatos em 1ª opção (2025)", casas: 0 },
+  { chave: "percentil_nota", rotulo: "Nota acima de … % dos cursos", casas: 0, sufixo: "%" },
+  { chave: "pct_1opcao", rotulo: "Colocados que o tinham em 1ª opção", casas: 0, sufixo: "%" },
+  { chave: "media_secundario", rotulo: "Média do secundário dos colocados (2025)", casas: 1 },
+  { chave: "fica_1ano", rotulo: "Continuam no curso um ano depois", casas: 1, sufixo: "%" },
+  { chave: "desemprego", rotulo: "Recém-diplomados no desemprego (IEFP)", casas: 1, sufixo: "%" },
+  { chave: "nota_final", rotulo: "Nota final média dos diplomados (0–20)", casas: 1 },
+  { chave: "mulheres", rotulo: "Mulheres entre os inscritos", casas: 0, sufixo: "%" },
+];
+---
+
+<Base
+  titulo="Comparar cursos"
+  descricao="Compare até três cursos do Concurso Nacional de Acesso lado a lado: notas, procura, permanência e desemprego."
+>
+  <header class="cab">
+    <h1>Comparar cursos</h1>
+    <p class="desc medida">
+      Escolha até três cursos e veja-os lado a lado — notas de corte, procura, quem fica ao
+      fim de um ano e o desemprego dos diplomados.
+    </p>
+    <noscript>
+      <p class="cautela">
+        O comparador precisa de JavaScript. Em alternativa, os mesmos números estão na
+        ficha de cada curso, a partir do <a href={ligacao("/cursos/")}>índice de cursos</a>.
+      </p>
+    </noscript>
+  </header>
+
+  <div class="escolha js-so" hidden data-escolha>
+    {
+      [0, 1, 2].map((i) => (
+        <div class="escolha__slot" data-slot={i}>
+          <input
+            type="search"
+            placeholder={i === 0 ? "Curso ou instituição…" : "Adicionar outro…"}
+            aria-label={`Escolher o ${i + 1}º curso a comparar`}
+            data-campo
+            autocomplete="off"
+          />
+          <ul class="escolha__sugestoes" data-sugestoes hidden />
+          <p class="escolha__atual" data-atual hidden>
+            <b data-atual-nome />
+            <button type="button" data-limpar aria-label="Remover este curso">×</button>
+          </p>
+        </div>
+      ))
+    }
+  </div>
+
+  <div class="card full comparacao" hidden data-tabela-caixa>
+    <div class="rolavel">
+      <table class="comparacao__tabela" data-tabela>
+        <thead>
+          <tr>
+            <th scope="col">Indicador</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            LINHAS.map((l) => (
+              <tr data-linha={l.chave} data-casas={l.casas} data-sufixo={l.sufixo ?? ""}>
+                <th scope="row">{l.rotulo}</th>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="cautela">
+      A nota de corte mede procura vs. vagas, não qualidade — e cada curso tem provas de
+      ingresso próprias. Compare cursos comparáveis.
+    </p>
+  </div>
+
+  <p class="desc" data-vazio>
+    Comece por escrever o nome de um curso — por exemplo, <em>enfermagem</em> ou
+    <em>engenharia informática lisboa</em>. Há {formatarInteiro(INDICE.length)} cursos.
+  </p>
+</Base>
+
+<script type="application/json" is:inline data-indice set:html={JSON.stringify(INDICE)} />
+
+<script>
+  const iniciar = () => {
+    const caixa = document.querySelector<HTMLElement>("[data-escolha]");
+    if (!caixa || caixa.dataset.armado) return;
+    caixa.dataset.armado = "1";
+    caixa.hidden = false;
+
+    type Item = { p: string; c: string; i: string; g: string; n: number | null; b: string };
+    const INDICE: Item[] = JSON.parse(document.querySelector("[data-indice]")?.textContent ?? "[]");
+    const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+    const indexado = INDICE.map((d) => ({ ...d, b: semAcentos(d.b) }));
+
+    const base = (document.querySelector("nav.anchors a") as HTMLAnchorElement | null)?.pathname.replace(/\/$/, "") ?? "";
+    const escolhidos: (Item | null)[] = [null, null, null];
+    const fichas = new Map<string, any>();
+
+    const tabelaCaixa = document.querySelector<HTMLElement>("[data-tabela-caixa]")!;
+    const tabela = document.querySelector<HTMLTableElement>("[data-tabela]")!;
+    const vazio = document.querySelector<HTMLElement>("[data-vazio]")!;
+
+    const valorDe = (f: any, chave: string): number | null => {
+      const s26 = f.series?.["2026f1"] ?? {};
+      const s25 = f.series?.["2025f1"] ?? {};
+      const info = f.infocursos ?? {};
+      switch (chave) {
+        case "nota_2026": return s26.nota_ultimo ?? null;
+        case "nota_2025": return s25.nota_ultimo ?? null;
+        case "vagas": return f.vagas_2026 ?? null;
+        case "colocados": return s26.colocados ?? null;
+        case "sobras": return s26.sobras ?? null;
+        case "candidatos_1op": return s25.candidatos_1opcao ?? null;
+        case "percentil_nota": return f.percentil_nota_2026 ?? null;
+        case "pct_1opcao": return f.pct_colocados_1opcao_2025 ?? null;
+        case "media_secundario": return s25.media_secundario ?? null;
+        case "fica_1ano": return info.apos_1_ano?.fica ?? null;
+        case "desemprego": return info.desemprego?.taxa ?? null;
+        case "nota_final": return info.diplomados?.nota_final_media ?? null;
+        case "mulheres": {
+          const s = info.sexo;
+          return s?.inscritos && s.mulheres != null ? Math.round((100 * s.mulheres) / s.inscritos) : null;
+        }
+        default: return null;
+      }
+    };
+
+    const desenhar = () => {
+      const ativos = escolhidos.filter(Boolean) as Item[];
+      tabelaCaixa.hidden = ativos.length === 0;
+      vazio.hidden = ativos.length > 0;
+      const cab = tabela.tHead!.rows[0];
+      while (cab.cells.length > 1) cab.deleteCell(-1);
+      for (const e of ativos) {
+        const th = document.createElement("th");
+        th.scope = "col";
+        th.innerHTML = `<a href="${base}/curso/${e.p}/"><b>${e.c}</b><span>${e.i}</span></a>`;
+        cab.appendChild(th);
+      }
+      for (const linha of tabela.tBodies[0].rows) {
+        while (linha.cells.length > 1) linha.deleteCell(-1);
+        const casas = Number(linha.dataset.casas ?? 0);
+        const sufixo = linha.dataset.sufixo ?? "";
+        const valores = ativos.map((e) => valorDe(fichas.get(e.p), linha.dataset.linha!));
+        const numericos = valores.filter((v): v is number => v != null);
+        /* Só se destaca «melhor» onde a leitura é inequívoca — nota de corte
+           alta não é um curso melhor, é procura vs. vagas. */
+        const polaridade: Record<string, "max" | "min"> = { fica_1ano: "max", desemprego: "min" };
+        const sentido = polaridade[linha.dataset.linha!];
+        const melhor = sentido === "min" ? Math.min(...numericos) : Math.max(...numericos);
+        for (const v of valores) {
+          const td = document.createElement("td");
+          td.textContent =
+            v == null
+              ? "—"
+              : v.toLocaleString("pt-PT", { minimumFractionDigits: casas, maximumFractionDigits: casas }) + sufixo;
+          if (sentido && v != null && numericos.length > 1 && v === melhor) td.classList.add("melhor");
+          linha.appendChild(td);
+        }
+      }
+    };
+
+    const escolher = async (slot: number, item: Item) => {
+      if (!fichas.has(item.p)) {
+        const resp = await fetch(`${base}/dados/${item.p}.json`);
+        fichas.set(item.p, await resp.json());
+      }
+      escolhidos[slot] = item;
+      desenhar();
+    };
+
+    caixa.querySelectorAll<HTMLElement>("[data-slot]").forEach((el) => {
+      const slot = Number(el.dataset.slot);
+      const campo = el.querySelector<HTMLInputElement>("[data-campo]")!;
+      const sugestoes = el.querySelector<HTMLUListElement>("[data-sugestoes]")!;
+      const atual = el.querySelector<HTMLElement>("[data-atual]")!;
+      const atualNome = el.querySelector<HTMLElement>("[data-atual-nome]")!;
+
+      campo.addEventListener("input", () => {
+        const termos = semAcentos(campo.value.trim().toLowerCase()).split(/\s+/).filter(Boolean);
+        if (!termos.length) {
+          sugestoes.hidden = true;
+          return;
+        }
+        const achados = indexado.filter((d) => termos.every((t) => d.b.includes(t))).slice(0, 8);
+        sugestoes.innerHTML = achados
+          .map(
+            (d, i) =>
+              `<li><button type="button" data-p="${d.p}" data-i="${i}"><b>${d.c}</b> <span>${d.i}${d.n != null ? ` · ${d.n.toLocaleString("pt-PT", { minimumFractionDigits: 1 })}` : ""}</span></button></li>`,
+          )
+          .join("");
+        sugestoes.hidden = achados.length === 0;
+        sugestoes.querySelectorAll("button").forEach((b) =>
+          b.addEventListener("click", () => {
+            const item = indexado.find((d) => d.p === b.dataset.p)!;
+            sugestoes.hidden = true;
+            campo.hidden = true;
+            atual.hidden = false;
+            atualNome.textContent = `${item.c} · ${item.g}`;
+            escolher(slot, item);
+          }),
+        );
+      });
+
+      el.querySelector("[data-limpar]")?.addEventListener("click", () => {
+        escolhidos[slot] = null;
+        campo.hidden = false;
+        campo.value = "";
+        atual.hidden = true;
+        desenhar();
+      });
+    });
+  };
+  iniciar();
+  document.addEventListener("astro:page-load", iniciar);
+</script>
+
+<style>
+  .cab {
+    padding: 26px 0 8px;
+  }
+  .cab h1 {
+    font-size: clamp(24px, 4vw, 34px);
+    letter-spacing: -0.02em;
+  }
+  .escolha {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+    gap: 12px;
+    margin: 14px 0 18px;
+  }
+  .escolha__slot {
+    position: relative;
+  }
+  .escolha__slot input {
+    width: 100%;
+    padding: 11px 14px;
+    font: inherit;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .escolha__sugestoes {
+    position: absolute;
+    z-index: 5;
+    inset-inline: 0;
+    top: calc(100% + 4px);
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 14px 40px -18px rgba(0, 0, 0, 0.45);
+    max-height: 320px;
+    overflow: auto;
+  }
+  .escolha__sugestoes button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 8px 10px;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .escolha__sugestoes button:hover {
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+  .escolha__sugestoes span {
+    display: block;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+  }
+  .escolha__atual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 0;
+    padding: 11px 14px;
+    background: color-mix(in srgb, var(--accent) 10%, var(--surface));
+    border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
+    border-radius: 8px;
+    font-size: var(--t-sm);
+  }
+  .escolha__atual button {
+    font: inherit;
+    font-size: 1.1em;
+    line-height: 1;
+    background: none;
+    border: 0;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .escolha__atual button:hover {
+    color: var(--neg-texto);
+  }
+  .rolavel {
+    overflow-x: auto;
+  }
+  /* :global porque metade das células nasce por JavaScript (sem o atributo
+     de scoping do Astro) e porque é preciso anular o th global do site
+     (uppercase + nowrap), pensado para cabeçalhos curtos. */
+  :global(.comparacao__tabela) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--t-sm);
+  }
+  :global(.comparacao__tabela th) {
+    text-transform: none;
+    letter-spacing: 0;
+    white-space: normal;
+    font-size: var(--t-sm);
+    color: var(--ink);
+  }
+  :global(.comparacao__tabela th[scope="col"]) {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--baseline);
+    vertical-align: bottom;
+    min-width: 13ch;
+  }
+  :global(.comparacao__tabela th[scope="col"]:first-child) {
+    font-size: var(--t-3xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  :global(.comparacao__tabela th[scope="col"] a) {
+    text-decoration: none;
+    color: inherit;
+  }
+  :global(.comparacao__tabela th[scope="col"] span) {
+    display: block;
+    font-size: var(--t-2xs);
+    font-weight: 400;
+    color: var(--muted);
+  }
+  :global(.comparacao__tabela th[scope="row"]) {
+    text-align: left;
+    font-weight: 500;
+    color: var(--ink-2);
+    padding: 7px 12px 7px 0;
+    border-bottom: 1px solid var(--grid);
+    max-width: 32ch;
+  }
+  :global(.comparacao__tabela td) {
+    padding: 7px 12px;
+    border-bottom: 1px solid var(--grid);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  :global(.comparacao__tabela td.melhor) {
+    font-weight: 700;
+    color: var(--accent-texto);
+  }
+</style>

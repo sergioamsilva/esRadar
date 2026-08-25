@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Mapa from "../components/Mapa.astro";
 import { instituicoes, ligacao, formatarInteiro } from "../lib/dados";
 
 const todas = instituicoes();
@@ -38,11 +39,17 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
   <header class="cab">
     <h1>As instituições na 1ª fase de 2026</h1>
     <p class="desc medida">
-      Barras ordenadas pelas vagas postas a concurso; o troço preenchido são os colocados
-      na 1ª fase, o vazio são as vagas que sobraram. A geografia da procura lê-se aqui:
-      as sobras concentram-se fora dos grandes centros.
+      Cada ponto do mapa é um estabelecimento — a área são os colocados na 1ª fase de
+      2026. Nas barras abaixo, o troço preenchido são os colocados e o vazio as vagas que
+      sobraram: a geografia da procura lê-se nas duas vistas, e as sobras concentram-se
+      fora dos grandes centros.
     </p>
   </header>
+
+  <section class="card full mapa-card">
+    <h3>Onde ficaram os colocados</h3>
+    <Mapa instituicoes={todas} />
+  </section>
 
   <ol class="ranking">
     {
@@ -101,6 +108,9 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
   .cab h1 {
     font-size: clamp(24px, 4vw, 34px);
     letter-spacing: -0.02em;
+  }
+  .mapa-card {
+    margin-bottom: 22px;
   }
   .ranking {
     list-style: none;

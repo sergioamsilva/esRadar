@@ -6,21 +6,33 @@ estabelecimentos:
   grupo: Universidade dos Açores
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.6585
+    lon: -27.234
 - code: '0150'
   nome: Universidade dos Açores - Faculdade de Ciências Sociais e Humanas
   grupo: Universidade dos Açores
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.74605
+    lon: -25.66378
 - code: '0160'
   nome: Universidade dos Açores - Faculdade de Ciências e Tecnologia
   grupo: Universidade dos Açores
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.74605
+    lon: -25.66378
 - code: '0170'
   nome: Universidade dos Açores - Faculdade de Economia e Gestão
   grupo: Universidade dos Açores
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.74605
+    lon: -25.66378
 - code: '0200'
   nome: Universidade do Algarve
   grupo: Universidade do Algarve
@@ -31,71 +43,113 @@ estabelecimentos:
   grupo: Universidade do Algarve
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.04408
+    lon: -7.972222
 - code: '0203'
   nome: Universidade do Algarve - Faculdade de Ciências e Tecnologia
   grupo: Universidade do Algarve
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.04408
+    lon: -7.972222
 - code: '0204'
   nome: Universidade do Algarve - Faculdade de Economia
   grupo: Universidade do Algarve
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.04408
+    lon: -7.972222
 - code: '0206'
   nome: Universidade do Algarve - Faculdade de Medicina e Ciências Biomédicas
   grupo: Universidade do Algarve
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.04408
+    lon: -7.972222
 - code: '0300'
   nome: Universidade de Aveiro
   grupo: Universidade de Aveiro
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.63118
+    lon: -8.657394
 - code: '0400'
   nome: Universidade da Beira Interior
   grupo: Universidade da Beira Interior
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.27736
+    lon: -7.508574
 - code: '0501'
   nome: Universidade de Coimbra - Faculdade de Ciências e Tecnologia
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.18623
+    lon: -8.412266
 - code: '0502'
   nome: Universidade de Coimbra - Faculdade de Direito
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.20785
+    lon: -8.425645
 - code: '0503'
   nome: Universidade de Coimbra - Faculdade de Economia
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.2147
+    lon: -8.408988
 - code: '0504'
   nome: Universidade de Coimbra - Faculdade de Farmácia
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.21968
+    lon: -8.418132
 - code: '0505'
   nome: Universidade de Coimbra - Faculdade de Letras
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.20647
+    lon: -8.428684
 - code: '0506'
   nome: Universidade de Coimbra - Faculdade de Medicina
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.21902
+    lon: -8.416386
 - code: '0507'
   nome: Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.21036
+    lon: -8.427611
 - code: 0508
   nome: Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.20711
+    lon: -8.436049
 - code: '0520'
   nome: Universidade de Coimbra (Campus Figueira da Foz)
   grupo: Universidade de Coimbra (Campus Figueira da Foz)
@@ -106,81 +160,129 @@ estabelecimentos:
   grupo: Universidade de Coimbra
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.1528
+    lon: -8.858626
 - code: '0602'
   nome: Universidade de Évora - Escola de Ciências e Tecnologia
   grupo: Universidade de Évora
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.56832
+    lon: -7.910306
 - code: '0603'
   nome: Universidade de Évora - Escola de Artes
   grupo: Universidade de Évora
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.56902
+    lon: -7.911873
 - code: '0604'
   nome: Universidade de Évora - Escola de Ciências Sociais
   grupo: Universidade de Évora
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.57381
+    lon: -7.906329
 - code: '0605'
   nome: Universidade de Évora - Escola de Saúde e Desenvolvimento Humano
   grupo: Universidade de Évora
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.56832
+    lon: -7.910306
 - code: 0901
   nome: Universidade Nova de Lisboa - Faculdade de Ciências Médicas
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.72019
+    lon: -9.139704
 - code: 0902
   nome: Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74025
+    lon: -9.151129
 - code: 0903
   nome: Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.66165
+    lon: -9.206682
 - code: 0904
   nome: Universidade Nova de Lisboa - Faculdade de Economia
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.6793
+    lon: -9.325741
 - code: 0906
   nome: Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.73236
+    lon: -9.160044
 - code: 0908
   nome: Universidade Nova de Lisboa - Escola Nacional de Saúde Pública
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.7645
+    lon: -9.16312
 - code: 0911
   nome: Universidade Nova de Lisboa - Faculdade de Direito
   grupo: Universidade Nova de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.73254
+    lon: -9.160769
 - code: '1000'
   nome: Universidade do Minho
   grupo: Universidade do Minho
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.33284
+    lon: -8.253481
 - code: '1101'
   nome: Universidade do Porto - Faculdade de Ciências da Nutrição e da Alimentação
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15291
+    lon: -8.638251
 - code: '1102'
   nome: Universidade do Porto - Faculdade de Arquitetura
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.14992
+    lon: -8.63601
 - code: '1103'
   nome: Universidade do Porto - Faculdade de Ciências
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15242
+    lon: -8.637816
 - code: '1104'
   nome: Universidade do Porto - Faculdade de Economia
   grupo: Universidade do Porto
@@ -191,201 +293,321 @@ estabelecimentos:
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.1781
+    lon: -8.598157
 - code: '1106'
   nome: Universidade do Porto - Faculdade de Farmácia
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.14777
+    lon: -8.624307
 - code: '1107'
   nome: Universidade do Porto - Faculdade de Letras
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15155
+    lon: -8.63262
 - code: '1108'
   nome: Universidade do Porto - Faculdade de Medicina
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.18273
+    lon: -8.600299
 - code: '1109'
   nome: Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.17554
+    lon: -8.604519
 - code: '1110'
   nome: Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.14777
+    lon: -8.624307
 - code: '1111'
   nome: Universidade do Porto - Faculdade de Desporto
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.17864
+    lon: -8.600067
 - code: '1113'
   nome: Universidade do Porto - Faculdade de Medicina Dentária
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.17414
+    lon: -8.603376
 - code: '1114'
   nome: Universidade do Porto - Faculdade de Direito
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15236
+    lon: -8.616284
 - code: '1116'
   nome: Universidade do Porto - FEP Faculdade de Economia e Gestão
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.17595
+    lon: -8.598582
 - code: '1201'
   nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias
   grupo: Universidade de Trás-os-Montes e Alto Douro
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.28739
+    lon: -7.738986
 - code: '1202'
   nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais
   grupo: Universidade de Trás-os-Montes e Alto Douro
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.28739
+    lon: -7.738986
 - code: '1203'
   nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia
   grupo: Universidade de Trás-os-Montes e Alto Douro
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.28739
+    lon: -7.738986
 - code: '1204'
   nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente
   grupo: Universidade de Trás-os-Montes e Alto Douro
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.28739
+    lon: -7.738986
 - code: '1306'
   nome: Universidade da Madeira - Faculdade de Artes e Humanidades
   grupo: Universidade da Madeira
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 32.65928
+    lon: -16.9251
 - code: '1307'
   nome: Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia
   grupo: Universidade da Madeira
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 32.65928
+    lon: -16.9251
 - code: '1308'
   nome: Universidade da Madeira - Faculdade de Ciências Sociais
   grupo: Universidade da Madeira
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 32.65928
+    lon: -16.9251
 - code: '1309'
   nome: Universidade da Madeira - Faculdade de Ciências da Vida
   grupo: Universidade da Madeira
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 32.65928
+    lon: -16.9251
 - code: '1320'
   nome: Universidade da Madeira - Escola Superior de Saúde
   grupo: Universidade da Madeira
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 32.65945
+    lon: -16.92655
 - code: '1321'
   nome: Universidade da Madeira - Escola Superior de Tecnologias e Gestão
   grupo: Universidade da Madeira
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 32.65945
+    lon: -16.92655
 - code: '1501'
   nome: Universidade de Lisboa - Faculdade de Arquitetura
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.71291
+    lon: -9.193281
 - code: '1502'
   nome: Universidade de Lisboa - Faculdade de Belas-Artes
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.70903
+    lon: -9.156942
 - code: '1503'
   nome: Universidade de Lisboa - Faculdade de Ciências
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75676
+    lon: -9.155387
 - code: '1504'
   nome: Universidade de Lisboa - Faculdade de Direito
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75244
+    lon: -9.157061
 - code: '1505'
   nome: Universidade de Lisboa - Faculdade de Farmácia
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74955
+    lon: -9.157356
 - code: '1506'
   nome: Universidade de Lisboa - Faculdade de Letras
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75359
+    lon: -9.157651
 - code: '1507'
   nome: Universidade de Lisboa - Faculdade de Medicina
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74874
+    lon: -9.160639
 - code: '1508'
   nome: Universidade de Lisboa - Faculdade de Medicina Dentária
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74921
+    lon: -9.15499
 - code: '1509'
   nome: Universidade de Lisboa - Faculdade de Medicina Veterinária
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.71408
+    lon: -9.195294
 - code: '1510'
   nome: Universidade de Lisboa - Faculdade de Motricidade Humana
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.70524
+    lon: -9.25235
 - code: '1511'
   nome: Universidade de Lisboa - Faculdade de Psicologia
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75282
+    lon: -9.155494
 - code: '1513'
   nome: Universidade de Lisboa - Instituto de Educação
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75282
+    lon: -9.155494
 - code: '1514'
   nome: Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74934
+    lon: -9.15258
 - code: '1515'
   nome: Universidade de Lisboa - Instituto Superior de Agronomia
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.70623
+    lon: -9.182634
 - code: '1516'
   nome: Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.71306
+    lon: -9.198223
 - code: '1517'
   nome: Universidade de Lisboa - Instituto Superior de Economia e Gestão
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.70972
+    lon: -9.155651
 - code: '1518'
   nome: Universidade de Lisboa - Instituto Superior Técnico
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.73688
+    lon: -9.13691
 - code: '1519'
   nome: Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)
   grupo: Universidade de Lisboa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.73723
+    lon: -9.302337
 - code: '2100'
   nome: Universidade Autónoma de Lisboa Luís de Camões
   grupo: Universidade Autónoma de Lisboa Luís de Camões
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.72433
+    lon: -9.14589
 - code: '2210'
   nome: Universidade Católica Portuguesa - Escola Superior de Biotecnologia
   grupo: Universidade Católica Portuguesa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15398
+    lon: -8.673013
 - code: '2218'
   nome: Universidade Católica Portuguesa - Escola de Enfermagem (Lisboa)
   grupo: Universidade Católica Portuguesa
@@ -396,6 +618,9 @@ estabelecimentos:
   grupo: Universidade Católica Portuguesa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.15398
+    lon: -8.673013
 - code: '2220'
   nome: Universidade Católica Portuguesa - Faculdade de Ciências Humanas
   grupo: Universidade Católica Portuguesa
@@ -416,6 +641,9 @@ estabelecimentos:
   grupo: Universidade Católica Portuguesa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.6537
+    lon: -7.9062
 - code: '2240'
   nome: Universidade Católica Portuguesa - Faculdade de Teologia
   grupo: Universidade Católica Portuguesa
@@ -436,6 +664,9 @@ estabelecimentos:
   grupo: Universidade Católica Portuguesa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15398
+    lon: -8.673013
 - code: '2280'
   nome: Universidade Católica Portuguesa - Faculdade de Direito
   grupo: Universidade Católica Portuguesa
@@ -446,11 +677,17 @@ estabelecimentos:
   grupo: Universidade Católica Portuguesa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15398
+    lon: -8.673013
 - code: '2289'
   nome: Universidade Católica Portuguesa - Faculdade de Educação e Psicologia
   grupo: Universidade Católica Portuguesa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.15398
+    lon: -8.673013
 - code: '2295'
   nome: Universidade Católica Portuguesa - Instituto de Estudos Políticos
   grupo: Universidade Católica Portuguesa
@@ -466,277 +703,442 @@ estabelecimentos:
   grupo: Universidade Católica Portuguesa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.7513
+    lon: -9.312444
 - code: '2410'
   nome: Universidade Lusíada - Centro Universitário Lusíada - Lisboa
   grupo: Universidade Lusíada
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.69799
+    lon: -9.192036
 - code: '2440'
   nome: Universidade Lusíada - Centro Universitário Lusíada - Norte - Porto
   grupo: Universidade Lusíada
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.1687
+    lon: -8.661802
 - code: '2450'
   nome: Universidade Lusíada - Centro Universitário Lusíada - Norte - Vila Nova de Famalicão
   grupo: Universidade Lusíada
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.41021
+    lon: -8.522896
 - code: '2500'
   nome: Universidade Portucalense Infante D. Henrique
   grupo: Universidade Portucalense Infante D. Henrique
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.18032
+    lon: -8.605047
 - code: '2710'
   nome: Atlântica - Instituto Universitário
   grupo: Atlântica
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74141
+    lon: -9.284575
 - code: '2750'
   nome: Universidade Fernando Pessoa
   grupo: Universidade Fernando Pessoa
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.17292
+    lon: -8.611185
 - code: '2910'
   nome: Centro Universitário Lusófona - Lisboa
   grupo: Centro Universitário Lusófona
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75802
+    lon: -9.15312
 - code: '2920'
   nome: Centro Universitário Lusófona - Porto
   grupo: Centro Universitário Lusófona
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 39.08231
+    lon: -9.259492
 - code: '3011'
   nome: Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro
   grupo: Universidade de Aveiro
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.63046
+    lon: -8.653306
 - code: '3012'
   nome: Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda
   grupo: Universidade de Aveiro
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.57429
+    lon: -8.444219
 - code: '3013'
   nome: Universidade de Aveiro - Escola Superior de Saúde de Aveiro
   grupo: Universidade de Aveiro
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.62451
+    lon: -8.659866
 - code: '3014'
   nome: Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologia da Produção de Aveiro-Norte
   grupo: Universidade de Aveiro
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.86214
+    lon: -8.476327
 - code: '3021'
   nome: Instituto Politécnico de Beja - Escola Superior Agrária
   grupo: Instituto Politécnico de Beja
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.01277
+    lon: -7.872949
 - code: '3022'
   nome: Instituto Politécnico de Beja - Escola Superior de Educação
   grupo: Instituto Politécnico de Beja
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.01385
+    lon: -7.874671
 - code: '3023'
   nome: Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão
   grupo: Instituto Politécnico de Beja
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.01572
+    lon: -7.875266
 - code: '3031'
   nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão
   grupo: Instituto Politécnico do Cávado e do Ave
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.53448
+    lon: -8.628122
 - code: '3032'
   nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia
   grupo: Instituto Politécnico do Cávado e do Ave
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.53448
+    lon: -8.628122
 - code: '3033'
   nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Design
   grupo: Instituto Politécnico do Cávado e do Ave
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.53448
+    lon: -8.628122
 - code: '3034'
   nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Hotelaria e Turismo
   grupo: Instituto Politécnico do Cávado e do Ave
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.53448
+    lon: -8.628122
 - code: '3036'
   nome: Instituto Politécnico do Cávado e do Ave - Escola Superior de Desporto, Bem-Estar e Sistemas Biomédicos
   grupo: Instituto Politécnico do Cávado e do Ave
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.43946
+    lon: -8.294934
 - code: '3041'
   nome: Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.79774
+    lon: -6.767192
 - code: '3042'
   nome: Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.7977
+    lon: -6.7672
 - code: '3043'
   nome: Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.79637
+    lon: -6.7689
 - code: '3045'
   nome: Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de
     Mirandela
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.47761
+    lon: -7.178407
 - code: '3046'
   nome: Instituto Politécnico de Bragança - Escola Superior de Hotelaria e Bem-Estar
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.74203
+    lon: -7.470944
 - code: '3051'
   nome: Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco
   grupo: Instituto Politécnico de Castelo Branco
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.82086
+    lon: -7.46249
 - code: '3052'
   nome: Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco
   grupo: Instituto Politécnico de Castelo Branco
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.8191
+    lon: -7.495828
 - code: '3053'
   nome: Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco
   grupo: Instituto Politécnico de Castelo Branco
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.81956
+    lon: -7.511883
 - code: '3054'
   nome: Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova
   grupo: Instituto Politécnico de Castelo Branco
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.9225
+    lon: -7.242491
 - code: '3055'
   nome: Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas
   grupo: Instituto Politécnico de Castelo Branco
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.81918
+    lon: -7.455066
 - code: '3061'
   nome: Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra
   grupo: Instituto Politécnico de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.21421
+    lon: -8.450982
 - code: '3062'
   nome: Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra
   grupo: Instituto Politécnico de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.20522
+    lon: -8.405957
 - code: '3063'
   nome: Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra
   grupo: Instituto Politécnico de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 42.12346
+    lon: -8.27082
 - code: '3064'
   nome: Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra
   grupo: Instituto Politécnico de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.1929
+    lon: -8.412338
 - code: '3065'
   nome: Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital
   grupo: Instituto Politécnico de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.36106
+    lon: -7.861083
 - code: '3081'
   nome: Universidade do Algarve - Escola Superior de Educação e Comunicação
   grupo: Universidade do Algarve
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.02903
+    lon: -7.922722
 - code: '3082'
   nome: Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo
   grupo: Universidade do Algarve
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.02928
+    lon: -7.923611
 - code: '3083'
   nome: Universidade do Algarve - Instituto Superior de Engenharia
   grupo: Universidade do Algarve
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.03847
+    lon: -7.922417
 - code: '3087'
   nome: Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)
   grupo: Universidade do Algarve
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.14364
+    lon: -8.536417
 - code: '3091'
   nome: Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto
   grupo: Instituto Politécnico da Guarda
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.54139
+    lon: -7.28329
 - code: '3092'
   nome: Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão
   grupo: Instituto Politécnico da Guarda
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.54139
+    lon: -7.28329
 - code: '3095'
   nome: Instituto Politécnico da Guarda - Escola Superior de Turismo e Hotelaria
   grupo: Instituto Politécnico da Guarda
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.42886
+    lon: -7.703182
 - code: '3101'
   nome: Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais
   grupo: Instituto Politécnico de Leiria
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.73972
+    lon: -8.811389
 - code: '3102'
   nome: Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão
   grupo: Instituto Politécnico de Leiria
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.73444
+    lon: -8.821389
 - code: '3103'
   nome: Instituto Politécnico de Leiria - Escola Superior de Artes e Design
   grupo: Instituto Politécnico de Leiria
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.39528
+    lon: -9.135278
 - code: '3105'
   nome: Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar
   grupo: Instituto Politécnico de Leiria
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.36472
+    lon: -9.403056
 - code: '3111'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Dança
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.75568
+    lon: -9.113923
 - code: '3112'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Educação
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74616
+    lon: -9.195106
 - code: '3113'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74665
+    lon: -9.19476
 - code: '3114'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Música
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74691
+    lon: -9.196713
 - code: '3116'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Teatro e Cinema
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.76357
+    lon: -9.235246
 - code: '3117'
   nome: Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.73717
+    lon: -9.146786
 - code: '3118'
   nome: Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.75568
+    lon: -9.113923
 - code: '3121'
   nome: Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais
   grupo: Instituto Politécnico de Portalegre
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.28958
+    lon: -7.429967
 - code: '3122'
   nome: Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão
   grupo: Instituto Politécnico de Portalegre
@@ -752,156 +1154,249 @@ estabelecimentos:
   grupo: Instituto Politécnico de Portalegre
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.26868
+    lon: -7.4425
 - code: '3125'
   nome: Instituto Politécnico de Portalegre - Escola Superior de Biociências de Elvas
   grupo: Instituto Politécnico de Portalegre
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.8809
+    lon: -7.167167
 - code: '3131'
   nome: Instituto Politécnico do Porto - Escola Superior de Educação
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.1799
+    lon: -8.598137
 - code: '3132'
   nome: Instituto Politécnico do Porto - Escola Superior de Música e Artes do Espectáculo
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.15432
+    lon: -8.603181
 - code: '3134'
   nome: Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.18986
+    lon: -8.598206
 - code: '3135'
   nome: Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.17834
+    lon: -8.606863
 - code: '3138'
   nome: Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.36677
+    lon: -8.194765
 - code: '3139'
   nome: Instituto Politécnico do Porto - Escola Superior de Hotelaria e Turismo
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.36633
+    lon: -8.739719
 - code: '3141'
   nome: Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém
   grupo: Instituto Politécnico de Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.24965
+    lon: -8.697347
 - code: '3142'
   nome: Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém
   grupo: Instituto Politécnico de Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.22225
+    lon: -8.688641
 - code: '3143'
   nome: Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém
   grupo: Instituto Politécnico de Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.22521
+    lon: -8.690559
 - code: '3145'
   nome: Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior
   grupo: Instituto Politécnico de Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.345
+    lon: -8.933
 - code: '3151'
   nome: Instituto Politécnico de Setúbal - Escola Superior de Educação
   grupo: Instituto Politécnico de Setúbal
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.51978
+    lon: -8.838278
 - code: '3152'
   nome: Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal
   grupo: Instituto Politécnico de Setúbal
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.52167
+    lon: -8.839167
 - code: '3153'
   nome: Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais
   grupo: Instituto Politécnico de Setúbal
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.52306
+    lon: -8.841667
 - code: '3154'
   nome: Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro
   grupo: Instituto Politécnico de Setúbal
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.65239
+    lon: -9.04896
 - code: '3155'
   nome: Instituto Politécnico de Setúbal - Escola Superior de Saúde
   grupo: Instituto Politécnico de Setúbal
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.52306
+    lon: -8.841667
 - code: '3161'
   nome: Instituto Politécnico de Viana do Castelo - Escola Superior Agrária
   grupo: Instituto Politécnico de Viana do Castelo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.79271
+    lon: -8.54231
 - code: '3162'
   nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Educação
   grupo: Instituto Politécnico de Viana do Castelo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.70303
+    lon: -8.820739
 - code: '3163'
   nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão
   grupo: Instituto Politécnico de Viana do Castelo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.69424
+    lon: -8.846658
 - code: '3164'
   nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Ciências Empresariais
   grupo: Instituto Politécnico de Viana do Castelo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 42.02595
+    lon: -8.641592
 - code: '3165'
   nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Desporto e Lazer
   grupo: Instituto Politécnico de Viana do Castelo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 42.11456
+    lon: -8.257095
 - code: '3181'
   nome: Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu
   grupo: Instituto Politécnico de Viseu
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.66005
+    lon: -7.913927
 - code: '3182'
   nome: Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu
   grupo: Instituto Politécnico de Viseu
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.64449
+    lon: -7.921137
 - code: '3185'
   nome: Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu
   grupo: Instituto Politécnico de Viseu
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.64135
+    lon: -7.910146
 - code: '3186'
   nome: Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego
   grupo: Instituto Politécnico de Viseu
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.09662
+    lon: -7.808191
 - code: '3241'
   nome: Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar
   grupo: Instituto Politécnico de Tomar
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.59896
+    lon: -8.389722
 - code: '3242'
   nome: Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar
   grupo: Instituto Politécnico de Tomar
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.59896
+    lon: -8.389722
 - code: '3243'
   nome: Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes
   grupo: Instituto Politécnico de Tomar
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.46782
+    lon: -8.207817
 - code: '3331'
   nome: Instituto Politécnico do Porto - Escola Superior de Media Artes e Design
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.36633
+    lon: -8.739719
 - code: '4002'
   nome: Academia Nacional Superior de Orquestra
   grupo: Academia Nacional Superior de Orquestra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.69944
+    lon: -9.181667
 - code: '4010'
   nome: Escola Superior Artística do Porto
   grupo: Escola Superior Artística do Porto
@@ -912,355 +1407,565 @@ estabelecimentos:
   grupo: Escola Superior de Actividades Imobiliárias
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74368
+    lon: -9.113525
 - code: '4069'
   nome: Escola Superior de Artes e Design
   grupo: Escola Superior de Artes e Design
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.18464
+    lon: -8.662266
 - code: '4076'
   nome: Escola Superior de Educação de Fafe
   grupo: Escola Superior de Educação de Fafe
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.46357
+    lon: -8.153696
 - code: '4080'
   nome: Escola Superior de Educação de João de Deus
   grupo: Escola Superior de Educação de João de Deus
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.71589
+    lon: -9.158396
 - code: '4085'
   nome: Escola Superior de Educação de Paula Frassinetti
   grupo: Escola Superior de Educação de Paula Frassinetti
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.16028
+    lon: -8.6025
 - code: '4089'
   nome: Escola Superior de Saúde Norte da Cruz Vermelha Portuguesa
   grupo: Escola Superior de Saúde Norte da Cruz Vermelha Portuguesa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.83691
+    lon: -8.472358
 - code: '4091'
   nome: Escola Superior de Saúde da Cruz Vermelha Portuguesa - Lisboa
   grupo: Escola Superior de Saúde da Cruz Vermelha Portuguesa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.71442
+    lon: -9.176041
 - code: '4096'
   nome: Escola Superior de Enfermagem São Francisco das Misericórdias
   grupo: Escola Superior de Enfermagem São Francisco das Misericórdias
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.72448
+    lon: -9.146054
 - code: '4097'
   nome: Escola Superior de Saúde de Santa Maria
   grupo: Escola Superior de Saúde de Santa Maria
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.16033
+    lon: -8.609315
 - code: '4098'
   nome: Escola Superior de Enfermagem de São José de Cluny
   grupo: Escola Superior de Enfermagem de São José de Cluny
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 32.66711
+    lon: -16.90464
 - code: '4105'
   nome: Escola Superior de Saúde do Alcoitão
   grupo: Escola Superior de Saúde do Alcoitão
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.73198
+    lon: -9.40119
 - code: '4106'
   nome: Escola Superior de Saúde Egas Moniz
   grupo: Escola Superior de Saúde Egas Moniz
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.6669
+    lon: -9.200091
 - code: '4108'
   nome: Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Saúde do Vale do Ave
   grupo: Instituto Politécnico de Saúde do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.40671
+    lon: -8.515314
 - code: '4109'
   nome: Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Tecnologias da Saúde do Tâmega
     e Sousa
   grupo: Instituto Politécnico de Saúde do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.18351
+    lon: -8.445928
 - code: '4110'
   nome: Escola Superior de Saúde Cruz Vermelha Portuguesa - Alto Tâmega
   grupo: Escola Superior de Saúde Cruz Vermelha Portuguesa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.7811
+    lon: -7.447647
 - code: '4113'
   nome: Instituto Politécnico de Saúde do Norte - CESPU - Escola Superior de Enfermagem do Tâmega e Sousa
   grupo: Instituto Politécnico de Saúde do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.20715
+    lon: -8.283265
 - code: '4115'
   nome: Escola Superior de Tecnologias de Fafe
   grupo: Escola Superior de Tecnologias de Fafe
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.46357
+    lon: -8.153696
 - code: '4126'
   nome: Escola Universitária Vasco da Gama
   grupo: Escola Universitária Vasco da Gama
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.23515
+    lon: -8.415624
 - code: '4141'
   nome: Escola Superior de Negócios Atlântico
   grupo: Escola Superior de Negócios Atlântico
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.08563
+    lon: -8.651342
 - code: '4155'
   nome: Instituto Português de Administração de Marketing do Porto
   grupo: Instituto Português de Administração de Marketing do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.17588
+    lon: -8.64978
 - code: '4156'
   nome: Instituto Português de Administração de Marketing de Lisboa
   grupo: Instituto Português de Administração de Marketing de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.76037
+    lon: -9.193671
 - code: '4200'
   nome: Instituto Superior de Administração e Gestão
   grupo: Instituto Superior de Administração e Gestão
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.15463
+    lon: -8.644514
 - code: '4260'
   nome: Instituto Universitário Egas Moniz
   grupo: Instituto Universitário Egas Moniz
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.6669
+    lon: -9.200091
 - code: '4270'
   nome: ISCE - Instituto Superior de Lisboa e Vale do Tejo
   grupo: ISCE
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.8064
+    lon: -9.191853
 - code: '4271'
   nome: Instituto Superior de Ciências Educativas do Douro
   grupo: Instituto Superior de Ciências Educativas do Douro
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.12039
+    lon: -8.172403
 - code: '4277'
   nome: Instituto Superior de Ciências da Informação e da Administração
   grupo: Instituto Superior de Ciências da Informação e da Administração
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.63694
+    lon: -8.6325
 - code: '4280'
   nome: Instituto Superior de Ciências Empresariais e do Turismo
   grupo: Instituto Superior de Ciências Empresariais e do Turismo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.152
+    lon: -8.617905
 - code: '4283'
   nome: Instituto Superior de Entre Douro e Vouga
   grupo: Instituto Superior de Entre Douro e Vouga
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.92438
+    lon: -8.544944
 - code: '4292'
   nome: Instituto Superior D. Dinis
   grupo: Instituto Superior D. Dinis
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.74083
+    lon: -8.92663
 - code: '4298'
   nome: ISEC Lisboa - Instituto Superior de Educação e Ciências
   grupo: ISEC Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.76894
+    lon: -9.15895
 - code: '4300'
   nome: Instituto Superior de Gestão
   grupo: Instituto Superior de Gestão
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.75053
+    lon: -9.185107
 - code: '4306'
   nome: Instituto Superior de Estudos Interculturais e Transdisciplinares de Almada
   grupo: Instituto Superior de Estudos Interculturais e Transdisciplinares de Almada
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.6664
+    lon: -9.1769
 - code: '4308'
   nome: Instituto Superior de Estudos Interculturais e Transdisciplinares de Viseu
   grupo: Instituto Superior de Estudos Interculturais e Transdisciplinares de Viseu
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.44123
+    lon: -7.56216
 - code: '4350'
   nome: Universidade Europeia
   grupo: Universidade Europeia
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.77668
+    lon: -9.193758
 - code: '4375'
   nome: Instituto Superior Manuel Teixeira Gomes
   grupo: Instituto Superior Manuel Teixeira Gomes
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 37.14078
+    lon: -8.535942
 - code: '4442'
   nome: Instituto Superior Politécnico Gaya - Escola Superior de Ciência e Tecnologia
   grupo: Instituto Superior Politécnico Gaya
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.11968
+    lon: -8.623498
 - code: '4444'
   nome: Instituto Superior Politécnico Gaya - Escola Superior de Ciências Empresariais
   grupo: Instituto Superior Politécnico Gaya
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.11968
+    lon: -8.623498
 - code: '4450'
   nome: ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida
   grupo: ISPA
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.71216
+    lon: -9.125942
 - code: '4460'
   nome: ISAVE - Instituto Superior de Saúde
   grupo: ISAVE
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.63487
+    lon: -8.350614
 - code: '4500'
   nome: Instituto Superior Miguel Torga
   grupo: Instituto Superior Miguel Torga
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 40.21349
+    lon: -8.41318
 - code: '4520'
   nome: Instituto Superior de Serviço Social do Porto
   grupo: Instituto Superior de Serviço Social do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.18272
+    lon: -8.652955
 - code: '4530'
   nome: Instituto Superior de Tecnologias Avançadas de Lisboa
   grupo: Instituto Superior de Tecnologias Avançadas de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.76894
+    lon: -9.15895
 - code: '4571'
   nome: ISLA - Instituto Politécnico de Gestão e Tecnologia - Escola Superior de Gestão
   grupo: ISLA
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.12411
+    lon: -8.614039
 - code: '4572'
   nome: ISLA - Instituto Politécnico de Gestão e Tecnologia - Escola Superior de Tecnologia
   grupo: ISLA
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.12411
+    lon: -8.614039
 - code: '4581'
   nome: Instituto Politécnico da Maia - Escola Superior de Ciências Sociais, Educação e Desporto
   grupo: Instituto Politécnico da Maia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.26783
+    lon: -8.6172
 - code: '4582'
   nome: Instituto Politécnico da Maia - Escola Superior de Tecnologia e Gestão
   grupo: Instituto Politécnico da Maia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.26783
+    lon: -8.6172
 - code: '4590'
   nome: Escola Superior de Saúde Atlântica
   grupo: Escola Superior de Saúde Atlântica
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74141
+    lon: -9.284575
 - code: '4601'
   nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Educação Jean Piaget de Almada
   grupo: Instituto Politécnico Jean Piaget do Sul
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.3959
+    lon: -9.10368
 - code: '4602'
   nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Tecnologia e Gestão Jean Piaget
   grupo: Instituto Politécnico Jean Piaget do Sul
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.6664
+    lon: -9.1769
 - code: '4603'
   nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Saúde Jean Piaget do Algarve
   grupo: Instituto Politécnico Jean Piaget do Sul
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.1964
+    lon: -8.4336
 - code: '4604'
   nome: Instituto Politécnico Jean Piaget do Sul - Escola Superior de Saúde Jean Piaget de Almada
   grupo: Instituto Politécnico Jean Piaget do Sul
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.6664
+    lon: -9.1769
 - code: '4611'
   nome: Instituto Politécnico da Lusofonia - Escola Superior de Comunicação, Inovação e Artes
   grupo: Instituto Politécnico da Lusofonia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74674
+    lon: -9.100184
 - code: '4612'
   nome: Instituto Politécnico da Lusofonia - Escola Superior de Ciências da Administração
   grupo: Instituto Politécnico da Lusofonia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74674
+    lon: -9.100184
 - code: '4613'
   nome: Instituto Politécnico da Lusofonia - Escola Superior de Engenharia e Tecnologias
   grupo: Instituto Politécnico da Lusofonia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74674
+    lon: -9.100184
 - code: '4614'
   nome: Instituto Politécnico da Lusofonia - Escola Superior de Saúde Ribeiro Sanches
   grupo: Instituto Politécnico da Lusofonia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74674
+    lon: -9.100184
 - code: '4615'
   nome: Instituto Politécnico da Lusofonia - Escola Superior de Saúde, Proteção e Bem-Estar Animal
   grupo: Instituto Politécnico da Lusofonia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74674
+    lon: -9.100184
 - code: '4616'
   nome: Instituto Politécnico da Lusofonia - Escola Superior de Educação da Lusofonia
   grupo: Instituto Politécnico da Lusofonia
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.74674
+    lon: -9.100184
 - code: '4620'
   nome: Escola Superior de Saúde da Fundação «Fernando Pessoa»
   grupo: Escola Superior de Saúde da Fundação «Fernando Pessoa»
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.17316
+    lon: -8.608274
 - code: '4626'
   nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Saúde Jean Piaget de Vila Nova
     de Gaia
   grupo: Instituto Politécnico Jean Piaget do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.07755
+    lon: -8.635221
 - code: '4627'
   nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Desporto e Educação Jean Piaget
     de Vila Nova de Gaia
   grupo: Instituto Politécnico Jean Piaget do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.07755
+    lon: -8.635221
 - code: '4628'
   nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Saúde Jean Piaget de Viseu
   grupo: Instituto Politécnico Jean Piaget do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.73678
+    lon: -7.939917
 - code: '4629'
   nome: Instituto Politécnico Jean Piaget do Norte - Escola Superior de Tecnologia e Gestão Jean Piaget
     de Viseu
   grupo: Instituto Politécnico Jean Piaget do Norte
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.73678
+    lon: -7.939917
 - code: '4630'
   nome: Universidade da Maia
   grupo: Universidade da Maia
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.26779
+    lon: -8.617047
 - code: '4640'
   nome: Instituto Superior de Tecnologias Avançadas do Porto
   grupo: Instituto Superior de Tecnologias Avançadas do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.16667
+    lon: -8.593643
 - code: '4650'
   nome: Instituto Universitário de Ciências da Saúde - CESPU
   grupo: Instituto Universitário de Ciências da Saúde
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.18351
+    lon: -8.445928
 - code: '4661'
   nome: ISLA Santarém - Instituto Politécnico - Escola Superior de Gestão
   grupo: ISLA Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.2337
+    lon: -8.685513
 - code: '4662'
   nome: ISLA Santarém - Instituto Politécnico - Escola Superior de Engenharia e Tecnologia
   grupo: ISLA Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.2337
+    lon: -8.685513
 - code: '5402'
   nome: Universidade do Porto - Faculdade de Belas-Artes
   grupo: Universidade do Porto
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 41.14566
+    lon: -8.600771
 - code: '6800'
   nome: ISCTE - Instituto Universitário de Lisboa
   grupo: ISCTE
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.74875
+    lon: -9.153692
 - code: '6810'
   nome: ISCTE - Instituto Universitário de Lisboa (Sintra)
   grupo: ISCTE
   subsistema: universitario
   distrito: null
+  geo:
+    lat: 38.80215
+    lon: -9.382696
 - code: '7001'
   nome: Escola Superior de Enfermagem de Coimbra
   grupo: Escola Superior de Enfermagem de Coimbra
@@ -1281,96 +1986,153 @@ estabelecimentos:
   grupo: Instituto Politécnico de Beja
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.01457
+    lon: -7.875266
 - code: '7010'
   nome: Universidade do Minho - Escola Superior de Enfermagem
   grupo: Universidade do Minho
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.33338
+    lon: -8.23543
 - code: '7015'
   nome: Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.80336
+    lon: -6.76559
 - code: '7016'
   nome: Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança (Chaves)
   grupo: Instituto Politécnico de Bragança
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.74203
+    lon: -7.470944
 - code: '7020'
   nome: Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias
   grupo: Instituto Politécnico de Castelo Branco
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.82057
+    lon: -7.51405
 - code: '7030'
   nome: Universidade de Évora - Escola Superior de Enfermagem de São João de Deus
   grupo: Universidade de Évora
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.56826
+    lon: -7.902039
 - code: '7035'
   nome: Universidade do Algarve - Escola Superior de Saúde
   grupo: Universidade do Algarve
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.04394
+    lon: -7.972298
 - code: '7040'
   nome: Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda
   grupo: Instituto Politécnico da Guarda
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.52968
+    lon: -7.276771
 - code: '7045'
   nome: Instituto Politécnico de Leiria - Escola Superior de Saúde
   grupo: Instituto Politécnico de Leiria
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.73278
+    lon: -8.820556
 - code: '7055'
   nome: Instituto Politécnico de Portalegre - Escola Superior de Saúde
   grupo: Instituto Politécnico de Portalegre
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.30038
+    lon: -7.425994
 - code: '7065'
   nome: Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém
   grupo: Instituto Politécnico de Santarém
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 39.24598
+    lon: -8.701129
 - code: '7075'
   nome: Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde
   grupo: Instituto Politécnico de Viana do Castelo
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.69738
+    lon: -8.834974
 - code: '7080'
   nome: Universidade de Trás-os-Montes e Alto Douro - Escola Superior de Saúde
   grupo: Universidade de Trás-os-Montes e Alto Douro
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.28739
+    lon: -7.738986
 - code: '7085'
   nome: Instituto Politécnico de Viseu - Escola Superior de Saúde de Viseu
   grupo: Instituto Politécnico de Viseu
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.65262
+    lon: -7.905071
 - code: '7092'
   nome: Universidade dos Açores - Escola Superior de Saúde - Angra do Heroísmo
   grupo: Universidade dos Açores
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.6585
+    lon: -27.234
 - code: '7093'
   nome: Universidade dos Açores - Escola Superior de Saúde - Ponta Delgada
   grupo: Universidade dos Açores
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 37.74654
+    lon: -25.66221
 - code: '7105'
   nome: Escola Superior Náutica Infante D. Henrique
   grupo: Escola Superior Náutica Infante D. Henrique
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.69206
+    lon: -9.298875
 - code: '7110'
   nome: Escola Superior de Hotelaria e Turismo do Estoril
   grupo: Escola Superior de Hotelaria e Turismo do Estoril
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.71722
+    lon: -9.391944
 - code: '7210'
   nome: Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra
   grupo: Instituto Politécnico de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.19915
+    lon: -8.461344
 - code: '7220'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa
   grupo: Instituto Politécnico de Lisboa
@@ -1381,23 +2143,38 @@ estabelecimentos:
   grupo: Instituto Politécnico do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.17779
+    lon: -8.60693
 - code: '7240'
   nome: Universidade de Coimbra - Escola Superior de Enfermagem
   grupo: Universidade de Coimbra
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 40.21857
+    lon: -8.409519
 - code: '7250'
   nome: Instituto Politécnico de Lisboa - Escola Superior de Saúde de Lisboa
   grupo: Instituto Politécnico de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.77607
+    lon: -9.097442
 - code: '7260'
   nome: Universidade de Lisboa - Escola Superior de Enfermagem
   grupo: Universidade de Lisboa
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 38.75698
+    lon: -9.14607
 - code: '7270'
   nome: Universidade do Porto - Escola Superior de Enfermagem
   grupo: Universidade do Porto
   subsistema: politecnico
   distrito: null
+  geo:
+    lat: 41.18211
+    lon: -8.603922

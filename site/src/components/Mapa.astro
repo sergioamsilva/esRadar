@@ -1,0 +1,157 @@
+---
+/**
+ * Mapa das colocações: um ponto por estabelecimento do CNA, área
+ * proporcional aos colocados na 1ª fase, cor pelo subsistema.
+ *
+ * Os traçados dos distritos vêm de data/mapa/continente.json (herdados do
+ * snsRadar, já projetados num espaço de 340×560); os pontos usam a MESMA
+ * projeção equirretangular com a longitude corrigida por cos(lat média) —
+ * tem de ser exatamente esta, senão os pontos não caem no desenho.
+ *
+ * As coordenadas dos estabelecimentos foram extraídas dos links «Mapa» das
+ * páginas do guia da DGES. Açores e Madeira ficam fora do retângulo do
+ * continente e são contados à parte na legenda.
+ */
+import fs from "node:fs";
+import path from "node:path";
+import { ligacao, formatarInteiro, type Instituicao } from "../lib/dados";
+
+interface Props {
+  instituicoes: Instituicao[];
+}
+const { instituicoes } = Astro.props;
+
+const mapa: { w: number; h: number; paths: { n: string; d: string }[] } = JSON.parse(
+  fs.readFileSync(path.resolve(process.cwd(), "..", "data", "mapa", "continente.json"), "utf8"),
+);
+
+const LON0 = -9.6, LON1 = -6.15, LAT0 = 36.9, LAT1 = 42.2;
+const X0 = 6, Y0 = 6;
+const k = Math.cos((((LAT0 + LAT1) / 2) * Math.PI) / 180);
+const escala = Math.min((mapa.w - 2 * X0) / ((LON1 - LON0) * k), (mapa.h - 2 * Y0) / (LAT1 - LAT0));
+const projetar = (g: { lat: number; lon: number }) => ({
+  x: X0 + (g.lon - LON0) * k * escala,
+  y: Y0 + (LAT1 - g.lat) * escala,
+});
+
+const comGeo = instituicoes.filter((i) => i.geo);
+const continente = comGeo.filter(
+  (i) => i.geo!.lon >= LON0 && i.geo!.lon <= LON1 && i.geo!.lat >= LAT0 && i.geo!.lat <= LAT1,
+);
+const ilhas = comGeo.filter((i) => !continente.includes(i));
+const ilhasColocados = ilhas.reduce((s, i) => s + i.colocados_f1, 0);
+
+const maxColocados = Math.max(...continente.map((i) => i.colocados_f1), 1);
+const R_MAX = 15;
+const raio = (c: number) => Math.max(2.2, R_MAX * Math.sqrt(c / maxColocados));
+
+const pontos = continente
+  .map((i) => ({ ...i, ...projetar(i.geo!), r: raio(i.colocados_f1) }))
+  .sort((a, b) => b.r - a.r);
+---
+
+<figure class="mapa reveal">
+  <svg
+    viewBox={`0 0 ${mapa.w} ${mapa.h}`}
+    role="img"
+    aria-label={`Mapa de Portugal continental com ${continente.length} estabelecimentos de ensino superior; a área de cada ponto é proporcional aos colocados na 1ª fase de 2026.`}
+  >
+    {mapa.paths.map((p) => <path d={p.d} class="mapa__distrito" />)}
+    {
+      pontos.map((p, i) => (
+        <a href={ligacao(`/instituicao/${p.code}/`)}>
+          <circle
+            cx={p.x.toFixed(1)}
+            cy={p.y.toFixed(1)}
+            r={p.r.toFixed(1)}
+            class={`mapa__ponto mapa__ponto--${p.subsistema ?? "universitario"} ponto-vem`}
+            style={`--dp:${0.15 + (i % 24) * 0.045}s`}
+          >
+            <title>
+              {`${p.nome} — ${formatarInteiro(p.colocados_f1)} colocados, ${formatarInteiro(p.vagas)} vagas${p.sobras_f1 ? `, ${formatarInteiro(p.sobras_f1)} sobras` : ""}`}
+            </title>
+          </circle>
+        </a>
+      ))
+    }
+  </svg>
+  <figcaption class="mapa__legenda">
+    <span class="mapa__chave">
+      <span class="mapa__amostra mapa__amostra--universitario" aria-hidden="true"></span>
+      universitário
+    </span>
+    <span class="mapa__chave">
+      <span class="mapa__amostra mapa__amostra--politecnico" aria-hidden="true"></span>
+      politécnico
+    </span>
+    <span class="mapa__nota">
+      área ∝ colocados na 1ª fase de 2026
+      {
+        ilhas.length > 0 &&
+          ` · + ${ilhas.length} estabelecimentos nos Açores e Madeira (${formatarInteiro(ilhasColocados)} colocados)`
+      }
+    </span>
+  </figcaption>
+</figure>
+
+<style>
+  .mapa {
+    margin: 0;
+  }
+  .mapa svg {
+    display: block;
+    width: min(100%, 420px);
+    height: auto;
+    margin-inline: auto;
+  }
+  .mapa__distrito {
+    fill: color-mix(in srgb, var(--grid) 55%, var(--surface));
+    stroke: var(--baseline);
+    stroke-width: 0.6;
+  }
+  .mapa__ponto {
+    fill-opacity: 0.72;
+    stroke: var(--surface);
+    stroke-width: 0.8;
+    transition: fill-opacity 0.2s ease;
+  }
+  .mapa__ponto:hover {
+    fill-opacity: 1;
+  }
+  .mapa__ponto--universitario {
+    fill: var(--serie-1);
+  }
+  .mapa__ponto--politecnico {
+    fill: var(--serie-2);
+  }
+  .mapa__legenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: var(--t-xs);
+    color: var(--ink-2);
+  }
+  .mapa__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .mapa__amostra {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .mapa__amostra--universitario {
+    background: var(--serie-1);
+  }
+  .mapa__amostra--politecnico {
+    background: var(--serie-2);
+  }
+  .mapa__nota {
+    color: var(--muted);
+    flex-basis: 100%;
+    text-align: center;
+  }
+</style>
