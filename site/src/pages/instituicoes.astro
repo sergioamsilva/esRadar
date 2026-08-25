@@ -46,8 +46,8 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
 
   <ol class="ranking">
     {
-      agregados.map((a) => (
-        <li>
+      agregados.map((a, i) => (
+        <li class="reveal" style={`--d:${Math.min(i * 0.04, 0.5)}s`}>
           <details>
             <summary>
               <span class="ranking__nome">
@@ -67,7 +67,10 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
                   class="ranking__preenchido"
                   style={`width:${(a.vagas / maxVagas) * 100}%`}
                 >
-                  <span style={`width:${a.ocupacao * 100}%`} />
+                  <span
+                    class="cresce"
+                    style={`width:${a.ocupacao * 100}%;--d:${Math.min(0.2 + i * 0.04, 0.7)}s`}
+                  />
                 </span>
               </span>
             </summary>

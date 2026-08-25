@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
 import { ligacao } from "../lib/dados";
 
 interface Props {
@@ -44,6 +45,7 @@ const SECCOES = [
         document.documentElement.classList.add("js");
       })();
     </script>
+    <ClientRouter />
   </head>
   <body>
     <a class="saltar" href="#conteudo">Saltar para o conteúdo</a>
@@ -139,7 +141,9 @@ const SECCOES = [
     </div>
 
     <script>
-      document.querySelector("[data-tema]")?.addEventListener("click", () => {
+      /* Delegado no documento: sobrevive às navegações do ClientRouter. */
+      document.addEventListener("click", (e) => {
+        if (!(e.target instanceof Element) || !e.target.closest("[data-tema]")) return;
         const raiz = document.documentElement;
         const escuro =
           raiz.dataset.theme === "dark" ||
@@ -147,6 +151,60 @@ const SECCOES = [
         raiz.dataset.theme = escuro ? "light" : "dark";
         localStorage.setItem("esradar-tema", raiz.dataset.theme);
       });
+
+      /* ── motor de movimento ──────────────────────────────────────────
+         .reveal      entra ao ficar visível (atraso escalonado via --d)
+         [data-contar] número que conta até ao valor, com easing
+         Corre no primeiro carregamento e após cada navegação. */
+      const reduzido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      const contar = (el: HTMLElement) => {
+        const alvo = Number(el.dataset.contar ?? "0");
+        const casas = Number(el.dataset.casas ?? "0");
+        const fmt = (v: number) =>
+          v.toLocaleString("pt-PT", { minimumFractionDigits: casas, maximumFractionDigits: casas });
+        if (reduzido || alvo === 0) {
+          el.textContent = fmt(alvo);
+          return;
+        }
+        const inicio = performance.now();
+        const dur = 900;
+        const passo = (t: number) => {
+          const p = Math.min(1, (t - inicio) / dur);
+          const e = 1 - Math.pow(1 - p, 3);
+          el.textContent = fmt(alvo * e);
+          if (p < 1) requestAnimationFrame(passo);
+        };
+        requestAnimationFrame(passo);
+      };
+
+      const armar = () => {
+        const observador = new IntersectionObserver(
+          (entradas) => {
+            for (const entrada of entradas) {
+              if (!entrada.isIntersecting) continue;
+              entrada.target.classList.add("on");
+              entrada.target
+                .querySelectorAll<HTMLElement>("[data-contar]:not(.contado)")
+                .forEach((n) => {
+                  n.classList.add("contado");
+                  contar(n);
+                });
+              if (entrada.target instanceof HTMLElement && entrada.target.dataset.contar !== undefined && !entrada.target.classList.contains("contado")) {
+                entrada.target.classList.add("contado");
+                contar(entrada.target);
+              }
+              observador.unobserve(entrada.target);
+            }
+          },
+          { rootMargin: "0px 0px -8% 0px", threshold: 0.15 },
+        );
+        document
+          .querySelectorAll(".reveal, [data-contar]")
+          .forEach((el) => observador.observe(el));
+      };
+      armar();
+      document.addEventListener("astro:page-load", armar);
     </script>
   </body>
 </html>

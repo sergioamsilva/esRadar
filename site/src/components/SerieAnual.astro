@@ -35,10 +35,14 @@ const margem = { esq: 2, dir: 8, topo: 5, base: 9 };
 
 let g: {
   caminhos: { d: string; cor: string; rotulo: string; pontos: { x: number; y: number; p: Ponto }[] }[];
+  area: string | null;
   eixoAnos: { x: number; ano: number }[];
   min: number;
   max: number;
 } | null = null;
+
+/* Id estável para o gradiente desta instância (vários gráficos por página). */
+const gid = `g${[...(titulo + unidade)].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 99991, 7)}`;
 
 if (todos.length >= 2 && anos.length >= 2) {
   let min = Math.min(...todos.map((p) => p.valor));
@@ -52,20 +56,25 @@ if (todos.length >= 2 && anos.length >= 2) {
   const y = (v: number) => margem.topo + (1 - (v - min) / (max - min)) * (A - margem.topo - margem.base);
   const f2 = (n: number) => n.toFixed(2);
 
-  g = {
-    caminhos: comDados.map((s) => {
-      const ordenados = [...s.pontos].sort((a, b) => a.ano - b.ano);
-      return {
-        d: ordenados.map((p, i) => `${i ? "L" : "M"}${f2(x(p.ano))},${f2(y(p.valor))}`).join(" "),
-        cor: s.cor,
-        rotulo: s.rotulo,
-        pontos: ordenados.map((p) => ({ x: x(p.ano), y: y(p.valor), p })),
-      };
-    }),
-    eixoAnos: anos.map((ano) => ({ x: x(ano), ano })),
-    min,
-    max,
-  };
+  const caminhos = comDados.map((s) => {
+    const ordenados = [...s.pontos].sort((a, b) => a.ano - b.ano);
+    return {
+      d: ordenados.map((p, i) => `${i ? "L" : "M"}${f2(x(p.ano))},${f2(y(p.valor))}`).join(" "),
+      cor: s.cor,
+      rotulo: s.rotulo,
+      pontos: ordenados.map((p) => ({ x: x(p.ano), y: y(p.valor), p })),
+    };
+  });
+  /* Área em gradiente sob a primeira série — a cor entra sem gritar. */
+  const base = A - margem.base;
+  const p0 = caminhos[0].pontos;
+  const area =
+    p0.length >= 2
+      ? `M${f2(p0[0].x)},${f2(base)} ` +
+        p0.map((q) => `L${f2(q.x)},${f2(q.y)}`).join(" ") +
+        ` L${f2(p0[p0.length - 1].x)},${f2(base)} Z`
+      : null;
+  g = { caminhos, area, eixoAnos: anos.map((ano) => ({ x: x(ano), ano })), min, max };
 }
 
 const fmt = (v: number) =>
@@ -82,7 +91,7 @@ const descricao = comDados
   .join("; ");
 ---
 
-<figure class="serie">
+<figure class="serie reveal">
   <figcaption class="serie__cab">
     <span class="serie__titulo">{titulo}</span>
     {
@@ -106,14 +115,27 @@ const descricao = comDados
         aria-label={`${titulo}, em ${unidade}. ${descricao}.`}
         preserveAspectRatio="none"
       >
+        <defs>
+          <linearGradient id={gid} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" class="serie__grad-a" />
+            <stop offset="1" class="serie__grad-b" />
+          </linearGradient>
+        </defs>
         {g.eixoAnos.map((e) => (
           <line x1={e.x.toFixed(2)} y1={margem.topo} x2={e.x.toFixed(2)} y2={A - margem.base} class="serie__grelha" />
         ))}
-        {g.caminhos.map((c) => (
+        {g.area && <path d={g.area} fill={`url(#${gid})`} class={`serie__area serie__area--${g.caminhos[0].cor} ponto-vem`} />}
+        {g.caminhos.map((c, ci) => (
           <g class={`serie__s serie__s--${c.cor}`}>
-            <path d={c.d} class="serie__linha" />
-            {c.pontos.map(({ x, y, p }) => (
-              <circle cx={x.toFixed(2)} cy={y.toFixed(2)} r="1.4">
+            <path d={c.d} class="serie__linha traco" pathLength="1" style={`--d:${ci * 0.25}s`} />
+            {c.pontos.map(({ x, y, p }, pi) => (
+              <circle
+                cx={x.toFixed(2)}
+                cy={y.toFixed(2)}
+                r="1.4"
+                class="ponto-vem"
+                style={`--dp:${0.25 * ci + 0.15 + (pi / Math.max(1, c.pontos.length - 1)) * 0.9}s`}
+              >
                 <title>{`${c.rotulo}, ${p.ano}: ${fmt(p.valor)} ${unidade}`}</title>
               </circle>
             ))}
@@ -190,6 +212,15 @@ const descricao = comDados
     stroke: var(--grid);
     stroke-width: 1;
     vector-effect: non-scaling-stroke;
+  }
+  /* A área usa sempre a cor da primeira série (a série principal). */
+  .serie__grad-a {
+    stop-color: var(--serie-1);
+    stop-opacity: 0.22;
+  }
+  .serie__grad-b {
+    stop-color: var(--serie-1);
+    stop-opacity: 0;
   }
   .serie__linha {
     fill: none;

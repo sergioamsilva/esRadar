@@ -73,31 +73,39 @@ const areas = [...new Set(todos.map((c) => c.cnaef_nome).filter(Boolean))].sort(
 </Base>
 
 <script>
-  const form = document.querySelector<HTMLFormElement>(".js-so");
-  const campo = document.querySelector<HTMLInputElement>("[data-procura]");
-  const area = document.querySelector<HTMLSelectElement>("[data-area]");
-  const contagem = document.querySelector<HTMLElement>("[data-contagem]");
-  const itens = [...document.querySelectorAll<HTMLLIElement>("[data-lista] > li")];
-  if (form) form.hidden = false;
+  /* Re-arma em cada navegação do ClientRouter (o evento também dispara no
+     primeiro carregamento quando o router está presente). */
+  const iniciar = () => {
+    const form = document.querySelector<HTMLFormElement>(".js-so");
+    const campo = document.querySelector<HTMLInputElement>("[data-procura]");
+    const area = document.querySelector<HTMLSelectElement>("[data-area]");
+    const contagem = document.querySelector<HTMLElement>("[data-contagem]");
+    const itens = [...document.querySelectorAll<HTMLLIElement>("[data-lista] > li")];
+    if (!form || form.dataset.armado) return;
+    form.dataset.armado = "1";
+    form.hidden = false;
 
-  const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
-  const indexados = itens.map((li) => ({ li, b: semAcentos(li.dataset.b ?? "") }));
+    const semAcentos = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "");
+    const indexados = itens.map((li) => ({ li, b: semAcentos(li.dataset.b ?? "") }));
 
-  const filtrar = () => {
-    const termos = semAcentos((campo?.value ?? "").trim().toLowerCase()).split(/\s+/).filter(Boolean);
-    const a = area?.value ?? "";
-    let visiveis = 0;
-    for (const { li, b } of indexados) {
-      const passa = termos.every((t) => b.includes(t)) && (!a || li.dataset.a === a);
-      li.hidden = !passa;
-      if (passa) visiveis++;
-    }
-    if (contagem)
-      contagem.textContent =
-        termos.length || a ? `${visiveis.toLocaleString("pt-PT")} cursos encontrados` : "";
+    const filtrar = () => {
+      const termos = semAcentos((campo?.value ?? "").trim().toLowerCase()).split(/\s+/).filter(Boolean);
+      const a = area?.value ?? "";
+      let visiveis = 0;
+      for (const { li, b } of indexados) {
+        const passa = termos.every((t) => b.includes(t)) && (!a || li.dataset.a === a);
+        li.hidden = !passa;
+        if (passa) visiveis++;
+      }
+      if (contagem)
+        contagem.textContent =
+          termos.length || a ? `${visiveis.toLocaleString("pt-PT")} cursos encontrados` : "";
+    };
+    campo?.addEventListener("input", filtrar);
+    area?.addEventListener("change", filtrar);
   };
-  campo?.addEventListener("input", filtrar);
-  area?.addEventListener("change", filtrar);
+  iniciar();
+  document.addEventListener("astro:page-load", iniciar);
 </script>
 
 <style>

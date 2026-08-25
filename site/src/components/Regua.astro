@@ -31,7 +31,7 @@ const descricao =
   (fantasma ? `; ${fantasma.rotulo}: ${formatarNota(fantasma.valor)} pontos` : "");
 ---
 
-<figure class="regua" role="img" aria-label={`Régua de notas de 90 a 200. ${descricao}`}>
+<figure class="regua reveal" role="img" aria-label={`Régua de notas de 90 a 200. ${descricao}`}>
   <div class="regua__pista" aria-hidden="true">
     {eixos.map((v) => <span class="regua__tick" style={`left:${pos(v)}%`} />)}
     {
@@ -124,5 +124,35 @@ const descricao =
   .regua__eixo span {
     position: absolute;
     transform: translateX(-50%);
+  }
+
+  /* Entrada: o ponto aterra na régua com um pop, o fantasma e o valor vêm
+     depois. Só sob html.js; reduced-motion anula tudo (regras globais). */
+  :global(html.js) .regua .regua__marca {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s;
+  }
+  :global(html.js) .regua.on .regua__marca {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  :global(html.js) .regua .regua__fantasma,
+  :global(html.js) .regua .regua__valor {
+    opacity: 0;
+    transition: opacity 0.45s ease 0.6s;
+  }
+  :global(html.js) .regua.on .regua__fantasma,
+  :global(html.js) .regua.on .regua__valor {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    :global(html.js) .regua .regua__marca {
+      transform: translate(-50%, -50%) scale(1);
+      transition: none;
+    }
+    :global(html.js) .regua .regua__fantasma,
+    :global(html.js) .regua .regua__valor {
+      opacity: 1;
+      transition: none;
+    }
   }
 </style>

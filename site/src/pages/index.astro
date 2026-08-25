@@ -42,7 +42,7 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
 >
   <section class="hero">
     <h1>
-      Este ano, <b>{formatarInteiro(colocadosF1)}</b> estudantes entraram na 1ª fase.
+      Este ano, <b data-contar={colocadosF1}>{formatarInteiro(colocadosF1)}</b> estudantes entraram na 1ª fase.
       <span class="hero__sub">Sobraram {formatarInteiro(sobrasF1)} vagas para a 2ª.</span>
     </h1>
     <p class="desc medida">
@@ -53,26 +53,30 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
   </section>
 
   <div class="stats">
-    <div class="stat">
-      <b>{formatarInteiro(vagas2026)}</b>
+    <div class="stat reveal">
+      <b data-contar={vagas2026}>{formatarInteiro(vagas2026)}</b>
       <span>vagas iniciais em 2026</span>
       <em>{formatarInteiro(indice.length)} pares curso/instituição</em>
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(colocadosF1)}</b>
+    <div class="stat reveal" style="--d:.08s">
+      <b data-contar={colocadosF1}>{formatarInteiro(colocadosF1)}</b>
       <span>colocados na 1ª fase</span>
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(sobrasF1)}</b>
+    <div class="stat reveal" style="--d:.16s">
+      <b data-contar={sobrasF1}>{formatarInteiro(sobrasF1)}</b>
       <span>vagas sobrantes para a 2ª fase</span>
     </div>
-    <div class="stat">
-      <b>{vagas2026 ? Math.round(((vagas2026 - sobrasF1) / vagas2026) * 100) : 0}%</b>
+    <div class="stat reveal" style="--d:.24s">
+      <b
+        ><span data-contar={vagas2026 ? Math.round(((vagas2026 - sobrasF1) / vagas2026) * 100) : 0}
+          >{vagas2026 ? Math.round(((vagas2026 - sobrasF1) / vagas2026) * 100) : 0}</span
+        >%</b
+      >
       <span>taxa de ocupação na 1ª fase</span>
     </div>
   </div>
 
-  <section class="card full alcance js-so" hidden data-alcance>
+  <section class="card full alcance js-so reveal" hidden data-alcance>
     <h3>Onde entrava com a minha média?</h3>
     <p class="desc">
       Arraste até à sua nota de candidatura (0–200) e veja quantos cursos ficaram ao seu
@@ -100,7 +104,7 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
   <script type="application/json" is:inline data-alcance-dados set:html={JSON.stringify(ALCANCE)} />
 
   <div class="grid">
-    <section class="card">
+    <section class="card reveal">
       <h3>Colocados por ano, todas as fases</h3>
       <SerieAnual
         titulo="Estudantes colocados no concurso nacional"
@@ -113,61 +117,75 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
       </p>
     </section>
 
-    <section class="card">
+    <section class="card reveal" style="--d:.1s">
       <h3>Notas de corte em movimento</h3>
       <p class="desc">Maiores variações da 1ª fase, de 2025 para 2026.</p>
-      <h4 class="mov__rotulo mov__rotulo--sobe">A subir</h4>
-      <ul class="mov">
-        {
-          subidas.map((c) => (
-            <li>
-              <a href={ligacao(`/curso/${c.par}/`)}>
-                {c.curso} <span>{c.grupo}</span>
-              </a>
-              <b>+{c.delta.toLocaleString("pt-PT", { maximumFractionDigits: 1 })}</b>
-            </li>
-          ))
-        }
-      </ul>
-      <h4 class="mov__rotulo mov__rotulo--desce">A descer</h4>
-      <ul class="mov">
-        {
-          descidas.map((c) => (
-            <li>
-              <a href={ligacao(`/curso/${c.par}/`)}>
-                {c.curso} <span>{c.grupo}</span>
-              </a>
-              <b>−{Math.abs(c.delta).toLocaleString("pt-PT", { maximumFractionDigits: 1 })}</b>
-            </li>
-          ))
-        }
-      </ul>
+      {
+        [
+          { rotulo: "A subir", classe: "sobe", lista: subidas },
+          { rotulo: "A descer", classe: "desce", lista: descidas },
+        ].map(({ rotulo, classe, lista }) => {
+          const maxDelta = Math.max(...lista.map((c) => Math.abs(c.delta)));
+          return (
+            <>
+              <h4 class={`mov__rotulo mov__rotulo--${classe}`}>{rotulo}</h4>
+              <ul class="mov">
+                {lista.map((c, i) => (
+                  <li>
+                    <a href={ligacao(`/curso/${c.par}/`)}>
+                      {c.curso} <span>{c.grupo}</span>
+                    </a>
+                    <span class="mov__delta">
+                      <span
+                        class={`mov__barra mov__barra--${classe} cresce`}
+                        style={`width:${(Math.abs(c.delta) / maxDelta) * 100}%;--d:${0.15 + i * 0.06}s`}
+                        aria-hidden="true"
+                      />
+                      <b>
+                        {classe === "sobe" ? "+" : "−"}
+                        {Math.abs(c.delta).toLocaleString("pt-PT", { maximumFractionDigits: 1 })}
+                      </b>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </>
+          );
+        })
+      }
     </section>
   </div>
 </Base>
 
 <script>
-  const seccao = document.querySelector<HTMLElement>("[data-alcance]");
-  const slider = document.querySelector<HTMLInputElement>("[data-alcance-nota]");
-  const valor = document.querySelector<HTMLElement>("[data-alcance-valor]");
-  const resultado = document.querySelector<HTMLElement>("[data-alcance-resultado]");
-  const dados: { n: number | null; c: string; i: string; u: string }[] = JSON.parse(
-    document.querySelector("[data-alcance-dados]")?.textContent ?? "[]",
-  );
-  if (seccao && dados.length) seccao.hidden = false;
+  const iniciar = () => {
+    const seccao = document.querySelector<HTMLElement>("[data-alcance]");
+    const slider = document.querySelector<HTMLInputElement>("[data-alcance-nota]");
+    const valor = document.querySelector<HTMLElement>("[data-alcance-valor]");
+    const resultado = document.querySelector<HTMLElement>("[data-alcance-resultado]");
+    if (!seccao || seccao.dataset.armado) return;
+    const dados: { n: number | null; c: string; i: string; u: string }[] = JSON.parse(
+      document.querySelector("[data-alcance-dados]")?.textContent ?? "[]",
+    );
+    if (!dados.length) return;
+    seccao.dataset.armado = "1";
+    seccao.hidden = false;
 
-  const atualizar = () => {
-    if (!slider || !valor || !resultado) return;
-    const nota = Number(slider.value);
-    valor.textContent = nota.toLocaleString("pt-PT", { minimumFractionDigits: 1 });
-    const alcancaveis = dados.filter((d) => d.n == null || d.n <= nota);
-    const total = dados.length;
-    resultado.innerHTML = `<b>${alcancaveis.length.toLocaleString("pt-PT")}</b> de ${total.toLocaleString(
-      "pt-PT",
-    )} cursos ao alcance na 1ª fase de 2026.`;
+    const atualizar = () => {
+      if (!slider || !valor || !resultado) return;
+      const nota = Number(slider.value);
+      valor.textContent = nota.toLocaleString("pt-PT", { minimumFractionDigits: 1 });
+      slider.style.setProperty("--p", `${((nota - 95) / (200 - 95)) * 100}%`);
+      const alcancaveis = dados.filter((d) => d.n == null || d.n <= nota);
+      resultado.innerHTML = `<b>${alcancaveis.length.toLocaleString("pt-PT")}</b> de ${dados.length.toLocaleString(
+        "pt-PT",
+      )} cursos ao alcance na 1ª fase de 2026.`;
+    };
+    slider?.addEventListener("input", atualizar);
+    atualizar();
   };
-  slider?.addEventListener("input", atualizar);
-  atualizar();
+  iniciar();
+  document.addEventListener("astro:page-load", iniciar);
 </script>
 
 <style>
@@ -248,6 +266,24 @@ const fasesTexto = ep.fases_arquivadas.map((f) => `${f}ª`).join(", ");
   .mov b {
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
+  }
+  .mov__delta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    flex: 0 0 clamp(90px, 22%, 150px);
+  }
+  .mov__barra {
+    height: 6px;
+    border-radius: 3px;
+    max-width: calc(100% - 3.6rem);
+  }
+  .mov__barra--sobe {
+    background: var(--pos);
+  }
+  .mov__barra--desce {
+    background: var(--neg);
   }
   .mov__rotulo {
     font-size: var(--t-2xs);

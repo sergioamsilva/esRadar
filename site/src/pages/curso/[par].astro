@@ -54,8 +54,10 @@ const descricao =
   </header>
 
   <div class="stats">
-    <div class="stat">
-      <b>{formatarNota(nota2026)}</b>
+    <div class="stat reveal">
+      <b {...nota2026 != null ? { "data-contar": nota2026, "data-casas": 1 } : {}}>
+        {formatarNota(nota2026)}
+      </b>
       <span>nota do último colocado, 1ª fase 2026</span>
       {
         variacao != null && (
@@ -67,8 +69,10 @@ const descricao =
         )
       }
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(ficha.vagas_2026)}</b>
+    <div class="stat reveal" style="--d:.08s">
+      <b {...ficha.vagas_2026 != null ? { "data-contar": ficha.vagas_2026 } : {}}>
+        {formatarInteiro(ficha.vagas_2026)}
+      </b>
       <span>vagas em 2026</span>
       {
         f1_2026.sobras != null &&
@@ -79,12 +83,16 @@ const descricao =
           ))
       }
     </div>
-    <div class="stat">
-      <b>{formatarInteiro(f1_2026.colocados)}</b>
+    <div class="stat reveal" style="--d:.16s">
+      <b {...f1_2026.colocados != null ? { "data-contar": f1_2026.colocados } : {}}>
+        {formatarInteiro(f1_2026.colocados)}
+      </b>
       <span>colocados na 1ª fase de 2026</span>
     </div>
-    <div class="stat">
-      <b>{racio != null ? racio.toLocaleString("pt-PT", { maximumFractionDigits: 1 }) : "—"}</b>
+    <div class="stat reveal" style="--d:.24s">
+      <b {...racio != null ? { "data-contar": Math.round(racio * 10) / 10, "data-casas": 1 } : {}}>
+        {racio != null ? racio.toLocaleString("pt-PT", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) : "—"}
+      </b>
       <span>candidatos em 1ª opção por vaga (2025)</span>
       {procura != null && <em>{formatarInteiro(procura)} escolheram-no em primeiro lugar</em>}
     </div>
@@ -92,7 +100,7 @@ const descricao =
 
   {
     nota2026 != null && (
-      <section class="card full regua-card">
+      <section class="card full regua-card reveal">
         <h3>Onde cai a nota de corte</h3>
         <Regua
           marcas={[{ valor: nota2026, rotulo: "Último colocado, 1ª fase 2026" }]}
@@ -140,7 +148,7 @@ const descricao =
       </p>
     </section>
 
-    <section class="card">
+    <section class="card reveal">
       <h3>Como se entra</h3>
       {
         ficha.provas_ingresso && (
@@ -166,23 +174,25 @@ const descricao =
       </p>
     </section>
 
-    <section class="card">
+    <section class="card reveal" style="--d:.1s">
       <h3>Com que notas se entrou em 2025</h3>
       {
         f1_2025.media_candidatura != null ? (
           <ul class="medias">
-            <li>
-              <b>{formatarNota(f1_2025.media_candidatura)}</b>
-              <span>média da nota de candidatura dos colocados</span>
-            </li>
-            <li>
-              <b>{formatarNota(f1_2025.media_provas)}</b>
-              <span>média das provas de ingresso</span>
-            </li>
-            <li>
-              <b>{formatarNota(f1_2025.media_secundario)}</b>
-              <span>média do secundário</span>
-            </li>
+            {
+              [
+                [f1_2025.media_candidatura, "média da nota de candidatura dos colocados"],
+                [f1_2025.media_provas, "média das provas de ingresso"],
+                [f1_2025.media_secundario, "média do secundário"],
+              ].map(([valor, rotulo]) => (
+                <li>
+                  <b {...valor != null ? { "data-contar": valor, "data-casas": 1 } : {}}>
+                    {formatarNota(valor as number | null)}
+                  </b>
+                  <span>{rotulo}</span>
+                </li>
+              ))
+            }
           </ul>
         ) : (
           <p class="desc">Sem dados de médias para 2025.</p>
