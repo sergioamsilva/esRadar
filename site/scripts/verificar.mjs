@@ -1,7 +1,7 @@
 /**
  * Gates de qualidade sobre o site construído, antes de publicar:
  * - axe (WCAG 2.1 AA) numa amostra de páginas, nos dois temas;
- * - sem transbordo horizontal a 390 px (regra do CLAUDE.md).
+ * - sem transbordo horizontal a 390 px (regra do AGENTS.md).
  * Sai com código ≠0 à primeira violação. Corre contra um servidor local
  * do dist (astro preview) cuja base é /esRadar.
  */

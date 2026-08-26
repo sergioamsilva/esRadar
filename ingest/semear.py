@@ -5,7 +5,7 @@ um par que desapareceu e outro que apareceu com o MESMO nome de curso
 normalizado no MESMO estabelecimento é provavelmente uma recodificação.
 As sugestões vão para reference/pares_sugestoes.yaml — a decisão de as
 promover a reference/pares.yaml é sempre humana; nada é fundido
-automaticamente (ver CLAUDE.md).
+automaticamente (ver AGENTS.md).
 
 Uso: python -m ingest.semear
 """
