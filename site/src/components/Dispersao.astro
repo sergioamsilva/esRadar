@@ -2,7 +2,8 @@
 /**
  * Dispersão (scatter) com quadrantes: cada ponto é um curso, clicável,
  * com tooltip do motor global (data-dica). As medianas dividem o plano em
- * quatro leituras, anotadas nos cantos. Os pontos acendem-se em cascata.
+ * quatro leituras, anotadas nos cantos; os eixos têm escala visível
+ * (rótulos em HTML — texto dentro de um SVG esticado deformar-se-ia).
  */
 interface Ponto {
   x: number;
@@ -29,63 +30,95 @@ const {
   eixoY,
   cantos = null,
   formatoX = (v: number) => v.toLocaleString("pt-PT", { maximumFractionDigits: 1 }),
-  formatoY = (v: number) => v.toLocaleString("pt-PT", { maximumFractionDigits: 1 }),
+  formatoY = (v: number) => v.toLocaleString("pt-PT", { maximumFractionDigits: 0 }),
   limiteX = 0.99,
 } = Astro.props;
 
 const xs = pontos.map((p) => p.x).sort((a, b) => a - b);
 const ys = pontos.map((p) => p.y).sort((a, b) => a - b);
 const xMax = limiteX ? xs[Math.min(xs.length - 1, Math.floor(xs.length * limiteX))] : xs[xs.length - 1];
-const xMin = xs[0];
+const xMin = limiteX ? Math.min(0, xs[0]) : xs[0];
 const yMin = ys[0];
 const yMax = ys[ys.length - 1];
 const medX = xs[Math.floor(xs.length / 2)];
 const medY = ys[Math.floor(ys.length / 2)];
 
+/* Marcas «redondas» para os eixos: passo 1/2/5×10^k. */
+const marcas = (min: number, max: number, alvo = 6): number[] => {
+  const bruto = (max - min) / alvo;
+  const base = Math.pow(10, Math.floor(Math.log10(bruto)));
+  const passo = [1, 2, 5, 10].map((m) => m * base).find((p) => (max - min) / p <= alvo) ?? base * 10;
+  const inicio = Math.ceil(min / passo) * passo;
+  const saida: number[] = [];
+  for (let v = inicio; v <= max + 1e-9; v += passo) saida.push(Math.round(v * 100) / 100);
+  return saida;
+};
+const ticksX = marcas(xMin, xMax);
+const ticksY = marcas(yMin, yMax);
+
 const L = 100;
-const A = 62;
-const m = { esq: 3, dir: 3, topo: 6, base: 10 };
+const A = 78;
+const m = { esq: 2, dir: 2, topo: 5, base: 5 };
 const fx = (v: number) =>
   m.esq + ((Math.min(v, xMax) - xMin) / (xMax - xMin || 1)) * (L - m.esq - m.dir);
 const fy = (v: number) => m.topo + (1 - (v - yMin) / (yMax - yMin || 1)) * (A - m.topo - m.base);
 const f2 = (n: number) => n.toFixed(2);
+const pctX = (v: number) => (fx(v) / L) * 100;
+const pctY = (v: number) => (fy(v) / A) * 100;
 
 const cortados = pontos.filter((p) => p.x > xMax).length;
 ---
 
 <figure class="disp reveal">
-  <svg viewBox={`0 0 ${L} ${A}`} preserveAspectRatio="none" aria-label={`Dispersão: ${eixoX} contra ${eixoY}, ${pontos.length} cursos.`}>
-    <line x1={f2(fx(medX))} y1={m.topo} x2={f2(fx(medX))} y2={A - m.base} class="disp__mediana" />
-    <line x1={m.esq} y1={f2(fy(medY))} x2={L - m.dir} y2={f2(fy(medY))} class="disp__mediana" />
-    {
-      pontos.map((p, i) => (
-        <a href={p.url} aria-label={`${p.rotulo} — ${p.detalhe}`}>
-          <circle
-            cx={f2(fx(p.x))}
-            cy={f2(fy(p.y))}
-            r="1.05"
-            class={`disp__ponto disp__ponto--${p.cor} ponto-vem`}
-            style={`--dp:${0.1 + ((i * 7) % 40) * 0.02}s`}
-            data-dica={`${p.rotulo}\n${p.detalhe}`}
-          />
-        </a>
-      ))
-    }
-  </svg>
-  {
-    cantos && (
-      <div class="disp__cantos" aria-hidden="true">
-        <span class="disp__canto disp__canto--se">{cantos[0]}</span>
-        <span class="disp__canto disp__canto--sd">{cantos[1]}</span>
-        <span class="disp__canto disp__canto--ie">{cantos[2]}</span>
-        <span class="disp__canto disp__canto--id">{cantos[3]}</span>
-      </div>
-    )
-  }
+  <div class="disp__moldura">
+    <div class="disp__eixo-y" aria-hidden="true">
+      {ticksY.map((v) => <span style={`top:${pctY(v)}%`}>{formatoY(v)}</span>)}
+    </div>
+    <div class="disp__caixa">
+      <svg viewBox={`0 0 ${L} ${A}`} preserveAspectRatio="none" aria-label={`Dispersão: ${eixoX} contra ${eixoY}, ${pontos.length} cursos.`}>
+        {ticksY.map((v) => (
+          <line x1={m.esq} y1={f2(fy(v))} x2={L - m.dir} y2={f2(fy(v))} class="disp__grelha" />
+        ))}
+        {ticksX.map((v) => (
+          <line x1={f2(fx(v))} y1={m.topo} x2={f2(fx(v))} y2={A - m.base} class="disp__grelha" />
+        ))}
+        <line x1={f2(fx(medX))} y1={m.topo} x2={f2(fx(medX))} y2={A - m.base} class="disp__mediana" />
+        <line x1={m.esq} y1={f2(fy(medY))} x2={L - m.dir} y2={f2(fy(medY))} class="disp__mediana" />
+        {
+          pontos.map((p, i) => (
+            <a href={p.url} aria-label={`${p.rotulo} — ${p.detalhe}`}>
+              <circle
+                cx={f2(fx(p.x))}
+                cy={f2(fy(p.y))}
+                r="0.62"
+                class={`disp__ponto disp__ponto--${p.cor} ponto-vem`}
+                style={`--dp:${0.1 + ((i * 7) % 40) * 0.02}s`}
+                data-dica={`${p.rotulo}\n${p.detalhe}`}
+              />
+            </a>
+          ))
+        }
+      </svg>
+      {
+        cantos && (
+          <div class="disp__cantos" aria-hidden="true">
+            <span class="disp__canto disp__canto--se">{cantos[0]}</span>
+            <span class="disp__canto disp__canto--sd">{cantos[1]}</span>
+            <span class="disp__canto disp__canto--ie">{cantos[2]}</span>
+            <span class="disp__canto disp__canto--id">{cantos[3]}</span>
+          </div>
+        )
+      }
+    </div>
+    <div class="disp__eixo-x" aria-hidden="true">
+      {ticksX.map((v) => <span style={`left:${pctX(v)}%`}>{formatoX(v)}</span>)}
+    </div>
+  </div>
   <figcaption class="disp__eixos">
     <span>
-      {eixoX} → <b>medianas a tracejado</b>
+      {eixoX} →
       {cortados > 0 && ` · ${cortados} fora do recorte (${formatoX(xMax)}+)`}
+      {" · medianas a tracejado"}
     </span>
     <span class="disp__eixoy">↑ {eixoY}</span>
   </figcaption>
@@ -93,25 +126,68 @@ const cortados = pontos.filter((p) => p.x > xMax).length;
 
 <style>
   .disp {
-    position: relative;
     margin: 10px 0 0;
   }
-  .disp svg {
+  .disp__moldura {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 8px;
+  }
+  .disp__caixa {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .disp__caixa svg {
     display: block;
     width: 100%;
-    height: clamp(16rem, 38vw, 24rem);
+    height: clamp(22rem, 46vw, 32rem);
     overflow: visible;
   }
+  .disp__eixo-y {
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    width: 3.2ch;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .disp__eixo-y span {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .disp__eixo-x {
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    height: 1.1rem;
+    margin-top: 4px;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .disp__eixo-x span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .disp__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
   .disp__mediana {
-    stroke: var(--baseline);
+    stroke: var(--ink-2);
     stroke-width: 1;
     stroke-dasharray: 4 4;
     vector-effect: non-scaling-stroke;
   }
   .disp__ponto {
-    fill-opacity: 0.55;
+    fill-opacity: 0.5;
     stroke: var(--surface);
-    stroke-width: 0.6;
+    stroke-width: 0.4;
     vector-effect: non-scaling-stroke;
     transition: fill-opacity 0.15s ease, transform 0.15s ease;
     transform-box: fill-box;
@@ -119,7 +195,7 @@ const cortados = pontos.filter((p) => p.x > xMax).length;
   }
   .disp__ponto:hover {
     fill-opacity: 1;
-    transform: scale(2);
+    transform: scale(2.6);
   }
   .disp__ponto--serie-1 {
     fill: var(--serie-1);
@@ -129,7 +205,7 @@ const cortados = pontos.filter((p) => p.x > xMax).length;
   }
   .disp__cantos {
     position: absolute;
-    inset: 0 0 3.2rem 0;
+    inset: 0;
     pointer-events: none;
     font-size: var(--t-2xs);
     color: var(--muted);
@@ -137,30 +213,33 @@ const cortados = pontos.filter((p) => p.x > xMax).length;
   .disp__canto {
     position: absolute;
     max-width: 15rem;
+    background: color-mix(in srgb, var(--surface) 78%, transparent);
+    padding: 1px 4px;
+    border-radius: 4px;
   }
   .disp__canto--se {
     top: 2px;
-    left: 2px;
+    left: 6px;
   }
   .disp__canto--sd {
     top: 2px;
-    right: 2px;
+    right: 6px;
     text-align: right;
   }
   .disp__canto--ie {
     bottom: 2px;
-    left: 2px;
+    left: 6px;
   }
   .disp__canto--id {
     bottom: 2px;
-    right: 2px;
+    right: 6px;
     text-align: right;
   }
   .disp__eixos {
     display: flex;
     justify-content: space-between;
     gap: 12px;
-    margin-top: 8px;
+    margin-top: 6px;
     font-size: var(--t-2xs);
     color: var(--muted);
   }

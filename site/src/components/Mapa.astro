@@ -78,7 +78,12 @@ const pontos = continente
       </div>
     )
   }
-  <svg viewBox={`0 0 ${mapa.w} ${mapa.h}`} aria-label="Mapa de Portugal continental">
+  <div class="mapa__zoom js-so" hidden data-mapa-zoom role="group" aria-label="Zoom do mapa">
+    <button type="button" class="chip" data-zoom-mais aria-label="Aproximar">+</button>
+    <button type="button" class="chip" data-zoom-menos aria-label="Afastar">−</button>
+    <button type="button" class="chip" data-zoom-repor aria-label="Repor vista">⌂</button>
+  </div>
+  <svg viewBox={`0 0 ${mapa.w} ${mapa.h}`} data-mapa-svg aria-label="Mapa de Portugal continental">
     {
       mapa.paths.map((p) => {
         const oc = ocupacaoDe(p.n);
@@ -138,6 +143,67 @@ const pontos = continente
 </figure>
 
 <script>
+  const armarZoom = () => {
+    document.querySelectorAll<SVGSVGElement>("[data-mapa-svg]:not([data-zoom-armado])").forEach((svg) => {
+      svg.dataset.zoomArmado = "1";
+      const figura = svg.closest("figure")!;
+      const controlos = figura.querySelector<HTMLElement>("[data-mapa-zoom]");
+      if (controlos) controlos.hidden = false;
+      const base = svg.viewBox.baseVal;
+      const inicial = { x: base.x, y: base.y, w: base.width, h: base.height };
+      const aplicar = (v: { x: number; y: number; w: number; h: number }) => {
+        const escala = inicial.w / v.w;
+        // nunca afastar além da vista inicial nem aproximar mais de 8×
+        if (escala < 1) v = { ...inicial };
+        if (escala > 8) return;
+        svg.setAttribute("viewBox", `${v.x} ${v.y} ${v.w} ${v.h}`);
+        svg.classList.toggle("mapa--zoomed", v.w < inicial.w);
+      };
+      const atual = () => {
+        const b = svg.viewBox.baseVal;
+        return { x: b.x, y: b.y, w: b.width, h: b.height };
+      };
+      const zoom = (fator: number, cx?: number, cy?: number) => {
+        const v = atual();
+        const r = svg.getBoundingClientRect();
+        const px = cx != null ? (cx - r.left) / r.width : 0.5;
+        const py = cy != null ? (cy - r.top) / r.height : 0.5;
+        const w = v.w / fator;
+        const h = v.h / fator;
+        aplicar({ x: v.x + (v.w - w) * px, y: v.y + (v.h - h) * py, w, h });
+      };
+      svg.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        zoom(e.deltaY < 0 ? 1.25 : 1 / 1.25, e.clientX, e.clientY);
+      }, { passive: false });
+      controlos?.querySelector("[data-zoom-mais]")?.addEventListener("click", () => zoom(1.4));
+      controlos?.querySelector("[data-zoom-menos]")?.addEventListener("click", () => zoom(1 / 1.4));
+      controlos?.querySelector("[data-zoom-repor]")?.addEventListener("click", () => aplicar({ ...inicial }));
+      // arrastar para navegar quando aproximado
+      let arrasto: { x: number; y: number } | null = null;
+      svg.addEventListener("pointerdown", (e) => {
+        if (svg.viewBox.baseVal.width >= inicial.w) return;
+        arrasto = { x: e.clientX, y: e.clientY };
+        svg.setPointerCapture(e.pointerId);
+      });
+      svg.addEventListener("pointermove", (e) => {
+        if (!arrasto) return;
+        const v = atual();
+        const r = svg.getBoundingClientRect();
+        aplicar({
+          x: v.x - ((e.clientX - arrasto.x) / r.width) * v.w,
+          y: v.y - ((e.clientY - arrasto.y) / r.height) * v.h,
+          w: v.w,
+          h: v.h,
+        });
+        arrasto = { x: e.clientX, y: e.clientY };
+      });
+      svg.addEventListener("pointerup", () => (arrasto = null));
+    });
+  };
+  armarZoom();
+  document.addEventListener("astro:page-load", armarZoom);
+
   const armarMapa = () => {
     document.querySelectorAll<HTMLElement>("[data-mapa-modos]:not([data-armado])").forEach((grupo) => {
       grupo.dataset.armado = "1";
@@ -184,6 +250,33 @@ const pontos = continente
   .mapa--coro svg a {
     opacity: 0.12;
     pointer-events: none;
+  }
+  .mapa__zoom {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 3;
+  }
+  .mapa__zoom .chip {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .mapa svg.mapa--zoomed {
+    cursor: grab;
+  }
+  .mapa svg.mapa--zoomed:active {
+    cursor: grabbing;
+  }
+  .mapa {
+    position: relative;
   }
   .mapa__modos {
     display: flex;
