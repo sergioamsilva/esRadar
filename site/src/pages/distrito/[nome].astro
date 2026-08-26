@@ -117,9 +117,13 @@ const ordenada = [...oferta].sort(
   .linha:hover b {
     color: var(--accent-texto);
   }
+  .linha__nome {
+    min-width: 0;
+  }
   .linha__nome b {
     display: block;
     font-weight: 650;
+    overflow-wrap: anywhere;
   }
   .linha__nome span {
     display: block;
@@ -129,6 +133,18 @@ const ordenada = [...oferta].sort(
   .linha__numeros {
     text-align: right;
     flex-shrink: 0;
+  }
+  @media (max-width: 430px) {
+    .linha {
+      flex-wrap: wrap;
+    }
+    .linha__numeros {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+    }
   }
   .linha__nota {
     display: block;
