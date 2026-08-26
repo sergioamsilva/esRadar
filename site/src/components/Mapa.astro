@@ -114,6 +114,7 @@ const pontos = continente
             r={p.r.toFixed(1)}
             class={`mapa__ponto mapa__ponto--${p.subsistema ?? "universitario"} ponto-vem`}
             style={`--dp:${0.15 + (i % 24) * 0.045}s`}
+            data-dica={`${p.nome}\n${formatarInteiro(p.colocados_f1)} colocados em ${formatarInteiro(p.vagas)} vagas${p.sobras_f1 ? ` · ${formatarInteiro(p.sobras_f1)} sobras` : ""}`}
           >
             <title>
               {`${p.nome} — ${formatarInteiro(p.colocados_f1)} colocados, ${formatarInteiro(p.vagas)} vagas${p.sobras_f1 ? `, ${formatarInteiro(p.sobras_f1)} sobras` : ""}`}
@@ -152,12 +153,27 @@ const pontos = continente
       const base = svg.viewBox.baseVal;
       const inicial = { x: base.x, y: base.y, w: base.width, h: base.height };
       const aplicar = (v: { x: number; y: number; w: number; h: number }) => {
-        const escala = inicial.w / v.w;
-        // nunca afastar além da vista inicial nem aproximar mais de 8×
-        if (escala < 1) v = { ...inicial };
-        if (escala > 8) return;
+        let escala = inicial.w / v.w;
+        // nunca afastar além da vista inicial nem aproximar mais de 14×
+        if (escala < 1) {
+          v = { ...inicial };
+          escala = 1;
+        }
+        if (escala > 14) return;
         svg.setAttribute("viewBox", `${v.x} ${v.y} ${v.w} ${v.h}`);
-        svg.classList.toggle("mapa--zoomed", v.w < inicial.w);
+        svg.classList.toggle("mapa--zoomed", escala > 1);
+        // Os raios estão em unidades do viewBox: sem compensação, os pontos
+        // crescem com o zoom e o aglomerado de Lisboa nunca se separa.
+        // Compensar mantém cada ponto com o mesmo tamanho no ecrã enquanto
+        // as distâncias entre centros crescem — é isso que os desagrega.
+        svg.querySelectorAll<SVGCircleElement>("circle").forEach((c) => {
+          const base = c.dataset.r ?? (c.dataset.r = c.getAttribute("r") ?? "2");
+          // Compensação parcial: as distâncias crescem com o zoom completo,
+          // os pontos só com escala^0.4 — separam-se sem encolher ao ponto
+          // de não se conseguirem clicar.
+          const r = Math.max(Number(base), 3) / Math.pow(escala, 0.6);
+          c.setAttribute("r", r.toFixed(3));
+        });
       };
       const atual = () => {
         const b = svg.viewBox.baseVal;
