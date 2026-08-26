@@ -701,6 +701,7 @@ def construir() -> None:
         common.DIR_SAIDA / "epoca.json",
         {
             "ano": ANO_CORRENTE,
+            "atualizado": __import__("datetime").date.today().isoformat(),
             "fases_arquivadas": sorted(
                 int(p.name.removeprefix("fase"))
                 for p in (common.DIR_BRUTO / "coloc" / str(ANO_CORRENTE)).glob("fase*")

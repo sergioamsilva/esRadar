@@ -170,7 +170,7 @@ export type Nacional = {
   >;
 };
 
-export type Epoca = { ano: number; fases_arquivadas: number[] };
+export type Epoca = { ano: number; atualizado?: string; fases_arquivadas: number[] };
 
 export type Genero = {
   ano: number;

@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
-import { ligacao } from "../lib/dados";
+import { ligacao, epoca } from "../lib/dados";
 
 interface Props {
   titulo: string;
@@ -12,6 +12,7 @@ interface Props {
 const { titulo, descricao, ogImagem = "/og.png" } = Astro.props;
 const ano = new Date().getFullYear();
 const aqui = Astro.url.pathname;
+const atualizado = epoca().atualizado ?? null;
 
 const SECCOES = [
   { href: ligacao("/"), rotulo: "Panorama" },
@@ -170,8 +171,9 @@ const SECCOES = [
           </div>
         </div>
         <p class="rodape-fim">
-          esRadar, {ano} · <a href="https://github.com/sergioamsilva/esRadar" rel="noopener"
-            >código no GitHub</a
+          esRadar, {ano}
+          {atualizado && ` · dados atualizados a ${new Date(atualizado).toLocaleDateString("pt-PT")}`}
+          {" · "}<a href="https://github.com/sergioamsilva/esRadar" rel="noopener">código no GitHub</a
           > · <a href="mailto:radar@cybersec.pt">radar@cybersec.pt</a>
         </p>
       </footer>
