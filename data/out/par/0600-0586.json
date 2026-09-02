@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0586",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Medicina Veterinária",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0586",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 810,
+   "candidatos_1opcao": 161,
+   "colocados": 25,
+   "colocados_1opcao": 2,
+   "media_candidatura": 172.5,
+   "media_provas": 175.2,
+   "media_secundario": 170.0,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 532,
+   "candidatos_1opcao": 136,
+   "colocados": 25,
+   "colocados_1opcao": 9,
+   "media_candidatura": 171.9,
+   "media_provas": 173.8,
+   "media_secundario": 169.6,
+   "nota_ultimo": 172.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 427,
+   "candidatos_1opcao": 87,
+   "colocados": 25,
+   "colocados_1opcao": 3,
+   "media_candidatura": 173.2,
+   "media_provas": 173.1,
+   "media_secundario": 173.2,
+   "nota_ultimo": 172.5,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 170.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 157.3,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 166.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 170.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

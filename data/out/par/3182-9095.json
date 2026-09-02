@@ -1,0 +1,107 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9095",
+ "code": "3182",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Madeiras",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3182-9095",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 7,
+   "nota_ultimo": 114.3,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 113.3,
+   "sobras": 15,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 5,
+   "colocados": 7,
+   "nota_ultimo": 111.7,
+   "sobras": 21,
+   "vagas": 28
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 108.0,
+   "sobras": 14,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 4,
+   "nota_ultimo": 113.7,
+   "sobras": 24,
+   "vagas": 28
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 114.9,
+   "sobras": 19,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 3,
+   "nota_ultimo": 112.8,
+   "sobras": 25,
+   "vagas": 28
+  },
+  "2009f2": {
+   "colocados": 3,
+   "nota_ultimo": 113.5,
+   "sobras": 22,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 1,
+   "nota_ultimo": 100.0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2011f2": {
+   "colocados": 1,
+   "nota_ultimo": 117.8,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

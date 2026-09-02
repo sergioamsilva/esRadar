@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9992",
+ "code": "3154",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão da Construção (pós-laboral)",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3154-9992",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "nota_ultimo": 118.3,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 112.4,
+   "sobras": 15,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 3,
+   "nota_ultimo": 120.7,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 1,
+   "nota_ultimo": 119.1,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 3,
+   "nota_ultimo": 118.3,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 1,
+   "nota_ultimo": 113.1,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

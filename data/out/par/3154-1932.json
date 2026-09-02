@@ -1,0 +1,62 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1932",
+ "code": "3154",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil (regime nocturno)",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3154-1932",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 13,
+   "nota_ultimo": 100.6,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 12,
+   "nota_ultimo": 100.1,
+   "sobras": 13,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 15,
+   "nota_ultimo": 101.1,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 6,
+   "nota_ultimo": 118.1,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 121.4,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,73 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8391",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Redes e Serviços de Comunicação",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-8391",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 2,
+   "nota_ultimo": 127.8,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 126.5,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 1,
+   "nota_ultimo": 132.7,
+   "sobras": 32,
+   "vagas": 33,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 119.4,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

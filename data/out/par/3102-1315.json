@@ -1,0 +1,93 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1315",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Ambiente",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1315",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 118.1,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 38,
+   "nota_ultimo": 102.9,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 32,
+   "nota_ultimo": 100.5,
+   "sobras": 13,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 106.9,
+   "sobras": 14,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 9,
+   "nota_ultimo": 117.1,
+   "sobras": 19,
+   "vagas": 28
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 110.9,
+   "sobras": 19,
+   "vagas": 25,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 120.1,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 110.0,
+   "sobras": 10,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

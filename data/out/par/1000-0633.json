@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0633",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Português e Inglês (Ensino de)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0633",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 335,
+   "candidatos_1opcao": 64,
+   "colocados": 30,
+   "colocados_1opcao": 23,
+   "media_candidatura": 153.3,
+   "media_provas": 150.6,
+   "media_secundario": 155.7,
+   "nota_ultimo": 145.8,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 251,
+   "candidatos_1opcao": 44,
+   "colocados": 30,
+   "colocados_1opcao": 17,
+   "media_candidatura": 150.0,
+   "media_provas": 144.2,
+   "media_secundario": 155.7,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 338,
+   "candidatos_1opcao": 79,
+   "colocados": 30,
+   "colocados_1opcao": 27,
+   "media_candidatura": 152.0,
+   "media_provas": 148.6,
+   "media_secundario": 155.3,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 141.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 28,
+   "nota_ultimo": 119.0,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 20,
+   "nota_ultimo": 112.2,
+   "sobras": 8,
+   "vagas": 28
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

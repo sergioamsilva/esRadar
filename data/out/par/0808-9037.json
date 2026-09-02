@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9037",
+ "code": "0808",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências de Engenharia - Engenharia Informática e de Computadores",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior Técnico (campus do Taguspark)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0808-9037",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 71,
+   "nota_ultimo": 120.0,
+   "sobras": 29,
+   "vagas": 100
+  },
+  "2006f2": {
+   "colocados": 39,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 37,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 54,
+   "colocados": 59,
+   "nota_ultimo": 122.8,
+   "sobras": 41,
+   "vagas": 100
+  },
+  "2007f2": {
+   "colocados": 44,
+   "nota_ultimo": 120.3,
+   "sobras": 4,
+   "vagas": 46,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

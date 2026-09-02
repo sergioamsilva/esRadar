@@ -1,0 +1,115 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0480",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática (Ensino de)",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0480",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 93,
+   "candidatos_1opcao": 15,
+   "colocados": 29,
+   "colocados_1opcao": 15,
+   "media_candidatura": 105.7,
+   "media_provas": 86.2,
+   "media_secundario": 125.2,
+   "nota_ultimo": 75.5,
+   "sobras": 6,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 125,
+   "candidatos_1opcao": 11,
+   "colocados": 29,
+   "colocados_1opcao": 11,
+   "media_candidatura": 110.5,
+   "media_provas": 80.3,
+   "media_secundario": 130.7,
+   "nota_ultimo": 95.6,
+   "sobras": 17,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 31,
+   "nota_ultimo": 101.1,
+   "sobras": 9,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 10,
+   "nota_ultimo": 107.8,
+   "sobras": 30,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 98.8,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 102.7,
+   "sobras": 24,
+   "vagas": 27
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 101.2,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 122.8,
+   "sobras": 17,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 1,
+   "nota_ultimo": 134.8,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 118.6,
+   "sobras": 18,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

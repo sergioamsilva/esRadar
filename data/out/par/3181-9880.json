@@ -1,0 +1,44 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9880",
+ "code": "3181",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Visual e Tecnológica",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3181-9880",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 6,
+   "nota_ultimo": 106.1,
+   "sobras": 24,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 12,
+   "nota_ultimo": 107.4,
+   "sobras": 16,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

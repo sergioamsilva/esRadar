@@ -1,0 +1,169 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8118",
+ "code": "3101",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Básica (regime de ensino a distância)",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 0,
+    "inscritos": 1,
+    "mulheres": 1
+   },
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 1,
+    "mulheres": 1
+   }
+  }
+ },
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3101-8118",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 4,
+   "nota_ultimo": 106.5,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 6,
+   "nota_ultimo": 108.5,
+   "sobras": 19,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 15,
+   "nota_ultimo": 109.1,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 112.0,
+   "sobras": 11,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 8,
+   "nota_ultimo": 110.9,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 12,
+   "nota_ultimo": 106.7,
+   "sobras": 12,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 5,
+   "nota_ultimo": 113.7,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 8,
+   "nota_ultimo": 114.5,
+   "sobras": 13,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 5,
+   "nota_ultimo": 115.4,
+   "sobras": 17,
+   "vagas": 22
+  },
+  "2012f2": {
+   "colocados": 2,
+   "nota_ultimo": 110.2,
+   "sobras": 17,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2013f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.7,
+   "sobras": 17,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 2,
+   "nota_ultimo": 111.3,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2014f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 1,
+   "nota_ultimo": 115.2,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2015f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 2,
+   "nota_ultimo": 125.0,
+   "sobras": 2,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9250",
+ "code": "3083",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias de Informação e Comunicação",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Instituto Superior de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3083-9250",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2012f1": {
+   "colocados": 7,
+   "nota_ultimo": 114.5,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 5,
+   "nota_ultimo": 115.0,
+   "sobras": 8,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 1,
+   "nota_ultimo": 119.8,
+   "sobras": 9,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 1,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2013f2": {
+   "colocados": 1,
+   "nota_ultimo": 126.5,
+   "sobras": 23,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 2,
+   "nota_ultimo": 116.3,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2014f2": {
+   "colocados": 4,
+   "nota_ultimo": 115.4,
+   "sobras": 19,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

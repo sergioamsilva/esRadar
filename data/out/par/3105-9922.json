@@ -1,0 +1,82 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9922",
+ "code": "3105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão do Lazer e Turismo de Negócios",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3105-9922",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 24,
+   "nota_ultimo": 110.4,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  },
+  "2009f1": {
+   "colocados": 30,
+   "nota_ultimo": 120.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 5,
+   "nota_ultimo": 123.4,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 27,
+   "nota_ultimo": 111.7,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 10,
+   "nota_ultimo": 113.4,
+   "sobras": 1,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 8,
+   "nota_ultimo": 109.3,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 8,
+   "nota_ultimo": 111.0,
+   "sobras": 17,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,79 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1211",
+ "code": "3021",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agro-Florestal",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior Agrária",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3021-1211",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 45,
+   "candidatos_1opcao": 3,
+   "colocados": 10,
+   "colocados_1opcao": 3,
+   "media_candidatura": 111.0,
+   "media_provas": 84.9,
+   "media_secundario": 125.0,
+   "nota_ultimo": 94.4,
+   "sobras": 41,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 101.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 27,
+   "nota_ultimo": 107.3,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 103.6,
+   "sobras": 35,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 104.8,
+   "sobras": 32,
+   "vagas": 37
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 111.0,
+   "sobras": 26,
+   "vagas": 32
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 106.6,
+   "sobras": 28,
+   "vagas": 31,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

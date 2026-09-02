@@ -12,7 +12,6 @@ Uso: python -m ingest.semear
 
 from __future__ import annotations
 
-import csv
 from collections import defaultdict
 from pathlib import Path
 
@@ -25,16 +24,8 @@ def universo(ano: int) -> dict[str, tuple[str, str]]:
     """{par: (nome_curso, code)} do primeiro ficheiro de fase 1 desse ano."""
     caminho = next(common.DIR_BRUTO.glob(f"coloc/{ano}/fase1/cna*_resultados.csv"))
     pares = {}
-    with caminho.open(encoding="utf-8") as f:
-        linhas = list(csv.reader(f))
-    cab = next(l for l in linhas if any("Código Instit." in c for c in l))
-    idx = {" ".join(c.split()): i for i, c in enumerate(cab) if c.strip()}
-    for linha in linhas:
-        if len(linha) <= idx["Nome do Curso"]:
-            continue
-        code, codc = linha[idx["Código Instit."]].strip(), linha[idx["Código Curso"]].strip()
-        if len(code) == 4 and code.isdigit() and codc:
-            pares[f"{code}-{codc}"] = (linha[idx["Nome do Curso"]].strip(), code)
+    for par, _registo, nome in build.ler_ficheiro_resultados(caminho, ano, 1):
+        pares[par] = (nome or "", par.split("-")[0])
     return pares
 
 

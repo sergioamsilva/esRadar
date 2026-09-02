@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0228",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Cerâmica e do Vidro",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-0228",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 68,
+   "candidatos_1opcao": 2,
+   "colocados": 19,
+   "colocados_1opcao": 2,
+   "media_candidatura": 108.1,
+   "media_provas": 89.9,
+   "media_secundario": 125.8,
+   "nota_ultimo": 78.8,
+   "sobras": 17,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 100,
+   "candidatos_1opcao": 5,
+   "colocados": 19,
+   "colocados_1opcao": 5,
+   "media_candidatura": 114.1,
+   "media_provas": 100.6,
+   "media_secundario": 126.8,
+   "nota_ultimo": 89.0,
+   "sobras": 11,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 36,
+   "candidatos_1opcao": 0,
+   "colocados": 2,
+   "colocados_1opcao": 0,
+   "media_candidatura": 111.9,
+   "media_provas": 98.8,
+   "media_secundario": 125.0,
+   "nota_ultimo": 110.8,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 3,
+   "nota_ultimo": 110.8,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 3,
+   "nota_ultimo": 113.2,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 1,
+   "nota_ultimo": 126.3,
+   "sobras": 19,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,100 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9925",
+ "code": "3241",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão e Administração Bancária (regime pós-laboral)",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3241-9925",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 10,
+   "nota_ultimo": 111.3,
+   "sobras": 20,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 111.0,
+   "sobras": 14,
+   "vagas": 22,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 7,
+   "nota_ultimo": 113.4,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 3,
+   "nota_ultimo": 116.7,
+   "sobras": 22,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 6,
+   "nota_ultimo": 95.0,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 1,
+   "nota_ultimo": 124.2,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 4,
+   "nota_ultimo": 114.5,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 6,
+   "nota_ultimo": 125.2,
+   "sobras": 16,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 2,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 2,
+   "nota_ultimo": 104.9,
+   "sobras": 23,
+   "vagas": 23,
+   "vagas_recolocacao": 2
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

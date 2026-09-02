@@ -212,6 +212,98 @@
   }
  ],
  "series": {
+  "2014f1": {
+   "colocados": 38,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2014f2": {
+   "colocados": 7,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 37,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2015f2": {
+   "colocados": 6,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 2,
+   "nota_ultimo": 130.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 38,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2016f2": {
+   "colocados": 7,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "candidatos": 215,
+   "candidatos_1opcao": 18,
+   "candidatos_homens": 37,
+   "candidatos_mulheres": 178,
+   "colocados": 37,
+   "colocados_1opcao": 4,
+   "colocados_homens": 2,
+   "colocados_mulheres": 35,
+   "media_candidatura": 130.9,
+   "media_provas": 125.5,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2017f2": {
+   "candidatos": 104,
+   "candidatos_1opcao": 12,
+   "candidatos_homens": 23,
+   "candidatos_mulheres": 81,
+   "colocados": 8,
+   "colocados_1opcao": 4,
+   "colocados_homens": 0,
+   "colocados_mulheres": 8,
+   "media_candidatura": 143.0,
+   "media_provas": 140.3,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 3
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 199,
    "candidatos_1opcao": 24,
@@ -389,7 +481,8 @@
   },
   "2022f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2023f1": {
    "candidatos": 134,

@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0084",
+ "code": "5402",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Design de Comunicação (Arte Gráfica)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Belas-Artes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "5402-0084",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 47,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 51,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 45,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 47,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

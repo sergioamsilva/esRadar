@@ -1,0 +1,101 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1030",
+ "code": "7230",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Audiologia",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7230-1030",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 11,
+   "nota_ultimo": 109.5,
+   "sobras": 24,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 7,
+   "nota_ultimo": 107.0,
+   "sobras": 21,
+   "vagas": 28
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 107.3,
+   "sobras": 19,
+   "vagas": 22,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 118.8,
+   "sobras": 8,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 20,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 11,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 4
+  },
+  "2007f1": {
+   "candidatos_1opcao": 39,
+   "colocados": 20,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 20,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

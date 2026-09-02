@@ -1,0 +1,95 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0520",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Franceses e Alemães",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-0520",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 8,
+   "colocados": 9,
+   "colocados_1opcao": 8,
+   "media_candidatura": 138.6,
+   "media_provas": 140.4,
+   "media_secundario": 136.7,
+   "nota_ultimo": 124.3,
+   "sobras": 11,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 34,
+   "candidatos_1opcao": 10,
+   "colocados": 13,
+   "colocados_1opcao": 10,
+   "media_candidatura": 143.9,
+   "media_provas": 146.0,
+   "media_secundario": 143.1,
+   "nota_ultimo": 109.3,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 34,
+   "candidatos_1opcao": 12,
+   "colocados": 13,
+   "colocados_1opcao": 12,
+   "media_candidatura": 132.9,
+   "media_provas": 128.7,
+   "media_secundario": 138.5,
+   "nota_ultimo": 117.3,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 4,
+   "nota_ultimo": 136.3,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 5,
+   "nota_ultimo": 142.8,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 2,
+   "nota_ultimo": 113.0,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

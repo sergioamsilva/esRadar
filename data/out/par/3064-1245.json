@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1245",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-1245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 455,
+   "candidatos_1opcao": 74,
+   "colocados": 90,
+   "colocados_1opcao": 29,
+   "media_candidatura": 118.3,
+   "media_provas": 106.2,
+   "media_secundario": 130.4,
+   "nota_ultimo": 108.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "1999f1": {
+   "candidatos": 435,
+   "candidatos_1opcao": 145,
+   "colocados": 61,
+   "colocados_1opcao": 54,
+   "media_candidatura": 120.2,
+   "media_provas": 90.2,
+   "media_secundario": 140.5,
+   "nota_ultimo": 113.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 75,
+   "nota_ultimo": 108.8,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 76,
+   "nota_ultimo": 108.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 22,
+   "nota_ultimo": 115.0,
+   "sobras": 53,
+   "vagas": 75
+  },
+  "2003f1": {
+   "colocados": 9,
+   "nota_ultimo": 130.6,
+   "sobras": 66,
+   "vagas": 75
+  },
+  "2004f1": {
+   "colocados": 50,
+   "nota_ultimo": 109.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 128.4,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 8,
+   "nota_ultimo": 132.7,
+   "sobras": 62,
+   "vagas": 70
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 109.2,
+   "sobras": 58,
+   "vagas": 63,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 47,
+   "nota_ultimo": 106.1,
+   "sobras": 13,
+   "vagas": 60
+  },
+  "2006f2": {
+   "colocados": 24,
+   "nota_ultimo": 118.4,
+   "sobras": 0,
+   "vagas": 18,
+   "vagas_recolocacao": 6
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

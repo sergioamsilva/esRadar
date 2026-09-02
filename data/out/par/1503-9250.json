@@ -1,0 +1,50 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9250",
+ "code": "1503",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias de Informação e Comunicação",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1503-9250",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2014f1": {
+   "colocados": 35,
+   "nota_ultimo": 108.5,
+   "sobras": 30,
+   "vagas": 65
+  },
+  "2014f2": {
+   "colocados": 37,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 32,
+   "vagas_recolocacao": 4
+  },
+  "2014f3": {
+   "colocados": 3,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

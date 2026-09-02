@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1225",
+ "code": "3021",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agro-Pecuária",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior Agrária",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3021-1225",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 66,
+   "candidatos_1opcao": 4,
+   "colocados": 16,
+   "colocados_1opcao": 4,
+   "media_candidatura": 123.1,
+   "media_provas": 107.9,
+   "media_secundario": 131.2,
+   "nota_ultimo": 113.2,
+   "sobras": 111,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 75,
+   "nota_ultimo": 94.6,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 27,
+   "nota_ultimo": 97.8,
+   "sobras": 48,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 23,
+   "nota_ultimo": 101.3,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 9,
+   "nota_ultimo": 108.1,
+   "sobras": 36,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 100.9,
+   "sobras": 26,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 109.9,
+   "sobras": 27,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 6,
+   "nota_ultimo": 113.2,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 138.3,
+   "sobras": 13,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

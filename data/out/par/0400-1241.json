@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1241",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências Biomédicas",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-1241",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 45,
+   "nota_ultimo": 153.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 151.7,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 50,
+   "nota_ultimo": 155.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 160.2,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

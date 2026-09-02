@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3101",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3101-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 250,
+   "candidatos_1opcao": 30,
+   "colocados": 25,
+   "colocados_1opcao": 8,
+   "media_candidatura": 137.2,
+   "media_provas": 131.1,
+   "media_secundario": 143.2,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 172,
+   "candidatos_1opcao": 28,
+   "colocados": 25,
+   "colocados_1opcao": 10,
+   "media_candidatura": 133.6,
+   "media_provas": 119.5,
+   "media_secundario": 141.2,
+   "nota_ultimo": 125.7,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 120.9,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 13,
+   "nota_ultimo": 106.9,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 17,
+   "nota_ultimo": 107.1,
+   "sobras": 8,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 105.6,
+   "sobras": 13,
+   "vagas": 21
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

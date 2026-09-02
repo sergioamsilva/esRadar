@@ -1,0 +1,48 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0695",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Psicologia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0695",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 937,
+   "candidatos_1opcao": 198,
+   "colocados": 41,
+   "colocados_1opcao": 17,
+   "media_candidatura": 160.5,
+   "media_provas": 162.1,
+   "media_secundario": 160.0,
+   "nota_ultimo": 159.0,
+   "sobras": 6,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 60,
+   "nota_ultimo": 156.7,
+   "sobras": 0,
+   "vagas": 60
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

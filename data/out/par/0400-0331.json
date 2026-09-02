@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0331",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0331",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 14,
+   "nota_ultimo": 107.1,
+   "sobras": 21,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 12,
+   "nota_ultimo": 111.8,
+   "sobras": 23,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 13,
+   "nota_ultimo": 111.8,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 14,
+   "nota_ultimo": 108.6,
+   "sobras": 11,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.2,
+   "sobras": 13,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 27,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

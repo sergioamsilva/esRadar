@@ -1,0 +1,54 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1788",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tradução",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1788",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 9,
+   "nota_ultimo": 128.1,
+   "sobras": 26,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 6,
+   "nota_ultimo": 121.6,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 6,
+   "nota_ultimo": 119.5,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 128.4,
+   "sobras": 20,
+   "vagas": 23
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

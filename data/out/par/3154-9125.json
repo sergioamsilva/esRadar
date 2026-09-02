@@ -1,0 +1,101 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9125",
+ "code": "3154",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3154-9125",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 8,
+   "nota_ultimo": 114.1,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 21,
+   "nota_ultimo": 112.0,
+   "sobras": 1,
+   "vagas": 20,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 8,
+   "nota_ultimo": 114.7,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 115.7,
+   "sobras": 12,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 3,
+   "nota_ultimo": 114.2,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 113.6,
+   "sobras": 23,
+   "vagas": 25,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 11,
+   "nota_ultimo": 106.9,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 10,
+   "nota_ultimo": 114.8,
+   "sobras": 11,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 1,
+   "nota_ultimo": 135.7,
+   "sobras": 29,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 2,
+   "nota_ultimo": 116.3,
+   "sobras": 27,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

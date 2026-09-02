@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0633",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Português e Inglês (Ensino de)",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-0633",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 419,
+   "candidatos_1opcao": 71,
+   "colocados": 30,
+   "colocados_1opcao": 19,
+   "media_candidatura": 147.6,
+   "media_provas": 142.5,
+   "media_secundario": 153.7,
+   "nota_ultimo": 140.3,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 389,
+   "candidatos_1opcao": 79,
+   "colocados": 31,
+   "colocados_1opcao": 27,
+   "media_candidatura": 149.9,
+   "media_provas": 145.0,
+   "media_secundario": 154.8,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 277,
+   "candidatos_1opcao": 63,
+   "colocados": 30,
+   "colocados_1opcao": 28,
+   "media_candidatura": 151.8,
+   "media_provas": 145.0,
+   "media_secundario": 159.3,
+   "nota_ultimo": 144.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 111.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 18,
+   "nota_ultimo": 115.3,
+   "sobras": 12,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 105.3,
+   "sobras": 22,
+   "vagas": 30
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

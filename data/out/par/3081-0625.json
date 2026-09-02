@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "3081",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Educação e Comunicação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3081-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 186,
+   "candidatos_1opcao": 26,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 125.3,
+   "media_provas": 121.6,
+   "media_secundario": 130.0,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 265,
+   "candidatos_1opcao": 40,
+   "colocados": 30,
+   "colocados_1opcao": 15,
+   "media_candidatura": 128.8,
+   "media_provas": 122.9,
+   "media_secundario": 132.0,
+   "nota_ultimo": 124.6,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 120.9,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 40,
+   "nota_ultimo": 119.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 110.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 124.1,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 38,
+   "nota_ultimo": 113.1,
+   "sobras": 2,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 49,
+   "nota_ultimo": 107.6,
+   "sobras": 1,
+   "vagas": 50
+  },
+  "2006f2": {
+   "colocados": 9,
+   "nota_ultimo": 123.2,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

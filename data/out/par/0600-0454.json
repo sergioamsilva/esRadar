@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0454",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "História (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0454",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 85,
+   "candidatos_1opcao": 10,
+   "colocados": 20,
+   "colocados_1opcao": 7,
+   "media_candidatura": 132.6,
+   "media_provas": 127.5,
+   "media_secundario": 141.5,
+   "nota_ultimo": 119.0,
+   "sobras": 4,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 160,
+   "candidatos_1opcao": 16,
+   "colocados": 20,
+   "colocados_1opcao": 10,
+   "media_candidatura": 130.8,
+   "media_provas": 128.4,
+   "media_secundario": 135.0,
+   "nota_ultimo": 127.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 110,
+   "candidatos_1opcao": 10,
+   "colocados": 25,
+   "colocados_1opcao": 10,
+   "media_candidatura": 125.4,
+   "media_provas": 120.9,
+   "media_secundario": 132.4,
+   "nota_ultimo": 114.3,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 114.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 110.0,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 1,
+   "nota_ultimo": 111.3,
+   "sobras": 19,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

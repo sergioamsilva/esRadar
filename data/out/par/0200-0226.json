@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0226",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Biotecnológica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0226",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 187,
+   "candidatos_1opcao": 15,
+   "colocados": 60,
+   "colocados_1opcao": 10,
+   "media_candidatura": 131.5,
+   "media_provas": 123.4,
+   "media_secundario": 140.3,
+   "nota_ultimo": 115.3,
+   "sobras": 3,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 299,
+   "candidatos_1opcao": 34,
+   "colocados": 60,
+   "colocados_1opcao": 14,
+   "media_candidatura": 134.8,
+   "media_provas": 125.2,
+   "media_secundario": 144.3,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 299,
+   "candidatos_1opcao": 45,
+   "colocados": 60,
+   "colocados_1opcao": 22,
+   "media_candidatura": 135.3,
+   "media_provas": 114.2,
+   "media_secundario": 146.7,
+   "nota_ultimo": 126.2,
+   "sobras": 8,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 50
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

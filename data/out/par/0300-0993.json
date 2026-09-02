@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0993",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química, ramo de Polímeros e Agromateriais",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-0993",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 121,
+   "candidatos_1opcao": 7,
+   "colocados": 26,
+   "colocados_1opcao": 4,
+   "media_candidatura": 134.8,
+   "media_provas": 130.3,
+   "media_secundario": 139.2,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 137,
+   "candidatos_1opcao": 9,
+   "colocados": 25,
+   "colocados_1opcao": 3,
+   "media_candidatura": 127.4,
+   "media_provas": 114.3,
+   "media_secundario": 140.4,
+   "nota_ultimo": 119.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 74,
+   "candidatos_1opcao": 4,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 126.4,
+   "media_provas": 116.2,
+   "media_secundario": 136.7,
+   "nota_ultimo": 119.3,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 10,
+   "nota_ultimo": 119.0,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 2,
+   "nota_ultimo": 127.0,
+   "sobras": 23,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

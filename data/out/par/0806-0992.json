@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0992",
+ "code": "0806",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências do Desporto, menção de Educação Física e Desporto Escolar",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Faculdade de Motricidade Humana",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0806-0992",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 359,
+   "candidatos_1opcao": 204,
+   "colocados": 110,
+   "colocados_1opcao": 81,
+   "media_candidatura": 137.1,
+   "media_provas": 130.0,
+   "media_secundario": 144.3,
+   "nota_ultimo": 127.8,
+   "sobras": 5,
+   "vagas": 110
+  },
+  "1998f1": {
+   "candidatos": 440,
+   "candidatos_1opcao": 240,
+   "colocados": 110,
+   "colocados_1opcao": 88,
+   "media_candidatura": 140.0,
+   "media_provas": 134.2,
+   "media_secundario": 146.0,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "1999f1": {
+   "candidatos": 243,
+   "candidatos_1opcao": 142,
+   "colocados": 110,
+   "colocados_1opcao": 88,
+   "media_candidatura": 141.0,
+   "media_provas": 132.7,
+   "media_secundario": 146.6,
+   "nota_ultimo": 128.2,
+   "sobras": 6,
+   "vagas": 110
+  },
+  "2000f1": {
+   "colocados": 111,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2001f1": {
+   "colocados": 99,
+   "nota_ultimo": 107.8,
+   "sobras": 11,
+   "vagas": 110
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

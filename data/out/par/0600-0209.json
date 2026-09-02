@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0209",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Alimentar",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0209",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 101.0,
+   "sobras": 6,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 102.8,
+   "sobras": 7,
+   "vagas": 9,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 1,
+   "nota_ultimo": 114.3,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.3,
+   "sobras": 14,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

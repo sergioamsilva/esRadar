@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0707",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ensino Básico - 1.º Ciclo",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0707",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 207,
+   "candidatos_1opcao": 103,
+   "colocados": 20,
+   "colocados_1opcao": 20,
+   "media_candidatura": 155.3,
+   "media_provas": 154.6,
+   "media_secundario": 156.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 217,
+   "candidatos_1opcao": 95,
+   "colocados": 50,
+   "colocados_1opcao": 48,
+   "media_candidatura": 140.5,
+   "media_provas": 136.8,
+   "media_secundario": 145.8,
+   "nota_ultimo": 125.5,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 130.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 21,
+   "nota_ultimo": 132.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2006f1": {
+   "colocados": 4,
+   "nota_ultimo": 149.9,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 120.3,
+   "sobras": 13,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

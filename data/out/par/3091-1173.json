@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1173",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Desporto",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-1173",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 113.5,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 116.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 116.3,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 116.7,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 11,
+   "nota_ultimo": 124.2,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

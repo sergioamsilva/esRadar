@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0331",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-0331",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 44,
+   "nota_ultimo": 104.8,
+   "sobras": 1,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 121.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 33,
+   "nota_ultimo": 105.8,
+   "sobras": 17,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 14,
+   "nota_ultimo": 108.3,
+   "sobras": 7,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 22,
+   "nota_ultimo": 117.3,
+   "sobras": 28,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 19,
+   "nota_ultimo": 100.0,
+   "sobras": 9,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

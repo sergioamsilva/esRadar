@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1915",
+ "code": "3117",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Administração (regime nocturno)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3117-1915",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 121,
+   "candidatos_1opcao": 98,
+   "colocados": 40,
+   "colocados_1opcao": 39,
+   "media_candidatura": 124.3,
+   "media_provas": 111.7,
+   "media_secundario": 142.8,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 97,
+   "candidatos_1opcao": 83,
+   "colocados": 50,
+   "colocados_1opcao": 48,
+   "media_candidatura": 118.2,
+   "media_provas": 98.6,
+   "media_secundario": 140.8,
+   "nota_ultimo": 99.0,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 24,
+   "nota_ultimo": 112.5,
+   "sobras": 36,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 74.5,
+   "sobras": 20,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 42,
+   "nota_ultimo": 88.7,
+   "sobras": 8,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 107.4,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 95.4,
+   "sobras": 5,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 110.0,
+   "sobras": 38,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 118.1,
+   "sobras": 31,
+   "vagas": 40,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

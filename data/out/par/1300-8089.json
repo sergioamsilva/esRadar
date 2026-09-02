@@ -1,0 +1,82 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8089",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Eng Civil+Eng Electr e Telec+Eng Informática+Design de Media Interactivos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-8089",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 132,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 132
+  },
+  "2008f2": {
+   "colocados": 6,
+   "nota_ultimo": 131.6,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 132,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 132
+  },
+  "2009f2": {
+   "colocados": 16,
+   "nota_ultimo": 120.4,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 4
+  },
+  "2010f1": {
+   "colocados": 100,
+   "nota_ultimo": 103.8,
+   "sobras": 39,
+   "vagas": 139
+  },
+  "2010f2": {
+   "colocados": 34,
+   "nota_ultimo": 107.1,
+   "sobras": 8,
+   "vagas": 42,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 74,
+   "nota_ultimo": 107.2,
+   "sobras": 66,
+   "vagas": 140
+  },
+  "2011f2": {
+   "colocados": 37,
+   "nota_ultimo": 108.2,
+   "sobras": 38,
+   "vagas": 75,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

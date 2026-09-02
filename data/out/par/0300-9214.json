@@ -113,7 +113,205 @@
  "par": "0300-9214",
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n16 Matemática\n18 Português\nou\n06 Filosofia\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português",
- "series": {},
+ "series": {
+  "2006f1": {
+   "colocados": 29,
+   "nota_ultimo": 120.0,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 118.7,
+   "sobras": 1,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 38,
+   "colocados": 38,
+   "nota_ultimo": 112.6,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2007f2": {
+   "colocados": 11,
+   "nota_ultimo": 115.7,
+   "sobras": 9,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 35,
+   "nota_ultimo": 112.2,
+   "sobras": 5,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 114.1,
+   "sobras": 2,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 35,
+   "nota_ultimo": 121.7,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2009f2": {
+   "colocados": 2,
+   "nota_ultimo": 112.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 35,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2010f2": {
+   "colocados": 9,
+   "nota_ultimo": 115.3,
+   "sobras": 2,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 35,
+   "nota_ultimo": 131.7,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2011f2": {
+   "colocados": 11,
+   "nota_ultimo": 131.0,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 35,
+   "nota_ultimo": 142.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2012f2": {
+   "colocados": 18,
+   "nota_ultimo": 128.2,
+   "sobras": 0,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 3,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 46,
+   "nota_ultimo": 134.5,
+   "sobras": 0,
+   "vagas": 46
+  },
+  "2013f2": {
+   "colocados": 17,
+   "nota_ultimo": 126.7,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 1,
+   "nota_ultimo": 125.3,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 48,
+   "nota_ultimo": 141.3,
+   "sobras": 0,
+   "vagas": 48
+  },
+  "2014f2": {
+   "colocados": 18,
+   "nota_ultimo": 117.2,
+   "sobras": 0,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 50,
+   "nota_ultimo": 145.9,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2015f2": {
+   "colocados": 22,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 3,
+   "nota_ultimo": 123.9,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 50,
+   "nota_ultimo": 143.7,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2016f2": {
+   "colocados": 16,
+   "nota_ultimo": 136.6,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 2,
+   "nota_ultimo": 135.4,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 54,
+   "nota_ultimo": 151.9,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2017f2": {
+   "colocados": 24,
+   "nota_ultimo": 134.3,
+   "sobras": 0,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 5,
+   "nota_ultimo": 131.9,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  }
+ },
  "subsistema": "universitario",
  "tipo_ensino": "Ensino Superior Público Universitário",
  "vagas_2026": 54

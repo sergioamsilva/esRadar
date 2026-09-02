@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1398",
+ "code": "3053",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3053-1398",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 203,
+   "candidatos_1opcao": 26,
+   "colocados": 46,
+   "colocados_1opcao": 26,
+   "media_candidatura": 73.5,
+   "media_provas": 23.9,
+   "media_secundario": 122.0,
+   "nota_ultimo": 53.0,
+   "sobras": 34,
+   "vagas": 80
+  },
+  "1999f1": {
+   "candidatos": 261,
+   "candidatos_1opcao": 31,
+   "colocados": 60,
+   "colocados_1opcao": 26,
+   "media_candidatura": 92.8,
+   "media_provas": 30.1,
+   "media_secundario": 126.3,
+   "nota_ultimo": 77.5,
+   "sobras": 5,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 38,
+   "nota_ultimo": 70.4,
+   "sobras": 17,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 19,
+   "nota_ultimo": 90.1,
+   "sobras": 31,
+   "vagas": 50
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

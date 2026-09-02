@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0318",
+ "code": "1105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Minas",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-0318",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 95,
+   "candidatos_1opcao": 1,
+   "colocados": 25,
+   "colocados_1opcao": 1,
+   "media_candidatura": 109.1,
+   "media_provas": 88.7,
+   "media_secundario": 131.6,
+   "nota_ultimo": 84.5,
+   "sobras": 8,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

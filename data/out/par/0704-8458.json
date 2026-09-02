@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8458",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Gerais",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-8458",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2011f1": {
+   "colocados": 30,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 50,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2012f2": {
+   "colocados": 7,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 2,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 55,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2013f2": {
+   "colocados": 13,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 5
+  },
+  "2013f3": {
+   "colocados": 4,
+   "nota_ultimo": 119.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,55 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8355",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Geográfica (regime pós-laboral)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-8355",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 8,
+   "nota_ultimo": 103.5,
+   "sobras": 22,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 2,
+   "nota_ultimo": 105.5,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 5,
+   "nota_ultimo": 106.0,
+   "sobras": 24,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

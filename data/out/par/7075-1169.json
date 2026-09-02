@@ -1,0 +1,119 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1169",
+ "code": "7075",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7075-1169",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 546,
+   "candidatos_1opcao": 150,
+   "colocados": 45,
+   "colocados_1opcao": 26,
+   "media_candidatura": 157.0,
+   "media_provas": 150.1,
+   "media_secundario": 161.6,
+   "nota_ultimo": 156.8,
+   "sobras": 1,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 61,
+   "nota_ultimo": 159.2,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 60,
+   "nota_ultimo": 163.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 76,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 76
+  },
+  "2003f1": {
+   "colocados": 76,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 76
+  },
+  "2004f1": {
+   "colocados": 58,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 60,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 66,
+   "nota_ultimo": 156.3,
+   "sobras": 0,
+   "vagas": 66
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 159.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 59,
+   "colocados": 66,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 66
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

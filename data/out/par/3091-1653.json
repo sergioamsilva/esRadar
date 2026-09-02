@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1653",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Francês",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-1653",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 128,
+   "candidatos_1opcao": 16,
+   "colocados": 25,
+   "colocados_1opcao": 12,
+   "media_candidatura": 118.1,
+   "media_provas": 111.4,
+   "media_secundario": 124.8,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 7,
+   "colocados": 14,
+   "colocados_1opcao": 7,
+   "media_candidatura": 125.8,
+   "media_provas": 121.9,
+   "media_secundario": 130.0,
+   "nota_ultimo": 114.0,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 12,
+   "nota_ultimo": 108.0,
+   "sobras": 13,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 2,
+   "nota_ultimo": 123.5,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 5,
+   "nota_ultimo": 150.4,
+   "sobras": 15,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9885",
+ "code": "3163",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática (regime pós-laboral)",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3163-9885",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 3,
+   "nota_ultimo": 182.3,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 1,
+   "nota_ultimo": 110.0,
+   "sobras": 26,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 4,
+   "nota_ultimo": 123.7,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 1,
+   "nota_ultimo": 95.0,
+   "sobras": 28,
+   "vagas": 27,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 2,
+   "nota_ultimo": 110.0,
+   "sobras": 18,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 1,
+   "nota_ultimo": 118.0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0931",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Relações Internacionais, ramo de Relações Culturais e Políticas",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0931",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 867,
+   "candidatos_1opcao": 145,
+   "colocados": 60,
+   "colocados_1opcao": 27,
+   "media_candidatura": 151.2,
+   "media_provas": 156.2,
+   "media_secundario": 147.7,
+   "nota_ultimo": 145.0,
+   "sobras": 5,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 579,
+   "candidatos_1opcao": 105,
+   "colocados": 61,
+   "colocados_1opcao": 40,
+   "media_candidatura": 149.8,
+   "media_provas": 150.6,
+   "media_secundario": 149.8,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 623,
+   "candidatos_1opcao": 84,
+   "colocados": 55,
+   "colocados_1opcao": 34,
+   "media_candidatura": 148.2,
+   "media_provas": 148.8,
+   "media_secundario": 148.0,
+   "nota_ultimo": 144.5,
+   "sobras": 3,
+   "vagas": 55
+  },
+  "2000f1": {
+   "colocados": 65,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 65
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

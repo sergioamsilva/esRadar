@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0656",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do 1.º ciclo do Ensino Básico",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-0656",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 157,
+   "candidatos_1opcao": 26,
+   "colocados": 30,
+   "colocados_1opcao": 18,
+   "media_candidatura": 116.7,
+   "media_provas": 102.5,
+   "media_secundario": 132.7,
+   "nota_ultimo": 113.3,
+   "sobras": 1,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

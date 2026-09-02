@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0956",
+ "code": "7040",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem (entrada Abril)",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7040-0956",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 589,
+   "candidatos_1opcao": 64,
+   "colocados": 44,
+   "colocados_1opcao": 3,
+   "media_candidatura": 130.4,
+   "media_provas": 121.9,
+   "media_secundario": 140.0,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 44
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,65 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1956",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão, opção de Gestão Industrial e da Produção",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-1956",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 8,
+   "colocados": 10,
+   "colocados_1opcao": 8,
+   "media_candidatura": 102.6,
+   "media_provas": 84.2,
+   "media_secundario": 122.0,
+   "nota_ultimo": 89.3,
+   "sobras": 50,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 60,
+   "candidatos_1opcao": 6,
+   "colocados": 9,
+   "colocados_1opcao": 6,
+   "media_candidatura": 102.0,
+   "media_provas": 63.4,
+   "media_secundario": 127.8,
+   "nota_ultimo": 89.2,
+   "sobras": 43,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 3,
+   "nota_ultimo": 87.8,
+   "sobras": 42,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

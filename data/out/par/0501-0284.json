@@ -1,0 +1,89 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0284",
+ "code": "0501",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Geológica",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-0284",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 160,
+   "candidatos_1opcao": 5,
+   "colocados": 36,
+   "colocados_1opcao": 4,
+   "media_candidatura": 123.8,
+   "media_provas": 110.9,
+   "media_secundario": 137.8,
+   "nota_ultimo": 115.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 135,
+   "candidatos_1opcao": 8,
+   "colocados": 35,
+   "colocados_1opcao": 6,
+   "media_candidatura": 121.2,
+   "media_provas": 109.7,
+   "media_secundario": 132.6,
+   "nota_ultimo": 103.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 103,
+   "candidatos_1opcao": 5,
+   "colocados": 8,
+   "colocados_1opcao": 5,
+   "media_candidatura": 122.9,
+   "media_provas": 115.8,
+   "media_secundario": 130.0,
+   "nota_ultimo": 105.0,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 11,
+   "nota_ultimo": 109.3,
+   "sobras": 24,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 3,
+   "nota_ultimo": 116.3,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 105.8,
+   "sobras": 6,
+   "vagas": 10
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1230",
+ "code": "0501",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Biomédica",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-1230",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 51,
+   "nota_ultimo": 161.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 50,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 162.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 59,
+   "nota_ultimo": 151.3,
+   "sobras": 0,
+   "vagas": 59
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

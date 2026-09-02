@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9508",
+ "code": "0203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Ambiente",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0203-9508",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 18,
+   "nota_ultimo": 114.9,
+   "sobras": 7,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 10,
+   "nota_ultimo": 115.4,
+   "sobras": 2,
+   "vagas": 11,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 120.6,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 3,
+   "nota_ultimo": 117.9,
+   "sobras": 21,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 4,
+   "nota_ultimo": 119.2,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 123.8,
+   "sobras": 17,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,82 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8347",
+ "code": "3141",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agronómica (regime pós-laboral)",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-8347",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.3,
+   "sobras": 23,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 1,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 2,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 150.5,
+   "sobras": 24,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

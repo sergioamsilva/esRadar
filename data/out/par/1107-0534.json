@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0534",
+ "code": "1107",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Espanhóis",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1107-0534",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 94,
+   "candidatos_1opcao": 7,
+   "colocados": 15,
+   "colocados_1opcao": 3,
+   "media_candidatura": 118.8,
+   "media_provas": 107.6,
+   "media_secundario": 130.0,
+   "nota_ultimo": 114.8,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "1998f1": {
+   "candidatos": 126,
+   "candidatos_1opcao": 21,
+   "colocados": 15,
+   "colocados_1opcao": 3,
+   "media_candidatura": 128.4,
+   "media_provas": 122.0,
+   "media_secundario": 134.7,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "1999f1": {
+   "candidatos": 88,
+   "candidatos_1opcao": 8,
+   "colocados": 15,
+   "colocados_1opcao": 5,
+   "media_candidatura": 131.1,
+   "media_provas": 123.8,
+   "media_secundario": 136.0,
+   "nota_ultimo": 125.6,
+   "sobras": 2,
+   "vagas": 15
+  },
+  "2000f1": {
+   "colocados": 9,
+   "nota_ultimo": 114.8,
+   "sobras": 6,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 6,
+   "nota_ultimo": 120.2,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2002f1": {
+   "colocados": 2,
+   "nota_ultimo": 116.6,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 10,
+   "nota_ultimo": 132.6,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 126.6,
+   "sobras": 4,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

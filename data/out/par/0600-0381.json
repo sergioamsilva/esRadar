@@ -1,0 +1,62 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0381",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Física e Química",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0381",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 120.3,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 125.5,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 100.0,
+   "sobras": 11,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 120.0,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 114.5,
+   "sobras": 7,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

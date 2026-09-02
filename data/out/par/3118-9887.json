@@ -1,0 +1,113 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9887",
+ "code": "3118",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química e Biológica (regime pós-laboral)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3118-9887",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "nota_ultimo": 123.0,
+   "sobras": 14,
+   "vagas": 18
+  },
+  "2007f2": {
+   "colocados": 5,
+   "nota_ultimo": 119.2,
+   "sobras": 10,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 7,
+   "nota_ultimo": 112.8,
+   "sobras": 11,
+   "vagas": 18
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 2,
+   "nota_ultimo": 121.4,
+   "sobras": 16,
+   "vagas": 18
+  },
+  "2009f2": {
+   "colocados": 15,
+   "nota_ultimo": 106.4,
+   "sobras": 2,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 9,
+   "nota_ultimo": 119.6,
+   "sobras": 11,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 4,
+   "nota_ultimo": 107.6,
+   "sobras": 9,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 124.0,
+   "sobras": 22,
+   "vagas": 24
+  },
+  "2011f2": {
+   "colocados": 4,
+   "nota_ultimo": 108.4,
+   "sobras": 18,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 24
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

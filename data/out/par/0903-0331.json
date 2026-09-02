@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0331",
+ "code": "0903",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-0331",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 625,
+   "candidatos_1opcao": 53,
+   "colocados": 41,
+   "colocados_1opcao": 5,
+   "media_candidatura": 156.2,
+   "media_provas": 151.1,
+   "media_secundario": 161.2,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 419,
+   "candidatos_1opcao": 32,
+   "colocados": 45,
+   "colocados_1opcao": 4,
+   "media_candidatura": 156.1,
+   "media_provas": 150.3,
+   "media_secundario": 161.8,
+   "nota_ultimo": 151.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "1999f1": {
+   "candidatos": 352,
+   "candidatos_1opcao": 27,
+   "colocados": 45,
+   "colocados_1opcao": 12,
+   "media_candidatura": 153.0,
+   "media_provas": 143.9,
+   "media_secundario": 162.0,
+   "nota_ultimo": 145.0,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 45,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 38,
+   "nota_ultimo": 115.8,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 45,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 47,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 47
+  },
+  "2004f1": {
+   "colocados": 19,
+   "nota_ultimo": 112.6,
+   "sobras": 31,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 119.6,
+   "sobras": 35,
+   "vagas": 38,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

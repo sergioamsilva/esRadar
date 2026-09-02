@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9254",
+ "code": "1290",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Turismo",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro (Chaves)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1290-9254",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 40,
+   "nota_ultimo": 111.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 15,
+   "nota_ultimo": 121.4,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 42,
+   "nota_ultimo": 109.3,
+   "sobras": 3,
+   "vagas": 45
+  },
+  "2009f2": {
+   "colocados": 24,
+   "nota_ultimo": 111.8,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

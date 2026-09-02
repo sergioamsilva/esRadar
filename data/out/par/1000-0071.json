@@ -1,0 +1,62 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0071",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arqueologia",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0071",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 25,
+   "nota_ultimo": 119.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 15,
+   "nota_ultimo": 105.4,
+   "sobras": 10,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 106.0,
+   "sobras": 1,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 13,
+   "nota_ultimo": 113.0,
+   "sobras": 6,
+   "vagas": 19
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 106.0,
+   "sobras": 3,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

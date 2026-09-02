@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1097",
+ "code": "3133",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências e Tecnologias da Documentação e Informação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3133-1097",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 137.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,128 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9086",
+ "code": "3141",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agronómica",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-9086",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 17,
+   "nota_ultimo": 111.7,
+   "sobras": 8,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 14,
+   "nota_ultimo": 113.5,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 13,
+   "colocados": 14,
+   "nota_ultimo": 114.8,
+   "sobras": 11,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 13,
+   "nota_ultimo": 123.6,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 18,
+   "nota_ultimo": 116.3,
+   "sobras": 7,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 7,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 10,
+   "nota_ultimo": 117.0,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 8,
+   "nota_ultimo": 112.0,
+   "sobras": 7,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 12,
+   "nota_ultimo": 114.1,
+   "sobras": 13,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 6,
+   "nota_ultimo": 112.8,
+   "sobras": 8,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 19,
+   "nota_ultimo": 118.6,
+   "sobras": 6,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 7,
+   "nota_ultimo": 109.8,
+   "sobras": 2,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 2,
+   "nota_ultimo": 124.9,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 2,
+   "nota_ultimo": 124.2,
+   "sobras": 22,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0697",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Psicologia Social e das Organizações",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0697",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 903,
+   "candidatos_1opcao": 231,
+   "colocados": 50,
+   "colocados_1opcao": 25,
+   "media_candidatura": 163.3,
+   "media_provas": 170.6,
+   "media_secundario": 157.6,
+   "nota_ultimo": 160.0,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 754,
+   "candidatos_1opcao": 209,
+   "colocados": 72,
+   "colocados_1opcao": 43,
+   "media_candidatura": 164.5,
+   "media_provas": 172.8,
+   "media_secundario": 156.7,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 897,
+   "candidatos_1opcao": 244,
+   "colocados": 70,
+   "colocados_1opcao": 44,
+   "media_candidatura": 161.1,
+   "media_provas": 168.2,
+   "media_secundario": 154.4,
+   "nota_ultimo": 162.5,
+   "sobras": 2,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 70,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 70,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2002f1": {
+   "colocados": 70,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2003f1": {
+   "colocados": 62,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 62
+  },
+  "2004f1": {
+   "colocados": 62,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 62
+  },
+  "2004f2": {
+   "colocados": 14,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 62,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 62
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

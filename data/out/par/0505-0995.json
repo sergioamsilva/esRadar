@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0995",
+ "code": "0505",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Geografia, área de especialização em Estudos Ambientais",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0505-0995",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 457,
+   "candidatos_1opcao": 46,
+   "colocados": 20,
+   "colocados_1opcao": 13,
+   "media_candidatura": 140.5,
+   "media_provas": 143.1,
+   "media_secundario": 141.5,
+   "nota_ultimo": 140.0,
+   "sobras": 4,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 313,
+   "candidatos_1opcao": 30,
+   "colocados": 20,
+   "colocados_1opcao": 11,
+   "media_candidatura": 142.6,
+   "media_provas": 145.9,
+   "media_secundario": 142.5,
+   "nota_ultimo": 139.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 327,
+   "candidatos_1opcao": 35,
+   "colocados": 22,
+   "colocados_1opcao": 13,
+   "media_candidatura": 144.7,
+   "media_provas": 148.4,
+   "media_secundario": 142.3,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2002f1": {
+   "colocados": 15,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

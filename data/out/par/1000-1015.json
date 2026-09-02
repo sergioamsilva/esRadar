@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1015",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Portugueses e Alemães",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-1015",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 126.6,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

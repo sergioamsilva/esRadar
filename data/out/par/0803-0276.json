@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0276",
+ "code": "0803",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Florestal",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior de Agronomia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0803-0276",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 322,
+   "candidatos_1opcao": 23,
+   "colocados": 55,
+   "colocados_1opcao": 8,
+   "media_candidatura": 142.1,
+   "media_provas": 137.6,
+   "media_secundario": 146.7,
+   "nota_ultimo": 130.5,
+   "sobras": 14,
+   "vagas": 55
+  },
+  "1998f1": {
+   "candidatos": 279,
+   "candidatos_1opcao": 33,
+   "colocados": 60,
+   "colocados_1opcao": 18,
+   "media_candidatura": 141.2,
+   "media_provas": 136.2,
+   "media_secundario": 146.2,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 130,
+   "candidatos_1opcao": 6,
+   "colocados": 16,
+   "colocados_1opcao": 6,
+   "media_candidatura": 137.5,
+   "media_provas": 128.7,
+   "media_secundario": 146.2,
+   "nota_ultimo": 122.8,
+   "sobras": 49,
+   "vagas": 55
+  },
+  "2000f1": {
+   "colocados": 21,
+   "nota_ultimo": 120.0,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 125.5,
+   "sobras": 28,
+   "vagas": 35
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

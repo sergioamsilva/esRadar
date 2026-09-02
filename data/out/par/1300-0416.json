@@ -1,0 +1,126 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0416",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0416",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 56,
+   "colocados": 30,
+   "colocados_1opcao": 30,
+   "media_candidatura": 129.9,
+   "media_provas": 111.8,
+   "media_secundario": 148.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 50,
+   "candidatos_1opcao": 35,
+   "colocados": 30,
+   "colocados_1opcao": 28,
+   "media_candidatura": 127.8,
+   "media_provas": 112.5,
+   "media_secundario": 144.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 40,
+   "candidatos_1opcao": 32,
+   "colocados": 30,
+   "colocados_1opcao": 29,
+   "media_candidatura": 129.9,
+   "media_provas": 114.3,
+   "media_secundario": 146.7,
+   "nota_ultimo": 109.8,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 113.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 22,
+   "nota_ultimo": 103.0,
+   "sobras": 8,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 125.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 33,
+   "nota_ultimo": 109.0,
+   "sobras": 3,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 116.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 13,
+   "nota_ultimo": 135.0,
+   "sobras": 22,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 113.6,
+   "sobras": 16,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 1,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

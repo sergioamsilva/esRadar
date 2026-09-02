@@ -51,6 +51,111 @@
  "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 0,
+   "sobras": 43,
+   "vagas": 43
+  },
+  "2013f2": {
+   "colocados": 1,
+   "nota_ultimo": 140.1,
+   "sobras": 44,
+   "vagas": 45,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45
+  },
+  "2014f2": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 6,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45
+  },
+  "2015f2": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45
+  },
+  "2016f2": {
+   "colocados": 0,
+   "sobras": 45,
+   "vagas": 45,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 0,
+   "sobras": 49,
+   "vagas": 49
+  },
+  "2017f2": {
+   "colocados": 1,
+   "nota_ultimo": 115.9,
+   "sobras": 48,
+   "vagas": 49,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 1,
+   "nota_ultimo": 126.4,
+   "sobras": 9,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 13,
    "candidatos_1opcao": 0,
@@ -185,7 +290,8 @@
   "2022f3": {
    "colocados": 0,
    "sobras": 5,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 0
   },
   "2023f1": {
    "colocados": 1,

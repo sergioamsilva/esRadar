@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0872",
+ "code": "1107",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Europeus, variante de Francês e Alemão",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1107-0872",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 21,
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "colocados_1opcao": 3,
+   "media_candidatura": 134.4,
+   "media_provas": 125.3,
+   "media_secundario": 143.3,
+   "nota_ultimo": 114.3,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "1998f1": {
+   "candidatos": 27,
+   "candidatos_1opcao": 5,
+   "colocados": 7,
+   "colocados_1opcao": 5,
+   "media_candidatura": 127.4,
+   "media_provas": 119.4,
+   "media_secundario": 132.9,
+   "nota_ultimo": 112.3,
+   "sobras": 3,
+   "vagas": 10
+  },
+  "1999f1": {
+   "candidatos": 21,
+   "candidatos_1opcao": 3,
+   "colocados": 4,
+   "colocados_1opcao": 3,
+   "media_candidatura": 133.2,
+   "media_provas": 141.6,
+   "media_secundario": 127.5,
+   "nota_ultimo": 122.2,
+   "sobras": 6,
+   "vagas": 10
+  },
+  "2000f1": {
+   "colocados": 5,
+   "nota_ultimo": 142.6,
+   "sobras": 5,
+   "vagas": 10
+  },
+  "2001f1": {
+   "colocados": 1,
+   "nota_ultimo": 140.6,
+   "sobras": 9,
+   "vagas": 10
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

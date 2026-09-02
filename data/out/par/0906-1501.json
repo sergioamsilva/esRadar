@@ -1,0 +1,62 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1501",
+ "code": "0906",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Informação",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0906-1501",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 41,
+   "nota_ultimo": 104.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 134.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 133.7,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 140.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 7
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1452",
+ "code": "3138",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3138-1452",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 31,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 100.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 108.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 57,
+   "nota_ultimo": 95.0,
+   "sobras": 9,
+   "vagas": 66
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 111.1,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 20,
+   "nota_ultimo": 111.2,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 10
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 121.9,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 19,
+   "nota_ultimo": 115.6,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 9
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

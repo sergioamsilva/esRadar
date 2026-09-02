@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3052",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3052-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 179,
+   "candidatos_1opcao": 26,
+   "colocados": 31,
+   "colocados_1opcao": 13,
+   "media_candidatura": 125.6,
+   "media_provas": 118.8,
+   "media_secundario": 132.3,
+   "nota_ultimo": 120.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 185,
+   "candidatos_1opcao": 33,
+   "colocados": 30,
+   "colocados_1opcao": 16,
+   "media_candidatura": 125.9,
+   "media_provas": 105.2,
+   "media_secundario": 137.0,
+   "nota_ultimo": 124.9,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 110.9,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 13,
+   "nota_ultimo": 102.0,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 8,
+   "nota_ultimo": 132.3,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 1,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 3,
+   "nota_ultimo": 102.9,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 121.5,
+   "sobras": 14,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

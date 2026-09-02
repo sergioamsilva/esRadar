@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1304",
+ "code": "3051",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Ordenamento dos Recursos Naturais",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3051-1304",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 372,
+   "candidatos_1opcao": 76,
+   "colocados": 60,
+   "colocados_1opcao": 27,
+   "media_candidatura": 122.7,
+   "media_provas": 106.5,
+   "media_secundario": 131.3,
+   "nota_ultimo": 122.7,
+   "sobras": 15,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 48,
+   "nota_ultimo": 82.2,
+   "sobras": 12,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 92.5,
+   "sobras": 35,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 22,
+   "nota_ultimo": 98.1,
+   "sobras": 23,
+   "vagas": 45
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

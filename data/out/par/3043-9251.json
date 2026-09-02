@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9251",
+ "code": "3043",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias e Sistemas de Informação",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3043-9251",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 1,
+   "nota_ultimo": 109.3,
+   "sobras": 54,
+   "vagas": 55
+  },
+  "2006f2": {
+   "colocados": 0,
+   "sobras": 55,
+   "vagas": 55,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

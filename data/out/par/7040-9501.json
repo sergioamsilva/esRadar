@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9501",
+ "code": "7040",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem (entrada no 2.º semestre)",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7040-9501",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 8,
+   "nota_ultimo": 134.6,
+   "sobras": 37,
+   "vagas": 45
+  },
+  "2008f2": {
+   "colocados": 37,
+   "nota_ultimo": 124.2,
+   "sobras": 0,
+   "vagas": 37,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 9,
+   "nota_ultimo": 107.6,
+   "sobras": 36,
+   "vagas": 45
+  },
+  "2009f2": {
+   "colocados": 38,
+   "nota_ultimo": 125.2,
+   "sobras": 0,
+   "vagas": 37,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 17,
+   "nota_ultimo": 100.0,
+   "sobras": 28,
+   "vagas": 45
+  },
+  "2010f2": {
+   "colocados": 32,
+   "nota_ultimo": 118.8,
+   "sobras": 0,
+   "vagas": 31,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 17,
+   "nota_ultimo": 100.0,
+   "sobras": 32,
+   "vagas": 45
+  },
+  "2011f2": {
+   "colocados": 37,
+   "nota_ultimo": 123.8,
+   "sobras": 0,
+   "vagas": 35,
+   "vagas_recolocacao": 2
+  },
+  "2012f1": {
+   "colocados": 3,
+   "nota_ultimo": 114.4,
+   "sobras": 42,
+   "vagas": 45
+  },
+  "2012f2": {
+   "colocados": 9,
+   "nota_ultimo": 112.8,
+   "sobras": 35,
+   "vagas": 43,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 2,
+   "nota_ultimo": 121.8,
+   "sobras": 37,
+   "vagas": 37,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

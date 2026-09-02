@@ -1,0 +1,44 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8032",
+ "code": "0203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Bioquímica + Biotecnologia",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0203-8032",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 17,
+   "colocados": 35,
+   "nota_ultimo": 130.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2007f2": {
+   "colocados": 13,
+   "nota_ultimo": 130.3,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 6
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

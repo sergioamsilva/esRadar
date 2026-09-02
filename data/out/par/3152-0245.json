@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0245",
+ "code": "3152",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Electrónica e Computadores",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3152-0245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 178,
+   "candidatos_1opcao": 47,
+   "colocados": 59,
+   "colocados_1opcao": 47,
+   "media_candidatura": 94.5,
+   "media_provas": 59.1,
+   "media_secundario": 129.3,
+   "nota_ultimo": 65.3,
+   "sobras": 16,
+   "vagas": 70
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

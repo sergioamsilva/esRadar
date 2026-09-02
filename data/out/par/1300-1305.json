@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1305",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Telecomunicações e Redes",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-1305",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 11,
+   "nota_ultimo": 100.0,
+   "sobras": 9,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 20,
+   "nota_ultimo": 114.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 19,
+   "nota_ultimo": 95.3,
+   "sobras": 7,
+   "vagas": 26
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 109.7,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 123.7,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 20,
+   "nota_ultimo": 124.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 108.8,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 9
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

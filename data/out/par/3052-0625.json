@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "3052",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3052-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 117,
+   "candidatos_1opcao": 15,
+   "colocados": 30,
+   "colocados_1opcao": 9,
+   "media_candidatura": 118.0,
+   "media_provas": 108.4,
+   "media_secundario": 126.7,
+   "nota_ultimo": 116.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 396,
+   "candidatos_1opcao": 50,
+   "colocados": 35,
+   "colocados_1opcao": 23,
+   "media_candidatura": 129.6,
+   "media_provas": 118.8,
+   "media_secundario": 136.0,
+   "nota_ultimo": 122.8,
+   "sobras": 2,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 31,
+   "nota_ultimo": 137.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 126.9,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 126.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 124.1,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 122.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 126.4,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 118.4,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

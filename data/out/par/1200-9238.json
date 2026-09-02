@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9238",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Serviço Social",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-9238",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 22,
+   "colocados": 60,
+   "nota_ultimo": 110.3,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2007f2": {
+   "colocados": 15,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 60,
+   "nota_ultimo": 131.2,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2008f2": {
+   "colocados": 11,
+   "nota_ultimo": 141.7,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 4
+  },
+  "2009f1": {
+   "colocados": 45,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2009f2": {
+   "colocados": 4,
+   "nota_ultimo": 144.1,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

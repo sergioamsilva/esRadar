@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0588",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas Estrangeiras Aplicadas",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0588",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 313,
+   "candidatos_1opcao": 76,
+   "colocados": 30,
+   "colocados_1opcao": 27,
+   "media_candidatura": 147.0,
+   "media_provas": 144.9,
+   "media_secundario": 149.0,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 31,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 148.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 144.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 132.4,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 121.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 151.6,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 41,
+   "nota_ultimo": 111.6,
+   "sobras": 19,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 14,
+   "nota_ultimo": 110.4,
+   "sobras": 7,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

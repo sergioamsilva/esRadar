@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0707",
+ "code": "1290",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ensino Básico - 1.º Ciclo",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro (Chaves)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1290-0707",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 312,
+   "candidatos_1opcao": 28,
+   "colocados": 51,
+   "colocados_1opcao": 18,
+   "media_candidatura": 122.7,
+   "media_provas": 119.5,
+   "media_secundario": 127.2,
+   "nota_ultimo": 123.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 291,
+   "candidatos_1opcao": 24,
+   "colocados": 50,
+   "colocados_1opcao": 15,
+   "media_candidatura": 127.8,
+   "media_provas": 129.0,
+   "media_secundario": 126.6,
+   "nota_ultimo": 125.0,
+   "sobras": 2,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 125.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 113.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 114.9,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 14,
+   "nota_ultimo": 104.6,
+   "sobras": 36,
+   "vagas": 50
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

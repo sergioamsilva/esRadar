@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9116",
+ "code": "0602",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Geológica",
+ "distrito": "Évora",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0602-9116",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 4,
+   "nota_ultimo": 118.1,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 9,
+   "nota_ultimo": 109.0,
+   "sobras": 9,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 9,
+   "nota_ultimo": 105.0,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2011f2": {
+   "colocados": 3,
+   "nota_ultimo": 120.8,
+   "sobras": 10,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 3,
+   "nota_ultimo": 116.9,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

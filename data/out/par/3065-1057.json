@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1057",
+ "code": "3065",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Administração e Marketing",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3065-1057",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 121.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 105.2,
+   "sobras": 6,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 119.6,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 14,
+   "nota_ultimo": 108.0,
+   "sobras": 2,
+   "vagas": 12,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

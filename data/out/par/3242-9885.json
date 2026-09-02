@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9885",
+ "code": "3242",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática (pós-laboral)",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3242-9885",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2008f2": {
+   "colocados": 1,
+   "nota_ultimo": 121.7,
+   "sobras": 9,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

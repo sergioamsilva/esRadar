@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0964",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica (regime misto)",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-0964",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 50,
+   "candidatos_1opcao": 4,
+   "colocados": 9,
+   "colocados_1opcao": 4,
+   "media_candidatura": 77.7,
+   "media_provas": 37.7,
+   "media_secundario": 118.9,
+   "nota_ultimo": 60.0,
+   "sobras": 21,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

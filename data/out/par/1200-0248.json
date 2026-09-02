@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0248",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0248",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 24,
+   "nota_ultimo": 102.3,
+   "sobras": 36,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 22,
+   "nota_ultimo": 107.8,
+   "sobras": 38,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 103.2,
+   "sobras": 10,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 106.2,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 10,
+   "nota_ultimo": 118.3,
+   "sobras": 30,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 108.0,
+   "sobras": 28,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 111.3,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 119.3,
+   "sobras": 22,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

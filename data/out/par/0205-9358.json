@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9358",
+ "code": "0205",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Biológica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Engenharia de Recursos Naturais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0205-9358",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 1,
+   "colocados": 10,
+   "nota_ultimo": 119.7,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 19,
+   "nota_ultimo": 124.8,
+   "sobras": 0,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 115.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 6,
+   "nota_ultimo": 115.8,
+   "sobras": 2,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 13,
+   "nota_ultimo": 115.6,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 4,
+   "nota_ultimo": 115.5,
+   "sobras": 10,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

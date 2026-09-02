@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1551",
+ "code": "3153",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Recursos Humanos",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3153-1551",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 240,
+   "candidatos_1opcao": 30,
+   "colocados": 65,
+   "colocados_1opcao": 30,
+   "media_candidatura": 97.5,
+   "media_provas": 67.8,
+   "media_secundario": 127.4,
+   "nota_ultimo": 79.0,
+   "sobras": 25,
+   "vagas": 90
+  },
+  "1999f1": {
+   "candidatos": 225,
+   "candidatos_1opcao": 20,
+   "colocados": 54,
+   "colocados_1opcao": 20,
+   "media_candidatura": 103.1,
+   "media_provas": 62.1,
+   "media_secundario": 125.4,
+   "nota_ultimo": 83.8,
+   "sobras": 46,
+   "vagas": 90
+  },
+  "2000f1": {
+   "colocados": 91,
+   "nota_ultimo": 90.8,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2001f1": {
+   "colocados": 77,
+   "nota_ultimo": 95.2,
+   "sobras": 13,
+   "vagas": 90
+  },
+  "2002f1": {
+   "colocados": 68,
+   "nota_ultimo": 88.5,
+   "sobras": 22,
+   "vagas": 90
+  },
+  "2003f1": {
+   "colocados": 74,
+   "nota_ultimo": 92.9,
+   "sobras": 11,
+   "vagas": 85
+  },
+  "2004f1": {
+   "colocados": 83,
+   "nota_ultimo": 94.0,
+   "sobras": 2,
+   "vagas": 85
+  },
+  "2004f2": {
+   "colocados": 18,
+   "nota_ultimo": 96.0,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 111.5,
+   "sobras": 45,
+   "vagas": 80
+  },
+  "2005f2": {
+   "colocados": 22,
+   "nota_ultimo": 104.8,
+   "sobras": 30,
+   "vagas": 51,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 76,
+   "nota_ultimo": 115.6,
+   "sobras": 0,
+   "vagas": 76
+  },
+  "2006f2": {
+   "colocados": 14,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

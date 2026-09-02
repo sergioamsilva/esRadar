@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8333",
+ "code": "3032",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Eléctrica",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3032-8333",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 20,
+   "nota_ultimo": 105.9,
+   "sobras": 10,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 15,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 13,
+   "nota_ultimo": 119.5,
+   "sobras": 22,
+   "vagas": 35
+  },
+  "2010f2": {
+   "colocados": 12,
+   "nota_ultimo": 109.3,
+   "sobras": 11,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 11,
+   "nota_ultimo": 120.2,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 3,
+   "nota_ultimo": 127.4,
+   "sobras": 18,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

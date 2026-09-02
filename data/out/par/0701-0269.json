@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0269",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia da Linguagem e do Conhecimento",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-0269",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 67,
+   "candidatos_1opcao": 7,
+   "colocados": 30,
+   "colocados_1opcao": 5,
+   "media_candidatura": 122.4,
+   "media_provas": 106.5,
+   "media_secundario": 139.3,
+   "nota_ultimo": 112.3,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 68,
+   "candidatos_1opcao": 7,
+   "colocados": 30,
+   "colocados_1opcao": 6,
+   "media_candidatura": 119.8,
+   "media_provas": 106.2,
+   "media_secundario": 133.3,
+   "nota_ultimo": 105.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 77,
+   "candidatos_1opcao": 10,
+   "colocados": 30,
+   "colocados_1opcao": 9,
+   "media_candidatura": 118.4,
+   "media_provas": 101.9,
+   "media_secundario": 135.0,
+   "nota_ultimo": 108.5,
+   "sobras": 5,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 24,
+   "nota_ultimo": 107.3,
+   "sobras": 6,
+   "vagas": 30
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

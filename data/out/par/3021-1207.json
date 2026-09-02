@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1207",
+ "code": "3021",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia e Recursos Naturais",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior Agrária",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3021-1207",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 114.4,
+   "sobras": 22,
+   "vagas": 29
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 112.7,
+   "sobras": 19,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 9,
+   "nota_ultimo": 109.3,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 19,
+   "nota_ultimo": 113.4,
+   "sobras": 2,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

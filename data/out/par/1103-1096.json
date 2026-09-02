@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1096",
+ "code": "1103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências e Tecnologia do Ambiente",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1103-1096",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 125.7,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 28,
+   "nota_ultimo": 123.4,
+   "sobras": 0,
+   "vagas": 27
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 126.0,
+   "sobras": 3,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 28,
+   "nota_ultimo": 111.3,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 124.4,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 16,
+   "nota_ultimo": 110.4,
+   "sobras": 14,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 18,
+   "nota_ultimo": 111.5,
+   "sobras": 1,
+   "vagas": 17,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

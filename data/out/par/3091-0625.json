@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 314,
+   "candidatos_1opcao": 36,
+   "colocados": 40,
+   "colocados_1opcao": 12,
+   "media_candidatura": 124.1,
+   "media_provas": 120.7,
+   "media_secundario": 127.5,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 332,
+   "candidatos_1opcao": 41,
+   "colocados": 50,
+   "colocados_1opcao": 16,
+   "media_candidatura": 123.0,
+   "media_provas": 119.3,
+   "media_secundario": 126.6,
+   "nota_ultimo": 122.5,
+   "sobras": 7,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 116.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 41,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 40,
+   "nota_ultimo": 127.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 33,
+   "nota_ultimo": 118.8,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2004f2": {
+   "colocados": 16,
+   "nota_ultimo": 108.9,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 126.3,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 127.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 13,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

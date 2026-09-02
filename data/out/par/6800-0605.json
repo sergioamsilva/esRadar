@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0605",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Organização e Gestão de Empresas",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0605",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1332,
+   "candidatos_1opcao": 377,
+   "colocados": 271,
+   "colocados_1opcao": 221,
+   "media_candidatura": 142.7,
+   "media_provas": 130.5,
+   "media_secundario": 155.1,
+   "nota_ultimo": 130.3,
+   "sobras": 12,
+   "vagas": 270
+  },
+  "1998f1": {
+   "candidatos": 929,
+   "candidatos_1opcao": 269,
+   "colocados": 200,
+   "colocados_1opcao": 162,
+   "media_candidatura": 146.3,
+   "media_provas": 138.1,
+   "media_secundario": 154.6,
+   "nota_ultimo": 131.8,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "1999f1": {
+   "candidatos": 776,
+   "candidatos_1opcao": 324,
+   "colocados": 201,
+   "colocados_1opcao": 191,
+   "media_candidatura": 146.1,
+   "media_provas": 135.7,
+   "media_secundario": 156.7,
+   "nota_ultimo": 130.3,
+   "sobras": 16,
+   "vagas": 200
+  },
+  "2000f1": {
+   "colocados": 200,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2001f1": {
+   "colocados": 201,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2002f1": {
+   "colocados": 201,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2003f1": {
+   "colocados": 180,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 180
+  },
+  "2004f1": {
+   "colocados": 180,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 180
+  },
+  "2004f2": {
+   "colocados": 23,
+   "nota_ultimo": 134.5,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

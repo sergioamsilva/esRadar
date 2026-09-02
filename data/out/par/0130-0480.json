@@ -1,0 +1,41 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0480",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática (ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0480",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 13,
+   "nota_ultimo": 101.3,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 3,
+   "sobras": 22,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

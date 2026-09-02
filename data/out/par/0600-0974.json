@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0974",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências do Ambiente, ramo de Qualidade do Ambiente",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0974",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 365,
+   "candidatos_1opcao": 35,
+   "colocados": 30,
+   "colocados_1opcao": 1,
+   "media_candidatura": 155.2,
+   "media_provas": 156.0,
+   "media_secundario": 154.7,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 169,
+   "candidatos_1opcao": 19,
+   "colocados": 30,
+   "colocados_1opcao": 9,
+   "media_candidatura": 150.3,
+   "media_provas": 146.3,
+   "media_secundario": 154.3,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 210,
+   "candidatos_1opcao": 21,
+   "colocados": 30,
+   "colocados_1opcao": 9,
+   "media_candidatura": 146.7,
+   "media_provas": 141.8,
+   "media_secundario": 151.7,
+   "nota_ultimo": 140.8,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 121.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 29,
+   "nota_ultimo": 109.3,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 13,
+   "nota_ultimo": 111.3,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 108.3,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 117.5,
+   "sobras": 28,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

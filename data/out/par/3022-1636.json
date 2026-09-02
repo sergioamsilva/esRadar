@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1636",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores de Educação Musical do Ensino Básico",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-1636",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 30,
+   "candidatos_1opcao": 9,
+   "colocados": 10,
+   "colocados_1opcao": 9,
+   "media_candidatura": 114.4,
+   "media_provas": 99.8,
+   "media_secundario": 126.0,
+   "nota_ultimo": 96.0,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 48,
+   "candidatos_1opcao": 17,
+   "colocados": 19,
+   "colocados_1opcao": 17,
+   "media_candidatura": 120.6,
+   "media_provas": 109.7,
+   "media_secundario": 125.3,
+   "nota_ultimo": 108.8,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 4,
+   "nota_ultimo": 150.0,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 133.2,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 126.9,
+   "sobras": 13,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

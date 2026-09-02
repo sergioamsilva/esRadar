@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1554",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão e Administração Pública",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1554",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 192,
+   "candidatos_1opcao": 24,
+   "colocados": 47,
+   "colocados_1opcao": 23,
+   "media_candidatura": 123.9,
+   "media_provas": 116.1,
+   "media_secundario": 128.1,
+   "nota_ultimo": 110.0,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 53,
+   "nota_ultimo": 108.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 29,
+   "nota_ultimo": 100.9,
+   "sobras": 21,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 95.2,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 43,
+   "nota_ultimo": 114.1,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 120.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 114.2,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 36,
+   "nota_ultimo": 108.3,
+   "sobras": 4,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 17,
+   "nota_ultimo": 115.6,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 112.7,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

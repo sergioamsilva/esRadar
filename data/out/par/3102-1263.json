@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1263",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia e Gestão Industrial",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1263",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 23,
+   "nota_ultimo": 92.5,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 26,
+   "nota_ultimo": 98.2,
+   "sobras": 14,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 23,
+   "nota_ultimo": 98.3,
+   "sobras": 17,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 12,
+   "nota_ultimo": 109.5,
+   "sobras": 28,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 17,
+   "nota_ultimo": 108.4,
+   "sobras": 13,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 103.3,
+   "sobras": 16,
+   "vagas": 20,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 6,
+   "nota_ultimo": 110.6,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 111.7,
+   "sobras": 22,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

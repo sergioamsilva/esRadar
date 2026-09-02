@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0219",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Sistemas e Computação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0219",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 186,
+   "candidatos_1opcao": 42,
+   "colocados": 50,
+   "colocados_1opcao": 32,
+   "media_candidatura": 116.3,
+   "media_provas": 98.9,
+   "media_secundario": 133.2,
+   "nota_ultimo": 100.5,
+   "sobras": 2,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 156,
+   "candidatos_1opcao": 30,
+   "colocados": 48,
+   "colocados_1opcao": 30,
+   "media_candidatura": 121.1,
+   "media_provas": 108.3,
+   "media_secundario": 134.0,
+   "nota_ultimo": 84.0,
+   "sobras": 2,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 81,
+   "candidatos_1opcao": 17,
+   "colocados": 26,
+   "colocados_1opcao": 17,
+   "media_candidatura": 120.1,
+   "media_provas": 90.1,
+   "media_secundario": 136.2,
+   "nota_ultimo": 101.3,
+   "sobras": 24,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 23,
+   "nota_ultimo": 102.0,
+   "sobras": 22,
+   "vagas": 45
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

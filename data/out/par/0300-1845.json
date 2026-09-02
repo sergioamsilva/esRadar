@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1845",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Química + Química Industrial e Gestão",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-1845",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 114.3,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 119.0,
+   "sobras": 23,
+   "vagas": 24,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 116.0,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 113.3,
+   "sobras": 16,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

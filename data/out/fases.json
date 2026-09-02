@@ -1,5 +1,75 @@
 {
  "absorcao": {
+  "2004": {
+   "colocados_f2": 7292,
+   "sobras_f1": 8506,
+   "taxa": 86
+  },
+  "2005": {
+   "colocados_f2": 9018,
+   "sobras_f1": 12898,
+   "taxa": 70
+  },
+  "2006": {
+   "colocados_f2": 11068,
+   "sobras_f1": 11687,
+   "taxa": 95
+  },
+  "2007": {
+   "colocados_f2": 11707,
+   "sobras_f1": 6812,
+   "taxa": 100
+  },
+  "2008": {
+   "colocados_f2": 11265,
+   "sobras_f1": 5917,
+   "taxa": 100
+  },
+  "2009": {
+   "colocados_f2": 10817,
+   "sobras_f1": 6102,
+   "taxa": 100
+  },
+  "2010": {
+   "colocados_f2": 11412,
+   "sobras_f1": 7853,
+   "taxa": 100
+  },
+  "2011": {
+   "colocados_f2": 11772,
+   "sobras_f1": 11938,
+   "taxa": 99
+  },
+  "2012": {
+   "colocados_f2": 11365,
+   "sobras_f1": 12306,
+   "taxa": 92
+  },
+  "2013": {
+   "colocados_f2": 11486,
+   "sobras_f1": 14176,
+   "taxa": 81
+  },
+  "2014": {
+   "colocados_f2": 10492,
+   "sobras_f1": 13168,
+   "taxa": 80
+  },
+  "2015": {
+   "colocados_f2": 9410,
+   "sobras_f1": 8714,
+   "taxa": 100
+  },
+  "2016": {
+   "colocados_f2": 9577,
+   "sobras_f1": 8022,
+   "taxa": 100
+  },
+  "2017": {
+   "colocados_f2": 9831,
+   "sobras_f1": 6225,
+   "taxa": 100
+  },
   "2018": {
    "colocados_f2": 9452,
    "sobras_f1": 7290,
@@ -39,32 +109,97 @@
    "colocados_f2": 8824,
    "sobras_f1": 11513,
    "taxa": 77
-  },
-  "2026": {
-   "colocados_f2": 0,
-   "sobras_f1": 6639,
-   "taxa": 0
   }
  },
  "caixas": {
-  "-10": 128,
-  "-12": 403,
-  "-2": 642,
-  "-4": 464,
-  "-6": 291,
-  "-8": 219,
-  "0": 1000,
-  "10": 427,
-  "12": 1520,
-  "2": 751,
-  "4": 911,
-  "6": 605,
-  "8": 674
+  "-10": 414,
+  "-12": 1351,
+  "-2": 1777,
+  "-4": 1486,
+  "-6": 889,
+  "-8": 724,
+  "0": 2676,
+  "10": 1118,
+  "12": 4263,
+  "2": 1891,
+  "4": 2210,
+  "6": 1450,
+  "8": 1697
  },
- "delta_mediano": 3.2,
- "n": 8035,
- "pct_sobe": 66,
+ "delta_mediano": 2.7,
+ "n": 21946,
+ "pct_sobe": 62,
  "por_ano": {
+  "2004": {
+   "delta_mediano": -0.3,
+   "n": 948,
+   "pct_sobe": 47
+  },
+  "2005": {
+   "delta_mediano": 1.4,
+   "n": 950,
+   "pct_sobe": 56
+  },
+  "2006": {
+   "delta_mediano": 0.8,
+   "n": 939,
+   "pct_sobe": 54
+  },
+  "2007": {
+   "delta_mediano": 5.0,
+   "n": 999,
+   "pct_sobe": 71
+  },
+  "2008": {
+   "delta_mediano": 2.4,
+   "n": 1030,
+   "pct_sobe": 59
+  },
+  "2009": {
+   "delta_mediano": 0.6,
+   "n": 1057,
+   "pct_sobe": 53
+  },
+  "2010": {
+   "delta_mediano": 1.6,
+   "n": 1095,
+   "pct_sobe": 57
+  },
+  "2011": {
+   "delta_mediano": 2.0,
+   "n": 1072,
+   "pct_sobe": 57
+  },
+  "2012": {
+   "delta_mediano": 1.8,
+   "n": 988,
+   "pct_sobe": 57
+  },
+  "2013": {
+   "delta_mediano": 1.6,
+   "n": 960,
+   "pct_sobe": 56
+  },
+  "2014": {
+   "delta_mediano": 3.0,
+   "n": 944,
+   "pct_sobe": 63
+  },
+  "2015": {
+   "delta_mediano": 3.4,
+   "n": 961,
+   "pct_sobe": 64
+  },
+  "2016": {
+   "delta_mediano": 5.8,
+   "n": 978,
+   "pct_sobe": 75
+  },
+  "2017": {
+   "delta_mediano": 3.5,
+   "n": 990,
+   "pct_sobe": 70
+  },
   "2018": {
    "delta_mediano": 3.8,
    "n": 980,

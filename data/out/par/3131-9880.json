@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9880",
+ "code": "3131",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Visual e Tecnológica",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-9880",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 8,
+   "nota_ultimo": 131.5,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 104.3,
+   "sobras": 9,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 20,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 4,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

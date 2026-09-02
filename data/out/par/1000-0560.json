@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0560",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática (Ensino de)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0560",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 570,
+   "candidatos_1opcao": 180,
+   "colocados": 60,
+   "colocados_1opcao": 44,
+   "media_candidatura": 165.3,
+   "media_provas": 168.8,
+   "media_secundario": 162.3,
+   "nota_ultimo": 155.0,
+   "sobras": 1,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 431,
+   "candidatos_1opcao": 144,
+   "colocados": 60,
+   "colocados_1opcao": 46,
+   "media_candidatura": 167.1,
+   "media_provas": 171.6,
+   "media_secundario": 162.5,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 343,
+   "candidatos_1opcao": 116,
+   "colocados": 60,
+   "colocados_1opcao": 49,
+   "media_candidatura": 161.2,
+   "media_provas": 161.3,
+   "media_secundario": 161.8,
+   "nota_ultimo": 150.5,
+   "sobras": 1,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 60,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 99.6,
+   "sobras": 10,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 49,
+   "nota_ultimo": 104.0,
+   "sobras": 11,
+   "vagas": 60
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

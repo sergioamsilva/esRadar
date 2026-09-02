@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0416",
+ "code": "0503",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Economia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0503-0416",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 80,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2004f1": {
+   "colocados": 80,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2004f2": {
+   "colocados": 14,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 80,
+   "nota_ultimo": 113.5,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 61,
+   "nota_ultimo": 106.0,
+   "sobras": 19,
+   "vagas": 80
+  },
+  "2006f2": {
+   "colocados": 28,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

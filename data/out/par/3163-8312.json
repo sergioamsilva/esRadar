@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8312",
+ "code": "3163",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia e Tecnologias de Materiais",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3163-8312",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 14,
+   "nota_ultimo": 111.9,
+   "sobras": 6,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 8,
+   "nota_ultimo": 116.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 4,
+   "nota_ultimo": 118.2,
+   "sobras": 20,
+   "vagas": 24
+  },
+  "2010f2": {
+   "colocados": 7,
+   "nota_ultimo": 114.5,
+   "sobras": 15,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 118.8,
+   "sobras": 22,
+   "vagas": 24
+  },
+  "2011f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.5,
+   "sobras": 21,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

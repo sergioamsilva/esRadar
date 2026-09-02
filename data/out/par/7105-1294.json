@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1294",
+ "code": "7105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Máquinas Marítimas",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Escola Superior Náutica Infante D. Henrique",
+ "infocursos": null,
+ "instituicao": "Escola Superior Náutica Infante D. Henrique",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7105-1294",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 17,
+   "candidatos_1opcao": 3,
+   "colocados": 4,
+   "colocados_1opcao": 3,
+   "media_candidatura": 102.2,
+   "media_provas": 80.8,
+   "media_secundario": 125.0,
+   "nota_ultimo": 84.5,
+   "sobras": 46,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 20,
+   "candidatos_1opcao": 4,
+   "colocados": 4,
+   "colocados_1opcao": 4,
+   "media_candidatura": 98.2,
+   "media_provas": 61.6,
+   "media_secundario": 122.5,
+   "nota_ultimo": 86.2,
+   "sobras": 46,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 20,
+   "nota_ultimo": 91.8,
+   "sobras": 30,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 9,
+   "nota_ultimo": 84.6,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 3,
+   "nota_ultimo": 97.4,
+   "sobras": 47,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 106.5,
+   "sobras": 47,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 106.7,
+   "sobras": 45,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 114.8,
+   "sobras": 45,
+   "vagas": 46,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 126.4,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 126.0,
+   "sobras": 21,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 1,
+   "nota_ultimo": 134.0,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 115.9,
+   "sobras": 22,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1019",
+ "code": "3062",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Animação Socioeducativa",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3062-1019",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 451,
+   "candidatos_1opcao": 66,
+   "colocados": 36,
+   "colocados_1opcao": 16,
+   "media_candidatura": 132.8,
+   "media_provas": 128.4,
+   "media_secundario": 136.9,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 144.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 140.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 136.7,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 128.3,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 127.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 134.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 131.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 139.7,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

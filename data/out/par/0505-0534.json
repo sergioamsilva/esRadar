@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0534",
+ "code": "0505",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Espanhóis",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0505-0534",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 117,
+   "candidatos_1opcao": 5,
+   "colocados": 15,
+   "colocados_1opcao": 2,
+   "media_candidatura": 119.5,
+   "media_provas": 109.8,
+   "media_secundario": 130.0,
+   "nota_ultimo": 116.5,
+   "sobras": 3,
+   "vagas": 15
+  },
+  "1998f1": {
+   "candidatos": 132,
+   "candidatos_1opcao": 13,
+   "colocados": 15,
+   "colocados_1opcao": 4,
+   "media_candidatura": 130.0,
+   "media_provas": 128.7,
+   "media_secundario": 131.3,
+   "nota_ultimo": 127.8,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "1999f1": {
+   "candidatos": 110,
+   "candidatos_1opcao": 16,
+   "colocados": 20,
+   "colocados_1opcao": 13,
+   "media_candidatura": 130.9,
+   "media_provas": 128.2,
+   "media_secundario": 133.0,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 3,
+   "nota_ultimo": 120.0,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 3,
+   "nota_ultimo": 103.0,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 121.3,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 140.5,
+   "sobras": 14,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

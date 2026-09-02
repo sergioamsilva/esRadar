@@ -1,0 +1,93 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0373",
+ "code": "3012",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Superiores de Comércio",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3012-0373",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 31,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 41,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 120.4,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 36,
+   "nota_ultimo": 116.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 98.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 12,
+   "nota_ultimo": 94.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 27,
+   "nota_ultimo": 108.5,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 24,
+   "nota_ultimo": 112.6,
+   "sobras": 0,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 13,
+   "nota_ultimo": 111.9,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 20,
+   "nota_ultimo": 104.8,
+   "sobras": 11,
+   "vagas": 30,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

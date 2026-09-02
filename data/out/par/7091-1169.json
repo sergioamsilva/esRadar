@@ -1,0 +1,119 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1169",
+ "code": "7091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Escola Superior de Enfermagem de Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7091-1169",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 428,
+   "candidatos_1opcao": 115,
+   "colocados": 35,
+   "colocados_1opcao": 19,
+   "media_candidatura": 151.8,
+   "media_provas": 150.7,
+   "media_secundario": 153.4,
+   "nota_ultimo": 144.0,
+   "sobras": 1,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 151.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 41,
+   "nota_ultimo": 151.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 41,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 147.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 140.6,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 146.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 133.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 136.6,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 24,
+   "colocados": 29,
+   "nota_ultimo": 117.7,
+   "sobras": 11,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 2,
+   "nota_ultimo": 124.6,
+   "sobras": 11,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

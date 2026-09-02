@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0219",
+ "code": "0203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Sistemas e Computação",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0203-0219",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 29,
+   "nota_ultimo": 98.5,
+   "sobras": 16,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 16,
+   "nota_ultimo": 111.4,
+   "sobras": 29,
+   "vagas": 45
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

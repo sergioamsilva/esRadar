@@ -1,0 +1,94 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1946",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica (regime nocturno - só 1.º ciclo)",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1946",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 158,
+   "candidatos_1opcao": 33,
+   "colocados": 45,
+   "colocados_1opcao": 30,
+   "media_candidatura": 77.6,
+   "media_provas": 29.2,
+   "media_secundario": 125.3,
+   "nota_ultimo": 63.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "1999f1": {
+   "candidatos": 55,
+   "candidatos_1opcao": 7,
+   "colocados": 7,
+   "colocados_1opcao": 7,
+   "media_candidatura": 102.3,
+   "media_provas": 62.3,
+   "media_secundario": 127.1,
+   "nota_ultimo": 92.1,
+   "sobras": 37,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 19,
+   "nota_ultimo": 83.8,
+   "sobras": 21,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 6,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 12,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 113.9,
+   "sobras": 13,
+   "vagas": 18
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 113.2,
+   "sobras": 9,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

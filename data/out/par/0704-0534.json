@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0534",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Espanhóis",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-0534",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 51,
+   "candidatos_1opcao": 7,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 123.2,
+   "media_provas": 108.7,
+   "media_secundario": 137.0,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "1998f1": {
+   "candidatos": 70,
+   "candidatos_1opcao": 2,
+   "colocados": 10,
+   "colocados_1opcao": 2,
+   "media_candidatura": 126.9,
+   "media_provas": 123.7,
+   "media_secundario": 130.0,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "1999f1": {
+   "candidatos": 72,
+   "candidatos_1opcao": 4,
+   "colocados": 15,
+   "colocados_1opcao": 4,
+   "media_candidatura": 124.6,
+   "media_provas": 119.2,
+   "media_secundario": 130.0,
+   "nota_ultimo": 115.0,
+   "sobras": 3,
+   "vagas": 15
+  },
+  "2000f1": {
+   "colocados": 2,
+   "nota_ultimo": 120.3,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 1,
+   "nota_ultimo": 174.3,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

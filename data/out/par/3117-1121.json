@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1121",
+ "code": "3117",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Administração",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3117-1121",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 1070,
+   "candidatos_1opcao": 275,
+   "colocados": 320,
+   "colocados_1opcao": 191,
+   "media_candidatura": 117.0,
+   "media_provas": 101.3,
+   "media_secundario": 133.5,
+   "nota_ultimo": 104.0,
+   "sobras": 0,
+   "vagas": 320
+  },
+  "1999f1": {
+   "candidatos": 826,
+   "candidatos_1opcao": 244,
+   "colocados": 335,
+   "colocados_1opcao": 208,
+   "media_candidatura": 111.6,
+   "media_provas": 89.6,
+   "media_secundario": 133.9,
+   "nota_ultimo": 90.0,
+   "sobras": 44,
+   "vagas": 335
+  },
+  "2000f1": {
+   "colocados": 82,
+   "nota_ultimo": 102.5,
+   "sobras": 243,
+   "vagas": 325
+  },
+  "2001f1": {
+   "colocados": 215,
+   "nota_ultimo": 76.0,
+   "sobras": 105,
+   "vagas": 320
+  },
+  "2002f1": {
+   "colocados": 256,
+   "nota_ultimo": 89.6,
+   "sobras": 64,
+   "vagas": 320
+  },
+  "2003f1": {
+   "colocados": 229,
+   "nota_ultimo": 95.0,
+   "sobras": 59,
+   "vagas": 288
+  },
+  "2004f1": {
+   "colocados": 232,
+   "nota_ultimo": 90.8,
+   "sobras": 56,
+   "vagas": 288
+  },
+  "2004f2": {
+   "colocados": 85,
+   "nota_ultimo": 109.0,
+   "sobras": 0,
+   "vagas": 76,
+   "vagas_recolocacao": 9
+  },
+  "2005f1": {
+   "colocados": 36,
+   "nota_ultimo": 110.2,
+   "sobras": 252,
+   "vagas": 288
+  },
+  "2005f2": {
+   "colocados": 33,
+   "nota_ultimo": 104.8,
+   "sobras": 223,
+   "vagas": 256,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

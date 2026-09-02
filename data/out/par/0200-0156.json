@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0156",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Economia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0156",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 343,
+   "candidatos_1opcao": 61,
+   "colocados": 70,
+   "colocados_1opcao": 40,
+   "media_candidatura": 125.5,
+   "media_provas": 106.9,
+   "media_secundario": 143.7,
+   "nota_ultimo": 109.5,
+   "sobras": 4,
+   "vagas": 70
+  },
+  "1998f1": {
+   "candidatos": 326,
+   "candidatos_1opcao": 41,
+   "colocados": 71,
+   "colocados_1opcao": 35,
+   "media_candidatura": 120.6,
+   "media_provas": 105.9,
+   "media_secundario": 135.6,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 186,
+   "candidatos_1opcao": 38,
+   "colocados": 53,
+   "colocados_1opcao": 38,
+   "media_candidatura": 131.2,
+   "media_provas": 108.8,
+   "media_secundario": 143.8,
+   "nota_ultimo": 105.8,
+   "sobras": 32,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 33,
+   "nota_ultimo": 95.5,
+   "sobras": 37,
+   "vagas": 70
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

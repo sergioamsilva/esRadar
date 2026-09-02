@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8115",
+ "code": "3182",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia e Gestão Industrial (regime pós-laboral)",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3182-8115",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 7,
+   "nota_ultimo": 106.1,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 10,
+   "nota_ultimo": 111.4,
+   "sobras": 9,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 6,
+   "nota_ultimo": 113.5,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 6,
+   "nota_ultimo": 109.7,
+   "sobras": 13,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

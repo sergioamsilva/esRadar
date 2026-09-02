@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1932",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil (regime nocturno)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1932",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 70,
+   "candidatos_1opcao": 14,
+   "colocados": 19,
+   "colocados_1opcao": 14,
+   "media_candidatura": 89.4,
+   "media_provas": 53.0,
+   "media_secundario": 126.3,
+   "nota_ultimo": 63.0,
+   "sobras": 6,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 71,
+   "candidatos_1opcao": 23,
+   "colocados": 26,
+   "colocados_1opcao": 23,
+   "media_candidatura": 95.0,
+   "media_provas": 59.6,
+   "media_secundario": 131.5,
+   "nota_ultimo": 62.8,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 22,
+   "nota_ultimo": 67.5,
+   "sobras": 8,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 10,
+   "nota_ultimo": 113.8,
+   "sobras": 20,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 15,
+   "nota_ultimo": 100.5,
+   "sobras": 20,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 11,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 12,
+   "nota_ultimo": 118.5,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 116.9,
+   "sobras": 13,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

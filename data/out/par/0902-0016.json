@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0016",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Antropologia",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-0016",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 292,
+   "candidatos_1opcao": 24,
+   "colocados": 60,
+   "colocados_1opcao": 12,
+   "media_candidatura": 136.4,
+   "media_provas": 131.4,
+   "media_secundario": 142.2,
+   "nota_ultimo": 129.0,
+   "sobras": 9,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 308,
+   "candidatos_1opcao": 34,
+   "colocados": 70,
+   "colocados_1opcao": 20,
+   "media_candidatura": 136.2,
+   "media_provas": 132.4,
+   "media_secundario": 141.1,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 206,
+   "candidatos_1opcao": 26,
+   "colocados": 50,
+   "colocados_1opcao": 18,
+   "media_candidatura": 132.4,
+   "media_provas": 127.9,
+   "media_secundario": 139.0,
+   "nota_ultimo": 123.8,
+   "sobras": 10,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 61,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 60,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 61,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 60,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 106.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 108.5,
+   "sobras": 8,
+   "vagas": 14,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 111.0,
+   "sobras": 15,
+   "vagas": 65
+  },
+  "2005f2": {
+   "colocados": 28,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 26,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0234",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil (Preparatórios)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0234",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 24,
+   "candidatos_1opcao": 12,
+   "colocados": 10,
+   "colocados_1opcao": 10,
+   "media_candidatura": 115.6,
+   "media_provas": 102.2,
+   "media_secundario": 129.0,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "1998f1": {
+   "candidatos": 20,
+   "candidatos_1opcao": 7,
+   "colocados": 8,
+   "colocados_1opcao": 7,
+   "media_candidatura": 122.0,
+   "media_provas": 104.1,
+   "media_secundario": 140.0,
+   "nota_ultimo": 120.5,
+   "sobras": 2,
+   "vagas": 10
+  },
+  "1999f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 15,
+   "colocados": 10,
+   "colocados_1opcao": 9,
+   "media_candidatura": 140.5,
+   "media_provas": 131.1,
+   "media_secundario": 150.0,
+   "nota_ultimo": 118.0,
+   "sobras": 1,
+   "vagas": 10
+  },
+  "2000f1": {
+   "colocados": 9,
+   "nota_ultimo": 105.8,
+   "sobras": 1,
+   "vagas": 10
+  },
+  "2001f1": {
+   "colocados": 10,
+   "nota_ultimo": 125.7,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 117.1,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2003f1": {
+   "colocados": 10,
+   "nota_ultimo": 135.1,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 106.8,
+   "sobras": 1,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

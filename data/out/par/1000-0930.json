@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0930",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Química, ramo de Controlo de Qualidade de Materiais Têxteis",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0930",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 255,
+   "candidatos_1opcao": 30,
+   "colocados": 20,
+   "colocados_1opcao": 2,
+   "media_candidatura": 140.1,
+   "media_provas": 138.2,
+   "media_secundario": 142.0,
+   "nota_ultimo": 137.5,
+   "sobras": 1,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 135,
+   "candidatos_1opcao": 10,
+   "colocados": 21,
+   "colocados_1opcao": 2,
+   "media_candidatura": 145.6,
+   "media_provas": 143.6,
+   "media_secundario": 147.6,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 199,
+   "candidatos_1opcao": 22,
+   "colocados": 20,
+   "colocados_1opcao": 6,
+   "media_candidatura": 151.0,
+   "media_provas": 154.0,
+   "media_secundario": 148.0,
+   "nota_ultimo": 144.5,
+   "sobras": 2,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 21,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 132.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 21,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

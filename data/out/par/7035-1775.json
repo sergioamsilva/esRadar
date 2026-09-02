@@ -1,0 +1,101 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1775",
+ "code": "7035",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Terapêutica da Fala",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7035-1775",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 140.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 137.7,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 148.7,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 147.7,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 27,
+   "nota_ultimo": 147.9,
+   "sobras": 0,
+   "vagas": 27
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 148.3,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 38,
+   "colocados": 26,
+   "nota_ultimo": 140.9,
+   "sobras": 0,
+   "vagas": 26
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 140.6,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 25,
+   "nota_ultimo": 139.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 133.9,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

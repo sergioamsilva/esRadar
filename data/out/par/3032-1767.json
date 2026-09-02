@@ -1,0 +1,55 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1767",
+ "code": "3032",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Sistemas de Informação para a Gestão",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3032-1767",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 1,
+   "sobras": 25,
+   "vagas": 26
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 113.0,
+   "sobras": 25,
+   "vagas": 26,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 117.5,
+   "sobras": 37,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 113.9,
+   "sobras": 31,
+   "vagas": 37,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

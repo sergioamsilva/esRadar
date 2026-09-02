@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0063",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Bioquímica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0063",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 444,
+   "candidatos_1opcao": 56,
+   "colocados": 25,
+   "colocados_1opcao": 7,
+   "media_candidatura": 157.2,
+   "media_provas": 153.1,
+   "media_secundario": 161.2,
+   "nota_ultimo": 152.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 25,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 25,
+   "nota_ultimo": 120.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 108.8,
+   "sobras": 5,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 28,
+   "nota_ultimo": 117.3,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 141.8,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 23,
+   "nota_ultimo": 109.0,
+   "sobras": 7,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 110.8,
+   "sobras": 2,
+   "vagas": 11,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

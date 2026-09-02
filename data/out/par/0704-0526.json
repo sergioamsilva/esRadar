@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0526",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Franceses e Italianos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-0526",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 54,
+   "candidatos_1opcao": 2,
+   "colocados": 10,
+   "colocados_1opcao": 2,
+   "media_candidatura": 133.0,
+   "media_provas": 123.3,
+   "media_secundario": 142.0,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "1998f1": {
+   "candidatos": 50,
+   "candidatos_1opcao": 10,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 132.4,
+   "media_provas": 129.8,
+   "media_secundario": 135.0,
+   "nota_ultimo": 125.8,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "1999f1": {
+   "candidatos": 69,
+   "candidatos_1opcao": 2,
+   "colocados": 10,
+   "colocados_1opcao": 2,
+   "media_candidatura": 132.8,
+   "media_provas": 125.6,
+   "media_secundario": 140.0,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2000f1": {
+   "colocados": 8,
+   "nota_ultimo": 110.0,
+   "sobras": 2,
+   "vagas": 10
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

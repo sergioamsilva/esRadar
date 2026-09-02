@@ -217,6 +217,98 @@
   }
  ],
  "series": {
+  "2014f1": {
+   "colocados": 81,
+   "nota_ultimo": 120.0,
+   "sobras": 24,
+   "vagas": 105
+  },
+  "2014f2": {
+   "colocados": 28,
+   "nota_ultimo": 135.5,
+   "sobras": 0,
+   "vagas": 26,
+   "vagas_recolocacao": 2
+  },
+  "2014f3": {
+   "colocados": 2,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  },
+  "2015f1": {
+   "colocados": 105,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 105
+  },
+  "2015f2": {
+   "colocados": 8,
+   "nota_ultimo": 151.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 3
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas_recolocacao": 1
+  },
+  "2016f1": {
+   "colocados": 106,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 105
+  },
+  "2016f2": {
+   "colocados": 6,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 4
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "candidatos": 944,
+   "candidatos_1opcao": 102,
+   "candidatos_homens": 806,
+   "candidatos_mulheres": 138,
+   "colocados": 106,
+   "colocados_1opcao": 23,
+   "colocados_homens": 88,
+   "colocados_mulheres": 18,
+   "media_candidatura": 154.8,
+   "media_provas": 156.1,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 105
+  },
+  "2017f2": {
+   "candidatos": 170,
+   "candidatos_1opcao": 40,
+   "candidatos_homens": 151,
+   "candidatos_mulheres": 19,
+   "colocados": 11,
+   "colocados_1opcao": 3,
+   "colocados_homens": 11,
+   "colocados_mulheres": 0,
+   "media_candidatura": 160.4,
+   "media_provas": 166.1,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 6
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 716,
    "candidatos_1opcao": 75,
@@ -394,7 +486,8 @@
   },
   "2022f3": {
    "colocados": 0,
-   "sobras": 1
+   "sobras": 1,
+   "vagas_recolocacao": 1
   },
   "2023f1": {
    "candidatos": 858,

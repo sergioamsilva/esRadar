@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0571",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática e Ciências da Computação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0571",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 109.0,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 137.5,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 13,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 158.0,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 158.5,
+   "sobras": 13,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 135.0,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.5,
+   "sobras": 17,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

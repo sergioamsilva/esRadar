@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9351",
+ "code": "0203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências Biomédicas",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0203-9351",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 146.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 129.9,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 8,
+   "colocados": 35,
+   "nota_ultimo": 124.9,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2007f2": {
+   "colocados": 12,
+   "nota_ultimo": 126.2,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 35,
+   "nota_ultimo": 133.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2008f2": {
+   "colocados": 8,
+   "nota_ultimo": 132.1,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 35,
+   "nota_ultimo": 145.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2009f2": {
+   "colocados": 11,
+   "nota_ultimo": 129.7,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

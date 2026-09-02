@@ -1,0 +1,73 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9114",
+ "code": "3185",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Florestal",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3185-9114",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 9,
+   "nota_ultimo": 107.4,
+   "sobras": 11,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 13,
+   "nota_ultimo": 105.8,
+   "sobras": 3,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 7,
+   "nota_ultimo": 121.0,
+   "sobras": 16,
+   "vagas": 23
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 108.7,
+   "sobras": 11,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  },
+  "2013f2": {
+   "colocados": 0,
+   "sobras": 38,
+   "vagas": 38,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1565",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão Estratégica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-1565",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 12,
+   "candidatos_1opcao": 2,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 107.5,
+   "media_provas": 85.0,
+   "media_secundario": 130.0,
+   "nota_ultimo": 122.5,
+   "sobras": 43,
+   "vagas": 45
+  },
+  "1999f1": {
+   "candidatos": 79,
+   "candidatos_1opcao": 12,
+   "colocados": 15,
+   "colocados_1opcao": 12,
+   "media_candidatura": 98.8,
+   "media_provas": 17.2,
+   "media_secundario": 142.7,
+   "nota_ultimo": 84.5,
+   "sobras": 67,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 73,
+   "nota_ultimo": 86.4,
+   "sobras": 2,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 38,
+   "nota_ultimo": 89.7,
+   "sobras": 37,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 24,
+   "nota_ultimo": 106.5,
+   "sobras": 41,
+   "vagas": 65
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

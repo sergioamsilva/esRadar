@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9540",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Bioengenharia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-9540",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 30,
+   "nota_ultimo": 117.7,
+   "sobras": 10,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 17,
+   "nota_ultimo": 133.2,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 37,
+   "nota_ultimo": 137.1,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 128.2,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 4
+  },
+  "2009f1": {
+   "colocados": 33,
+   "nota_ultimo": 138.6,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2009f2": {
+   "colocados": 14,
+   "nota_ultimo": 120.2,
+   "sobras": 1,
+   "vagas": 10,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

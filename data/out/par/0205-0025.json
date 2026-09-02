@@ -1,0 +1,114 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0025",
+ "code": "0205",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura Paisagista",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Engenharia de Recursos Naturais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0205-0025",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 19,
+   "nota_ultimo": 104.4,
+   "sobras": 21,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 113.7,
+   "sobras": 31,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 102.5,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 11,
+   "nota_ultimo": 103.9,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 101.4,
+   "sobras": 14,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 131.0,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 118.0,
+   "sobras": 25,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 131.7,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 24,
+   "colocados": 25,
+   "nota_ultimo": 126.1,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 128.3,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 22,
+   "nota_ultimo": 111.9,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 10,
+   "nota_ultimo": 117.3,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

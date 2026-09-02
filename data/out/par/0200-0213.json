@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0213",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Ambiente",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0213",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 208,
+   "candidatos_1opcao": 27,
+   "colocados": 50,
+   "colocados_1opcao": 13,
+   "media_candidatura": 138.2,
+   "media_provas": 132.4,
+   "media_secundario": 144.6,
+   "nota_ultimo": 126.5,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 325,
+   "candidatos_1opcao": 24,
+   "colocados": 50,
+   "colocados_1opcao": 8,
+   "media_candidatura": 135.4,
+   "media_provas": 124.5,
+   "media_secundario": 146.2,
+   "nota_ultimo": 126.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 300,
+   "candidatos_1opcao": 25,
+   "colocados": 50,
+   "colocados_1opcao": 14,
+   "media_candidatura": 132.5,
+   "media_provas": 113.0,
+   "media_secundario": 143.0,
+   "nota_ultimo": 121.3,
+   "sobras": 9,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 120.7,
+   "sobras": 0,
+   "vagas": 50
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

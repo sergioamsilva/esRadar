@@ -1,0 +1,100 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0347",
+ "code": "0110",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Zootécnica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Angra do Heroísmo",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0110-0347",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 93,
+   "candidatos_1opcao": 15,
+   "colocados": 31,
+   "colocados_1opcao": 15,
+   "media_candidatura": 112.8,
+   "media_provas": 93.2,
+   "media_secundario": 132.6,
+   "nota_ultimo": 73.0,
+   "sobras": 10,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 12,
+   "colocados": 27,
+   "colocados_1opcao": 12,
+   "media_candidatura": 120.4,
+   "media_provas": 108.9,
+   "media_secundario": 131.8,
+   "nota_ultimo": 99.5,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 42,
+   "candidatos_1opcao": 5,
+   "colocados": 12,
+   "colocados_1opcao": 5,
+   "media_candidatura": 119.7,
+   "media_provas": 102.8,
+   "media_secundario": 136.7,
+   "nota_ultimo": 116.0,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 11,
+   "nota_ultimo": 108.6,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 1,
+   "sobras": 29,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 129.7,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 1,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2005f1": {
+   "colocados": 1,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 123.0,
+   "sobras": 9,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

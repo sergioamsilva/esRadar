@@ -1,0 +1,89 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0494",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Inglês e Alemão (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0494",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 162,
+   "candidatos_1opcao": 26,
+   "colocados": 40,
+   "colocados_1opcao": 14,
+   "media_candidatura": 136.6,
+   "media_provas": 132.1,
+   "media_secundario": 141.0,
+   "nota_ultimo": 129.0,
+   "sobras": 4,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 130,
+   "candidatos_1opcao": 26,
+   "colocados": 40,
+   "colocados_1opcao": 23,
+   "media_candidatura": 132.8,
+   "media_provas": 130.0,
+   "media_secundario": 136.2,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 116,
+   "candidatos_1opcao": 10,
+   "colocados": 45,
+   "colocados_1opcao": 9,
+   "media_candidatura": 135.5,
+   "media_provas": 131.4,
+   "media_secundario": 140.0,
+   "nota_ultimo": 123.3,
+   "sobras": 6,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 29,
+   "nota_ultimo": 116.2,
+   "sobras": 16,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 121.8,
+   "sobras": 37,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 109.7,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

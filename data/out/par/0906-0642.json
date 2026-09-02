@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0642",
+ "code": "0906",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estatística e Gestão de Informação",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0906-0642",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 82,
+   "candidatos_1opcao": 3,
+   "colocados": 33,
+   "colocados_1opcao": 3,
+   "media_candidatura": 113.5,
+   "media_provas": 94.3,
+   "media_secundario": 132.1,
+   "nota_ultimo": 84.0,
+   "sobras": 8,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 254,
+   "candidatos_1opcao": 18,
+   "colocados": 40,
+   "colocados_1opcao": 13,
+   "media_candidatura": 111.6,
+   "media_provas": 88.8,
+   "media_secundario": 135.0,
+   "nota_ultimo": 101.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 136,
+   "candidatos_1opcao": 11,
+   "colocados": 24,
+   "colocados_1opcao": 11,
+   "media_candidatura": 120.7,
+   "media_provas": 113.0,
+   "media_secundario": 127.9,
+   "nota_ultimo": 102.5,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 115.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 101.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 32,
+   "nota_ultimo": 97.3,
+   "sobras": 8,
+   "vagas": 40
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

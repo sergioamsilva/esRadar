@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9026",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências da Educação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-9026",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 25,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 11,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 11,
+   "nota_ultimo": 108.0,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 21,
+   "nota_ultimo": 108.5,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 23,
+   "nota_ultimo": 104.0,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 6,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

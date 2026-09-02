@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1169",
+ "code": "7045",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7045-1169",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 762,
+   "candidatos_1opcao": 173,
+   "colocados": 30,
+   "colocados_1opcao": 18,
+   "media_candidatura": 153.2,
+   "media_provas": 151.0,
+   "media_secundario": 155.3,
+   "nota_ultimo": 154.0,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 159.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 55,
+   "nota_ultimo": 157.4,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2003f1": {
+   "colocados": 55,
+   "nota_ultimo": 152.6,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 148.6,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 146.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 60,
+   "nota_ultimo": 155.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 155.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 4
+  },
+  "2006f1": {
+   "colocados": 60,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9011",
+ "code": "3021",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior Agrária",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3021-9011",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 24,
+   "nota_ultimo": 115.2,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 117.7,
+   "sobras": 1,
+   "vagas": 7,
+   "vagas_recolocacao": 3
+  },
+  "2009f1": {
+   "colocados": 5,
+   "nota_ultimo": 118.7,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 115.3,
+   "sobras": 15,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 3,
+   "nota_ultimo": 118.4,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 6,
+   "nota_ultimo": 117.6,
+   "sobras": 17,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

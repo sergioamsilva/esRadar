@@ -1,0 +1,95 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8422",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Antropologia (regime pós-laboral)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-8422",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 11,
+   "nota_ultimo": 112.0,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 21,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 10,
+   "nota_ultimo": 112.5,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 15,
+   "nota_ultimo": 106.0,
+   "sobras": 4,
+   "vagas": 16,
+   "vagas_recolocacao": 3
+  },
+  "2012f1": {
+   "colocados": 11,
+   "nota_ultimo": 110.5,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 15,
+   "nota_ultimo": 105.0,
+   "sobras": 2,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 6,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 3,
+   "nota_ultimo": 110.0,
+   "sobras": 20,
+   "vagas": 23
+  },
+  "2013f2": {
+   "colocados": 12,
+   "nota_ultimo": 101.0,
+   "sobras": 9,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 12,
+   "vagas": 11,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

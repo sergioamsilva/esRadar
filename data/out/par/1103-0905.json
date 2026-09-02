@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0905",
+ "code": "1103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Física + Física Aplicada",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1103-0905",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 137.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 38,
+   "nota_ultimo": 108.5,
+   "sobras": 2,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.5,
+   "sobras": 12,
+   "vagas": 10,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

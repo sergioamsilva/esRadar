@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9037",
+ "code": "0807",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências de Engenharia - Engenharia Informática e de Computadores",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0807-9037",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 170,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 170
+  },
+  "2006f2": {
+   "colocados": 13,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 146,
+   "colocados": 170,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 170
+  },
+  "2007f2": {
+   "colocados": 18,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

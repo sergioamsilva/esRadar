@@ -1,0 +1,54 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9828",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Assessoria de Administração (pós-laboral)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-9828",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 1,
+   "colocados": 2,
+   "nota_ultimo": 108.4,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 29,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 1,
+   "sobras": 39,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 0,
+   "sobras": 39,
+   "vagas": 39,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

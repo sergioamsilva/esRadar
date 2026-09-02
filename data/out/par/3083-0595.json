@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0595",
+ "code": "3083",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Nutrição",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Instituto Superior de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3083-0595",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 174,
+   "candidatos_1opcao": 44,
+   "colocados": 20,
+   "colocados_1opcao": 10,
+   "media_candidatura": 135.2,
+   "media_provas": 136.2,
+   "media_secundario": 133.5,
+   "nota_ultimo": 137.5,
+   "sobras": 1,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 166,
+   "candidatos_1opcao": 15,
+   "colocados": 25,
+   "colocados_1opcao": 8,
+   "media_candidatura": 138.1,
+   "media_provas": 136.8,
+   "media_secundario": 138.8,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 208,
+   "candidatos_1opcao": 38,
+   "colocados": 25,
+   "colocados_1opcao": 9,
+   "media_candidatura": 146.2,
+   "media_provas": 143.6,
+   "media_secundario": 147.6,
+   "nota_ultimo": 151.8,
+   "sobras": 6,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 144.3,
+   "sobras": 0,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

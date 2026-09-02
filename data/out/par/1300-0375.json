@@ -1,0 +1,41 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0375",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Física (ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0375",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 15,
+   "candidatos_1opcao": 6,
+   "colocados": 8,
+   "colocados_1opcao": 6,
+   "media_candidatura": 122.6,
+   "media_provas": 100.6,
+   "media_secundario": 143.8,
+   "sobras": 12,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

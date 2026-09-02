@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1049",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes do Espectáculo",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-1049",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 31,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

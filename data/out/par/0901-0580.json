@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0580",
+ "code": "0901",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Medicina",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Médicas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0901-0580",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 2213,
+   "candidatos_1opcao": 506,
+   "colocados": 103,
+   "colocados_1opcao": 30,
+   "media_candidatura": 180.7,
+   "media_provas": 183.6,
+   "media_secundario": 178.3,
+   "nota_ultimo": 183.8,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "1998f1": {
+   "candidatos": 2228,
+   "candidatos_1opcao": 648,
+   "colocados": 121,
+   "colocados_1opcao": 51,
+   "media_candidatura": 181.1,
+   "media_provas": 182.6,
+   "media_secundario": 179.5,
+   "nota_ultimo": 184.5,
+   "sobras": 0,
+   "vagas": 115
+  },
+  "1999f1": {
+   "candidatos": 1641,
+   "candidatos_1opcao": 538,
+   "colocados": 121,
+   "colocados_1opcao": 55,
+   "media_candidatura": 183.4,
+   "media_provas": 185.2,
+   "media_secundario": 181.6,
+   "nota_ultimo": 185.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 149,
+   "nota_ultimo": 181.3,
+   "sobras": 0,
+   "vagas": 145
+  },
+  "2001f1": {
+   "colocados": 152,
+   "nota_ultimo": 184.3,
+   "sobras": 0,
+   "vagas": 150
+  },
+  "2002f1": {
+   "colocados": 168,
+   "nota_ultimo": 183.5,
+   "sobras": 0,
+   "vagas": 160
+  },
+  "2003f1": {
+   "colocados": 168,
+   "nota_ultimo": 181.5,
+   "sobras": 0,
+   "vagas": 160
+  },
+  "2004f1": {
+   "colocados": 175,
+   "nota_ultimo": 179.3,
+   "sobras": 0,
+   "vagas": 175
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 185.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 175,
+   "nota_ultimo": 182.5,
+   "sobras": 0,
+   "vagas": 175
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 186.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 201,
+   "nota_ultimo": 177.8,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 183.8,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

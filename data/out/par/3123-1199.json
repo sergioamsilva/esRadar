@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1199",
+ "code": "3123",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agrária e Desenvolvimento Regional",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior Agrária de Elvas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3123-1199",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 82,
+   "candidatos_1opcao": 7,
+   "colocados": 30,
+   "colocados_1opcao": 7,
+   "media_candidatura": 117.7,
+   "media_provas": 110.7,
+   "media_secundario": 123.0,
+   "nota_ultimo": 105.5,
+   "sobras": 10,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 11,
+   "nota_ultimo": 107.5,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 13,
+   "nota_ultimo": 98.3,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 8,
+   "nota_ultimo": 94.3,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 7,
+   "nota_ultimo": 128.8,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 117.1,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 98.4,
+   "sobras": 11,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 122.4,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1007",
+ "code": "3142",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Animação Cultural e Educação Comunitária",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3142-1007",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 330,
+   "candidatos_1opcao": 44,
+   "colocados": 34,
+   "colocados_1opcao": 12,
+   "media_candidatura": 140.8,
+   "media_provas": 142.2,
+   "media_secundario": 141.2,
+   "nota_ultimo": 144.0,
+   "sobras": 3,
+   "vagas": 34
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 36,
+   "nota_ultimo": 130.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 31,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 121.6,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 127.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

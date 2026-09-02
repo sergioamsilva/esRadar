@@ -1,0 +1,96 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0534",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Espanhóis",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-0534",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 1,
+   "colocados": 14,
+   "colocados_1opcao": 1,
+   "media_candidatura": 116.8,
+   "media_provas": 109.2,
+   "media_secundario": 124.3,
+   "nota_ultimo": 100.8,
+   "sobras": 1,
+   "vagas": 15
+  },
+  "1999f1": {
+   "candidatos": 97,
+   "candidatos_1opcao": 14,
+   "colocados": 15,
+   "colocados_1opcao": 4,
+   "media_candidatura": 124.8,
+   "media_provas": 122.2,
+   "media_secundario": 127.3,
+   "nota_ultimo": 118.5,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2000f1": {
+   "colocados": 2,
+   "nota_ultimo": 117.8,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 3,
+   "nota_ultimo": 108.5,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 128.0,
+   "sobras": 12,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 127.5,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 104.5,
+   "sobras": 5,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

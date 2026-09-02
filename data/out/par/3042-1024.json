@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1024",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Animação e Produção Artística",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1024",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 37,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 37,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 111.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 113.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 98.4,
+   "sobras": 1,
+   "vagas": 5,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 13,
+   "nota_ultimo": 118.2,
+   "sobras": 22,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 108.0,
+   "sobras": 17,
+   "vagas": 26,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

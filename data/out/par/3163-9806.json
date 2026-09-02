@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9806",
+ "code": "3163",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias da Computação Gráfica e Multimédia",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3163-9806",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 8,
+   "colocados": 12,
+   "nota_ultimo": 119.4,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 19,
+   "nota_ultimo": 122.3,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 118.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 7,
+   "nota_ultimo": 125.4,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 8,
+   "nota_ultimo": 121.0,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 14,
+   "nota_ultimo": 111.7,
+   "sobras": 9,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

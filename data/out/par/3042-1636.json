@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1636",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores de Educação Musical do Ensino Básico",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1636",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 46,
+   "candidatos_1opcao": 13,
+   "colocados": 14,
+   "colocados_1opcao": 13,
+   "media_candidatura": 118.4,
+   "media_provas": 114.1,
+   "media_secundario": 130.7,
+   "nota_ultimo": 80.5,
+   "sobras": 21,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 47,
+   "candidatos_1opcao": 19,
+   "colocados": 19,
+   "colocados_1opcao": 19,
+   "media_candidatura": 119.3,
+   "media_provas": 113.0,
+   "media_secundario": 122.6,
+   "nota_ultimo": 102.8,
+   "sobras": 33,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 111.3,
+   "sobras": 32,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 138.8,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 8,
+   "nota_ultimo": 118.6,
+   "sobras": 17,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

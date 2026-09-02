@@ -113,7 +113,22 @@
  "par": "1000-9214",
  "preferencia_regional": null,
  "provas_ingresso": "Um dos seguintes conjuntos:\n18 Português\nou\n13 Inglês\nou\n11 História\n18 Português\nou\n12 Hist. da Cultura e Artes\n18 Português\nou\n06 Filosofia\n18 Português\nou\n11 História\n13 Inglês\nou\n13 Inglês\n18 Português\nou\n06 Filosofia\n16 Matemática",
- "series": {},
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 2,
+   "colocados": 2,
+   "nota_ultimo": 140.4,
+   "sobras": 48,
+   "vagas": 50
+  },
+  "2007f2": {
+   "colocados": 2,
+   "nota_ultimo": 139.7,
+   "sobras": 48,
+   "vagas": 50,
+   "vagas_recolocacao": 0
+  }
+ },
  "subsistema": "universitario",
  "tipo_ensino": "Ensino Superior Público Universitário",
  "vagas_2026": 45

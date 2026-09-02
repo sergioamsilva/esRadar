@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3062",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3062-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 235,
+   "candidatos_1opcao": 31,
+   "colocados": 30,
+   "colocados_1opcao": 12,
+   "media_candidatura": 126.9,
+   "media_provas": 127.7,
+   "media_secundario": 126.3,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 218,
+   "candidatos_1opcao": 43,
+   "colocados": 30,
+   "colocados_1opcao": 15,
+   "media_candidatura": 128.8,
+   "media_provas": 123.9,
+   "media_secundario": 132.7,
+   "nota_ultimo": 129.7,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 122.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 27,
+   "nota_ultimo": 108.8,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 27,
+   "nota_ultimo": 106.9,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 110.9,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 106.9,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9202",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas, Literaturas e Culturas, var. em Estudos Portugueses e Românicos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-9202",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 12,
+   "nota_ultimo": 107.0,
+   "sobras": 88,
+   "vagas": 100
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 113.0,
+   "sobras": 93,
+   "vagas": 97,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 9,
+   "colocados": 13,
+   "nota_ultimo": 113.0,
+   "sobras": 67,
+   "vagas": 80
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 109.0,
+   "sobras": 65,
+   "vagas": 69,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

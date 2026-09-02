@@ -1,0 +1,49 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1503",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Franceses (Língua, Arte e Cultura)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-1503",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 122.5,
+   "sobras": 3,
+   "vagas": 8
+  },
+  "2005f1": {
+   "colocados": 8,
+   "nota_ultimo": 117.5,
+   "sobras": 2,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

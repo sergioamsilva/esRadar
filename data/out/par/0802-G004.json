@@ -1,0 +1,50 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "G004",
+ "code": "0802",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitetura, na área de especialização em Urbanismo",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Faculdade de Arquitectura",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0802-G004",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2013f1": {
+   "colocados": 22,
+   "nota_ultimo": 111.0,
+   "sobras": 53,
+   "vagas": 75
+  },
+  "2013f2": {
+   "colocados": 20,
+   "nota_ultimo": 115.0,
+   "sobras": 40,
+   "vagas": 60,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 1,
+   "nota_ultimo": 141.8,
+   "sobras": 40,
+   "vagas": 40,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "3151",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3151-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 501,
+   "candidatos_1opcao": 95,
+   "colocados": 33,
+   "colocados_1opcao": 12,
+   "media_candidatura": 140.6,
+   "media_provas": 141.3,
+   "media_secundario": 139.4,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 492,
+   "candidatos_1opcao": 94,
+   "colocados": 32,
+   "colocados_1opcao": 14,
+   "media_candidatura": 139.4,
+   "media_provas": 139.3,
+   "media_secundario": 140.0,
+   "nota_ultimo": 140.0,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 60,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 135.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 36,
+   "nota_ultimo": 137.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

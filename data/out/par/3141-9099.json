@@ -1,0 +1,65 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9099",
+ "code": "3141",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Ambiente",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-9099",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2013f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2014f2": {
+   "colocados": 2,
+   "nota_ultimo": 112.0,
+   "sobras": 28,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 29,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

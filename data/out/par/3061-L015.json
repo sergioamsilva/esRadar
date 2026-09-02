@@ -207,6 +207,105 @@
   }
  ],
  "series": {
+  "2013f1": {
+   "colocados": 12,
+   "nota_ultimo": 109.4,
+   "sobras": 30,
+   "vagas": 42
+  },
+  "2013f2": {
+   "colocados": 11,
+   "nota_ultimo": 108.0,
+   "sobras": 24,
+   "vagas": 32,
+   "vagas_recolocacao": 3
+  },
+  "2013f3": {
+   "colocados": 2,
+   "nota_ultimo": 121.3,
+   "sobras": 23,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 3,
+   "nota_ultimo": 111.0,
+   "sobras": 39,
+   "vagas": 42
+  },
+  "2014f2": {
+   "colocados": 7,
+   "nota_ultimo": 96.0,
+   "sobras": 33,
+   "vagas": 40,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 2,
+   "nota_ultimo": 115.8,
+   "sobras": 11,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 14,
+   "nota_ultimo": 107.2,
+   "sobras": 26,
+   "vagas": 40
+  },
+  "2015f2": {
+   "colocados": 13,
+   "nota_ultimo": 102.8,
+   "sobras": 16,
+   "vagas": 27,
+   "vagas_recolocacao": 2
+  },
+  "2015f3": {
+   "colocados": 1,
+   "nota_ultimo": 112.6,
+   "sobras": 10,
+   "vagas": 9,
+   "vagas_recolocacao": 2
+  },
+  "2016f1": {
+   "colocados": 11,
+   "nota_ultimo": 105.8,
+   "sobras": 16,
+   "vagas": 27
+  },
+  "2016f2": {
+   "colocados": 17,
+   "nota_ultimo": 109.7,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas": 0,
+   "vagas_recolocacao": 1
+  },
+  "2017f1": {
+   "colocados": 22,
+   "nota_ultimo": 105.4,
+   "sobras": 5,
+   "vagas": 27
+  },
+  "2017f2": {
+   "colocados": 12,
+   "nota_ultimo": 107.1,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 3
+  },
+  "2017f3": {
+   "colocados": 1,
+   "nota_ultimo": 107.0,
+   "sobras": 4,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  },
   "2018f1": {
    "candidatos": 62,
    "candidatos_1opcao": 6,
@@ -392,7 +491,8 @@
    "colocados": 2,
    "nota_ultimo": 127.3,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 1
   },
   "2023f1": {
    "candidatos": 99,

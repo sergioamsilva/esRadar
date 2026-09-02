@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0278",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia dos Recursos Geológicos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0278",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 73,
+   "candidatos_1opcao": 12,
+   "colocados": 26,
+   "colocados_1opcao": 12,
+   "media_candidatura": 101.9,
+   "media_provas": 80.1,
+   "media_secundario": 121.9,
+   "nota_ultimo": 79.5,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 75,
+   "candidatos_1opcao": 7,
+   "colocados": 9,
+   "colocados_1opcao": 7,
+   "media_candidatura": 109.5,
+   "media_provas": 71.0,
+   "media_secundario": 132.2,
+   "nota_ultimo": 100.3,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 101.5,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 2,
+   "nota_ultimo": 106.6,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 2,
+   "nota_ultimo": 111.3,
+   "sobras": 23,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

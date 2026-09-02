@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0022",
+ "code": "0807",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior Técnico",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0807-0022",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 279,
+   "candidatos_1opcao": 60,
+   "colocados": 50,
+   "colocados_1opcao": 40,
+   "media_candidatura": 171.3,
+   "media_provas": 176.2,
+   "media_secundario": 166.4,
+   "nota_ultimo": 161.3,
+   "sobras": 1,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 51,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 153.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 153.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 154.8,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

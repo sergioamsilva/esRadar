@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0284",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Geológica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0284",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 6,
+   "nota_ultimo": 105.7,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 120.1,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 14,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 116.5,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 9,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 2,
+   "nota_ultimo": 113.4,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

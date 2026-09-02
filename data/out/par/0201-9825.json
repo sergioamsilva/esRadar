@@ -1,0 +1,44 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9825",
+ "code": "0201",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências Documentais e Editoriais",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0201-9825",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 13,
+   "nota_ultimo": 110.0,
+   "sobras": 7,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 7,
+   "nota_ultimo": 113.0,
+   "sobras": 4,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -194,6 +194,30 @@ export type Genero = {
   cursos_mais_femininos: { par: string; curso: string; grupo: string; colocados: number; pct_mulheres: number }[];
 };
 
+/** Horizonte das séries. A DGES publica resultados por par desde 1997 (1ª
+ * fase; 2ª desde 2004, 3ª desde 2012), mas os códigos de curso atuais nascem
+ * com a adequação a Bolonha: antes de 2007 quase nenhuma série por curso
+ * atravessa. As vistas por curso (mapa de calor, ranking, áreas) começam por
+ * isso em 2007; os totais nacionais e as fichas vão até onde há dados. */
+export const ANO_CORRENTE = 2026;
+export const ANO_INICIO = 1997;
+export const ANO_INICIO_CURSOS = 2007;
+export const ANOS_CURSOS = Array.from(
+  { length: ANO_CORRENTE - ANO_INICIO_CURSOS + 1 },
+  (_, i) => ANO_INICIO_CURSOS + i,
+);
+
+/** Anos que recebem rótulo num eixo: todos até 12; depois de 2 em 2 ou de 5
+ * em 5 (múltiplos), e sempre o último. */
+export function anosRotulados(anos: number[]): Set<number> {
+  const passo = anos.length <= 12 ? 1 : anos.length <= 24 ? 2 : 5;
+  const ultimo = anos[anos.length - 1];
+  const rotulados = new Set<number>();
+  for (const a of anos) if (a % passo === 0 && ultimo - a >= 2) rotulados.add(a);
+  if (ultimo != null) rotulados.add(ultimo);
+  return rotulados;
+}
+
 function ler<T>(relativo: string): T {
   return JSON.parse(fs.readFileSync(path.join(RAIZ, relativo), "utf8")) as T;
 }

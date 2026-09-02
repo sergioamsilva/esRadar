@@ -1,0 +1,114 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9852",
+ "code": "3121",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Artística",
+ "distrito": "Portalegre",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3121-9852",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 2,
+   "colocados": 4,
+   "nota_ultimo": 111.3,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 119.8,
+   "sobras": 5,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 7,
+   "nota_ultimo": 108.0,
+   "sobras": 8,
+   "vagas": 15
+  },
+  "2008f2": {
+   "colocados": 2,
+   "nota_ultimo": 110.6,
+   "sobras": 9,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 5,
+   "nota_ultimo": 115.6,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 2,
+   "nota_ultimo": 118.3,
+   "sobras": 14,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 10,
+   "nota_ultimo": 105.9,
+   "sobras": 10,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 4,
+   "nota_ultimo": 105.9,
+   "sobras": 11,
+   "vagas": 12,
+   "vagas_recolocacao": 3
+  },
+  "2011f1": {
+   "colocados": 3,
+   "nota_ultimo": 126.2,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2011f2": {
+   "colocados": 1,
+   "nota_ultimo": 134.3,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 137.1,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

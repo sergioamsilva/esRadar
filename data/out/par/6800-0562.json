@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0562",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Marketing",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0562",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 130.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 127.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 31,
+   "nota_ultimo": 114.3,
+   "sobras": 4,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

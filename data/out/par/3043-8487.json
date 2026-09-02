@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8487",
+ "code": "3043",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Negócios Internacionais (curso europeu)",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 166,
+    "inscritos": 210,
+    "mulheres": 118
+   },
+   "2020/21": {
+    "estrangeiros": 105,
+    "inscritos": 150,
+    "mulheres": 74
+   }
+  }
+ },
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3043-8487",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2011f1": {
+   "colocados": 3,
+   "nota_ultimo": 119.0,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2011f2": {
+   "colocados": 7,
+   "nota_ultimo": 110.9,
+   "sobras": 3,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

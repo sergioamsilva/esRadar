@@ -1,0 +1,44 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9007",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-9007",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 0,
+   "colocados": 4,
+   "nota_ultimo": 111.5,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 1,
+   "nota_ultimo": 122.3,
+   "sobras": 17,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

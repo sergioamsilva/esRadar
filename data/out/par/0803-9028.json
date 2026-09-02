@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9028",
+ "code": "0803",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências de Engenharia - Engenharia Alimentar",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior de Agronomia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0803-9028",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 28,
+   "nota_ultimo": 110.5,
+   "sobras": 12,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 21,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 4
+  },
+  "2007f1": {
+   "candidatos_1opcao": 26,
+   "colocados": 45,
+   "nota_ultimo": 121.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,132 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1775",
+ "code": "7230",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Terapêutica da Fala",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7230-1775",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 144,
+   "candidatos_1opcao": 39,
+   "colocados": 12,
+   "colocados_1opcao": 7,
+   "media_candidatura": 162.3,
+   "media_provas": 160.2,
+   "media_secundario": 165.8,
+   "nota_ultimo": 162.0,
+   "sobras": 2,
+   "vagas": 12
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 18,
+   "nota_ultimo": 170.3,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2002f1": {
+   "colocados": 18,
+   "nota_ultimo": 166.5,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2003f1": {
+   "colocados": 18,
+   "nota_ultimo": 166.3,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 162.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 161.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 156.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 104,
+   "colocados": 30,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 2,
+   "nota_ultimo": 161.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

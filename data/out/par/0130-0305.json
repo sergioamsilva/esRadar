@@ -1,0 +1,98 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0305",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica (Preparatórios)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0305",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 15,
+   "candidatos_1opcao": 4,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 107.0,
+   "media_provas": 82.3,
+   "media_secundario": 131.7,
+   "sobras": 4,
+   "vagas": 10
+  },
+  "1998f1": {
+   "candidatos": 17,
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "colocados_1opcao": 3,
+   "media_candidatura": 124.9,
+   "media_provas": 113.2,
+   "media_secundario": 136.7,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "1999f1": {
+   "candidatos": 24,
+   "candidatos_1opcao": 3,
+   "colocados": 5,
+   "colocados_1opcao": 3,
+   "media_candidatura": 108.8,
+   "media_provas": 77.6,
+   "media_secundario": 140.0,
+   "nota_ultimo": 101.8,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "2000f1": {
+   "colocados": 3,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 106.0,
+   "sobras": 2,
+   "vagas": 10
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 106.3,
+   "sobras": 6,
+   "vagas": 10
+  },
+  "2003f1": {
+   "colocados": 2,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2004f1": {
+   "colocados": 1,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.0,
+   "sobras": 8,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

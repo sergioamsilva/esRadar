@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0464",
+ "code": "1103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Física e Tecnologia dos Materiais",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1103-0464",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 30,
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "colocados_1opcao": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 35,
+   "candidatos_1opcao": 2,
+   "colocados": 8,
+   "colocados_1opcao": 2,
+   "media_candidatura": 130.3,
+   "media_provas": 119.3,
+   "media_secundario": 141.2,
+   "nota_ultimo": 109.0,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 34,
+   "candidatos_1opcao": 2,
+   "colocados": 11,
+   "colocados_1opcao": 2,
+   "media_candidatura": 117.1,
+   "media_provas": 98.7,
+   "media_secundario": 135.4,
+   "nota_ultimo": 110.0,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 8,
+   "nota_ultimo": 105.3,
+   "sobras": 12,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

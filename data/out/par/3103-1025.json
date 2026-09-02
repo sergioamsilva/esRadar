@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1025",
+ "code": "3103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Artes e Design",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3103-1025",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 314,
+   "candidatos_1opcao": 58,
+   "colocados": 75,
+   "colocados_1opcao": 29,
+   "media_candidatura": 143.6,
+   "media_provas": 150.6,
+   "media_secundario": 137.5,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 380,
+   "candidatos_1opcao": 69,
+   "colocados": 80,
+   "colocados_1opcao": 33,
+   "media_candidatura": 146.1,
+   "media_provas": 159.0,
+   "media_secundario": 139.9,
+   "nota_ultimo": 143.5,
+   "sobras": 19,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 80,
+   "nota_ultimo": 136.7,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2001f1": {
+   "colocados": 77,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 75,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2003f1": {
+   "colocados": 40,
+   "nota_ultimo": 118.3,
+   "sobras": 30,
+   "vagas": 70
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 100.9,
+   "sobras": 15,
+   "vagas": 55
+  },
+  "2004f2": {
+   "colocados": 14,
+   "nota_ultimo": 108.0,
+   "sobras": 12,
+   "vagas": 18,
+   "vagas_recolocacao": 8
+  },
+  "2005f1": {
+   "colocados": 12,
+   "nota_ultimo": 114.6,
+   "sobras": 28,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 12,
+   "nota_ultimo": 113.9,
+   "sobras": 25,
+   "vagas": 37,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 32,
+   "nota_ultimo": 110.6,
+   "sobras": 8,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 19,
+   "nota_ultimo": 128.7,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

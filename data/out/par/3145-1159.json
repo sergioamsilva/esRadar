@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1159",
+ "code": "3145",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Desporto, variante de Treino Desportivo de Alto Rendimento",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3145-1159",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 113,
+   "candidatos_1opcao": 20,
+   "colocados": 39,
+   "colocados_1opcao": 20,
+   "media_candidatura": 114.6,
+   "media_provas": 97.7,
+   "media_secundario": 125.1,
+   "nota_ultimo": 102.4,
+   "sobras": 22,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 107.6,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 100.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 110.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 28,
+   "nota_ultimo": 106.0,
+   "sobras": 10,
+   "vagas": 38
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

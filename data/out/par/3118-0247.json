@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0247",
+ "code": "3118",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3118-0247",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 358,
+   "candidatos_1opcao": 35,
+   "colocados": 92,
+   "colocados_1opcao": 35,
+   "media_candidatura": 101.9,
+   "media_provas": 76.3,
+   "media_secundario": 127.9,
+   "nota_ultimo": 71.8,
+   "sobras": 53,
+   "vagas": 140
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

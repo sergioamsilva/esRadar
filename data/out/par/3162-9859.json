@@ -1,0 +1,124 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9859",
+ "code": "3162",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão Artística e Cultural",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3162-9859",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 7,
+   "colocados": 30,
+   "nota_ultimo": 109.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 127.6,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 13,
+   "nota_ultimo": 121.0,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 16,
+   "nota_ultimo": 100.0,
+   "sobras": 5,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 3,
+   "nota_ultimo": 113.8,
+   "sobras": 6,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 12,
+   "nota_ultimo": 112.6,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 10,
+   "nota_ultimo": 95.0,
+   "sobras": 12,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  },
+  "2013f3": {
+   "colocados": 2,
+   "nota_ultimo": 120.3,
+   "sobras": 12,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 8,
+   "nota_ultimo": 120.8,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2014f2": {
+   "colocados": 20,
+   "nota_ultimo": 105.0,
+   "sobras": 4,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 3,
+   "nota_ultimo": 114.9,
+   "sobras": 6,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  },
+  "2015f1": {
+   "colocados": 7,
+   "nota_ultimo": 112.3,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2015f2": {
+   "colocados": 8,
+   "nota_ultimo": 105.4,
+   "sobras": 17,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 3,
+   "nota_ultimo": 114.0,
+   "sobras": 15,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

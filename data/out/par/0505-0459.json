@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0459",
+ "code": "0505",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "História, variante de Arqueologia",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0505-0459",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 150,
+   "candidatos_1opcao": 27,
+   "colocados": 26,
+   "colocados_1opcao": 16,
+   "media_candidatura": 139.1,
+   "media_provas": 139.7,
+   "media_secundario": 139.2,
+   "nota_ultimo": 132.5,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 201,
+   "candidatos_1opcao": 37,
+   "colocados": 25,
+   "colocados_1opcao": 13,
+   "media_candidatura": 146.7,
+   "media_provas": 148.5,
+   "media_secundario": 145.6,
+   "nota_ultimo": 137.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 244,
+   "candidatos_1opcao": 33,
+   "colocados": 25,
+   "colocados_1opcao": 21,
+   "media_candidatura": 142.0,
+   "media_provas": 148.8,
+   "media_secundario": 135.2,
+   "nota_ultimo": 133.0,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

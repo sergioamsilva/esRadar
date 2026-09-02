@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1040",
+ "code": "3242",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas - Pintura",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3242-1040",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 132.1,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 119.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 20,
+   "nota_ultimo": 115.5,
+   "sobras": 15,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 31,
+   "nota_ultimo": 106.2,
+   "sobras": 4,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 112.2,
+   "sobras": 6,
+   "vagas": 9,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 13,
+   "nota_ultimo": 113.2,
+   "sobras": 22,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.4,
+   "sobras": 23,
+   "vagas": 25,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 6,
+   "nota_ultimo": 123.7,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 11,
+   "nota_ultimo": 110.6,
+   "sobras": 20,
+   "vagas": 31,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

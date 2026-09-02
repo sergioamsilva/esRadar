@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1621",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Marketing",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-1621",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 187,
+   "candidatos_1opcao": 25,
+   "colocados": 47,
+   "colocados_1opcao": 25,
+   "media_candidatura": 92.5,
+   "media_provas": 22.1,
+   "media_secundario": 130.4,
+   "nota_ultimo": 70.4,
+   "sobras": 45,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 76,
+   "nota_ultimo": 121.3,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 70,
+   "nota_ultimo": 91.5,
+   "sobras": 5,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 55,
+   "nota_ultimo": 105.8,
+   "sobras": 10,
+   "vagas": 65
+  },
+  "2003f1": {
+   "colocados": 33,
+   "nota_ultimo": 102.5,
+   "sobras": 5,
+   "vagas": 38
+  },
+  "2004f1": {
+   "colocados": 29,
+   "nota_ultimo": 109.4,
+   "sobras": 9,
+   "vagas": 38
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 100.7,
+   "sobras": 12,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 16,
+   "nota_ultimo": 106.1,
+   "sobras": 21,
+   "vagas": 37
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 110.0,
+   "sobras": 16,
+   "vagas": 24,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 5,
+   "nota_ultimo": 115.7,
+   "sobras": 34,
+   "vagas": 39
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 108.3,
+   "sobras": 30,
+   "vagas": 35,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

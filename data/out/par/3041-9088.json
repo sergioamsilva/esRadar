@@ -1,0 +1,126 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9088",
+ "code": "3041",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Biotecnológica",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3041-9088",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 33,
+   "nota_ultimo": 105.8,
+   "sobras": 22,
+   "vagas": 55
+  },
+  "2006f2": {
+   "colocados": 32,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 25,
+   "vagas_recolocacao": 7
+  },
+  "2007f1": {
+   "candidatos_1opcao": 10,
+   "colocados": 36,
+   "nota_ultimo": 109.9,
+   "sobras": 29,
+   "vagas": 65
+  },
+  "2007f2": {
+   "colocados": 39,
+   "nota_ultimo": 123.7,
+   "sobras": 0,
+   "vagas": 37,
+   "vagas_recolocacao": 2
+  },
+  "2008f1": {
+   "colocados": 37,
+   "nota_ultimo": 115.4,
+   "sobras": 28,
+   "vagas": 65
+  },
+  "2008f2": {
+   "colocados": 12,
+   "nota_ultimo": 114.2,
+   "sobras": 23,
+   "vagas": 35,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 10,
+   "nota_ultimo": 121.0,
+   "sobras": 50,
+   "vagas": 60
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 108.7,
+   "sobras": 46,
+   "vagas": 53,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 4,
+   "nota_ultimo": 105.8,
+   "sobras": 41,
+   "vagas": 45
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 113.0,
+   "sobras": 41,
+   "vagas": 44,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 135.3,
+   "sobras": 33,
+   "vagas": 35
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.8,
+   "sobras": 31,
+   "vagas": 33,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 2,
+   "sobras": 33,
+   "vagas": 35
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 34,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 34,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

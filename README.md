@@ -1,6 +1,6 @@
 # esRadar
 
-**As colocações no ensino superior público, curso a curso — 2018 a 2026.**
+**As colocações no ensino superior público, curso a curso — 1997 a 2026.**
 
 Todos os anos, no fim de agosto, a DGES publica os resultados do Concurso
 Nacional de Acesso. E todos os anos, uns meses depois, apaga-os: as páginas
@@ -11,9 +11,10 @@ vive em PDFs dispersos e em capturas de ecrã de jornais.
 O esRadar existe para resolver isso. Arquiva os resultados de cada fase no
 próprio dia em que saem, recuperou do [Arquivo.pt](https://arquivo.pt) tudo
 o que a DGES já tinha apagado (2018–2025, incluindo edições antigas do guia
-de candidatura), cruza-os com o [Infocursos](https://infocursos.medu.pt) do
-MECI, e publica tudo num sítio estático onde cada número é verificável até
-ao ficheiro fonte.
+de candidatura), juntou-lhes a série longa de 1997 a 2017 que a DGES ainda
+publica na sua página de estatísticas, cruza tudo com o
+[Infocursos](https://infocursos.medu.pt) do MECI, e publica-o num sítio
+estático onde cada número é verificável até ao ficheiro fonte.
 
 O resultado: 1170 cursos com nota de corte, procura, vagas, sobras,
 contingentes especiais, demografia, permanência e desemprego dos diplomados
@@ -52,8 +53,10 @@ próxima vez que algo partir foi provavelmente uma delas.
 - **Rankings de qualidade.** A nota do último colocado mede o equilíbrio
   entre procura e vagas — não a qualidade do curso. O sítio repete este
   aviso em todo o lado, de propósito.
-- **Dados anteriores a 2018.** Antes disso só há PDFs e portais extintos;
-  preferimos uma série curta e verificável a uma longa e remendada.
+- **Séries por curso anteriores a 2007.** Os resultados vêm desde 1997, mas
+  os códigos de curso mudam com Bolonha; as séries não atravessam essa
+  fronteira sem crosswalk manual, e o crosswalk não funde o que não é
+  seguro. Antes de 2007 ficam os totais nacionais e as fichas históricas.
 
 ## Calendário
 

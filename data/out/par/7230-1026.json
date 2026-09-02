@@ -1,0 +1,101 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1026",
+ "code": "7230",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Anatomia Patológica, Citológica e Tanatológica",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7230-1026",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 36,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 32,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 165.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 182.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 162.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 124,
+   "colocados": 30,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 174.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 176.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

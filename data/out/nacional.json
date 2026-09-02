@@ -1,5 +1,173 @@
 {
  "anos": {
+  "1997": {
+   "colocados": 35452,
+   "colocados_f1": 35452,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 804,
+   "vagas_f1": 39703
+  },
+  "1998": {
+   "colocados": 37901,
+   "colocados_f1": 37901,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 835,
+   "vagas_f1": 42224
+  },
+  "1999": {
+   "colocados": 36782,
+   "colocados_f1": 36782,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 864,
+   "vagas_f1": 45156
+  },
+  "2000": {
+   "colocados": 40100,
+   "colocados_f1": 40100,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 918,
+   "vagas_f1": 46965
+  },
+  "2001": {
+   "colocados": 36381,
+   "colocados_f1": 36381,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 954,
+   "vagas_f1": 48229
+  },
+  "2002": {
+   "colocados": 38379,
+   "colocados_f1": 38379,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 1004,
+   "vagas_f1": 48468
+  },
+  "2003": {
+   "colocados": 36077,
+   "colocados_f1": 36077,
+   "colocados_f2": 0,
+   "colocados_f3": 0,
+   "pares": 1009,
+   "vagas_f1": 45357
+  },
+  "2004": {
+   "colocados": 44860,
+   "colocados_f1": 37568,
+   "colocados_f2": 7292,
+   "colocados_f3": 0,
+   "pares": 1046,
+   "vagas_f1": 46057
+  },
+  "2005": {
+   "colocados": 42538,
+   "colocados_f1": 33520,
+   "colocados_f2": 9018,
+   "colocados_f3": 0,
+   "pares": 1062,
+   "vagas_f1": 46399
+  },
+  "2006": {
+   "colocados": 45928,
+   "colocados_f1": 34860,
+   "colocados_f2": 11068,
+   "colocados_f3": 0,
+   "pares": 991,
+   "vagas_f1": 46528
+  },
+  "2007": {
+   "colocados": 53685,
+   "colocados_f1": 41978,
+   "colocados_f2": 11707,
+   "colocados_f3": 0,
+   "pares": 1031,
+   "vagas_f1": 48710
+  },
+  "2008": {
+   "colocados": 55601,
+   "colocados_f1": 44336,
+   "colocados_f2": 11265,
+   "colocados_f3": 0,
+   "pares": 1068,
+   "vagas_f1": 50219
+  },
+  "2009": {
+   "colocados": 56094,
+   "colocados_f1": 45277,
+   "colocados_f2": 10817,
+   "colocados_f3": 0,
+   "pares": 1099,
+   "vagas_f1": 51352
+  },
+  "2010": {
+   "colocados": 57004,
+   "colocados_f1": 45592,
+   "colocados_f2": 11412,
+   "colocados_f3": 0,
+   "pares": 1152,
+   "vagas_f1": 53410
+  },
+  "2011": {
+   "colocados": 54015,
+   "colocados_f1": 42243,
+   "colocados_f2": 11772,
+   "colocados_f3": 0,
+   "pares": 1152,
+   "vagas_f1": 53500
+  },
+  "2012": {
+   "colocados": 54111,
+   "colocados_f1": 40415,
+   "colocados_f2": 11365,
+   "colocados_f3": 2331,
+   "pares": 1122,
+   "vagas_f1": 52298
+  },
+  "2013": {
+   "colocados": 50625,
+   "colocados_f1": 37415,
+   "colocados_f2": 11486,
+   "colocados_f3": 1724,
+   "pares": 1087,
+   "vagas_f1": 51461
+  },
+  "2014": {
+   "colocados": 50064,
+   "colocados_f1": 37778,
+   "colocados_f2": 10492,
+   "colocados_f3": 1794,
+   "pares": 1067,
+   "vagas_f1": 50820
+  },
+  "2015": {
+   "colocados": 53107,
+   "colocados_f1": 42068,
+   "colocados_f2": 9410,
+   "colocados_f3": 1629,
+   "pares": 1048,
+   "vagas_f1": 50555
+  },
+  "2016": {
+   "colocados": 54090,
+   "colocados_f1": 42958,
+   "colocados_f2": 9577,
+   "colocados_f3": 1555,
+   "pares": 1060,
+   "vagas_f1": 50688
+  },
+  "2017": {
+   "colocados": 56347,
+   "colocados_f1": 44914,
+   "colocados_f2": 9831,
+   "colocados_f3": 1602,
+   "pares": 1062,
+   "vagas_f1": 50838
+  },
   "2018": {
    "colocados": 54829,
    "colocados_f1": 43992,
@@ -74,7 +242,7 @@
   }
  },
  "fontes": [
-  "DGES — resultados do CNA por fase (2018-2026, via Arquivo.pt até 2025)",
+  "DGES — resultados do CNA por fase (1997-2017 da página de estatísticas; 2018-2025 via Arquivo.pt; 2026 arquivado na época)",
   "DGES — guia da candidatura 2026",
   "Infocursos (MECI) — edição 2026"
  ],

@@ -1,0 +1,43 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9454",
+ "code": "0903",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Conservação",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9454",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 6,
+   "nota_ultimo": 134.0,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 129.4,
+   "sobras": 12,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

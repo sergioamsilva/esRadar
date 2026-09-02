@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3131",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 263,
+   "candidatos_1opcao": 75,
+   "colocados": 20,
+   "colocados_1opcao": 9,
+   "media_candidatura": 147.1,
+   "media_provas": 149.6,
+   "media_secundario": 144.5,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 198,
+   "candidatos_1opcao": 71,
+   "colocados": 20,
+   "colocados_1opcao": 10,
+   "media_candidatura": 145.0,
+   "media_provas": 139.4,
+   "media_secundario": 150.5,
+   "nota_ultimo": 141.8,
+   "sobras": 1,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 20,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 117.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 20,
+   "nota_ultimo": 122.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 18,
+   "nota_ultimo": 107.8,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2004f1": {
+   "colocados": 16,
+   "nota_ultimo": 108.3,
+   "sobras": 2,
+   "vagas": 18
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 8,
+   "nota_ultimo": 122.3,
+   "sobras": 10,
+   "vagas": 18
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 116.5,
+   "sobras": 8,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 6,
+   "nota_ultimo": 114.0,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.8,
+   "sobras": 11,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

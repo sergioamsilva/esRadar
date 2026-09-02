@@ -220,6 +220,24 @@
   }
  ],
  "series": {
+  "2017f1": {
+   "colocados": 11,
+   "nota_ultimo": 100.8,
+   "sobras": 11,
+   "vagas": 22
+  },
+  "2017f2": {
+   "colocados": 13,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 100,
    "candidatos_1opcao": 5,
@@ -401,7 +419,8 @@
    "colocados": 7,
    "nota_ultimo": 118.5,
    "sobras": 0,
-   "vagas": 5
+   "vagas": 5,
+   "vagas_recolocacao": 2
   },
   "2023f1": {
    "candidatos": 118,

@@ -1,0 +1,88 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9011",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-9011",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2015f1": {
+   "colocados": 15,
+   "nota_ultimo": 120.8,
+   "sobras": 5,
+   "vagas": 20
+  },
+  "2015f2": {
+   "colocados": 7,
+   "nota_ultimo": 124.2,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 7,
+   "nota_ultimo": 119.3,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2016f2": {
+   "colocados": 4,
+   "nota_ultimo": 113.7,
+   "sobras": 10,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 8,
+   "nota_ultimo": 157.1,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2017f2": {
+   "colocados": 3,
+   "nota_ultimo": 119.9,
+   "sobras": 13,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 2,
+   "nota_ultimo": 129.8,
+   "sobras": 13,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

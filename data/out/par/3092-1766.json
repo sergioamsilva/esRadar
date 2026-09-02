@@ -1,0 +1,43 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1766",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias e Design do Equipamento",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-1766",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 130.4,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 118.5,
+   "sobras": 25,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

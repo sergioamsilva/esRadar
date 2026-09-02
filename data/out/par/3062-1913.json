@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1913",
+ "code": "3062",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comunicação, opção de Comunicação Organizacional",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3062-1913",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 209,
+   "candidatos_1opcao": 24,
+   "colocados": 37,
+   "colocados_1opcao": 16,
+   "media_candidatura": 130.6,
+   "media_provas": 131.3,
+   "media_secundario": 129.7,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 526,
+   "candidatos_1opcao": 104,
+   "colocados": 35,
+   "colocados_1opcao": 25,
+   "media_candidatura": 132.6,
+   "media_provas": 125.6,
+   "media_secundario": 138.3,
+   "nota_ultimo": 153.5,
+   "sobras": 1,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 36,
+   "nota_ultimo": 142.7,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 149.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 36,
+   "nota_ultimo": 142.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 144.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 127.9,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 28,
+   "nota_ultimo": 110.0,
+   "sobras": 12,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 16,
+   "nota_ultimo": 114.7,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

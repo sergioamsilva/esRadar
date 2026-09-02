@@ -181,6 +181,66 @@
  },
  "provas_ingresso": "Um dos seguintes conjuntos:\n02 Biologia e Geologia\nou\n18 Português\nou\n06 Filosofia\n18 Português\nou\n09 Geografia\n18 Português\nou\n11 História\n18 Português\nou\n17 Mat. Apl. Ciências Soc.\n18 Português\nou\n02 Biologia e Geologia\n18 Português\nou\n04 Economia\n18 Português",
  "series": {
+  "2015f1": {
+   "colocados": 4,
+   "nota_ultimo": 120.2,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2015f2": {
+   "colocados": 13,
+   "nota_ultimo": 100.0,
+   "sobras": 5,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 3,
+   "nota_ultimo": 109.3,
+   "sobras": 9,
+   "vagas": 11,
+   "vagas_recolocacao": 1
+  },
+  "2016f1": {
+   "colocados": 20,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2016f2": {
+   "colocados": 6,
+   "nota_ultimo": 121.1,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 4,
+   "nota_ultimo": 115.9,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 20,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2017f2": {
+   "colocados": 15,
+   "nota_ultimo": 116.5,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 3
+  },
+  "2017f3": {
+   "colocados": 3,
+   "nota_ultimo": 121.1,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 77,
    "candidatos_1opcao": 10,
@@ -368,7 +428,8 @@
    "colocados": 6,
    "nota_ultimo": 108.3,
    "sobras": 2,
-   "vagas": 7
+   "vagas": 7,
+   "vagas_recolocacao": 1
   },
   "2023f1": {
    "candidatos": 52,

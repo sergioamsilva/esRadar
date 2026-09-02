@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1957",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão, opção de Informática",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-1957",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 56,
+   "candidatos_1opcao": 6,
+   "colocados": 7,
+   "colocados_1opcao": 6,
+   "media_candidatura": 102.0,
+   "media_provas": 80.6,
+   "media_secundario": 124.3,
+   "nota_ultimo": 96.3,
+   "sobras": 58,
+   "vagas": 65
+  },
+  "1999f1": {
+   "candidatos": 85,
+   "candidatos_1opcao": 16,
+   "colocados": 32,
+   "colocados_1opcao": 16,
+   "media_candidatura": 98.2,
+   "media_provas": 50.8,
+   "media_secundario": 130.3,
+   "nota_ultimo": 80.6,
+   "sobras": 21,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 20,
+   "nota_ultimo": 84.4,
+   "sobras": 25,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 1,
+   "nota_ultimo": 95.7,
+   "sobras": 29,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

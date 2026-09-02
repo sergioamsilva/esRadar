@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0947",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil (regime nocturno)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-0947",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 125,
+   "candidatos_1opcao": 26,
+   "colocados": 25,
+   "colocados_1opcao": 16,
+   "media_candidatura": 91.7,
+   "media_provas": 52.7,
+   "media_secundario": 130.0,
+   "nota_ultimo": 75.0,
+   "sobras": 1,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

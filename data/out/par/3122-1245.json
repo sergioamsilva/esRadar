@@ -1,0 +1,93 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1245",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-1245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 55,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 60,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 61,
+   "nota_ultimo": 111.6,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 95.7,
+   "sobras": 4,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 21,
+   "nota_ultimo": 107.8,
+   "sobras": 9,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 103.8,
+   "sobras": 7,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 31,
+   "nota_ultimo": 112.9,
+   "sobras": 6,
+   "vagas": 37
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 110.6,
+   "sobras": 11,
+   "vagas": 12,
+   "vagas_recolocacao": 7
+  },
+  "2006f1": {
+   "colocados": 7,
+   "nota_ultimo": 119.8,
+   "sobras": 34,
+   "vagas": 41
+  },
+  "2006f2": {
+   "colocados": 1,
+   "nota_ultimo": 119.9,
+   "sobras": 35,
+   "vagas": 36,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

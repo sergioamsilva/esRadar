@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9999",
+ "code": "3032",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática para a Saúde (regime pós-laboral)",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3032-9999",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 6,
+   "nota_ultimo": 106.5,
+   "sobras": 24,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 104.8,
+   "sobras": 19,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 3,
+   "nota_ultimo": 105.9,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 14,
+   "nota_ultimo": 105.9,
+   "sobras": 14,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 6,
+   "nota_ultimo": 110.3,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 3,
+   "nota_ultimo": 115.2,
+   "sobras": 17,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9003",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Agronomia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-9003",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 11,
+   "colocados": 20,
+   "nota_ultimo": 109.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 135.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2008f1": {
+   "colocados": 25,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 4,
+   "nota_ultimo": 129.7,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 22,
+   "nota_ultimo": 96.0,
+   "sobras": 7,
+   "vagas": 29
+  },
+  "2009f2": {
+   "colocados": 12,
+   "nota_ultimo": 113.3,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

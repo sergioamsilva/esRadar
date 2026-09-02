@@ -1,8 +1,9 @@
 """Constrói data/out a partir dos dados brutos arquivados.
 
 Junta três fontes com naturezas diferentes:
-- resultados por fase (CSV extraídos dos XLS da DGES, 2018-2026): vagas,
-  colocados, nota do último colocado e sobras, por par instituição/curso;
+- resultados por fase (CSV extraídos dos XLS/ODS da DGES, 1997-2026): vagas,
+  colocados, nota do último colocado e sobras, por par instituição/curso
+  (1997-1999 trazem ainda candidatos e médias dos colocados);
 - guia da candidatura (guia.json): metadados do par (provas, fórmula, CNAEF)
   e a procura — candidatos, candidatos em 1ª opção, médias dos colocados —
   dos três anos anteriores;
@@ -28,18 +29,54 @@ import yaml
 from . import common
 
 ANO_CORRENTE = 2026
-# Horizonte do portal: nada antes de 2018 (decisão de projeto — é onde as
-# fontes estruturadas começam todas).
-ANO_MINIMO = 2018
+# Horizonte do portal: a DGES publica os resultados por par desde 1997 (1ª
+# fase; 2ª desde 2004, 3ª desde 2012) — ver ingest.historico.
+ANO_MINIMO = 1997
 
 
-def _coluna(cabecalho: list[str], *prefixos: str) -> int | None:
+def _limpo(nome: str) -> str:
+    return " ".join(nome.split()).lower()
+
+
+def _coluna(cabecalho: list[str], *prefixos: str, exatos: tuple[str, ...] = ()) -> int | None:
     for i, nome in enumerate(cabecalho):
-        limpo = " ".join(nome.split()).lower()
+        limpo = _limpo(nome)
+        if limpo in exatos:
+            return i
         for prefixo in prefixos:
             if limpo.startswith(prefixo.lower()):
                 return i
     return None
+
+
+# Rótulos genéricos da segunda linha de cabeçalho dos ficheiros de 1997-1999
+# («Candidatos» / «Colocados» / «Médias dos colocados» em cima, «Total» /
+# «1ª op.» / «Nota» / «PI» / «12º» em baixo).
+_SUBCABECALHOS = {"total", "1ª op.", "nota", "pi", "12º"}
+
+
+def _cabecalho(linhas: list[list[str]]) -> tuple[int, list[str]]:
+    """Localiza a linha de cabeçalho e devolve-a já fundida com a linha de
+    grupos acima dela (só relevante nos ficheiros de duas linhas)."""
+    for i, linha in enumerate(linhas):
+        celulas = [_limpo(c) for c in linha]
+        if any(c.startswith(("código instit", "código estab", "código da instit", "cód. estab")) for c in celulas) or (
+            "estab" in celulas and "curso" in celulas and "ano" in celulas
+        ):
+            grupos = linhas[i - 1] if i > 0 else []
+            fundido, grupo = [], ""
+            for j, celula in enumerate(linha):
+                if j < len(grupos) and grupos[j].strip():
+                    grupo = " ".join(grupos[j].split())
+                sub = " ".join(celula.split())
+                if not sub:
+                    fundido.append(grupo)
+                elif grupo and sub.lower() in _SUBCABECALHOS:
+                    fundido.append(f"{grupo} {sub}")
+                else:
+                    fundido.append(sub)
+            return i, fundido
+    raise RuntimeError("cabeçalho não encontrado")
 
 
 def _int(valor: str) -> int | None:
@@ -55,12 +92,97 @@ def _nota(valor: str) -> float | None:
         return None
 
 
-def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
-    """Séries por par: {par: {"{ano}f{fase}": {vagas, colocados, nota_ultimo, sobras}}}.
+def ler_ficheiro_resultados(ficheiro: Path, ano: int, fase: int) -> list[tuple[str, dict, str | None]]:
+    """Regista (par, registo, nome do curso) de um CSV de resultados.
 
-    O cabeçalho dos XLS muda entre anos e fases (colunas extra de desempate,
-    «Vagas Iniciais 3F», «Sobras» vs «Vagas Sobrantes»), por isso o mapeamento
-    é por nome de coluna, nunca por posição.
+    O cabeçalho muda entre anos e fases — quatro gerações (1997-99, 2000-11,
+    2012-17, 2018+; ver reference/NOTAS.md) mais variantes por fase — por
+    isso o mapeamento é por nome de coluna, nunca por posição.
+    """
+    with ficheiro.open(encoding="utf-8") as f:
+        linhas = list(csv.reader(f))
+    try:
+        cab_idx, cab = _cabecalho(linhas)
+    except RuntimeError as erro:
+        raise RuntimeError(f"{ficheiro}: {erro}") from None
+    col = {
+        "code": _coluna(cab, "código instit", "código estab", "código da instit", "cód. estab", exatos=("estab",)),
+        "codc": _coluna(cab, "código curso", "código do curso", "cód. curso"),
+        "curso": _coluna(cab, "nome do curso"),
+        "vagas": _coluna(cab, "vagas iniciais", "vagas colocadas a concurso", "vagas 20", exatos=("vagas",)),
+        "recolocacao": _coluna(
+            cab,
+            "vagas de recolo",  # «recolo- cação» em 2022
+            "vagas libertadas por recolocação",
+            "vagas criadas por recolocação",
+            "vagas ocupadas na",
+        ),
+        "nota": _coluna(cab, "nota do últ", "nota de candidatura", "nota últ"),
+        "sobras": _coluna(
+            cab, "sobras", "vagas sobrantes", "vagas sobrant", "vagas não ocupadas", "vagas da 3.ª fase não", "vagas disponíveis"
+        ),
+        # Procura: só em 1997-1999 (total e 1ª opção) e 2007 (1ª opção);
+        # médias dos colocados só em 1997-1999. Depois, só o guia.
+        "candidatos": _coluna(cab, exatos=("candidatos total",)),
+        "candidatos_1opcao": _coluna(cab, "candidatos 1º", exatos=("candidatos 1ª op.",)),
+        "colocados_1opcao": _coluna(cab, exatos=("colocados 1ª op.",)),
+        "media_candidatura": _coluna(cab, exatos=("médias dos colocados nota",)),
+        "media_provas": _coluna(cab, exatos=("médias dos colocados pi",)),
+        "media_secundario": _coluna(cab, exatos=("médias dos colocados 12º",)),
+    }
+    # 1997-99 («Estab», «Curso», «Nome do Curso») e 2013-15 («Código do
+    # curso», «Curso»): o rótulo nu «Curso» é o código ou o nome consoante
+    # o que já ficou preenchido.
+    if col["codc"] is None:
+        col["codc"] = _coluna(cab, exatos=("curso",))
+    elif col["curso"] is None:
+        col["curso"] = next((i for i, nome in enumerate(cab) if _limpo(nome) == "curso" and i != col["codc"]), None)
+    # «Colocados» reparte-se por colunas de desempate («desemp.», «sem
+    # class. final», «vaga adic.», «Adicionais» em 2007) consoante o
+    # ano/fase — somam-se todas: é essa soma que bate com os totais
+    # anunciados pela DGES. «Vaga adic.» (vagas criadas, não colocados) e
+    # «Colocados 1ª op.» (subconjunto, guardado à parte) ficam de fora.
+    cols_colocados = [
+        i
+        for i, nome in enumerate(cab)
+        if _limpo(nome).startswith(("colocados", "estudantes colocados", "adicionais")) and "1ª op" not in _limpo(nome)
+    ]
+    if None in (col["code"], col["codc"], col["nota"]) or not cols_colocados:
+        raise RuntimeError(f"{ficheiro}: colunas em falta no cabeçalho {cab}")
+    registos = []
+    for linha in linhas[cab_idx + 1 :]:
+        if len(linha) <= col["nota"]:
+            continue
+        code = linha[col["code"]].strip()
+        codc = linha[col["codc"]].strip()
+        if not re.fullmatch(r"\d{4}", code) or not re.fullmatch(r"[A-Z0-9]\d{3}", codc):
+            continue
+        parcelas = [_int(linha[i]) for i in cols_colocados if len(linha) > i and _int(linha[i]) is not None]
+        # Nos ficheiros antigos, nota 0 significa «sem colocados pelo
+        # contingente geral» (nota da própria DGES no ficheiro de 2000).
+        registo = {
+            "colocados": sum(parcelas) if parcelas else None,
+            "nota_ultimo": _nota(linha[col["nota"]]) or None,
+        }
+        for campo in ("vagas", "recolocacao", "sobras", "candidatos", "candidatos_1opcao", "colocados_1opcao"):
+            i = col[campo]
+            if i is not None and len(linha) > i:
+                registo["vagas_recolocacao" if campo == "recolocacao" else campo] = _int(linha[i])
+        for campo in ("media_candidatura", "media_provas", "media_secundario"):
+            i = col[campo]
+            if i is not None and len(linha) > i:
+                registo[campo] = _nota(linha[i]) or None
+        # 2007 lista pares «objecto de concurso» sem vagas nem resultados:
+        # linhas vazias não fazem série.
+        if all(v is None for v in registo.values()):
+            continue
+        nome = linha[col["curso"]].strip() if col["curso"] is not None and len(linha) > col["curso"] else None
+        registos.append((f"{code}-{codc}", registo, nome))
+    return registos
+
+
+def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
+    """Séries por par: {par: {"{ano}f{fase}": {vagas, colocados, nota_ultimo, sobras, …}}}.
 
     Devolve também o nome do curso mais recente de cada par, para dar nome às
     fichas de pares que já não existem no guia corrente.
@@ -73,60 +195,13 @@ def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
     for ficheiro in ficheiros:
         ano = int(ficheiro.parts[-3])
         fase = int(ficheiro.parts[-2].removeprefix("fase"))
-        with ficheiro.open(encoding="utf-8") as f:
-            linhas = list(csv.reader(f))
-        cab_idx = next(
-            (i for i, l in enumerate(linhas) if any("Código Instit." in c for c in l)), None
-        )
-        if cab_idx is None:
-            raise RuntimeError(f"{ficheiro}: cabeçalho não encontrado")
-        cab = linhas[cab_idx]
-        col = {
-            "code": _coluna(cab, "código instit"),
-            "codc": _coluna(cab, "código curso"),
-            "curso": _coluna(cab, "nome do curso"),
-            "vagas": _coluna(cab, "vagas iniciais"),
-            "recolocacao": _coluna(cab, "vagas de recolocação"),
-            "nota": _coluna(cab, "nota do últ"),
-            "sobras": _coluna(cab, "sobras", "vagas sobrantes"),
-        }
-        # «Colocados» reparte-se por colunas de desempate («desemp.», «sem
-        # class. final») consoante o ano/fase — somam-se todas: é essa soma
-        # que bate com os totais anunciados pela DGES. «Vaga adic.» fica de
-        # fora (vagas criadas, não contam no anúncio).
-        cols_colocados = [
-            i for i, nome in enumerate(cab) if " ".join(nome.split()).lower().startswith("colocados")
-        ]
-        if None in (col["code"], col["codc"], col["nota"]) or not cols_colocados:
-            raise RuntimeError(f"{ficheiro}: colunas em falta no cabeçalho {cab}")
-        n = 0
-        for linha in linhas[cab_idx + 1 :]:
-            if len(linha) <= col["nota"]:
-                continue
-            code = linha[col["code"]].strip()
-            codc = linha[col["codc"]].strip()
-            if not re.fullmatch(r"\d{4}", code) or not re.fullmatch(r"[A-Z0-9]\d{3}", codc):
-                continue
-            parcelas = [
-                _int(linha[i]) for i in cols_colocados if len(linha) > i and _int(linha[i]) is not None
-            ]
-            registo = {
-                "colocados": sum(parcelas) if parcelas else None,
-                "nota_ultimo": _nota(linha[col["nota"]]),
-            }
-            if col["vagas"] is not None:
-                registo["vagas"] = _int(linha[col["vagas"]])
-            if col["recolocacao"] is not None and len(linha) > col["recolocacao"]:
-                registo["vagas_recolocacao"] = _int(linha[col["recolocacao"]])
-            if col["sobras"] is not None and len(linha) > col["sobras"]:
-                registo["sobras"] = _int(linha[col["sobras"]])
-            par = f"{code}-{codc}"
+        registos = ler_ficheiro_resultados(ficheiro, ano, fase)
+        if len(registos) < 500:
+            raise RuntimeError(f"{ficheiro}: só {len(registos)} pares extraídos")
+        for par, registo, nome in registos:
             series[par][f"{ano}f{fase}"] = registo
-            if col["curso"] is not None and ano >= nomes.get(par, (0, ""))[0]:
-                nomes[par] = (ano, linha[col["curso"]].strip())
-            n += 1
-        if n < 500:
-            raise RuntimeError(f"{ficheiro}: só {n} pares extraídos")
+            if nome and ano >= nomes.get(par, (0, ""))[0]:
+                nomes[par] = (ano, nome)
     return series, {par: nome for par, (_, nome) in nomes.items()}
 
 
@@ -579,7 +654,7 @@ def construir() -> None:
                     "taxa": round(100 * min(1, v["colocados_f2"] / v["sobras_f1"])) if v["sobras_f1"] else None,
                 }
                 for a, v in sorted(absorcao_por_ano.items())
-                if v["sobras_f1"]
+                if v["sobras_f1"] and v["colocados_f2"]  # só anos com 2ª fase nos dados
             },
         },
     )
@@ -689,7 +764,8 @@ def construir() -> None:
         common.DIR_SAIDA / "nacional.json",
         {
             "fontes": [
-                "DGES — resultados do CNA por fase (2018-2026, via Arquivo.pt até 2025)",
+                "DGES — resultados do CNA por fase (1997-2017 da página de estatísticas; "
+                "2018-2025 via Arquivo.pt; 2026 arquivado na época)",
                 "DGES — guia da candidatura 2026",
                 "Infocursos (MECI) — edição 2026",
             ],

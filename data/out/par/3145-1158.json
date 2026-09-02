@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1158",
+ "code": "3145",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Desporto, variante de Condição Física",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3145-1158",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 106,
+   "candidatos_1opcao": 9,
+   "colocados": 30,
+   "colocados_1opcao": 9,
+   "media_candidatura": 114.7,
+   "media_provas": 97.1,
+   "media_secundario": 126.0,
+   "nota_ultimo": 86.4,
+   "sobras": 30,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 41,
+   "nota_ultimo": 90.8,
+   "sobras": 9,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 24,
+   "nota_ultimo": 91.6,
+   "sobras": 26,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 103.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 20,
+   "nota_ultimo": 110.0,
+   "sobras": 15,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 25,
+   "nota_ultimo": 114.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 113.8,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 123.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 135.2,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

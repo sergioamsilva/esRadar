@@ -1,0 +1,55 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1297",
+ "code": "3051",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia da Produção Animal",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3051-1297",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 17,
+   "nota_ultimo": 95.9,
+   "sobras": 28,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 7,
+   "nota_ultimo": 104.8,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 3,
+   "nota_ultimo": 118.6,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 118.8,
+   "sobras": 27,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

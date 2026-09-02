@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0759",
+ "code": "0204",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Sociologia",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Economia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0204-0759",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 136.7,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 131.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 114.2,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 108.9,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 118.3,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 5
+  },
+  "2006f1": {
+   "colocados": 36,
+   "nota_ultimo": 113.0,
+   "sobras": 4,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 110.2,
+   "sobras": 2,
+   "vagas": 6,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,43 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8484",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "História (regime pós-laboral)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-8484",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2011f1": {
+   "colocados": 8,
+   "nota_ultimo": 114.4,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 18,
+   "nota_ultimo": 106.0,
+   "sobras": 6,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1509",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-1509",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 2,
+   "nota_ultimo": 108.1,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 14,
+   "nota_ultimo": 98.0,
+   "sobras": 21,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 21,
+   "nota_ultimo": 91.6,
+   "sobras": 14,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 93.2,
+   "sobras": 17,
+   "vagas": 17,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 109.3,
+   "sobras": 31,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 106.7,
+   "sobras": 26,
+   "vagas": 33,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

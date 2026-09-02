@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0441",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0441",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 335,
+   "candidatos_1opcao": 29,
+   "colocados": 71,
+   "colocados_1opcao": 27,
+   "media_candidatura": 108.8,
+   "media_provas": 87.4,
+   "media_secundario": 130.1,
+   "nota_ultimo": 95.0,
+   "sobras": 11,
+   "vagas": 70
+  },
+  "1998f1": {
+   "candidatos": 287,
+   "candidatos_1opcao": 35,
+   "colocados": 61,
+   "colocados_1opcao": 35,
+   "media_candidatura": 108.5,
+   "media_provas": 86.2,
+   "media_secundario": 130.8,
+   "nota_ultimo": 79.0,
+   "sobras": 9,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 155,
+   "candidatos_1opcao": 19,
+   "colocados": 22,
+   "colocados_1opcao": 19,
+   "media_candidatura": 123.2,
+   "media_provas": 100.9,
+   "media_secundario": 135.4,
+   "nota_ultimo": 101.5,
+   "sobras": 40,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 42,
+   "nota_ultimo": 95.3,
+   "sobras": 3,
+   "vagas": 45
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

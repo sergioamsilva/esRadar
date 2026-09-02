@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1113",
+ "code": "3243",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comunicação Social",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3243-1113",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 284,
+   "candidatos_1opcao": 79,
+   "colocados": 50,
+   "colocados_1opcao": 25,
+   "media_candidatura": 124.8,
+   "media_provas": 106.3,
+   "media_secundario": 134.8,
+   "nota_ultimo": 130.9,
+   "sobras": 5,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 45,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 123.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 29,
+   "nota_ultimo": 112.2,
+   "sobras": 6,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 15,
+   "nota_ultimo": 108.4,
+   "sobras": 2,
+   "vagas": 15,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 24,
+   "nota_ultimo": 114.0,
+   "sobras": 11,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 110.3,
+   "sobras": 10,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 115.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

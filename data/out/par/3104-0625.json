@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "3104",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação de Leiria (Caldas da Rainha)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3104-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 241,
+   "candidatos_1opcao": 32,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 131.3,
+   "media_provas": 136.0,
+   "media_secundario": 129.2,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 375,
+   "candidatos_1opcao": 61,
+   "colocados": 25,
+   "colocados_1opcao": 12,
+   "media_candidatura": 136.0,
+   "media_provas": 134.4,
+   "media_secundario": 137.6,
+   "nota_ultimo": 133.7,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 26,
+   "nota_ultimo": 135.1,
+   "sobras": 0,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

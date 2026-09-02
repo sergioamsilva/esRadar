@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1473",
+ "code": "3152",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica - Térmica",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3152-1473",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 66,
+   "candidatos_1opcao": 6,
+   "colocados": 11,
+   "colocados_1opcao": 6,
+   "media_candidatura": 97.1,
+   "media_provas": 68.2,
+   "media_secundario": 125.5,
+   "nota_ultimo": 75.0,
+   "sobras": 24,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 68,
+   "candidatos_1opcao": 5,
+   "colocados": 12,
+   "colocados_1opcao": 5,
+   "media_candidatura": 93.1,
+   "media_provas": 58.8,
+   "media_secundario": 127.5,
+   "nota_ultimo": 77.5,
+   "sobras": 30,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 76.5,
+   "sobras": 22,
+   "vagas": 40
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

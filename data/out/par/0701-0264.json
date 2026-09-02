@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0264",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Física",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-0264",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 139,
+   "candidatos_1opcao": 9,
+   "colocados": 27,
+   "colocados_1opcao": 9,
+   "media_candidatura": 114.0,
+   "media_provas": 91.7,
+   "media_secundario": 136.3,
+   "nota_ultimo": 67.8,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 150,
+   "candidatos_1opcao": 10,
+   "colocados": 20,
+   "colocados_1opcao": 10,
+   "media_candidatura": 121.3,
+   "media_provas": 107.3,
+   "media_secundario": 135.0,
+   "nota_ultimo": 71.3,
+   "sobras": 10,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 152,
+   "candidatos_1opcao": 21,
+   "colocados": 30,
+   "colocados_1opcao": 21,
+   "media_candidatura": 113.5,
+   "media_provas": 90.6,
+   "media_secundario": 136.3,
+   "nota_ultimo": 100.0,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 102.0,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 11,
+   "nota_ultimo": 106.8,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 116.8,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 118.5,
+   "sobras": 30,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 8,
+   "nota_ultimo": 118.5,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 121.8,
+   "sobras": 20,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 13,
+   "nota_ultimo": 122.3,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 135.0,
+   "sobras": 17,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 4,
+   "nota_ultimo": 127.5,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 104.5,
+   "sobras": 12,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

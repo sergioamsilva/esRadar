@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 104,
+   "candidatos_1opcao": 23,
+   "colocados": 30,
+   "colocados_1opcao": 20,
+   "media_candidatura": 116.2,
+   "media_provas": 107.9,
+   "media_secundario": 124.7,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 105,
+   "candidatos_1opcao": 17,
+   "colocados": 30,
+   "colocados_1opcao": 15,
+   "media_candidatura": 118.4,
+   "media_provas": 105.1,
+   "media_secundario": 127.0,
+   "nota_ultimo": 112.4,
+   "sobras": 6,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 19,
+   "nota_ultimo": 104.0,
+   "sobras": 6,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 102.0,
+   "sobras": 18,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

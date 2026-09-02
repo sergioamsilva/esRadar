@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1111",
+ "code": "3101",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comunicação Social e Educação Multimédia",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3101-1111",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 139.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 40,
+   "nota_ultimo": 134.9,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 135.8,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 45,
+   "nota_ultimo": 125.7,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 125.9,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 45,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 135.7,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

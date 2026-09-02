@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9190",
+ "code": "3095",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática para o Turismo",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Turismo e Hotelaria",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3095-9190",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 114.5,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 112.0,
+   "sobras": 14,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 4,
+   "nota_ultimo": 129.6,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 7,
+   "nota_ultimo": 110.3,
+   "sobras": 12,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

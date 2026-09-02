@@ -1,0 +1,99 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0360",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Filosofia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0360",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 153,
+   "candidatos_1opcao": 32,
+   "colocados": 25,
+   "colocados_1opcao": 9,
+   "media_candidatura": 118.1,
+   "media_provas": 112.9,
+   "media_secundario": 125.6,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 74,
+   "candidatos_1opcao": 10,
+   "colocados": 25,
+   "colocados_1opcao": 7,
+   "media_candidatura": 120.4,
+   "media_provas": 114.9,
+   "media_secundario": 129.6,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 66,
+   "candidatos_1opcao": 8,
+   "colocados": 25,
+   "colocados_1opcao": 7,
+   "media_candidatura": 126.2,
+   "media_provas": 127.2,
+   "media_secundario": 126.4,
+   "nota_ultimo": 118.0,
+   "sobras": 4,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 118.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 11,
+   "nota_ultimo": 115.7,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 5,
+   "nota_ultimo": 104.8,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 3,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

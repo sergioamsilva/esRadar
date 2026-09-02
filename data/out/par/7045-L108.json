@@ -1,0 +1,85 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L108",
+ "code": "7045",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências da Informação em Saúde",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7045-L108",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2015f1": {
+   "colocados": 5,
+   "nota_ultimo": 117.2,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2015f2": {
+   "colocados": 3,
+   "nota_ultimo": 114.2,
+   "sobras": 17,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 2,
+   "nota_ultimo": 108.0,
+   "sobras": 6,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 6,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2016f2": {
+   "colocados": 0,
+   "sobras": 14,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 3,
+   "nota_ultimo": 111.4,
+   "sobras": 1,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2017f2": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

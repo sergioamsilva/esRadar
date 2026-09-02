@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0177",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Física e Desporto",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0177",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 270,
+   "candidatos_1opcao": 93,
+   "colocados": 75,
+   "colocados_1opcao": 28,
+   "media_candidatura": 137.5,
+   "media_provas": 141.1,
+   "media_secundario": 134.1,
+   "nota_ultimo": 128.5,
+   "sobras": 2,
+   "vagas": 75
+  },
+  "1998f1": {
+   "candidatos": 617,
+   "candidatos_1opcao": 182,
+   "colocados": 82,
+   "colocados_1opcao": 27,
+   "media_candidatura": 142.9,
+   "media_provas": 151.1,
+   "media_secundario": 134.8,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 469,
+   "candidatos_1opcao": 81,
+   "colocados": 78,
+   "colocados_1opcao": 12,
+   "media_candidatura": 140.4,
+   "media_provas": 143.3,
+   "media_secundario": 137.6,
+   "nota_ultimo": 135.0,
+   "sobras": 15,
+   "vagas": 75
+  },
+  "2000f1": {
+   "colocados": 77,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 76,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 76,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2003f1": {
+   "colocados": 75,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2004f1": {
+   "colocados": 75,
+   "nota_ultimo": 115.4,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2004f2": {
+   "colocados": 20,
+   "nota_ultimo": 113.2,
+   "sobras": 0,
+   "vagas": 18,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 80,
+   "nota_ultimo": 110.1,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2005f2": {
+   "colocados": 22,
+   "nota_ultimo": 121.3,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 5
+  },
+  "2006f1": {
+   "colocados": 80,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2006f2": {
+   "colocados": 22,
+   "nota_ultimo": 128.9,
+   "sobras": 0,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

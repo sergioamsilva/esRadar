@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1176",
+ "code": "3183",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Desporto, variante de Desporto de Recreação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu (Lamego)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3183-1176",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 108.7,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.3,
+   "sobras": 24,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 6,
+   "nota_ultimo": 107.9,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 107.9,
+   "sobras": 12,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

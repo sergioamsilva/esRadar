@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1515",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1515",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 464,
+   "candidatos_1opcao": 72,
+   "colocados": 76,
+   "colocados_1opcao": 47,
+   "media_candidatura": 99.9,
+   "media_provas": 65.1,
+   "media_secundario": 134.5,
+   "nota_ultimo": 87.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 253,
+   "candidatos_1opcao": 44,
+   "colocados": 70,
+   "colocados_1opcao": 44,
+   "media_candidatura": 106.0,
+   "media_provas": 64.7,
+   "media_secundario": 127.6,
+   "nota_ultimo": 86.5,
+   "sobras": 5,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 71,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 70,
+   "nota_ultimo": 109.2,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2002f1": {
+   "colocados": 70,
+   "nota_ultimo": 119.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2003f1": {
+   "colocados": 70,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2004f1": {
+   "colocados": 47,
+   "nota_ultimo": 102.3,
+   "sobras": 23,
+   "vagas": 70
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 111.6,
+   "sobras": 25,
+   "vagas": 32,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

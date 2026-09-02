@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1216",
+ "code": "3243",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Design e Desenvolvimento de Produtos",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3243-1216",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 15,
+   "nota_ultimo": 117.8,
+   "sobras": 5,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 118.7,
+   "sobras": 6,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 4,
+   "nota_ultimo": 116.3,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 113.9,
+   "sobras": 12,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

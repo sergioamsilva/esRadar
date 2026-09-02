@@ -1,0 +1,115 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0302",
+ "code": "0501",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Materiais",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-0302",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 133,
+   "candidatos_1opcao": 5,
+   "colocados": 30,
+   "colocados_1opcao": 4,
+   "media_candidatura": 119.7,
+   "media_provas": 108.1,
+   "media_secundario": 131.3,
+   "nota_ultimo": 106.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 141,
+   "candidatos_1opcao": 5,
+   "colocados": 30,
+   "colocados_1opcao": 5,
+   "media_candidatura": 115.0,
+   "media_provas": 101.3,
+   "media_secundario": 128.7,
+   "nota_ultimo": 100.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 74,
+   "candidatos_1opcao": 3,
+   "colocados": 7,
+   "colocados_1opcao": 3,
+   "media_candidatura": 122.1,
+   "media_provas": 111.3,
+   "media_secundario": 132.9,
+   "nota_ultimo": 108.5,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 7,
+   "nota_ultimo": 115.0,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 2,
+   "nota_ultimo": 122.8,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 132.5,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 118.8,
+   "sobras": 10,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 123.5,
+   "sobras": 12,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 2,
+   "nota_ultimo": 124.3,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 112.3,
+   "sobras": 6,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

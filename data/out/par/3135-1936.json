@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1936",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica - Sistemas Eléctricos de Energia (reg. nocturno)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1936",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 68,
+   "candidatos_1opcao": 16,
+   "colocados": 16,
+   "colocados_1opcao": 16,
+   "media_candidatura": 87.7,
+   "media_provas": 51.5,
+   "media_secundario": 123.1,
+   "nota_ultimo": 68.3,
+   "sobras": 14,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 64,
+   "candidatos_1opcao": 14,
+   "colocados": 14,
+   "colocados_1opcao": 14,
+   "media_candidatura": 87.3,
+   "media_provas": 55.6,
+   "media_secundario": 118.6,
+   "nota_ultimo": 59.8,
+   "sobras": 16,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 62.8,
+   "sobras": 5,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 5,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 4,
+   "sobras": 11,
+   "vagas": 15
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

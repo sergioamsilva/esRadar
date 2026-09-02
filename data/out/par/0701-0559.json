@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0559",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-0559",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 444,
+   "candidatos_1opcao": 55,
+   "colocados": 40,
+   "colocados_1opcao": 21,
+   "media_candidatura": 162.6,
+   "media_provas": 163.2,
+   "media_secundario": 161.8,
+   "nota_ultimo": 146.0,
+   "sobras": 1,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 398,
+   "candidatos_1opcao": 30,
+   "colocados": 40,
+   "colocados_1opcao": 18,
+   "media_candidatura": 158.3,
+   "media_provas": 159.4,
+   "media_secundario": 157.5,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 310,
+   "candidatos_1opcao": 38,
+   "colocados": 40,
+   "colocados_1opcao": 27,
+   "media_candidatura": 146.3,
+   "media_provas": 139.3,
+   "media_secundario": 155.5,
+   "nota_ultimo": 121.0,
+   "sobras": 1,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 29,
+   "nota_ultimo": 103.0,
+   "sobras": 11,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 29,
+   "nota_ultimo": 107.5,
+   "sobras": 11,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 18,
+   "nota_ultimo": 113.0,
+   "sobras": 32,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 23,
+   "nota_ultimo": 103.0,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 110.2,
+   "sobras": 24,
+   "vagas": 30,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

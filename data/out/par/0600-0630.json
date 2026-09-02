@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0630",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Português e Francês (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0630",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 105,
+   "candidatos_1opcao": 14,
+   "colocados": 27,
+   "colocados_1opcao": 14,
+   "media_candidatura": 133.8,
+   "media_provas": 128.3,
+   "media_secundario": 139.3,
+   "nota_ultimo": 115.3,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 148,
+   "candidatos_1opcao": 20,
+   "colocados": 30,
+   "colocados_1opcao": 15,
+   "media_candidatura": 135.8,
+   "media_provas": 132.6,
+   "media_secundario": 139.0,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 127,
+   "candidatos_1opcao": 26,
+   "colocados": 31,
+   "colocados_1opcao": 22,
+   "media_candidatura": 134.4,
+   "media_provas": 129.7,
+   "media_secundario": 139.0,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 10,
+   "nota_ultimo": 103.8,
+   "sobras": 20,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 110.0,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 13,
+   "nota_ultimo": 111.8,
+   "sobras": 12,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0304",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0304",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 59,
+   "candidatos_1opcao": 3,
+   "colocados": 9,
+   "colocados_1opcao": 3,
+   "media_candidatura": 111.9,
+   "media_provas": 95.9,
+   "media_secundario": 127.8,
+   "nota_ultimo": 68.5,
+   "sobras": 26,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 141,
+   "candidatos_1opcao": 7,
+   "colocados": 12,
+   "colocados_1opcao": 7,
+   "media_candidatura": 106.9,
+   "media_provas": 83.6,
+   "media_secundario": 122.5,
+   "nota_ultimo": 98.2,
+   "sobras": 34,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 5,
+   "nota_ultimo": 104.8,
+   "sobras": 35,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 102.5,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 98.1,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 6,
+   "nota_ultimo": 102.9,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 143.7,
+   "sobras": 16,
+   "vagas": 18
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 104.9,
+   "sobras": 14,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 129.9,
+   "sobras": 16,
+   "vagas": 18
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 130.1,
+   "sobras": 15,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

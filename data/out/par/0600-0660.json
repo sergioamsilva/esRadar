@@ -1,0 +1,59 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0660",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Processos Químicos Industriais",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0660",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 2,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 110.5,
+   "media_provas": 89.6,
+   "media_secundario": 131.4,
+   "nota_ultimo": 101.3,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 9,
+   "nota_ultimo": 104.0,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 5,
+   "nota_ultimo": 103.8,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

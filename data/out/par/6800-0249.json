@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0249",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Telecomunicações e Informática",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0249",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 341,
+   "candidatos_1opcao": 73,
+   "colocados": 38,
+   "colocados_1opcao": 27,
+   "media_candidatura": 136.4,
+   "media_provas": 131.2,
+   "media_secundario": 142.4,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 38
+  },
+  "1999f1": {
+   "candidatos": 575,
+   "candidatos_1opcao": 217,
+   "colocados": 70,
+   "colocados_1opcao": 63,
+   "media_candidatura": 143.1,
+   "media_provas": 138.7,
+   "media_secundario": 147.6,
+   "nota_ultimo": 131.0,
+   "sobras": 1,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 70,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 70,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2002f1": {
+   "colocados": 70,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2003f1": {
+   "colocados": 54,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2004f1": {
+   "colocados": 54,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 54,
+   "nota_ultimo": 108.0,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

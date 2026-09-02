@@ -109,6 +109,135 @@
  "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 120.7,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 3,
+   "nota_ultimo": 106.0,
+   "sobras": 28,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 3,
+   "nota_ultimo": 118.1,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 3,
+   "nota_ultimo": 109.1,
+   "sobras": 26,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 0,
+   "sobras": 28,
+   "vagas": 28
+  },
+  "2013f2": {
+   "colocados": 2,
+   "nota_ultimo": 117.2,
+   "sobras": 27,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 2,
+   "nota_ultimo": 124.2,
+   "sobras": 2,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2014f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 2,
+   "nota_ultimo": 119.7,
+   "sobras": 2,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 4,
+   "nota_ultimo": 131.1,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2015f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.3,
+   "sobras": 14,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 2,
+   "nota_ultimo": 107.1,
+   "sobras": 4,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 2,
+   "nota_ultimo": 137.3,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2016f2": {
+   "colocados": 7,
+   "nota_ultimo": 108.9,
+   "sobras": 11,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 1,
+   "nota_ultimo": 113.5,
+   "sobras": 6,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2017f1": {
+   "colocados": 3,
+   "nota_ultimo": 113.8,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2017f2": {
+   "colocados": 4,
+   "nota_ultimo": 112.4,
+   "sobras": 13,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 6,
+   "nota_ultimo": 113.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 9,
    "candidatos_1opcao": 3,
@@ -253,7 +382,8 @@
   },
   "2022f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   }
  },
  "subsistema": "politecnico",

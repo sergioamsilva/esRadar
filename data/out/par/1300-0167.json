@@ -1,0 +1,79 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0167",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0167",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 15,
+   "nota_ultimo": 123.4,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 12,
+   "nota_ultimo": 120.2,
+   "sobras": 3,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 132.0,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 137.0,
+   "sobras": 7,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 3,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 129.2,
+   "sobras": 2,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 122.4,
+   "sobras": 7,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

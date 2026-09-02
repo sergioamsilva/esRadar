@@ -6,6 +6,7 @@ import {
   slug as slugify,
   formatarNota,
   formatarInteiro,
+  ANOS_CURSOS,
   type Par,
 } from "../lib/dados";
 
@@ -17,7 +18,7 @@ for (const p of pares()) {
   lista.push(p);
   porArea.set(p.cnaef_nome, lista);
 }
-const ANOS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+const ANOS = ANOS_CURSOS;
 const mediana = (v: number[]) => (v.length ? [...v].sort((a, b) => a - b)[Math.floor(v.length / 2)] : null);
 
 const linhas = [...porArea.entries()]
@@ -43,10 +44,10 @@ const intensidade = (v: number) => Math.round(12 + ((v - vMin) / (vMax - vMin ||
 
 <Base
   titulo="Áreas de estudo"
-  descricao={`As áreas CNAEF do concurso nacional, 2018–2026: o corte mediano de cada área, ano a ano, num mapa de calor — de ${formatarNota(vMin)} a ${formatarNota(vMax)}.`}
+  descricao={`As áreas CNAEF do concurso nacional, ${ANOS[0]}–${ANOS[ANOS.length - 1]}: o corte mediano de cada área, ano a ano, num mapa de calor — de ${formatarNota(vMin)} a ${formatarNota(vMax)}.`}
 >
   <header class="cab">
-    <h1>Nove anos de notas, área a área</h1>
+    <h1>Vinte anos de notas, área a área</h1>
     <p class="desc medida">
       Cada célula é o corte mediano de uma área num ano — quanto mais escura, mais alto.
       As ondas lêem-se na horizontal: o que aqueceu, o que arrefeceu, o que resistiu.

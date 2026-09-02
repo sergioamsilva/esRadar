@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0638",
+ "code": "3163",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia da Computação Gráfica",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3163-0638",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 36,
+   "candidatos_1opcao": 5,
+   "colocados": 13,
+   "colocados_1opcao": 5,
+   "media_candidatura": 108.3,
+   "media_provas": 88.9,
+   "media_secundario": 127.7,
+   "nota_ultimo": 95.0,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 55,
+   "candidatos_1opcao": 12,
+   "colocados": 21,
+   "colocados_1opcao": 12,
+   "media_candidatura": 110.1,
+   "media_provas": 92.5,
+   "media_secundario": 128.6,
+   "nota_ultimo": 95.5,
+   "sobras": 14,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 6,
+   "colocados": 12,
+   "colocados_1opcao": 6,
+   "media_candidatura": 103.0,
+   "media_provas": 72.3,
+   "media_secundario": 122.5,
+   "nota_ultimo": 95.2,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 14,
+   "nota_ultimo": 96.0,
+   "sobras": 16,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 5,
+   "nota_ultimo": 105.2,
+   "sobras": 25,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

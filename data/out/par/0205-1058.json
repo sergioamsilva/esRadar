@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1058",
+ "code": "0205",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Agronomia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Engenharia de Recursos Naturais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0205-1058",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 8,
+   "nota_ultimo": 105.2,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 109.7,
+   "sobras": 19,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 9,
+   "nota_ultimo": 116.5,
+   "sobras": 6,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 109.6,
+   "sobras": 8,
+   "vagas": 10,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1638",
+ "code": "3142",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do 2.º c. do Ens. Básico, v. de Educação Física",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3142-1638",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 76,
+   "candidatos_1opcao": 12,
+   "colocados": 30,
+   "colocados_1opcao": 12,
+   "media_candidatura": 114.5,
+   "media_provas": 102.6,
+   "media_secundario": 125.3,
+   "nota_ultimo": 94.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 96,
+   "candidatos_1opcao": 11,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 117.3,
+   "media_provas": 105.5,
+   "media_secundario": 126.0,
+   "nota_ultimo": 104.4,
+   "sobras": 12,
+   "vagas": 34
+  },
+  "2000f1": {
+   "colocados": 19,
+   "nota_ultimo": 104.4,
+   "sobras": 1,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

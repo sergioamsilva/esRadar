@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0232",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-0232",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 234,
+   "candidatos_1opcao": 59,
+   "colocados": 60,
+   "colocados_1opcao": 46,
+   "media_candidatura": 77.4,
+   "media_provas": 23.2,
+   "media_secundario": 131.0,
+   "nota_ultimo": 66.3,
+   "sobras": 4,
+   "vagas": 60
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

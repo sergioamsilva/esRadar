@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0560",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0560",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 382,
+   "candidatos_1opcao": 46,
+   "colocados": 40,
+   "colocados_1opcao": 17,
+   "media_candidatura": 137.3,
+   "media_provas": 125.1,
+   "media_secundario": 150.0,
+   "nota_ultimo": 126.5,
+   "sobras": 1,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 343,
+   "candidatos_1opcao": 49,
+   "colocados": 42,
+   "colocados_1opcao": 19,
+   "media_candidatura": 142.5,
+   "media_provas": 138.4,
+   "media_secundario": 146.7,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 252,
+   "candidatos_1opcao": 33,
+   "colocados": 40,
+   "colocados_1opcao": 27,
+   "media_candidatura": 136.2,
+   "media_provas": 111.7,
+   "media_secundario": 149.2,
+   "nota_ultimo": 118.5,
+   "sobras": 1,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 39,
+   "nota_ultimo": 100.8,
+   "sobras": 1,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 13,
+   "nota_ultimo": 107.5,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 117.5,
+   "sobras": 11,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

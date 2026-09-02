@@ -1,0 +1,43 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1239",
+ "code": "3242",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Design e Tecnologia das Artes Gráficas",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3242-1239",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 21,
+   "nota_ultimo": 116.6,
+   "sobras": 24,
+   "vagas": 45
+  },
+  "2006f2": {
+   "colocados": 22,
+   "nota_ultimo": 110.0,
+   "sobras": 7,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

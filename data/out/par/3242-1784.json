@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1784",
+ "code": "3242",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologia e Artes Gráficas",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3242-1784",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 304,
+   "candidatos_1opcao": 54,
+   "colocados": 75,
+   "colocados_1opcao": 35,
+   "media_candidatura": 131.8,
+   "media_provas": 129.5,
+   "media_secundario": 135.2,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 353,
+   "candidatos_1opcao": 47,
+   "colocados": 60,
+   "colocados_1opcao": 18,
+   "media_candidatura": 137.4,
+   "media_provas": 143.5,
+   "media_secundario": 134.0,
+   "nota_ultimo": 134.8,
+   "sobras": 7,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 55,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 58,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2002f1": {
+   "colocados": 51,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 94.3,
+   "sobras": 19,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 106.8,
+   "sobras": 30,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 15,
+   "nota_ultimo": 93.4,
+   "sobras": 19,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 10,
+   "nota_ultimo": 113.9,
+   "sobras": 35,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.1,
+   "sobras": 34,
+   "vagas": 36,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

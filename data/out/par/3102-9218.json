@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9218",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Protecção Civil",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-9218",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 25,
+   "colocados": 30,
+   "nota_ultimo": 115.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 119.6,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 22,
+   "nota_ultimo": 109.7,
+   "sobras": 8,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 18,
+   "nota_ultimo": 110.6,
+   "sobras": 7,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 6,
+   "nota_ultimo": 117.8,
+   "sobras": 18,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22
+  },
+  "2013f2": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 162,
+   "candidatos_1opcao": 19,
+   "colocados": 35,
+   "colocados_1opcao": 14,
+   "media_candidatura": 119.9,
+   "media_provas": 106.3,
+   "media_secundario": 132.6,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 220,
+   "candidatos_1opcao": 42,
+   "colocados": 50,
+   "colocados_1opcao": 24,
+   "media_candidatura": 123.7,
+   "media_provas": 102.7,
+   "media_secundario": 135.0,
+   "nota_ultimo": 125.1,
+   "sobras": 8,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 119.2,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 97.6,
+   "sobras": 20,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 17,
+   "nota_ultimo": 86.4,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 109.0,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 111.0,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 108.0,
+   "sobras": 13,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

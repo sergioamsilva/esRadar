@@ -193,6 +193,209 @@
   }
  ],
  "series": {
+  "2007f1": {
+   "candidatos_1opcao": 21,
+   "colocados": 90,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2007f2": {
+   "colocados": 32,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 29,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 90,
+   "nota_ultimo": 111.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2008f2": {
+   "colocados": 27,
+   "nota_ultimo": 118.5,
+   "sobras": 0,
+   "vagas": 22,
+   "vagas_recolocacao": 5
+  },
+  "2009f1": {
+   "colocados": 90,
+   "nota_ultimo": 114.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2009f2": {
+   "colocados": 18,
+   "nota_ultimo": 125.5,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 7
+  },
+  "2010f1": {
+   "colocados": 90,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2010f2": {
+   "colocados": 29,
+   "nota_ultimo": 112.0,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 10
+  },
+  "2011f1": {
+   "colocados": 61,
+   "nota_ultimo": 109.0,
+   "sobras": 29,
+   "vagas": 90
+  },
+  "2011f2": {
+   "colocados": 27,
+   "nota_ultimo": 101.5,
+   "sobras": 23,
+   "vagas": 45,
+   "vagas_recolocacao": 5
+  },
+  "2012f1": {
+   "colocados": 27,
+   "nota_ultimo": 116.0,
+   "sobras": 63,
+   "vagas": 90
+  },
+  "2012f2": {
+   "colocados": 11,
+   "nota_ultimo": 114.3,
+   "sobras": 61,
+   "vagas": 69,
+   "vagas_recolocacao": 3
+  },
+  "2012f3": {
+   "colocados": 2,
+   "nota_ultimo": 106.5,
+   "sobras": 2,
+   "vagas": 1,
+   "vagas_recolocacao": 3
+  },
+  "2013f1": {
+   "colocados": 27,
+   "nota_ultimo": 112.8,
+   "sobras": 28,
+   "vagas": 55
+  },
+  "2013f2": {
+   "colocados": 13,
+   "nota_ultimo": 116.8,
+   "sobras": 29,
+   "vagas": 38,
+   "vagas_recolocacao": 4
+  },
+  "2013f3": {
+   "colocados": 1,
+   "nota_ultimo": 118.8,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 1
+  },
+  "2014f1": {
+   "colocados": 22,
+   "nota_ultimo": 115.0,
+   "sobras": 33,
+   "vagas": 55
+  },
+  "2014f2": {
+   "colocados": 14,
+   "nota_ultimo": 120.0,
+   "sobras": 21,
+   "vagas": 35,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 1,
+   "nota_ultimo": 159.5,
+   "sobras": 20,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 31,
+   "nota_ultimo": 117.0,
+   "sobras": 23,
+   "vagas": 54
+  },
+  "2015f2": {
+   "colocados": 12,
+   "nota_ultimo": 106.5,
+   "sobras": 18,
+   "vagas": 26,
+   "vagas_recolocacao": 4
+  },
+  "2015f3": {
+   "colocados": 6,
+   "nota_ultimo": 112.3,
+   "sobras": 13,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2016f1": {
+   "colocados": 34,
+   "nota_ultimo": 115.5,
+   "sobras": 20,
+   "vagas": 54
+  },
+  "2016f2": {
+   "colocados": 19,
+   "nota_ultimo": 109.5,
+   "sobras": 5,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "candidatos": 186,
+   "candidatos_1opcao": 24,
+   "candidatos_homens": 59,
+   "candidatos_mulheres": 127,
+   "colocados": 54,
+   "colocados_1opcao": 19,
+   "colocados_homens": 19,
+   "colocados_mulheres": 35,
+   "media_candidatura": 139.4,
+   "media_provas": 125.9,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 54
+  },
+  "2017f2": {
+   "candidatos": 33,
+   "candidatos_1opcao": 5,
+   "candidatos_homens": 11,
+   "candidatos_mulheres": 22,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "colocados_homens": 1,
+   "colocados_mulheres": 6,
+   "media_candidatura": 131.3,
+   "media_provas": 115.9,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  },
+  "2017f3": {
+   "colocados": 2,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
   "2018f1": {
    "candidatos": 210,
    "candidatos_1opcao": 23,
@@ -378,7 +581,8 @@
   "2022f3": {
    "colocados": 0,
    "sobras": 21,
-   "vagas": 21
+   "vagas": 21,
+   "vagas_recolocacao": 0
   },
   "2023f1": {
    "candidatos": 132,

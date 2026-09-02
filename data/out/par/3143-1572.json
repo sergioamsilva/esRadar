@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1572",
+ "code": "3143",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática de Gestão",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3143-1572",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 158,
+   "candidatos_1opcao": 20,
+   "colocados": 32,
+   "colocados_1opcao": 20,
+   "media_candidatura": 102.9,
+   "media_provas": 80.8,
+   "media_secundario": 125.3,
+   "nota_ultimo": 70.5,
+   "sobras": 18,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 151,
+   "candidatos_1opcao": 20,
+   "colocados": 39,
+   "colocados_1opcao": 20,
+   "media_candidatura": 99.1,
+   "media_provas": 70.6,
+   "media_secundario": 127.2,
+   "nota_ultimo": 71.5,
+   "sobras": 30,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 81.0,
+   "sobras": 20,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 42,
+   "nota_ultimo": 84.5,
+   "sobras": 8,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 6,
+   "nota_ultimo": 112.3,
+   "sobras": 34,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 27,
+   "nota_ultimo": 95.0,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 18,
+   "nota_ultimo": 103.6,
+   "sobras": 22,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 107.7,
+   "sobras": 17,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 116.8,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.3,
+   "sobras": 31,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

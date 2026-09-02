@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1944",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática e de Sistemas (regime misto)",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-1944",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 150,
+   "candidatos_1opcao": 20,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 111.7,
+   "media_provas": 93.6,
+   "media_secundario": 130.8,
+   "nota_ultimo": 95.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 96,
+   "candidatos_1opcao": 19,
+   "colocados": 26,
+   "colocados_1opcao": 14,
+   "media_candidatura": 111.9,
+   "media_provas": 85.3,
+   "media_secundario": 130.4,
+   "nota_ultimo": 100.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 106.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 1,
+   "nota_ultimo": 124.4,
+   "sobras": 29,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 25,
+   "nota_ultimo": 102.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 107.6,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 18,
+   "nota_ultimo": 99.9,
+   "sobras": 11,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 116.5,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 116.5,
+   "sobras": 12,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

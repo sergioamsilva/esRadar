@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0303",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-0303",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 165,
+   "candidatos_1opcao": 19,
+   "colocados": 24,
+   "colocados_1opcao": 19,
+   "media_candidatura": 92.1,
+   "media_provas": 64.2,
+   "media_secundario": 119.6,
+   "nota_ultimo": 71.8,
+   "sobras": 21,
+   "vagas": 45
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

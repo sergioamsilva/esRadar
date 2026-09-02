@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1655",
+ "code": "3101",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Inglês",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3101-1655",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 156,
+   "candidatos_1opcao": 31,
+   "colocados": 25,
+   "colocados_1opcao": 14,
+   "media_candidatura": 127.1,
+   "media_provas": 117.7,
+   "media_secundario": 136.4,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 125,
+   "candidatos_1opcao": 25,
+   "colocados": 25,
+   "colocados_1opcao": 15,
+   "media_candidatura": 133.9,
+   "media_provas": 126.2,
+   "media_secundario": 138.8,
+   "nota_ultimo": 127.0,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 23,
+   "nota_ultimo": 105.6,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 110.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 108.5,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 114.9,
+   "sobras": 17,
+   "vagas": 21
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

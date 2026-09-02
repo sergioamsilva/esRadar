@@ -1,0 +1,48 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1170",
+ "code": "3061",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Eco-Agroturismo",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3061-1170",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 95.0,
+   "sobras": 22,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 95.8,
+   "sobras": 15,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 24,
+   "nota_ultimo": 103.2,
+   "sobras": 16,
+   "vagas": 40
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

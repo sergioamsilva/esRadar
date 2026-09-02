@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1122",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática (Curso Europeu)",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-1122",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 123.7,
+   "sobras": 4,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 136.5,
+   "sobras": 4,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 124.5,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 107.2,
+   "sobras": 11,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 9,
+   "nota_ultimo": 108.7,
+   "sobras": 6,
+   "vagas": 15
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 111.3,
+   "sobras": 5,
+   "vagas": 10,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

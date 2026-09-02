@@ -1,0 +1,54 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1353",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Ingleses e Alemães",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-1353",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 2,
+   "nota_ultimo": 117.4,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 18,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 143.6,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

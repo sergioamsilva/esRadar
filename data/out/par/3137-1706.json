@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1706",
+ "code": "3137",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Recursos Humanos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão (Póvoa do Varzim)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3137-1706",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 573,
+   "candidatos_1opcao": 121,
+   "colocados": 41,
+   "colocados_1opcao": 27,
+   "media_candidatura": 146.2,
+   "media_provas": 150.7,
+   "media_secundario": 141.7,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 651,
+   "candidatos_1opcao": 143,
+   "colocados": 41,
+   "colocados_1opcao": 23,
+   "media_candidatura": 152.0,
+   "media_provas": 160.9,
+   "media_secundario": 143.7,
+   "nota_ultimo": 155.0,
+   "sobras": 9,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 42,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 40
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0242",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrónica Industrial",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0242",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 294,
+   "candidatos_1opcao": 42,
+   "colocados": 65,
+   "colocados_1opcao": 36,
+   "media_candidatura": 116.5,
+   "media_provas": 104.2,
+   "media_secundario": 128.8,
+   "nota_ultimo": 100.8,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "1998f1": {
+   "candidatos": 260,
+   "candidatos_1opcao": 44,
+   "colocados": 70,
+   "colocados_1opcao": 41,
+   "media_candidatura": 121.8,
+   "media_provas": 113.7,
+   "media_secundario": 129.6,
+   "nota_ultimo": 103.3,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 137,
+   "candidatos_1opcao": 27,
+   "colocados": 27,
+   "colocados_1opcao": 27,
+   "media_candidatura": 131.7,
+   "media_provas": 127.0,
+   "media_secundario": 136.3,
+   "nota_ultimo": 111.0,
+   "sobras": 43,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 55,
+   "nota_ultimo": 101.8,
+   "sobras": 15,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 24,
+   "nota_ultimo": 114.4,
+   "sobras": 46,
+   "vagas": 70
+  },
+  "2002f1": {
+   "colocados": 55,
+   "nota_ultimo": 112.4,
+   "sobras": 15,
+   "vagas": 70
+  },
+  "2003f1": {
+   "colocados": 24,
+   "nota_ultimo": 106.6,
+   "sobras": 40,
+   "vagas": 64
+  },
+  "2004f1": {
+   "colocados": 41,
+   "nota_ultimo": 109.4,
+   "sobras": 23,
+   "vagas": 64
+  },
+  "2004f2": {
+   "colocados": 23,
+   "nota_ultimo": 117.4,
+   "sobras": 0,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

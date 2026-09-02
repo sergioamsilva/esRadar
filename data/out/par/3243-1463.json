@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1463",
+ "code": "3243",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3243-1463",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 81,
+   "candidatos_1opcao": 17,
+   "colocados": 29,
+   "colocados_1opcao": 17,
+   "media_candidatura": 92.2,
+   "media_provas": 28.3,
+   "media_secundario": 126.2,
+   "nota_ultimo": 76.7,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 21,
+   "nota_ultimo": 75.9,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 2,
+   "sobras": 38,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 94.6,
+   "sobras": 31,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 12,
+   "nota_ultimo": 95.4,
+   "sobras": 23,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 95.0,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 92.5,
+   "sobras": 16,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 1,
+   "nota_ultimo": 127.2,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 117.9,
+   "sobras": 20,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,62 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8396",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias e Gestão da Informação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-8396",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 2,
+   "nota_ultimo": 121.7,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 1,
+   "nota_ultimo": 114.3,
+   "sobras": 23,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 1,
+   "nota_ultimo": 108.8,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 110.0,
+   "sobras": 20,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

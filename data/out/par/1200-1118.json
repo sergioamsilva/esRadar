@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1118",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciência Alimentar",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-1118",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 133.7,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 12,
+   "nota_ultimo": 103.0,
+   "sobras": 9,
+   "vagas": 15,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 128.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 132.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 27,
+   "nota_ultimo": 111.6,
+   "sobras": 0,
+   "vagas": 22,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

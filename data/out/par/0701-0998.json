@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0998",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biol+Biol Veg Apl+Biol Microb Gen+Biol Apl Rec Anim+Biol Geol (Ens) v. Biol",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-0998",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1513,
+   "candidatos_1opcao": 396,
+   "colocados": 141,
+   "colocados_1opcao": 55,
+   "media_candidatura": 170.6,
+   "media_provas": 170.4,
+   "media_secundario": 170.9,
+   "nota_ultimo": 165.8,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "1998f1": {
+   "candidatos": 1569,
+   "candidatos_1opcao": 506,
+   "colocados": 142,
+   "colocados_1opcao": 58,
+   "media_candidatura": 175.3,
+   "media_provas": 176.1,
+   "media_secundario": 174.7,
+   "nota_ultimo": 171.0,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "1999f1": {
+   "candidatos": 886,
+   "candidatos_1opcao": 273,
+   "colocados": 141,
+   "colocados_1opcao": 82,
+   "media_candidatura": 168.5,
+   "media_provas": 164.1,
+   "media_secundario": 172.9,
+   "nota_ultimo": 161.8,
+   "sobras": 6,
+   "vagas": 140
+  },
+  "2000f1": {
+   "colocados": 140,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "2001f1": {
+   "colocados": 145,
+   "nota_ultimo": 152.8,
+   "sobras": 0,
+   "vagas": 145
+  },
+  "2002f1": {
+   "colocados": 145,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 145
+  },
+  "2003f1": {
+   "colocados": 160,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 160
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

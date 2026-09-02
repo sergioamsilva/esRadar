@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1027",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Assessoria de Administração",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-1027",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 243,
+   "candidatos_1opcao": 60,
+   "colocados": 80,
+   "colocados_1opcao": 46,
+   "media_candidatura": 113.2,
+   "media_provas": 91.1,
+   "media_secundario": 125.6,
+   "nota_ultimo": 108.5,
+   "sobras": 16,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 75,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 76,
+   "nota_ultimo": 117.4,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 65,
+   "nota_ultimo": 122.3,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2003f1": {
+   "colocados": 56,
+   "nota_ultimo": 100.9,
+   "sobras": 4,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 50,
+   "nota_ultimo": 99.6,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 100.7,
+   "sobras": 7,
+   "vagas": 9,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 27,
+   "nota_ultimo": 106.2,
+   "sobras": 23,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 23,
+   "nota_ultimo": 109.3,
+   "sobras": 8,
+   "vagas": 29,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 36,
+   "nota_ultimo": 105.1,
+   "sobras": 14,
+   "vagas": 50
+  },
+  "2006f2": {
+   "colocados": 16,
+   "nota_ultimo": 107.5,
+   "sobras": 6,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

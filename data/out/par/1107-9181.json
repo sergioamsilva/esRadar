@@ -215,6 +215,209 @@
   }
  ],
  "series": {
+  "2007f1": {
+   "candidatos_1opcao": 47,
+   "colocados": 79,
+   "nota_ultimo": 105.8,
+   "sobras": 11,
+   "vagas": 90
+  },
+  "2007f2": {
+   "colocados": 29,
+   "nota_ultimo": 125.8,
+   "sobras": 0,
+   "vagas": 24,
+   "vagas_recolocacao": 5
+  },
+  "2008f1": {
+   "colocados": 80,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2008f2": {
+   "colocados": 22,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 20,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 80,
+   "nota_ultimo": 130.6,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2009f2": {
+   "colocados": 17,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 5
+  },
+  "2010f1": {
+   "colocados": 80,
+   "nota_ultimo": 144.4,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2010f2": {
+   "colocados": 15,
+   "nota_ultimo": 141.6,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 3
+  },
+  "2011f1": {
+   "colocados": 80,
+   "nota_ultimo": 139.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2011f2": {
+   "colocados": 10,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 3
+  },
+  "2012f1": {
+   "colocados": 80,
+   "nota_ultimo": 136.6,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2012f2": {
+   "colocados": 22,
+   "nota_ultimo": 135.2,
+   "sobras": 0,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 6,
+   "nota_ultimo": 133.2,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 2
+  },
+  "2013f1": {
+   "colocados": 72,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2013f2": {
+   "colocados": 15,
+   "nota_ultimo": 132.6,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 3,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2014f1": {
+   "colocados": 72,
+   "nota_ultimo": 138.4,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2014f2": {
+   "colocados": 18,
+   "nota_ultimo": 136.4,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 3
+  },
+  "2014f3": {
+   "colocados": 5,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2015f1": {
+   "colocados": 73,
+   "nota_ultimo": 137.2,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2015f2": {
+   "colocados": 12,
+   "nota_ultimo": 135.8,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 2
+  },
+  "2015f3": {
+   "colocados": 1,
+   "nota_ultimo": 153.4,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 1
+  },
+  "2016f1": {
+   "colocados": 72,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2016f2": {
+   "colocados": 7,
+   "nota_ultimo": 143.4,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "candidatos": 416,
+   "candidatos_1opcao": 93,
+   "candidatos_homens": 184,
+   "candidatos_mulheres": 232,
+   "colocados": 73,
+   "colocados_1opcao": 47,
+   "colocados_homens": 28,
+   "colocados_mulheres": 45,
+   "media_candidatura": 157.0,
+   "media_provas": 154.6,
+   "nota_ultimo": 143.6,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2017f2": {
+   "candidatos": 81,
+   "candidatos_1opcao": 28,
+   "candidatos_homens": 43,
+   "candidatos_mulheres": 38,
+   "colocados": 9,
+   "colocados_1opcao": 6,
+   "colocados_homens": 5,
+   "colocados_mulheres": 4,
+   "media_candidatura": 155.9,
+   "media_provas": 159.1,
+   "nota_ultimo": 143.6,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  },
+  "2017f3": {
+   "colocados": 2,
+   "nota_ultimo": 130.4,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  },
   "2018f1": {
    "candidatos": 334,
    "candidatos_1opcao": 74,
@@ -402,7 +605,8 @@
    "colocados": 2,
    "nota_ultimo": 166.0,
    "sobras": 0,
-   "vagas": 1
+   "vagas": 1,
+   "vagas_recolocacao": 1
   },
   "2023f1": {
    "candidatos": 415,

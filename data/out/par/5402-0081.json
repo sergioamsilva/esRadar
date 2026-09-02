@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0081",
+ "code": "5402",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas - Pintura",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Belas-Artes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "5402-0081",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 45,
+   "nota_ultimo": 163.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 45,
+   "nota_ultimo": 163.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 45,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 46,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 45,
+   "nota_ultimo": 131.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 119.5,
+   "sobras": 5,
+   "vagas": 7,
+   "vagas_recolocacao": 6
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

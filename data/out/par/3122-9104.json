@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9104",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia e Gestão Industrial",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-9104",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 121.4,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 108.5,
+   "sobras": 17,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 5,
+   "nota_ultimo": 112.7,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 6,
+   "nota_ultimo": 114.6,
+   "sobras": 16,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 2,
+   "nota_ultimo": 115.5,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 1,
+   "nota_ultimo": 113.3,
+   "sobras": 23,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 1,
+   "nota_ultimo": 128.0,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

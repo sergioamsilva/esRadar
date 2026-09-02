@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1640",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas, Literaturas e Culturas",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-1640",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 11,
+   "nota_ultimo": 108.5,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 111.0,
+   "sobras": 13,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 111.5,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 107.0,
+   "sobras": 8,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

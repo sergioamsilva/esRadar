@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1137",
+ "code": "3031",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade Empresarial",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3031-1137",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 113,
+   "candidatos_1opcao": 17,
+   "colocados": 28,
+   "colocados_1opcao": 17,
+   "media_candidatura": 98.7,
+   "media_provas": 62.7,
+   "media_secundario": 123.9,
+   "nota_ultimo": 76.4,
+   "sobras": 10,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 37,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 120.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 131.4,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 136.2,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 55,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 133.6,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

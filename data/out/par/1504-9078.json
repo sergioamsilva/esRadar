@@ -232,6 +232,98 @@
   }
  ],
  "series": {
+  "2014f1": {
+   "colocados": 480,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 480
+  },
+  "2014f2": {
+   "colocados": 89,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 73,
+   "vagas_recolocacao": 16
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas_recolocacao": 7
+  },
+  "2015f1": {
+   "colocados": 480,
+   "nota_ultimo": 141.8,
+   "sobras": 0,
+   "vagas": 480
+  },
+  "2015f2": {
+   "colocados": 67,
+   "nota_ultimo": 142.3,
+   "sobras": 0,
+   "vagas": 57,
+   "vagas_recolocacao": 10
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas_recolocacao": 5
+  },
+  "2016f1": {
+   "colocados": 461,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 460
+  },
+  "2016f2": {
+   "colocados": 80,
+   "nota_ultimo": 146.3,
+   "sobras": 0,
+   "vagas": 66,
+   "vagas_recolocacao": 14
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 3,
+   "vagas_recolocacao": 3
+  },
+  "2017f1": {
+   "candidatos": 1903,
+   "candidatos_1opcao": 802,
+   "candidatos_homens": 577,
+   "candidatos_mulheres": 1326,
+   "colocados": 561,
+   "colocados_1opcao": 416,
+   "colocados_homens": 180,
+   "colocados_mulheres": 381,
+   "media_candidatura": 156.1,
+   "media_provas": 150.6,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 560
+  },
+  "2017f2": {
+   "candidatos": 513,
+   "candidatos_1opcao": 302,
+   "candidatos_homens": 179,
+   "candidatos_mulheres": 334,
+   "colocados": 82,
+   "colocados_1opcao": 67,
+   "colocados_homens": 34,
+   "colocados_mulheres": 48,
+   "media_candidatura": 151.7,
+   "media_provas": 150.6,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 74,
+   "vagas_recolocacao": 8
+  },
+  "2017f3": {
+   "colocados": 6,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 6
+  },
   "2018f1": {
    "candidatos": 1736,
    "candidatos_1opcao": 739,
@@ -419,7 +511,8 @@
    "colocados": 15,
    "nota_ultimo": 159.0,
    "sobras": 0,
-   "vagas": 10
+   "vagas": 10,
+   "vagas_recolocacao": 5
   },
   "2023f1": {
    "candidatos": 1563,

@@ -1,0 +1,65 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0989",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas + Design/Projectação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0989",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 78,
+   "candidatos_1opcao": 51,
+   "colocados": 25,
+   "colocados_1opcao": 25,
+   "media_candidatura": 151.0,
+   "media_provas": 159.5,
+   "media_secundario": 144.8,
+   "sobras": 0,
+   "vagas": 24
+  },
+  "1999f1": {
+   "candidatos": 52,
+   "candidatos_1opcao": 33,
+   "colocados": 30,
+   "colocados_1opcao": 28,
+   "media_candidatura": 143.0,
+   "media_provas": 145.6,
+   "media_secundario": 140.3,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 137.8,
+   "sobras": 0,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

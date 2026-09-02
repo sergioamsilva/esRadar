@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1183",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação e Comunicação Multimédia",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-1183",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 25,
+   "nota_ultimo": 114.9,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 108.8,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 122.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 129.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 20,
+   "nota_ultimo": 106.1,
+   "sobras": 10,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 122.1,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

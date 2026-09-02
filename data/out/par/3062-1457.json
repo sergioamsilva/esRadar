@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1457",
+ "code": "3062",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Língua Gestual Portuguesa",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3062-1457",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 20,
+   "nota_ultimo": 128.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 151.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 20,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 137.4,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

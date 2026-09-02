@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9030",
+ "code": "0808",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências de Engenharia - Engenharia de Redes de Comunicações",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior Técnico (campus do Taguspark)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0808-9030",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 31,
+   "nota_ultimo": 123.5,
+   "sobras": 49,
+   "vagas": 80
+  },
+  "2006f2": {
+   "colocados": 21,
+   "nota_ultimo": 120.0,
+   "sobras": 36,
+   "vagas": 56,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 16,
+   "colocados": 22,
+   "nota_ultimo": 120.8,
+   "sobras": 48,
+   "vagas": 70
+  },
+  "2007f2": {
+   "colocados": 21,
+   "nota_ultimo": 120.8,
+   "sobras": 33,
+   "vagas": 53,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

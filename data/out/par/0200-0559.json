@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0559",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0559",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 186,
+   "candidatos_1opcao": 30,
+   "colocados": 45,
+   "colocados_1opcao": 23,
+   "media_candidatura": 125.0,
+   "media_provas": 109.1,
+   "media_secundario": 141.8,
+   "nota_ultimo": 104.0,
+   "sobras": 3,
+   "vagas": 45
+  },
+  "1998f1": {
+   "candidatos": 264,
+   "candidatos_1opcao": 43,
+   "colocados": 45,
+   "colocados_1opcao": 20,
+   "media_candidatura": 128.4,
+   "media_provas": 120.8,
+   "media_secundario": 136.2,
+   "nota_ultimo": 114.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "1999f1": {
+   "candidatos": 222,
+   "candidatos_1opcao": 39,
+   "colocados": 50,
+   "colocados_1opcao": 32,
+   "media_candidatura": 128.1,
+   "media_provas": 103.8,
+   "media_secundario": 141.8,
+   "nota_ultimo": 104.7,
+   "sobras": 3,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 33,
+   "nota_ultimo": 105.7,
+   "sobras": 17,
+   "vagas": 50
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

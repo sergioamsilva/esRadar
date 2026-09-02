@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 167,
+   "candidatos_1opcao": 18,
+   "colocados": 49,
+   "colocados_1opcao": 18,
+   "media_candidatura": 108.1,
+   "media_provas": 93.7,
+   "media_secundario": 120.2,
+   "nota_ultimo": 84.0,
+   "sobras": 1,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 223,
+   "candidatos_1opcao": 35,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 116.7,
+   "media_provas": 106.4,
+   "media_secundario": 126.3,
+   "nota_ultimo": 109.5,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 17,
+   "nota_ultimo": 95.8,
+   "sobras": 8,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 9,
+   "nota_ultimo": 84.0,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 6,
+   "nota_ultimo": 104.8,
+   "sobras": 14,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

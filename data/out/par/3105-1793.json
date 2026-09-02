@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1793",
+ "code": "3105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Turismo e Mar",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3105-1793",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 97.3,
+   "sobras": 42,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 100.6,
+   "sobras": 20,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 38,
+   "nota_ultimo": 95.7,
+   "sobras": 12,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 32,
+   "nota_ultimo": 101.4,
+   "sobras": 3,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 114.9,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 112.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 31,
+   "nota_ultimo": 116.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 110.1,
+   "sobras": 3,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

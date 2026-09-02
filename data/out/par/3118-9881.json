@@ -1,0 +1,113 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9881",
+ "code": "3118",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil (regime pós-laboral)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3118-9881",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 16,
+   "colocados": 21,
+   "nota_ultimo": 106.5,
+   "sobras": 29,
+   "vagas": 50
+  },
+  "2007f2": {
+   "colocados": 33,
+   "nota_ultimo": 117.6,
+   "sobras": 0,
+   "vagas": 32,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 49,
+   "nota_ultimo": 106.7,
+   "sobras": 1,
+   "vagas": 50
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 46,
+   "nota_ultimo": 110.1,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2009f2": {
+   "colocados": 8,
+   "nota_ultimo": 128.4,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 26,
+   "nota_ultimo": 108.2,
+   "sobras": 24,
+   "vagas": 50
+  },
+  "2010f2": {
+   "colocados": 28,
+   "nota_ultimo": 111.3,
+   "sobras": 0,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 4,
+   "nota_ultimo": 116.9,
+   "sobras": 46,
+   "vagas": 50
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.6,
+   "sobras": 46,
+   "vagas": 47,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 50,
+   "vagas": 50
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 50,
+   "vagas": 50,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 50,
+   "vagas": 50,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

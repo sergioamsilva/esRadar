@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0433",
+ "code": "1105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão e Engenharia Industrial",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Engenharia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1105-0433",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 119,
+   "candidatos_1opcao": 46,
+   "colocados": 25,
+   "colocados_1opcao": 25,
+   "media_candidatura": 166.9,
+   "media_provas": 165.0,
+   "media_secundario": 169.2,
+   "nota_ultimo": 152.5,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 157,
+   "candidatos_1opcao": 44,
+   "colocados": 25,
+   "colocados_1opcao": 24,
+   "media_candidatura": 165.9,
+   "media_provas": 166.7,
+   "media_secundario": 165.2,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 124,
+   "candidatos_1opcao": 41,
+   "colocados": 25,
+   "colocados_1opcao": 25,
+   "media_candidatura": 159.3,
+   "media_provas": 153.0,
+   "media_secundario": 165.6,
+   "nota_ultimo": 146.8,
+   "sobras": 4,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 144.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 151.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 25,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

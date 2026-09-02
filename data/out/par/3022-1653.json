@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1653",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Francês",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-1653",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 58,
+   "candidatos_1opcao": 3,
+   "colocados": 15,
+   "colocados_1opcao": 3,
+   "media_candidatura": 116.4,
+   "media_provas": 107.6,
+   "media_secundario": 126.7,
+   "nota_ultimo": 105.0,
+   "sobras": 10,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 48,
+   "candidatos_1opcao": 3,
+   "colocados": 12,
+   "colocados_1opcao": 3,
+   "media_candidatura": 114.9,
+   "media_provas": 105.3,
+   "media_secundario": 120.8,
+   "nota_ultimo": 106.2,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 23,
+   "nota_ultimo": 103.0,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 121.0,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 3,
+   "nota_ultimo": 117.4,
+   "sobras": 17,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

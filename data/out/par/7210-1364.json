@@ -1,0 +1,131 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1364",
+ "code": "7210",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Fisioterapia",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7210-1364",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 493,
+   "candidatos_1opcao": 147,
+   "colocados": 31,
+   "colocados_1opcao": 11,
+   "media_candidatura": 161.2,
+   "media_provas": 156.3,
+   "media_secundario": 164.5,
+   "nota_ultimo": 167.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 168.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 172.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 27,
+   "nota_ultimo": 173.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 173.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 173.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 172.6,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 165.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2007f1": {
+   "candidatos_1opcao": 196,
+   "colocados": 30,
+   "nota_ultimo": 175.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 2,
+   "nota_ultimo": 180.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 178.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 4,
+   "nota_ultimo": 176.6,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

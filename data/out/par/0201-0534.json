@@ -1,0 +1,61 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0534",
+ "code": "0201",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Espanhóis",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0201-0534",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 5,
+   "nota_ultimo": 108.3,
+   "sobras": 5,
+   "vagas": 10
+  },
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 106.9,
+   "sobras": 6,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 6,
+   "nota_ultimo": 112.7,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 1,
+   "nota_ultimo": 114.5,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 121.3,
+   "sobras": 18,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

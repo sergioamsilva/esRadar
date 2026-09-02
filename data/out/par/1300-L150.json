@@ -1,0 +1,50 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L150",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos de Cultura",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-L150",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2017f1": {
+   "colocados": 25,
+   "nota_ultimo": 108.7,
+   "sobras": 18,
+   "vagas": 43
+  },
+  "2017f2": {
+   "colocados": 17,
+   "nota_ultimo": 109.5,
+   "sobras": 13,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 5,
+   "nota_ultimo": 107.8,
+   "sobras": 13,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

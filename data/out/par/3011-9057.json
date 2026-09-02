@@ -1,0 +1,44 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9057",
+ "code": "3011",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade (regime nocturno)",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3011-9057",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 20,
+   "colocados": 25,
+   "nota_ultimo": 114.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 2,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

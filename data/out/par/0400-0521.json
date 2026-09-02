@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0521",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Língua e Cultura Portuguesas (ensino de)",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0521",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 148,
+   "candidatos_1opcao": 36,
+   "colocados": 35,
+   "colocados_1opcao": 20,
+   "media_candidatura": 130.1,
+   "media_provas": 128.9,
+   "media_secundario": 131.1,
+   "nota_ultimo": 120.5,
+   "sobras": 4,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 262,
+   "candidatos_1opcao": 48,
+   "colocados": 43,
+   "colocados_1opcao": 23,
+   "media_candidatura": 138.2,
+   "media_provas": 141.1,
+   "media_secundario": 134.9,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 233,
+   "candidatos_1opcao": 43,
+   "colocados": 41,
+   "colocados_1opcao": 15,
+   "media_candidatura": 133.3,
+   "media_provas": 131.4,
+   "media_secundario": 134.6,
+   "nota_ultimo": 126.4,
+   "sobras": 4,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 119.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 32,
+   "nota_ultimo": 104.8,
+   "sobras": 8,
+   "vagas": 40
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

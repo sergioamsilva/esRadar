@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1639",
+ "code": "3062",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do 2.º Ciclo Ens. Básico, var. de Educação Visual e Tecnológica",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3062-1639",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 151,
+   "candidatos_1opcao": 26,
+   "colocados": 26,
+   "colocados_1opcao": 15,
+   "media_candidatura": 136.5,
+   "media_provas": 137.2,
+   "media_secundario": 135.8,
+   "nota_ultimo": 137.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 128,
+   "candidatos_1opcao": 37,
+   "colocados": 25,
+   "colocados_1opcao": 15,
+   "media_candidatura": 141.0,
+   "media_provas": 145.5,
+   "media_secundario": 137.2,
+   "nota_ultimo": 135.9,
+   "sobras": 4,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 124.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 117.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 124.4,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 122.3,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 114.2,
+   "sobras": 12,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

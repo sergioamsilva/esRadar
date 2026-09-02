@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1245",
+ "code": "3154",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3154-1245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 95.7,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 108.7,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 42,
+   "nota_ultimo": 97.3,
+   "sobras": 8,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 16,
+   "nota_ultimo": 111.6,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 108.4,
+   "sobras": 43,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 115.4,
+   "sobras": 39,
+   "vagas": 44,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

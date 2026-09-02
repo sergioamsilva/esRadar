@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0510",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Clássicas e Portuguesa",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0510",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 41,
+   "candidatos_1opcao": 18,
+   "colocados": 26,
+   "colocados_1opcao": 18,
+   "media_candidatura": 132.0,
+   "media_provas": 131.2,
+   "media_secundario": 132.7,
+   "nota_ultimo": 104.0,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 31,
+   "candidatos_1opcao": 6,
+   "colocados": 15,
+   "colocados_1opcao": 6,
+   "media_candidatura": 126.6,
+   "media_provas": 122.5,
+   "media_secundario": 130.7,
+   "nota_ultimo": 109.3,
+   "sobras": 33,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 4,
+   "nota_ultimo": 111.5,
+   "sobras": 41,
+   "vagas": 45
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

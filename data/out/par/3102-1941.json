@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1941",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica (regime nocturno - só 1.º ciclo)",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1941",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 183,
+   "candidatos_1opcao": 40,
+   "colocados": 48,
+   "colocados_1opcao": 33,
+   "media_candidatura": 77.0,
+   "media_provas": 22.4,
+   "media_secundario": 131.0,
+   "nota_ultimo": 65.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "1999f1": {
+   "candidatos": 55,
+   "candidatos_1opcao": 16,
+   "colocados": 17,
+   "colocados_1opcao": 16,
+   "media_candidatura": 112.4,
+   "media_provas": 79.5,
+   "media_secundario": 131.2,
+   "nota_ultimo": 188.3,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 16,
+   "nota_ultimo": 83.1,
+   "sobras": 24,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 12,
+   "nota_ultimo": 106.0,
+   "sobras": 23,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

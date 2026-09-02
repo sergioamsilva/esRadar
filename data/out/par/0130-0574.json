@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0574",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática/Informática",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0574",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 123,
+   "candidatos_1opcao": 18,
+   "colocados": 26,
+   "colocados_1opcao": 14,
+   "media_candidatura": 103.9,
+   "media_provas": 77.6,
+   "media_secundario": 132.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 106,
+   "candidatos_1opcao": 17,
+   "colocados": 25,
+   "colocados_1opcao": 13,
+   "media_candidatura": 111.4,
+   "media_provas": 89.2,
+   "media_secundario": 134.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 41,
+   "candidatos_1opcao": 4,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 106.4,
+   "media_provas": 76.8,
+   "media_secundario": 135.0,
+   "nota_ultimo": 105.5,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 4,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 1,
+   "sobras": 14,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

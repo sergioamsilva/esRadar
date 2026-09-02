@@ -1,0 +1,132 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1359",
+ "code": "7210",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Farmácia",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7210-1359",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 365,
+   "candidatos_1opcao": 50,
+   "colocados": 30,
+   "colocados_1opcao": 8,
+   "media_candidatura": 156.9,
+   "media_provas": 149.9,
+   "media_secundario": 162.0,
+   "nota_ultimo": 159.0,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 154.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 41,
+   "nota_ultimo": 153.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 151.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 133.8,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 155.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 151.8,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 4
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 151.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 14,
+   "nota_ultimo": 140.6,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 7
+  },
+  "2007f1": {
+   "candidatos_1opcao": 88,
+   "colocados": 30,
+   "nota_ultimo": 159.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 159.6,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 169.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 166.6,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 7
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

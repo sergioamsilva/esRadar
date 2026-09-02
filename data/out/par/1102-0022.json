@@ -1,0 +1,143 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0022",
+ "code": "1102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Arquitetura",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1102-0022",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 842,
+   "candidatos_1opcao": 489,
+   "colocados": 158,
+   "colocados_1opcao": 148,
+   "media_candidatura": 175.0,
+   "media_provas": 186.5,
+   "media_secundario": 164.0,
+   "nota_ultimo": 177.5,
+   "sobras": 0,
+   "vagas": 150
+  },
+  "1998f1": {
+   "candidatos": 771,
+   "candidatos_1opcao": 421,
+   "colocados": 120,
+   "colocados_1opcao": 115,
+   "media_candidatura": 182.0,
+   "media_provas": 192.9,
+   "media_secundario": 171.1,
+   "nota_ultimo": 179.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "1999f1": {
+   "candidatos": 627,
+   "candidatos_1opcao": 349,
+   "colocados": 123,
+   "colocados_1opcao": 120,
+   "media_candidatura": 181.7,
+   "media_provas": 195.6,
+   "media_secundario": 167.9,
+   "nota_ultimo": 179.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 122,
+   "nota_ultimo": 179.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2001f1": {
+   "colocados": 121,
+   "nota_ultimo": 182.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2002f1": {
+   "colocados": 121,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2003f1": {
+   "colocados": 114,
+   "nota_ultimo": 180.0,
+   "sobras": 0,
+   "vagas": 108
+  },
+  "2004f1": {
+   "colocados": 109,
+   "nota_ultimo": 178.5,
+   "sobras": 0,
+   "vagas": 108
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 184.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 108,
+   "nota_ultimo": 181.0,
+   "sobras": 0,
+   "vagas": 108
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 183.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 108,
+   "nota_ultimo": 181.0,
+   "sobras": 0,
+   "vagas": 108
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 186.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 396,
+   "colocados": 108,
+   "nota_ultimo": 182.0,
+   "sobras": 0,
+   "vagas": 108
+  },
+  "2007f2": {
+   "colocados": 1,
+   "nota_ultimo": 191.0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

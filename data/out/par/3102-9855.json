@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9855",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Energia e Ambiente",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-9855",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 9,
+   "colocados": 22,
+   "nota_ultimo": 107.9,
+   "sobras": 8,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 10,
+   "nota_ultimo": 129.6,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 126.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 114.4,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 3
+  },
+  "2009f1": {
+   "colocados": 30,
+   "nota_ultimo": 124.9,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 5,
+   "nota_ultimo": 126.3,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 30,
+   "nota_ultimo": 117.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 7,
+   "nota_ultimo": 109.3,
+   "sobras": 10,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

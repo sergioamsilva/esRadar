@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1045",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Animação Sociocultural",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-1045",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 41,
+   "nota_ultimo": 113.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 46,
+   "nota_ultimo": 120.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 27,
+   "nota_ultimo": 109.7,
+   "sobras": 18,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 23,
+   "nota_ultimo": 116.7,
+   "sobras": 0,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 31,
+   "nota_ultimo": 106.7,
+   "sobras": 19,
+   "vagas": 50
+  },
+  "2006f2": {
+   "colocados": 20,
+   "nota_ultimo": 108.0,
+   "sobras": 5,
+   "vagas": 24,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

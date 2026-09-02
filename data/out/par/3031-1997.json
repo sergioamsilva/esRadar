@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1997",
+ "code": "3031",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Fiscalidade (regime nocturno)",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3031-1997",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 180,
+   "candidatos_1opcao": 44,
+   "colocados": 35,
+   "colocados_1opcao": 18,
+   "media_candidatura": 131.5,
+   "media_provas": 128.3,
+   "media_secundario": 134.9,
+   "nota_ultimo": 123.2,
+   "sobras": 4,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 36,
+   "nota_ultimo": 121.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 36,
+   "nota_ultimo": 114.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 124.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 36,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 122.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 117.1,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

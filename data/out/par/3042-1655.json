@@ -1,0 +1,76 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1655",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Inglês",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1655",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 121,
+   "candidatos_1opcao": 22,
+   "colocados": 35,
+   "colocados_1opcao": 18,
+   "media_candidatura": 121.7,
+   "media_provas": 112.5,
+   "media_secundario": 130.9,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 110,
+   "candidatos_1opcao": 29,
+   "colocados": 50,
+   "colocados_1opcao": 29,
+   "media_candidatura": 124.1,
+   "media_provas": 112.8,
+   "media_secundario": 130.4,
+   "nota_ultimo": 105.5,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 102.1,
+   "sobras": 32,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 109.2,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 2,
+   "sobras": 28,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 1,
+   "sobras": 17,
+   "vagas": 18
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1261",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Instrumentação e Qualidade Industrial",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1261",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 77,
+   "candidatos_1opcao": 8,
+   "colocados": 18,
+   "colocados_1opcao": 8,
+   "media_candidatura": 96.1,
+   "media_provas": 67.5,
+   "media_secundario": 125.0,
+   "nota_ultimo": 85.8,
+   "sobras": 17,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 122,
+   "candidatos_1opcao": 9,
+   "colocados": 17,
+   "colocados_1opcao": 9,
+   "media_candidatura": 92.3,
+   "media_provas": 61.4,
+   "media_secundario": 124.1,
+   "nota_ultimo": 76.8,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 13,
+   "nota_ultimo": 79.5,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 10,
+   "nota_ultimo": 100.0,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 103.8,
+   "sobras": 10,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 105.3,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 108.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.0,
+   "sobras": 18,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

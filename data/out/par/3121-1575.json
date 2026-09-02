@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1575",
+ "code": "3121",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informação Turística",
+ "distrito": "Portalegre",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3121-1575",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 23,
+   "nota_ultimo": 106.4,
+   "sobras": 7,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 17,
+   "nota_ultimo": 102.8,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 107.4,
+   "sobras": 22,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 6,
+   "nota_ultimo": 111.6,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 114.8,
+   "sobras": 15,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

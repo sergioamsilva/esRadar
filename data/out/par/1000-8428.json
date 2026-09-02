@@ -1,0 +1,96 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8428",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Culturais (regime pós-laboral)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-8428",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 22,
+   "nota_ultimo": 95.0,
+   "sobras": 8,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 11,
+   "nota_ultimo": 128.6,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 2
+  },
+  "2011f1": {
+   "colocados": 19,
+   "nota_ultimo": 95.0,
+   "sobras": 14,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 23,
+   "nota_ultimo": 111.8,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 6,
+   "nota_ultimo": 100.0,
+   "sobras": 24,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 11,
+   "nota_ultimo": 100.0,
+   "sobras": 14,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 4,
+   "nota_ultimo": 110.4,
+   "sobras": 12,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 5,
+   "nota_ultimo": 113.4,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 9,
+   "nota_ultimo": 118.4,
+   "sobras": 17,
+   "vagas": 26,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 2,
+   "nota_ultimo": 110.2,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

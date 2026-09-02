@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1521",
+ "code": "3045",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão Sociocultural",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3045-1521",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 119.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 121.1,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 114.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 32,
+   "nota_ultimo": 101.3,
+   "sobras": 8,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 13,
+   "nota_ultimo": 104.8,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 14,
+   "nota_ultimo": 103.9,
+   "sobras": 18,
+   "vagas": 28,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 118.1,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 105.1,
+   "sobras": 27,
+   "vagas": 30,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

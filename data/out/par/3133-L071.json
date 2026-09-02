@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L071",
+ "code": "3133",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias e Sistemas de Informação para a Web",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3133-L071",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2014f1": {
+   "colocados": 5,
+   "nota_ultimo": 113.7,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2014f2": {
+   "colocados": 17,
+   "nota_ultimo": 105.8,
+   "sobras": 9,
+   "vagas": 25,
+   "vagas_recolocacao": 1
+  },
+  "2014f3": {
+   "colocados": 5,
+   "nota_ultimo": 116.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 27,
+   "nota_ultimo": 103.8,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2015f2": {
+   "colocados": 7,
+   "nota_ultimo": 130.7,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

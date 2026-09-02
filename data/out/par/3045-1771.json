@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1771",
+ "code": "3045",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias da Comunicação",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3045-1771",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 51,
+   "nota_ultimo": 116.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 29,
+   "nota_ultimo": 100.4,
+   "sobras": 31,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 25,
+   "nota_ultimo": 100.8,
+   "sobras": 20,
+   "vagas": 40,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 14,
+   "nota_ultimo": 107.4,
+   "sobras": 26,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 102.8,
+   "sobras": 26,
+   "vagas": 36,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

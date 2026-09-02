@@ -1,0 +1,214 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9081",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Economia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-9081",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 27,
+   "colocados": 30,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 142.8,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 33,
+   "nota_ultimo": 146.2,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2008f2": {
+   "colocados": 2,
+   "nota_ultimo": 151.4,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 33,
+   "nota_ultimo": 138.9,
+   "sobras": 0,
+   "vagas": 33
+  },
+  "2009f2": {
+   "colocados": 4,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 35,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 140.1,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 41,
+   "nota_ultimo": 122.1,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2011f2": {
+   "colocados": 6,
+   "nota_ultimo": 141.1,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 3
+  },
+  "2012f1": {
+   "colocados": 30,
+   "nota_ultimo": 111.0,
+   "sobras": 15,
+   "vagas": 45
+  },
+  "2012f2": {
+   "colocados": 10,
+   "nota_ultimo": 114.9,
+   "sobras": 11,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 3,
+   "nota_ultimo": 114.3,
+   "sobras": 9,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 28,
+   "nota_ultimo": 111.9,
+   "sobras": 17,
+   "vagas": 45
+  },
+  "2013f2": {
+   "colocados": 12,
+   "nota_ultimo": 112.6,
+   "sobras": 8,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  },
+  "2013f3": {
+   "colocados": 2,
+   "nota_ultimo": 120.9,
+   "sobras": 1,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 20,
+   "nota_ultimo": 110.4,
+   "sobras": 25,
+   "vagas": 45
+  },
+  "2014f2": {
+   "colocados": 23,
+   "nota_ultimo": 105.5,
+   "sobras": 4,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 40,
+   "nota_ultimo": 98.3,
+   "sobras": 5,
+   "vagas": 45
+  },
+  "2015f2": {
+   "colocados": 10,
+   "nota_ultimo": 114.3,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 25,
+   "nota_ultimo": 106.7,
+   "sobras": 20,
+   "vagas": 45
+  },
+  "2016f2": {
+   "colocados": 8,
+   "nota_ultimo": 104.9,
+   "sobras": 14,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 1,
+   "nota_ultimo": 114.8,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 20,
+   "nota_ultimo": 103.7,
+   "sobras": 25,
+   "vagas": 45
+  },
+  "2017f2": {
+   "colocados": 13,
+   "nota_ultimo": 103.3,
+   "sobras": 16,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  },
+  "2017f3": {
+   "colocados": 1,
+   "nota_ultimo": 156.2,
+   "sobras": 18,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

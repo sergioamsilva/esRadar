@@ -1,0 +1,48 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0487",
+ "code": "0203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática - Gestão",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0203-0487",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 104.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 17,
+   "nota_ultimo": 97.1,
+   "sobras": 13,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 23,
+   "nota_ultimo": 99.7,
+   "sobras": 12,
+   "vagas": 35
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

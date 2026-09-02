@@ -1,0 +1,111 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0276",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Florestal",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0276",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 146,
+   "candidatos_1opcao": 11,
+   "colocados": 60,
+   "colocados_1opcao": 11,
+   "media_candidatura": 120.6,
+   "media_provas": 106.4,
+   "media_secundario": 135.0,
+   "nota_ultimo": 91.8,
+   "sobras": 4,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 261,
+   "candidatos_1opcao": 17,
+   "colocados": 56,
+   "colocados_1opcao": 11,
+   "media_candidatura": 119.5,
+   "media_provas": 106.2,
+   "media_secundario": 132.1,
+   "nota_ultimo": 108.8,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "1999f1": {
+   "candidatos": 50,
+   "candidatos_1opcao": 3,
+   "colocados": 6,
+   "colocados_1opcao": 3,
+   "media_candidatura": 123.2,
+   "media_provas": 116.4,
+   "media_secundario": 130.0,
+   "nota_ultimo": 107.3,
+   "sobras": 52,
+   "vagas": 55
+  },
+  "2000f1": {
+   "colocados": 20,
+   "nota_ultimo": 103.0,
+   "sobras": 35,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 114.8,
+   "sobras": 51,
+   "vagas": 55
+  },
+  "2002f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 121.6,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

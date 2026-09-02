@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1328",
+ "code": "3021",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia dos Sistemas Agrícolas e Ambientais",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior Agrária",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3021-1328",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 13,
+   "nota_ultimo": 108.1,
+   "sobras": 47,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 13,
+   "nota_ultimo": 100.8,
+   "sobras": 32,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 2,
+   "nota_ultimo": 118.0,
+   "sobras": 35,
+   "vagas": 37
+  },
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 117.8,
+   "sobras": 22,
+   "vagas": 27
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

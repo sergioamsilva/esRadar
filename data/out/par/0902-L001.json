@@ -1,0 +1,49 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L001",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Portugueses (pós-laboral)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-L001",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2012f1": {
+   "colocados": 1,
+   "nota_ultimo": 142.5,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 1,
+   "nota_ultimo": 116.0,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

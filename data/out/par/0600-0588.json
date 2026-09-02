@@ -1,0 +1,43 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0588",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas Estrangeiras Aplicadas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0588",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 7,
+   "nota_ultimo": 124.5,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 1,
+   "nota_ultimo": 144.5,
+   "sobras": 14,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

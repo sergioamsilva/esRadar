@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1945",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica (regime misto)",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-1945",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 38,
+   "candidatos_1opcao": 6,
+   "colocados": 12,
+   "colocados_1opcao": 6,
+   "media_candidatura": 84.0,
+   "media_provas": 47.2,
+   "media_secundario": 120.8,
+   "nota_ultimo": 58.3,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 61,
+   "candidatos_1opcao": 13,
+   "colocados": 27,
+   "colocados_1opcao": 13,
+   "media_candidatura": 93.8,
+   "media_provas": 55.2,
+   "media_secundario": 118.9,
+   "nota_ultimo": 77.8,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 8,
+   "nota_ultimo": 88.6,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 81.4,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 87.0,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 112.6,
+   "sobras": 26,
+   "vagas": 27
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 113.3,
+   "sobras": 14,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

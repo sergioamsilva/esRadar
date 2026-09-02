@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0487",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática - Gestão",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0487",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 216,
+   "candidatos_1opcao": 15,
+   "colocados": 50,
+   "colocados_1opcao": 15,
+   "media_candidatura": 105.1,
+   "media_provas": 82.1,
+   "media_secundario": 128.0,
+   "nota_ultimo": 79.0,
+   "sobras": 10,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 173,
+   "candidatos_1opcao": 16,
+   "colocados": 31,
+   "colocados_1opcao": 16,
+   "media_candidatura": 105.9,
+   "media_provas": 85.2,
+   "media_secundario": 126.8,
+   "nota_ultimo": 80.5,
+   "sobras": 9,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 196,
+   "candidatos_1opcao": 23,
+   "colocados": 30,
+   "colocados_1opcao": 19,
+   "media_candidatura": 116.5,
+   "media_provas": 85.6,
+   "media_secundario": 133.3,
+   "nota_ultimo": 101.5,
+   "sobras": 5,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 104.6,
+   "sobras": 0,
+   "vagas": 30
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

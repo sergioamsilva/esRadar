@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1484",
+ "code": "3118",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3118-1484",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 641,
+   "candidatos_1opcao": 122,
+   "colocados": 120,
+   "colocados_1opcao": 27,
+   "media_candidatura": 137.6,
+   "media_provas": 125.8,
+   "media_secundario": 149.4,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "1999f1": {
+   "candidatos": 214,
+   "candidatos_1opcao": 25,
+   "colocados": 64,
+   "colocados_1opcao": 25,
+   "media_candidatura": 133.5,
+   "media_provas": 124.8,
+   "media_secundario": 143.0,
+   "nota_ultimo": 115.0,
+   "sobras": 64,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 120,
+   "nota_ultimo": 119.3,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2001f1": {
+   "colocados": 120,
+   "nota_ultimo": 105.3,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2002f1": {
+   "colocados": 116,
+   "nota_ultimo": 98.5,
+   "sobras": 4,
+   "vagas": 120
+  },
+  "2003f1": {
+   "colocados": 103,
+   "nota_ultimo": 95.6,
+   "sobras": 5,
+   "vagas": 108
+  },
+  "2004f1": {
+   "colocados": 66,
+   "nota_ultimo": 98.2,
+   "sobras": 42,
+   "vagas": 108
+  },
+  "2004f2": {
+   "colocados": 32,
+   "nota_ultimo": 99.8,
+   "sobras": 26,
+   "vagas": 50,
+   "vagas_recolocacao": 8
+  },
+  "2005f1": {
+   "colocados": 12,
+   "nota_ultimo": 114.0,
+   "sobras": 96,
+   "vagas": 108
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 112.2,
+   "sobras": 90,
+   "vagas": 99,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

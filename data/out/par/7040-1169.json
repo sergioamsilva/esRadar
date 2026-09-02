@@ -1,0 +1,119 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1169",
+ "code": "7040",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7040-1169",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 281,
+   "candidatos_1opcao": 78,
+   "colocados": 35,
+   "colocados_1opcao": 20,
+   "media_candidatura": 154.7,
+   "media_provas": 148.4,
+   "media_secundario": 158.9,
+   "nota_ultimo": 150.4,
+   "sobras": 3,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 38,
+   "nota_ultimo": 155.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 157.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 152.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 42,
+   "nota_ultimo": 152.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 144.4,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 143.4,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 45,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 154.2,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 41,
+   "nota_ultimo": 150.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 154.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 104,
+   "colocados": 40,
+   "nota_ultimo": 151.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 10,
+   "nota_ultimo": 145.8,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

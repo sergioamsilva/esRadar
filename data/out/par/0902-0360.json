@@ -1,0 +1,114 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0360",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Filosofia",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-0360",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 505,
+   "candidatos_1opcao": 48,
+   "colocados": 46,
+   "colocados_1opcao": 18,
+   "media_candidatura": 147.9,
+   "media_provas": 150.9,
+   "media_secundario": 149.1,
+   "nota_ultimo": 142.5,
+   "sobras": 5,
+   "vagas": 45
+  },
+  "1998f1": {
+   "candidatos": 446,
+   "candidatos_1opcao": 51,
+   "colocados": 51,
+   "colocados_1opcao": 24,
+   "media_candidatura": 145.8,
+   "media_provas": 151.0,
+   "media_secundario": 144.5,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 460,
+   "candidatos_1opcao": 46,
+   "colocados": 50,
+   "colocados_1opcao": 28,
+   "media_candidatura": 148.6,
+   "media_provas": 156.0,
+   "media_secundario": 142.8,
+   "nota_ultimo": 138.5,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 23,
+   "nota_ultimo": 109.5,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 14,
+   "nota_ultimo": 114.8,
+   "sobras": 24,
+   "vagas": 38
+  },
+  "2004f1": {
+   "colocados": 7,
+   "nota_ultimo": 112.5,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 34,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 5,
+   "nota_ultimo": 124.0,
+   "sobras": 30,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 31,
+   "vagas": 31,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

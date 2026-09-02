@@ -1,0 +1,111 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0705",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Química",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0705",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 44,
+   "candidatos_1opcao": 6,
+   "colocados": 11,
+   "colocados_1opcao": 6,
+   "media_candidatura": 122.0,
+   "media_provas": 105.0,
+   "media_secundario": 140.0,
+   "nota_ultimo": 135.3,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 30,
+   "candidatos_1opcao": 10,
+   "colocados": 13,
+   "colocados_1opcao": 10,
+   "media_candidatura": 128.1,
+   "media_provas": 115.3,
+   "media_secundario": 140.8,
+   "nota_ultimo": 125.0,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 45,
+   "candidatos_1opcao": 13,
+   "colocados": 18,
+   "colocados_1opcao": 13,
+   "media_candidatura": 121.2,
+   "media_provas": 101.8,
+   "media_secundario": 140.6,
+   "nota_ultimo": 108.8,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 21,
+   "nota_ultimo": 107.5,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 8,
+   "sobras": 32,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 4,
+   "sobras": 36,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 7,
+   "nota_ultimo": 120.3,
+   "sobras": 9,
+   "vagas": 16
+  },
+  "2004f1": {
+   "colocados": 3,
+   "nota_ultimo": 155.1,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 12,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "sobras": 8,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

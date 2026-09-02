@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1165",
+ "code": "3145",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Desporto, variante de Psicologia do Desporto e Exercício",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3145-1165",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 136.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 128.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 25,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 121.2,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 27,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 27
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 116.4,
+   "sobras": 6,
+   "vagas": 9,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 27,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 27
+  },
+  "2006f2": {
+   "colocados": 13,
+   "nota_ultimo": 121.2,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9761",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Genética e Biotecnologia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-9761",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 71,
+   "colocados": 50,
+   "nota_ultimo": 154.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2007f2": {
+   "colocados": 10,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 2
+  },
+  "2008f1": {
+   "colocados": 45,
+   "nota_ultimo": 163.7,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2008f2": {
+   "colocados": 8,
+   "nota_ultimo": 153.2,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 3
+  },
+  "2009f1": {
+   "colocados": 45,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2009f2": {
+   "colocados": 12,
+   "nota_ultimo": 155.6,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0156",
+ "code": "0204",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Economia",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Economia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0204-0156",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 32,
+   "nota_ultimo": 97.1,
+   "sobras": 33,
+   "vagas": 65
+  },
+  "2002f1": {
+   "colocados": 13,
+   "nota_ultimo": 98.3,
+   "sobras": 37,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 114.6,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 111.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 101.9,
+   "sobras": 2,
+   "vagas": 12,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 107.4,
+   "sobras": 30,
+   "vagas": 65
+  },
+  "2005f2": {
+   "colocados": 15,
+   "nota_ultimo": 109.9,
+   "sobras": 18,
+   "vagas": 32,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

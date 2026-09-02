@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 138,
+   "candidatos_1opcao": 16,
+   "colocados": 26,
+   "colocados_1opcao": 6,
+   "media_candidatura": 125.7,
+   "media_provas": 123.3,
+   "media_secundario": 128.1,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 203,
+   "candidatos_1opcao": 23,
+   "colocados": 31,
+   "colocados_1opcao": 13,
+   "media_candidatura": 127.5,
+   "media_provas": 125.2,
+   "media_secundario": 129.3,
+   "nota_ultimo": 127.0,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 128.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 123.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 31,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 102.5,
+   "sobras": 5,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 114.3,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 21,
+   "nota_ultimo": 114.8,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 21,
+   "nota_ultimo": 110.8,
+   "sobras": 0,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

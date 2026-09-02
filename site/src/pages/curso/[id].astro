@@ -172,10 +172,14 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
 const urlFicha = new URL(ligacaoCurso(ficha), Astro.site).href;
 
 const titulo = `${ficha.curso} — ${ficha.instituicao}`;
+const anosSerie = Object.keys(ficha.series).map((k) => Number(k.slice(0, 4)));
+const primeiroAno = anosSerie.length ? Math.min(...anosSerie) : 2026;
+const ultimoAno = anosSerie.length ? Math.max(...anosSerie) : 2026;
+const periodo = primeiroAno === ultimoAno ? `em ${primeiroAno}` : `de ${primeiroAno} a ${ultimoAno}`;
 const descricao =
   nota2026 != null
-    ? `Nota do último colocado em 2026: ${formatarNota(nota2026)} pontos. Vagas, colocados e procura de 2018 a 2026.`
-    : `Vagas, colocados e procura no Concurso Nacional de Acesso, 2018 a 2026.`;
+    ? `Nota do último colocado em 2026: ${formatarNota(nota2026)} pontos. Vagas, colocados e procura ${periodo}.`
+    : `Vagas, colocados e procura no Concurso Nacional de Acesso, ${periodo}.`;
 ---
 
 <Base
@@ -254,7 +258,9 @@ const descricao =
             <>
               <p class="palco__numero palco__numero--vazio">—</p>
               <p class="palco__variacao">
-                não preencheu as vagas na 1ª fase — entra-se com a nota mínima
+                {ficha.ativo
+                  ? "não preencheu as vagas na 1ª fase — entra-se com a nota mínima"
+                  : `sem oferta no concurso de 2026 — dados ${periodo}`}
               </p>
             </>
           )

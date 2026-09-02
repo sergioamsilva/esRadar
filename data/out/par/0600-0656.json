@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0656",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do 1.º ciclo do Ensino Básico",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0656",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 114,
+   "candidatos_1opcao": 23,
+   "colocados": 20,
+   "colocados_1opcao": 15,
+   "media_candidatura": 132.6,
+   "media_provas": 125.8,
+   "media_secundario": 139.5,
+   "nota_ultimo": 117.5,
+   "sobras": 1,
+   "vagas": 20
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

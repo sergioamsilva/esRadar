@@ -1,0 +1,48 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1860",
+ "code": "3152",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Ambiente (regime nocturno)",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3152-1860",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 88.0,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 5,
+   "nota_ultimo": 94.8,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 100.8,
+   "sobras": 6,
+   "vagas": 10
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

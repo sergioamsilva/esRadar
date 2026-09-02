@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0732",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Relações Internacionais",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0732",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 75,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 76,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2003f1": {
+   "colocados": 70,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2004f1": {
+   "colocados": 70,
+   "nota_ultimo": 131.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 140.2,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 71,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

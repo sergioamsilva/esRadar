@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1788",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tradução",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1788",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 163,
+   "candidatos_1opcao": 38,
+   "colocados": 60,
+   "colocados_1opcao": 28,
+   "media_candidatura": 123.4,
+   "media_provas": 112.0,
+   "media_secundario": 135.0,
+   "nota_ultimo": 109.3,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 186,
+   "candidatos_1opcao": 54,
+   "colocados": 60,
+   "colocados_1opcao": 35,
+   "media_candidatura": 130.8,
+   "media_provas": 122.7,
+   "media_secundario": 135.2,
+   "nota_ultimo": 121.2,
+   "sobras": 14,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 46,
+   "nota_ultimo": 105.6,
+   "sobras": 14,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 37,
+   "nota_ultimo": 103.7,
+   "sobras": 13,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 27,
+   "nota_ultimo": 102.1,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 15,
+   "nota_ultimo": 107.0,
+   "sobras": 20,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

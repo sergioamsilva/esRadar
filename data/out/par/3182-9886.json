@@ -1,0 +1,67 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9886",
+ "code": "3182",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica (regime pós-laboral)",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3182-9886",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 0,
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 6,
+   "nota_ultimo": 110.6,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 107.8,
+   "sobras": 5,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 1,
+   "nota_ultimo": 110.0,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

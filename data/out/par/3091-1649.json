@@ -1,0 +1,88 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1649",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Musical",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-1649",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 14,
+   "candidatos_1opcao": 4,
+   "colocados": 6,
+   "colocados_1opcao": 4,
+   "media_candidatura": 125.3,
+   "media_provas": 122.2,
+   "media_secundario": 128.3,
+   "nota_ultimo": 116.8,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 16,
+   "candidatos_1opcao": 2,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 102.9,
+   "media_provas": 90.8,
+   "media_secundario": 115.0,
+   "sobras": 26,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 6,
+   "nota_ultimo": 133.3,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 5,
+   "nota_ultimo": 142.8,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 121.6,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 1,
+   "sobras": 9,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 115.1,
+   "sobras": 8,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

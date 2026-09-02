@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9818",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciência e Tecnologia Animal",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-9818",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 17,
+   "colocados": 20,
+   "nota_ultimo": 145.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 157.7,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2008f1": {
+   "colocados": 25,
+   "nota_ultimo": 143.7,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 2,
+   "nota_ultimo": 149.6,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 26,
+   "nota_ultimo": 133.4,
+   "sobras": 0,
+   "vagas": 26
+  },
+  "2009f2": {
+   "colocados": 10,
+   "nota_ultimo": 127.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

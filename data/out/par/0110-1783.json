@@ -1,0 +1,65 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1783",
+ "code": "0110",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologia Agro-Alimentar",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Angra do Heroísmo",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0110-1783",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 11,
+   "nota_ultimo": 121.3,
+   "sobras": 9,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 117.6,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 138.3,
+   "sobras": 7,
+   "vagas": 10
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 111.0,
+   "sobras": 6,
+   "vagas": 10
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 7,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9350",
+ "code": "3141",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciência e Tecnologia dos Alimentos",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-9350",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 19,
+   "nota_ultimo": 106.8,
+   "sobras": 31,
+   "vagas": 50
+  },
+  "2006f2": {
+   "colocados": 37,
+   "nota_ultimo": 114.2,
+   "sobras": 0,
+   "vagas": 35,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 36,
+   "nota_ultimo": 108.5,
+   "sobras": 9,
+   "vagas": 45
+  },
+  "2007f2": {
+   "colocados": 20,
+   "nota_ultimo": 121.1,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 20,
+   "nota_ultimo": 110.9,
+   "sobras": 25,
+   "vagas": 45
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 108.7,
+   "sobras": 25,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

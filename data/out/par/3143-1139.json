@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1139",
+ "code": "3143",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Fiscalidade",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3143-1139",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 208,
+   "candidatos_1opcao": 17,
+   "colocados": 31,
+   "colocados_1opcao": 17,
+   "media_candidatura": 117.4,
+   "media_provas": 109.2,
+   "media_secundario": 126.8,
+   "nota_ultimo": 88.0,
+   "sobras": 33,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 60,
+   "nota_ultimo": 74.5,
+   "sobras": 20,
+   "vagas": 80
+  },
+  "2001f1": {
+   "colocados": 53,
+   "nota_ultimo": 96.9,
+   "sobras": 27,
+   "vagas": 80
+  },
+  "2002f1": {
+   "colocados": 36,
+   "nota_ultimo": 104.8,
+   "sobras": 24,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 55,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2004f1": {
+   "colocados": 43,
+   "nota_ultimo": 99.3,
+   "sobras": 17,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 12,
+   "nota_ultimo": 100.4,
+   "sobras": 9,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 21,
+   "nota_ultimo": 124.9,
+   "sobras": 39,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 106.7,
+   "sobras": 31,
+   "vagas": 43,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

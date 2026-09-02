@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1602",
+ "code": "3121",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Jornalismo e Comunicação",
+ "distrito": "Portalegre",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3121-1602",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 405,
+   "candidatos_1opcao": 57,
+   "colocados": 26,
+   "colocados_1opcao": 15,
+   "media_candidatura": 143.3,
+   "media_provas": 150.1,
+   "media_secundario": 136.5,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 322,
+   "candidatos_1opcao": 40,
+   "colocados": 30,
+   "colocados_1opcao": 10,
+   "media_candidatura": 140.6,
+   "media_provas": 140.0,
+   "media_secundario": 141.3,
+   "nota_ultimo": 142.0,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 131.4,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 15,
+   "nota_ultimo": 106.2,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 9
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 131.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 111.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 14,
+   "nota_ultimo": 110.0,
+   "sobras": 3,
+   "vagas": 15,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

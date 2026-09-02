@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9203",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas, Literaturas e Culturas, variante em Línguas Modernas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-9203",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 17,
+   "nota_ultimo": 109.3,
+   "sobras": 93,
+   "vagas": 110
+  },
+  "2006f2": {
+   "colocados": 9,
+   "nota_ultimo": 105.8,
+   "sobras": 86,
+   "vagas": 95,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 28,
+   "colocados": 31,
+   "nota_ultimo": 117.5,
+   "sobras": 49,
+   "vagas": 80
+  },
+  "2007f2": {
+   "colocados": 15,
+   "nota_ultimo": 111.3,
+   "sobras": 38,
+   "vagas": 52,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

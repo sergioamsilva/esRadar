@@ -1,0 +1,79 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1222",
+ "code": "3041",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agronómica",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3041-1222",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 114,
+   "candidatos_1opcao": 9,
+   "colocados": 42,
+   "colocados_1opcao": 9,
+   "media_candidatura": 112.0,
+   "media_provas": 95.5,
+   "media_secundario": 127.4,
+   "nota_ultimo": 84.0,
+   "sobras": 168,
+   "vagas": 210
+  },
+  "1999f1": {
+   "candidatos": 141,
+   "candidatos_1opcao": 12,
+   "colocados": 41,
+   "colocados_1opcao": 12,
+   "media_candidatura": 116.6,
+   "media_provas": 94.1,
+   "media_secundario": 128.5,
+   "nota_ultimo": 96.0,
+   "sobras": 139,
+   "vagas": 160
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 95.9,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 112.2,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 1,
+   "nota_ultimo": 136.8,
+   "sobras": 24,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 24,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

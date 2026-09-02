@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9013",
+ "code": "0202",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia Marinha",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências do Mar e do Ambiente",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0202-9013",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 11,
+   "nota_ultimo": 122.8,
+   "sobras": 24,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 9,
+   "nota_ultimo": 116.1,
+   "sobras": 18,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 31,
+   "colocados": 35,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2007f2": {
+   "colocados": 17,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 40,
+   "nota_ultimo": 136.1,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 124.2,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 3
+  },
+  "2009f1": {
+   "colocados": 40,
+   "nota_ultimo": 124.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2009f2": {
+   "colocados": 15,
+   "nota_ultimo": 117.2,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

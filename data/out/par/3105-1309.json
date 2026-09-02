@@ -1,0 +1,41 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1309",
+ "code": "3105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Naval e Industrial",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3105-1309",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 5,
+   "nota_ultimo": 103.2,
+   "sobras": 35,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 3,
+   "sobras": 22,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

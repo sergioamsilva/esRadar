@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1231",
+ "code": "3051",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Biológica e Alimentar",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3051-1231",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 60,
+   "nota_ultimo": 125.1,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 72,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 72
+  },
+  "2004f1": {
+   "colocados": 80,
+   "nota_ultimo": 103.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 106.1,
+   "sobras": 10,
+   "vagas": 14,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 115.8,
+   "sobras": 55,
+   "vagas": 80
+  },
+  "2005f2": {
+   "colocados": 30,
+   "nota_ultimo": 115.4,
+   "sobras": 31,
+   "vagas": 61,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 37,
+   "nota_ultimo": 109.7,
+   "sobras": 3,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 13,
+   "nota_ultimo": 130.4,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

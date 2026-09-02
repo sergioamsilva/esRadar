@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3181",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3181-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 225,
+   "candidatos_1opcao": 44,
+   "colocados": 31,
+   "colocados_1opcao": 16,
+   "media_candidatura": 131.2,
+   "media_provas": 123.3,
+   "media_secundario": 139.0,
+   "nota_ultimo": 131.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 45,
+   "candidatos_1opcao": 8,
+   "colocados": 15,
+   "colocados_1opcao": 8,
+   "media_candidatura": 128.3,
+   "media_provas": 123.2,
+   "media_secundario": 133.3,
+   "nota_ultimo": 113.0,
+   "sobras": 16,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 36,
+   "nota_ultimo": 125.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 109.7,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 21,
+   "nota_ultimo": 102.7,
+   "sobras": 9,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 6,
+   "nota_ultimo": 108.6,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 100.5,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.9,
+   "sobras": 16,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

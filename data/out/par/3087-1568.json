@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1568",
+ "code": "3087",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão Hoteleira",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3087-1568",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 117,
+   "candidatos_1opcao": 2,
+   "colocados": 8,
+   "colocados_1opcao": 2,
+   "media_candidatura": 106.9,
+   "media_provas": 91.4,
+   "media_secundario": 122.5,
+   "nota_ultimo": 84.5,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 12,
+   "nota_ultimo": 101.5,
+   "sobras": 13,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 23,
+   "nota_ultimo": 97.8,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 14,
+   "nota_ultimo": 102.3,
+   "sobras": 11,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 22,
+   "nota_ultimo": 115.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 25,
+   "nota_ultimo": 112.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 107.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 112.0,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 103.5,
+   "sobras": 12,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

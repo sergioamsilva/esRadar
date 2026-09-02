@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1067",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências Físicas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-1067",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 122.0,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 3,
+   "nota_ultimo": 107.0,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 13,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 8,
+   "nota_ultimo": 104.0,
+   "sobras": 7,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 119.0,
+   "sobras": 12,
+   "vagas": 12,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 104.0,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 2,
+   "nota_ultimo": 106.0,
+   "sobras": 19,
+   "vagas": 19,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

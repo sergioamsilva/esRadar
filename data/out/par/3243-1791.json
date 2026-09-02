@@ -1,0 +1,55 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1791",
+ "code": "3243",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias de Informação e Comunicação",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3243-1791",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 106.4,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 97.1,
+   "sobras": 22,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 4,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 108.4,
+   "sobras": 23,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

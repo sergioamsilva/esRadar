@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1655",
+ "code": "3121",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Inglês",
+ "distrito": "Portalegre",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3121-1655",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 108,
+   "candidatos_1opcao": 13,
+   "colocados": 25,
+   "colocados_1opcao": 12,
+   "media_candidatura": 119.2,
+   "media_provas": 108.9,
+   "media_secundario": 130.4,
+   "nota_ultimo": 116.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 8,
+   "colocados": 20,
+   "colocados_1opcao": 8,
+   "media_candidatura": 115.2,
+   "media_provas": 104.2,
+   "media_secundario": 122.5,
+   "nota_ultimo": 102.2,
+   "sobras": 12,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 7,
+   "nota_ultimo": 121.4,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9349",
+ "code": "0903",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciência de Engenharia de Materiais",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-9349",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 6,
+   "nota_ultimo": 113.6,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 107.0,
+   "sobras": 11,
+   "vagas": 18,
+   "vagas_recolocacao": 5
+  },
+  "2007f1": {
+   "candidatos_1opcao": 16,
+   "colocados": 25,
+   "nota_ultimo": 122.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 132.4,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

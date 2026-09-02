@@ -1,0 +1,119 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0022",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0022",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 550,
+   "candidatos_1opcao": 115,
+   "colocados": 32,
+   "colocados_1opcao": 6,
+   "media_candidatura": 174.9,
+   "media_provas": 191.4,
+   "media_secundario": 159.1,
+   "nota_ultimo": 174.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 36,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 43,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 37,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 38,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 175.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 171.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 2,
+   "nota_ultimo": 180.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 70,
+   "colocados": 35,
+   "nota_ultimo": 175.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2007f2": {
+   "colocados": 1,
+   "nota_ultimo": 186.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

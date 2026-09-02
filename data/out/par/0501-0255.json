@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0255",
+ "code": "0501",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica e de Computadores",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-0255",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 91,
+   "nota_ultimo": 106.0,
+   "sobras": 19,
+   "vagas": 110
+  },
+  "2002f1": {
+   "colocados": 98,
+   "nota_ultimo": 109.3,
+   "sobras": 12,
+   "vagas": 110
+  },
+  "2003f1": {
+   "colocados": 83,
+   "nota_ultimo": 103.3,
+   "sobras": 27,
+   "vagas": 110
+  },
+  "2004f1": {
+   "colocados": 110,
+   "nota_ultimo": 111.3,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 146.8,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 84,
+   "nota_ultimo": 107.8,
+   "sobras": 31,
+   "vagas": 115
+  },
+  "2005f2": {
+   "colocados": 34,
+   "nota_ultimo": 108.0,
+   "sobras": 7,
+   "vagas": 36,
+   "vagas_recolocacao": 5
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 106.0,
+   "sobras": 85,
+   "vagas": 115
+  },
+  "2006f2": {
+   "colocados": 19,
+   "nota_ultimo": 104.8,
+   "sobras": 79,
+   "vagas": 96,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

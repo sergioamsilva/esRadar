@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1108",
+ "code": "3113",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comunicação Empresarial",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3113-1108",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 614,
+   "candidatos_1opcao": 180,
+   "colocados": 105,
+   "colocados_1opcao": 55,
+   "media_candidatura": 145.8,
+   "media_provas": 145.8,
+   "media_secundario": 145.7,
+   "nota_ultimo": 140.3,
+   "sobras": 0,
+   "vagas": 105
+  },
+  "1999f1": {
+   "candidatos": 556,
+   "candidatos_1opcao": 155,
+   "colocados": 85,
+   "colocados_1opcao": 42,
+   "media_candidatura": 148.8,
+   "media_provas": 151.2,
+   "media_secundario": 146.5,
+   "nota_ultimo": 143.0,
+   "sobras": 4,
+   "vagas": 85
+  },
+  "2000f1": {
+   "colocados": 85,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 85
+  },
+  "2001f1": {
+   "colocados": 65,
+   "nota_ultimo": 150.8,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2002f1": {
+   "colocados": 65,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2003f1": {
+   "colocados": 59,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2004f1": {
+   "colocados": 59,
+   "nota_ultimo": 139.3,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 138.3,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 58,
+   "nota_ultimo": 140.5,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

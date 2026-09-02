@@ -1,0 +1,144 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0025",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura Paisagista",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0025",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 119,
+   "candidatos_1opcao": 18,
+   "colocados": 31,
+   "colocados_1opcao": 8,
+   "media_candidatura": 137.5,
+   "media_provas": 128.2,
+   "media_secundario": 146.8,
+   "nota_ultimo": 130.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 55,
+   "candidatos_1opcao": 7,
+   "colocados": 15,
+   "colocados_1opcao": 7,
+   "media_candidatura": 139.9,
+   "media_provas": 137.1,
+   "media_secundario": 142.7,
+   "nota_ultimo": 116.3,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 41,
+   "nota_ultimo": 117.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 24,
+   "nota_ultimo": 107.2,
+   "sobras": 16,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 18,
+   "nota_ultimo": 106.9,
+   "sobras": 22,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 19,
+   "nota_ultimo": 113.9,
+   "sobras": 11,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 135.4,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 20,
+   "nota_ultimo": 141.2,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 130.9,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 13,
+   "colocados": 25,
+   "nota_ultimo": 133.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 11,
+   "nota_ultimo": 127.1,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 25,
+   "nota_ultimo": 125.7,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 11,
+   "nota_ultimo": 122.3,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

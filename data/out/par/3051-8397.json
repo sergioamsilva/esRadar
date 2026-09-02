@@ -126,6 +126,122 @@
  },
  "provas_ingresso": "Um dos seguintes conjuntos:\n07 Física e Química\n16 Matemática\nou\n02 Biologia e Geologia\n16 Matemática",
  "series": {
+  "2011f1": {
+   "colocados": 12,
+   "nota_ultimo": 103.0,
+   "sobras": 20,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 135.1,
+   "sobras": 21,
+   "vagas": 22,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2014f2": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2015f2": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2016f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 1,
+   "nota_ultimo": 116.5,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2017f2": {
+   "colocados": 1,
+   "nota_ultimo": 115.4,
+   "sobras": 19,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
   "2018f1": {
    "candidatos": 2,
    "candidatos_1opcao": 0,
@@ -258,7 +374,8 @@
   "2022f3": {
    "colocados": 0,
    "sobras": 17,
-   "vagas": 17
+   "vagas": 17,
+   "vagas_recolocacao": 0
   },
   "2023f1": {
    "candidatos": 2,

@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0559",
+ "code": "0903",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-0559",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 589,
+   "candidatos_1opcao": 71,
+   "colocados": 110,
+   "colocados_1opcao": 35,
+   "media_candidatura": 133.3,
+   "media_provas": 121.1,
+   "media_secundario": 145.5,
+   "nota_ultimo": 122.5,
+   "sobras": 3,
+   "vagas": 110
+  },
+  "1998f1": {
+   "candidatos": 619,
+   "candidatos_1opcao": 67,
+   "colocados": 120,
+   "colocados_1opcao": 42,
+   "media_candidatura": 135.3,
+   "media_provas": 127.2,
+   "media_secundario": 143.7,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "1999f1": {
+   "candidatos": 415,
+   "candidatos_1opcao": 61,
+   "colocados": 81,
+   "colocados_1opcao": 61,
+   "media_candidatura": 132.0,
+   "media_provas": 124.9,
+   "media_secundario": 139.3,
+   "nota_ultimo": 109.0,
+   "sobras": 41,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 97,
+   "nota_ultimo": 103.0,
+   "sobras": 23,
+   "vagas": 120
+  },
+  "2001f1": {
+   "colocados": 28,
+   "nota_ultimo": 104.0,
+   "sobras": 102,
+   "vagas": 130
+  },
+  "2002f1": {
+   "colocados": 31,
+   "nota_ultimo": 104.4,
+   "sobras": 59,
+   "vagas": 90
+  },
+  "2003f1": {
+   "colocados": 23,
+   "nota_ultimo": 98.8,
+   "sobras": 35,
+   "vagas": 58
+  },
+  "2004f1": {
+   "colocados": 19,
+   "nota_ultimo": 105.2,
+   "sobras": 41,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 108.2,
+   "sobras": 31,
+   "vagas": 42,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 14,
+   "nota_ultimo": 107.4,
+   "sobras": 41,
+   "vagas": 55
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 112.4,
+   "sobras": 43,
+   "vagas": 43,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

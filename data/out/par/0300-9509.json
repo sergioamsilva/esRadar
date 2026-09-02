@@ -23,6 +23,42 @@
  "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
+  "2017f1": {
+   "candidatos": 584,
+   "candidatos_1opcao": 120,
+   "candidatos_homens": 299,
+   "candidatos_mulheres": 285,
+   "colocados": 70,
+   "colocados_1opcao": 19,
+   "colocados_homens": 29,
+   "colocados_mulheres": 41,
+   "media_candidatura": 169.3,
+   "media_provas": 161.0,
+   "nota_ultimo": 163.4,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2017f2": {
+   "candidatos": 69,
+   "candidatos_1opcao": 42,
+   "candidatos_homens": 27,
+   "candidatos_mulheres": 42,
+   "colocados": 6,
+   "colocados_1opcao": 5,
+   "colocados_homens": 1,
+   "colocados_mulheres": 5,
+   "media_candidatura": 171.3,
+   "media_provas": 161.8,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 3
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 380,
    "candidatos_1opcao": 60,

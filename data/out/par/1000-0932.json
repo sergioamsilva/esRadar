@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0932",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Relações Internacionais, ramo de Relações Económicas e Políticas",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0932",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 207,
+   "candidatos_1opcao": 32,
+   "colocados": 60,
+   "colocados_1opcao": 27,
+   "media_candidatura": 124.9,
+   "media_provas": 110.2,
+   "media_secundario": 139.5,
+   "nota_ultimo": 110.8,
+   "sobras": 4,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 182,
+   "candidatos_1opcao": 33,
+   "colocados": 60,
+   "colocados_1opcao": 32,
+   "media_candidatura": 117.9,
+   "media_provas": 104.0,
+   "media_secundario": 132.0,
+   "nota_ultimo": 105.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 137,
+   "candidatos_1opcao": 14,
+   "colocados": 31,
+   "colocados_1opcao": 14,
+   "media_candidatura": 116.2,
+   "media_provas": 99.5,
+   "media_secundario": 132.9,
+   "nota_ultimo": 99.3,
+   "sobras": 28,
+   "vagas": 55
+  },
+  "2000f1": {
+   "colocados": 24,
+   "nota_ultimo": 105.0,
+   "sobras": 16,
+   "vagas": 40
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1961",
+ "code": "3134",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Secretariado (regime nocturno)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3134-1961",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 15,
+   "candidatos_1opcao": 14,
+   "colocados": 14,
+   "colocados_1opcao": 14,
+   "media_candidatura": 122.9,
+   "media_provas": 108.9,
+   "media_secundario": 140.7,
+   "nota_ultimo": 102.5,
+   "sobras": 36,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 27,
+   "colocados": 27,
+   "colocados_1opcao": 27,
+   "media_candidatura": 123.3,
+   "media_provas": 112.2,
+   "media_secundario": 134.1,
+   "nota_ultimo": 96.0,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 26,
+   "nota_ultimo": 107.3,
+   "sobras": 14,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 10,
+   "nota_ultimo": 111.0,
+   "sobras": 30,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 109.5,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 19,
+   "nota_ultimo": 114.8,
+   "sobras": 11,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 9,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 109.2,
+   "sobras": 22,
+   "vagas": 26,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 6,
+   "nota_ultimo": 126.8,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 121.6,
+   "sobras": 17,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

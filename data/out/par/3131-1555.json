@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1555",
+ "code": "3131",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão do Património",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-1555",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 421,
+   "candidatos_1opcao": 65,
+   "colocados": 30,
+   "colocados_1opcao": 10,
+   "media_candidatura": 146.7,
+   "media_provas": 153.3,
+   "media_secundario": 139.3,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 332,
+   "candidatos_1opcao": 55,
+   "colocados": 30,
+   "colocados_1opcao": 12,
+   "media_candidatura": 142.3,
+   "media_provas": 146.6,
+   "media_secundario": 138.0,
+   "nota_ultimo": 139.5,
+   "sobras": 5,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 31,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 133.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 130.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 133.2,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 139.3,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,115 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9715",
+ "code": "3012",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comércio",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3012-9715",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 7,
+   "colocados": 24,
+   "nota_ultimo": 106.7,
+   "sobras": 11,
+   "vagas": 35
+  },
+  "2007f2": {
+   "colocados": 16,
+   "nota_ultimo": 118.3,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 16,
+   "nota_ultimo": 109.9,
+   "sobras": 19,
+   "vagas": 35
+  },
+  "2008f2": {
+   "colocados": 22,
+   "nota_ultimo": 119.2,
+   "sobras": 0,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 23,
+   "nota_ultimo": 100.0,
+   "sobras": 12,
+   "vagas": 35
+  },
+  "2009f2": {
+   "colocados": 17,
+   "nota_ultimo": 106.7,
+   "sobras": 5,
+   "vagas": 19,
+   "vagas_recolocacao": 3
+  },
+  "2010f1": {
+   "colocados": 12,
+   "nota_ultimo": 108.0,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 11,
+   "nota_ultimo": 113.4,
+   "sobras": 10,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 10,
+   "nota_ultimo": 115.0,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 5,
+   "nota_ultimo": 122.7,
+   "sobras": 20,
+   "vagas": 24,
+   "vagas_recolocacao": 1
+  },
+  "2012f1": {
+   "colocados": 27,
+   "nota_ultimo": 112.9,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 15,
+   "nota_ultimo": 119.7,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 3
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -23,6 +23,218 @@
  "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 117.8,
+   "sobras": 20,
+   "vagas": 60
+  },
+  "2006f2": {
+   "colocados": 23,
+   "nota_ultimo": 111.0,
+   "sobras": 8,
+   "vagas": 29,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 35,
+   "colocados": 65,
+   "nota_ultimo": 120.6,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2007f2": {
+   "colocados": 16,
+   "nota_ultimo": 138.4,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 75,
+   "nota_ultimo": 137.2,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2008f2": {
+   "colocados": 14,
+   "nota_ultimo": 122.2,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 6
+  },
+  "2009f1": {
+   "colocados": 75,
+   "nota_ultimo": 131.8,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2009f2": {
+   "colocados": 19,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 5
+  },
+  "2010f1": {
+   "colocados": 75,
+   "nota_ultimo": 131.4,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2010f2": {
+   "colocados": 22,
+   "nota_ultimo": 121.6,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 7
+  },
+  "2011f1": {
+   "colocados": 75,
+   "nota_ultimo": 140.2,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2011f2": {
+   "colocados": 13,
+   "nota_ultimo": 138.4,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 4
+  },
+  "2012f1": {
+   "colocados": 80,
+   "nota_ultimo": 131.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2012f2": {
+   "colocados": 18,
+   "nota_ultimo": 127.6,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 7
+  },
+  "2012f3": {
+   "colocados": 1,
+   "nota_ultimo": 125.0,
+   "sobras": 6,
+   "vagas": 3,
+   "vagas_recolocacao": 4
+  },
+  "2013f1": {
+   "colocados": 69,
+   "nota_ultimo": 119.6,
+   "sobras": 11,
+   "vagas": 80
+  },
+  "2013f2": {
+   "colocados": 18,
+   "nota_ultimo": 121.8,
+   "sobras": 2,
+   "vagas": 15,
+   "vagas_recolocacao": 5
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2014f1": {
+   "colocados": 54,
+   "nota_ultimo": 123.6,
+   "sobras": 26,
+   "vagas": 80
+  },
+  "2014f2": {
+   "colocados": 32,
+   "nota_ultimo": 122.2,
+   "sobras": 0,
+   "vagas": 27,
+   "vagas_recolocacao": 5
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas_recolocacao": 4
+  },
+  "2015f1": {
+   "colocados": 75,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2015f2": {
+   "colocados": 4,
+   "nota_ultimo": 139.2,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 75,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2016f2": {
+   "colocados": 10,
+   "nota_ultimo": 141.8,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 5
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "candidatos": 423,
+   "candidatos_1opcao": 41,
+   "candidatos_homens": 168,
+   "candidatos_mulheres": 255,
+   "colocados": 75,
+   "colocados_1opcao": 23,
+   "colocados_homens": 38,
+   "colocados_mulheres": 37,
+   "media_candidatura": 151.0,
+   "media_provas": 139.5,
+   "nota_ultimo": 141.4,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2017f2": {
+   "candidatos": 54,
+   "candidatos_1opcao": 10,
+   "candidatos_homens": 22,
+   "candidatos_mulheres": 32,
+   "colocados": 16,
+   "colocados_1opcao": 5,
+   "colocados_homens": 7,
+   "colocados_mulheres": 9,
+   "media_candidatura": 149.3,
+   "media_provas": 143.8,
+   "nota_ultimo": 140.2,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 11
+  },
+  "2017f3": {
+   "colocados": 4,
+   "nota_ultimo": 115.4,
+   "sobras": 1,
+   "vagas": 0,
+   "vagas_recolocacao": 5
+  },
   "2018f1": {
    "candidatos": 477,
    "candidatos_1opcao": 65,

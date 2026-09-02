@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9707",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências do Desporto",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-9707",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 26,
+   "colocados": 40,
+   "nota_ultimo": 124.9,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 7,
+   "nota_ultimo": 130.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 40,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 23,
+   "nota_ultimo": 137.9,
+   "sobras": 0,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 45,
+   "nota_ultimo": 140.7,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2009f2": {
+   "colocados": 9,
+   "nota_ultimo": 139.1,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

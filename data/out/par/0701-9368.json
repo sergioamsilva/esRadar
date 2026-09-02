@@ -1,0 +1,94 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9368",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Física",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-9368",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 20,
+   "nota_ultimo": 131.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 5,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 4
+  },
+  "2011f1": {
+   "colocados": 20,
+   "nota_ultimo": 136.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2011f2": {
+   "colocados": 4,
+   "nota_ultimo": 135.3,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 3
+  },
+  "2012f1": {
+   "colocados": 25,
+   "nota_ultimo": 138.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 3,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 2
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 29,
+   "nota_ultimo": 111.8,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 6,
+   "nota_ultimo": 116.8,
+   "sobras": 1,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

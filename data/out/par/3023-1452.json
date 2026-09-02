@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1452",
+ "code": "3023",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3023-1452",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 200,
+   "candidatos_1opcao": 27,
+   "colocados": 56,
+   "colocados_1opcao": 27,
+   "media_candidatura": 90.0,
+   "media_provas": 53.3,
+   "media_secundario": 126.4,
+   "nota_ultimo": 64.0,
+   "sobras": 14,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 104,
+   "candidatos_1opcao": 11,
+   "colocados": 16,
+   "colocados_1opcao": 11,
+   "media_candidatura": 109.4,
+   "media_provas": 90.1,
+   "media_secundario": 128.8,
+   "nota_ultimo": 94.0,
+   "sobras": 19,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 33,
+   "nota_ultimo": 87.5,
+   "sobras": 2,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 103.6,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 96.7,
+   "sobras": 10,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 25,
+   "nota_ultimo": 96.4,
+   "sobras": 15,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 15,
+   "nota_ultimo": 97.8,
+   "sobras": 25,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 96.8,
+   "sobras": 23,
+   "vagas": 27,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 1,
+   "sobras": 39,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 115.8,
+   "sobras": 38,
+   "vagas": 39,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

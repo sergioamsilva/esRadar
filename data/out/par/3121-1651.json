@@ -1,0 +1,71 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3121",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Portalegre",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3121-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 156,
+   "candidatos_1opcao": 16,
+   "colocados": 25,
+   "colocados_1opcao": 9,
+   "media_candidatura": 118.3,
+   "media_provas": 106.9,
+   "media_secundario": 129.6,
+   "nota_ultimo": 121.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 109,
+   "candidatos_1opcao": 4,
+   "colocados": 30,
+   "colocados_1opcao": 4,
+   "media_candidatura": 114.0,
+   "media_provas": 94.5,
+   "media_secundario": 127.0,
+   "nota_ultimo": 104.2,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 119.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 4,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 107.0,
+   "sobras": 21,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

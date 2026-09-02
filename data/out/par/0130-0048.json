@@ -1,0 +1,115 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0048",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0048",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 156,
+   "candidatos_1opcao": 22,
+   "colocados": 55,
+   "colocados_1opcao": 21,
+   "media_candidatura": 121.0,
+   "media_provas": 106.9,
+   "media_secundario": 134.9,
+   "nota_ultimo": 86.5,
+   "sobras": 4,
+   "vagas": 55
+  },
+  "1998f1": {
+   "candidatos": 192,
+   "candidatos_1opcao": 30,
+   "colocados": 55,
+   "colocados_1opcao": 23,
+   "media_candidatura": 131.4,
+   "media_provas": 122.4,
+   "media_secundario": 140.2,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "1999f1": {
+   "candidatos": 139,
+   "candidatos_1opcao": 23,
+   "colocados": 54,
+   "colocados_1opcao": 23,
+   "media_candidatura": 125.8,
+   "media_provas": 112.8,
+   "media_secundario": 138.7,
+   "nota_ultimo": 107.5,
+   "sobras": 9,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 60,
+   "nota_ultimo": 125.1,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 29,
+   "nota_ultimo": 116.6,
+   "sobras": 31,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 113.0,
+   "sobras": 40,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 117.8,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 3,
+   "nota_ultimo": 118.9,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 119.5,
+   "sobras": 12,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 10
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 113.0,
+   "sobras": 8,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9486",
+ "code": "1503",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Química + Química Tecnológica",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1503-9486",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2014f1": {
+   "colocados": 19,
+   "nota_ultimo": 109.0,
+   "sobras": 31,
+   "vagas": 50
+  },
+  "2014f2": {
+   "colocados": 19,
+   "nota_ultimo": 105.8,
+   "sobras": 14,
+   "vagas": 31,
+   "vagas_recolocacao": 2
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 14,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 25,
+   "nota_ultimo": 112.8,
+   "sobras": 25,
+   "vagas": 50
+  },
+  "2015f2": {
+   "colocados": 21,
+   "nota_ultimo": 105.0,
+   "sobras": 6,
+   "vagas": 26,
+   "vagas_recolocacao": 1
+  },
+  "2015f3": {
+   "colocados": 2,
+   "nota_ultimo": 103.5,
+   "sobras": 5,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

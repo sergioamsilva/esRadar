@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0248",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0248",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 101,
+   "candidatos_1opcao": 8,
+   "colocados": 13,
+   "colocados_1opcao": 8,
+   "media_candidatura": 117.7,
+   "media_provas": 90.1,
+   "media_secundario": 136.2,
+   "nota_ultimo": 96.6,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 21,
+   "nota_ultimo": 95.5,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 100.4,
+   "sobras": 20,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 110.0,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 107.4,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 7,
+   "nota_ultimo": 103.5,
+   "sobras": 11,
+   "vagas": 18
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 106.0,
+   "sobras": 9,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 133.2,
+   "sobras": 14,
+   "vagas": 18
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 124.3,
+   "sobras": 12,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 0,
+   "sobras": 25,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

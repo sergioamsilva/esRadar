@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8414",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Portugueses e Lusófonos (regime pós-laboral)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-8414",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 2,
+   "nota_ultimo": 105.0,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 5,
+   "nota_ultimo": 107.5,
+   "sobras": 13,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 4,
+   "nota_ultimo": 118.0,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 105.0,
+   "sobras": 22,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,152 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9109",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-9109",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 20,
+   "colocados": 28,
+   "nota_ultimo": 107.8,
+   "sobras": 12,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 12,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 40,
+   "nota_ultimo": 121.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 123.6,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 40,
+   "nota_ultimo": 123.1,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2009f2": {
+   "colocados": 4,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 29,
+   "nota_ultimo": 111.9,
+   "sobras": 21,
+   "vagas": 50
+  },
+  "2010f2": {
+   "colocados": 13,
+   "nota_ultimo": 110.4,
+   "sobras": 8,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 18,
+   "nota_ultimo": 116.5,
+   "sobras": 27,
+   "vagas": 45
+  },
+  "2011f2": {
+   "colocados": 8,
+   "nota_ultimo": 114.8,
+   "sobras": 23,
+   "vagas": 31,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 6,
+   "nota_ultimo": 147.8,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2012f2": {
+   "colocados": 8,
+   "nota_ultimo": 110.5,
+   "sobras": 22,
+   "vagas": 29,
+   "vagas_recolocacao": 1
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 8,
+   "nota_ultimo": 130.5,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2013f2": {
+   "colocados": 6,
+   "nota_ultimo": 117.3,
+   "sobras": 21,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 8,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 5,
+   "sobras": 30,
+   "vagas": 35
+  },
+  "2014f2": {
+   "colocados": 5,
+   "nota_ultimo": 116.3,
+   "sobras": 25,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

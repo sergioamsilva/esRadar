@@ -1,0 +1,119 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1169",
+ "code": "7052",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Escola Superior de Enfermagem de Francisco Gentil",
+ "infocursos": null,
+ "instituicao": "Escola Superior de Enfermagem de Francisco Gentil",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7052-1169",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 832,
+   "candidatos_1opcao": 177,
+   "colocados": 40,
+   "colocados_1opcao": 14,
+   "media_candidatura": 171.9,
+   "media_provas": 173.3,
+   "media_secundario": 171.0,
+   "nota_ultimo": 177.2,
+   "sobras": 2,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 61,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 61,
+   "nota_ultimo": 169.9,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 60,
+   "nota_ultimo": 169.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 62,
+   "nota_ultimo": 171.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 165.3,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 164.9,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 60,
+   "nota_ultimo": 171.9,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 60,
+   "nota_ultimo": 153.6,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 161.1,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 279,
+   "colocados": 60,
+   "nota_ultimo": 162.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 164.3,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

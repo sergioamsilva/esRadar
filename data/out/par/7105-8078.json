@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8078",
+ "code": "7105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Sistemas Electrónicos Marítimos (regime nocturno)",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Escola Superior Náutica Infante D. Henrique",
+ "infocursos": null,
+ "instituicao": "Escola Superior Náutica Infante D. Henrique",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7105-8078",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 1,
+   "nota_ultimo": 128.8,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 3,
+   "nota_ultimo": 107.6,
+   "sobras": 17,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 1,
+   "nota_ultimo": 135.3,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 2,
+   "nota_ultimo": 112.6,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 1,
+   "nota_ultimo": 126.9,
+   "sobras": 18,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,141 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L014",
+ "code": "3138",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologias da Madeira",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 0,
+    "inscritos": 5,
+    "mulheres": 3
+   },
+   "2020/21": {
+    "estrangeiros": 0,
+    "inscritos": 1,
+    "mulheres": 1
+   }
+  }
+ },
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3138-L014",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2013f1": {
+   "colocados": 7,
+   "nota_ultimo": 111.3,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2013f2": {
+   "colocados": 1,
+   "nota_ultimo": 118.1,
+   "sobras": 24,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 1,
+   "nota_ultimo": 113.5,
+   "sobras": 23,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 2,
+   "nota_ultimo": 128.4,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2014f2": {
+   "colocados": 2,
+   "nota_ultimo": 118.5,
+   "sobras": 18,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 11,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 6,
+   "nota_ultimo": 110.1,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2015f2": {
+   "colocados": 5,
+   "nota_ultimo": 109.4,
+   "sobras": 11,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 13,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 4,
+   "nota_ultimo": 122.8,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2016f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.3,
+   "sobras": 17,
+   "vagas": 18,
+   "vagas_recolocacao": 2
+  },
+  "2016f3": {
+   "colocados": 2,
+   "nota_ultimo": 115.8,
+   "sobras": 16,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "colocados": 3,
+   "nota_ultimo": 116.5,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2017f2": {
+   "colocados": 4,
+   "nota_ultimo": 109.3,
+   "sobras": 15,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2017f3": {
+   "colocados": 5,
+   "nota_ultimo": 112.6,
+   "sobras": 1,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

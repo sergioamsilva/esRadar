@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1897",
+ "code": "7055",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem (entrada no 2.º semestre)",
+ "distrito": "Portalegre",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7055-1897",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 131.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 149.8,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 39,
+   "nota_ultimo": 137.8,
+   "sobras": 0,
+   "vagas": 39
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

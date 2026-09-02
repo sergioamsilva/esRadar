@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1297",
+ "code": "3141",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia da Produção Animal",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-1297",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 37,
+   "nota_ultimo": 79.6,
+   "sobras": 8,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 3,
+   "nota_ultimo": 105.0,
+   "sobras": 42,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 106.0,
+   "sobras": 25,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 13,
+   "nota_ultimo": 103.4,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 10,
+   "nota_ultimo": 107.0,
+   "sobras": 25,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 106.5,
+   "sobras": 23,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 10,
+   "nota_ultimo": 106.4,
+   "sobras": 20,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 114.1,
+   "sobras": 21,
+   "vagas": 26,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

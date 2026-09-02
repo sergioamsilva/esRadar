@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0078",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências da Computação",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-0078",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 336,
+   "candidatos_1opcao": 68,
+   "colocados": 60,
+   "colocados_1opcao": 42,
+   "media_candidatura": 89.1,
+   "media_provas": 52.7,
+   "media_secundario": 125.0,
+   "nota_ultimo": 81.0,
+   "sobras": 9,
+   "vagas": 60
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

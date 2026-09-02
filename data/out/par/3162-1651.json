@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3162",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3162-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 149,
+   "candidatos_1opcao": 30,
+   "colocados": 25,
+   "colocados_1opcao": 10,
+   "media_candidatura": 134.1,
+   "media_provas": 127.4,
+   "media_secundario": 141.2,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 165,
+   "candidatos_1opcao": 32,
+   "colocados": 25,
+   "colocados_1opcao": 12,
+   "media_candidatura": 134.7,
+   "media_provas": 126.1,
+   "media_secundario": 142.4,
+   "nota_ultimo": 129.3,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 120.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 23,
+   "nota_ultimo": 101.8,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 108.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 104.3,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2004f1": {
+   "colocados": 8,
+   "nota_ultimo": 110.5,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.0,
+   "sobras": 13,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 1,
+   "nota_ultimo": 120.2,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 14,
+   "vagas": 14,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

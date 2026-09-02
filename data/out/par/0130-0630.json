@@ -1,0 +1,77 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0630",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Português e Francês (ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0630",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 53,
+   "candidatos_1opcao": 9,
+   "colocados": 21,
+   "colocados_1opcao": 9,
+   "media_candidatura": 122.6,
+   "media_provas": 110.5,
+   "media_secundario": 134.3,
+   "nota_ultimo": 99.3,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 42,
+   "candidatos_1opcao": 11,
+   "colocados": 16,
+   "colocados_1opcao": 11,
+   "media_candidatura": 133.1,
+   "media_provas": 128.5,
+   "media_secundario": 136.9,
+   "nota_ultimo": 114.5,
+   "sobras": 9,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 41,
+   "candidatos_1opcao": 11,
+   "colocados": 15,
+   "colocados_1opcao": 11,
+   "media_candidatura": 133.3,
+   "media_provas": 129.2,
+   "media_secundario": 137.3,
+   "nota_ultimo": 107.8,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 11,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 108.6,
+   "sobras": 21,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

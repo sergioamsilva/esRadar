@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0082",
+ "code": "0703",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências Farmacêuticas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Farmácia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0703-0082",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1801,
+   "candidatos_1opcao": 463,
+   "colocados": 150,
+   "colocados_1opcao": 52,
+   "media_candidatura": 176.0,
+   "media_provas": 176.4,
+   "media_secundario": 175.6,
+   "nota_ultimo": 174.3,
+   "sobras": 1,
+   "vagas": 150
+  },
+  "1998f1": {
+   "candidatos": 1280,
+   "candidatos_1opcao": 373,
+   "colocados": 153,
+   "colocados_1opcao": 42,
+   "media_candidatura": 176.9,
+   "media_provas": 177.3,
+   "media_secundario": 176.5,
+   "nota_ultimo": 175.3,
+   "sobras": 0,
+   "vagas": 150
+  },
+  "1999f1": {
+   "candidatos": 964,
+   "candidatos_1opcao": 311,
+   "colocados": 161,
+   "colocados_1opcao": 58,
+   "media_candidatura": 175.7,
+   "media_provas": 174.8,
+   "media_secundario": 176.5,
+   "nota_ultimo": 173.3,
+   "sobras": 2,
+   "vagas": 160
+  },
+  "2000f1": {
+   "colocados": 190,
+   "nota_ultimo": 166.0,
+   "sobras": 0,
+   "vagas": 190
+  },
+  "2001f1": {
+   "colocados": 191,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 190
+  },
+  "2002f1": {
+   "colocados": 190,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 190
+  },
+  "2003f1": {
+   "colocados": 206,
+   "nota_ultimo": 163.3,
+   "sobras": 0,
+   "vagas": 205
+  },
+  "2004f1": {
+   "colocados": 205,
+   "nota_ultimo": 160.5,
+   "sobras": 0,
+   "vagas": 205
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 209,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 209
+  },
+  "2005f2": {
+   "colocados": 17,
+   "nota_ultimo": 176.8,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

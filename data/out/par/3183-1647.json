@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3183",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu (Lamego)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3183-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 120,
+   "candidatos_1opcao": 12,
+   "colocados": 30,
+   "colocados_1opcao": 7,
+   "media_candidatura": 114.2,
+   "media_provas": 106.6,
+   "media_secundario": 121.7,
+   "nota_ultimo": 104.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 78,
+   "candidatos_1opcao": 4,
+   "colocados": 25,
+   "colocados_1opcao": 4,
+   "media_candidatura": 120.3,
+   "media_provas": 115.4,
+   "media_secundario": 125.2,
+   "nota_ultimo": 106.0,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 16,
+   "nota_ultimo": 103.0,
+   "sobras": 19,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 104.6,
+   "sobras": 27,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

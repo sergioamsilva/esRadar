@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1452",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1452",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 644,
+   "candidatos_1opcao": 162,
+   "colocados": 75,
+   "colocados_1opcao": 40,
+   "media_candidatura": 132.9,
+   "media_provas": 127.3,
+   "media_secundario": 138.9,
+   "nota_ultimo": 130.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 557,
+   "candidatos_1opcao": 182,
+   "colocados": 77,
+   "colocados_1opcao": 59,
+   "media_candidatura": 131.4,
+   "media_provas": 121.4,
+   "media_secundario": 141.4,
+   "nota_ultimo": 122.5,
+   "sobras": 3,
+   "vagas": 75
+  },
+  "2000f1": {
+   "colocados": 76,
+   "nota_ultimo": 138.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2001f1": {
+   "colocados": 85,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 85
+  },
+  "2002f1": {
+   "colocados": 120,
+   "nota_ultimo": 124.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2003f1": {
+   "colocados": 122,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2004f1": {
+   "colocados": 120,
+   "nota_ultimo": 122.4,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 135.3,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 142,
+   "nota_ultimo": 107.1,
+   "sobras": 23,
+   "vagas": 165
+  },
+  "2005f2": {
+   "colocados": 32,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 30,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

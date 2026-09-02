@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0313",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecatrónica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0313",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 11,
+   "nota_ultimo": 105.5,
+   "sobras": 11,
+   "vagas": 22
+  },
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 103.7,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 103.4,
+   "sobras": 18,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 125.2,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 117.1,
+   "sobras": 19,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 2,
+   "nota_ultimo": 134.5,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.1,
+   "sobras": 16,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1398",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1398",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 289,
+   "candidatos_1opcao": 36,
+   "colocados": 75,
+   "colocados_1opcao": 36,
+   "media_candidatura": 86.7,
+   "media_provas": 47.4,
+   "media_secundario": 125.9,
+   "nota_ultimo": 59.5,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 218,
+   "candidatos_1opcao": 42,
+   "colocados": 50,
+   "colocados_1opcao": 42,
+   "media_candidatura": 106.4,
+   "media_provas": 73.0,
+   "media_secundario": 125.0,
+   "nota_ultimo": 85.5,
+   "sobras": 30,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 63,
+   "nota_ultimo": 97.8,
+   "sobras": 7,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 51,
+   "nota_ultimo": 97.6,
+   "sobras": 9,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 56,
+   "nota_ultimo": 101.1,
+   "sobras": 4,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 42,
+   "nota_ultimo": 102.3,
+   "sobras": 23,
+   "vagas": 65
+  },
+  "2004f1": {
+   "colocados": 37,
+   "nota_ultimo": 101.0,
+   "sobras": 13,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 106.4,
+   "sobras": 10,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 24,
+   "nota_ultimo": 103.6,
+   "sobras": 6,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 12,
+   "nota_ultimo": 113.9,
+   "sobras": 3,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 18,
+   "nota_ultimo": 110.9,
+   "sobras": 27,
+   "vagas": 45
+  },
+  "2006f2": {
+   "colocados": 18,
+   "nota_ultimo": 109.3,
+   "sobras": 10,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

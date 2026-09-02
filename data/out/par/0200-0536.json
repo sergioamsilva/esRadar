@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0536",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Franceses",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0536",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 72,
+   "candidatos_1opcao": 10,
+   "colocados": 23,
+   "colocados_1opcao": 10,
+   "media_candidatura": 124.7,
+   "media_provas": 122.4,
+   "media_secundario": 127.0,
+   "nota_ultimo": 111.3,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 107,
+   "candidatos_1opcao": 11,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 124.6,
+   "media_provas": 118.2,
+   "media_secundario": 128.0,
+   "nota_ultimo": 113.5,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 13,
+   "nota_ultimo": 111.6,
+   "sobras": 12,
+   "vagas": 25
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

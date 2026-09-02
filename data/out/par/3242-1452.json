@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1452",
+ "code": "3242",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3242-1452",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 133,
+   "candidatos_1opcao": 17,
+   "colocados": 25,
+   "colocados_1opcao": 15,
+   "media_candidatura": 104.1,
+   "media_provas": 55.1,
+   "media_secundario": 130.4,
+   "nota_ultimo": 94.5,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 95.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 11,
+   "nota_ultimo": 97.2,
+   "sobras": 29,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 11,
+   "nota_ultimo": 103.2,
+   "sobras": 39,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 88.7,
+   "sobras": 15,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 87.8,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 100.8,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 19,
+   "nota_ultimo": 113.9,
+   "sobras": 26,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 112.6,
+   "sobras": 37,
+   "vagas": 43,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

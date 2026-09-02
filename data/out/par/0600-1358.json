@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1358",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estudos Portugueses e Espanhóis",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-1358",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 109.5,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.0,
+   "sobras": 6,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 113.5,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 113.5,
+   "sobras": 9,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 3,
+   "nota_ultimo": 124.0,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 2,
+   "nota_ultimo": 105.5,
+   "sobras": 16,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

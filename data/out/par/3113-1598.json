@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1598",
+ "code": "3113",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Jornalismo",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3113-1598",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 564,
+   "candidatos_1opcao": 132,
+   "colocados": 55,
+   "colocados_1opcao": 26,
+   "media_candidatura": 155.0,
+   "media_provas": 160.1,
+   "media_secundario": 150.0,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "1999f1": {
+   "candidatos": 386,
+   "candidatos_1opcao": 78,
+   "colocados": 70,
+   "colocados_1opcao": 30,
+   "media_candidatura": 151.3,
+   "media_provas": 150.2,
+   "media_secundario": 152.6,
+   "nota_ultimo": 146.0,
+   "sobras": 4,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 70,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 55,
+   "nota_ultimo": 156.8,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2002f1": {
+   "colocados": 55,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 152.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 50,
+   "nota_ultimo": 150.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 145.3,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 159.3,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

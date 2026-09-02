@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1654",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, var. de Português, História e Ciênc. Sociais",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1654",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 15,
+   "nota_ultimo": 112.6,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 118.7,
+   "sobras": 11,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 7,
+   "nota_ultimo": 116.2,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 111.4,
+   "sobras": 17,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

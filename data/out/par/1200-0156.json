@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0156",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Economia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0156",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 189,
+   "candidatos_1opcao": 35,
+   "colocados": 50,
+   "colocados_1opcao": 21,
+   "media_candidatura": 135.5,
+   "media_provas": 122.2,
+   "media_secundario": 148.6,
+   "nota_ultimo": 124.8,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 304,
+   "candidatos_1opcao": 49,
+   "colocados": 40,
+   "colocados_1opcao": 22,
+   "media_candidatura": 133.1,
+   "media_provas": 118.8,
+   "media_secundario": 147.2,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 87,
+   "candidatos_1opcao": 7,
+   "colocados": 9,
+   "colocados_1opcao": 7,
+   "media_candidatura": 139.8,
+   "media_provas": 129.5,
+   "media_secundario": 150.0,
+   "nota_ultimo": 123.5,
+   "sobras": 37,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 45,
+   "nota_ultimo": 120.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 29,
+   "nota_ultimo": 104.6,
+   "sobras": 16,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 32,
+   "nota_ultimo": 111.2,
+   "sobras": 13,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 15,
+   "nota_ultimo": 117.0,
+   "sobras": 25,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 122.4,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 120.7,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 50,
+   "nota_ultimo": 112.4,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 18,
+   "nota_ultimo": 113.9,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 5
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 105.9,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 114.6,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

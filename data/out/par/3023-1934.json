@@ -1,0 +1,100 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1934",
+ "code": "3023",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática (regime nocturno)",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3023-1934",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 64,
+   "candidatos_1opcao": 27,
+   "colocados": 28,
+   "colocados_1opcao": 27,
+   "media_candidatura": 84.0,
+   "media_provas": 42.1,
+   "media_secundario": 128.6,
+   "nota_ultimo": 69.0,
+   "sobras": 29,
+   "vagas": 57
+  },
+  "1999f1": {
+   "candidatos": 19,
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "colocados_1opcao": 3,
+   "media_candidatura": 106.5,
+   "media_provas": 83.0,
+   "media_secundario": 130.0,
+   "sobras": 47,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 8,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 13,
+   "nota_ultimo": 77.5,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 13,
+   "nota_ultimo": 85.2,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 6,
+   "nota_ultimo": 104.3,
+   "sobras": 10,
+   "vagas": 16
+  },
+  "2004f1": {
+   "colocados": 10,
+   "nota_ultimo": 101.5,
+   "sobras": 6,
+   "vagas": 16
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 98.5,
+   "sobras": 5,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 1,
+   "sobras": 15,
+   "vagas": 16
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

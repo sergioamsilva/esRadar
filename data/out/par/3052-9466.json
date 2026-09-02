@@ -1,0 +1,106 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9466",
+ "code": "3052",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Animação Cultural",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3052-9466",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 9,
+   "nota_ultimo": 105.1,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 18,
+   "nota_ultimo": 107.4,
+   "sobras": 3,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 12,
+   "colocados": 23,
+   "nota_ultimo": 113.2,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 6,
+   "nota_ultimo": 123.2,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 3,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 110.0,
+   "sobras": 10,
+   "vagas": 22,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 13,
+   "nota_ultimo": 108.3,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 9,
+   "nota_ultimo": 102.2,
+   "sobras": 6,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 9,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 15,
+   "nota_ultimo": 96.0,
+   "sobras": 5,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 3,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 100.0,
+   "sobras": 21,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

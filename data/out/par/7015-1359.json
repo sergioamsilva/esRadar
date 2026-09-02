@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1359",
+ "code": "7015",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Farmácia",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7015-1359",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 125.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 129.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 119.4,
+   "sobras": 6,
+   "vagas": 11,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 14,
+   "nota_ultimo": 143.2,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 35,
+   "nota_ultimo": 149.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 13,
+   "nota_ultimo": 146.6,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 5
+  },
+  "2007f1": {
+   "candidatos_1opcao": 24,
+   "colocados": 40,
+   "nota_ultimo": 143.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 17,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 5
+  },
+  "2008f1": {
+   "colocados": 40,
+   "nota_ultimo": 145.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2008f2": {
+   "colocados": 8,
+   "nota_ultimo": 145.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

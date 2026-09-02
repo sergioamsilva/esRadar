@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1962",
+ "code": "3023",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas (regime nocturno)",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3023-1962",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 28,
+   "colocados": 31,
+   "colocados_1opcao": 28,
+   "media_candidatura": 100.9,
+   "media_provas": 69.0,
+   "media_secundario": 134.5,
+   "nota_ultimo": 71.5,
+   "sobras": 35,
+   "vagas": 66
+  },
+  "1999f1": {
+   "candidatos": 69,
+   "candidatos_1opcao": 23,
+   "colocados": 24,
+   "colocados_1opcao": 23,
+   "media_candidatura": 113.1,
+   "media_provas": 99.0,
+   "media_secundario": 127.9,
+   "nota_ultimo": 94.5,
+   "sobras": 29,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 29,
+   "nota_ultimo": 89.5,
+   "sobras": 11,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 81.5,
+   "sobras": 15,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 6,
+   "sobras": 29,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 17,
+   "nota_ultimo": 110.1,
+   "sobras": 0,
+   "vagas": 17
+  },
+  "2004f1": {
+   "colocados": 22,
+   "nota_ultimo": 113.9,
+   "sobras": 0,
+   "vagas": 22
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 107.2,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 9,
+   "sobras": 13,
+   "vagas": 22
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 111.3,
+   "sobras": 10,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

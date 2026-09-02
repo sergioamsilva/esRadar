@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0672",
+ "code": "0912",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Conservação e Restauro",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Curso de Conservação e Restauro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0912-0672",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 40,
+   "candidatos_1opcao": 24,
+   "colocados": 15,
+   "colocados_1opcao": 12,
+   "media_candidatura": 149.2,
+   "media_provas": 153.4,
+   "media_secundario": 145.3,
+   "nota_ultimo": 137.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "1999f1": {
+   "candidatos": 40,
+   "candidatos_1opcao": 26,
+   "colocados": 15,
+   "colocados_1opcao": 15,
+   "media_candidatura": 155.2,
+   "media_provas": 152.2,
+   "media_secundario": 160.0,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 150.2,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2002f1": {
+   "colocados": 15,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0248",
+ "code": "0903",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0903-0248",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 670,
+   "candidatos_1opcao": 69,
+   "colocados": 76,
+   "colocados_1opcao": 25,
+   "media_candidatura": 125.6,
+   "media_provas": 111.9,
+   "media_secundario": 139.7,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "1998f1": {
+   "candidatos": 713,
+   "candidatos_1opcao": 78,
+   "colocados": 100,
+   "colocados_1opcao": 31,
+   "media_candidatura": 137.6,
+   "media_provas": 133.2,
+   "media_secundario": 142.0,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "1999f1": {
+   "candidatos": 370,
+   "candidatos_1opcao": 38,
+   "colocados": 45,
+   "colocados_1opcao": 38,
+   "media_candidatura": 126.5,
+   "media_provas": 116.2,
+   "media_secundario": 137.8,
+   "nota_ultimo": 104.5,
+   "sobras": 61,
+   "vagas": 105
+  },
+  "2000f1": {
+   "colocados": 46,
+   "nota_ultimo": 105.8,
+   "sobras": 59,
+   "vagas": 105
+  },
+  "2001f1": {
+   "colocados": 58,
+   "nota_ultimo": 105.3,
+   "sobras": 47,
+   "vagas": 105
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

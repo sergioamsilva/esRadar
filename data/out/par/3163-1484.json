@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1484",
+ "code": "3163",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viana do Castelo",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3163-1484",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 9,
+   "nota_ultimo": 104.3,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 15,
+   "nota_ultimo": 109.0,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 12,
+   "nota_ultimo": 105.8,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 104.2,
+   "sobras": 12,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 118.5,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 112.9,
+   "sobras": 27,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 0,
+   "sobras": 30,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.0,
+   "sobras": 28,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0707",
+ "code": "3181",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ensino Básico - 1.º Ciclo",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3181-0707",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 802,
+   "candidatos_1opcao": 193,
+   "colocados": 30,
+   "colocados_1opcao": 22,
+   "media_candidatura": 142.6,
+   "media_provas": 141.8,
+   "media_secundario": 143.3,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 368,
+   "candidatos_1opcao": 67,
+   "colocados": 35,
+   "colocados_1opcao": 18,
+   "media_candidatura": 146.2,
+   "media_provas": 144.7,
+   "media_secundario": 147.7,
+   "nota_ultimo": 139.3,
+   "sobras": 4,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 70,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2001f1": {
+   "colocados": 75,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2002f1": {
+   "colocados": 75,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 75
+  },
+  "2003f1": {
+   "colocados": 65,
+   "nota_ultimo": 116.5,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2004f1": {
+   "colocados": 51,
+   "nota_ultimo": 116.5,
+   "sobras": 0,
+   "vagas": 51
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 115.2,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 42,
+   "nota_ultimo": 110.2,
+   "sobras": 3,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 8,
+   "nota_ultimo": 108.2,
+   "sobras": 35,
+   "vagas": 43
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 105.4,
+   "sobras": 28,
+   "vagas": 38,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

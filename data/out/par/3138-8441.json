@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8441",
+ "code": "3138",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Segurança Informática em Redes de Computadores (regime pós-laboral)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3138-8441",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 0,
+   "sobras": 36,
+   "vagas": 36
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 115.2,
+   "sobras": 33,
+   "vagas": 36,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2011f2": {
+   "colocados": 3,
+   "nota_ultimo": 110.0,
+   "sobras": 21,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 3,
+   "nota_ultimo": 113.9,
+   "sobras": 16,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

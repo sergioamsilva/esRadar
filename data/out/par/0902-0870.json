@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0870",
+ "code": "0902",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciência Política e Relações Internacionais",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Nova de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0902-0870",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1387,
+   "candidatos_1opcao": 231,
+   "colocados": 53,
+   "colocados_1opcao": 47,
+   "media_candidatura": 161.2,
+   "media_provas": 164.6,
+   "media_secundario": 159.6,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 1013,
+   "candidatos_1opcao": 169,
+   "colocados": 50,
+   "colocados_1opcao": 47,
+   "media_candidatura": 166.3,
+   "media_provas": 171.3,
+   "media_secundario": 161.4,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 1050,
+   "candidatos_1opcao": 181,
+   "colocados": 51,
+   "colocados_1opcao": 42,
+   "media_candidatura": 168.6,
+   "media_provas": 174.5,
+   "media_secundario": 162.8,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 51,
+   "nota_ultimo": 165.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 169.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 51,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 62,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2004f1": {
+   "colocados": 55,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 143.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 56,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 158.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

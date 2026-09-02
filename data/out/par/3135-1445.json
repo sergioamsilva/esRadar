@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1445",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Geotécnica",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1445",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 60,
+   "candidatos_1opcao": 2,
+   "colocados": 16,
+   "colocados_1opcao": 2,
+   "media_candidatura": 103.4,
+   "media_provas": 80.1,
+   "media_secundario": 126.2,
+   "nota_ultimo": 86.3,
+   "sobras": 24,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 104,
+   "candidatos_1opcao": 7,
+   "colocados": 18,
+   "colocados_1opcao": 7,
+   "media_candidatura": 97.5,
+   "media_provas": 65.7,
+   "media_secundario": 128.9,
+   "nota_ultimo": 65.5,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 26,
+   "nota_ultimo": 80.8,
+   "sobras": 14,
+   "vagas": 40
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9087",
+ "code": "3141",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Alimentar",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3141-9087",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 17,
+   "nota_ultimo": 109.0,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 120.7,
+   "sobras": 18,
+   "vagas": 23,
+   "vagas_recolocacao": 2
+  },
+  "2010f1": {
+   "colocados": 19,
+   "nota_ultimo": 110.0,
+   "sobras": 21,
+   "vagas": 40
+  },
+  "2010f2": {
+   "colocados": 11,
+   "nota_ultimo": 104.1,
+   "sobras": 16,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 14,
+   "nota_ultimo": 95.0,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2011f2": {
+   "colocados": 8,
+   "nota_ultimo": 114.9,
+   "sobras": 22,
+   "vagas": 30,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 40,
+   "vagas": 40
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 118.2,
+   "sobras": 39,
+   "vagas": 40,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 39,
+   "vagas": 39,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

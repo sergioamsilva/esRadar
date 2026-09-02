@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0959",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Geologia+Geol. Aplicada e do Ambiente+Biologia e Geol. (Ensino), var. Geol.",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-0959",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 632,
+   "candidatos_1opcao": 120,
+   "colocados": 100,
+   "colocados_1opcao": 40,
+   "media_candidatura": 138.8,
+   "media_provas": 136.3,
+   "media_secundario": 141.6,
+   "nota_ultimo": 124.5,
+   "sobras": 1,
+   "vagas": 100
+  },
+  "1998f1": {
+   "candidatos": 523,
+   "candidatos_1opcao": 121,
+   "colocados": 100,
+   "colocados_1opcao": 41,
+   "media_candidatura": 146.3,
+   "media_provas": 147.2,
+   "media_secundario": 145.5,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "1999f1": {
+   "candidatos": 368,
+   "candidatos_1opcao": 113,
+   "colocados": 100,
+   "colocados_1opcao": 68,
+   "media_candidatura": 144.3,
+   "media_provas": 147.8,
+   "media_secundario": 140.7,
+   "nota_ultimo": 132.5,
+   "sobras": 7,
+   "vagas": 100
+  },
+  "2000f1": {
+   "colocados": 101,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2001f1": {
+   "colocados": 101,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2002f1": {
+   "colocados": 100,
+   "nota_ultimo": 122.5,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2003f1": {
+   "colocados": 100,
+   "nota_ultimo": 108.0,
+   "sobras": 0,
+   "vagas": 100
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

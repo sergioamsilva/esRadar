@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3081",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Educação e Comunicação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3081-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 57,
+   "candidatos_1opcao": 11,
+   "colocados": 24,
+   "colocados_1opcao": 11,
+   "media_candidatura": 112.5,
+   "media_provas": 93.2,
+   "media_secundario": 132.1,
+   "nota_ultimo": 86.3,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 48,
+   "candidatos_1opcao": 5,
+   "colocados": 15,
+   "colocados_1opcao": 5,
+   "media_candidatura": 116.8,
+   "media_provas": 99.3,
+   "media_secundario": 126.7,
+   "nota_ultimo": 104.8,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 7,
+   "nota_ultimo": 109.3,
+   "sobras": 23,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

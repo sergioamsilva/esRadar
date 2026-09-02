@@ -1,0 +1,67 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1263",
+ "code": "3243",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia e Gestão Industrial",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3243-1263",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 23,
+   "nota_ultimo": 71.4,
+   "sobras": 22,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 9,
+   "nota_ultimo": 94.3,
+   "sobras": 31,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 6,
+   "nota_ultimo": 109.5,
+   "sobras": 34,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 95.9,
+   "sobras": 30,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 4,
+   "nota_ultimo": 110.4,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 109.7,
+   "sobras": 14,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

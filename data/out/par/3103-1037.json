@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1037",
+ "code": "3103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Animação Cultural",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Artes e Design",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3103-1037",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 31,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 124.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 124.4,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 117.4,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 107.8,
+   "sobras": 5,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 9,
+   "nota_ultimo": 125.1,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

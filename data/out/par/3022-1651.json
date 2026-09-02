@@ -1,0 +1,71 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 151,
+   "candidatos_1opcao": 16,
+   "colocados": 31,
+   "colocados_1opcao": 12,
+   "media_candidatura": 114.0,
+   "media_provas": 97.3,
+   "media_secundario": 131.6,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 189,
+   "candidatos_1opcao": 36,
+   "colocados": 25,
+   "colocados_1opcao": 10,
+   "media_candidatura": 118.0,
+   "media_provas": 95.8,
+   "media_secundario": 132.8,
+   "nota_ultimo": 122.0,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 109.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 9,
+   "nota_ultimo": 104.0,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 2,
+   "sobras": 23,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

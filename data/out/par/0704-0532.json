@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0532",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Alemães",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-0532",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 132,
+   "candidatos_1opcao": 19,
+   "colocados": 35,
+   "colocados_1opcao": 14,
+   "media_candidatura": 129.5,
+   "media_provas": 120.9,
+   "media_secundario": 138.9,
+   "nota_ultimo": 111.3,
+   "sobras": 2,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 231,
+   "candidatos_1opcao": 28,
+   "colocados": 50,
+   "colocados_1opcao": 21,
+   "media_candidatura": 134.1,
+   "media_provas": 128.9,
+   "media_secundario": 139.4,
+   "nota_ultimo": 119.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 241,
+   "candidatos_1opcao": 38,
+   "colocados": 50,
+   "colocados_1opcao": 24,
+   "media_candidatura": 135.6,
+   "media_provas": 132.2,
+   "media_secundario": 139.4,
+   "nota_ultimo": 124.0,
+   "sobras": 6,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 20,
+   "nota_ultimo": 116.8,
+   "sobras": 35,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 7,
+   "nota_ultimo": 122.5,
+   "sobras": 48,
+   "vagas": 55
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 122.5,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 113.8,
+   "sobras": 17,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 1,
+   "nota_ultimo": 132.3,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 139.5,
+   "sobras": 18,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

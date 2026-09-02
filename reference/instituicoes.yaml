@@ -1,5 +1,6 @@
-nota: Semeado dos resultados 2018-2026 + época 2026. subsistema null = estabelecimento sem cursos no CNA
-  2026 (curar à mão). distrito por preencher.
+nota: Semeado dos resultados 2018-2026 + época 2026; no fim, os estabelecimentos que só aparecem nos
+  resultados históricos (1997-2017, nome do último ano em que existiram). subsistema null =
+  estabelecimento sem cursos no CNA 2026 (curar à mão). distrito por preencher.
 estabelecimentos:
 - code: '0140'
   nome: Universidade dos Açores - Faculdade de Ciências Agrárias e do Ambiente
@@ -2178,3 +2179,347 @@ estabelecimentos:
   geo:
     lat: 41.18211
     lon: -8.603922
+# Só nos resultados históricos — códigos extintos ou anteriores a reorganizações
+# (fusão UL/UTL em 2013, escolas de enfermagem integradas em 2007, polos encerrados).
+- code: '0110'
+  nome: Universidade dos Açores - Angra do Heroísmo
+  grupo: Universidade dos Açores
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2015
+- code: '0130'
+  nome: Universidade dos Açores - Ponta Delgada
+  grupo: Universidade dos Açores
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2015
+- code: '0202'
+  nome: Universidade do Algarve - Faculdade de Ciências do Mar e do Ambiente
+  grupo: Universidade do Algarve
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2009
+- code: '0205'
+  nome: Universidade do Algarve - Faculdade de Engenharia de Recursos Naturais
+  grupo: Universidade do Algarve
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2009
+- code: '0600'
+  nome: Universidade de Évora
+  grupo: Universidade de Évora
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2009
+- code: '0700'
+  nome: Universidade de Lisboa
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0701'
+  nome: Universidade de Lisboa - Faculdade de Ciências
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0702'
+  nome: Universidade de Lisboa - Faculdade de Direito
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0703'
+  nome: Universidade de Lisboa - Faculdade de Farmácia
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0704'
+  nome: Universidade de Lisboa - Faculdade de Letras
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0705'
+  nome: Universidade de Lisboa - Faculdade de Medicina
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0706'
+  nome: Universidade de Lisboa - Faculdade de Psicologia
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2009
+- code: 0708
+  nome: Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0709
+  nome: Universidade de Lisboa - Instituto de Educação
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '0710'
+  nome: Universidade de Lisboa - Faculdade de Psicologia
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0801
+  nome: Universidade Técnica de Lisboa - Faculdade de Medicina Veterinária
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0802
+  nome: Universidade Técnica de Lisboa - Faculdade de Arquitectura
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0803
+  nome: Universidade Técnica de Lisboa - Instituto Superior de Agronomia
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0804
+  nome: Universidade Técnica de Lisboa - Instituto Superior de Ciências Sociais e Políticas
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0805
+  nome: Universidade Técnica de Lisboa - Instituto Superior de Economia e Gestão
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0806
+  nome: Universidade Técnica de Lisboa - Faculdade de Motricidade Humana
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0807
+  nome: Universidade Técnica de Lisboa - Instituto Superior Técnico
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0808
+  nome: Universidade Técnica de Lisboa - Instituto Superior Técnico (campus do Taguspark)
+  grupo: Universidade Técnica de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: 0912
+  nome: Universidade Nova de Lisboa - Curso de Conservação e Restauro
+  grupo: Universidade Nova de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2002
+- code: '1200'
+  nome: Universidade de Trás-os-Montes e Alto Douro
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2009
+- code: '1205'
+  nome: Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais (Chaves)
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '1280'
+  nome: Universidade de Trás-os-Montes e Alto Douro (Miranda do Douro)
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2007
+- code: '1290'
+  nome: Universidade de Trás-os-Montes e Alto Douro (Chaves)
+  grupo: Universidade de Trás-os-Montes e Alto Douro
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2009
+- code: '1300'
+  nome: Universidade da Madeira
+  grupo: Universidade da Madeira
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2017
+- code: '1500'
+  nome: Universidade de Lisboa
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2017
+- code: '3044'
+  nome: Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança (Mirandela)
+  grupo: Instituto Politécnico de Bragança
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 1998
+- code: '3084'
+  nome: Universidade do Algarve - Escola Superior de Educação de Faro (Vila Real de Santo António)
+  grupo: Universidade do Algarve
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 1997
+- code: '3094'
+  nome: Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão da Guarda (Seia)
+  grupo: Instituto Politécnico da Guarda
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 1999
+- code: '3104'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Educação de Leiria (Caldas da Rainha)
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2000
+- code: '3106'
+  nome: Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão de Leiria (Peniche)
+  grupo: Instituto Politécnico de Leiria
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 1998
+- code: '3110'
+  nome: Instituto Politécnico de Lisboa
+  grupo: Instituto Politécnico de Lisboa
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2008
+- code: '3130'
+  nome: Instituto Politécnico do Porto
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2009
+- code: '3133'
+  nome: Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2015
+- code: '3136'
+  nome: Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão (Vila do Conde)
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2000
+- code: '3137'
+  nome: Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão (Póvoa do Varzim)
+  grupo: Instituto Politécnico do Porto
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2000
+- code: '3183'
+  nome: Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu (Lamego)
+  grupo: Instituto Politécnico de Viseu
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '5302'
+  nome: Universidade de Lisboa - Faculdade de Belas-Artes
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '5700'
+  nome: Universidade da Madeira - Instituto Superior de Arte e Design
+  grupo: Universidade da Madeira
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 1997
+- code: '6600'
+  nome: Universidade de Lisboa - Faculdade de Medicina Dentária
+  grupo: Universidade de Lisboa
+  subsistema: universitario
+  distrito: null
+  ultimo_ano: 2013
+- code: '7025'
+  nome: Escola Superior de Enfermagem de Bissaya Barreto
+  grupo: Escola Superior de Enfermagem de Bissaya Barreto
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7026'
+  nome: Escola Superior de Enfermagem do Dr. Ângelo da Fonseca
+  grupo: Escola Superior de Enfermagem do Dr. Ângelo da Fonseca
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7050'
+  nome: Escola Superior de Enfermagem de Artur Ravara
+  grupo: Escola Superior de Enfermagem de Artur Ravara
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7051'
+  nome: Escola Superior de Enfermagem de Maria Fernanda Resende
+  grupo: Escola Superior de Enfermagem de Maria Fernanda Resende
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7052'
+  nome: Escola Superior de Enfermagem de Francisco Gentil
+  grupo: Escola Superior de Enfermagem de Francisco Gentil
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7053'
+  nome: Escola Superior de Enfermagem de Calouste Gulbenkian de Lisboa
+  grupo: Escola Superior de Enfermagem de Calouste Gulbenkian de Lisboa
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7060'
+  nome: Escola Superior de Enfermagem Cidade do Porto
+  grupo: Escola Superior de Enfermagem Cidade do Porto
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7061'
+  nome: Escola Superior de Enfermagem de São João
+  grupo: Escola Superior de Enfermagem de São João
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7062'
+  nome: Escola Superior de Enfermagem de D. Ana Guedes
+  grupo: Escola Superior de Enfermagem de D. Ana Guedes
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2007
+- code: '7090'
+  nome: Universidade dos Açores - Escola Superior de Enfermagem de Angra do Heroísmo
+  grupo: Universidade dos Açores
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2014
+- code: '7091'
+  nome: Universidade dos Açores - Escola Superior de Enfermagem de Ponta Delgada
+  grupo: Universidade dos Açores
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2014
+- code: '7095'
+  nome: Universidade da Madeira - Escola Superior de Enfermagem da Madeira
+  grupo: Universidade da Madeira
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 2011
+- code: '7610'
+  nome: Escola Superior de Conservação e Restauro
+  grupo: Escola Superior de Conservação e Restauro
+  subsistema: politecnico
+  distrito: null
+  ultimo_ano: 1997

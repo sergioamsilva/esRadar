@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0455",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Recursos Humanos",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0455",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 954,
+   "candidatos_1opcao": 257,
+   "colocados": 52,
+   "colocados_1opcao": 36,
+   "media_candidatura": 155.8,
+   "media_provas": 163.6,
+   "media_secundario": 149.0,
+   "nota_ultimo": 152.5,
+   "sobras": 1,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 692,
+   "candidatos_1opcao": 183,
+   "colocados": 35,
+   "colocados_1opcao": 25,
+   "media_candidatura": 155.8,
+   "media_provas": 157.6,
+   "media_secundario": 155.4,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 827,
+   "candidatos_1opcao": 202,
+   "colocados": 35,
+   "colocados_1opcao": 28,
+   "media_candidatura": 160.8,
+   "media_provas": 167.1,
+   "media_secundario": 154.9,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 36,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 42,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 154.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 151.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 36,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

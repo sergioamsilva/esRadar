@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0820",
+ "code": "3053",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática-Informática Industrial",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3053-0820",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 224,
+   "candidatos_1opcao": 35,
+   "colocados": 63,
+   "colocados_1opcao": 35,
+   "media_candidatura": 78.5,
+   "media_provas": 34.6,
+   "media_secundario": 121.9,
+   "nota_ultimo": 59.0,
+   "sobras": 6,
+   "vagas": 65
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,93 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1087",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências do Desporto, variante de Gestão e Lazer",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1087",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 115.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 110.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 112.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 21,
+   "nota_ultimo": 95.7,
+   "sobras": 14,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 13,
+   "nota_ultimo": 101.9,
+   "sobras": 17,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 97.1,
+   "sobras": 14,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 105.5,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 130.0,
+   "sobras": 23,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 13,
+   "nota_ultimo": 109.1,
+   "sobras": 12,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 16,
+   "nota_ultimo": 112.4,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

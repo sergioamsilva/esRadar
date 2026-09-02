@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1651",
+ "code": "3081",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Matemática e Ciências da Natureza",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Educação e Comunicação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3081-1651",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 115,
+   "candidatos_1opcao": 16,
+   "colocados": 25,
+   "colocados_1opcao": 10,
+   "media_candidatura": 120.7,
+   "media_provas": 105.7,
+   "media_secundario": 135.6,
+   "nota_ultimo": 122.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 85,
+   "candidatos_1opcao": 13,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 122.5,
+   "media_provas": 103.0,
+   "media_secundario": 133.0,
+   "nota_ultimo": 117.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 105.5,
+   "sobras": 12,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 11,
+   "nota_ultimo": 103.4,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 108.3,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 126.2,
+   "sobras": 19,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

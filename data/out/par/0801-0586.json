@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0586",
+ "code": "0801",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Medicina Veterinária",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Faculdade de Medicina Veterinária",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0801-0586",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1040,
+   "candidatos_1opcao": 338,
+   "colocados": 91,
+   "colocados_1opcao": 27,
+   "media_candidatura": 176.2,
+   "media_provas": 179.2,
+   "media_secundario": 173.1,
+   "nota_ultimo": 176.8,
+   "sobras": 1,
+   "vagas": 90
+  },
+  "1998f1": {
+   "candidatos": 685,
+   "candidatos_1opcao": 220,
+   "colocados": 94,
+   "colocados_1opcao": 24,
+   "media_candidatura": 178.2,
+   "media_provas": 179.8,
+   "media_secundario": 176.4,
+   "nota_ultimo": 177.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "1999f1": {
+   "candidatos": 544,
+   "candidatos_1opcao": 218,
+   "colocados": 90,
+   "colocados_1opcao": 30,
+   "media_candidatura": 176.5,
+   "media_provas": 177.7,
+   "media_secundario": 175.2,
+   "nota_ultimo": 175.8,
+   "sobras": 3,
+   "vagas": 90
+  },
+  "2000f1": {
+   "colocados": 92,
+   "nota_ultimo": 173.4,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2001f1": {
+   "colocados": 90,
+   "nota_ultimo": 174.4,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2002f1": {
+   "colocados": 106,
+   "nota_ultimo": 173.8,
+   "sobras": 0,
+   "vagas": 105
+  },
+  "2003f1": {
+   "colocados": 92,
+   "nota_ultimo": 171.0,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2004f1": {
+   "colocados": 90,
+   "nota_ultimo": 163.8,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 173.3,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 90,
+   "nota_ultimo": 170.5,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 177.5,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 90,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 163.5,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

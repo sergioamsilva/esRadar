@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1653",
+ "code": "3112",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Francês",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3112-1653",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 133,
+   "candidatos_1opcao": 26,
+   "colocados": 25,
+   "colocados_1opcao": 16,
+   "media_candidatura": 129.2,
+   "media_provas": 124.4,
+   "media_secundario": 134.4,
+   "nota_ultimo": 129.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 132,
+   "candidatos_1opcao": 25,
+   "colocados": 25,
+   "colocados_1opcao": 17,
+   "media_candidatura": 131.7,
+   "media_provas": 127.8,
+   "media_secundario": 138.0,
+   "nota_ultimo": 125.0,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 110.0,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 104.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 11,
+   "nota_ultimo": 113.3,
+   "sobras": 7,
+   "vagas": 18
+  },
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 124.0,
+   "sobras": 8,
+   "vagas": 17
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 110.3,
+   "sobras": 6,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 126.2,
+   "sobras": 8,
+   "vagas": 12
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 113.5,
+   "sobras": 5,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

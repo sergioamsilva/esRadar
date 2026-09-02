@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9257",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-9257",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 29,
+   "colocados": 60,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2007f2": {
+   "colocados": 17,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 5
+  },
+  "2008f1": {
+   "colocados": 65,
+   "nota_ultimo": 117.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 112.0,
+   "sobras": 1,
+   "vagas": 11,
+   "vagas_recolocacao": 3
+  },
+  "2009f1": {
+   "colocados": 60,
+   "nota_ultimo": 141.3,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2009f2": {
+   "colocados": 17,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

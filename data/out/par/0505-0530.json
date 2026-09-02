@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0530",
+ "code": "0505",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0505-0530",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 289,
+   "candidatos_1opcao": 55,
+   "colocados": 35,
+   "colocados_1opcao": 27,
+   "media_candidatura": 142.6,
+   "media_provas": 137.4,
+   "media_secundario": 147.7,
+   "nota_ultimo": 128.3,
+   "sobras": 7,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 357,
+   "candidatos_1opcao": 69,
+   "colocados": 36,
+   "colocados_1opcao": 22,
+   "media_candidatura": 149.6,
+   "media_provas": 147.2,
+   "media_secundario": 151.9,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 241,
+   "candidatos_1opcao": 36,
+   "colocados": 35,
+   "colocados_1opcao": 24,
+   "media_candidatura": 147.2,
+   "media_provas": 145.4,
+   "media_secundario": 148.9,
+   "nota_ultimo": 134.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 117.0,
+   "sobras": 15,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 117.5,
+   "sobras": 25,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 106.0,
+   "sobras": 12,
+   "vagas": 17
+  },
+  "2004f1": {
+   "colocados": 3,
+   "nota_ultimo": 112.0,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

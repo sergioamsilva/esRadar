@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8451",
+ "code": "3032",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Eléctrica (regime pós-laboral)",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3032-8451",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 6,
+   "nota_ultimo": 105.9,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 118.4,
+   "sobras": 16,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 3,
+   "nota_ultimo": 114.3,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 134.4,
+   "sobras": 20,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

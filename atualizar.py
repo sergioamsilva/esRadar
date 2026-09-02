@@ -7,6 +7,8 @@ Ordem fixa e explicada:
                 efémeros e a fase tem de existir no site da DGES)
 3. arquivo    — recuperação de épocas antigas via Arquivo.pt (idempotente,
                 só descarrega o que falta)
+3b. historico — série longa 1997-2017 da página de estatísticas da DGES
+                (idempotente)
 4. snapshot   — manifesto SHA-256 do raw, deteta revisões silenciosas
 5. build      — junta tudo e escreve data/out (o contrato com o site)
 6. testes     — falham alto antes de qualquer commit de dados
@@ -39,12 +41,13 @@ def main() -> None:
     parser.add_argument("--sem-testes", action="store_true")
     args = parser.parse_args()
 
-    from ingest import arquivo, build, coloc, guias, infocursos, snapshot
+    from ingest import arquivo, build, coloc, guias, historico, infocursos, snapshot
 
     passo("guia da candidatura", lambda: guias.raspar(forcar=args.descarregar))
     if args.fase:
         passo(f"época corrente, fase {args.fase}", lambda: coloc.arquivar_fase(coloc.ANO_CORRENTE, args.fase))
     passo("histórico via Arquivo.pt", lambda: [arquivo.recuperar_ano(a) for a in range(2018, 2026)])
+    passo("série longa 1997-2017 (DGES)", historico.recuperar)
     passo("infocursos", lambda: infocursos.atualizar(forcar=args.descarregar))
     passo("snapshot", snapshot.gravar)
     passo("build", build.construir)

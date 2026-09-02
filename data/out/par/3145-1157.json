@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1157",
+ "code": "3145",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Desporto, variante de Animação Desportiva, Recreação e Lazer",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3145-1157",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 60,
+   "candidatos_1opcao": 4,
+   "colocados": 12,
+   "colocados_1opcao": 4,
+   "media_candidatura": 117.2,
+   "media_provas": 101.8,
+   "media_secundario": 127.5,
+   "nota_ultimo": 96.8,
+   "sobras": 42,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 44,
+   "nota_ultimo": 94.4,
+   "sobras": 6,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 22,
+   "nota_ultimo": 96.0,
+   "sobras": 28,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 31,
+   "nota_ultimo": 96.8,
+   "sobras": 14,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 6,
+   "nota_ultimo": 110.0,
+   "sobras": 29,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

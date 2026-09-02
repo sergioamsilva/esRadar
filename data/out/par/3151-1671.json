@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1671",
+ "code": "3151",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Promoção Artística e Património",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3151-1671",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 23,
+   "nota_ultimo": 111.5,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 108.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

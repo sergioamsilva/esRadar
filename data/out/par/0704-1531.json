@@ -1,0 +1,68 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1531",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Alemães",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-1531",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 15,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 19,
+   "nota_ultimo": 103.0,
+   "sobras": 1,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 13,
+   "nota_ultimo": 97.5,
+   "sobras": 7,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 109.5,
+   "sobras": 6,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 19,
+   "nota_ultimo": 123.0,
+   "sobras": 6,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 118.5,
+   "sobras": 4,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

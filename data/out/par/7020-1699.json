@@ -1,0 +1,96 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1699",
+ "code": "7020",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Radiologia",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7020-1699",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 146.6,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 144.6,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 157.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 160.6,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 25,
+   "nota_ultimo": 153.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 3,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2007f1": {
+   "candidatos_1opcao": 17,
+   "colocados": 25,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 4,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 25,
+   "nota_ultimo": 143.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 2,
+   "nota_ultimo": 146.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0705",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Química",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0705",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 51,
+   "candidatos_1opcao": 2,
+   "colocados": 19,
+   "colocados_1opcao": 2,
+   "media_candidatura": 118.8,
+   "media_provas": 103.0,
+   "media_secundario": 135.8,
+   "nota_ultimo": 85.5,
+   "sobras": 2,
+   "vagas": 20
+  },
+  "1998f1": {
+   "candidatos": 148,
+   "candidatos_1opcao": 9,
+   "colocados": 25,
+   "colocados_1opcao": 2,
+   "media_candidatura": 123.7,
+   "media_provas": 111.0,
+   "media_secundario": 136.0,
+   "nota_ultimo": 115.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 155,
+   "candidatos_1opcao": 5,
+   "colocados": 30,
+   "colocados_1opcao": 5,
+   "media_candidatura": 127.8,
+   "media_provas": 104.5,
+   "media_secundario": 140.3,
+   "nota_ultimo": 120.1,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 22,
+   "nota_ultimo": 99.4,
+   "sobras": 8,
+   "vagas": 30
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

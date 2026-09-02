@@ -1,0 +1,120 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1701",
+ "code": "7230",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Radioterapia",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Saúde",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7230-1701",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 8,
+   "colocados": 10,
+   "colocados_1opcao": 6,
+   "media_candidatura": 117.0,
+   "media_provas": 104.5,
+   "media_secundario": 130.0,
+   "nota_ultimo": 107.8,
+   "sobras": 0,
+   "vagas": 10
+  },
+  "2000f1": {
+   "colocados": 10,
+   "nota_ultimo": 97.8,
+   "sobras": 2,
+   "vagas": 12
+  },
+  "2003f1": {
+   "colocados": 14,
+   "nota_ultimo": 144.3,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2004f1": {
+   "colocados": 14,
+   "nota_ultimo": 144.3,
+   "sobras": 0,
+   "vagas": 14
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 15,
+   "nota_ultimo": 148.0,
+   "sobras": 0,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 146.3,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 20,
+   "nota_ultimo": 146.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 141.3,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 48,
+   "colocados": 20,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 164.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 20,
+   "nota_ultimo": 167.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 162.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

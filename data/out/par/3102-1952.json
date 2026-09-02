@@ -1,0 +1,54 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1952",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas (regime nocturno - só 1.º ciclo)",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1952",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 204,
+   "candidatos_1opcao": 84,
+   "colocados": 45,
+   "colocados_1opcao": 43,
+   "media_candidatura": 91.2,
+   "media_provas": 48.0,
+   "media_secundario": 132.7,
+   "nota_ultimo": 77.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 3,
+   "sobras": 27,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 101.1,
+   "sobras": 24,
+   "vagas": 29,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

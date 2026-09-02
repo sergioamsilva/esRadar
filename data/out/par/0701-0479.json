@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0479",
+ "code": "0701",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Ciências",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0701-0479",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1080,
+   "candidatos_1opcao": 245,
+   "colocados": 121,
+   "colocados_1opcao": 55,
+   "media_candidatura": 140.8,
+   "media_provas": 137.6,
+   "media_secundario": 145.1,
+   "nota_ultimo": 132.5,
+   "sobras": 1,
+   "vagas": 120
+  },
+  "1998f1": {
+   "candidatos": 783,
+   "candidatos_1opcao": 176,
+   "colocados": 120,
+   "colocados_1opcao": 74,
+   "media_candidatura": 139.9,
+   "media_provas": 139.1,
+   "media_secundario": 141.0,
+   "nota_ultimo": 126.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "1999f1": {
+   "candidatos": 886,
+   "candidatos_1opcao": 217,
+   "colocados": 137,
+   "colocados_1opcao": 99,
+   "media_candidatura": 134.8,
+   "media_provas": 126.1,
+   "media_secundario": 143.7,
+   "nota_ultimo": 123.5,
+   "sobras": 3,
+   "vagas": 135
+  },
+  "2000f1": {
+   "colocados": 136,
+   "nota_ultimo": 129.5,
+   "sobras": 0,
+   "vagas": 135
+  },
+  "2001f1": {
+   "colocados": 177,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 165
+  },
+  "2002f1": {
+   "colocados": 166,
+   "nota_ultimo": 110.5,
+   "sobras": 0,
+   "vagas": 165
+  },
+  "2003f1": {
+   "colocados": 121,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2004f1": {
+   "colocados": 126,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 125
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

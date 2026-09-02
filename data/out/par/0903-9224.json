@@ -212,6 +212,219 @@
   }
  ],
  "series": {
+  "2006f1": {
+   "colocados": 31,
+   "nota_ultimo": 122.8,
+   "sobras": 24,
+   "vagas": 55
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 127.2,
+   "sobras": 23,
+   "vagas": 30,
+   "vagas_recolocacao": 3
+  },
+  "2007f1": {
+   "candidatos_1opcao": 5,
+   "colocados": 20,
+   "nota_ultimo": 110.8,
+   "sobras": 35,
+   "vagas": 55
+  },
+  "2007f2": {
+   "colocados": 26,
+   "nota_ultimo": 111.2,
+   "sobras": 16,
+   "vagas": 39,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 33,
+   "nota_ultimo": 108.8,
+   "sobras": 12,
+   "vagas": 45
+  },
+  "2008f2": {
+   "colocados": 19,
+   "nota_ultimo": 113.8,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 2
+  },
+  "2009f1": {
+   "colocados": 42,
+   "nota_ultimo": 110.0,
+   "sobras": 3,
+   "vagas": 45
+  },
+  "2009f2": {
+   "colocados": 14,
+   "nota_ultimo": 114.0,
+   "sobras": 3,
+   "vagas": 11,
+   "vagas_recolocacao": 6
+  },
+  "2010f1": {
+   "colocados": 40,
+   "nota_ultimo": 126.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2010f2": {
+   "colocados": 11,
+   "nota_ultimo": 114.6,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 4
+  },
+  "2011f1": {
+   "colocados": 40,
+   "nota_ultimo": 130.2,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2011f2": {
+   "colocados": 9,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  },
+  "2012f1": {
+   "colocados": 20,
+   "nota_ultimo": 119.0,
+   "sobras": 10,
+   "vagas": 30
+  },
+  "2012f2": {
+   "colocados": 11,
+   "nota_ultimo": 110.8,
+   "sobras": 2,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 4,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 14,
+   "nota_ultimo": 117.6,
+   "sobras": 16,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 9,
+   "nota_ultimo": 107.6,
+   "sobras": 16,
+   "vagas": 23,
+   "vagas_recolocacao": 2
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 17,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 11,
+   "nota_ultimo": 116.4,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2014f2": {
+   "colocados": 11,
+   "nota_ultimo": 119.4,
+   "sobras": 9,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  },
+  "2014f3": {
+   "colocados": 1,
+   "nota_ultimo": 138.0,
+   "sobras": 9,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2015f1": {
+   "colocados": 25,
+   "nota_ultimo": 132.2,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2015f2": {
+   "colocados": 4,
+   "nota_ultimo": 129.8,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 25,
+   "nota_ultimo": 135.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2016f2": {
+   "colocados": 4,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2016f3": {
+   "colocados": 2,
+   "nota_ultimo": 129.6,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2017f1": {
+   "candidatos": 211,
+   "candidatos_1opcao": 41,
+   "candidatos_homens": 73,
+   "candidatos_mulheres": 138,
+   "colocados": 25,
+   "colocados_1opcao": 19,
+   "colocados_homens": 4,
+   "colocados_mulheres": 21,
+   "media_candidatura": 153.9,
+   "media_provas": 142.7,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2017f2": {
+   "candidatos": 31,
+   "candidatos_1opcao": 9,
+   "candidatos_homens": 10,
+   "candidatos_mulheres": 21,
+   "colocados": 4,
+   "colocados_1opcao": 2,
+   "colocados_homens": 2,
+   "colocados_mulheres": 2,
+   "media_candidatura": 139.2,
+   "media_provas": 126.4,
+   "nota_ultimo": 135.4,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 4
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 206,
    "candidatos_1opcao": 24,
@@ -397,7 +610,8 @@
   "2022f3": {
    "colocados": 0,
    "sobras": 0,
-   "vagas": 0
+   "vagas": 0,
+   "vagas_recolocacao": 0
   },
   "2023f1": {
    "candidatos": 170,

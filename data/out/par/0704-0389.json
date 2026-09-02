@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0389",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Geografia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-0389",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 743,
+   "candidatos_1opcao": 290,
+   "colocados": 140,
+   "colocados_1opcao": 100,
+   "media_candidatura": 142.2,
+   "media_provas": 143.8,
+   "media_secundario": 143.4,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "1999f1": {
+   "candidatos": 762,
+   "candidatos_1opcao": 291,
+   "colocados": 140,
+   "colocados_1opcao": 94,
+   "media_candidatura": 148.7,
+   "media_provas": 155.9,
+   "media_secundario": 143.4,
+   "nota_ultimo": 140.5,
+   "sobras": 3,
+   "vagas": 140
+  },
+  "2000f1": {
+   "colocados": 142,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "2001f1": {
+   "colocados": 145,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "2002f1": {
+   "colocados": 140,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "2003f1": {
+   "colocados": 140,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "2004f1": {
+   "colocados": 140,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 140
+  },
+  "2004f2": {
+   "colocados": 19,
+   "nota_ultimo": 110.5,
+   "sobras": 0,
+   "vagas": 11,
+   "vagas_recolocacao": 8
+  },
+  "2005f1": {
+   "colocados": 108,
+   "nota_ultimo": 99.5,
+   "sobras": 32,
+   "vagas": 140
+  },
+  "2005f2": {
+   "colocados": 49,
+   "nota_ultimo": 109.5,
+   "sobras": 0,
+   "vagas": 45,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

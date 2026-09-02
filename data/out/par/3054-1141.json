@@ -1,0 +1,66 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1141",
+ "code": "3054",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Gestão",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3054-1141",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 307,
+   "candidatos_1opcao": 65,
+   "colocados": 105,
+   "colocados_1opcao": 61,
+   "media_candidatura": 78.1,
+   "media_provas": 28.1,
+   "media_secundario": 128.1,
+   "nota_ultimo": 63.5,
+   "sobras": 0,
+   "vagas": 105
+  },
+  "1999f1": {
+   "candidatos": 319,
+   "candidatos_1opcao": 73,
+   "colocados": 115,
+   "colocados_1opcao": 73,
+   "media_candidatura": 90.1,
+   "media_provas": 18.5,
+   "media_secundario": 128.4,
+   "nota_ultimo": 71.5,
+   "sobras": 53,
+   "vagas": 150
+  },
+  "2000f1": {
+   "colocados": 129,
+   "nota_ultimo": 71.9,
+   "sobras": 6,
+   "vagas": 135
+  },
+  "2001f1": {
+   "colocados": 33,
+   "nota_ultimo": 95.0,
+   "sobras": 87,
+   "vagas": 120
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

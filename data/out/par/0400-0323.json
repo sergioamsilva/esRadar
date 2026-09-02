@@ -1,0 +1,71 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0323",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Papel",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0323",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 22,
+   "candidatos_1opcao": 1,
+   "colocados": 2,
+   "colocados_1opcao": 1,
+   "media_candidatura": 104.2,
+   "media_provas": 89.2,
+   "media_secundario": 110.0,
+   "nota_ultimo": 89.8,
+   "sobras": 42,
+   "vagas": 40
+  },
+  "1998f1": {
+   "candidatos": 10,
+   "candidatos_1opcao": 0,
+   "colocados": 1,
+   "colocados_1opcao": 0,
+   "media_candidatura": 111.3,
+   "media_provas": 92.5,
+   "media_secundario": 130.0,
+   "nota_ultimo": 111.3,
+   "sobras": 39,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 6,
+   "candidatos_1opcao": 0,
+   "colocados": 3,
+   "colocados_1opcao": 0,
+   "media_candidatura": 119.5,
+   "media_provas": 108.8,
+   "media_secundario": 126.7,
+   "nota_ultimo": 114.4,
+   "sobras": 36,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 0,
+   "sobras": 35,
+   "vagas": 35
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

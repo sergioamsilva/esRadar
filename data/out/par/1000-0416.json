@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0416",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0416",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 80,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2002f1": {
+   "colocados": 48,
+   "nota_ultimo": 112.0,
+   "sobras": 27,
+   "vagas": 75
+  },
+  "2003f1": {
+   "colocados": 67,
+   "nota_ultimo": 130.8,
+   "sobras": 0,
+   "vagas": 67
+  },
+  "2004f1": {
+   "colocados": 67,
+   "nota_ultimo": 128.2,
+   "sobras": 0,
+   "vagas": 67
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 67,
+   "nota_ultimo": 124.2,
+   "sobras": 0,
+   "vagas": 67
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 146.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

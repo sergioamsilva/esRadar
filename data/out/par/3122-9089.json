@@ -1,0 +1,109 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9089",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-9089",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 5,
+   "nota_ultimo": 123.1,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 113.2,
+   "sobras": 18,
+   "vagas": 25,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 10,
+   "nota_ultimo": 120.0,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 9,
+   "nota_ultimo": 103.2,
+   "sobras": 7,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 5,
+   "nota_ultimo": 117.1,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 5,
+   "nota_ultimo": 116.3,
+   "sobras": 21,
+   "vagas": 25,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 3,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 2,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 0,
+   "sobras": 23,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

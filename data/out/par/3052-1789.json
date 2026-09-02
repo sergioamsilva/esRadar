@@ -1,0 +1,54 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1789",
+ "code": "3052",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tradução e Secretariado",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3052-1789",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 113.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 106.7,
+   "sobras": 10,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 15,
+   "nota_ultimo": 102.5,
+   "sobras": 20,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 15,
+   "nota_ultimo": 114.6,
+   "sobras": 20,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

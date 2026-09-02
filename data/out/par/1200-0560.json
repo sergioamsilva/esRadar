@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0560",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Matemática (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0560",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 472,
+   "candidatos_1opcao": 61,
+   "colocados": 60,
+   "colocados_1opcao": 23,
+   "media_candidatura": 146.3,
+   "media_provas": 141.8,
+   "media_secundario": 150.7,
+   "nota_ultimo": 135.0,
+   "sobras": 1,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 387,
+   "candidatos_1opcao": 49,
+   "colocados": 55,
+   "colocados_1opcao": 18,
+   "media_candidatura": 148.9,
+   "media_provas": 145.5,
+   "media_secundario": 152.4,
+   "nota_ultimo": 140.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "1999f1": {
+   "candidatos": 211,
+   "candidatos_1opcao": 22,
+   "colocados": 56,
+   "colocados_1opcao": 22,
+   "media_candidatura": 137.9,
+   "media_provas": 131.3,
+   "media_secundario": 144.8,
+   "nota_ultimo": 113.5,
+   "sobras": 2,
+   "vagas": 55
+  },
+  "2000f1": {
+   "colocados": 58,
+   "nota_ultimo": 124.3,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 17,
+   "nota_ultimo": 96.0,
+   "sobras": 38,
+   "vagas": 55
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 112.0,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 103.0,
+   "sobras": 11,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

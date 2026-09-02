@@ -1,0 +1,44 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9639",
+ "code": "3241",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Comércio e Serviços",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3241-9639",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "nota_ultimo": 127.9,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 8,
+   "nota_ultimo": 104.8,
+   "sobras": 11,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

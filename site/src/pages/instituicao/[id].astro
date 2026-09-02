@@ -232,7 +232,7 @@ const descricao = `${instituicao.nome} no concurso de 2026: ${oferta.length} cur
     <section class="card reveal">
       <h3>Vagas e colocados na 1ª fase, ano a ano</h3>
       <SerieAnual
-        titulo="Total da instituição, 2018–2026"
+        titulo={`Total da instituição, ${anos[0]?.[0]}–${anos[anos.length - 1]?.[0]}`}
         unidade="estudantes"
         inteiro
         series={[

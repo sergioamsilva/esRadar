@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1135",
+ "code": "3063",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Auditoria",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3063-1135",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 1106,
+   "candidatos_1opcao": 276,
+   "colocados": 301,
+   "colocados_1opcao": 150,
+   "media_candidatura": 101.4,
+   "media_provas": 73.1,
+   "media_secundario": 129.8,
+   "nota_ultimo": 84.5,
+   "sobras": 0,
+   "vagas": 300
+  },
+  "1999f1": {
+   "candidatos": 619,
+   "candidatos_1opcao": 121,
+   "colocados": 190,
+   "colocados_1opcao": 121,
+   "media_candidatura": 94.1,
+   "media_provas": 60.7,
+   "media_secundario": 127.5,
+   "nota_ultimo": 62.0,
+   "sobras": 68,
+   "vagas": 250
+  },
+  "2000f1": {
+   "colocados": 200,
+   "nota_ultimo": 85.5,
+   "sobras": 0,
+   "vagas": 200
+  },
+  "2001f1": {
+   "colocados": 90,
+   "nota_ultimo": 76.0,
+   "sobras": 110,
+   "vagas": 200
+  },
+  "2002f1": {
+   "colocados": 65,
+   "nota_ultimo": 87.8,
+   "sobras": 135,
+   "vagas": 200
+  },
+  "2003f1": {
+   "colocados": 72,
+   "nota_ultimo": 90.6,
+   "sobras": 78,
+   "vagas": 150
+  },
+  "2004f1": {
+   "colocados": 46,
+   "nota_ultimo": 91.4,
+   "sobras": 104,
+   "vagas": 150
+  },
+  "2004f2": {
+   "colocados": 15,
+   "nota_ultimo": 95.8,
+   "sobras": 94,
+   "vagas": 106,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 9,
+   "nota_ultimo": 107.4,
+   "sobras": 106,
+   "vagas": 115
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 114.5,
+   "sobras": 103,
+   "vagas": 106,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 32,
+   "nota_ultimo": 105.4,
+   "sobras": 58,
+   "vagas": 90
+  },
+  "2006f2": {
+   "colocados": 36,
+   "nota_ultimo": 104.8,
+   "sobras": 25,
+   "vagas": 61,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

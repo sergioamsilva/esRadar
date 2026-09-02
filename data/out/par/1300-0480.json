@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0480",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0480",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 84,
+   "candidatos_1opcao": 30,
+   "colocados": 20,
+   "colocados_1opcao": 17,
+   "media_candidatura": 121.5,
+   "media_provas": 101.3,
+   "media_secundario": 143.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 65,
+   "candidatos_1opcao": 15,
+   "colocados": 20,
+   "colocados_1opcao": 15,
+   "media_candidatura": 112.1,
+   "media_provas": 86.2,
+   "media_secundario": 139.5,
+   "nota_ultimo": 98.5,
+   "sobras": 1,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 21,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 10,
+   "nota_ultimo": 95.0,
+   "sobras": 10,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 14,
+   "nota_ultimo": 95.7,
+   "sobras": 6,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 8,
+   "nota_ultimo": 111.1,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 103.9,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 104.9,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 108.8,
+   "sobras": 13,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 106.6,
+   "sobras": 12,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

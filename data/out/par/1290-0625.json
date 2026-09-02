@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0625",
+ "code": "1290",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação de Infância",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro (Chaves)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1290-0625",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 178,
+   "candidatos_1opcao": 5,
+   "colocados": 53,
+   "colocados_1opcao": 4,
+   "media_candidatura": 117.9,
+   "media_provas": 114.1,
+   "media_secundario": 122.5,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 243,
+   "candidatos_1opcao": 26,
+   "colocados": 53,
+   "colocados_1opcao": 11,
+   "media_candidatura": 122.0,
+   "media_provas": 121.4,
+   "media_secundario": 122.1,
+   "nota_ultimo": 118.0,
+   "sobras": 8,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 52,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 115.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 106.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 25,
+   "nota_ultimo": 105.8,
+   "sobras": 25,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 15,
+   "nota_ultimo": 103.5,
+   "sobras": 35,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 104.8,
+   "sobras": 26,
+   "vagas": 38,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 14,
+   "nota_ultimo": 102.2,
+   "sobras": 21,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 103.5,
+   "sobras": 14,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 8,
+   "nota_ultimo": 112.6,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2006f2": {
+   "colocados": 5,
+   "nota_ultimo": 108.7,
+   "sobras": 15,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9057",
+ "code": "3182",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade (regime noturno)",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3182-9057",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2014f1": {
+   "colocados": 6,
+   "nota_ultimo": 110.8,
+   "sobras": 24,
+   "vagas": 30
+  },
+  "2014f2": {
+   "colocados": 8,
+   "nota_ultimo": 95.4,
+   "sobras": 17,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 5,
+   "nota_ultimo": 119.6,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  },
+  "2015f1": {
+   "colocados": 7,
+   "nota_ultimo": 114.5,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2015f2": {
+   "colocados": 4,
+   "nota_ultimo": 104.2,
+   "sobras": 21,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2015f3": {
+   "colocados": 4,
+   "nota_ultimo": 108.2,
+   "sobras": 7,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

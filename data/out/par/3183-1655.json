@@ -1,0 +1,65 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1655",
+ "code": "3183",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Português e Inglês",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu (Lamego)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3183-1655",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 102,
+   "candidatos_1opcao": 10,
+   "colocados": 30,
+   "colocados_1opcao": 6,
+   "media_candidatura": 124.1,
+   "media_provas": 115.6,
+   "media_secundario": 131.7,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 45,
+   "candidatos_1opcao": 2,
+   "colocados": 9,
+   "colocados_1opcao": 2,
+   "media_candidatura": 122.0,
+   "media_provas": 120.6,
+   "media_secundario": 123.3,
+   "nota_ultimo": 112.8,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 4,
+   "nota_ultimo": 119.1,
+   "sobras": 31,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 1,
+   "sobras": 24,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

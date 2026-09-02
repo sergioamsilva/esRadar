@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1458",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática e de Sistemas",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-1458",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 428,
+   "candidatos_1opcao": 70,
+   "colocados": 50,
+   "colocados_1opcao": 27,
+   "media_candidatura": 126.6,
+   "media_provas": 123.3,
+   "media_secundario": 130.2,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 485,
+   "candidatos_1opcao": 125,
+   "colocados": 50,
+   "colocados_1opcao": 37,
+   "media_candidatura": 124.2,
+   "media_provas": 107.6,
+   "media_secundario": 135.2,
+   "nota_ultimo": 120.8,
+   "sobras": 1,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 123.6,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 60,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 58,
+   "nota_ultimo": 106.0,
+   "sobras": 2,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 66,
+   "nota_ultimo": 116.0,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2004f1": {
+   "colocados": 85,
+   "nota_ultimo": 110.1,
+   "sobras": 0,
+   "vagas": 85
+  },
+  "2004f2": {
+   "colocados": 11,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 105.1,
+   "sobras": 65,
+   "vagas": 100
+  },
+  "2005f2": {
+   "colocados": 28,
+   "nota_ultimo": 106.7,
+   "sobras": 39,
+   "vagas": 67,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 61,
+   "nota_ultimo": 107.7,
+   "sobras": 39,
+   "vagas": 100
+  },
+  "2006f2": {
+   "colocados": 49,
+   "nota_ultimo": 111.0,
+   "sobras": 0,
+   "vagas": 44,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

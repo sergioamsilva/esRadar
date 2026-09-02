@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1098",
+ "code": "3134",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comércio Internacional",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3134-1098",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 198,
+   "candidatos_1opcao": 9,
+   "colocados": 50,
+   "colocados_1opcao": 9,
+   "media_candidatura": 99.0,
+   "media_provas": 70.7,
+   "media_secundario": 127.4,
+   "nota_ultimo": 85.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 182,
+   "candidatos_1opcao": 16,
+   "colocados": 28,
+   "colocados_1opcao": 16,
+   "media_candidatura": 92.7,
+   "media_provas": 63.7,
+   "media_secundario": 121.4,
+   "nota_ultimo": 75.5,
+   "sobras": 57,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 46,
+   "nota_ultimo": 79.0,
+   "sobras": 14,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 17,
+   "nota_ultimo": 81.0,
+   "sobras": 43,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 5,
+   "nota_ultimo": 107.3,
+   "sobras": 55,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 11,
+   "nota_ultimo": 103.8,
+   "sobras": 29,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 112.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 108.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 112.9,
+   "sobras": 5,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 126.4,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 11,
+   "nota_ultimo": 123.9,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

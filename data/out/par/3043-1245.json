@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1245",
+ "code": "3043",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3043-1245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 204,
+   "candidatos_1opcao": 36,
+   "colocados": 51,
+   "colocados_1opcao": 30,
+   "media_candidatura": 104.9,
+   "media_provas": 82.7,
+   "media_secundario": 126.7,
+   "nota_ultimo": 97.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 215,
+   "candidatos_1opcao": 30,
+   "colocados": 63,
+   "colocados_1opcao": 30,
+   "media_candidatura": 107.0,
+   "media_provas": 70.8,
+   "media_secundario": 126.0,
+   "nota_ultimo": 81.2,
+   "sobras": 69,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 116,
+   "nota_ultimo": 98.0,
+   "sobras": 0,
+   "vagas": 115
+  },
+  "2001f1": {
+   "colocados": 118,
+   "nota_ultimo": 80.3,
+   "sobras": 2,
+   "vagas": 120
+  },
+  "2002f1": {
+   "colocados": 89,
+   "nota_ultimo": 78.2,
+   "sobras": 11,
+   "vagas": 100
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 96.2,
+   "sobras": 20,
+   "vagas": 70
+  },
+  "2004f1": {
+   "colocados": 48,
+   "nota_ultimo": 98.1,
+   "sobras": 32,
+   "vagas": 80
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 97.5,
+   "sobras": 33,
+   "vagas": 41,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 105.4,
+   "sobras": 45,
+   "vagas": 80
+  },
+  "2005f2": {
+   "colocados": 32,
+   "nota_ultimo": 108.0,
+   "sobras": 30,
+   "vagas": 58,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

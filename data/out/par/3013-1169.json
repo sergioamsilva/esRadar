@@ -1,0 +1,101 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1169",
+ "code": "3013",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro - Escola Superior de Saúde de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3013-1169",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 32,
+   "nota_ultimo": 163.4,
+   "sobras": 0,
+   "vagas": 32
+  },
+  "2002f1": {
+   "colocados": 45,
+   "nota_ultimo": 163.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 61,
+   "nota_ultimo": 158.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 155.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 60,
+   "nota_ultimo": 160.8,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 70,
+   "nota_ultimo": 157.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2006f2": {
+   "colocados": 15,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 130,
+   "colocados": 70,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "2007f2": {
+   "colocados": 14,
+   "nota_ultimo": 149.5,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

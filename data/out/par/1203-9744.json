@@ -1,0 +1,112 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9744",
+ "code": "1203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Energias",
+ "distrito": "Vila Real",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1203-9744",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 25,
+   "nota_ultimo": 121.6,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 4,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 11,
+   "nota_ultimo": 119.0,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 8,
+   "nota_ultimo": 110.5,
+   "sobras": 11,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 10,
+   "nota_ultimo": 121.7,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 144.0,
+   "sobras": 16,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2013f1": {
+   "colocados": 1,
+   "nota_ultimo": 139.7,
+   "sobras": 23,
+   "vagas": 24
+  },
+  "2013f2": {
+   "colocados": 0,
+   "sobras": 28,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 28,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 1,
+   "nota_ultimo": 129.1,
+   "sobras": 23,
+   "vagas": 24
+  },
+  "2014f2": {
+   "colocados": 1,
+   "nota_ultimo": 133.7,
+   "sobras": 22,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 22,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0483",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Geotécnica",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-0483",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 1,
+   "colocados": 3,
+   "colocados_1opcao": 1,
+   "media_candidatura": 119.6,
+   "media_provas": 109.2,
+   "media_secundario": 130.0,
+   "nota_ultimo": 105.0,
+   "sobras": 37,
+   "vagas": 35
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

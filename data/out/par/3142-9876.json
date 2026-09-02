@@ -1,0 +1,114 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9876",
+ "code": "3142",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Básica (regime pós-laboral)",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3142-9876",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 1,
+   "colocados": 5,
+   "nota_ultimo": 119.6,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 21,
+   "nota_ultimo": 107.0,
+   "sobras": 6,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 9,
+   "sobras": 16,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 107.6,
+   "sobras": 12,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 6,
+   "nota_ultimo": 105.8,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 8,
+   "nota_ultimo": 108.8,
+   "sobras": 12,
+   "vagas": 20,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 10,
+   "nota_ultimo": 116.4,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 8,
+   "nota_ultimo": 114.0,
+   "sobras": 8,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 7,
+   "nota_ultimo": 101.0,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 5,
+   "nota_ultimo": 107.0,
+   "sobras": 17,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 2,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 6,
+   "nota_ultimo": 111.4,
+   "sobras": 12,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 1,
+   "nota_ultimo": 122.0,
+   "sobras": 14,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

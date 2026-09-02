@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9002",
+ "code": "3241",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Administração Pública",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3241-9002",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 5,
+   "colocados": 7,
+   "nota_ultimo": 112.9,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 5,
+   "nota_ultimo": 110.6,
+   "sobras": 19,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 9,
+   "nota_ultimo": 126.3,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 8,
+   "nota_ultimo": 112.6,
+   "sobras": 15,
+   "vagas": 22,
+   "vagas_recolocacao": 1
+  },
+  "2009f1": {
+   "colocados": 4,
+   "nota_ultimo": 142.0,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 3,
+   "nota_ultimo": 107.7,
+   "sobras": 19,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

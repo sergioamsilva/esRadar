@@ -1,0 +1,43 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8009",
+ "code": "3110",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Música na Comunidade",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3110-8009",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2008f1": {
+   "colocados": 8,
+   "nota_ultimo": 119.8,
+   "sobras": 7,
+   "vagas": 15
+  },
+  "2008f2": {
+   "colocados": 1,
+   "nota_ultimo": 143.8,
+   "sobras": 6,
+   "vagas": 7,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

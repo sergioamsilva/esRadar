@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1515",
+ "code": "3023",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3023-1515",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 304,
+   "candidatos_1opcao": 63,
+   "colocados": 72,
+   "colocados_1opcao": 51,
+   "media_candidatura": 108.9,
+   "media_provas": 88.2,
+   "media_secundario": 129.4,
+   "nota_ultimo": 109.5,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 161,
+   "candidatos_1opcao": 35,
+   "colocados": 40,
+   "colocados_1opcao": 35,
+   "media_candidatura": 121.3,
+   "media_provas": 114.3,
+   "media_secundario": 128.2,
+   "nota_ultimo": 101.0,
+   "sobras": 7,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 45,
+   "nota_ultimo": 110.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 86.2,
+   "sobras": 5,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 27,
+   "nota_ultimo": 85.0,
+   "sobras": 18,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 42,
+   "nota_ultimo": 95.9,
+   "sobras": 2,
+   "vagas": 44
+  },
+  "2004f1": {
+   "colocados": 44,
+   "nota_ultimo": 105.6,
+   "sobras": 0,
+   "vagas": 44
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 99.2,
+   "sobras": 1,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 12,
+   "nota_ultimo": 115.1,
+   "sobras": 32,
+   "vagas": 44
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 116.5,
+   "sobras": 30,
+   "vagas": 32,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

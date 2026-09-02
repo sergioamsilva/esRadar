@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0326",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Produção",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0326",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 150,
+   "candidatos_1opcao": 12,
+   "colocados": 26,
+   "colocados_1opcao": 12,
+   "media_candidatura": 95.4,
+   "media_provas": 70.6,
+   "media_secundario": 119.2,
+   "nota_ultimo": 69.5,
+   "sobras": 34,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 132,
+   "candidatos_1opcao": 8,
+   "colocados": 26,
+   "colocados_1opcao": 8,
+   "media_candidatura": 99.5,
+   "media_provas": 79.6,
+   "media_secundario": 120.0,
+   "nota_ultimo": 78.5,
+   "sobras": 24,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 117,
+   "candidatos_1opcao": 16,
+   "colocados": 20,
+   "colocados_1opcao": 16,
+   "media_candidatura": 110.1,
+   "media_provas": 90.4,
+   "media_secundario": 130.0,
+   "nota_ultimo": 100.3,
+   "sobras": 30,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 15,
+   "nota_ultimo": 101.0,
+   "sobras": 35,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 2,
+   "nota_ultimo": 131.8,
+   "sobras": 48,
+   "vagas": 50
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

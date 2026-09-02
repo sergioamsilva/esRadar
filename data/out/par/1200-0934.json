@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0934",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica, r. de Electrónica, Instrumentação e Computação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0934",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 206,
+   "candidatos_1opcao": 26,
+   "colocados": 49,
+   "colocados_1opcao": 26,
+   "media_candidatura": 109.7,
+   "media_provas": 90.8,
+   "media_secundario": 128.4,
+   "nota_ultimo": 66.3,
+   "sobras": 32,
+   "vagas": 80
+  },
+  "1998f1": {
+   "candidatos": 223,
+   "candidatos_1opcao": 21,
+   "colocados": 48,
+   "colocados_1opcao": 21,
+   "media_candidatura": 115.1,
+   "media_provas": 104.9,
+   "media_secundario": 125.2,
+   "nota_ultimo": 92.5,
+   "sobras": 27,
+   "vagas": 75
+  },
+  "1999f1": {
+   "candidatos": 39,
+   "candidatos_1opcao": 2,
+   "colocados": 2,
+   "colocados_1opcao": 2,
+   "media_candidatura": 118.7,
+   "media_provas": 117.2,
+   "media_secundario": 120.0,
+   "nota_ultimo": 116.5,
+   "sobras": 58,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 26,
+   "nota_ultimo": 101.8,
+   "sobras": 34,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 33,
+   "nota_ultimo": 100.6,
+   "sobras": 27,
+   "vagas": 60
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

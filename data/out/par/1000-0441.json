@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0441",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0441",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 512,
+   "candidatos_1opcao": 69,
+   "colocados": 70,
+   "colocados_1opcao": 24,
+   "media_candidatura": 141.6,
+   "media_provas": 130.2,
+   "media_secundario": 153.0,
+   "nota_ultimo": 134.8,
+   "sobras": 12,
+   "vagas": 70
+  },
+  "1998f1": {
+   "candidatos": 409,
+   "candidatos_1opcao": 70,
+   "colocados": 86,
+   "colocados_1opcao": 40,
+   "media_candidatura": 136.2,
+   "media_provas": 125.2,
+   "media_secundario": 147.1,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 85
+  },
+  "1999f1": {
+   "candidatos": 467,
+   "candidatos_1opcao": 86,
+   "colocados": 80,
+   "colocados_1opcao": 34,
+   "media_candidatura": 136.0,
+   "media_provas": 122.8,
+   "media_secundario": 149.1,
+   "nota_ultimo": 128.3,
+   "sobras": 15,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 80,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 80
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

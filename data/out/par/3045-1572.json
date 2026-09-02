@@ -1,0 +1,54 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1572",
+ "code": "3045",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática de Gestão",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3045-1572",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 36,
+   "candidatos_1opcao": 2,
+   "colocados": 5,
+   "colocados_1opcao": 2,
+   "media_candidatura": 113.0,
+   "media_provas": 81.4,
+   "media_secundario": 130.0,
+   "nota_ultimo": 101.6,
+   "sobras": 45,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 19,
+   "nota_ultimo": 82.6,
+   "sobras": 16,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 18,
+   "nota_ultimo": 87.3,
+   "sobras": 17,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

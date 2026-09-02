@@ -1,0 +1,129 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0695",
+ "code": "1109",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Psicologia",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1109-0695",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 1086,
+   "candidatos_1opcao": 424,
+   "colocados": 90,
+   "colocados_1opcao": 51,
+   "media_candidatura": 166.9,
+   "media_provas": 174.4,
+   "media_secundario": 160.2,
+   "nota_ultimo": 163.5,
+   "sobras": 1,
+   "vagas": 90
+  },
+  "1998f1": {
+   "candidatos": 1137,
+   "candidatos_1opcao": 435,
+   "colocados": 107,
+   "colocados_1opcao": 73,
+   "media_candidatura": 172.0,
+   "media_provas": 177.6,
+   "media_secundario": 166.4,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 102
+  },
+  "1999f1": {
+   "candidatos": 1251,
+   "candidatos_1opcao": 441,
+   "colocados": 112,
+   "colocados_1opcao": 82,
+   "media_candidatura": 172.8,
+   "media_provas": 177.8,
+   "media_secundario": 167.8,
+   "nota_ultimo": 168.5,
+   "sobras": 3,
+   "vagas": 112
+  },
+  "2000f1": {
+   "colocados": 128,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 124
+  },
+  "2001f1": {
+   "colocados": 124,
+   "nota_ultimo": 167.5,
+   "sobras": 0,
+   "vagas": 124
+  },
+  "2002f1": {
+   "colocados": 128,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 124
+  },
+  "2003f1": {
+   "colocados": 112,
+   "nota_ultimo": 172.5,
+   "sobras": 0,
+   "vagas": 112
+  },
+  "2004f1": {
+   "colocados": 110,
+   "nota_ultimo": 170.5,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 170.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 115,
+   "nota_ultimo": 169.5,
+   "sobras": 0,
+   "vagas": 115
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 171.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 115,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 115
+  },
+  "2006f2": {
+   "colocados": 21,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 16,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

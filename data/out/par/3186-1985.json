@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1985",
+ "code": "3186",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Secretariado de Administração (regime nocturno)",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3186-1985",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 9,
+   "nota_ultimo": 116.4,
+   "sobras": 21,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 112.5,
+   "sobras": 16,
+   "vagas": 24,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 14,
+   "nota_ultimo": 114.3,
+   "sobras": 16,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 111.3,
+   "sobras": 13,
+   "vagas": 19,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0063",
+ "code": "0203",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Bioquímica",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0203-0063",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 28,
+   "nota_ultimo": 106.7,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 126.7,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 121.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 37,
+   "nota_ultimo": 114.7,
+   "sobras": 0,
+   "vagas": 37
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 113.4,
+   "sobras": 9,
+   "vagas": 12,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 35,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 134.7,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 15,
+   "nota_ultimo": 121.3,
+   "sobras": 20,
+   "vagas": 35
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 116.9,
+   "sobras": 16,
+   "vagas": 27,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

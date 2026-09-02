@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "L028",
+ "code": "3105",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tecnologia e Segurança Alimentar",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3105-L028",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2013f1": {
+   "colocados": 3,
+   "nota_ultimo": 108.7,
+   "sobras": 29,
+   "vagas": 32
+  },
+  "2013f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.5,
+   "sobras": 29,
+   "vagas": 30,
+   "vagas_recolocacao": 2
+  },
+  "2013f3": {
+   "colocados": 1,
+   "nota_ultimo": 128.2,
+   "sobras": 5,
+   "vagas": 6,
+   "vagas_recolocacao": 0
+  },
+  "2014f1": {
+   "colocados": 2,
+   "nota_ultimo": 125.0,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2014f2": {
+   "colocados": 1,
+   "nota_ultimo": 118.1,
+   "sobras": 23,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

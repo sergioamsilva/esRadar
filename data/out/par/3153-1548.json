@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1548",
+ "code": "3153",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Sistemas de Informação",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3153-1548",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 115,
+   "candidatos_1opcao": 12,
+   "colocados": 23,
+   "colocados_1opcao": 12,
+   "media_candidatura": 104.4,
+   "media_provas": 57.4,
+   "media_secundario": 129.1,
+   "nota_ultimo": 97.3,
+   "sobras": 70,
+   "vagas": 90
+  },
+  "2000f1": {
+   "colocados": 39,
+   "nota_ultimo": 93.6,
+   "sobras": 51,
+   "vagas": 90
+  },
+  "2001f1": {
+   "colocados": 42,
+   "nota_ultimo": 94.6,
+   "sobras": 48,
+   "vagas": 90
+  },
+  "2002f1": {
+   "colocados": 44,
+   "nota_ultimo": 93.2,
+   "sobras": 46,
+   "vagas": 90
+  },
+  "2003f1": {
+   "colocados": 48,
+   "nota_ultimo": 91.2,
+   "sobras": 12,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 42,
+   "nota_ultimo": 101.8,
+   "sobras": 18,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 17,
+   "nota_ultimo": 90.3,
+   "sobras": 8,
+   "vagas": 22,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 17,
+   "nota_ultimo": 108.8,
+   "sobras": 38,
+   "vagas": 55
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 115.6,
+   "sobras": 39,
+   "vagas": 44,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 39,
+   "nota_ultimo": 107.4,
+   "sobras": 12,
+   "vagas": 51
+  },
+  "2006f2": {
+   "colocados": 18,
+   "nota_ultimo": 117.7,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

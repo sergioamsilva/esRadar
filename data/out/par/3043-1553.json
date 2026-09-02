@@ -1,0 +1,92 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1553",
+ "code": "3043",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão e Engenharia Industrial",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3043-1553",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 29,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 105.0,
+   "media_provas": 77.0,
+   "media_secundario": 120.0,
+   "nota_ultimo": 105.0,
+   "sobras": 69,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 8,
+   "nota_ultimo": 88.5,
+   "sobras": 22,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 94.8,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 12,
+   "nota_ultimo": 105.3,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 11,
+   "nota_ultimo": 108.4,
+   "sobras": 24,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 8,
+   "nota_ultimo": 96.3,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 125.6,
+   "sobras": 29,
+   "vagas": 29,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 115.6,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 109.4,
+   "sobras": 25,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

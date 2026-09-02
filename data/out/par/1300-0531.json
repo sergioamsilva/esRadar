@@ -1,0 +1,59 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0531",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Anglo-Germanísticas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0531",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 34,
+   "candidatos_1opcao": 24,
+   "colocados": 26,
+   "colocados_1opcao": 24,
+   "media_candidatura": 130.9,
+   "media_provas": 123.1,
+   "media_secundario": 138.8,
+   "nota_ultimo": 157.8,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 15,
+   "candidatos_1opcao": 10,
+   "colocados": 11,
+   "colocados_1opcao": 10,
+   "media_candidatura": 138.0,
+   "media_provas": 135.1,
+   "media_secundario": 140.9,
+   "nota_ultimo": 123.8,
+   "sobras": 34,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 10,
+   "sobras": 35,
+   "vagas": 45
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

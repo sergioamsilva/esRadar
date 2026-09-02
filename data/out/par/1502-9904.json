@@ -222,6 +222,99 @@
   }
  ],
  "series": {
+  "2014f1": {
+   "colocados": 55,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2014f2": {
+   "colocados": 6,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2014f3": {
+   "colocados": 2,
+   "nota_ultimo": 168.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2015f1": {
+   "colocados": 60,
+   "nota_ultimo": 163.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2015f2": {
+   "colocados": 8,
+   "nota_ultimo": 161.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2016f1": {
+   "colocados": 61,
+   "nota_ultimo": 164.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2016f2": {
+   "colocados": 3,
+   "nota_ultimo": 174.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
+  "2017f1": {
+   "candidatos": 535,
+   "candidatos_1opcao": 157,
+   "candidatos_homens": 156,
+   "candidatos_mulheres": 379,
+   "colocados": 62,
+   "colocados_1opcao": 47,
+   "colocados_homens": 13,
+   "colocados_mulheres": 49,
+   "media_candidatura": 174.1,
+   "media_provas": 184.2,
+   "nota_ultimo": 168.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2017f2": {
+   "candidatos": 109,
+   "candidatos_1opcao": 41,
+   "candidatos_homens": 41,
+   "candidatos_mulheres": 68,
+   "colocados": 5,
+   "colocados_1opcao": 4,
+   "colocados_homens": 1,
+   "colocados_mulheres": 4,
+   "media_candidatura": 178.5,
+   "media_provas": 185.8,
+   "nota_ultimo": 172.0,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 1
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas_recolocacao": 0
+  },
   "2018f1": {
    "candidatos": 427,
    "candidatos_1opcao": 125,
@@ -401,7 +494,8 @@
   },
   "2022f3": {
    "colocados": 0,
-   "sobras": 0
+   "sobras": 0,
+   "vagas_recolocacao": 0
   },
   "2023f1": {
    "candidatos": 483,

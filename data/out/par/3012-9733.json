@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9733",
+ "code": "3012",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Documentação e Arquivística",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3012-9733",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 5,
+   "colocados": 13,
+   "nota_ultimo": 110.6,
+   "sobras": 27,
+   "vagas": 40
+  },
+  "2007f2": {
+   "colocados": 31,
+   "nota_ultimo": 109.1,
+   "sobras": 0,
+   "vagas": 30,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 4,
+   "sobras": 31,
+   "vagas": 35
+  },
+  "2008f2": {
+   "colocados": 6,
+   "nota_ultimo": 106.7,
+   "sobras": 25,
+   "vagas": 31,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 6,
+   "nota_ultimo": 114.5,
+   "sobras": 18,
+   "vagas": 24
+  },
+  "2009f2": {
+   "colocados": 10,
+   "nota_ultimo": 110.0,
+   "sobras": 11,
+   "vagas": 19,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,93 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1572",
+ "code": "3063",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Informática de Gestão",
+ "distrito": "Viana do Castelo",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3063-1572",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 95.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 51,
+   "nota_ultimo": 92.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 60,
+   "nota_ultimo": 89.6,
+   "sobras": 10,
+   "vagas": 70
+  },
+  "2003f1": {
+   "colocados": 57,
+   "nota_ultimo": 90.3,
+   "sobras": 23,
+   "vagas": 80
+  },
+  "2004f1": {
+   "colocados": 24,
+   "nota_ultimo": 96.7,
+   "sobras": 56,
+   "vagas": 80
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 100.3,
+   "sobras": 54,
+   "vagas": 56,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 3,
+   "nota_ultimo": 110.0,
+   "sobras": 67,
+   "vagas": 70
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.3,
+   "sobras": 66,
+   "vagas": 68,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 19,
+   "nota_ultimo": 105.5,
+   "sobras": 21,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 13,
+   "nota_ultimo": 106.7,
+   "sobras": 10,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

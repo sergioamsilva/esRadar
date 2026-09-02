@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9011",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-9011",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 13,
+   "colocados": 30,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 10,
+   "nota_ultimo": 135.1,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 5
+  },
+  "2008f1": {
+   "colocados": 30,
+   "nota_ultimo": 134.1,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2008f2": {
+   "colocados": 13,
+   "nota_ultimo": 111.3,
+   "sobras": 1,
+   "vagas": 9,
+   "vagas_recolocacao": 5
+  },
+  "2009f1": {
+   "colocados": 25,
+   "nota_ultimo": 136.2,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

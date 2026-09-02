@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1240",
+ "code": "3064",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Eléctrica e Electrónica (Curso Europeu)",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3064-1240",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 109.3,
+   "sobras": 0,
+   "vagas": 5
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 103.5,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 117.2,
+   "sobras": 1,
+   "vagas": 5
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 120.6,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 1,
+   "nota_ultimo": 154.0,
+   "sobras": 4,
+   "vagas": 5
+  },
+  "2006f2": {
+   "colocados": 2,
+   "nota_ultimo": 121.0,
+   "sobras": 2,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

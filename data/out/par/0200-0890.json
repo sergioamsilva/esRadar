@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0890",
+ "code": "0200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agronómica, ramo de Hortofruticultura",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0200-0890",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 94,
+   "candidatos_1opcao": 9,
+   "colocados": 38,
+   "colocados_1opcao": 9,
+   "media_candidatura": 121.8,
+   "media_provas": 110.9,
+   "media_secundario": 133.2,
+   "nota_ultimo": 99.5,
+   "sobras": 22,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 131,
+   "candidatos_1opcao": 7,
+   "colocados": 44,
+   "colocados_1opcao": 7,
+   "media_candidatura": 119.7,
+   "media_provas": 102.4,
+   "media_secundario": 128.9,
+   "nota_ultimo": 98.8,
+   "sobras": 22,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 11,
+   "nota_ultimo": 105.7,
+   "sobras": 49,
+   "vagas": 60
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

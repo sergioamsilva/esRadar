@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1897",
+ "code": "7065",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem (entrada no 2.º semestre)",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7065-1897",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 47,
+   "nota_ultimo": 145.2,
+   "sobras": 0,
+   "vagas": 47
+  },
+  "2002f1": {
+   "colocados": 45,
+   "nota_ultimo": 148.4,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 142.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 141.2,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 141.4,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 45,
+   "nota_ultimo": 139.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 153.6,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

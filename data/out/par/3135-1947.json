@@ -1,0 +1,71 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1947",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica (regime nocturno)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1947",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 79,
+   "candidatos_1opcao": 31,
+   "colocados": 30,
+   "colocados_1opcao": 30,
+   "media_candidatura": 92.2,
+   "media_provas": 53.0,
+   "media_secundario": 131.0,
+   "nota_ultimo": 65.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 68,
+   "candidatos_1opcao": 17,
+   "colocados": 18,
+   "colocados_1opcao": 17,
+   "media_candidatura": 92.3,
+   "media_provas": 56.8,
+   "media_secundario": 128.3,
+   "nota_ultimo": 70.8,
+   "sobras": 12,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 14,
+   "nota_ultimo": 70.5,
+   "sobras": 16,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 136.5,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 5,
+   "sobras": 15,
+   "vagas": 20
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9003",
+ "code": "0205",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Agronomia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Faculdade de Engenharia de Recursos Naturais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0205-9003",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 10,
+   "nota_ultimo": 120.2,
+   "sobras": 10,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 113.8,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 1,
+   "colocados": 5,
+   "nota_ultimo": 122.5,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 17,
+   "nota_ultimo": 111.8,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 4,
+   "nota_ultimo": 111.0,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 5,
+   "nota_ultimo": 111.3,
+   "sobras": 11,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 8,
+   "nota_ultimo": 117.8,
+   "sobras": 12,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 4,
+   "nota_ultimo": 117.8,
+   "sobras": 12,
+   "vagas": 15,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3052",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3052-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 134,
+   "candidatos_1opcao": 22,
+   "colocados": 30,
+   "colocados_1opcao": 17,
+   "media_candidatura": 113.0,
+   "media_provas": 101.8,
+   "media_secundario": 123.7,
+   "nota_ultimo": 113.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 167,
+   "candidatos_1opcao": 29,
+   "colocados": 40,
+   "colocados_1opcao": 20,
+   "media_candidatura": 118.7,
+   "media_provas": 102.2,
+   "media_secundario": 128.0,
+   "nota_ultimo": 114.8,
+   "sobras": 5,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 39,
+   "nota_ultimo": 97.6,
+   "sobras": 1,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 18,
+   "nota_ultimo": 96.2,
+   "sobras": 22,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 11,
+   "nota_ultimo": 97.5,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 15,
+   "nota_ultimo": 99.4,
+   "sobras": 5,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 11,
+   "nota_ultimo": 96.4,
+   "sobras": 9,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 101.4,
+   "sobras": 5,
+   "vagas": 9,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 118.4,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 122.6,
+   "sobras": 15,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

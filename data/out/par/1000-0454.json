@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0454",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "História (Ensino de)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0454",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 271,
+   "candidatos_1opcao": 23,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 146.9,
+   "media_provas": 154.1,
+   "media_secundario": 141.6,
+   "nota_ultimo": 141.0,
+   "sobras": 1,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 307,
+   "candidatos_1opcao": 50,
+   "colocados": 20,
+   "colocados_1opcao": 10,
+   "media_candidatura": 146.6,
+   "media_provas": 153.7,
+   "media_secundario": 139.5,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 235,
+   "candidatos_1opcao": 37,
+   "colocados": 21,
+   "colocados_1opcao": 16,
+   "media_candidatura": 148.7,
+   "media_provas": 155.7,
+   "media_secundario": 141.4,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 20,
+   "nota_ultimo": 136.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 132.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2002f1": {
+   "colocados": 20,
+   "nota_ultimo": 130.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 19,
+   "nota_ultimo": 127.6,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2004f1": {
+   "colocados": 18,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 130.6,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 18,
+   "nota_ultimo": 110.6,
+   "sobras": 0,
+   "vagas": 18
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.6,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

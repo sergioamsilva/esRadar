@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1515",
+ "code": "3241",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão de Empresas",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Tomar",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3241-1515",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 409,
+   "candidatos_1opcao": 78,
+   "colocados": 120,
+   "colocados_1opcao": 69,
+   "media_candidatura": 89.6,
+   "media_provas": 50.1,
+   "media_secundario": 129.3,
+   "nota_ultimo": 69.0,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "1999f1": {
+   "candidatos": 567,
+   "candidatos_1opcao": 150,
+   "colocados": 120,
+   "colocados_1opcao": 84,
+   "media_candidatura": 104.3,
+   "media_provas": 49.9,
+   "media_secundario": 134.6,
+   "nota_ultimo": 92.2,
+   "sobras": 20,
+   "vagas": 120
+  },
+  "2000f1": {
+   "colocados": 110,
+   "nota_ultimo": 91.4,
+   "sobras": 0,
+   "vagas": 110
+  },
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 91.7,
+   "sobras": 65,
+   "vagas": 80
+  },
+  "2002f1": {
+   "colocados": 32,
+   "nota_ultimo": 90.8,
+   "sobras": 28,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 106.4,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 108.2,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 104.6,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 23,
+   "nota_ultimo": 105.8,
+   "sobras": 12,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 10,
+   "nota_ultimo": 104.2,
+   "sobras": 8,
+   "vagas": 16,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 5,
+   "nota_ultimo": 110.0,
+   "sobras": 35,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 112.2,
+   "sobras": 29,
+   "vagas": 35,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,85 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0156",
+ "code": "1300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Economia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Madeira",
+ "infocursos": null,
+ "instituicao": "Universidade da Madeira",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1300-0156",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 122.8,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 17,
+   "nota_ultimo": 96.1,
+   "sobras": 13,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 9,
+   "sobras": 26,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 13,
+   "nota_ultimo": 114.6,
+   "sobras": 7,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 4,
+   "nota_ultimo": 122.6,
+   "sobras": 14,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 20,
+   "nota_ultimo": 126.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 1,
+   "nota_ultimo": 147.2,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

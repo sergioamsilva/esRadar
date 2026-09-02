@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0468",
+ "code": "0505",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "História, variante de História da Arte",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0505-0468",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 154,
+   "candidatos_1opcao": 29,
+   "colocados": 25,
+   "colocados_1opcao": 13,
+   "media_candidatura": 136.0,
+   "media_provas": 139.8,
+   "media_secundario": 135.6,
+   "nota_ultimo": 130.0,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 166,
+   "candidatos_1opcao": 25,
+   "colocados": 25,
+   "colocados_1opcao": 8,
+   "media_candidatura": 138.1,
+   "media_provas": 142.1,
+   "media_secundario": 139.6,
+   "nota_ultimo": 133.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 207,
+   "candidatos_1opcao": 23,
+   "colocados": 31,
+   "colocados_1opcao": 11,
+   "media_candidatura": 137.3,
+   "media_provas": 140.7,
+   "media_secundario": 134.2,
+   "nota_ultimo": 131.0,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 31,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 30
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0033",
+ "code": "5302",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas - Escultura",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Belas-Artes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "5302-0033",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 422,
+   "candidatos_1opcao": 69,
+   "colocados": 50,
+   "colocados_1opcao": 17,
+   "media_candidatura": 163.0,
+   "media_provas": 177.6,
+   "media_secundario": 150.6,
+   "nota_ultimo": 158.0,
+   "sobras": 3,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 415,
+   "candidatos_1opcao": 88,
+   "colocados": 50,
+   "colocados_1opcao": 27,
+   "media_candidatura": 163.9,
+   "media_provas": 178.9,
+   "media_secundario": 149.6,
+   "nota_ultimo": 159.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 426,
+   "candidatos_1opcao": 69,
+   "colocados": 50,
+   "colocados_1opcao": 19,
+   "media_candidatura": 163.9,
+   "media_provas": 181.5,
+   "media_secundario": 146.4,
+   "nota_ultimo": 160.0,
+   "sobras": 3,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 54,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 138.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 50
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

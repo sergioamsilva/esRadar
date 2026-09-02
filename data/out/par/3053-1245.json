@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1245",
+ "code": "3053",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3053-1245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 424,
+   "candidatos_1opcao": 80,
+   "colocados": 80,
+   "colocados_1opcao": 39,
+   "media_candidatura": 98.5,
+   "media_provas": 70.7,
+   "media_secundario": 126.6,
+   "nota_ultimo": 85.5,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "1999f1": {
+   "candidatos": 463,
+   "candidatos_1opcao": 80,
+   "colocados": 68,
+   "colocados_1opcao": 38,
+   "media_candidatura": 106.8,
+   "media_provas": 58.4,
+   "media_secundario": 132.8,
+   "nota_ultimo": 97.3,
+   "sobras": 0,
+   "vagas": 65
+  },
+  "2000f1": {
+   "colocados": 60,
+   "nota_ultimo": 100.1,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 34,
+   "nota_ultimo": 92.4,
+   "sobras": 31,
+   "vagas": 65
+  },
+  "2002f1": {
+   "colocados": 36,
+   "nota_ultimo": 90.6,
+   "sobras": 24,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 22,
+   "nota_ultimo": 90.8,
+   "sobras": 33,
+   "vagas": 55
+  },
+  "2004f1": {
+   "colocados": 28,
+   "nota_ultimo": 92.4,
+   "sobras": 22,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 90.5,
+   "sobras": 27,
+   "vagas": 24,
+   "vagas_recolocacao": 9
+  },
+  "2005f1": {
+   "colocados": 20,
+   "nota_ultimo": 107.1,
+   "sobras": 18,
+   "vagas": 38
+  },
+  "2005f2": {
+   "colocados": 15,
+   "nota_ultimo": 111.3,
+   "sobras": 4,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 6,
+   "nota_ultimo": 112.3,
+   "sobras": 33,
+   "vagas": 39
+  },
+  "2006f2": {
+   "colocados": 2,
+   "nota_ultimo": 116.7,
+   "sobras": 33,
+   "vagas": 35,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

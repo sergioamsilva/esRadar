@@ -1,0 +1,127 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0759",
+ "code": "0130",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Sociologia",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0130-0759",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 329,
+   "candidatos_1opcao": 111,
+   "colocados": 30,
+   "colocados_1opcao": 26,
+   "media_candidatura": 141.2,
+   "media_provas": 143.5,
+   "media_secundario": 141.7,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 272,
+   "candidatos_1opcao": 102,
+   "colocados": 30,
+   "colocados_1opcao": 27,
+   "media_candidatura": 144.7,
+   "media_provas": 154.2,
+   "media_secundario": 136.7,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 227,
+   "candidatos_1opcao": 79,
+   "colocados": 30,
+   "colocados_1opcao": 22,
+   "media_candidatura": 146.9,
+   "media_provas": 159.6,
+   "media_secundario": 136.0,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 31,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 134.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 127.7,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 120.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 109.6,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 117.9,
+   "sobras": 5,
+   "vagas": 8,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 17,
+   "nota_ultimo": 109.7,
+   "sobras": 3,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 108.2,
+   "sobras": 5,
+   "vagas": 5,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 16,
+   "nota_ultimo": 112.6,
+   "sobras": 4,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 120.1,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

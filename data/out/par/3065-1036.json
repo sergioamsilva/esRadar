@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1036",
+ "code": "3065",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Administração e Finanças",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3065-1036",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 41,
+   "nota_ultimo": 92.0,
+   "sobras": 19,
+   "vagas": 60
+  },
+  "2002f1": {
+   "colocados": 60,
+   "nota_ultimo": 113.9,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2003f1": {
+   "colocados": 53,
+   "nota_ultimo": 110.8,
+   "sobras": 0,
+   "vagas": 53
+  },
+  "2004f1": {
+   "colocados": 46,
+   "nota_ultimo": 92.4,
+   "sobras": 4,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 15,
+   "nota_ultimo": 110.8,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 6
+  },
+  "2005f1": {
+   "colocados": 27,
+   "nota_ultimo": 106.1,
+   "sobras": 23,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 30,
+   "nota_ultimo": 107.8,
+   "sobras": 0,
+   "vagas": 28,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 23,
+   "nota_ultimo": 104.8,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2006f2": {
+   "colocados": 16,
+   "nota_ultimo": 105.8,
+   "sobras": 19,
+   "vagas": 30,
+   "vagas_recolocacao": 5
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

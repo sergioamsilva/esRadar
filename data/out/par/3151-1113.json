@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1113",
+ "code": "3151",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comunicação Social",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3151-1113",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 453,
+   "candidatos_1opcao": 94,
+   "colocados": 30,
+   "colocados_1opcao": 17,
+   "media_candidatura": 145.9,
+   "media_provas": 144.7,
+   "media_secundario": 147.0,
+   "nota_ultimo": 143.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 411,
+   "candidatos_1opcao": 84,
+   "colocados": 35,
+   "colocados_1opcao": 24,
+   "media_candidatura": 143.8,
+   "media_provas": 139.2,
+   "media_secundario": 148.6,
+   "nota_ultimo": 144.8,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2000f1": {
+   "colocados": 35,
+   "nota_ultimo": 148.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2001f1": {
+   "colocados": 35,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 147.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 127.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 128.5,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 45,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 133.3,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 38,
+   "nota_ultimo": 126.8,
+   "sobras": 0,
+   "vagas": 38
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,102 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1432",
+ "code": "3041",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Florestal",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3041-1432",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 75,
+   "candidatos_1opcao": 2,
+   "colocados": 9,
+   "colocados_1opcao": 2,
+   "media_candidatura": 108.7,
+   "media_provas": 93.4,
+   "media_secundario": 126.7,
+   "nota_ultimo": 74.0,
+   "sobras": 41,
+   "vagas": 50
+  },
+  "1999f1": {
+   "candidatos": 136,
+   "candidatos_1opcao": 9,
+   "colocados": 37,
+   "colocados_1opcao": 9,
+   "media_candidatura": 118.4,
+   "media_provas": 103.6,
+   "media_secundario": 126.2,
+   "nota_ultimo": 101.3,
+   "sobras": 32,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 18,
+   "nota_ultimo": 103.7,
+   "sobras": 42,
+   "vagas": 60
+  },
+  "2001f1": {
+   "colocados": 21,
+   "nota_ultimo": 78.9,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 17,
+   "nota_ultimo": 77.6,
+   "sobras": 28,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 7,
+   "nota_ultimo": 100.8,
+   "sobras": 28,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 1,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 133.8,
+   "sobras": 18,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 1,
+   "nota_ultimo": 130.3,
+   "sobras": 12,
+   "vagas": 13
+  },
+  "2005f2": {
+   "colocados": 0,
+   "sobras": 12,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

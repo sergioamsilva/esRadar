@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1217",
+ "code": "3032",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Design Industrial",
+ "distrito": "Braga",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Cávado e do Ave",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3032-1217",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 115.1,
+   "sobras": 10,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 18,
+   "nota_ultimo": 115.2,
+   "sobras": 0,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 32,
+   "nota_ultimo": 107.7,
+   "sobras": 13,
+   "vagas": 45
+  },
+  "2006f2": {
+   "colocados": 20,
+   "nota_ultimo": 127.5,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

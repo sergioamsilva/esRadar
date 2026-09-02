@@ -222,6 +222,96 @@
   }
  ],
  "series": {
+  "2014f1": {
+   "colocados": 59,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2014f2": {
+   "colocados": 7,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2014f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas_recolocacao": 2
+  },
+  "2015f1": {
+   "colocados": 59,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2015f2": {
+   "colocados": 13,
+   "nota_ultimo": 156.5,
+   "sobras": 0,
+   "vagas": 10,
+   "vagas_recolocacao": 3
+  },
+  "2015f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas_recolocacao": 1
+  },
+  "2016f1": {
+   "colocados": 58,
+   "nota_ultimo": 155.5,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2016f2": {
+   "colocados": 7,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  },
+  "2016f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas_recolocacao": 1
+  },
+  "2017f1": {
+   "candidatos": 849,
+   "candidatos_1opcao": 118,
+   "candidatos_homens": 233,
+   "candidatos_mulheres": 616,
+   "colocados": 60,
+   "colocados_1opcao": 18,
+   "colocados_homens": 18,
+   "colocados_mulheres": 42,
+   "media_candidatura": 160.8,
+   "media_provas": 161.8,
+   "nota_ultimo": 157.5,
+   "sobras": 0,
+   "vagas": 58
+  },
+  "2017f2": {
+   "candidatos": 175,
+   "candidatos_1opcao": 40,
+   "candidatos_homens": 56,
+   "candidatos_mulheres": 119,
+   "colocados": 15,
+   "colocados_1opcao": 5,
+   "colocados_homens": 5,
+   "colocados_mulheres": 10,
+   "media_candidatura": 158.9,
+   "media_provas": 161.6,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 7
+  },
+  "2017f3": {
+   "colocados": 0,
+   "sobras": 2,
+   "vagas_recolocacao": 2
+  },
   "2018f1": {
    "candidatos": 742,
    "candidatos_1opcao": 116,
@@ -399,7 +489,8 @@
   },
   "2022f3": {
    "colocados": 0,
-   "sobras": 2
+   "sobras": 2,
+   "vagas_recolocacao": 2
   },
   "2023f1": {
    "candidatos": 439,

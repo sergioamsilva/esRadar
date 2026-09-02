@@ -1,0 +1,75 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1782",
+ "code": "3103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Teatro",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Artes e Design",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3103-1782",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2003f1": {
+   "colocados": 20,
+   "nota_ultimo": 119.0,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 25,
+   "nota_ultimo": 114.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 109.3,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 22,
+   "nota_ultimo": 111.1,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 12,
+   "nota_ultimo": 107.7,
+   "sobras": 5,
+   "vagas": 15,
+   "vagas_recolocacao": 2
+  },
+  "2006f1": {
+   "colocados": 20,
+   "nota_ultimo": 120.4,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2006f2": {
+   "colocados": 9,
+   "nota_ultimo": 112.2,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

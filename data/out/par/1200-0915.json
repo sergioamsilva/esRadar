@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0915",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica, r. de Manutenção Industrial-Sistemas Electromecânicos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-0915",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 110,
+   "candidatos_1opcao": 5,
+   "colocados": 10,
+   "colocados_1opcao": 5,
+   "media_candidatura": 91.2,
+   "media_provas": 63.5,
+   "media_secundario": 117.0,
+   "nota_ultimo": 63.5,
+   "sobras": 51,
+   "vagas": 60
+  },
+  "1998f1": {
+   "candidatos": 104,
+   "candidatos_1opcao": 5,
+   "colocados": 16,
+   "colocados_1opcao": 5,
+   "media_candidatura": 112.6,
+   "media_provas": 100.9,
+   "media_secundario": 123.8,
+   "nota_ultimo": 70.5,
+   "sobras": 39,
+   "vagas": 55
+  },
+  "1999f1": {
+   "candidatos": 20,
+   "candidatos_1opcao": 1,
+   "colocados": 1,
+   "colocados_1opcao": 1,
+   "media_candidatura": 130.0,
+   "media_provas": 120.0,
+   "media_secundario": 140.0,
+   "nota_ultimo": 130.0,
+   "sobras": 44,
+   "vagas": 45
+  },
+  "2000f1": {
+   "colocados": 7,
+   "nota_ultimo": 96.4,
+   "sobras": 38,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 6,
+   "nota_ultimo": 95.1,
+   "sobras": 39,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 2,
+   "nota_ultimo": 133.0,
+   "sobras": 38,
+   "vagas": 40
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

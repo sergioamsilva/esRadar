@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1308",
+ "code": "3182",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Sistemas e Informática",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3182-1308",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 271,
+   "candidatos_1opcao": 35,
+   "colocados": 41,
+   "colocados_1opcao": 18,
+   "media_candidatura": 104.0,
+   "media_provas": 79.6,
+   "media_secundario": 128.1,
+   "nota_ultimo": 92.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 421,
+   "candidatos_1opcao": 82,
+   "colocados": 50,
+   "colocados_1opcao": 37,
+   "media_candidatura": 112.7,
+   "media_provas": 72.1,
+   "media_secundario": 134.4,
+   "nota_ultimo": 107.3,
+   "sobras": 3,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 51,
+   "nota_ultimo": 115.2,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 104.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 52,
+   "nota_ultimo": 107.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 101.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 60,
+   "nota_ultimo": 100.4,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 95.9,
+   "sobras": 3,
+   "vagas": 5,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 40,
+   "nota_ultimo": 111.1,
+   "sobras": 35,
+   "vagas": 75
+  },
+  "2005f2": {
+   "colocados": 32,
+   "nota_ultimo": 108.9,
+   "sobras": 10,
+   "vagas": 38,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

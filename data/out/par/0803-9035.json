@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9035",
+ "code": "0803",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências de Engenharia - Engenharia Florestal",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior de Agronomia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0803-9035",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 5,
+   "nota_ultimo": 105.8,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 8,
+   "nota_ultimo": 107.8,
+   "sobras": 20,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2007f1": {
+   "candidatos_1opcao": 7,
+   "colocados": 20,
+   "nota_ultimo": 112.8,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 130.0,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

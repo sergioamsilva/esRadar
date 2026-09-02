@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1164",
+ "code": "7110",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Direcção e Gestão de Operadores Turísticos",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Escola Superior de Hotelaria e Turismo do Estoril",
+ "infocursos": null,
+ "instituicao": "Escola Superior de Hotelaria e Turismo do Estoril",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7110-1164",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 80,
+   "candidatos_1opcao": 6,
+   "colocados": 21,
+   "colocados_1opcao": 5,
+   "media_candidatura": 122.6,
+   "media_provas": 111.7,
+   "media_secundario": 132.4,
+   "nota_ultimo": 113.5,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "1999f1": {
+   "candidatos": 67,
+   "candidatos_1opcao": 10,
+   "colocados": 20,
+   "colocados_1opcao": 7,
+   "media_candidatura": 119.6,
+   "media_provas": 104.8,
+   "media_secundario": 134.0,
+   "nota_ultimo": 108.0,
+   "sobras": 4,
+   "vagas": 20
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 110.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 104.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 134.4,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 141.2,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 132.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 6,
+   "nota_ultimo": 137.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

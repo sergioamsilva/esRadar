@@ -28,7 +28,11 @@ const ep = epoca();
       <p>
         A DGES retira estas páginas no fim de cada época — os anos de 2018 a 2025 foram
         recuperados das capturas do <a href="https://arquivo.pt/" rel="noopener">Arquivo.pt</a>,
-        com a data de cada captura registada no repositório. Na época de 2026,{" "}
+        com a data de cada captura registada no repositório. De 1997 a 2017 os ficheiros
+        vêm da página de{" "}
+        <a href="https://www.dges.gov.pt/pt/pagina/regime-geral-ensino-superior-publico-concurso-nacional-de-acesso" rel="noopener">estatísticas do concurso</a>{" "}
+        da própria DGES, que os mantém no ar: a 1ª fase desde 1997, a 2ª desde 2004 e a 3ª
+        desde 2012. Na época de 2026,{" "}
         {ep.fases_arquivadas.length === 1 ? "está arquivada a" : "estão arquivadas as"}{" "}
         {ep.fases_arquivadas.map((f) => `${f}ª`).join(" e ")}{" "}
         {ep.fases_arquivadas.length === 1 ? "fase" : "fases"}.
@@ -91,9 +95,11 @@ const ep = epoca();
           candidatos por curso no guia do ano seguinte.
         </li>
         <li>
-          <strong>O horizonte é 2018.</strong> Antes disso não há fontes estruturadas —
-          os ficheiros de resultados só sobrevivem no Arquivo.pt a partir de 2018, e o
-          resto era PDF.
+          <strong>As séries por curso começam em 2007.</strong> Os resultados existem
+          desde 1997, mas os códigos de curso atuais nascem com a adequação a Bolonha:
+          antes de 2007 quase nenhum par tem o código de hoje. Os anos anteriores ficam nos
+          totais nacionais e nas fichas dos cursos extintos; a procura por curso vem do guia
+          (2017 em diante) e dos ficheiros de 1997 a 1999.
         </li>
         <li>
           <strong>Só ensino público, regime geral.</strong> Fora ficam o ensino privado,

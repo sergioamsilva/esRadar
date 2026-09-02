@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1647",
+ "code": "3042",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do Ensino Básico, variante de Educação Física",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3042-1647",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 113,
+   "candidatos_1opcao": 13,
+   "colocados": 35,
+   "colocados_1opcao": 11,
+   "media_candidatura": 113.1,
+   "media_provas": 103.7,
+   "media_secundario": 121.4,
+   "nota_ultimo": 101.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1999f1": {
+   "candidatos": 154,
+   "candidatos_1opcao": 24,
+   "colocados": 50,
+   "colocados_1opcao": 19,
+   "media_candidatura": 115.8,
+   "media_provas": 97.3,
+   "media_secundario": 126.0,
+   "nota_ultimo": 105.8,
+   "sobras": 15,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 34,
+   "nota_ultimo": 96.7,
+   "sobras": 16,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 21,
+   "nota_ultimo": 100.8,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 104.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 21,
+   "nota_ultimo": 96.4,
+   "sobras": 19,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 7,
+   "nota_ultimo": 98.0,
+   "sobras": 23,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 95.7,
+   "sobras": 24,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 1,
+   "nota_ultimo": 119.3,
+   "sobras": 14,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 109.5,
+   "sobras": 13,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 12,
+   "nota_ultimo": 106.8,
+   "sobras": 10,
+   "vagas": 22
+  },
+  "2006f2": {
+   "colocados": 12,
+   "nota_ultimo": 115.0,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

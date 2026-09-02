@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0596",
+ "code": "0300",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Novas Tecnologias da Comunicação",
+ "distrito": "Aveiro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Aveiro",
+ "infocursos": null,
+ "instituicao": "Universidade de Aveiro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0300-0596",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 161,
+   "candidatos_1opcao": 86,
+   "colocados": 35,
+   "colocados_1opcao": 28,
+   "media_candidatura": 149.9,
+   "media_provas": 155.1,
+   "media_secundario": 144.6,
+   "nota_ultimo": 143.5,
+   "sobras": 1,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 113,
+   "candidatos_1opcao": 65,
+   "colocados": 40,
+   "colocados_1opcao": 33,
+   "media_candidatura": 146.9,
+   "media_provas": 150.8,
+   "media_secundario": 143.2,
+   "nota_ultimo": 135.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "1999f1": {
+   "candidatos": 114,
+   "candidatos_1opcao": 63,
+   "colocados": 40,
+   "colocados_1opcao": 33,
+   "media_candidatura": 145.2,
+   "media_provas": 146.6,
+   "media_secundario": 144.0,
+   "nota_ultimo": 136.0,
+   "sobras": 2,
+   "vagas": 40
+  },
+  "2000f1": {
+   "colocados": 40,
+   "nota_ultimo": 147.6,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 152.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 41,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 41,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 52,
+   "nota_ultimo": 148.5,
+   "sobras": 0,
+   "vagas": 52
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 152.5,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 60,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 154.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

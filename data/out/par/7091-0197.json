@@ -1,0 +1,52 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0197",
+ "code": "7091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Enfermagem",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade dos Açores",
+ "infocursos": null,
+ "instituicao": "Universidade dos Açores - Escola Superior de Enfermagem de Ponta Delgada",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7091-0197",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 207,
+   "candidatos_1opcao": 51,
+   "colocados": 35,
+   "colocados_1opcao": 35,
+   "media_candidatura": 134.9,
+   "media_provas": 128.8,
+   "media_secundario": 140.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "1998f1": {
+   "candidatos": 268,
+   "candidatos_1opcao": 78,
+   "colocados": 35,
+   "colocados_1opcao": 35,
+   "media_candidatura": 138.6,
+   "media_provas": 134.9,
+   "media_secundario": 142.3,
+   "sobras": 0,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

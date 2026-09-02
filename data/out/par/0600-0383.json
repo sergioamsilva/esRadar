@@ -1,0 +1,84 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0383",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Física e Química (Ensino de)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0383",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 176,
+   "candidatos_1opcao": 13,
+   "colocados": 25,
+   "colocados_1opcao": 6,
+   "media_candidatura": 135.3,
+   "media_provas": 126.3,
+   "media_secundario": 144.4,
+   "nota_ultimo": 124.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 145,
+   "candidatos_1opcao": 17,
+   "colocados": 30,
+   "colocados_1opcao": 10,
+   "media_candidatura": 136.2,
+   "media_provas": 123.0,
+   "media_secundario": 149.3,
+   "nota_ultimo": 124.8,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 154,
+   "candidatos_1opcao": 20,
+   "colocados": 30,
+   "colocados_1opcao": 10,
+   "media_candidatura": 129.0,
+   "media_provas": 115.3,
+   "media_secundario": 142.7,
+   "nota_ultimo": 116.3,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 29,
+   "nota_ultimo": 101.3,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 5,
+   "nota_ultimo": 109.0,
+   "sobras": 25,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 2,
+   "nota_ultimo": 109.3,
+   "sobras": 23,
+   "vagas": 25
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,56 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9734",
+ "code": "1204",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ecologia Aplicada",
+ "distrito": "Vila Real",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1204-9734",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 17,
+   "nota_ultimo": 98.0,
+   "sobras": 5,
+   "vagas": 22
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 114.3,
+   "sobras": 4,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 127.2,
+   "sobras": 20,
+   "vagas": 22
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 101.0,
+   "sobras": 20,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

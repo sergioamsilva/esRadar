@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0654",
+ "code": "6800",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Finanças",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "ISCTE",
+ "infocursos": null,
+ "instituicao": "ISCTE - Instituto Universitário de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "6800-0654",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 226,
+   "candidatos_1opcao": 27,
+   "colocados": 72,
+   "colocados_1opcao": 27,
+   "media_candidatura": 121.8,
+   "media_provas": 108.3,
+   "media_secundario": 135.8,
+   "nota_ultimo": 96.5,
+   "sobras": 8,
+   "vagas": 80
+  },
+  "1999f1": {
+   "candidatos": 284,
+   "candidatos_1opcao": 32,
+   "colocados": 79,
+   "colocados_1opcao": 32,
+   "media_candidatura": 119.2,
+   "media_provas": 104.5,
+   "media_secundario": 133.9,
+   "nota_ultimo": 97.5,
+   "sobras": 8,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 80,
+   "nota_ultimo": 112.5,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "2001f1": {
+   "colocados": 40,
+   "nota_ultimo": 101.5,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 40,
+   "nota_ultimo": 115.0,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 119.3,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 0,
+   "vagas": 0,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 22,
+   "nota_ultimo": 113.0,
+   "sobras": 13,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 123.5,
+   "sobras": 0,
+   "vagas": 13,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

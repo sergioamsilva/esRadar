@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9844",
+ "code": "3081",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Tradução e Interpretação Multimédia",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Educação e Comunicação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3081-9844",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 10,
+   "colocados": 12,
+   "nota_ultimo": 126.4,
+   "sobras": 8,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 114.2,
+   "sobras": 8,
+   "vagas": 10,
+   "vagas_recolocacao": 1
+  },
+  "2008f1": {
+   "colocados": 6,
+   "nota_ultimo": 117.6,
+   "sobras": 14,
+   "vagas": 20
+  },
+  "2008f2": {
+   "colocados": 3,
+   "nota_ultimo": 116.5,
+   "sobras": 12,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

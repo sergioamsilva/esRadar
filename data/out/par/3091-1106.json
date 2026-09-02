@@ -1,0 +1,87 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1106",
+ "code": "3091",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Comunicação e Relações Económicas",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3091-1106",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 18,
+   "nota_ultimo": 105.8,
+   "sobras": 32,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 120.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 101.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 41,
+   "nota_ultimo": 93.3,
+   "sobras": 1,
+   "vagas": 42
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 115.6,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 120.0,
+   "sobras": 33,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 18,
+   "nota_ultimo": 103.2,
+   "sobras": 16,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 11,
+   "nota_ultimo": 106.5,
+   "sobras": 19,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 10,
+   "nota_ultimo": 102.2,
+   "sobras": 14,
+   "vagas": 23,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

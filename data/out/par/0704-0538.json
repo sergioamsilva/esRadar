@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0538",
+ "code": "0704",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas e Literaturas Modernas, variante de Estudos Portugueses e Ingleses",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade de Lisboa - Faculdade de Letras",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0704-0538",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 445,
+   "candidatos_1opcao": 101,
+   "colocados": 50,
+   "colocados_1opcao": 36,
+   "media_candidatura": 152.9,
+   "media_provas": 149.8,
+   "media_secundario": 156.0,
+   "nota_ultimo": 143.5,
+   "sobras": 2,
+   "vagas": 50
+  },
+  "1998f1": {
+   "candidatos": 517,
+   "candidatos_1opcao": 109,
+   "colocados": 71,
+   "colocados_1opcao": 63,
+   "media_candidatura": 149.5,
+   "media_provas": 145.9,
+   "media_secundario": 153.2,
+   "nota_ultimo": 140.8,
+   "sobras": 0,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 476,
+   "candidatos_1opcao": 115,
+   "colocados": 80,
+   "colocados_1opcao": 65,
+   "media_candidatura": 148.4,
+   "media_provas": 144.2,
+   "media_secundario": 153.1,
+   "nota_ultimo": 137.3,
+   "sobras": 1,
+   "vagas": 80
+  },
+  "2000f1": {
+   "colocados": 90,
+   "nota_ultimo": 118.0,
+   "sobras": 0,
+   "vagas": 90
+  },
+  "2001f1": {
+   "colocados": 74,
+   "nota_ultimo": 101.8,
+   "sobras": 16,
+   "vagas": 90
+  },
+  "2002f1": {
+   "colocados": 41,
+   "nota_ultimo": 109.3,
+   "sobras": 29,
+   "vagas": 70
+  },
+  "2003f1": {
+   "colocados": 27,
+   "nota_ultimo": 118.5,
+   "sobras": 43,
+   "vagas": 70
+  },
+  "2004f1": {
+   "colocados": 10,
+   "nota_ultimo": 114.8,
+   "sobras": 60,
+   "vagas": 70
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 113.5,
+   "sobras": 59,
+   "vagas": 60,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 8,
+   "nota_ultimo": 117.0,
+   "sobras": 42,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 3,
+   "nota_ultimo": 116.3,
+   "sobras": 40,
+   "vagas": 43,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

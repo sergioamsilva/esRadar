@@ -1,0 +1,89 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9180",
+ "code": "3045",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Guia Intérprete",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3045-9180",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 5,
+   "nota_ultimo": 119.3,
+   "sobras": 35,
+   "vagas": 40
+  },
+  "2009f2": {
+   "colocados": 2,
+   "nota_ultimo": 120.0,
+   "sobras": 34,
+   "vagas": 36,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 4,
+   "nota_ultimo": 111.3,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 5,
+   "nota_ultimo": 116.1,
+   "sobras": 24,
+   "vagas": 28,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 122.8,
+   "sobras": 23,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 4,
+   "nota_ultimo": 127.0,
+   "sobras": 21,
+   "vagas": 25,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 3,
+   "nota_ultimo": 100.0,
+   "sobras": 22,
+   "vagas": 25
+  },
+  "2012f2": {
+   "colocados": 1,
+   "nota_ultimo": 117.6,
+   "sobras": 22,
+   "vagas": 23,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 1,
+   "nota_ultimo": 107.7,
+   "sobras": 21,
+   "vagas": 22,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

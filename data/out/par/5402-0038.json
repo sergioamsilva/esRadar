@@ -1,0 +1,80 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0038",
+ "code": "5402",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Artes Plásticas - Escultura",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Belas-Artes",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "5402-0038",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 45,
+   "nota_ultimo": 155.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 46,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 46,
+   "nota_ultimo": 142.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 9,
+   "nota_ultimo": 109.0,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 32,
+   "nota_ultimo": 102.5,
+   "sobras": 13,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 19,
+   "nota_ultimo": 108.5,
+   "sobras": 3,
+   "vagas": 20,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

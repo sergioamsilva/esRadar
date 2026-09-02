@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1502",
+ "code": "3023",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Estratégia e Gestão Turísticas",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3023-1502",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 51,
+   "candidatos_1opcao": 12,
+   "colocados": 21,
+   "colocados_1opcao": 12,
+   "media_candidatura": 115.8,
+   "media_provas": 106.7,
+   "media_secundario": 125.2,
+   "nota_ultimo": 103.5,
+   "sobras": 31,
+   "vagas": 52
+  },
+  "1999f1": {
+   "candidatos": 32,
+   "candidatos_1opcao": 6,
+   "colocados": 12,
+   "colocados_1opcao": 6,
+   "media_candidatura": 120.0,
+   "media_provas": 109.6,
+   "media_secundario": 130.8,
+   "nota_ultimo": 103.0,
+   "sobras": 41,
+   "vagas": 50
+  },
+  "2000f1": {
+   "colocados": 10,
+   "nota_ultimo": 114.0,
+   "sobras": 30,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 15,
+   "nota_ultimo": 112.5,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 125.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 35,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 110.0,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 99.5,
+   "sobras": 11,
+   "vagas": 12,
+   "vagas_recolocacao": 5
+  },
+  "2005f1": {
+   "colocados": 25,
+   "nota_ultimo": 106.5,
+   "sobras": 10,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 106.1,
+   "sobras": 2,
+   "vagas": 12,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

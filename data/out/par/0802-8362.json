@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8362",
+ "code": "0802",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Cenografia (regime pós-laboral)",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Faculdade de Arquitectura",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0802-8362",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 12,
+   "nota_ultimo": 123.3,
+   "sobras": 13,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 20,
+   "nota_ultimo": 117.5,
+   "sobras": 0,
+   "vagas": 19,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 10,
+   "nota_ultimo": 110.5,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 3,
+   "nota_ultimo": 129.8,
+   "sobras": 15,
+   "vagas": 17,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 8,
+   "nota_ultimo": 113.8,
+   "sobras": 17,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 15,
+   "nota_ultimo": 118.5,
+   "sobras": 5,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

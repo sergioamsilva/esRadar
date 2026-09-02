@@ -45,13 +45,43 @@
 - Conteúdo original sem moldura: `https://arquivo.pt/noFrame/replay/{ts}id_/{url}`.
 - 2018 é o primeiro ano com os XLS de resultados capturados; 2014–2017 não têm.
 
-## Série longa 1997–2017
+## Série longa 1997–2017 (página de estatísticas da DGES)
 
-A página «Estatísticas do Acesso ao Ensino Superior Público – 1997 a 2025»
-(plid=593) só aloja os XLS por par de 2019–2025 — os mesmos que temos via
-Arquivo.pt. O período 1997–2017 existe apenas em PDF/portais antigos
-(«CNA em números 2014–2018», PowerBI 2019) sem forma estruturada; a série
-nacional do esRadar começa por isso em 2018, reconstruída par a par.
+A página «Regime geral — Concurso Nacional de Acesso» (plid=593) aloja
+XLS/ODS por par para **todos** os anos desde 1997: 1ª fase desde 1997, 2ª
+desde 2004, 3ª desde 2012 (ingest/historico.py, tabela de URLs curada à
+mão — os nomes não seguem padrão entre 2004 e 2013). Verificado em
+2026-09: o ficheiro de 2025 aí publicado é byte a byte igual à captura do
+Arquivo.pt. Quatro gerações de cabeçalho:
+
+- **1997–1999**: duas linhas de cabeçalho («Candidatos» / «Colocados» /
+  «Médias dos colocados» em cima; «Total» / «1ª op.» / «Nota» / «PI» /
+  «12º» em baixo); códigos em «Estab» / «Curso». Únicos anos com
+  candidatos e médias dos colocados fora do guia. Nota do último colocado
+  = 0 significa «sem colocados pelo contingente geral» (nota da DGES no
+  ficheiro de 2000) — o build converte em ausente.
+- **2000–2011**: «Código Estab.» / «Código Curso», «Colocados (vaga
+  adic.)» somado aos colocados, «Sobras para 2ª fase». 2007 é a exceção:
+  «Cód. Estab.», «Vagas 2007», «Candidatos 1ºop 2007», «Adicionais 2007»,
+  e lista pares sem vagas (linhas vazias, ignoradas).
+- **2012–2017**: ODS/XLS com linha «(1)…(9)» sob o cabeçalho, «Estudantes
+  colocados», «Nota de candidatura do último colocado…», «Vagas não
+  ocupadas»; em 2016 cabeçalhos em prosa («Vagas colocadas a concurso na
+  2.ª fase quando da abertura da candidatura»).
+- **2018+**: o formato da época (ver acima).
+
+Os códigos de curso atuais nascem com a adequação a Bolonha: dos pares
+ativos em 2026, nenhum tem nota antes de 2006, 188 em 2006, 427 em 2007,
+~800 em 2018. Por isso as vistas por curso do site começam em 2007
+(`ANO_INICIO_CURSOS` em site/src/lib/dados.ts) e os totais nacionais em
+1997 (`ANO_MINIMO` em build.py). 57 códigos de estabelecimento só existem
+nos ficheiros antigos (fusão UL/UTL em 2013, escolas de enfermagem
+integradas em 2007, polos encerrados) — estão no fim de
+reference/instituicoes.yaml com `ultimo_ano`.
+
+Também na página: PDFs por ano em `guias/pdfs/statcol/{ano}/` (resumo,
+comparações, «distrito de candidatura vs. colocação») — links injetados por
+JavaScript, não estruturados, por integrar.
 
 ## Cobertura parcial de folhas do Infocursos
 
@@ -61,9 +91,9 @@ nacional do esRadar começa por isso em 2018, reconstruída par a par.
 
 ## Horizonte temporal
 
-Decisão de projeto (2026-08): o portal trabalha **de 2018 em diante** — é
-onde todas as fontes estruturadas coincidem (XLS de resultados via
-Arquivo.pt começam em 2018). `ANO_MINIMO` em build.py.
+Decisão de projeto (2026-09, revê a de 2026-08): resultados **desde 1997**
+(`ANO_MINIMO` em build.py); as vistas por curso no site desde 2007, porque
+antes disso os códigos de curso são outros (ver «Série longa»).
 
 ## Guias antigos (Arquivo.pt)
 

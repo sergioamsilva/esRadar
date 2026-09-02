@@ -1,0 +1,60 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0707",
+ "code": "3104",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ensino Básico - 1.º Ciclo",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Educação de Leiria (Caldas da Rainha)",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3104-0707",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 221,
+   "candidatos_1opcao": 20,
+   "colocados": 25,
+   "colocados_1opcao": 8,
+   "media_candidatura": 133.5,
+   "media_provas": 131.2,
+   "media_secundario": 136.4,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 528,
+   "candidatos_1opcao": 81,
+   "colocados": 25,
+   "colocados_1opcao": 15,
+   "media_candidatura": 142.9,
+   "media_provas": 136.7,
+   "media_secundario": 144.8,
+   "nota_ultimo": 137.4,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 134.8,
+   "sobras": 0,
+   "vagas": 25
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

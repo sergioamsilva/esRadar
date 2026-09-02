@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0080",
+ "code": "1109",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Ciências da Educação",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Porto",
+ "infocursos": null,
+ "instituicao": "Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1109-0080",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 35,
+   "nota_ultimo": 164.5,
+   "sobras": 0,
+   "vagas": 35
+  },
+  "2003f1": {
+   "colocados": 48,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 48
+  },
+  "2004f1": {
+   "colocados": 57,
+   "nota_ultimo": 156.0,
+   "sobras": 0,
+   "vagas": 57
+  },
+  "2004f2": {
+   "colocados": 19,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 17,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 55,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2005f2": {
+   "colocados": 17,
+   "nota_ultimo": 153.5,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 5
+  },
+  "2006f1": {
+   "colocados": 55,
+   "nota_ultimo": 149.0,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "2006f2": {
+   "colocados": 21,
+   "nota_ultimo": 139.5,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 7
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

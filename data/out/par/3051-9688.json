@@ -1,0 +1,55 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9688",
+ "code": "3051",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Biologia Aplicada",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3051-9688",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2010f1": {
+   "colocados": 12,
+   "nota_ultimo": 111.9,
+   "sobras": 18,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 7,
+   "nota_ultimo": 109.0,
+   "sobras": 15,
+   "vagas": 20,
+   "vagas_recolocacao": 2
+  },
+  "2011f1": {
+   "colocados": 6,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2011f2": {
+   "colocados": 7,
+   "nota_ultimo": 115.5,
+   "sobras": 20,
+   "vagas": 23,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

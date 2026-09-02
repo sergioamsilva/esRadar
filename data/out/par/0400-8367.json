@@ -1,0 +1,88 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8367",
+ "code": "0400",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Filosofia (regime pós-laboral)",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade da Beira Interior",
+ "infocursos": null,
+ "instituicao": "Universidade da Beira Interior",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0400-8367",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 2,
+   "nota_ultimo": 113.6,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2009f2": {
+   "colocados": 5,
+   "nota_ultimo": 110.6,
+   "sobras": 13,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 4,
+   "nota_ultimo": 95.0,
+   "sobras": 16,
+   "vagas": 20
+  },
+  "2010f2": {
+   "colocados": 9,
+   "nota_ultimo": 100.0,
+   "sobras": 9,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2011f1": {
+   "colocados": 2,
+   "nota_ultimo": 97.0,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 111.7,
+   "sobras": 17,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2012f1": {
+   "colocados": 1,
+   "nota_ultimo": 114.0,
+   "sobras": 19,
+   "vagas": 20
+  },
+  "2012f2": {
+   "colocados": 4,
+   "nota_ultimo": 113.9,
+   "sobras": 17,
+   "vagas": 21,
+   "vagas_recolocacao": 0
+  },
+  "2012f3": {
+   "colocados": 0,
+   "sobras": 19,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

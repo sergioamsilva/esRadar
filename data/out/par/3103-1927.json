@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1927",
+ "code": "3103",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Design, opção de Design Industrial",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Artes e Design",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3103-1927",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 332,
+   "candidatos_1opcao": 50,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 149.8,
+   "media_provas": 161.3,
+   "media_secundario": 139.7,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 339,
+   "candidatos_1opcao": 41,
+   "colocados": 30,
+   "colocados_1opcao": 15,
+   "media_candidatura": 150.8,
+   "media_provas": 168.4,
+   "media_secundario": 141.3,
+   "nota_ultimo": 149.8,
+   "sobras": 12,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 150.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 150.3,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 145.1,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 143.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 138.4,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 143.2,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 135.5,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 136.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 4,
+   "nota_ultimo": 154.2,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

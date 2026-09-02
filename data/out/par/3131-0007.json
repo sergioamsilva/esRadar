@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0007",
+ "code": "3131",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Acção Social Escolar",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3131-0007",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 510,
+   "candidatos_1opcao": 86,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 133.5,
+   "media_provas": 130.6,
+   "media_secundario": 135.0,
+   "nota_ultimo": 134.5,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 446,
+   "candidatos_1opcao": 61,
+   "colocados": 31,
+   "colocados_1opcao": 16,
+   "media_candidatura": 140.2,
+   "media_provas": 146.3,
+   "media_secundario": 134.2,
+   "nota_ultimo": 139.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 534,
+   "candidatos_1opcao": 92,
+   "colocados": 30,
+   "colocados_1opcao": 11,
+   "media_candidatura": 141.0,
+   "media_provas": 143.3,
+   "media_secundario": 138.0,
+   "nota_ultimo": 140.0,
+   "sobras": 7,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 147.5,
+   "sobras": 0,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1696",
+ "code": "3123",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Produção e Utilização de Cavalos",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior Agrária de Elvas",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3123-1696",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 19,
+   "candidatos_1opcao": 2,
+   "colocados": 7,
+   "colocados_1opcao": 2,
+   "media_candidatura": 132.7,
+   "media_provas": 126.9,
+   "media_secundario": 138.6,
+   "nota_ultimo": 103.0,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2000f1": {
+   "colocados": 5,
+   "nota_ultimo": 112.5,
+   "sobras": 10,
+   "vagas": 15
+  },
+  "2001f1": {
+   "colocados": 5,
+   "nota_ultimo": 107.8,
+   "sobras": 10,
+   "vagas": 15
+  },
+  "2002f1": {
+   "colocados": 12,
+   "nota_ultimo": 108.3,
+   "sobras": 3,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 7,
+   "nota_ultimo": 98.5,
+   "sobras": 8,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 13,
+   "nota_ultimo": 107.9,
+   "sobras": 2,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 10,
+   "vagas": 9,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 4,
+   "nota_ultimo": 117.6,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 1,
+   "nota_ultimo": 141.5,
+   "sobras": 13,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

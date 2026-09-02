@@ -1,0 +1,143 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0027",
+ "code": "0802",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Arquitectura da Gestão Urbanística",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Faculdade de Arquitectura",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0802-0027",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 400,
+   "candidatos_1opcao": 11,
+   "colocados": 25,
+   "colocados_1opcao": 3,
+   "media_candidatura": 170.3,
+   "media_provas": 187.7,
+   "media_secundario": 153.6,
+   "nota_ultimo": 170.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 360,
+   "candidatos_1opcao": 9,
+   "colocados": 25,
+   "colocados_1opcao": 1,
+   "media_candidatura": 168.2,
+   "media_provas": 185.2,
+   "media_secundario": 151.2,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 302,
+   "candidatos_1opcao": 11,
+   "colocados": 31,
+   "colocados_1opcao": 4,
+   "media_candidatura": 169.3,
+   "media_provas": 188.7,
+   "media_secundario": 150.0,
+   "nota_ultimo": 167.5,
+   "sobras": 4,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 160.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 169.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 159.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2003f1": {
+   "colocados": 30,
+   "nota_ultimo": 163.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 153.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 162.5,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 1
+  },
+  "2005f1": {
+   "colocados": 30,
+   "nota_ultimo": 158.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 161.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2006f1": {
+   "colocados": 30,
+   "nota_ultimo": 154.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 9,
+   "nota_ultimo": 165.5,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 3
+  },
+  "2007f1": {
+   "candidatos_1opcao": 4,
+   "colocados": 26,
+   "nota_ultimo": 143.3,
+   "sobras": 5,
+   "vagas": 31
+  },
+  "2007f2": {
+   "colocados": 12,
+   "nota_ultimo": 137.5,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

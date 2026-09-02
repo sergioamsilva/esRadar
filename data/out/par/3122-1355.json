@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1355",
+ "code": "3122",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electromecânica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Portalegre",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3122-1355",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 43,
+   "candidatos_1opcao": 7,
+   "colocados": 12,
+   "colocados_1opcao": 7,
+   "media_candidatura": 98.0,
+   "media_provas": 54.4,
+   "media_secundario": 122.5,
+   "nota_ultimo": 88.1,
+   "sobras": 48,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 27,
+   "nota_ultimo": 78.0,
+   "sobras": 28,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 23,
+   "nota_ultimo": 91.5,
+   "sobras": 32,
+   "vagas": 55
+  },
+  "2002f1": {
+   "colocados": 11,
+   "nota_ultimo": 106.5,
+   "sobras": 34,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 3,
+   "nota_ultimo": 114.5,
+   "sobras": 32,
+   "vagas": 35
+  },
+  "2004f1": {
+   "colocados": 9,
+   "nota_ultimo": 118.6,
+   "sobras": 13,
+   "vagas": 22
+  },
+  "2004f2": {
+   "colocados": 0,
+   "sobras": 16,
+   "vagas": 16,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": null,
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

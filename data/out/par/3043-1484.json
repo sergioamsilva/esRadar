@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1484",
+ "code": "3043",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Química",
+ "distrito": "Bragança",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Bragança",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3043-1484",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 77,
+   "candidatos_1opcao": 9,
+   "colocados": 27,
+   "colocados_1opcao": 9,
+   "media_candidatura": 106.3,
+   "media_provas": 80.8,
+   "media_secundario": 131.8,
+   "nota_ultimo": 87.5,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 239,
+   "candidatos_1opcao": 40,
+   "colocados": 70,
+   "colocados_1opcao": 29,
+   "media_candidatura": 112.3,
+   "media_provas": 78.4,
+   "media_secundario": 130.6,
+   "nota_ultimo": 103.8,
+   "sobras": 7,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 116,
+   "nota_ultimo": 104.3,
+   "sobras": 0,
+   "vagas": 115
+  },
+  "2001f1": {
+   "colocados": 101,
+   "nota_ultimo": 115.1,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2002f1": {
+   "colocados": 71,
+   "nota_ultimo": 82.9,
+   "sobras": 29,
+   "vagas": 100
+  },
+  "2003f1": {
+   "colocados": 36,
+   "nota_ultimo": 95.7,
+   "sobras": 34,
+   "vagas": 70
+  },
+  "2004f1": {
+   "colocados": 19,
+   "nota_ultimo": 105.3,
+   "sobras": 46,
+   "vagas": 65
+  },
+  "2004f2": {
+   "colocados": 7,
+   "nota_ultimo": 111.9,
+   "sobras": 46,
+   "vagas": 50,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 17,
+   "nota_ultimo": 118.1,
+   "sobras": 48,
+   "vagas": 65
+  },
+  "2005f2": {
+   "colocados": 9,
+   "nota_ultimo": 121.8,
+   "sobras": 54,
+   "vagas": 61,
+   "vagas_recolocacao": 2
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

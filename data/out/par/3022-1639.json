@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1639",
+ "code": "3022",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do 2.º Ciclo Ens. Básico, var. de Educação Visual e Tecnológica",
+ "distrito": "Beja",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Beja",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Beja - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3022-1639",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 115,
+   "candidatos_1opcao": 26,
+   "colocados": 25,
+   "colocados_1opcao": 15,
+   "media_candidatura": 136.7,
+   "media_provas": 138.8,
+   "media_secundario": 136.4,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 218,
+   "candidatos_1opcao": 39,
+   "colocados": 25,
+   "colocados_1opcao": 11,
+   "media_candidatura": 141.0,
+   "media_provas": 152.8,
+   "media_secundario": 134.8,
+   "nota_ultimo": 134.0,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 26,
+   "nota_ultimo": 117.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 20,
+   "nota_ultimo": 110.0,
+   "sobras": 5,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 25,
+   "nota_ultimo": 104.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 10,
+   "nota_ultimo": 117.8,
+   "sobras": 25,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

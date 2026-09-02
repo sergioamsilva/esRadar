@@ -1,0 +1,89 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0217",
+ "code": "0600",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Biofísica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Évora",
+ "infocursos": null,
+ "instituicao": "Universidade de Évora",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0600-0217",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 88,
+   "candidatos_1opcao": 4,
+   "colocados": 25,
+   "colocados_1opcao": 3,
+   "media_candidatura": 121.2,
+   "media_provas": 110.1,
+   "media_secundario": 132.8,
+   "nota_ultimo": 108.8,
+   "sobras": 2,
+   "vagas": 25
+  },
+  "1998f1": {
+   "candidatos": 117,
+   "candidatos_1opcao": 7,
+   "colocados": 25,
+   "colocados_1opcao": 1,
+   "media_candidatura": 130.5,
+   "media_provas": 121.3,
+   "media_secundario": 139.6,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 91,
+   "candidatos_1opcao": 12,
+   "colocados": 28,
+   "colocados_1opcao": 12,
+   "media_candidatura": 118.0,
+   "media_provas": 102.5,
+   "media_secundario": 133.6,
+   "nota_ultimo": 100.0,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 29,
+   "nota_ultimo": 105.8,
+   "sobras": 1,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 6,
+   "nota_ultimo": 108.3,
+   "sobras": 24,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 7,
+   "nota_ultimo": 106.8,
+   "sobras": 13,
+   "vagas": 20
+  },
+  "2003f1": {
+   "colocados": 0,
+   "sobras": 15,
+   "vagas": 15
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

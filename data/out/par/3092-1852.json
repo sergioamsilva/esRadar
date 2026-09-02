@@ -1,0 +1,73 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1852",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Auditoria (regime nocturno - só 1.º ciclo)",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-1852",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 94.5,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 4,
+   "nota_ultimo": 92.5,
+   "sobras": 21,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 10,
+   "sobras": 10,
+   "vagas": 20
+  },
+  "2004f1": {
+   "colocados": 11,
+   "nota_ultimo": 94.2,
+   "sobras": 9,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 100.1,
+   "sobras": 6,
+   "vagas": 9,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 2,
+   "nota_ultimo": 133.0,
+   "sobras": 18,
+   "vagas": 20
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 102.9,
+   "sobras": 16,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

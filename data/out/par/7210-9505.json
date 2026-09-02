@@ -1,0 +1,107 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9505",
+ "code": "7210",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Radiologia",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Coimbra",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "7210-9505",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2009f1": {
+   "colocados": 30,
+   "nota_ultimo": 144.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 7,
+   "nota_ultimo": 147.4,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 30,
+   "nota_ultimo": 152.6,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 8,
+   "nota_ultimo": 150.4,
+   "sobras": 0,
+   "vagas": 5,
+   "vagas_recolocacao": 3
+  },
+  "2011f1": {
+   "colocados": 30,
+   "nota_ultimo": 146.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2011f2": {
+   "colocados": 5,
+   "nota_ultimo": 145.8,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2012f1": {
+   "colocados": 31,
+   "nota_ultimo": 136.1,
+   "sobras": 0,
+   "vagas": 31
+  },
+  "2012f2": {
+   "colocados": 9,
+   "nota_ultimo": 132.3,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 7
+  },
+  "2012f3": {
+   "colocados": 2,
+   "nota_ultimo": 125.6,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 1
+  },
+  "2013f1": {
+   "colocados": 30,
+   "nota_ultimo": 126.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2013f2": {
+   "colocados": 6,
+   "nota_ultimo": 126.4,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 4
+  },
+  "2013f3": {
+   "colocados": 0,
+   "sobras": 1,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

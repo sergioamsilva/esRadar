@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0172",
+ "code": "0806",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Educação Especial e Reabilitação",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Faculdade de Motricidade Humana",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0806-0172",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 261,
+   "candidatos_1opcao": 50,
+   "colocados": 30,
+   "colocados_1opcao": 8,
+   "media_candidatura": 154.6,
+   "media_provas": 148.9,
+   "media_secundario": 160.3,
+   "nota_ultimo": 147.3,
+   "sobras": 2,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 238,
+   "candidatos_1opcao": 38,
+   "colocados": 30,
+   "colocados_1opcao": 8,
+   "media_candidatura": 148.7,
+   "media_provas": 146.6,
+   "media_secundario": 151.0,
+   "nota_ultimo": 144.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 196,
+   "candidatos_1opcao": 35,
+   "colocados": 30,
+   "colocados_1opcao": 10,
+   "media_candidatura": 152.1,
+   "media_provas": 140.8,
+   "media_secundario": 159.7,
+   "nota_ultimo": 146.2,
+   "sobras": 3,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 141.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 30,
+   "nota_ultimo": 127.8,
+   "sobras": 0,
+   "vagas": 30
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

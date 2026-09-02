@@ -1,0 +1,72 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0746",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Secretariado de Administração",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-0746",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 196,
+   "candidatos_1opcao": 54,
+   "colocados": 55,
+   "colocados_1opcao": 27,
+   "media_candidatura": 114.2,
+   "media_provas": 99.2,
+   "media_secundario": 129.1,
+   "nota_ultimo": 111.0,
+   "sobras": 9,
+   "vagas": 55
+  },
+  "1998f1": {
+   "candidatos": 134,
+   "candidatos_1opcao": 23,
+   "colocados": 55,
+   "colocados_1opcao": 23,
+   "media_candidatura": 116.8,
+   "media_provas": 110.8,
+   "media_secundario": 122.2,
+   "nota_ultimo": 100.8,
+   "sobras": 0,
+   "vagas": 55
+  },
+  "1999f1": {
+   "candidatos": 294,
+   "candidatos_1opcao": 82,
+   "colocados": 100,
+   "colocados_1opcao": 51,
+   "media_candidatura": 114.2,
+   "media_provas": 96.5,
+   "media_secundario": 125.9,
+   "nota_ultimo": 109.4,
+   "sobras": 26,
+   "vagas": 100
+  },
+  "2000f1": {
+   "colocados": 100,
+   "nota_ultimo": 96.2,
+   "sobras": 0,
+   "vagas": 100
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

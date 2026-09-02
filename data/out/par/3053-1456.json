@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1456",
+ "code": "3053",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática e das Tecnologias da Informação",
+ "distrito": "Castelo Branco",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Castelo Branco",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3053-1456",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 16,
+   "nota_ultimo": 87.5,
+   "sobras": 49,
+   "vagas": 65
+  },
+  "2002f1": {
+   "colocados": 18,
+   "nota_ultimo": 82.7,
+   "sobras": 37,
+   "vagas": 55
+  },
+  "2003f1": {
+   "colocados": 7,
+   "nota_ultimo": 107.6,
+   "sobras": 38,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 15,
+   "nota_ultimo": 98.3,
+   "sobras": 15,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 93.0,
+   "sobras": 11,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 6,
+   "nota_ultimo": 107.4,
+   "sobras": 19,
+   "vagas": 25
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 110.9,
+   "sobras": 14,
+   "vagas": 20,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

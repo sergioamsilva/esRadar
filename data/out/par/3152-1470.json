@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1470",
+ "code": "3152",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica - Energia",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3152-1470",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 97.5,
+   "sobras": 27,
+   "vagas": 35
+  },
+  "2002f1": {
+   "colocados": 6,
+   "nota_ultimo": 107.6,
+   "sobras": 9,
+   "vagas": 15
+  },
+  "2003f1": {
+   "colocados": 5,
+   "nota_ultimo": 95.9,
+   "sobras": 7,
+   "vagas": 12
+  },
+  "2004f1": {
+   "colocados": 6,
+   "nota_ultimo": 97.0,
+   "sobras": 6,
+   "vagas": 12
+  },
+  "2004f2": {
+   "colocados": 1,
+   "nota_ultimo": 98.2,
+   "sobras": 7,
+   "vagas": 6,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 9,
+   "nota_ultimo": 121.0,
+   "sobras": 3,
+   "vagas": 12
+  },
+  "2005f2": {
+   "colocados": 8,
+   "nota_ultimo": 113.2,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 4
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

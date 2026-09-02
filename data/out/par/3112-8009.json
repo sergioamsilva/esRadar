@@ -1,0 +1,70 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8009",
+ "code": "3112",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Música na Comunidade",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": {
+  "demografia_serie": {
+   "2019/20": {
+    "estrangeiros": 2,
+    "inscritos": 41,
+    "mulheres": 29
+   },
+   "2020/21": {
+    "estrangeiros": 1,
+    "inscritos": 52,
+    "mulheres": 38
+   }
+  }
+ },
+ "instituicao": "Instituto Politécnico de Lisboa - Escola Superior de Educação",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3112-8009",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 3,
+   "colocados": 3,
+   "nota_ultimo": 113.7,
+   "sobras": 12,
+   "vagas": 15
+  },
+  "2007f2": {
+   "colocados": 1,
+   "nota_ultimo": 125.6,
+   "sobras": 11,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 4,
+   "nota_ultimo": 118.0,
+   "sobras": 11,
+   "vagas": 15
+  },
+  "2009f2": {
+   "colocados": 3,
+   "nota_ultimo": 114.1,
+   "sobras": 8,
+   "vagas": 11,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

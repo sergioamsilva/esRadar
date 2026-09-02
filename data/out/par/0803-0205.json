@@ -1,0 +1,116 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0205",
+ "code": "0803",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agronómica",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade Técnica de Lisboa",
+ "infocursos": null,
+ "instituicao": "Universidade Técnica de Lisboa - Instituto Superior de Agronomia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0803-0205",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 408,
+   "candidatos_1opcao": 78,
+   "colocados": 110,
+   "colocados_1opcao": 33,
+   "media_candidatura": 145.2,
+   "media_provas": 142.0,
+   "media_secundario": 149.3,
+   "nota_ultimo": 135.0,
+   "sobras": 5,
+   "vagas": 110
+  },
+  "1998f1": {
+   "candidatos": 418,
+   "candidatos_1opcao": 73,
+   "colocados": 115,
+   "colocados_1opcao": 42,
+   "media_candidatura": 147.9,
+   "media_provas": 145.7,
+   "media_secundario": 150.1,
+   "nota_ultimo": 135.3,
+   "sobras": 0,
+   "vagas": 115
+  },
+  "1999f1": {
+   "candidatos": 234,
+   "candidatos_1opcao": 43,
+   "colocados": 92,
+   "colocados_1opcao": 43,
+   "media_candidatura": 141.6,
+   "media_provas": 134.1,
+   "media_secundario": 149.3,
+   "nota_ultimo": 120.5,
+   "sobras": 15,
+   "vagas": 95
+  },
+  "2000f1": {
+   "colocados": 100,
+   "nota_ultimo": 121.0,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2001f1": {
+   "colocados": 36,
+   "nota_ultimo": 120.0,
+   "sobras": 84,
+   "vagas": 120
+  },
+  "2002f1": {
+   "colocados": 28,
+   "nota_ultimo": 108.3,
+   "sobras": 72,
+   "vagas": 100
+  },
+  "2003f1": {
+   "colocados": 18,
+   "nota_ultimo": 108.3,
+   "sobras": 32,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 30,
+   "nota_ultimo": 111.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2004f2": {
+   "colocados": 3,
+   "nota_ultimo": 102.3,
+   "sobras": 4,
+   "vagas": 5,
+   "vagas_recolocacao": 2
+  },
+  "2005f1": {
+   "colocados": 19,
+   "nota_ultimo": 114.8,
+   "sobras": 11,
+   "vagas": 30
+  },
+  "2005f2": {
+   "colocados": 14,
+   "nota_ultimo": 106.0,
+   "sobras": 1,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

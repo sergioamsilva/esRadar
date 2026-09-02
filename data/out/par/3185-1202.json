@@ -1,0 +1,78 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1202",
+ "code": "3185",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Agrícola, variante de Hortofruticultura",
+ "distrito": "Viseu",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Viseu",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3185-1202",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 143,
+   "candidatos_1opcao": 13,
+   "colocados": 25,
+   "colocados_1opcao": 9,
+   "media_candidatura": 104.1,
+   "media_provas": 73.2,
+   "media_secundario": 134.8,
+   "nota_ultimo": 104.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 58,
+   "candidatos_1opcao": 3,
+   "colocados": 20,
+   "colocados_1opcao": 3,
+   "media_candidatura": 116.7,
+   "media_provas": 96.6,
+   "media_secundario": 129.5,
+   "nota_ultimo": 90.8,
+   "sobras": 8,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 41,
+   "nota_ultimo": 75.6,
+   "sobras": 4,
+   "vagas": 45
+  },
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 100.6,
+   "sobras": 41,
+   "vagas": 45
+  },
+  "2002f1": {
+   "colocados": 5,
+   "nota_ultimo": 91.8,
+   "sobras": 20,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 1,
+   "nota_ultimo": 159.7,
+   "sobras": 34,
+   "vagas": 35
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

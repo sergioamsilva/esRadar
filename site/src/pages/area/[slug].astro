@@ -9,6 +9,7 @@ import {
   slug as slugify,
   formatarNota,
   formatarInteiro,
+  ANOS_CURSOS,
   type Par,
 } from "../../lib/dados";
 
@@ -74,7 +75,7 @@ const enxame = fichas
 const alturaEnxame = 12 + Math.max(0, ...enxame.map((e) => e.fila)) * (RAIO * 2.4);
 
 /* ── séries agregadas ───────────────────────────────────────────────── */
-const anos = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+const anos = ANOS_CURSOS;
 const serieMediana = anos
   .map((ano) => ({ ano, valor: mediana(fichas.map((p) => f1(p, ano).nota_ultimo).filter((n): n is number => n != null)) }))
   .filter((x): x is { ano: number; valor: number } => x.valor != null);
@@ -93,7 +94,7 @@ const ordenada = [...fichas].sort(
 );
 
 const titulo = `Área: ${area}`;
-const descricao = `${area} no concurso de 2026: ${fichas.length} cursos, ${formatarInteiro(vagas2026)} vagas, corte mediano ${formatarNota(corteMediano)} — com o campo completo de notas, procura e evolução desde 2018.`;
+const descricao = `${area} no concurso de 2026: ${fichas.length} cursos, ${formatarInteiro(vagas2026)} vagas, corte mediano ${formatarNota(corteMediano)} — com o campo completo de notas, procura e evolução desde ${anos[0]}.`;
 ---
 
 <Base titulo={titulo} descricao={descricao}>

@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1641",
+ "code": "3142",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Professores do 2.º Ciclo Ens. Básico, var Matemática e Ciências da Natureza",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3142-1641",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 380,
+   "candidatos_1opcao": 62,
+   "colocados": 30,
+   "colocados_1opcao": 13,
+   "media_candidatura": 140.8,
+   "media_provas": 139.3,
+   "media_secundario": 142.3,
+   "nota_ultimo": 150.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 230,
+   "candidatos_1opcao": 46,
+   "colocados": 34,
+   "colocados_1opcao": 15,
+   "media_candidatura": 142.4,
+   "media_provas": 141.9,
+   "media_secundario": 143.5,
+   "nota_ultimo": 144.0,
+   "sobras": 4,
+   "vagas": 34
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 140.4,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 25,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 22,
+   "nota_ultimo": 104.8,
+   "sobras": 3,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 10,
+   "nota_ultimo": 116.0,
+   "sobras": 5,
+   "vagas": 15
+  },
+  "2004f1": {
+   "colocados": 5,
+   "nota_ultimo": 119.0,
+   "sobras": 15,
+   "vagas": 20
+  },
+  "2004f2": {
+   "colocados": 2,
+   "nota_ultimo": 119.6,
+   "sobras": 15,
+   "vagas": 16,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1509",
+ "code": "3082",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão",
+ "distrito": "Faro",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Algarve",
+ "infocursos": null,
+ "instituicao": "Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3082-1509",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 259,
+   "candidatos_1opcao": 61,
+   "colocados": 60,
+   "colocados_1opcao": 46,
+   "media_candidatura": 122.4,
+   "media_provas": 114.9,
+   "media_secundario": 130.2,
+   "nota_ultimo": 102.0,
+   "sobras": 0,
+   "vagas": 60
+  },
+  "1999f1": {
+   "candidatos": 231,
+   "candidatos_1opcao": 47,
+   "colocados": 60,
+   "colocados_1opcao": 46,
+   "media_candidatura": 123.8,
+   "media_provas": 111.3,
+   "media_secundario": 130.3,
+   "nota_ultimo": 97.3,
+   "sobras": 7,
+   "vagas": 60
+  },
+  "2000f1": {
+   "colocados": 50,
+   "nota_ultimo": 112.3,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2001f1": {
+   "colocados": 50,
+   "nota_ultimo": 113.5,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 113.6,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 40,
+   "nota_ultimo": 114.3,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 45,
+   "nota_ultimo": 113.4,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 5,
+   "nota_ultimo": 113.0,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 22,
+   "nota_ultimo": 116.5,
+   "sobras": 23,
+   "vagas": 45
+  },
+  "2005f2": {
+   "colocados": 22,
+   "nota_ultimo": 102.6,
+   "sobras": 2,
+   "vagas": 24,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

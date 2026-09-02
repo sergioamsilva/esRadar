@@ -1,0 +1,105 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1544",
+ "code": "3153",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Gestão da Distribuição e da Logística",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3153-1544",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1999f1": {
+   "candidatos": 91,
+   "candidatos_1opcao": 11,
+   "colocados": 13,
+   "colocados_1opcao": 11,
+   "media_candidatura": 102.9,
+   "media_provas": 66.8,
+   "media_secundario": 122.3,
+   "nota_ultimo": 97.6,
+   "sobras": 80,
+   "vagas": 90
+  },
+  "2000f1": {
+   "colocados": 10,
+   "nota_ultimo": 102.0,
+   "sobras": 80,
+   "vagas": 90
+  },
+  "2001f1": {
+   "colocados": 27,
+   "nota_ultimo": 91.0,
+   "sobras": 63,
+   "vagas": 90
+  },
+  "2002f1": {
+   "colocados": 30,
+   "nota_ultimo": 88.5,
+   "sobras": 60,
+   "vagas": 90
+  },
+  "2003f1": {
+   "colocados": 51,
+   "nota_ultimo": 97.8,
+   "sobras": 9,
+   "vagas": 60
+  },
+  "2004f1": {
+   "colocados": 47,
+   "nota_ultimo": 94.7,
+   "sobras": 13,
+   "vagas": 60
+  },
+  "2004f2": {
+   "colocados": 8,
+   "nota_ultimo": 92.8,
+   "sobras": 11,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 15,
+   "nota_ultimo": 108.4,
+   "sobras": 40,
+   "vagas": 55
+  },
+  "2005f2": {
+   "colocados": 7,
+   "nota_ultimo": 114.9,
+   "sobras": 35,
+   "vagas": 42,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 40,
+   "nota_ultimo": 100.6,
+   "sobras": 11,
+   "vagas": 51
+  },
+  "2006f2": {
+   "colocados": 15,
+   "nota_ultimo": 128.3,
+   "sobras": 0,
+   "vagas": 14,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

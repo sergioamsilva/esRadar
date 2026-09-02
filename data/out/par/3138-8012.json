@@ -1,0 +1,83 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "8012",
+ "code": "3138",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Segurança e Qualidade no Trabalho (pós-laboral)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3138-8012",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 12,
+   "colocados": 25,
+   "nota_ultimo": 116.7,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2007f2": {
+   "colocados": 12,
+   "nota_ultimo": 124.9,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 3
+  },
+  "2008f1": {
+   "colocados": 18,
+   "nota_ultimo": 106.9,
+   "sobras": 7,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 12,
+   "nota_ultimo": 128.0,
+   "sobras": 0,
+   "vagas": 12,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 30,
+   "nota_ultimo": 111.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2009f2": {
+   "colocados": 8,
+   "nota_ultimo": 111.4,
+   "sobras": 0,
+   "vagas": 7,
+   "vagas_recolocacao": 1
+  },
+  "2010f1": {
+   "colocados": 25,
+   "nota_ultimo": 95.0,
+   "sobras": 5,
+   "vagas": 30
+  },
+  "2010f2": {
+   "colocados": 8,
+   "nota_ultimo": 125.0,
+   "sobras": 0,
+   "vagas": 8,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

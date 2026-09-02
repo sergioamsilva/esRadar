@@ -1,0 +1,91 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1934",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Informática (regime nocturno)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1934",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 147,
+   "candidatos_1opcao": 61,
+   "colocados": 25,
+   "colocados_1opcao": 21,
+   "media_candidatura": 117.4,
+   "media_provas": 103.2,
+   "media_secundario": 134.8,
+   "nota_ultimo": 103.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "1999f1": {
+   "candidatos": 152,
+   "candidatos_1opcao": 72,
+   "colocados": 30,
+   "colocados_1opcao": 27,
+   "media_candidatura": 114.0,
+   "media_provas": 97.2,
+   "media_secundario": 131.3,
+   "nota_ultimo": 102.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2000f1": {
+   "colocados": 30,
+   "nota_ultimo": 108.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "2001f1": {
+   "colocados": 36,
+   "nota_ultimo": 95.0,
+   "sobras": 0,
+   "vagas": 36
+  },
+  "2002f1": {
+   "colocados": 45,
+   "nota_ultimo": 101.0,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 45,
+   "nota_ultimo": 109.5,
+   "sobras": 0,
+   "vagas": 45
+  },
+  "2004f1": {
+   "colocados": 18,
+   "nota_ultimo": 116.2,
+   "sobras": 27,
+   "vagas": 45
+  },
+  "2004f2": {
+   "colocados": 24,
+   "nota_ultimo": 107.7,
+   "sobras": 3,
+   "vagas": 27,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

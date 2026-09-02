@@ -1,0 +1,69 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1768",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Teatro e Artes Performativas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-1768",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2004f1": {
+   "colocados": 7,
+   "nota_ultimo": 111.0,
+   "sobras": 8,
+   "vagas": 15
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 102.5,
+   "sobras": 6,
+   "vagas": 10,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 7,
+   "nota_ultimo": 111.3,
+   "sobras": 8,
+   "vagas": 15
+  },
+  "2005f2": {
+   "colocados": 5,
+   "nota_ultimo": 105.8,
+   "sobras": 10,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 9,
+   "nota_ultimo": 108.5,
+   "sobras": 6,
+   "vagas": 15
+  },
+  "2006f2": {
+   "colocados": 6,
+   "nota_ultimo": 112.6,
+   "sobras": 8,
+   "vagas": 13,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

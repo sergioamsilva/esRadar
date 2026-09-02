@@ -1,0 +1,42 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1471",
+ "code": "3133",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Mecânica - Manutenção",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Escola Superior de Estudos Industriais e de Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3133-1471",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 4,
+   "nota_ultimo": 84.5,
+   "sobras": 26,
+   "vagas": 30
+  },
+  "2002f1": {
+   "colocados": 11,
+   "nota_ultimo": 102.2,
+   "sobras": 19,
+   "vagas": 30
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,104 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1302",
+ "code": "3118",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia de Sistemas das Telecomunicações e Electrónica",
+ "distrito": "Lisboa",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Lisboa",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3118-1302",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 561,
+   "candidatos_1opcao": 120,
+   "colocados": 80,
+   "colocados_1opcao": 35,
+   "media_candidatura": 127.7,
+   "media_provas": 120.4,
+   "media_secundario": 135.9,
+   "nota_ultimo": 118.8,
+   "sobras": 0,
+   "vagas": 80
+  },
+  "1999f1": {
+   "candidatos": 171,
+   "candidatos_1opcao": 28,
+   "colocados": 29,
+   "colocados_1opcao": 28,
+   "media_candidatura": 129.4,
+   "media_provas": 124.5,
+   "media_secundario": 136.2,
+   "nota_ultimo": 108.0,
+   "sobras": 62,
+   "vagas": 90
+  },
+  "2000f1": {
+   "colocados": 100,
+   "nota_ultimo": 104.0,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2001f1": {
+   "colocados": 120,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2002f1": {
+   "colocados": 120,
+   "nota_ultimo": 106.6,
+   "sobras": 0,
+   "vagas": 120
+  },
+  "2003f1": {
+   "colocados": 107,
+   "nota_ultimo": 96.5,
+   "sobras": 1,
+   "vagas": 108
+  },
+  "2004f1": {
+   "colocados": 108,
+   "nota_ultimo": 99.8,
+   "sobras": 0,
+   "vagas": 108
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 120.5,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 37,
+   "nota_ultimo": 105.5,
+   "sobras": 71,
+   "vagas": 108
+  },
+  "2005f2": {
+   "colocados": 30,
+   "nota_ultimo": 105.4,
+   "sobras": 42,
+   "vagas": 72,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

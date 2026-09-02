@@ -1,0 +1,81 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0213",
+ "code": "0501",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia do Ambiente",
+ "distrito": "Coimbra",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Coimbra",
+ "infocursos": null,
+ "instituicao": "Universidade de Coimbra - Faculdade de Ciências e Tecnologia",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "0501-0213",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2002f1": {
+   "colocados": 50,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2003f1": {
+   "colocados": 50,
+   "nota_ultimo": 119.8,
+   "sobras": 0,
+   "vagas": 50
+  },
+  "2004f1": {
+   "colocados": 35,
+   "nota_ultimo": 110.3,
+   "sobras": 15,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 6,
+   "nota_ultimo": 108.3,
+   "sobras": 15,
+   "vagas": 17,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 23,
+   "nota_ultimo": 106.0,
+   "sobras": 27,
+   "vagas": 50
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 110.3,
+   "sobras": 19,
+   "vagas": 29,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 17,
+   "nota_ultimo": 109.5,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 20,
+   "nota_ultimo": 107.5,
+   "sobras": 8,
+   "vagas": 28,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

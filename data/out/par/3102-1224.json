@@ -1,0 +1,93 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1224",
+ "code": "3102",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Automóvel",
+ "distrito": "Leiria",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Leiria",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3102-1224",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2000f1": {
+   "colocados": 29,
+   "nota_ultimo": 88.7,
+   "sobras": 11,
+   "vagas": 40
+  },
+  "2001f1": {
+   "colocados": 27,
+   "nota_ultimo": 95.2,
+   "sobras": 13,
+   "vagas": 40
+  },
+  "2002f1": {
+   "colocados": 33,
+   "nota_ultimo": 101.3,
+   "sobras": 7,
+   "vagas": 40
+  },
+  "2003f1": {
+   "colocados": 31,
+   "nota_ultimo": 102.0,
+   "sobras": 9,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 40,
+   "nota_ultimo": 107.8,
+   "sobras": 0,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 4,
+   "nota_ultimo": 111.3,
+   "sobras": 0,
+   "vagas": 4,
+   "vagas_recolocacao": 0
+  },
+  "2005f1": {
+   "colocados": 24,
+   "nota_ultimo": 105.4,
+   "sobras": 12,
+   "vagas": 36
+  },
+  "2005f2": {
+   "colocados": 13,
+   "nota_ultimo": 102.7,
+   "sobras": 5,
+   "vagas": 18,
+   "vagas_recolocacao": 0
+  },
+  "2006f1": {
+   "colocados": 22,
+   "nota_ultimo": 105.3,
+   "sobras": 18,
+   "vagas": 40
+  },
+  "2006f2": {
+   "colocados": 18,
+   "nota_ultimo": 107.5,
+   "sobras": 1,
+   "vagas": 19,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

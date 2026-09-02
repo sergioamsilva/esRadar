@@ -1,0 +1,74 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1135",
+ "code": "3092",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Auditoria",
+ "distrito": "Guarda",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico da Guarda",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3092-1135",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2001f1": {
+   "colocados": 8,
+   "nota_ultimo": 94.1,
+   "sobras": 42,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 23,
+   "nota_ultimo": 101.6,
+   "sobras": 22,
+   "vagas": 45
+  },
+  "2003f1": {
+   "colocados": 17,
+   "nota_ultimo": 107.6,
+   "sobras": 23,
+   "vagas": 40
+  },
+  "2004f1": {
+   "colocados": 23,
+   "nota_ultimo": 102.9,
+   "sobras": 17,
+   "vagas": 40
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 95.6,
+   "sobras": 11,
+   "vagas": 21,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 17,
+   "nota_ultimo": 111.1,
+   "sobras": 18,
+   "vagas": 35
+  },
+  "2005f2": {
+   "colocados": 11,
+   "nota_ultimo": 107.8,
+   "sobras": 11,
+   "vagas": 21,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

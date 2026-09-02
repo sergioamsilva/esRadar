@@ -1,0 +1,95 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9872",
+ "code": "3143",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Contabilidade e Fiscalidade (regime pós-laboral)",
+ "distrito": "Santarém",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Santarém",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3143-9872",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2007f1": {
+   "candidatos_1opcao": 17,
+   "colocados": 20,
+   "nota_ultimo": 108.7,
+   "sobras": 0,
+   "vagas": 20
+  },
+  "2007f2": {
+   "colocados": 3,
+   "nota_ultimo": 131.1,
+   "sobras": 0,
+   "vagas": 3,
+   "vagas_recolocacao": 0
+  },
+  "2008f1": {
+   "colocados": 10,
+   "nota_ultimo": 108.1,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2008f2": {
+   "colocados": 4,
+   "nota_ultimo": 119.0,
+   "sobras": 11,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2009f1": {
+   "colocados": 11,
+   "nota_ultimo": 148.2,
+   "sobras": 14,
+   "vagas": 25
+  },
+  "2009f2": {
+   "colocados": 6,
+   "nota_ultimo": 103.9,
+   "sobras": 9,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  },
+  "2010f1": {
+   "colocados": 7,
+   "nota_ultimo": 144.7,
+   "sobras": 18,
+   "vagas": 25
+  },
+  "2010f2": {
+   "colocados": 1,
+   "nota_ultimo": 120.4,
+   "sobras": 18,
+   "vagas": 18,
+   "vagas_recolocacao": 1
+  },
+  "2011f1": {
+   "colocados": 2,
+   "sobras": 33,
+   "vagas": 35
+  },
+  "2011f2": {
+   "colocados": 2,
+   "nota_ultimo": 122.7,
+   "sobras": 32,
+   "vagas": 34,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

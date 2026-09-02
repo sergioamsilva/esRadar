@@ -1,0 +1,90 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "0629",
+ "code": "1000",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Português e Alemão (Ensino de)",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade do Minho",
+ "infocursos": null,
+ "instituicao": "Universidade do Minho",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1000-0629",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1997f1": {
+   "candidatos": 117,
+   "candidatos_1opcao": 20,
+   "colocados": 30,
+   "colocados_1opcao": 16,
+   "media_candidatura": 130.9,
+   "media_provas": 124.8,
+   "media_secundario": 137.7,
+   "nota_ultimo": 115.5,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1998f1": {
+   "candidatos": 164,
+   "candidatos_1opcao": 26,
+   "colocados": 30,
+   "colocados_1opcao": 16,
+   "media_candidatura": 133.8,
+   "media_provas": 129.1,
+   "media_secundario": 138.3,
+   "nota_ultimo": 127.0,
+   "sobras": 0,
+   "vagas": 30
+  },
+  "1999f1": {
+   "candidatos": 161,
+   "candidatos_1opcao": 21,
+   "colocados": 25,
+   "colocados_1opcao": 13,
+   "media_candidatura": 141.5,
+   "media_provas": 140.2,
+   "media_secundario": 142.8,
+   "nota_ultimo": 129.3,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2000f1": {
+   "colocados": 25,
+   "nota_ultimo": 121.5,
+   "sobras": 0,
+   "vagas": 25
+  },
+  "2001f1": {
+   "colocados": 16,
+   "nota_ultimo": 112.8,
+   "sobras": 9,
+   "vagas": 25
+  },
+  "2002f1": {
+   "colocados": 10,
+   "nota_ultimo": 120.6,
+   "sobras": 15,
+   "vagas": 25
+  },
+  "2003f1": {
+   "colocados": 4,
+   "nota_ultimo": 123.2,
+   "sobras": 17,
+   "vagas": 21
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

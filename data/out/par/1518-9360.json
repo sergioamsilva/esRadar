@@ -23,6 +23,104 @@
  "preferencia_regional": null,
  "provas_ingresso": null,
  "series": {
+  "2014f1": {
+   "colocados": 82,
+   "nota_ultimo": 122.8,
+   "sobras": 68,
+   "vagas": 150
+  },
+  "2014f2": {
+   "colocados": 56,
+   "nota_ultimo": 120.3,
+   "sobras": 21,
+   "vagas": 74,
+   "vagas_recolocacao": 3
+  },
+  "2014f3": {
+   "colocados": 3,
+   "nota_ultimo": 129.3,
+   "sobras": 23,
+   "vagas": 21,
+   "vagas_recolocacao": 5
+  },
+  "2015f1": {
+   "colocados": 127,
+   "nota_ultimo": 120.0,
+   "sobras": 18,
+   "vagas": 145
+  },
+  "2015f2": {
+   "colocados": 28,
+   "nota_ultimo": 134.0,
+   "sobras": 0,
+   "vagas": 22,
+   "vagas_recolocacao": 6
+  },
+  "2015f3": {
+   "colocados": 4,
+   "nota_ultimo": 133.5,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 2
+  },
+  "2016f1": {
+   "colocados": 125,
+   "nota_ultimo": 120.0,
+   "sobras": 15,
+   "vagas": 140
+  },
+  "2016f2": {
+   "colocados": 29,
+   "nota_ultimo": 138.8,
+   "sobras": 0,
+   "vagas": 22,
+   "vagas_recolocacao": 7
+  },
+  "2016f3": {
+   "colocados": 3,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 1,
+   "vagas_recolocacao": 2
+  },
+  "2017f1": {
+   "candidatos": 437,
+   "candidatos_1opcao": 42,
+   "candidatos_homens": 317,
+   "candidatos_mulheres": 120,
+   "colocados": 137,
+   "colocados_1opcao": 29,
+   "colocados_homens": 103,
+   "colocados_mulheres": 34,
+   "media_candidatura": 145.1,
+   "media_provas": 138.4,
+   "nota_ultimo": 132.5,
+   "sobras": 0,
+   "vagas": 137
+  },
+  "2017f2": {
+   "candidatos": 86,
+   "candidatos_1opcao": 24,
+   "candidatos_homens": 73,
+   "candidatos_mulheres": 13,
+   "colocados": 15,
+   "colocados_1opcao": 5,
+   "colocados_homens": 11,
+   "colocados_mulheres": 4,
+   "media_candidatura": 149.3,
+   "media_provas": 148.4,
+   "nota_ultimo": 141.0,
+   "sobras": 0,
+   "vagas": 6,
+   "vagas_recolocacao": 9
+  },
+  "2017f3": {
+   "colocados": 4,
+   "nota_ultimo": 134.3,
+   "sobras": 0,
+   "vagas": 2,
+   "vagas_recolocacao": 2
+  },
   "2018f1": {
    "candidatos": 411,
    "candidatos_1opcao": 65,

@@ -1,0 +1,57 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "9378",
+ "code": "1200",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Línguas Estrangeiras Aplicadas",
+ "distrito": null,
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Universidade de Trás-os-Montes e Alto Douro",
+ "infocursos": null,
+ "instituicao": "Universidade de Trás-os-Montes e Alto Douro",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "1200-9378",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "2006f1": {
+   "colocados": 10,
+   "nota_ultimo": 110.6,
+   "sobras": 20,
+   "vagas": 30
+  },
+  "2006f2": {
+   "colocados": 7,
+   "nota_ultimo": 109.6,
+   "sobras": 21,
+   "vagas": 26,
+   "vagas_recolocacao": 2
+  },
+  "2007f1": {
+   "candidatos_1opcao": 6,
+   "colocados": 19,
+   "nota_ultimo": 110.0,
+   "sobras": 11,
+   "vagas": 30
+  },
+  "2007f2": {
+   "colocados": 15,
+   "nota_ultimo": 124.8,
+   "sobras": 0,
+   "vagas": 15,
+   "vagas_recolocacao": 0
+  }
+ },
+ "subsistema": "universitario",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

@@ -1,0 +1,103 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1398",
+ "code": "3152",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Electrotécnica",
+ "distrito": "Setúbal",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico de Setúbal",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3152-1398",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 220,
+   "candidatos_1opcao": 30,
+   "colocados": 57,
+   "colocados_1opcao": 30,
+   "media_candidatura": 93.2,
+   "media_provas": 63.2,
+   "media_secundario": 123.5,
+   "nota_ultimo": 72.0,
+   "sobras": 13,
+   "vagas": 70
+  },
+  "1999f1": {
+   "candidatos": 251,
+   "candidatos_1opcao": 45,
+   "colocados": 70,
+   "colocados_1opcao": 42,
+   "media_candidatura": 97.5,
+   "media_provas": 69.2,
+   "media_secundario": 126.1,
+   "nota_ultimo": 80.0,
+   "sobras": 9,
+   "vagas": 70
+  },
+  "2000f1": {
+   "colocados": 42,
+   "nota_ultimo": 88.5,
+   "sobras": 13,
+   "vagas": 55
+  },
+  "2001f1": {
+   "colocados": 32,
+   "nota_ultimo": 80.0,
+   "sobras": 18,
+   "vagas": 50
+  },
+  "2002f1": {
+   "colocados": 23,
+   "nota_ultimo": 100.0,
+   "sobras": 32,
+   "vagas": 55
+  },
+  "2003f1": {
+   "colocados": 17,
+   "nota_ultimo": 101.3,
+   "sobras": 25,
+   "vagas": 42
+  },
+  "2004f1": {
+   "colocados": 20,
+   "nota_ultimo": 98.6,
+   "sobras": 30,
+   "vagas": 50
+  },
+  "2004f2": {
+   "colocados": 10,
+   "nota_ultimo": 97.8,
+   "sobras": 24,
+   "vagas": 31,
+   "vagas_recolocacao": 3
+  },
+  "2005f1": {
+   "colocados": 2,
+   "sobras": 38,
+   "vagas": 40
+  },
+  "2005f2": {
+   "colocados": 2,
+   "nota_ultimo": 109.0,
+   "sobras": 38,
+   "vagas": 39,
+   "vagas_recolocacao": 1
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}

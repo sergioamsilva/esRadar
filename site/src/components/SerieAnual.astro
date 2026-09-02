@@ -1,6 +1,6 @@
 ---
 /**
- * Série anual (2018–2026) com uma ou duas linhas — tipicamente 1ª fase a azul
+ * Série anual com uma ou duas linhas — tipicamente 1ª fase a azul
  * e 2ª fase a laranja. SVG desenhado no servidor, legível sem JavaScript;
  * cada ponto tem <title> para o cursor e o conjunto tem aria-label descritivo.
  *
@@ -24,10 +24,12 @@ interface Props {
   inteiro?: boolean;
 }
 const { series, titulo, unidade, inteiro = false } = Astro.props;
+import { anosRotulados } from "../lib/dados";
 
 const comDados = series.filter((s) => s.pontos.length >= 1);
 const todos = comDados.flatMap((s) => s.pontos);
 const anos = [...new Set(todos.map((p) => p.ano))].sort((a, b) => a - b);
+const rotulados = anosRotulados(anos);
 
 const L = 100;
 const A = 42;
@@ -158,9 +160,11 @@ const descricao = comDados
   {
     g && (
       <div class="serie__eixo" aria-hidden="true">
-        {g.eixoAnos.map((e) => (
-          <span style={`left:${e.x}%`}>{String(e.ano).slice(2)}</span>
-        ))}
+        {g.eixoAnos
+          .filter((e) => rotulados.has(e.ano))
+          .map((e) => (
+            <span style={`left:${e.x}%`}>{String(e.ano).slice(2)}</span>
+          ))}
       </div>
     )
   }

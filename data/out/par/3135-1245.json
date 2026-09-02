@@ -1,0 +1,117 @@
+{
+ "acessos_preferenciais_pct": null,
+ "ativo": false,
+ "cnaef": null,
+ "cnaef_nome": null,
+ "codc": "1245",
+ "code": "3135",
+ "concurso": null,
+ "contingentes": null,
+ "curso": "Engenharia Civil",
+ "distrito": "Porto",
+ "duracao": null,
+ "ects": null,
+ "formula": null,
+ "formula_pesos": null,
+ "grau": null,
+ "grupo": "Instituto Politécnico do Porto",
+ "infocursos": null,
+ "instituicao": "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto",
+ "minimo_candidatura": null,
+ "minimo_provas": null,
+ "par": "3135-1245",
+ "preferencia_regional": null,
+ "provas_ingresso": null,
+ "series": {
+  "1998f1": {
+   "candidatos": 559,
+   "candidatos_1opcao": 150,
+   "colocados": 85,
+   "colocados_1opcao": 43,
+   "media_candidatura": 133.5,
+   "media_provas": 128.5,
+   "media_secundario": 138.3,
+   "nota_ultimo": 131.3,
+   "sobras": 0,
+   "vagas": 85
+  },
+  "1999f1": {
+   "candidatos": 390,
+   "candidatos_1opcao": 125,
+   "colocados": 85,
+   "colocados_1opcao": 63,
+   "media_candidatura": 124.7,
+   "media_provas": 109.0,
+   "media_secundario": 140.3,
+   "nota_ultimo": 112.8,
+   "sobras": 6,
+   "vagas": 85
+  },
+  "2000f1": {
+   "colocados": 86,
+   "nota_ultimo": 123.3,
+   "sobras": 0,
+   "vagas": 85
+  },
+  "2001f1": {
+   "colocados": 95,
+   "nota_ultimo": 120.0,
+   "sobras": 0,
+   "vagas": 95
+  },
+  "2002f1": {
+   "colocados": 101,
+   "nota_ultimo": 126.3,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2003f1": {
+   "colocados": 100,
+   "nota_ultimo": 110.0,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2004f1": {
+   "colocados": 100,
+   "nota_ultimo": 131.7,
+   "sobras": 0,
+   "vagas": 100
+  },
+  "2004f2": {
+   "colocados": 13,
+   "nota_ultimo": 133.1,
+   "sobras": 0,
+   "vagas": 9,
+   "vagas_recolocacao": 4
+  },
+  "2005f1": {
+   "colocados": 97,
+   "nota_ultimo": 114.9,
+   "sobras": 33,
+   "vagas": 130
+  },
+  "2005f2": {
+   "colocados": 41,
+   "nota_ultimo": 122.7,
+   "sobras": 0,
+   "vagas": 38,
+   "vagas_recolocacao": 3
+  },
+  "2006f1": {
+   "colocados": 70,
+   "nota_ultimo": 118.0,
+   "sobras": 65,
+   "vagas": 135
+  },
+  "2006f2": {
+   "colocados": 78,
+   "nota_ultimo": 107.5,
+   "sobras": 0,
+   "vagas": 75,
+   "vagas_recolocacao": 3
+  }
+ },
+ "subsistema": "politecnico",
+ "tipo_ensino": null,
+ "vagas_2026": null
+}
