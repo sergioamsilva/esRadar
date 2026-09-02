@@ -1,6 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import { epoca } from "../lib/dados";
+import { epoca, ligacao } from "../lib/dados";
 
 const ep = epoca();
 ---
@@ -32,7 +32,8 @@ const ep = epoca();
         vêm da página de{" "}
         <a href="https://www.dges.gov.pt/pt/pagina/regime-geral-ensino-superior-publico-concurso-nacional-de-acesso" rel="noopener">estatísticas do concurso</a>{" "}
         da própria DGES, que os mantém no ar: a 1ª fase desde 1997, a 2ª desde 2004 e a 3ª
-        desde 2012. Na época de 2026,{" "}
+        desde 2012. A série nacional que daí resulta está em{" "}
+        <a href={ligacao("/dados/historia.csv")}>historia.csv</a>, um ano por linha. Na época de 2026,{" "}
         {ep.fases_arquivadas.length === 1 ? "está arquivada a" : "estão arquivadas as"}{" "}
         {ep.fases_arquivadas.map((f) => `${f}ª`).join(" e ")}{" "}
         {ep.fases_arquivadas.length === 1 ? "fase" : "fases"}.

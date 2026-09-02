@@ -23,7 +23,7 @@
     "90": 188,
     "95": 38
    },
-   "esgotados": 172,
+   "esgotados": 615,
    "graus": {
     "bacharelato": 320,
     "bacharelato_licenciatura": 76,
@@ -31,7 +31,7 @@
     "preparatorios": 2
    },
    "grupos": 38,
-   "sobras_f1": 6542,
+   "sobras_f1": 4383,
    "top": [
     {
      "curso": "Medicina",
@@ -163,7 +163,7 @@
     "90": 98,
     "95": 50
    },
-   "esgotados": 84,
+   "esgotados": 561,
    "graus": {
     "bacharelato": 32,
     "bacharelato_licenciatura": 257,
@@ -171,7 +171,7 @@
     "preparatorios": 2
    },
    "grupos": 39,
-   "sobras_f1": 11887,
+   "sobras_f1": 8536,
    "top": [
     {
      "curso": "Medicina",
@@ -450,7 +450,7 @@
     "preparatorios": 5
    },
    "grupos": 39,
-   "sobras_f1": 9463,
+   "sobras_f1": 9462,
    "top": [
     {
      "curso": "Medicina",
@@ -994,14 +994,14 @@
     "185": 2,
     "95": 39
    },
-   "esgotados": 574,
+   "esgotados": 582,
    "graus": {
     "licenciatura_1ciclo": 1050,
     "mestrado_integrado": 95,
     "preparatorios": 7
    },
    "grupos": 33,
-   "sobras_f1": 11938,
+   "sobras_f1": 11535,
    "top": [
     {
      "curso": "Medicina",
@@ -1068,7 +1068,7 @@
     "preparatorios": 7
    },
    "grupos": 33,
-   "sobras_f1": 12306,
+   "sobras_f1": 12305,
    "top": [
     {
      "curso": "Medicina",
@@ -1611,7 +1611,7 @@
     "preparatorios": 5
    },
    "grupos": 33,
-   "sobras_f1": 6050,
+   "sobras_f1": 6042,
    "top": [
     {
      "curso": "Engenharia e Gestão Industrial",
@@ -1673,14 +1673,14 @@
     "190": 2,
     "95": 7
    },
-   "esgotados": 784,
+   "esgotados": 785,
    "graus": {
     "licenciatura_1ciclo": 1037,
     "mestrado_integrado": 28,
     "preparatorios": 5
    },
    "grupos": 33,
-   "sobras_f1": 6393,
+   "sobras_f1": 6386,
    "top": [
     {
      "curso": "Engenharia Aeroespacial",
@@ -1954,7 +1954,7 @@
     "preparatorios": 4
    },
    "grupos": 31,
-   "sobras_f1": 11513,
+   "sobras_f1": 11512,
    "top": [
     {
      "curso": "Engenharia Aeroespacial",
@@ -2016,14 +2016,14 @@
     "195": 1,
     "95": 5
    },
-   "esgotados": 758,
+   "esgotados": 759,
    "graus": {
     "licenciatura_1ciclo": 1135,
     "mestrado_integrado": 30,
     "preparatorios": 5
    },
    "grupos": 30,
-   "sobras_f1": 6639,
+   "sobras_f1": 6638,
    "top": [
     {
      "curso": "Engenharia Aeroespacial",
@@ -2063,5 +2063,6196 @@
    ]
   }
  },
- "nota": "Agregados por ano da 1ª fase sobre todos os pares com resultados, incluindo cursos extintos."
+ "familias": {
+  "Agrárias e ambiente": {
+   "1997": {
+    "colocados": 70,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 78.5,
+    "sobras": 110,
+    "vagas": 180
+   },
+   "1998": {
+    "colocados": 36,
+    "com_nota": 1,
+    "cursos": 1,
+    "nota_mediana": null,
+    "sobras": 19,
+    "vagas": 55
+   },
+   "1999": {
+    "colocados": 8,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 57,
+    "vagas": 65
+   },
+   "2000": {
+    "colocados": 24,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 112.5,
+    "sobras": 61,
+    "vagas": 85
+   },
+   "2001": {
+    "colocados": 17,
+    "com_nota": 2,
+    "cursos": 3,
+    "nota_mediana": null,
+    "sobras": 68,
+    "vagas": 85
+   },
+   "2002": {
+    "colocados": 47,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 117.6,
+    "sobras": 43,
+    "vagas": 90
+   },
+   "2003": {
+    "colocados": 83,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 113.2,
+    "sobras": 32,
+    "vagas": 115
+   },
+   "2004": {
+    "colocados": 133,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 107.0,
+    "sobras": 62,
+    "vagas": 195
+   },
+   "2005": {
+    "colocados": 96,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 117.6,
+    "sobras": 54,
+    "vagas": 150
+   },
+   "2006": {
+    "colocados": 148,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 110.2,
+    "sobras": 77,
+    "vagas": 225
+   },
+   "2007": {
+    "colocados": 237,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 109.0,
+    "sobras": 58,
+    "vagas": 295
+   },
+   "2008": {
+    "colocados": 216,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 111.0,
+    "sobras": 92,
+    "vagas": 308
+   },
+   "2009": {
+    "colocados": 174,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 117.8,
+    "sobras": 108,
+    "vagas": 282
+   },
+   "2010": {
+    "colocados": 162,
+    "com_nota": 10,
+    "cursos": 12,
+    "nota_mediana": 113.0,
+    "sobras": 172,
+    "vagas": 334
+   },
+   "2011": {
+    "colocados": 117,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 118.5,
+    "sobras": 162,
+    "vagas": 279
+   },
+   "2012": {
+    "colocados": 174,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 117.5,
+    "sobras": 145,
+    "vagas": 319
+   },
+   "2013": {
+    "colocados": 178,
+    "com_nota": 15,
+    "cursos": 19,
+    "nota_mediana": 113.7,
+    "sobras": 436,
+    "vagas": 614
+   },
+   "2014": {
+    "colocados": 159,
+    "com_nota": 14,
+    "cursos": 21,
+    "nota_mediana": 119.0,
+    "sobras": 537,
+    "vagas": 696
+   },
+   "2015": {
+    "colocados": 214,
+    "com_nota": 19,
+    "cursos": 21,
+    "nota_mediana": 115.4,
+    "sobras": 493,
+    "vagas": 707
+   },
+   "2016": {
+    "colocados": 190,
+    "com_nota": 16,
+    "cursos": 24,
+    "nota_mediana": 116.3,
+    "sobras": 571,
+    "vagas": 761
+   },
+   "2017": {
+    "colocados": 205,
+    "com_nota": 14,
+    "cursos": 22,
+    "nota_mediana": 109.8,
+    "sobras": 472,
+    "vagas": 677
+   },
+   "2018": {
+    "colocados": 184,
+    "com_nota": 16,
+    "cursos": 20,
+    "nota_mediana": 115.2,
+    "sobras": 448,
+    "vagas": 632
+   },
+   "2019": {
+    "colocados": 212,
+    "com_nota": 15,
+    "cursos": 21,
+    "nota_mediana": 108.4,
+    "sobras": 404,
+    "vagas": 616
+   },
+   "2020": {
+    "colocados": 298,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 120.2,
+    "sobras": 346,
+    "vagas": 641
+   },
+   "2021": {
+    "colocados": 359,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 114.6,
+    "sobras": 299,
+    "vagas": 655
+   },
+   "2022": {
+    "colocados": 363,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 115.2,
+    "sobras": 262,
+    "vagas": 620
+   },
+   "2023": {
+    "colocados": 350,
+    "com_nota": 17,
+    "cursos": 22,
+    "nota_mediana": 118.6,
+    "sobras": 302,
+    "vagas": 652
+   },
+   "2024": {
+    "colocados": 282,
+    "com_nota": 19,
+    "cursos": 23,
+    "nota_mediana": 119.1,
+    "sobras": 359,
+    "vagas": 641
+   },
+   "2025": {
+    "colocados": 234,
+    "com_nota": 17,
+    "cursos": 25,
+    "nota_mediana": 117.8,
+    "sobras": 428,
+    "vagas": 662
+   },
+   "2026": {
+    "colocados": 267,
+    "com_nota": 18,
+    "cursos": 26,
+    "nota_mediana": 117.0,
+    "sobras": 408,
+    "vagas": 675
+   }
+  },
+  "Arquitetura": {
+   "1997": {
+    "colocados": 552,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 170.0,
+    "sobras": 0,
+    "vagas": 540
+   },
+   "1998": {
+    "colocados": 586,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 164.8,
+    "sobras": 1,
+    "vagas": 580
+   },
+   "1999": {
+    "colocados": 690,
+    "com_nota": 16,
+    "cursos": 16,
+    "nota_mediana": 161.3,
+    "sobras": 25,
+    "vagas": 705
+   },
+   "2000": {
+    "colocados": 723,
+    "com_nota": 16,
+    "cursos": 16,
+    "nota_mediana": 156.5,
+    "sobras": 0,
+    "vagas": 715
+   },
+   "2001": {
+    "colocados": 754,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 153.3,
+    "sobras": 37,
+    "vagas": 780
+   },
+   "2002": {
+    "colocados": 759,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 155.3,
+    "sobras": 53,
+    "vagas": 800
+   },
+   "2003": {
+    "colocados": 771,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 158.2,
+    "sobras": 45,
+    "vagas": 802
+   },
+   "2004": {
+    "colocados": 773,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 153.0,
+    "sobras": 38,
+    "vagas": 810
+   },
+   "2005": {
+    "colocados": 784,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 152.0,
+    "sobras": 55,
+    "vagas": 839
+   },
+   "2006": {
+    "colocados": 844,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 152.2,
+    "sobras": 14,
+    "vagas": 856
+   },
+   "2007": {
+    "colocados": 787,
+    "com_nota": 17,
+    "cursos": 17,
+    "nota_mediana": 146.0,
+    "sobras": 17,
+    "vagas": 804
+   },
+   "2008": {
+    "colocados": 872,
+    "com_nota": 17,
+    "cursos": 17,
+    "nota_mediana": 140.0,
+    "sobras": 6,
+    "vagas": 878
+   },
+   "2009": {
+    "colocados": 857,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 141.3,
+    "sobras": 89,
+    "vagas": 946
+   },
+   "2010": {
+    "colocados": 897,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 135.5,
+    "sobras": 84,
+    "vagas": 980
+   },
+   "2011": {
+    "colocados": 807,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 131.9,
+    "sobras": 139,
+    "vagas": 945
+   },
+   "2012": {
+    "colocados": 820,
+    "com_nota": 17,
+    "cursos": 18,
+    "nota_mediana": 132.5,
+    "sobras": 135,
+    "vagas": 952
+   },
+   "2013": {
+    "colocados": 774,
+    "com_nota": 17,
+    "cursos": 18,
+    "nota_mediana": 127.0,
+    "sobras": 177,
+    "vagas": 950
+   },
+   "2014": {
+    "colocados": 792,
+    "com_nota": 17,
+    "cursos": 18,
+    "nota_mediana": 133.8,
+    "sobras": 153,
+    "vagas": 944
+   },
+   "2015": {
+    "colocados": 709,
+    "com_nota": 16,
+    "cursos": 16,
+    "nota_mediana": 126.3,
+    "sobras": 166,
+    "vagas": 872
+   },
+   "2016": {
+    "colocados": 675,
+    "com_nota": 15,
+    "cursos": 15,
+    "nota_mediana": 117.8,
+    "sobras": 174,
+    "vagas": 849
+   },
+   "2017": {
+    "colocados": 658,
+    "com_nota": 14,
+    "cursos": 15,
+    "nota_mediana": 116.8,
+    "sobras": 176,
+    "vagas": 828
+   },
+   "2018": {
+    "colocados": 624,
+    "com_nota": 13,
+    "cursos": 15,
+    "nota_mediana": 117.5,
+    "sobras": 138,
+    "vagas": 760
+   },
+   "2019": {
+    "colocados": 629,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 123.5,
+    "sobras": 82,
+    "vagas": 709
+   },
+   "2020": {
+    "colocados": 731,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 153.5,
+    "sobras": 3,
+    "vagas": 728
+   },
+   "2021": {
+    "colocados": 716,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 156.0,
+    "sobras": 0,
+    "vagas": 709
+   },
+   "2022": {
+    "colocados": 742,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 155.1,
+    "sobras": 0,
+    "vagas": 736
+   },
+   "2023": {
+    "colocados": 753,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 152.0,
+    "sobras": 0,
+    "vagas": 750
+   },
+   "2024": {
+    "colocados": 811,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 158.3,
+    "sobras": 23,
+    "vagas": 828
+   },
+   "2025": {
+    "colocados": 756,
+    "com_nota": 13,
+    "cursos": 14,
+    "nota_mediana": 156.8,
+    "sobras": 65,
+    "vagas": 820
+   },
+   "2026": {
+    "colocados": 783,
+    "com_nota": 15,
+    "cursos": 15,
+    "nota_mediana": 160.5,
+    "sobras": 66,
+    "vagas": 845
+   }
+  },
+  "Artes e design": {
+   "1997": {
+    "colocados": 694,
+    "com_nota": 18,
+    "cursos": 19,
+    "nota_mediana": 142.5,
+    "sobras": 22,
+    "vagas": 715
+   },
+   "1998": {
+    "colocados": 755,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 138.0,
+    "sobras": 6,
+    "vagas": 754
+   },
+   "1999": {
+    "colocados": 811,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 144.0,
+    "sobras": 25,
+    "vagas": 824
+   },
+   "2000": {
+    "colocados": 891,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 142.5,
+    "sobras": 32,
+    "vagas": 920
+   },
+   "2001": {
+    "colocados": 963,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 137.8,
+    "sobras": 19,
+    "vagas": 967
+   },
+   "2002": {
+    "colocados": 1136,
+    "com_nota": 34,
+    "cursos": 34,
+    "nota_mediana": 134.5,
+    "sobras": 21,
+    "vagas": 1147
+   },
+   "2003": {
+    "colocados": 1205,
+    "com_nota": 38,
+    "cursos": 38,
+    "nota_mediana": 129.0,
+    "sobras": 115,
+    "vagas": 1310
+   },
+   "2004": {
+    "colocados": 1298,
+    "com_nota": 43,
+    "cursos": 44,
+    "nota_mediana": 128.3,
+    "sobras": 115,
+    "vagas": 1410
+   },
+   "2005": {
+    "colocados": 1424,
+    "com_nota": 52,
+    "cursos": 53,
+    "nota_mediana": 117.8,
+    "sobras": 329,
+    "vagas": 1753
+   },
+   "2006": {
+    "colocados": 1494,
+    "com_nota": 54,
+    "cursos": 55,
+    "nota_mediana": 117.1,
+    "sobras": 422,
+    "vagas": 1914
+   },
+   "2007": {
+    "colocados": 1809,
+    "com_nota": 65,
+    "cursos": 65,
+    "nota_mediana": 125.6,
+    "sobras": 396,
+    "vagas": 2205
+   },
+   "2008": {
+    "colocados": 1642,
+    "com_nota": 65,
+    "cursos": 67,
+    "nota_mediana": 119.8,
+    "sobras": 523,
+    "vagas": 2163
+   },
+   "2009": {
+    "colocados": 1845,
+    "com_nota": 66,
+    "cursos": 66,
+    "nota_mediana": 126.2,
+    "sobras": 277,
+    "vagas": 2122
+   },
+   "2010": {
+    "colocados": 1982,
+    "com_nota": 70,
+    "cursos": 71,
+    "nota_mediana": 127.0,
+    "sobras": 312,
+    "vagas": 2294
+   },
+   "2011": {
+    "colocados": 1821,
+    "com_nota": 68,
+    "cursos": 71,
+    "nota_mediana": 124.5,
+    "sobras": 510,
+    "vagas": 2316
+   },
+   "2012": {
+    "colocados": 1846,
+    "com_nota": 65,
+    "cursos": 67,
+    "nota_mediana": 123.0,
+    "sobras": 486,
+    "vagas": 2310
+   },
+   "2013": {
+    "colocados": 1787,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 120.0,
+    "sobras": 586,
+    "vagas": 2355
+   },
+   "2014": {
+    "colocados": 1869,
+    "com_nota": 59,
+    "cursos": 60,
+    "nota_mediana": 122.5,
+    "sobras": 435,
+    "vagas": 2300
+   },
+   "2015": {
+    "colocados": 1899,
+    "com_nota": 60,
+    "cursos": 60,
+    "nota_mediana": 119.2,
+    "sobras": 402,
+    "vagas": 2285
+   },
+   "2016": {
+    "colocados": 1890,
+    "com_nota": 60,
+    "cursos": 61,
+    "nota_mediana": 124.5,
+    "sobras": 420,
+    "vagas": 2290
+   },
+   "2017": {
+    "colocados": 1993,
+    "com_nota": 61,
+    "cursos": 62,
+    "nota_mediana": 122.1,
+    "sobras": 356,
+    "vagas": 2323
+   },
+   "2018": {
+    "colocados": 2044,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 126.7,
+    "sobras": 311,
+    "vagas": 2322
+   },
+   "2019": {
+    "colocados": 2064,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 127.0,
+    "sobras": 299,
+    "vagas": 2330
+   },
+   "2020": {
+    "colocados": 2180,
+    "com_nota": 62,
+    "cursos": 62,
+    "nota_mediana": 137.5,
+    "sobras": 359,
+    "vagas": 2502
+   },
+   "2021": {
+    "colocados": 2283,
+    "com_nota": 61,
+    "cursos": 62,
+    "nota_mediana": 143.2,
+    "sobras": 202,
+    "vagas": 2455
+   },
+   "2022": {
+    "colocados": 2281,
+    "com_nota": 64,
+    "cursos": 65,
+    "nota_mediana": 139.4,
+    "sobras": 225,
+    "vagas": 2470
+   },
+   "2023": {
+    "colocados": 2322,
+    "com_nota": 66,
+    "cursos": 67,
+    "nota_mediana": 144.0,
+    "sobras": 151,
+    "vagas": 2447
+   },
+   "2024": {
+    "colocados": 2338,
+    "com_nota": 66,
+    "cursos": 67,
+    "nota_mediana": 148.1,
+    "sobras": 153,
+    "vagas": 2472
+   },
+   "2025": {
+    "colocados": 2156,
+    "com_nota": 64,
+    "cursos": 67,
+    "nota_mediana": 137.0,
+    "sobras": 336,
+    "vagas": 2483
+   },
+   "2026": {
+    "colocados": 2327,
+    "com_nota": 67,
+    "cursos": 68,
+    "nota_mediana": 142.0,
+    "sobras": 187,
+    "vagas": 2483
+   }
+  },
+  "Ciências": {
+   "1997": {
+    "colocados": 3499,
+    "com_nota": 78,
+    "cursos": 87,
+    "nota_mediana": 136.5,
+    "sobras": 341,
+    "vagas": 3827
+   },
+   "1998": {
+    "colocados": 3728,
+    "com_nota": 79,
+    "cursos": 83,
+    "nota_mediana": 137.5,
+    "sobras": 241,
+    "vagas": 3952
+   },
+   "1999": {
+    "colocados": 3708,
+    "com_nota": 85,
+    "cursos": 86,
+    "nota_mediana": 130.5,
+    "sobras": 428,
+    "vagas": 4126
+   },
+   "2000": {
+    "colocados": 3630,
+    "com_nota": 85,
+    "cursos": 85,
+    "nota_mediana": 124.5,
+    "sobras": 511,
+    "vagas": 4126
+   },
+   "2001": {
+    "colocados": 2662,
+    "com_nota": 83,
+    "cursos": 87,
+    "nota_mediana": 116.6,
+    "sobras": 1499,
+    "vagas": 4151
+   },
+   "2002": {
+    "colocados": 2564,
+    "com_nota": 85,
+    "cursos": 91,
+    "nota_mediana": 118.0,
+    "sobras": 1402,
+    "vagas": 3956
+   },
+   "2003": {
+    "colocados": 2265,
+    "com_nota": 87,
+    "cursos": 90,
+    "nota_mediana": 117.8,
+    "sobras": 1121,
+    "vagas": 3383
+   },
+   "2004": {
+    "colocados": 2344,
+    "com_nota": 88,
+    "cursos": 91,
+    "nota_mediana": 119.0,
+    "sobras": 1154,
+    "vagas": 3498
+   },
+   "2005": {
+    "colocados": 2323,
+    "com_nota": 81,
+    "cursos": 87,
+    "nota_mediana": 120.3,
+    "sobras": 1069,
+    "vagas": 3392
+   },
+   "2006": {
+    "colocados": 2442,
+    "com_nota": 79,
+    "cursos": 81,
+    "nota_mediana": 116.5,
+    "sobras": 963,
+    "vagas": 3404
+   },
+   "2007": {
+    "colocados": 2871,
+    "com_nota": 80,
+    "cursos": 82,
+    "nota_mediana": 124.9,
+    "sobras": 637,
+    "vagas": 3506
+   },
+   "2008": {
+    "colocados": 3052,
+    "com_nota": 78,
+    "cursos": 78,
+    "nota_mediana": 122.5,
+    "sobras": 431,
+    "vagas": 3481
+   },
+   "2009": {
+    "colocados": 3062,
+    "com_nota": 81,
+    "cursos": 82,
+    "nota_mediana": 122.0,
+    "sobras": 457,
+    "vagas": 3517
+   },
+   "2010": {
+    "colocados": 3097,
+    "com_nota": 83,
+    "cursos": 86,
+    "nota_mediana": 122.3,
+    "sobras": 529,
+    "vagas": 3626
+   },
+   "2011": {
+    "colocados": 2956,
+    "com_nota": 80,
+    "cursos": 83,
+    "nota_mediana": 120.5,
+    "sobras": 543,
+    "vagas": 3485
+   },
+   "2012": {
+    "colocados": 3004,
+    "com_nota": 78,
+    "cursos": 79,
+    "nota_mediana": 122.7,
+    "sobras": 416,
+    "vagas": 3398
+   },
+   "2013": {
+    "colocados": 2893,
+    "com_nota": 84,
+    "cursos": 85,
+    "nota_mediana": 119.5,
+    "sobras": 694,
+    "vagas": 3580
+   },
+   "2014": {
+    "colocados": 2775,
+    "com_nota": 84,
+    "cursos": 85,
+    "nota_mediana": 120.8,
+    "sobras": 808,
+    "vagas": 3578
+   },
+   "2015": {
+    "colocados": 3159,
+    "com_nota": 84,
+    "cursos": 85,
+    "nota_mediana": 119.5,
+    "sobras": 437,
+    "vagas": 3585
+   },
+   "2016": {
+    "colocados": 3269,
+    "com_nota": 87,
+    "cursos": 89,
+    "nota_mediana": 120.8,
+    "sobras": 412,
+    "vagas": 3667
+   },
+   "2017": {
+    "colocados": 3323,
+    "com_nota": 85,
+    "cursos": 87,
+    "nota_mediana": 124.7,
+    "sobras": 278,
+    "vagas": 3587
+   },
+   "2018": {
+    "colocados": 3262,
+    "com_nota": 83,
+    "cursos": 87,
+    "nota_mediana": 124.9,
+    "sobras": 284,
+    "vagas": 3527
+   },
+   "2019": {
+    "colocados": 3188,
+    "com_nota": 83,
+    "cursos": 86,
+    "nota_mediana": 128.0,
+    "sobras": 304,
+    "vagas": 3480
+   },
+   "2020": {
+    "colocados": 3714,
+    "com_nota": 85,
+    "cursos": 85,
+    "nota_mediana": 134.0,
+    "sobras": 192,
+    "vagas": 3832
+   },
+   "2021": {
+    "colocados": 3601,
+    "com_nota": 84,
+    "cursos": 85,
+    "nota_mediana": 143.8,
+    "sobras": 195,
+    "vagas": 3776
+   },
+   "2022": {
+    "colocados": 3595,
+    "com_nota": 90,
+    "cursos": 90,
+    "nota_mediana": 141.0,
+    "sobras": 188,
+    "vagas": 3760
+   },
+   "2023": {
+    "colocados": 3438,
+    "com_nota": 88,
+    "cursos": 90,
+    "nota_mediana": 137.0,
+    "sobras": 241,
+    "vagas": 3662
+   },
+   "2024": {
+    "colocados": 3431,
+    "com_nota": 88,
+    "cursos": 92,
+    "nota_mediana": 133.7,
+    "sobras": 311,
+    "vagas": 3729
+   },
+   "2025": {
+    "colocados": 2781,
+    "com_nota": 91,
+    "cursos": 94,
+    "nota_mediana": 129.3,
+    "sobras": 975,
+    "vagas": 3751
+   },
+   "2026": {
+    "colocados": 3312,
+    "com_nota": 96,
+    "cursos": 99,
+    "nota_mediana": 127.0,
+    "sobras": 501,
+    "vagas": 3787
+   }
+  },
+  "Ciências sociais": {
+   "1997": {
+    "colocados": 1218,
+    "com_nota": 23,
+    "cursos": 24,
+    "nota_mediana": 143.5,
+    "sobras": 0,
+    "vagas": 1210
+   },
+   "1998": {
+    "colocados": 1243,
+    "com_nota": 25,
+    "cursos": 26,
+    "nota_mediana": 141.3,
+    "sobras": 97,
+    "vagas": 1330
+   },
+   "1999": {
+    "colocados": 1197,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 140.5,
+    "sobras": 112,
+    "vagas": 1304
+   },
+   "2000": {
+    "colocados": 1376,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 140.0,
+    "sobras": 18,
+    "vagas": 1388
+   },
+   "2001": {
+    "colocados": 1444,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 140.2,
+    "sobras": 0,
+    "vagas": 1433
+   },
+   "2002": {
+    "colocados": 1526,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 138.3,
+    "sobras": 0,
+    "vagas": 1513
+   },
+   "2003": {
+    "colocados": 1443,
+    "com_nota": 29,
+    "cursos": 29,
+    "nota_mediana": 134.0,
+    "sobras": 41,
+    "vagas": 1468
+   },
+   "2004": {
+    "colocados": 1635,
+    "com_nota": 38,
+    "cursos": 38,
+    "nota_mediana": 126.0,
+    "sobras": 97,
+    "vagas": 1732
+   },
+   "2005": {
+    "colocados": 1740,
+    "com_nota": 43,
+    "cursos": 43,
+    "nota_mediana": 130.5,
+    "sobras": 149,
+    "vagas": 1887
+   },
+   "2006": {
+    "colocados": 1864,
+    "com_nota": 44,
+    "cursos": 44,
+    "nota_mediana": 130.0,
+    "sobras": 202,
+    "vagas": 2066
+   },
+   "2007": {
+    "colocados": 2036,
+    "com_nota": 51,
+    "cursos": 52,
+    "nota_mediana": 126.2,
+    "sobras": 286,
+    "vagas": 2318
+   },
+   "2008": {
+    "colocados": 2125,
+    "com_nota": 55,
+    "cursos": 55,
+    "nota_mediana": 122.5,
+    "sobras": 257,
+    "vagas": 2380
+   },
+   "2009": {
+    "colocados": 2303,
+    "com_nota": 60,
+    "cursos": 60,
+    "nota_mediana": 128.0,
+    "sobras": 221,
+    "vagas": 2521
+   },
+   "2010": {
+    "colocados": 2343,
+    "com_nota": 61,
+    "cursos": 64,
+    "nota_mediana": 126.5,
+    "sobras": 275,
+    "vagas": 2614
+   },
+   "2011": {
+    "colocados": 1991,
+    "com_nota": 58,
+    "cursos": 62,
+    "nota_mediana": 123.5,
+    "sobras": 607,
+    "vagas": 2563
+   },
+   "2012": {
+    "colocados": 1956,
+    "com_nota": 52,
+    "cursos": 59,
+    "nota_mediana": 121.5,
+    "sobras": 554,
+    "vagas": 2469
+   },
+   "2013": {
+    "colocados": 1802,
+    "com_nota": 54,
+    "cursos": 62,
+    "nota_mediana": 120.0,
+    "sobras": 636,
+    "vagas": 2421
+   },
+   "2014": {
+    "colocados": 1911,
+    "com_nota": 54,
+    "cursos": 58,
+    "nota_mediana": 121.5,
+    "sobras": 442,
+    "vagas": 2341
+   },
+   "2015": {
+    "colocados": 2018,
+    "com_nota": 53,
+    "cursos": 58,
+    "nota_mediana": 121.0,
+    "sobras": 349,
+    "vagas": 2332
+   },
+   "2016": {
+    "colocados": 2032,
+    "com_nota": 54,
+    "cursos": 58,
+    "nota_mediana": 122.0,
+    "sobras": 345,
+    "vagas": 2357
+   },
+   "2017": {
+    "colocados": 2118,
+    "com_nota": 54,
+    "cursos": 57,
+    "nota_mediana": 123.5,
+    "sobras": 253,
+    "vagas": 2342
+   },
+   "2018": {
+    "colocados": 2150,
+    "com_nota": 52,
+    "cursos": 56,
+    "nota_mediana": 122.3,
+    "sobras": 198,
+    "vagas": 2315
+   },
+   "2019": {
+    "colocados": 2105,
+    "com_nota": 54,
+    "cursos": 55,
+    "nota_mediana": 127.0,
+    "sobras": 199,
+    "vagas": 2275
+   },
+   "2020": {
+    "colocados": 2400,
+    "com_nota": 55,
+    "cursos": 56,
+    "nota_mediana": 132.0,
+    "sobras": 153,
+    "vagas": 2501
+   },
+   "2021": {
+    "colocados": 2380,
+    "com_nota": 56,
+    "cursos": 56,
+    "nota_mediana": 139.6,
+    "sobras": 110,
+    "vagas": 2463
+   },
+   "2022": {
+    "colocados": 2362,
+    "com_nota": 56,
+    "cursos": 56,
+    "nota_mediana": 138.9,
+    "sobras": 79,
+    "vagas": 2399
+   },
+   "2023": {
+    "colocados": 2312,
+    "com_nota": 58,
+    "cursos": 58,
+    "nota_mediana": 143.6,
+    "sobras": 100,
+    "vagas": 2386
+   },
+   "2024": {
+    "colocados": 2333,
+    "com_nota": 56,
+    "cursos": 57,
+    "nota_mediana": 135.2,
+    "sobras": 91,
+    "vagas": 2396
+   },
+   "2025": {
+    "colocados": 1938,
+    "com_nota": 54,
+    "cursos": 57,
+    "nota_mediana": 133.0,
+    "sobras": 483,
+    "vagas": 2409
+   },
+   "2026": {
+    "colocados": 2260,
+    "com_nota": 55,
+    "cursos": 56,
+    "nota_mediana": 134.0,
+    "sobras": 171,
+    "vagas": 2396
+   }
+  },
+  "Comunicação": {
+   "1997": {
+    "colocados": 873,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 141.5,
+    "sobras": 0,
+    "vagas": 870
+   },
+   "1998": {
+    "colocados": 857,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 142.5,
+    "sobras": 10,
+    "vagas": 859
+   },
+   "1999": {
+    "colocados": 1004,
+    "com_nota": 21,
+    "cursos": 21,
+    "nota_mediana": 141.3,
+    "sobras": 2,
+    "vagas": 995
+   },
+   "2000": {
+    "colocados": 1068,
+    "com_nota": 23,
+    "cursos": 23,
+    "nota_mediana": 147.6,
+    "sobras": 24,
+    "vagas": 1085
+   },
+   "2001": {
+    "colocados": 1026,
+    "com_nota": 23,
+    "cursos": 23,
+    "nota_mediana": 148.5,
+    "sobras": 32,
+    "vagas": 1045
+   },
+   "2002": {
+    "colocados": 1162,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 146.4,
+    "sobras": 6,
+    "vagas": 1160
+   },
+   "2003": {
+    "colocados": 1240,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 140.7,
+    "sobras": 0,
+    "vagas": 1232
+   },
+   "2004": {
+    "colocados": 1284,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 131.4,
+    "sobras": 59,
+    "vagas": 1343
+   },
+   "2005": {
+    "colocados": 1245,
+    "com_nota": 31,
+    "cursos": 31,
+    "nota_mediana": 132.2,
+    "sobras": 153,
+    "vagas": 1397
+   },
+   "2006": {
+    "colocados": 1210,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 126.8,
+    "sobras": 137,
+    "vagas": 1347
+   },
+   "2007": {
+    "colocados": 1190,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 125.4,
+    "sobras": 120,
+    "vagas": 1304
+   },
+   "2008": {
+    "colocados": 1216,
+    "com_nota": 33,
+    "cursos": 33,
+    "nota_mediana": 127.3,
+    "sobras": 195,
+    "vagas": 1410
+   },
+   "2009": {
+    "colocados": 1315,
+    "com_nota": 33,
+    "cursos": 33,
+    "nota_mediana": 133.6,
+    "sobras": 99,
+    "vagas": 1414
+   },
+   "2010": {
+    "colocados": 1347,
+    "com_nota": 34,
+    "cursos": 34,
+    "nota_mediana": 137.4,
+    "sobras": 92,
+    "vagas": 1438
+   },
+   "2011": {
+    "colocados": 1277,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 125.8,
+    "sobras": 214,
+    "vagas": 1488
+   },
+   "2012": {
+    "colocados": 1259,
+    "com_nota": 34,
+    "cursos": 34,
+    "nota_mediana": 125.8,
+    "sobras": 228,
+    "vagas": 1476
+   },
+   "2013": {
+    "colocados": 1145,
+    "com_nota": 32,
+    "cursos": 34,
+    "nota_mediana": 123.2,
+    "sobras": 296,
+    "vagas": 1439
+   },
+   "2014": {
+    "colocados": 1196,
+    "com_nota": 32,
+    "cursos": 33,
+    "nota_mediana": 129.2,
+    "sobras": 209,
+    "vagas": 1397
+   },
+   "2015": {
+    "colocados": 1284,
+    "com_nota": 33,
+    "cursos": 33,
+    "nota_mediana": 127.2,
+    "sobras": 144,
+    "vagas": 1420
+   },
+   "2016": {
+    "colocados": 1351,
+    "com_nota": 34,
+    "cursos": 34,
+    "nota_mediana": 126.7,
+    "sobras": 121,
+    "vagas": 1458
+   },
+   "2017": {
+    "colocados": 1446,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 131.2,
+    "sobras": 87,
+    "vagas": 1515
+   },
+   "2018": {
+    "colocados": 1466,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 125.9,
+    "sobras": 70,
+    "vagas": 1507
+   },
+   "2019": {
+    "colocados": 1479,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 130.6,
+    "sobras": 86,
+    "vagas": 1536
+   },
+   "2020": {
+    "colocados": 1605,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 137.8,
+    "sobras": 97,
+    "vagas": 1666
+   },
+   "2021": {
+    "colocados": 1634,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 145.8,
+    "sobras": 23,
+    "vagas": 1629
+   },
+   "2022": {
+    "colocados": 1672,
+    "com_nota": 36,
+    "cursos": 36,
+    "nota_mediana": 140.8,
+    "sobras": 9,
+    "vagas": 1664
+   },
+   "2023": {
+    "colocados": 1634,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 146.4,
+    "sobras": 14,
+    "vagas": 1633
+   },
+   "2024": {
+    "colocados": 1608,
+    "com_nota": 33,
+    "cursos": 33,
+    "nota_mediana": 144.4,
+    "sobras": 4,
+    "vagas": 1596
+   },
+   "2025": {
+    "colocados": 1425,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 129.9,
+    "sobras": 240,
+    "vagas": 1661
+   },
+   "2026": {
+    "colocados": 1633,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 137.0,
+    "sobras": 41,
+    "vagas": 1649
+   }
+  },
+  "Desporto": {
+   "1997": {
+    "colocados": 391,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 128.5,
+    "sobras": 19,
+    "vagas": 410
+   },
+   "1998": {
+    "colocados": 449,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 113.8,
+    "sobras": 93,
+    "vagas": 535
+   },
+   "1999": {
+    "colocados": 511,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 132.0,
+    "sobras": 31,
+    "vagas": 535
+   },
+   "2000": {
+    "colocados": 540,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 129.7,
+    "sobras": 9,
+    "vagas": 545
+   },
+   "2001": {
+    "colocados": 511,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 128.1,
+    "sobras": 37,
+    "vagas": 545
+   },
+   "2002": {
+    "colocados": 555,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 116.5,
+    "sobras": 22,
+    "vagas": 570
+   },
+   "2003": {
+    "colocados": 481,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 114.5,
+    "sobras": 77,
+    "vagas": 557
+   },
+   "2004": {
+    "colocados": 582,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 114.0,
+    "sobras": 58,
+    "vagas": 640
+   },
+   "2005": {
+    "colocados": 538,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 112.5,
+    "sobras": 96,
+    "vagas": 634
+   },
+   "2006": {
+    "colocados": 579,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 126.0,
+    "sobras": 22,
+    "vagas": 599
+   },
+   "2007": {
+    "colocados": 789,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 127.2,
+    "sobras": 13,
+    "vagas": 800
+   },
+   "2008": {
+    "colocados": 823,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 128.3,
+    "sobras": 22,
+    "vagas": 845
+   },
+   "2009": {
+    "colocados": 867,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 130.0,
+    "sobras": 42,
+    "vagas": 908
+   },
+   "2010": {
+    "colocados": 953,
+    "com_nota": 21,
+    "cursos": 21,
+    "nota_mediana": 126.2,
+    "sobras": 20,
+    "vagas": 973
+   },
+   "2011": {
+    "colocados": 999,
+    "com_nota": 21,
+    "cursos": 21,
+    "nota_mediana": 124.7,
+    "sobras": 32,
+    "vagas": 1020
+   },
+   "2012": {
+    "colocados": 990,
+    "com_nota": 21,
+    "cursos": 21,
+    "nota_mediana": 120.7,
+    "sobras": 80,
+    "vagas": 1044
+   },
+   "2013": {
+    "colocados": 893,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 120.4,
+    "sobras": 151,
+    "vagas": 1042
+   },
+   "2014": {
+    "colocados": 953,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 122.0,
+    "sobras": 75,
+    "vagas": 1025
+   },
+   "2015": {
+    "colocados": 985,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 121.8,
+    "sobras": 73,
+    "vagas": 1045
+   },
+   "2016": {
+    "colocados": 963,
+    "com_nota": 18,
+    "cursos": 19,
+    "nota_mediana": 119.2,
+    "sobras": 124,
+    "vagas": 1073
+   },
+   "2017": {
+    "colocados": 1032,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 122.2,
+    "sobras": 49,
+    "vagas": 1069
+   },
+   "2018": {
+    "colocados": 1031,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 120.5,
+    "sobras": 69,
+    "vagas": 1080
+   },
+   "2019": {
+    "colocados": 1112,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 124.5,
+    "sobras": 8,
+    "vagas": 1099
+   },
+   "2020": {
+    "colocados": 1225,
+    "com_nota": 17,
+    "cursos": 17,
+    "nota_mediana": 136.4,
+    "sobras": 0,
+    "vagas": 1199
+   },
+   "2021": {
+    "colocados": 1213,
+    "com_nota": 17,
+    "cursos": 17,
+    "nota_mediana": 138.9,
+    "sobras": 0,
+    "vagas": 1188
+   },
+   "2022": {
+    "colocados": 1165,
+    "com_nota": 17,
+    "cursos": 17,
+    "nota_mediana": 136.8,
+    "sobras": 16,
+    "vagas": 1170
+   },
+   "2023": {
+    "colocados": 1169,
+    "com_nota": 17,
+    "cursos": 17,
+    "nota_mediana": 140.5,
+    "sobras": 4,
+    "vagas": 1164
+   },
+   "2024": {
+    "colocados": 1195,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 137.3,
+    "sobras": 5,
+    "vagas": 1184
+   },
+   "2025": {
+    "colocados": 929,
+    "com_nota": 18,
+    "cursos": 19,
+    "nota_mediana": 114.0,
+    "sobras": 293,
+    "vagas": 1221
+   },
+   "2026": {
+    "colocados": 1181,
+    "com_nota": 21,
+    "cursos": 21,
+    "nota_mediana": 130.0,
+    "sobras": 76,
+    "vagas": 1249
+   }
+  },
+  "Direito": {
+   "1997": {
+    "colocados": 1195,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 143.3,
+    "sobras": 0,
+    "vagas": 1190
+   },
+   "1998": {
+    "colocados": 1227,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 145.0,
+    "sobras": 0,
+    "vagas": 1220
+   },
+   "1999": {
+    "colocados": 1256,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 139.0,
+    "sobras": 0,
+    "vagas": 1255
+   },
+   "2000": {
+    "colocados": 1333,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 136.3,
+    "sobras": 0,
+    "vagas": 1330
+   },
+   "2001": {
+    "colocados": 1281,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 136.4,
+    "sobras": 0,
+    "vagas": 1280
+   },
+   "2002": {
+    "colocados": 1271,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 137.4,
+    "sobras": 0,
+    "vagas": 1270
+   },
+   "2003": {
+    "colocados": 1255,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 140.6,
+    "sobras": 0,
+    "vagas": 1250
+   },
+   "2004": {
+    "colocados": 1357,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 125.3,
+    "sobras": 83,
+    "vagas": 1440
+   },
+   "2005": {
+    "colocados": 1436,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 129.8,
+    "sobras": 0,
+    "vagas": 1435
+   },
+   "2006": {
+    "colocados": 1464,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 130.8,
+    "sobras": 66,
+    "vagas": 1530
+   },
+   "2007": {
+    "colocados": 1588,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 127.7,
+    "sobras": 22,
+    "vagas": 1610
+   },
+   "2008": {
+    "colocados": 1610,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 135.0,
+    "sobras": 28,
+    "vagas": 1638
+   },
+   "2009": {
+    "colocados": 1681,
+    "com_nota": 15,
+    "cursos": 15,
+    "nota_mediana": 133.0,
+    "sobras": 8,
+    "vagas": 1688
+   },
+   "2010": {
+    "colocados": 1766,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 125.7,
+    "sobras": 150,
+    "vagas": 1915
+   },
+   "2011": {
+    "colocados": 1656,
+    "com_nota": 20,
+    "cursos": 21,
+    "nota_mediana": 128.0,
+    "sobras": 316,
+    "vagas": 1967
+   },
+   "2012": {
+    "colocados": 1639,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 125.4,
+    "sobras": 319,
+    "vagas": 1939
+   },
+   "2013": {
+    "colocados": 1610,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 121.0,
+    "sobras": 314,
+    "vagas": 1923
+   },
+   "2014": {
+    "colocados": 1661,
+    "com_nota": 19,
+    "cursos": 20,
+    "nota_mediana": 122.6,
+    "sobras": 223,
+    "vagas": 1878
+   },
+   "2015": {
+    "colocados": 1796,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 128.5,
+    "sobras": 87,
+    "vagas": 1878
+   },
+   "2016": {
+    "colocados": 1788,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 132.4,
+    "sobras": 58,
+    "vagas": 1838
+   },
+   "2017": {
+    "colocados": 1806,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 135.2,
+    "sobras": 34,
+    "vagas": 1830
+   },
+   "2018": {
+    "colocados": 1783,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 137.2,
+    "sobras": 54,
+    "vagas": 1818
+   },
+   "2019": {
+    "colocados": 1780,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 143.3,
+    "sobras": 39,
+    "vagas": 1809
+   },
+   "2020": {
+    "colocados": 1971,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 148.7,
+    "sobras": 17,
+    "vagas": 1947
+   },
+   "2021": {
+    "colocados": 1907,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 153.7,
+    "sobras": 0,
+    "vagas": 1874
+   },
+   "2022": {
+    "colocados": 1829,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 153.7,
+    "sobras": 0,
+    "vagas": 1820
+   },
+   "2023": {
+    "colocados": 1778,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 155.0,
+    "sobras": 0,
+    "vagas": 1765
+   },
+   "2024": {
+    "colocados": 1784,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 153.8,
+    "sobras": 2,
+    "vagas": 1775
+   },
+   "2025": {
+    "colocados": 1744,
+    "com_nota": 19,
+    "cursos": 19,
+    "nota_mediana": 148.0,
+    "sobras": 46,
+    "vagas": 1786
+   },
+   "2026": {
+    "colocados": 1801,
+    "com_nota": 20,
+    "cursos": 20,
+    "nota_mediana": 152.5,
+    "sobras": 26,
+    "vagas": 1813
+   }
+  },
+  "Enfermagem": {
+   "1997": {
+    "colocados": 1056,
+    "com_nota": 22,
+    "cursos": 24,
+    "nota_mediana": 153.5,
+    "sobras": 0,
+    "vagas": 1045
+   },
+   "1998": {
+    "colocados": 1362,
+    "com_nota": 28,
+    "cursos": 30,
+    "nota_mediana": 152.8,
+    "sobras": 0,
+    "vagas": 1359
+   },
+   "1999": {
+    "colocados": 1266,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 156.8,
+    "sobras": 0,
+    "vagas": 1255
+   },
+   "2000": {
+    "colocados": 1504,
+    "com_nota": 31,
+    "cursos": 31,
+    "nota_mediana": 156.0,
+    "sobras": 0,
+    "vagas": 1492
+   },
+   "2001": {
+    "colocados": 1944,
+    "com_nota": 37,
+    "cursos": 37,
+    "nota_mediana": 157.4,
+    "sobras": 0,
+    "vagas": 1931
+   },
+   "2002": {
+    "colocados": 2074,
+    "com_nota": 38,
+    "cursos": 38,
+    "nota_mediana": 155.0,
+    "sobras": 0,
+    "vagas": 2066
+   },
+   "2003": {
+    "colocados": 2075,
+    "com_nota": 36,
+    "cursos": 36,
+    "nota_mediana": 152.6,
+    "sobras": 0,
+    "vagas": 2056
+   },
+   "2004": {
+    "colocados": 2091,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 148.8,
+    "sobras": 0,
+    "vagas": 2091
+   },
+   "2005": {
+    "colocados": 2132,
+    "com_nota": 36,
+    "cursos": 36,
+    "nota_mediana": 155.8,
+    "sobras": 0,
+    "vagas": 2130
+   },
+   "2006": {
+    "colocados": 2172,
+    "com_nota": 36,
+    "cursos": 36,
+    "nota_mediana": 152.8,
+    "sobras": 0,
+    "vagas": 2168
+   },
+   "2007": {
+    "colocados": 2094,
+    "com_nota": 31,
+    "cursos": 31,
+    "nota_mediana": 147.0,
+    "sobras": 79,
+    "vagas": 2165
+   },
+   "2008": {
+    "colocados": 2017,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 135.9,
+    "sobras": 132,
+    "vagas": 2147
+   },
+   "2009": {
+    "colocados": 2011,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 140.5,
+    "sobras": 84,
+    "vagas": 2095
+   },
+   "2010": {
+    "colocados": 2048,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 138.0,
+    "sobras": 44,
+    "vagas": 2090
+   },
+   "2011": {
+    "colocados": 2003,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 142.4,
+    "sobras": 41,
+    "vagas": 2034
+   },
+   "2012": {
+    "colocados": 1934,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 134.0,
+    "sobras": 113,
+    "vagas": 2028
+   },
+   "2013": {
+    "colocados": 1806,
+    "com_nota": 25,
+    "cursos": 25,
+    "nota_mediana": 124.4,
+    "sobras": 229,
+    "vagas": 2029
+   },
+   "2014": {
+    "colocados": 1907,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 130.8,
+    "sobras": 96,
+    "vagas": 1985
+   },
+   "2015": {
+    "colocados": 1960,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 129.2,
+    "sobras": 68,
+    "vagas": 2022
+   },
+   "2016": {
+    "colocados": 1948,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 124.6,
+    "sobras": 87,
+    "vagas": 2026
+   },
+   "2017": {
+    "colocados": 1938,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 127.6,
+    "sobras": 102,
+    "vagas": 2026
+   },
+   "2018": {
+    "colocados": 1949,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 127.4,
+    "sobras": 100,
+    "vagas": 2031
+   },
+   "2019": {
+    "colocados": 1932,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 127.5,
+    "sobras": 136,
+    "vagas": 2059
+   },
+   "2020": {
+    "colocados": 2096,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 147.8,
+    "sobras": 38,
+    "vagas": 2074
+   },
+   "2021": {
+    "colocados": 2096,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 154.6,
+    "sobras": 0,
+    "vagas": 2075
+   },
+   "2022": {
+    "colocados": 2071,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 147.4,
+    "sobras": 0,
+    "vagas": 2052
+   },
+   "2023": {
+    "colocados": 2007,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 144.4,
+    "sobras": 2,
+    "vagas": 2000
+   },
+   "2024": {
+    "colocados": 1953,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 139.0,
+    "sobras": 64,
+    "vagas": 2015
+   },
+   "2025": {
+    "colocados": 1905,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 140.8,
+    "sobras": 124,
+    "vagas": 2024
+   },
+   "2026": {
+    "colocados": 2008,
+    "com_nota": 22,
+    "cursos": 22,
+    "nota_mediana": 140.8,
+    "sobras": 45,
+    "vagas": 2038
+   }
+  },
+  "Engenharias": {
+   "1997": {
+    "colocados": 7789,
+    "com_nota": 191,
+    "cursos": 199,
+    "nota_mediana": 92.3,
+    "sobras": 2587,
+    "vagas": 10361
+   },
+   "1998": {
+    "colocados": 8358,
+    "com_nota": 194,
+    "cursos": 197,
+    "nota_mediana": 99.5,
+    "sobras": 2198,
+    "vagas": 10545
+   },
+   "1999": {
+    "colocados": 6942,
+    "com_nota": 197,
+    "cursos": 203,
+    "nota_mediana": 105.5,
+    "sobras": 4104,
+    "vagas": 11040
+   },
+   "2000": {
+    "colocados": 7982,
+    "com_nota": 215,
+    "cursos": 219,
+    "nota_mediana": 104.3,
+    "sobras": 3285,
+    "vagas": 11250
+   },
+   "2001": {
+    "colocados": 6310,
+    "com_nota": 208,
+    "cursos": 219,
+    "nota_mediana": 105.2,
+    "sobras": 4623,
+    "vagas": 10928
+   },
+   "2002": {
+    "colocados": 6912,
+    "com_nota": 214,
+    "cursos": 225,
+    "nota_mediana": 108.3,
+    "sobras": 3740,
+    "vagas": 10635
+   },
+   "2003": {
+    "colocados": 6071,
+    "com_nota": 214,
+    "cursos": 222,
+    "nota_mediana": 108.1,
+    "sobras": 3563,
+    "vagas": 9629
+   },
+   "2004": {
+    "colocados": 6314,
+    "com_nota": 210,
+    "cursos": 218,
+    "nota_mediana": 108.6,
+    "sobras": 2884,
+    "vagas": 9197
+   },
+   "2005": {
+    "colocados": 4418,
+    "com_nota": 188,
+    "cursos": 213,
+    "nota_mediana": 115.8,
+    "sobras": 4305,
+    "vagas": 8723
+   },
+   "2006": {
+    "colocados": 4307,
+    "com_nota": 178,
+    "cursos": 187,
+    "nota_mediana": 115.6,
+    "sobras": 3746,
+    "vagas": 8053
+   },
+   "2007": {
+    "colocados": 6583,
+    "com_nota": 191,
+    "cursos": 200,
+    "nota_mediana": 118.8,
+    "sobras": 1882,
+    "vagas": 8449
+   },
+   "2008": {
+    "colocados": 7719,
+    "com_nota": 211,
+    "cursos": 214,
+    "nota_mediana": 127.6,
+    "sobras": 1228,
+    "vagas": 8941
+   },
+   "2009": {
+    "colocados": 7365,
+    "com_nota": 206,
+    "cursos": 220,
+    "nota_mediana": 124.1,
+    "sobras": 1850,
+    "vagas": 9213
+   },
+   "2010": {
+    "colocados": 7180,
+    "com_nota": 213,
+    "cursos": 224,
+    "nota_mediana": 122.2,
+    "sobras": 2258,
+    "vagas": 9434
+   },
+   "2011": {
+    "colocados": 6404,
+    "com_nota": 205,
+    "cursos": 223,
+    "nota_mediana": 121.8,
+    "sobras": 2942,
+    "vagas": 9337
+   },
+   "2012": {
+    "colocados": 4800,
+    "com_nota": 157,
+    "cursos": 216,
+    "nota_mediana": 125.8,
+    "sobras": 4213,
+    "vagas": 9005
+   },
+   "2013": {
+    "colocados": 3992,
+    "com_nota": 141,
+    "cursos": 186,
+    "nota_mediana": 123.2,
+    "sobras": 4015,
+    "vagas": 8005
+   },
+   "2014": {
+    "colocados": 3571,
+    "com_nota": 127,
+    "cursos": 176,
+    "nota_mediana": 126.4,
+    "sobras": 4033,
+    "vagas": 7603
+   },
+   "2015": {
+    "colocados": 4583,
+    "com_nota": 136,
+    "cursos": 171,
+    "nota_mediana": 122.0,
+    "sobras": 2743,
+    "vagas": 7324
+   },
+   "2016": {
+    "colocados": 4856,
+    "com_nota": 137,
+    "cursos": 169,
+    "nota_mediana": 127.0,
+    "sobras": 2188,
+    "vagas": 7041
+   },
+   "2017": {
+    "colocados": 5358,
+    "com_nota": 138,
+    "cursos": 172,
+    "nota_mediana": 128.2,
+    "sobras": 1754,
+    "vagas": 7108
+   },
+   "2018": {
+    "colocados": 5089,
+    "com_nota": 143,
+    "cursos": 173,
+    "nota_mediana": 130.1,
+    "sobras": 1988,
+    "vagas": 7067
+   },
+   "2019": {
+    "colocados": 5095,
+    "com_nota": 140,
+    "cursos": 176,
+    "nota_mediana": 129.2,
+    "sobras": 2024,
+    "vagas": 7115
+   },
+   "2020": {
+    "colocados": 6010,
+    "com_nota": 151,
+    "cursos": 177,
+    "nota_mediana": 130.3,
+    "sobras": 2072,
+    "vagas": 8037
+   },
+   "2021": {
+    "colocados": 5580,
+    "com_nota": 145,
+    "cursos": 176,
+    "nota_mediana": 138.1,
+    "sobras": 2343,
+    "vagas": 7892
+   },
+   "2022": {
+    "colocados": 5638,
+    "com_nota": 153,
+    "cursos": 183,
+    "nota_mediana": 134.6,
+    "sobras": 2015,
+    "vagas": 7644
+   },
+   "2023": {
+    "colocados": 5321,
+    "com_nota": 155,
+    "cursos": 187,
+    "nota_mediana": 133.4,
+    "sobras": 2103,
+    "vagas": 7417
+   },
+   "2024": {
+    "colocados": 5623,
+    "com_nota": 155,
+    "cursos": 183,
+    "nota_mediana": 133.5,
+    "sobras": 1628,
+    "vagas": 7249
+   },
+   "2025": {
+    "colocados": 5265,
+    "com_nota": 155,
+    "cursos": 181,
+    "nota_mediana": 129.3,
+    "sobras": 1934,
+    "vagas": 7195
+   },
+   "2026": {
+    "colocados": 5795,
+    "com_nota": 160,
+    "cursos": 186,
+    "nota_mediana": 128.5,
+    "sobras": 1635,
+    "vagas": 7425
+   }
+  },
+  "Farmácia": {
+   "1997": {
+    "colocados": 467,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 172.8,
+    "sobras": 0,
+    "vagas": 464
+   },
+   "1998": {
+    "colocados": 477,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 174.0,
+    "sobras": 0,
+    "vagas": 474
+   },
+   "1999": {
+    "colocados": 502,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 171.0,
+    "sobras": 0,
+    "vagas": 501
+   },
+   "2000": {
+    "colocados": 550,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 166.0,
+    "sobras": 0,
+    "vagas": 550
+   },
+   "2001": {
+    "colocados": 574,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 166.8,
+    "sobras": 0,
+    "vagas": 571
+   },
+   "2002": {
+    "colocados": 581,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 166.3,
+    "sobras": 0,
+    "vagas": 580
+   },
+   "2003": {
+    "colocados": 641,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 153.8,
+    "sobras": 0,
+    "vagas": 640
+   },
+   "2004": {
+    "colocados": 702,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 151.0,
+    "sobras": 0,
+    "vagas": 702
+   },
+   "2005": {
+    "colocados": 805,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 155.4,
+    "sobras": 17,
+    "vagas": 821
+   },
+   "2006": {
+    "colocados": 872,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 156.9,
+    "sobras": 13,
+    "vagas": 884
+   },
+   "2007": {
+    "colocados": 896,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 157.8,
+    "sobras": 11,
+    "vagas": 905
+   },
+   "2008": {
+    "colocados": 906,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 162.5,
+    "sobras": 10,
+    "vagas": 915
+   },
+   "2009": {
+    "colocados": 892,
+    "com_nota": 13,
+    "cursos": 14,
+    "nota_mediana": 158.7,
+    "sobras": 24,
+    "vagas": 915
+   },
+   "2010": {
+    "colocados": 897,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 160.6,
+    "sobras": 0,
+    "vagas": 897
+   },
+   "2011": {
+    "colocados": 927,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 159.1,
+    "sobras": 0,
+    "vagas": 923
+   },
+   "2012": {
+    "colocados": 942,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 155.8,
+    "sobras": 0,
+    "vagas": 935
+   },
+   "2013": {
+    "colocados": 884,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 130.8,
+    "sobras": 79,
+    "vagas": 963
+   },
+   "2014": {
+    "colocados": 912,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 137.2,
+    "sobras": 52,
+    "vagas": 964
+   },
+   "2015": {
+    "colocados": 924,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 136.3,
+    "sobras": 51,
+    "vagas": 974
+   },
+   "2016": {
+    "colocados": 920,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 129.3,
+    "sobras": 74,
+    "vagas": 991
+   },
+   "2017": {
+    "colocados": 917,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 133.3,
+    "sobras": 84,
+    "vagas": 1001
+   },
+   "2018": {
+    "colocados": 894,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 129.0,
+    "sobras": 93,
+    "vagas": 984
+   },
+   "2019": {
+    "colocados": 876,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 132.8,
+    "sobras": 106,
+    "vagas": 981
+   },
+   "2020": {
+    "colocados": 1028,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 144.0,
+    "sobras": 61,
+    "vagas": 1074
+   },
+   "2021": {
+    "colocados": 1053,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 156.7,
+    "sobras": 8,
+    "vagas": 1056
+   },
+   "2022": {
+    "colocados": 1032,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 150.5,
+    "sobras": 6,
+    "vagas": 1035
+   },
+   "2023": {
+    "colocados": 990,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 148.2,
+    "sobras": 42,
+    "vagas": 1032
+   },
+   "2024": {
+    "colocados": 966,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 148.0,
+    "sobras": 76,
+    "vagas": 1041
+   },
+   "2025": {
+    "colocados": 910,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 124.0,
+    "sobras": 114,
+    "vagas": 1024
+   },
+   "2026": {
+    "colocados": 997,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 144.5,
+    "sobras": 76,
+    "vagas": 1067
+   }
+  },
+  "Formação de professores": {
+   "1997": {
+    "colocados": 2903,
+    "com_nota": 107,
+    "cursos": 112,
+    "nota_mediana": 117.5,
+    "sobras": 220,
+    "vagas": 3113
+   },
+   "1998": {
+    "colocados": 3285,
+    "com_nota": 113,
+    "cursos": 117,
+    "nota_mediana": 124.0,
+    "sobras": 184,
+    "vagas": 3440
+   },
+   "1999": {
+    "colocados": 3499,
+    "com_nota": 113,
+    "cursos": 115,
+    "nota_mediana": 126.0,
+    "sobras": 294,
+    "vagas": 3775
+   },
+   "2000": {
+    "colocados": 3297,
+    "com_nota": 114,
+    "cursos": 116,
+    "nota_mediana": 124.6,
+    "sobras": 515,
+    "vagas": 3795
+   },
+   "2001": {
+    "colocados": 2758,
+    "com_nota": 105,
+    "cursos": 109,
+    "nota_mediana": 121.6,
+    "sobras": 780,
+    "vagas": 3515
+   },
+   "2002": {
+    "colocados": 2708,
+    "com_nota": 101,
+    "cursos": 107,
+    "nota_mediana": 120.4,
+    "sobras": 663,
+    "vagas": 3365
+   },
+   "2003": {
+    "colocados": 2143,
+    "com_nota": 84,
+    "cursos": 92,
+    "nota_mediana": 117.8,
+    "sobras": 758,
+    "vagas": 2894
+   },
+   "2004": {
+    "colocados": 1927,
+    "com_nota": 81,
+    "cursos": 83,
+    "nota_mediana": 115.6,
+    "sobras": 617,
+    "vagas": 2543
+   },
+   "2005": {
+    "colocados": 1669,
+    "com_nota": 70,
+    "cursos": 74,
+    "nota_mediana": 119.3,
+    "sobras": 615,
+    "vagas": 2283
+   },
+   "2006": {
+    "colocados": 1559,
+    "com_nota": 61,
+    "cursos": 64,
+    "nota_mediana": 118.2,
+    "sobras": 570,
+    "vagas": 2129
+   },
+   "2007": {
+    "colocados": 1489,
+    "com_nota": 31,
+    "cursos": 31,
+    "nota_mediana": 122.2,
+    "sobras": 181,
+    "vagas": 1670
+   },
+   "2008": {
+    "colocados": 1391,
+    "com_nota": 30,
+    "cursos": 31,
+    "nota_mediana": 116.4,
+    "sobras": 299,
+    "vagas": 1689
+   },
+   "2009": {
+    "colocados": 1448,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 121.3,
+    "sobras": 183,
+    "vagas": 1631
+   },
+   "2010": {
+    "colocados": 1481,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 120.8,
+    "sobras": 100,
+    "vagas": 1580
+   },
+   "2011": {
+    "colocados": 1243,
+    "com_nota": 31,
+    "cursos": 31,
+    "nota_mediana": 113.0,
+    "sobras": 388,
+    "vagas": 1623
+   },
+   "2012": {
+    "colocados": 1022,
+    "com_nota": 29,
+    "cursos": 30,
+    "nota_mediana": 117.2,
+    "sobras": 335,
+    "vagas": 1336
+   },
+   "2013": {
+    "colocados": 789,
+    "com_nota": 27,
+    "cursos": 29,
+    "nota_mediana": 111.7,
+    "sobras": 342,
+    "vagas": 1126
+   },
+   "2014": {
+    "colocados": 805,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 117.8,
+    "sobras": 248,
+    "vagas": 1051
+   },
+   "2015": {
+    "colocados": 871,
+    "com_nota": 27,
+    "cursos": 28,
+    "nota_mediana": 115.2,
+    "sobras": 179,
+    "vagas": 1046
+   },
+   "2016": {
+    "colocados": 927,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 113.6,
+    "sobras": 130,
+    "vagas": 1042
+   },
+   "2017": {
+    "colocados": 918,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 116.7,
+    "sobras": 127,
+    "vagas": 1038
+   },
+   "2018": {
+    "colocados": 563,
+    "com_nota": 22,
+    "cursos": 27,
+    "nota_mediana": 115.9,
+    "sobras": 476,
+    "vagas": 1033
+   },
+   "2019": {
+    "colocados": 694,
+    "com_nota": 23,
+    "cursos": 27,
+    "nota_mediana": 117.6,
+    "sobras": 316,
+    "vagas": 1006
+   },
+   "2020": {
+    "colocados": 907,
+    "com_nota": 26,
+    "cursos": 27,
+    "nota_mediana": 122.6,
+    "sobras": 252,
+    "vagas": 1153
+   },
+   "2021": {
+    "colocados": 916,
+    "com_nota": 25,
+    "cursos": 27,
+    "nota_mediana": 128.5,
+    "sobras": 206,
+    "vagas": 1116
+   },
+   "2022": {
+    "colocados": 990,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 133.7,
+    "sobras": 143,
+    "vagas": 1127
+   },
+   "2023": {
+    "colocados": 1183,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 140.0,
+    "sobras": 36,
+    "vagas": 1212
+   },
+   "2024": {
+    "colocados": 1263,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 140.3,
+    "sobras": 0,
+    "vagas": 1255
+   },
+   "2025": {
+    "colocados": 1440,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 141.0,
+    "sobras": 24,
+    "vagas": 1462
+   },
+   "2026": {
+    "colocados": 1577,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 139.3,
+    "sobras": 46,
+    "vagas": 1612
+   }
+  },
+  "Gestão e economia": {
+   "1997": {
+    "colocados": 6713,
+    "com_nota": 91,
+    "cursos": 94,
+    "nota_mediana": 101.0,
+    "sobras": 712,
+    "vagas": 7407
+   },
+   "1998": {
+    "colocados": 6615,
+    "com_nota": 96,
+    "cursos": 97,
+    "nota_mediana": 102.0,
+    "sobras": 1093,
+    "vagas": 7692
+   },
+   "1999": {
+    "colocados": 6287,
+    "com_nota": 103,
+    "cursos": 105,
+    "nota_mediana": 102.1,
+    "sobras": 2242,
+    "vagas": 8514
+   },
+   "2000": {
+    "colocados": 7184,
+    "com_nota": 115,
+    "cursos": 115,
+    "nota_mediana": 108.0,
+    "sobras": 1281,
+    "vagas": 8429
+   },
+   "2001": {
+    "colocados": 6016,
+    "com_nota": 125,
+    "cursos": 127,
+    "nota_mediana": 104.0,
+    "sobras": 2800,
+    "vagas": 8794
+   },
+   "2002": {
+    "colocados": 6595,
+    "com_nota": 131,
+    "cursos": 132,
+    "nota_mediana": 108.5,
+    "sobras": 1852,
+    "vagas": 8424
+   },
+   "2003": {
+    "colocados": 6394,
+    "com_nota": 131,
+    "cursos": 135,
+    "nota_mediana": 112.0,
+    "sobras": 1289,
+    "vagas": 7655
+   },
+   "2004": {
+    "colocados": 6581,
+    "com_nota": 141,
+    "cursos": 143,
+    "nota_mediana": 112.3,
+    "sobras": 1260,
+    "vagas": 7839
+   },
+   "2005": {
+    "colocados": 5100,
+    "com_nota": 144,
+    "cursos": 150,
+    "nota_mediana": 114.3,
+    "sobras": 2701,
+    "vagas": 7799
+   },
+   "2006": {
+    "colocados": 5726,
+    "com_nota": 134,
+    "cursos": 139,
+    "nota_mediana": 112.7,
+    "sobras": 1882,
+    "vagas": 7608
+   },
+   "2007": {
+    "colocados": 7182,
+    "com_nota": 164,
+    "cursos": 164,
+    "nota_mediana": 119.4,
+    "sobras": 1103,
+    "vagas": 8277
+   },
+   "2008": {
+    "colocados": 7728,
+    "com_nota": 175,
+    "cursos": 178,
+    "nota_mediana": 124.6,
+    "sobras": 1162,
+    "vagas": 8884
+   },
+   "2009": {
+    "colocados": 7952,
+    "com_nota": 180,
+    "cursos": 182,
+    "nota_mediana": 123.1,
+    "sobras": 1174,
+    "vagas": 9120
+   },
+   "2010": {
+    "colocados": 8145,
+    "com_nota": 193,
+    "cursos": 198,
+    "nota_mediana": 122.0,
+    "sobras": 1768,
+    "vagas": 9906
+   },
+   "2011": {
+    "colocados": 7279,
+    "com_nota": 185,
+    "cursos": 202,
+    "nota_mediana": 118.8,
+    "sobras": 2911,
+    "vagas": 10129
+   },
+   "2012": {
+    "colocados": 7419,
+    "com_nota": 182,
+    "cursos": 196,
+    "nota_mediana": 119.8,
+    "sobras": 2446,
+    "vagas": 9774
+   },
+   "2013": {
+    "colocados": 6901,
+    "com_nota": 172,
+    "cursos": 195,
+    "nota_mediana": 120.1,
+    "sobras": 2754,
+    "vagas": 9630
+   },
+   "2014": {
+    "colocados": 7263,
+    "com_nota": 178,
+    "cursos": 193,
+    "nota_mediana": 120.2,
+    "sobras": 2202,
+    "vagas": 9437
+   },
+   "2015": {
+    "colocados": 8067,
+    "com_nota": 184,
+    "cursos": 192,
+    "nota_mediana": 121.4,
+    "sobras": 1424,
+    "vagas": 9420
+   },
+   "2016": {
+    "colocados": 8201,
+    "com_nota": 185,
+    "cursos": 193,
+    "nota_mediana": 122.0,
+    "sobras": 1317,
+    "vagas": 9432
+   },
+   "2017": {
+    "colocados": 8699,
+    "com_nota": 196,
+    "cursos": 198,
+    "nota_mediana": 127.9,
+    "sobras": 912,
+    "vagas": 9543
+   },
+   "2018": {
+    "colocados": 8673,
+    "com_nota": 197,
+    "cursos": 202,
+    "nota_mediana": 126.8,
+    "sobras": 1083,
+    "vagas": 9632
+   },
+   "2019": {
+    "colocados": 8836,
+    "com_nota": 201,
+    "cursos": 203,
+    "nota_mediana": 129.6,
+    "sobras": 931,
+    "vagas": 9645
+   },
+   "2020": {
+    "colocados": 10424,
+    "com_nota": 197,
+    "cursos": 200,
+    "nota_mediana": 137.0,
+    "sobras": 781,
+    "vagas": 10977
+   },
+   "2021": {
+    "colocados": 9727,
+    "com_nota": 197,
+    "cursos": 200,
+    "nota_mediana": 138.4,
+    "sobras": 886,
+    "vagas": 10497
+   },
+   "2022": {
+    "colocados": 9604,
+    "com_nota": 203,
+    "cursos": 204,
+    "nota_mediana": 140.0,
+    "sobras": 690,
+    "vagas": 10202
+   },
+   "2023": {
+    "colocados": 9594,
+    "com_nota": 202,
+    "cursos": 205,
+    "nota_mediana": 142.6,
+    "sobras": 606,
+    "vagas": 10126
+   },
+   "2024": {
+    "colocados": 9611,
+    "com_nota": 203,
+    "cursos": 205,
+    "nota_mediana": 140.0,
+    "sobras": 624,
+    "vagas": 10151
+   },
+   "2025": {
+    "colocados": 7753,
+    "com_nota": 194,
+    "cursos": 205,
+    "nota_mediana": 129.0,
+    "sobras": 2423,
+    "vagas": 10143
+   },
+   "2026": {
+    "colocados": 9363,
+    "com_nota": 205,
+    "cursos": 212,
+    "nota_mediana": 136.0,
+    "sobras": 1079,
+    "vagas": 10336
+   }
+  },
+  "Humanidades e línguas": {
+   "1997": {
+    "colocados": 3123,
+    "com_nota": 92,
+    "cursos": 98,
+    "nota_mediana": 132.5,
+    "sobras": 103,
+    "vagas": 3220
+   },
+   "1998": {
+    "colocados": 3408,
+    "com_nota": 97,
+    "cursos": 99,
+    "nota_mediana": 134.5,
+    "sobras": 97,
+    "vagas": 3490
+   },
+   "1999": {
+    "colocados": 3566,
+    "com_nota": 102,
+    "cursos": 103,
+    "nota_mediana": 132.0,
+    "sobras": 224,
+    "vagas": 3775
+   },
+   "2000": {
+    "colocados": 3261,
+    "com_nota": 101,
+    "cursos": 105,
+    "nota_mediana": 125.3,
+    "sobras": 734,
+    "vagas": 3985
+   },
+   "2001": {
+    "colocados": 2706,
+    "com_nota": 106,
+    "cursos": 107,
+    "nota_mediana": 117.2,
+    "sobras": 1181,
+    "vagas": 3880
+   },
+   "2002": {
+    "colocados": 2456,
+    "com_nota": 109,
+    "cursos": 116,
+    "nota_mediana": 117.5,
+    "sobras": 1449,
+    "vagas": 3900
+   },
+   "2003": {
+    "colocados": 2093,
+    "com_nota": 109,
+    "cursos": 114,
+    "nota_mediana": 117.5,
+    "sobras": 1205,
+    "vagas": 3291
+   },
+   "2004": {
+    "colocados": 1891,
+    "com_nota": 99,
+    "cursos": 105,
+    "nota_mediana": 114.5,
+    "sobras": 1009,
+    "vagas": 2900
+   },
+   "2005": {
+    "colocados": 1664,
+    "com_nota": 94,
+    "cursos": 98,
+    "nota_mediana": 116.0,
+    "sobras": 1103,
+    "vagas": 2767
+   },
+   "2006": {
+    "colocados": 1631,
+    "com_nota": 72,
+    "cursos": 73,
+    "nota_mediana": 113.0,
+    "sobras": 1067,
+    "vagas": 2696
+   },
+   "2007": {
+    "colocados": 2030,
+    "com_nota": 72,
+    "cursos": 72,
+    "nota_mediana": 116.6,
+    "sobras": 726,
+    "vagas": 2756
+   },
+   "2008": {
+    "colocados": 1957,
+    "com_nota": 69,
+    "cursos": 70,
+    "nota_mediana": 116.0,
+    "sobras": 711,
+    "vagas": 2667
+   },
+   "2009": {
+    "colocados": 2211,
+    "com_nota": 69,
+    "cursos": 69,
+    "nota_mediana": 119.2,
+    "sobras": 421,
+    "vagas": 2631
+   },
+   "2010": {
+    "colocados": 2385,
+    "com_nota": 72,
+    "cursos": 73,
+    "nota_mediana": 126.0,
+    "sobras": 355,
+    "vagas": 2739
+   },
+   "2011": {
+    "colocados": 2376,
+    "com_nota": 74,
+    "cursos": 74,
+    "nota_mediana": 118.0,
+    "sobras": 462,
+    "vagas": 2797
+   },
+   "2012": {
+    "colocados": 2298,
+    "com_nota": 71,
+    "cursos": 74,
+    "nota_mediana": 118.5,
+    "sobras": 529,
+    "vagas": 2781
+   },
+   "2013": {
+    "colocados": 2221,
+    "com_nota": 68,
+    "cursos": 69,
+    "nota_mediana": 117.8,
+    "sobras": 512,
+    "vagas": 2710
+   },
+   "2014": {
+    "colocados": 2383,
+    "com_nota": 68,
+    "cursos": 69,
+    "nota_mediana": 120.4,
+    "sobras": 366,
+    "vagas": 2733
+   },
+   "2015": {
+    "colocados": 2547,
+    "com_nota": 69,
+    "cursos": 70,
+    "nota_mediana": 120.2,
+    "sobras": 264,
+    "vagas": 2787
+   },
+   "2016": {
+    "colocados": 2615,
+    "com_nota": 71,
+    "cursos": 71,
+    "nota_mediana": 123.0,
+    "sobras": 252,
+    "vagas": 2830
+   },
+   "2017": {
+    "colocados": 2759,
+    "com_nota": 74,
+    "cursos": 74,
+    "nota_mediana": 126.6,
+    "sobras": 191,
+    "vagas": 2913
+   },
+   "2018": {
+    "colocados": 2711,
+    "com_nota": 74,
+    "cursos": 74,
+    "nota_mediana": 127.8,
+    "sobras": 190,
+    "vagas": 2839
+   },
+   "2019": {
+    "colocados": 2745,
+    "com_nota": 73,
+    "cursos": 74,
+    "nota_mediana": 129.5,
+    "sobras": 171,
+    "vagas": 2864
+   },
+   "2020": {
+    "colocados": 3032,
+    "com_nota": 73,
+    "cursos": 74,
+    "nota_mediana": 138.0,
+    "sobras": 153,
+    "vagas": 3111
+   },
+   "2021": {
+    "colocados": 3039,
+    "com_nota": 74,
+    "cursos": 75,
+    "nota_mediana": 144.3,
+    "sobras": 148,
+    "vagas": 3136
+   },
+   "2022": {
+    "colocados": 2984,
+    "com_nota": 76,
+    "cursos": 76,
+    "nota_mediana": 144.8,
+    "sobras": 126,
+    "vagas": 3062
+   },
+   "2023": {
+    "colocados": 2987,
+    "com_nota": 76,
+    "cursos": 76,
+    "nota_mediana": 145.8,
+    "sobras": 59,
+    "vagas": 3013
+   },
+   "2024": {
+    "colocados": 3003,
+    "com_nota": 76,
+    "cursos": 76,
+    "nota_mediana": 144.3,
+    "sobras": 56,
+    "vagas": 3011
+   },
+   "2025": {
+    "colocados": 2759,
+    "com_nota": 76,
+    "cursos": 77,
+    "nota_mediana": 137.0,
+    "sobras": 330,
+    "vagas": 3069
+   },
+   "2026": {
+    "colocados": 3019,
+    "com_nota": 78,
+    "cursos": 78,
+    "nota_mediana": 139.5,
+    "sobras": 175,
+    "vagas": 3140
+   }
+  },
+  "Informática": {
+   "1997": {
+    "colocados": 2610,
+    "com_nota": 43,
+    "cursos": 44,
+    "nota_mediana": 101.0,
+    "sobras": 253,
+    "vagas": 2860
+   },
+   "1998": {
+    "colocados": 2941,
+    "com_nota": 51,
+    "cursos": 54,
+    "nota_mediana": 96.3,
+    "sobras": 428,
+    "vagas": 3365
+   },
+   "1999": {
+    "colocados": 2884,
+    "com_nota": 56,
+    "cursos": 58,
+    "nota_mediana": 102.5,
+    "sobras": 853,
+    "vagas": 3725
+   },
+   "2000": {
+    "colocados": 3599,
+    "com_nota": 66,
+    "cursos": 68,
+    "nota_mediana": 108.3,
+    "sobras": 465,
+    "vagas": 4055
+   },
+   "2001": {
+    "colocados": 3651,
+    "com_nota": 70,
+    "cursos": 74,
+    "nota_mediana": 104.8,
+    "sobras": 856,
+    "vagas": 4484
+   },
+   "2002": {
+    "colocados": 4029,
+    "com_nota": 82,
+    "cursos": 82,
+    "nota_mediana": 109.3,
+    "sobras": 917,
+    "vagas": 4930
+   },
+   "2003": {
+    "colocados": 3720,
+    "com_nota": 83,
+    "cursos": 85,
+    "nota_mediana": 109.0,
+    "sobras": 1045,
+    "vagas": 4748
+   },
+   "2004": {
+    "colocados": 3998,
+    "com_nota": 95,
+    "cursos": 96,
+    "nota_mediana": 109.3,
+    "sobras": 957,
+    "vagas": 4952
+   },
+   "2005": {
+    "colocados": 3225,
+    "com_nota": 90,
+    "cursos": 101,
+    "nota_mediana": 116.2,
+    "sobras": 1902,
+    "vagas": 5126
+   },
+   "2006": {
+    "colocados": 3071,
+    "com_nota": 86,
+    "cursos": 93,
+    "nota_mediana": 113.6,
+    "sobras": 2162,
+    "vagas": 5231
+   },
+   "2007": {
+    "colocados": 4399,
+    "com_nota": 97,
+    "cursos": 101,
+    "nota_mediana": 119.4,
+    "sobras": 1109,
+    "vagas": 5504
+   },
+   "2008": {
+    "colocados": 5017,
+    "com_nota": 102,
+    "cursos": 108,
+    "nota_mediana": 124.9,
+    "sobras": 586,
+    "vagas": 5601
+   },
+   "2009": {
+    "colocados": 5088,
+    "com_nota": 110,
+    "cursos": 111,
+    "nota_mediana": 121.7,
+    "sobras": 700,
+    "vagas": 5787
+   },
+   "2010": {
+    "colocados": 4601,
+    "com_nota": 108,
+    "cursos": 113,
+    "nota_mediana": 120.4,
+    "sobras": 1299,
+    "vagas": 5897
+   },
+   "2011": {
+    "colocados": 4169,
+    "com_nota": 105,
+    "cursos": 113,
+    "nota_mediana": 121.0,
+    "sobras": 1659,
+    "vagas": 5808
+   },
+   "2012": {
+    "colocados": 4021,
+    "com_nota": 94,
+    "cursos": 112,
+    "nota_mediana": 118.1,
+    "sobras": 1738,
+    "vagas": 5739
+   },
+   "2013": {
+    "colocados": 3902,
+    "com_nota": 90,
+    "cursos": 106,
+    "nota_mediana": 120.4,
+    "sobras": 2063,
+    "vagas": 5958
+   },
+   "2014": {
+    "colocados": 3784,
+    "com_nota": 93,
+    "cursos": 111,
+    "nota_mediana": 116.8,
+    "sobras": 2371,
+    "vagas": 6151
+   },
+   "2015": {
+    "colocados": 4990,
+    "com_nota": 99,
+    "cursos": 107,
+    "nota_mediana": 121.9,
+    "sobras": 1159,
+    "vagas": 6141
+   },
+   "2016": {
+    "colocados": 5255,
+    "com_nota": 100,
+    "cursos": 109,
+    "nota_mediana": 122.4,
+    "sobras": 999,
+    "vagas": 6236
+   },
+   "2017": {
+    "colocados": 5578,
+    "com_nota": 98,
+    "cursos": 104,
+    "nota_mediana": 129.8,
+    "sobras": 666,
+    "vagas": 6221
+   },
+   "2018": {
+    "colocados": 5444,
+    "com_nota": 98,
+    "cursos": 106,
+    "nota_mediana": 125.0,
+    "sobras": 1072,
+    "vagas": 6494
+   },
+   "2019": {
+    "colocados": 5716,
+    "com_nota": 101,
+    "cursos": 108,
+    "nota_mediana": 125.2,
+    "sobras": 1069,
+    "vagas": 6765
+   },
+   "2020": {
+    "colocados": 6503,
+    "com_nota": 107,
+    "cursos": 114,
+    "nota_mediana": 134.6,
+    "sobras": 1169,
+    "vagas": 7616
+   },
+   "2021": {
+    "colocados": 6081,
+    "com_nota": 106,
+    "cursos": 118,
+    "nota_mediana": 130.6,
+    "sobras": 1690,
+    "vagas": 7739
+   },
+   "2022": {
+    "colocados": 6576,
+    "com_nota": 119,
+    "cursos": 126,
+    "nota_mediana": 135.8,
+    "sobras": 1297,
+    "vagas": 7855
+   },
+   "2023": {
+    "colocados": 6803,
+    "com_nota": 124,
+    "cursos": 132,
+    "nota_mediana": 135.5,
+    "sobras": 1281,
+    "vagas": 8067
+   },
+   "2024": {
+    "colocados": 7022,
+    "com_nota": 127,
+    "cursos": 134,
+    "nota_mediana": 135.6,
+    "sobras": 1208,
+    "vagas": 8212
+   },
+   "2025": {
+    "colocados": 5791,
+    "com_nota": 117,
+    "cursos": 134,
+    "nota_mediana": 127.3,
+    "sobras": 2493,
+    "vagas": 8279
+   },
+   "2026": {
+    "colocados": 6838,
+    "com_nota": 131,
+    "cursos": 140,
+    "nota_mediana": 128.0,
+    "sobras": 1383,
+    "vagas": 8206
+   }
+  },
+  "Medicina": {
+   "1997": {
+    "colocados": 484,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 185.0,
+    "sobras": 0,
+    "vagas": 475
+   },
+   "1998": {
+    "colocados": 618,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 185.5,
+    "sobras": 0,
+    "vagas": 591
+   },
+   "1999": {
+    "colocados": 609,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 185.8,
+    "sobras": 0,
+    "vagas": 595
+   },
+   "2000": {
+    "colocados": 783,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 182.5,
+    "sobras": 0,
+    "vagas": 767
+   },
+   "2001": {
+    "colocados": 1023,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 184.9,
+    "sobras": 0,
+    "vagas": 985
+   },
+   "2002": {
+    "colocados": 1061,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 184.3,
+    "sobras": 0,
+    "vagas": 1040
+   },
+   "2003": {
+    "colocados": 1073,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 183.3,
+    "sobras": 0,
+    "vagas": 1047
+   },
+   "2004": {
+    "colocados": 1214,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 179.5,
+    "sobras": 0,
+    "vagas": 1212
+   },
+   "2005": {
+    "colocados": 1285,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 183.0,
+    "sobras": 0,
+    "vagas": 1280
+   },
+   "2006": {
+    "colocados": 1403,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 177.8,
+    "sobras": 0,
+    "vagas": 1402
+   },
+   "2007": {
+    "colocados": 1471,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 181.0,
+    "sobras": 0,
+    "vagas": 1455
+   },
+   "2008": {
+    "colocados": 1546,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 179.8,
+    "sobras": 0,
+    "vagas": 1544
+   },
+   "2009": {
+    "colocados": 1548,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 178.8,
+    "sobras": 0,
+    "vagas": 1545
+   },
+   "2010": {
+    "colocados": 1611,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 178.7,
+    "sobras": 19,
+    "vagas": 1626
+   },
+   "2011": {
+    "colocados": 1643,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 180.8,
+    "sobras": 26,
+    "vagas": 1662
+   },
+   "2012": {
+    "colocados": 1664,
+    "com_nota": 15,
+    "cursos": 15,
+    "nota_mediana": 178.8,
+    "sobras": 47,
+    "vagas": 1687
+   },
+   "2013": {
+    "colocados": 1605,
+    "com_nota": 14,
+    "cursos": 15,
+    "nota_mediana": 174.3,
+    "sobras": 78,
+    "vagas": 1682
+   },
+   "2014": {
+    "colocados": 1599,
+    "com_nota": 13,
+    "cursos": 15,
+    "nota_mediana": 172.5,
+    "sobras": 83,
+    "vagas": 1677
+   },
+   "2015": {
+    "colocados": 1548,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 179.2,
+    "sobras": 26,
+    "vagas": 1572
+   },
+   "2016": {
+    "colocados": 1555,
+    "com_nota": 10,
+    "cursos": 11,
+    "nota_mediana": 179.2,
+    "sobras": 24,
+    "vagas": 1572
+   },
+   "2017": {
+    "colocados": 1552,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 177.5,
+    "sobras": 24,
+    "vagas": 1572
+   },
+   "2018": {
+    "colocados": 1547,
+    "com_nota": 10,
+    "cursos": 11,
+    "nota_mediana": 177.2,
+    "sobras": 25,
+    "vagas": 1572
+   },
+   "2019": {
+    "colocados": 1547,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 177.3,
+    "sobras": 0,
+    "vagas": 1547
+   },
+   "2020": {
+    "colocados": 1578,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 184.5,
+    "sobras": 0,
+    "vagas": 1553
+   },
+   "2021": {
+    "colocados": 1569,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 184.5,
+    "sobras": 12,
+    "vagas": 1559
+   },
+   "2022": {
+    "colocados": 1562,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 183.3,
+    "sobras": 9,
+    "vagas": 1569
+   },
+   "2023": {
+    "colocados": 1614,
+    "com_nota": 10,
+    "cursos": 11,
+    "nota_mediana": 179.5,
+    "sobras": 23,
+    "vagas": 1635
+   },
+   "2024": {
+    "colocados": 1675,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 179.3,
+    "sobras": 8,
+    "vagas": 1681
+   },
+   "2025": {
+    "colocados": 1651,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 179.0,
+    "sobras": 16,
+    "vagas": 1667
+   },
+   "2026": {
+    "colocados": 1668,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 180.7,
+    "sobras": 10,
+    "vagas": 1676
+   }
+  },
+  "Medicina Dentária": {
+   "1997": {
+    "colocados": 146,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 181.5,
+    "sobras": 0,
+    "vagas": 145
+   },
+   "1998": {
+    "colocados": 115,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 183.0,
+    "sobras": 0,
+    "vagas": 115
+   },
+   "1999": {
+    "colocados": 130,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 182.8,
+    "sobras": 0,
+    "vagas": 125
+   },
+   "2000": {
+    "colocados": 172,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 178.0,
+    "sobras": 0,
+    "vagas": 172
+   },
+   "2001": {
+    "colocados": 224,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 180.0,
+    "sobras": 0,
+    "vagas": 220
+   },
+   "2002": {
+    "colocados": 234,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 180.0,
+    "sobras": 0,
+    "vagas": 230
+   },
+   "2003": {
+    "colocados": 243,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 177.0,
+    "sobras": 0,
+    "vagas": 236
+   },
+   "2004": {
+    "colocados": 253,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 175.8,
+    "sobras": 0,
+    "vagas": 251
+   },
+   "2005": {
+    "colocados": 262,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 179.0,
+    "sobras": 0,
+    "vagas": 261
+   },
+   "2006": {
+    "colocados": 261,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 173.0,
+    "sobras": 0,
+    "vagas": 261
+   },
+   "2007": {
+    "colocados": 268,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 171.5,
+    "sobras": 0,
+    "vagas": 268
+   },
+   "2008": {
+    "colocados": 272,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 173.0,
+    "sobras": 0,
+    "vagas": 272
+   },
+   "2009": {
+    "colocados": 273,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 173.3,
+    "sobras": 0,
+    "vagas": 272
+   },
+   "2010": {
+    "colocados": 272,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 174.5,
+    "sobras": 11,
+    "vagas": 282
+   },
+   "2011": {
+    "colocados": 260,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 177.5,
+    "sobras": 13,
+    "vagas": 272
+   },
+   "2012": {
+    "colocados": 260,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 178.0,
+    "sobras": 14,
+    "vagas": 272
+   },
+   "2013": {
+    "colocados": 257,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 171.3,
+    "sobras": 16,
+    "vagas": 272
+   },
+   "2014": {
+    "colocados": 255,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 172.5,
+    "sobras": 17,
+    "vagas": 272
+   },
+   "2015": {
+    "colocados": 262,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 172.0,
+    "sobras": 16,
+    "vagas": 277
+   },
+   "2016": {
+    "colocados": 258,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 174.5,
+    "sobras": 19,
+    "vagas": 277
+   },
+   "2017": {
+    "colocados": 257,
+    "com_nota": 5,
+    "cursos": 6,
+    "nota_mediana": 173.0,
+    "sobras": 20,
+    "vagas": 277
+   },
+   "2018": {
+    "colocados": 250,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 171.8,
+    "sobras": 16,
+    "vagas": 264
+   },
+   "2019": {
+    "colocados": 240,
+    "com_nota": 5,
+    "cursos": 6,
+    "nota_mediana": 172.0,
+    "sobras": 20,
+    "vagas": 260
+   },
+   "2020": {
+    "colocados": 263,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 180.8,
+    "sobras": 12,
+    "vagas": 273
+   },
+   "2021": {
+    "colocados": 297,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 182.8,
+    "sobras": 0,
+    "vagas": 290
+   },
+   "2022": {
+    "colocados": 280,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 179.5,
+    "sobras": 0,
+    "vagas": 280
+   },
+   "2023": {
+    "colocados": 287,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 176.5,
+    "sobras": 0,
+    "vagas": 287
+   },
+   "2024": {
+    "colocados": 282,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 174.8,
+    "sobras": 5,
+    "vagas": 287
+   },
+   "2025": {
+    "colocados": 288,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 177.8,
+    "sobras": 0,
+    "vagas": 287
+   },
+   "2026": {
+    "colocados": 287,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 178.8,
+    "sobras": 0,
+    "vagas": 287
+   }
+  },
+  "Medicina Veterinária": {
+   "1997": {
+    "colocados": 241,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 176.8,
+    "sobras": 0,
+    "vagas": 240
+   },
+   "1998": {
+    "colocados": 248,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 177.5,
+    "sobras": 0,
+    "vagas": 240
+   },
+   "1999": {
+    "colocados": 218,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 175.8,
+    "sobras": 0,
+    "vagas": 215
+   },
+   "2000": {
+    "colocados": 218,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 173.4,
+    "sobras": 0,
+    "vagas": 215
+   },
+   "2001": {
+    "colocados": 226,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 174.4,
+    "sobras": 0,
+    "vagas": 225
+   },
+   "2002": {
+    "colocados": 251,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 173.7,
+    "sobras": 0,
+    "vagas": 250
+   },
+   "2003": {
+    "colocados": 264,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 169.8,
+    "sobras": 4,
+    "vagas": 265
+   },
+   "2004": {
+    "colocados": 356,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 159.3,
+    "sobras": 0,
+    "vagas": 355
+   },
+   "2005": {
+    "colocados": 372,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 166.8,
+    "sobras": 13,
+    "vagas": 385
+   },
+   "2006": {
+    "colocados": 424,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 154.5,
+    "sobras": 8,
+    "vagas": 432
+   },
+   "2007": {
+    "colocados": 475,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 151.8,
+    "sobras": 0,
+    "vagas": 471
+   },
+   "2008": {
+    "colocados": 429,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 153.0,
+    "sobras": 17,
+    "vagas": 446
+   },
+   "2009": {
+    "colocados": 433,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 154.8,
+    "sobras": 59,
+    "vagas": 491
+   },
+   "2010": {
+    "colocados": 424,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 155.8,
+    "sobras": 42,
+    "vagas": 464
+   },
+   "2011": {
+    "colocados": 396,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 156.5,
+    "sobras": 82,
+    "vagas": 478
+   },
+   "2012": {
+    "colocados": 429,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 156.3,
+    "sobras": 71,
+    "vagas": 497
+   },
+   "2013": {
+    "colocados": 405,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 132.5,
+    "sobras": 111,
+    "vagas": 516
+   },
+   "2014": {
+    "colocados": 399,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 144.3,
+    "sobras": 108,
+    "vagas": 507
+   },
+   "2015": {
+    "colocados": 408,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 145.5,
+    "sobras": 99,
+    "vagas": 507
+   },
+   "2016": {
+    "colocados": 427,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 151.0,
+    "sobras": 87,
+    "vagas": 512
+   },
+   "2017": {
+    "colocados": 423,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 153.8,
+    "sobras": 102,
+    "vagas": 524
+   },
+   "2018": {
+    "colocados": 417,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 152.0,
+    "sobras": 107,
+    "vagas": 524
+   },
+   "2019": {
+    "colocados": 415,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 148.0,
+    "sobras": 116,
+    "vagas": 530
+   },
+   "2020": {
+    "colocados": 561,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 143.3,
+    "sobras": 34,
+    "vagas": 587
+   },
+   "2021": {
+    "colocados": 608,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 158.2,
+    "sobras": 0,
+    "vagas": 596
+   },
+   "2022": {
+    "colocados": 592,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 156.1,
+    "sobras": 0,
+    "vagas": 584
+   },
+   "2023": {
+    "colocados": 588,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 153.9,
+    "sobras": 0,
+    "vagas": 587
+   },
+   "2024": {
+    "colocados": 568,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 156.1,
+    "sobras": 26,
+    "vagas": 590
+   },
+   "2025": {
+    "colocados": 537,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 135.3,
+    "sobras": 85,
+    "vagas": 621
+   },
+   "2026": {
+    "colocados": 552,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 145.5,
+    "sobras": 55,
+    "vagas": 603
+   }
+  },
+  "Outros": {
+   "1997": {
+    "colocados": 183,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 151.0,
+    "sobras": 0,
+    "vagas": 182
+   },
+   "1998": {
+    "colocados": 184,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 151.8,
+    "sobras": 0,
+    "vagas": 182
+   },
+   "1999": {
+    "colocados": 150,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 21,
+    "vagas": 170
+   },
+   "2000": {
+    "colocados": 145,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 25,
+    "vagas": 170
+   },
+   "2001": {
+    "colocados": 148,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 27,
+    "vagas": 175
+   },
+   "2002": {
+    "colocados": 147,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 18,
+    "vagas": 165
+   },
+   "2003": {
+    "colocados": 200,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 133.5,
+    "sobras": 10,
+    "vagas": 210
+   },
+   "2004": {
+    "colocados": 62,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 128.1,
+    "sobras": 3,
+    "vagas": 65
+   },
+   "2005": {
+    "colocados": 65,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 124.3,
+    "sobras": 18,
+    "vagas": 83
+   },
+   "2006": {
+    "colocados": 55,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 0,
+    "vagas": 55
+   },
+   "2007": {
+    "colocados": 52,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 3,
+    "vagas": 55
+   },
+   "2008": {
+    "colocados": 50,
+    "com_nota": 2,
+    "cursos": 2,
+    "nota_mediana": null,
+    "sobras": 5,
+    "vagas": 55
+   },
+   "2009": {
+    "colocados": 66,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 123.3,
+    "sobras": 54,
+    "vagas": 120
+   },
+   "2010": {
+    "colocados": 89,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 111.3,
+    "sobras": 51,
+    "vagas": 140
+   },
+   "2011": {
+    "colocados": 96,
+    "com_nota": 5,
+    "cursos": 6,
+    "nota_mediana": 122.2,
+    "sobras": 59,
+    "vagas": 155
+   },
+   "2012": {
+    "colocados": 88,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 122.0,
+    "sobras": 46,
+    "vagas": 130
+   },
+   "2013": {
+    "colocados": 70,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 130.1,
+    "sobras": 32,
+    "vagas": 102
+   },
+   "2014": {
+    "colocados": 95,
+    "com_nota": 5,
+    "cursos": 6,
+    "nota_mediana": 118.5,
+    "sobras": 121,
+    "vagas": 216
+   },
+   "2015": {
+    "colocados": 94,
+    "com_nota": 4,
+    "cursos": 5,
+    "nota_mediana": 108.6,
+    "sobras": 87,
+    "vagas": 181
+   },
+   "2016": {
+    "colocados": 89,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 108.4,
+    "sobras": 57,
+    "vagas": 146
+   },
+   "2017": {
+    "colocados": 132,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 113.9,
+    "sobras": 40,
+    "vagas": 172
+   },
+   "2018": {
+    "colocados": 137,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 123.0,
+    "sobras": 36,
+    "vagas": 170
+   },
+   "2019": {
+    "colocados": 116,
+    "com_nota": 3,
+    "cursos": 4,
+    "nota_mediana": 122.0,
+    "sobras": 24,
+    "vagas": 138
+   },
+   "2020": {
+    "colocados": 148,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 129.2,
+    "sobras": 17,
+    "vagas": 162
+   },
+   "2021": {
+    "colocados": 144,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 137.0,
+    "sobras": 0,
+    "vagas": 142
+   },
+   "2022": {
+    "colocados": 141,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 138.0,
+    "sobras": 0,
+    "vagas": 140
+   },
+   "2023": {
+    "colocados": 136,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 140.0,
+    "sobras": 0,
+    "vagas": 132
+   },
+   "2024": {
+    "colocados": 135,
+    "com_nota": 3,
+    "cursos": 3,
+    "nota_mediana": 138.8,
+    "sobras": 0,
+    "vagas": 132
+   },
+   "2025": {
+    "colocados": 160,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 123.5,
+    "sobras": 18,
+    "vagas": 175
+   },
+   "2026": {
+    "colocados": 181,
+    "com_nota": 4,
+    "cursos": 4,
+    "nota_mediana": 130.0,
+    "sobras": 0,
+    "vagas": 176
+   }
+  },
+  "Psicologia": {
+   "1997": {
+    "colocados": 418,
+    "com_nota": 5,
+    "cursos": 5,
+    "nota_mediana": 163.0,
+    "sobras": 0,
+    "vagas": 410
+   },
+   "1998": {
+    "colocados": 554,
+    "com_nota": 6,
+    "cursos": 6,
+    "nota_mediana": 164.5,
+    "sobras": 0,
+    "vagas": 547
+   },
+   "1999": {
+    "colocados": 608,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 163.4,
+    "sobras": 0,
+    "vagas": 607
+   },
+   "2000": {
+    "colocados": 663,
+    "com_nota": 7,
+    "cursos": 7,
+    "nota_mediana": 160.0,
+    "sobras": 0,
+    "vagas": 644
+   },
+   "2001": {
+    "colocados": 683,
+    "com_nota": 8,
+    "cursos": 8,
+    "nota_mediana": 160.5,
+    "sobras": 0,
+    "vagas": 679
+   },
+   "2002": {
+    "colocados": 752,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 162.5,
+    "sobras": 0,
+    "vagas": 729
+   },
+   "2003": {
+    "colocados": 717,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 158.0,
+    "sobras": 0,
+    "vagas": 715
+   },
+   "2004": {
+    "colocados": 734,
+    "com_nota": 11,
+    "cursos": 11,
+    "nota_mediana": 149.5,
+    "sobras": 0,
+    "vagas": 734
+   },
+   "2005": {
+    "colocados": 805,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 152.5,
+    "sobras": 0,
+    "vagas": 805
+   },
+   "2006": {
+    "colocados": 855,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 150.0,
+    "sobras": 0,
+    "vagas": 855
+   },
+   "2007": {
+    "colocados": 852,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 147.1,
+    "sobras": 0,
+    "vagas": 850
+   },
+   "2008": {
+    "colocados": 836,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 138.5,
+    "sobras": 0,
+    "vagas": 835
+   },
+   "2009": {
+    "colocados": 840,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 143.0,
+    "sobras": 0,
+    "vagas": 840
+   },
+   "2010": {
+    "colocados": 854,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 146.0,
+    "sobras": 0,
+    "vagas": 853
+   },
+   "2011": {
+    "colocados": 891,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 136.0,
+    "sobras": 0,
+    "vagas": 879
+   },
+   "2012": {
+    "colocados": 866,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 139.8,
+    "sobras": 7,
+    "vagas": 866
+   },
+   "2013": {
+    "colocados": 839,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 136.5,
+    "sobras": 7,
+    "vagas": 843
+   },
+   "2014": {
+    "colocados": 819,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 141.5,
+    "sobras": 0,
+    "vagas": 816
+   },
+   "2015": {
+    "colocados": 825,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 144.0,
+    "sobras": 0,
+    "vagas": 821
+   },
+   "2016": {
+    "colocados": 834,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 143.0,
+    "sobras": 0,
+    "vagas": 826
+   },
+   "2017": {
+    "colocados": 835,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 143.3,
+    "sobras": 0,
+    "vagas": 829
+   },
+   "2018": {
+    "colocados": 837,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 142.0,
+    "sobras": 0,
+    "vagas": 829
+   },
+   "2019": {
+    "colocados": 838,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 149.3,
+    "sobras": 0,
+    "vagas": 834
+   },
+   "2020": {
+    "colocados": 896,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 158.0,
+    "sobras": 0,
+    "vagas": 872
+   },
+   "2021": {
+    "colocados": 896,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 165.3,
+    "sobras": 0,
+    "vagas": 876
+   },
+   "2022": {
+    "colocados": 896,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 164.0,
+    "sobras": 0,
+    "vagas": 888
+   },
+   "2023": {
+    "colocados": 880,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 166.3,
+    "sobras": 0,
+    "vagas": 867
+   },
+   "2024": {
+    "colocados": 898,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 165.0,
+    "sobras": 0,
+    "vagas": 893
+   },
+   "2025": {
+    "colocados": 922,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 166.5,
+    "sobras": 0,
+    "vagas": 918
+   },
+   "2026": {
+    "colocados": 942,
+    "com_nota": 12,
+    "cursos": 12,
+    "nota_mediana": 165.3,
+    "sobras": 0,
+    "vagas": 933
+   }
+  },
+  "Tecnologias da saúde": {
+   "1997": {
+    "colocados": 480,
+    "com_nota": 23,
+    "cursos": 23,
+    "nota_mediana": 149.5,
+    "sobras": 16,
+    "vagas": 494
+   },
+   "1998": {
+    "colocados": 546,
+    "com_nota": 24,
+    "cursos": 24,
+    "nota_mediana": 151.5,
+    "sobras": 0,
+    "vagas": 544
+   },
+   "1999": {
+    "colocados": 597,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 153.2,
+    "sobras": 27,
+    "vagas": 620
+   },
+   "2000": {
+    "colocados": 658,
+    "com_nota": 29,
+    "cursos": 29,
+    "nota_mediana": 150.0,
+    "sobras": 20,
+    "vagas": 672
+   },
+   "2001": {
+    "colocados": 920,
+    "com_nota": 34,
+    "cursos": 34,
+    "nota_mediana": 155.0,
+    "sobras": 27,
+    "vagas": 941
+   },
+   "2002": {
+    "colocados": 963,
+    "com_nota": 35,
+    "cursos": 35,
+    "nota_mediana": 155.8,
+    "sobras": 7,
+    "vagas": 963
+   },
+   "2003": {
+    "colocados": 1125,
+    "com_nota": 42,
+    "cursos": 43,
+    "nota_mediana": 151.8,
+    "sobras": 62,
+    "vagas": 1185
+   },
+   "2004": {
+    "colocados": 1413,
+    "com_nota": 50,
+    "cursos": 50,
+    "nota_mediana": 147.1,
+    "sobras": 41,
+    "vagas": 1453
+   },
+   "2005": {
+    "colocados": 1553,
+    "com_nota": 53,
+    "cursos": 53,
+    "nota_mediana": 152.3,
+    "sobras": 73,
+    "vagas": 1625
+   },
+   "2006": {
+    "colocados": 1805,
+    "com_nota": 58,
+    "cursos": 58,
+    "nota_mediana": 148.3,
+    "sobras": 86,
+    "vagas": 1889
+   },
+   "2007": {
+    "colocados": 2091,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 148.6,
+    "sobras": 61,
+    "vagas": 2146
+   },
+   "2008": {
+    "colocados": 2105,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 148.0,
+    "sobras": 62,
+    "vagas": 2164
+   },
+   "2009": {
+    "colocados": 2193,
+    "com_nota": 67,
+    "cursos": 67,
+    "nota_mediana": 145.0,
+    "sobras": 110,
+    "vagas": 2300
+   },
+   "2010": {
+    "colocados": 2210,
+    "com_nota": 68,
+    "cursos": 68,
+    "nota_mediana": 146.5,
+    "sobras": 119,
+    "vagas": 2327
+   },
+   "2011": {
+    "colocados": 2203,
+    "com_nota": 68,
+    "cursos": 68,
+    "nota_mediana": 142.8,
+    "sobras": 152,
+    "vagas": 2344
+   },
+   "2012": {
+    "colocados": 2258,
+    "com_nota": 68,
+    "cursos": 68,
+    "nota_mediana": 133.3,
+    "sobras": 129,
+    "vagas": 2366
+   },
+   "2013": {
+    "colocados": 1972,
+    "com_nota": 66,
+    "cursos": 67,
+    "nota_mediana": 122.8,
+    "sobras": 394,
+    "vagas": 2361
+   },
+   "2014": {
+    "colocados": 1918,
+    "com_nota": 66,
+    "cursos": 66,
+    "nota_mediana": 124.2,
+    "sobras": 442,
+    "vagas": 2354
+   },
+   "2015": {
+    "colocados": 2122,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 123.7,
+    "sobras": 323,
+    "vagas": 2439
+   },
+   "2016": {
+    "colocados": 2105,
+    "com_nota": 63,
+    "cursos": 66,
+    "nota_mediana": 120.0,
+    "sobras": 402,
+    "vagas": 2504
+   },
+   "2017": {
+    "colocados": 2084,
+    "com_nota": 64,
+    "cursos": 66,
+    "nota_mediana": 123.7,
+    "sobras": 421,
+    "vagas": 2498
+   },
+   "2018": {
+    "colocados": 2057,
+    "com_nota": 61,
+    "cursos": 65,
+    "nota_mediana": 123.2,
+    "sobras": 395,
+    "vagas": 2444
+   },
+   "2019": {
+    "colocados": 2022,
+    "com_nota": 60,
+    "cursos": 60,
+    "nota_mediana": 123.0,
+    "sobras": 255,
+    "vagas": 2268
+   },
+   "2020": {
+    "colocados": 2477,
+    "com_nota": 61,
+    "cursos": 61,
+    "nota_mediana": 140.7,
+    "sobras": 73,
+    "vagas": 2500
+   },
+   "2021": {
+    "colocados": 2515,
+    "com_nota": 63,
+    "cursos": 63,
+    "nota_mediana": 151.0,
+    "sobras": 40,
+    "vagas": 2532
+   },
+   "2022": {
+    "colocados": 2508,
+    "com_nota": 66,
+    "cursos": 66,
+    "nota_mediana": 146.3,
+    "sobras": 43,
+    "vagas": 2535
+   },
+   "2023": {
+    "colocados": 2458,
+    "com_nota": 66,
+    "cursos": 66,
+    "nota_mediana": 143.0,
+    "sobras": 69,
+    "vagas": 2524
+   },
+   "2024": {
+    "colocados": 2418,
+    "com_nota": 66,
+    "cursos": 66,
+    "nota_mediana": 139.2,
+    "sobras": 127,
+    "vagas": 2541
+   },
+   "2025": {
+    "colocados": 2132,
+    "com_nota": 69,
+    "cursos": 70,
+    "nota_mediana": 135.3,
+    "sobras": 499,
+    "vagas": 2626
+   },
+   "2026": {
+    "colocados": 2620,
+    "com_nota": 77,
+    "cursos": 77,
+    "nota_mediana": 138.0,
+    "sobras": 253,
+    "vagas": 2854
+   }
+  },
+  "Turismo e hotelaria": {
+   "1997": {
+    "colocados": 347,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 135.5,
+    "sobras": 0,
+    "vagas": 345
+   },
+   "1998": {
+    "colocados": 309,
+    "com_nota": 9,
+    "cursos": 9,
+    "nota_mediana": 135.0,
+    "sobras": 46,
+    "vagas": 355
+   },
+   "1999": {
+    "colocados": 339,
+    "com_nota": 10,
+    "cursos": 10,
+    "nota_mediana": 130.0,
+    "sobras": 91,
+    "vagas": 430
+   },
+   "2000": {
+    "colocados": 499,
+    "com_nota": 13,
+    "cursos": 13,
+    "nota_mediana": 132.5,
+    "sobras": 80,
+    "vagas": 575
+   },
+   "2001": {
+    "colocados": 540,
+    "com_nota": 14,
+    "cursos": 14,
+    "nota_mediana": 132.0,
+    "sobras": 80,
+    "vagas": 615
+   },
+   "2002": {
+    "colocados": 596,
+    "com_nota": 15,
+    "cursos": 15,
+    "nota_mediana": 114.8,
+    "sobras": 89,
+    "vagas": 685
+   },
+   "2003": {
+    "colocados": 575,
+    "com_nota": 16,
+    "cursos": 16,
+    "nota_mediana": 122.0,
+    "sobras": 95,
+    "vagas": 669
+   },
+   "2004": {
+    "colocados": 626,
+    "com_nota": 18,
+    "cursos": 18,
+    "nota_mediana": 114.4,
+    "sobras": 69,
+    "vagas": 695
+   },
+   "2005": {
+    "colocados": 579,
+    "com_nota": 23,
+    "cursos": 23,
+    "nota_mediana": 111.2,
+    "sobras": 246,
+    "vagas": 824
+   },
+   "2006": {
+    "colocados": 674,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 120.4,
+    "sobras": 250,
+    "vagas": 924
+   },
+   "2007": {
+    "colocados": 789,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 122.1,
+    "sobras": 108,
+    "vagas": 897
+   },
+   "2008": {
+    "colocados": 807,
+    "com_nota": 28,
+    "cursos": 29,
+    "nota_mediana": 122.8,
+    "sobras": 151,
+    "vagas": 956
+   },
+   "2009": {
+    "colocados": 853,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 118.9,
+    "sobras": 142,
+    "vagas": 994
+   },
+   "2010": {
+    "colocados": 848,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 123.0,
+    "sobras": 153,
+    "vagas": 1001
+   },
+   "2011": {
+    "colocados": 729,
+    "com_nota": 30,
+    "cursos": 30,
+    "nota_mediana": 121.4,
+    "sobras": 277,
+    "vagas": 996
+   },
+   "2012": {
+    "colocados": 726,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 120.1,
+    "sobras": 254,
+    "vagas": 975
+   },
+   "2013": {
+    "colocados": 690,
+    "com_nota": 28,
+    "cursos": 28,
+    "nota_mediana": 114.4,
+    "sobras": 254,
+    "vagas": 940
+   },
+   "2014": {
+    "colocados": 752,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 118.0,
+    "sobras": 147,
+    "vagas": 895
+   },
+   "2015": {
+    "colocados": 803,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 120.3,
+    "sobras": 124,
+    "vagas": 920
+   },
+   "2016": {
+    "colocados": 810,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 117.2,
+    "sobras": 161,
+    "vagas": 960
+   },
+   "2017": {
+    "colocados": 883,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 124.8,
+    "sobras": 77,
+    "vagas": 945
+   },
+   "2018": {
+    "colocados": 880,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 116.8,
+    "sobras": 137,
+    "vagas": 1008
+   },
+   "2019": {
+    "colocados": 859,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 114.5,
+    "sobras": 145,
+    "vagas": 994
+   },
+   "2020": {
+    "colocados": 917,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 122.3,
+    "sobras": 213,
+    "vagas": 1116
+   },
+   "2021": {
+    "colocados": 838,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 118.4,
+    "sobras": 224,
+    "vagas": 1052
+   },
+   "2022": {
+    "colocados": 862,
+    "com_nota": 27,
+    "cursos": 27,
+    "nota_mediana": 122.6,
+    "sobras": 176,
+    "vagas": 1029
+   },
+   "2023": {
+    "colocados": 834,
+    "com_nota": 25,
+    "cursos": 26,
+    "nota_mediana": 120.4,
+    "sobras": 179,
+    "vagas": 1005
+   },
+   "2024": {
+    "colocados": 764,
+    "com_nota": 26,
+    "cursos": 26,
+    "nota_mediana": 115.8,
+    "sobras": 226,
+    "vagas": 987
+   },
+   "2025": {
+    "colocados": 423,
+    "com_nota": 24,
+    "cursos": 28,
+    "nota_mediana": 120.3,
+    "sobras": 586,
+    "vagas": 1009
+   },
+   "2026": {
+    "colocados": 580,
+    "com_nota": 24,
+    "cursos": 27,
+    "nota_mediana": 114.0,
+    "sobras": 405,
+    "vagas": 978
+   }
+  }
+ },
+ "nascimentos": {
+  "anos": {
+   "1979": 160311,
+   "1980": 158352,
+   "1981": 152102,
+   "1982": 151029,
+   "1983": 144327,
+   "1984": 142805,
+   "1985": 130492,
+   "1986": 126748,
+   "1987": 123218,
+   "1988": 122121,
+   "1989": 118560,
+   "1990": 116383,
+   "1991": 116415,
+   "1992": 115018,
+   "1993": 114030,
+   "1994": 109287,
+   "1995": 107184,
+   "1996": 110363,
+   "1997": 113047,
+   "1998": 113510,
+   "1999": 116038,
+   "2000": 120071,
+   "2001": 112774,
+   "2002": 114456,
+   "2003": 112589,
+   "2004": 109356,
+   "2005": 109457,
+   "2006": 105514,
+   "2007": 102567,
+   "2008": 104594
+  },
+  "fonte": "INE — Estatísticas Vitais (via Wikipédia, «Demografia de Portugal»)"
+ },
+ "nota": "Agregados por ano da 1ª fase sobre todos os pares com resultados, incluindo cursos extintos.",
+ "regioes": {
+  "ilhas": {
+   "1997": {
+    "colocados": 849,
+    "com_nota": 10,
+    "cursos": 37,
+    "nota_mediana": 95.8,
+    "sobras": 142,
+    "vagas": 990
+   },
+   "1998": {
+    "colocados": 855,
+    "com_nota": 18,
+    "cursos": 36,
+    "nota_mediana": 123.5,
+    "sobras": 188,
+    "vagas": 1039
+   },
+   "1999": {
+    "colocados": 811,
+    "com_nota": 35,
+    "cursos": 38,
+    "nota_mediana": 113.0,
+    "sobras": 386,
+    "vagas": 1195
+   },
+   "2000": {
+    "colocados": 816,
+    "com_nota": 34,
+    "cursos": 40,
+    "nota_mediana": 113.7,
+    "sobras": 397,
+    "vagas": 1210
+   },
+   "2001": {
+    "colocados": 615,
+    "com_nota": 33,
+    "cursos": 41,
+    "nota_mediana": 122.8,
+    "sobras": 507,
+    "vagas": 1120
+   },
+   "2002": {
+    "colocados": 759,
+    "com_nota": 39,
+    "cursos": 47,
+    "nota_mediana": 118.3,
+    "sobras": 336,
+    "vagas": 1087
+   },
+   "2003": {
+    "colocados": 668,
+    "com_nota": 35,
+    "cursos": 47,
+    "nota_mediana": 120.2,
+    "sobras": 380,
+    "vagas": 1046
+   },
+   "2004": {
+    "colocados": 868,
+    "com_nota": 49,
+    "cursos": 57,
+    "nota_mediana": 119.6,
+    "sobras": 292,
+    "vagas": 1159
+   },
+   "2005": {
+    "colocados": 796,
+    "com_nota": 45,
+    "cursos": 54,
+    "nota_mediana": 125.6,
+    "sobras": 309,
+    "vagas": 1104
+   },
+   "2006": {
+    "colocados": 856,
+    "com_nota": 38,
+    "cursos": 45,
+    "nota_mediana": 126.2,
+    "sobras": 311,
+    "vagas": 1167
+   },
+   "2007": {
+    "colocados": 1004,
+    "com_nota": 40,
+    "cursos": 43,
+    "nota_mediana": 131.5,
+    "sobras": 186,
+    "vagas": 1190
+   },
+   "2008": {
+    "colocados": 1122,
+    "com_nota": 43,
+    "cursos": 44,
+    "nota_mediana": 125.5,
+    "sobras": 117,
+    "vagas": 1238
+   },
+   "2009": {
+    "colocados": 1097,
+    "com_nota": 43,
+    "cursos": 43,
+    "nota_mediana": 124.6,
+    "sobras": 131,
+    "vagas": 1228
+   },
+   "2010": {
+    "colocados": 1056,
+    "com_nota": 43,
+    "cursos": 45,
+    "nota_mediana": 124.6,
+    "sobras": 214,
+    "vagas": 1268
+   },
+   "2011": {
+    "colocados": 995,
+    "com_nota": 41,
+    "cursos": 44,
+    "nota_mediana": 124.3,
+    "sobras": 299,
+    "vagas": 1288
+   },
+   "2012": {
+    "colocados": 947,
+    "com_nota": 41,
+    "cursos": 46,
+    "nota_mediana": 116.4,
+    "sobras": 348,
+    "vagas": 1288
+   },
+   "2013": {
+    "colocados": 868,
+    "com_nota": 43,
+    "cursos": 46,
+    "nota_mediana": 123.9,
+    "sobras": 426,
+    "vagas": 1288
+   },
+   "2014": {
+    "colocados": 844,
+    "com_nota": 40,
+    "cursos": 45,
+    "nota_mediana": 119.0,
+    "sobras": 433,
+    "vagas": 1268
+   },
+   "2015": {
+    "colocados": 943,
+    "com_nota": 42,
+    "cursos": 45,
+    "nota_mediana": 118.2,
+    "sobras": 292,
+    "vagas": 1231
+   },
+   "2016": {
+    "colocados": 904,
+    "com_nota": 40,
+    "cursos": 43,
+    "nota_mediana": 119.1,
+    "sobras": 373,
+    "vagas": 1268
+   },
+   "2017": {
+    "colocados": 931,
+    "com_nota": 40,
+    "cursos": 43,
+    "nota_mediana": 120.4,
+    "sobras": 334,
+    "vagas": 1256
+   },
+   "2018": {
+    "colocados": 934,
+    "com_nota": 40,
+    "cursos": 44,
+    "nota_mediana": 119.8,
+    "sobras": 373,
+    "vagas": 1298
+   },
+   "2019": {
+    "colocados": 975,
+    "com_nota": 38,
+    "cursos": 43,
+    "nota_mediana": 124.2,
+    "sobras": 300,
+    "vagas": 1268
+   },
+   "2020": {
+    "colocados": 1208,
+    "com_nota": 42,
+    "cursos": 43,
+    "nota_mediana": 130.1,
+    "sobras": 203,
+    "vagas": 1403
+   },
+   "2021": {
+    "colocados": 1197,
+    "com_nota": 40,
+    "cursos": 43,
+    "nota_mediana": 130.1,
+    "sobras": 190,
+    "vagas": 1375
+   },
+   "2022": {
+    "colocados": 1107,
+    "com_nota": 40,
+    "cursos": 43,
+    "nota_mediana": 129.0,
+    "sobras": 217,
+    "vagas": 1311
+   },
+   "2023": {
+    "colocados": 1145,
+    "com_nota": 41,
+    "cursos": 43,
+    "nota_mediana": 130.3,
+    "sobras": 146,
+    "vagas": 1284
+   },
+   "2024": {
+    "colocados": 1160,
+    "com_nota": 41,
+    "cursos": 43,
+    "nota_mediana": 132.3,
+    "sobras": 132,
+    "vagas": 1285
+   },
+   "2025": {
+    "colocados": 890,
+    "com_nota": 39,
+    "cursos": 44,
+    "nota_mediana": 132.0,
+    "sobras": 474,
+    "vagas": 1364
+   },
+   "2026": {
+    "colocados": 1164,
+    "com_nota": 45,
+    "cursos": 46,
+    "nota_mediana": 132.8,
+    "sobras": 225,
+    "vagas": 1381
+   }
+  },
+  "interior": {
+   "1997": {
+    "colocados": 6187,
+    "com_nota": 192,
+    "cursos": 196,
+    "nota_mediana": 109.5,
+    "sobras": 2182,
+    "vagas": 8359
+   },
+   "1998": {
+    "colocados": 6806,
+    "com_nota": 205,
+    "cursos": 207,
+    "nota_mediana": 114.3,
+    "sobras": 2326,
+    "vagas": 9093
+   },
+   "1999": {
+    "colocados": 7119,
+    "com_nota": 207,
+    "cursos": 211,
+    "nota_mediana": 114.0,
+    "sobras": 2869,
+    "vagas": 9960
+   },
+   "2000": {
+    "colocados": 8215,
+    "com_nota": 226,
+    "cursos": 228,
+    "nota_mediana": 110.8,
+    "sobras": 2192,
+    "vagas": 10365
+   },
+   "2001": {
+    "colocados": 6810,
+    "com_nota": 236,
+    "cursos": 242,
+    "nota_mediana": 109.2,
+    "sobras": 3908,
+    "vagas": 10690
+   },
+   "2002": {
+    "colocados": 7084,
+    "com_nota": 245,
+    "cursos": 255,
+    "nota_mediana": 111.8,
+    "sobras": 3495,
+    "vagas": 10550
+   },
+   "2003": {
+    "colocados": 6533,
+    "com_nota": 245,
+    "cursos": 258,
+    "nota_mediana": 112.0,
+    "sobras": 3199,
+    "vagas": 9708
+   },
+   "2004": {
+    "colocados": 6947,
+    "com_nota": 263,
+    "cursos": 269,
+    "nota_mediana": 110.1,
+    "sobras": 2864,
+    "vagas": 9808
+   },
+   "2005": {
+    "colocados": 5668,
+    "com_nota": 263,
+    "cursos": 284,
+    "nota_mediana": 115.7,
+    "sobras": 4212,
+    "vagas": 9877
+   },
+   "2006": {
+    "colocados": 5950,
+    "com_nota": 253,
+    "cursos": 263,
+    "nota_mediana": 114.9,
+    "sobras": 3757,
+    "vagas": 9704
+   },
+   "2007": {
+    "colocados": 7181,
+    "com_nota": 265,
+    "cursos": 269,
+    "nota_mediana": 117.0,
+    "sobras": 2868,
+    "vagas": 10039
+   },
+   "2008": {
+    "colocados": 7493,
+    "com_nota": 266,
+    "cursos": 270,
+    "nota_mediana": 116.5,
+    "sobras": 2673,
+    "vagas": 10163
+   },
+   "2009": {
+    "colocados": 7367,
+    "com_nota": 264,
+    "cursos": 273,
+    "nota_mediana": 118.7,
+    "sobras": 2836,
+    "vagas": 10198
+   },
+   "2010": {
+    "colocados": 7212,
+    "com_nota": 271,
+    "cursos": 287,
+    "nota_mediana": 118.8,
+    "sobras": 3297,
+    "vagas": 10502
+   },
+   "2011": {
+    "colocados": 5995,
+    "com_nota": 260,
+    "cursos": 286,
+    "nota_mediana": 118.2,
+    "sobras": 4427,
+    "vagas": 10373
+   },
+   "2012": {
+    "colocados": 5571,
+    "com_nota": 233,
+    "cursos": 274,
+    "nota_mediana": 118.2,
+    "sobras": 4465,
+    "vagas": 9962
+   },
+   "2013": {
+    "colocados": 4675,
+    "com_nota": 219,
+    "cursos": 260,
+    "nota_mediana": 116.6,
+    "sobras": 4854,
+    "vagas": 9510
+   },
+   "2014": {
+    "colocados": 4866,
+    "com_nota": 209,
+    "cursos": 255,
+    "nota_mediana": 115.5,
+    "sobras": 4615,
+    "vagas": 9467
+   },
+   "2015": {
+    "colocados": 5786,
+    "com_nota": 222,
+    "cursos": 251,
+    "nota_mediana": 113.5,
+    "sobras": 3592,
+    "vagas": 9329
+   },
+   "2016": {
+    "colocados": 5685,
+    "com_nota": 215,
+    "cursos": 252,
+    "nota_mediana": 113.0,
+    "sobras": 3746,
+    "vagas": 9379
+   },
+   "2017": {
+    "colocados": 6267,
+    "com_nota": 218,
+    "cursos": 252,
+    "nota_mediana": 114.2,
+    "sobras": 3250,
+    "vagas": 9472
+   },
+   "2018": {
+    "colocados": 6336,
+    "com_nota": 215,
+    "cursos": 252,
+    "nota_mediana": 114.2,
+    "sobras": 3658,
+    "vagas": 9935
+   },
+   "2019": {
+    "colocados": 6484,
+    "com_nota": 216,
+    "cursos": 251,
+    "nota_mediana": 115.8,
+    "sobras": 3644,
+    "vagas": 10062
+   },
+   "2020": {
+    "colocados": 7636,
+    "com_nota": 227,
+    "cursos": 253,
+    "nota_mediana": 122.9,
+    "sobras": 3318,
+    "vagas": 10819
+   },
+   "2021": {
+    "colocados": 7664,
+    "com_nota": 227,
+    "cursos": 255,
+    "nota_mediana": 128.3,
+    "sobras": 3306,
+    "vagas": 10885
+   },
+   "2022": {
+    "colocados": 8293,
+    "com_nota": 245,
+    "cursos": 267,
+    "nota_mediana": 130.0,
+    "sobras": 2927,
+    "vagas": 11131
+   },
+   "2023": {
+    "colocados": 8354,
+    "com_nota": 242,
+    "cursos": 277,
+    "nota_mediana": 131.1,
+    "sobras": 2808,
+    "vagas": 11104
+   },
+   "2024": {
+    "colocados": 8121,
+    "com_nota": 243,
+    "cursos": 275,
+    "nota_mediana": 126.4,
+    "sobras": 2888,
+    "vagas": 10941
+   },
+   "2025": {
+    "colocados": 6657,
+    "com_nota": 235,
+    "cursos": 280,
+    "nota_mediana": 123.3,
+    "sobras": 4496,
+    "vagas": 11131
+   },
+   "2026": {
+    "colocados": 7704,
+    "com_nota": 247,
+    "cursos": 288,
+    "nota_mediana": 120.8,
+    "sobras": 3478,
+    "vagas": 11127
+   }
+  },
+  "litoral": {
+   "1997": {
+    "colocados": 28416,
+    "com_nota": 566,
+    "cursos": 571,
+    "nota_mediana": 129.8,
+    "sobras": 2059,
+    "vagas": 30354
+   },
+   "1998": {
+    "colocados": 30240,
+    "com_nota": 591,
+    "cursos": 592,
+    "nota_mediana": 132.5,
+    "sobras": 1999,
+    "vagas": 32092
+   },
+   "1999": {
+    "colocados": 28852,
+    "com_nota": 608,
+    "cursos": 615,
+    "nota_mediana": 128.2,
+    "sobras": 5281,
+    "vagas": 34001
+   },
+   "2000": {
+    "colocados": 31069,
+    "com_nota": 646,
+    "cursos": 650,
+    "nota_mediana": 124.6,
+    "sobras": 4471,
+    "vagas": 35390
+   },
+   "2001": {
+    "colocados": 28956,
+    "com_nota": 658,
+    "cursos": 671,
+    "nota_mediana": 121.0,
+    "sobras": 7651,
+    "vagas": 36419
+   },
+   "2002": {
+    "colocados": 30536,
+    "com_nota": 689,
+    "cursos": 702,
+    "nota_mediana": 122.4,
+    "sobras": 6451,
+    "vagas": 36831
+   },
+   "2003": {
+    "colocados": 28876,
+    "com_nota": 698,
+    "cursos": 704,
+    "nota_mediana": 120.4,
+    "sobras": 5883,
+    "vagas": 34603
+   },
+   "2004": {
+    "colocados": 29753,
+    "com_nota": 711,
+    "cursos": 720,
+    "nota_mediana": 119.5,
+    "sobras": 5350,
+    "vagas": 35090
+   },
+   "2005": {
+    "colocados": 27056,
+    "com_nota": 697,
+    "cursos": 724,
+    "nota_mediana": 121.8,
+    "sobras": 8377,
+    "vagas": 35418
+   },
+   "2006": {
+    "colocados": 28054,
+    "com_nota": 672,
+    "cursos": 683,
+    "nota_mediana": 121.8,
+    "sobras": 7619,
+    "vagas": 35657
+   },
+   "2007": {
+    "colocados": 33793,
+    "com_nota": 710,
+    "cursos": 719,
+    "nota_mediana": 126.3,
+    "sobras": 3758,
+    "vagas": 37481
+   },
+   "2008": {
+    "colocados": 35721,
+    "com_nota": 742,
+    "cursos": 754,
+    "nota_mediana": 130.5,
+    "sobras": 3127,
+    "vagas": 38818
+   },
+   "2009": {
+    "colocados": 36813,
+    "com_nota": 773,
+    "cursos": 783,
+    "nota_mediana": 130.2,
+    "sobras": 3135,
+    "vagas": 39926
+   },
+   "2010": {
+    "colocados": 37324,
+    "com_nota": 805,
+    "cursos": 820,
+    "nota_mediana": 129.5,
+    "sobras": 4342,
+    "vagas": 41640
+   },
+   "2011": {
+    "colocados": 35253,
+    "com_nota": 796,
+    "cursos": 822,
+    "nota_mediana": 125.5,
+    "sobras": 6809,
+    "vagas": 41839
+   },
+   "2012": {
+    "colocados": 33897,
+    "com_nota": 742,
+    "cursos": 802,
+    "nota_mediana": 127.0,
+    "sobras": 7492,
+    "vagas": 41048
+   },
+   "2013": {
+    "colocados": 31872,
+    "com_nota": 720,
+    "cursos": 781,
+    "nota_mediana": 123.0,
+    "sobras": 8896,
+    "vagas": 40663
+   },
+   "2014": {
+    "colocados": 32068,
+    "com_nota": 716,
+    "cursos": 767,
+    "nota_mediana": 124.7,
+    "sobras": 8120,
+    "vagas": 40085
+   },
+   "2015": {
+    "colocados": 35339,
+    "com_nota": 722,
+    "cursos": 752,
+    "nota_mediana": 126.4,
+    "sobras": 4830,
+    "vagas": 39995
+   },
+   "2016": {
+    "colocados": 36369,
+    "com_nota": 736,
+    "cursos": 765,
+    "nota_mediana": 127.5,
+    "sobras": 3903,
+    "vagas": 40041
+   },
+   "2017": {
+    "colocados": 37716,
+    "com_nota": 744,
+    "cursos": 767,
+    "nota_mediana": 131.1,
+    "sobras": 2641,
+    "vagas": 40110
+   },
+   "2018": {
+    "colocados": 36722,
+    "com_nota": 746,
+    "cursos": 772,
+    "nota_mediana": 130.2,
+    "sobras": 3259,
+    "vagas": 39619
+   },
+   "2019": {
+    "colocados": 37041,
+    "com_nota": 745,
+    "cursos": 767,
+    "nota_mediana": 132.8,
+    "sobras": 2790,
+    "vagas": 39530
+   },
+   "2020": {
+    "colocados": 42120,
+    "com_nota": 756,
+    "cursos": 769,
+    "nota_mediana": 140.5,
+    "sobras": 2521,
+    "vagas": 43899
+   },
+   "2021": {
+    "colocados": 40591,
+    "com_nota": 751,
+    "cursos": 772,
+    "nota_mediana": 145.3,
+    "sobras": 2890,
+    "vagas": 43047
+   },
+   "2022": {
+    "colocados": 40345,
+    "com_nota": 778,
+    "cursos": 793,
+    "nota_mediana": 144.5,
+    "sobras": 2140,
+    "vagas": 42199
+   },
+   "2023": {
+    "colocados": 39939,
+    "com_nota": 783,
+    "cursos": 799,
+    "nota_mediana": 144.5,
+    "sobras": 2258,
+    "vagas": 41975
+   },
+   "2024": {
+    "colocados": 40682,
+    "com_nota": 788,
+    "cursos": 801,
+    "nota_mediana": 143.5,
+    "sobras": 1976,
+    "vagas": 42440
+   },
+   "2025": {
+    "colocados": 36352,
+    "com_nota": 779,
+    "cursos": 808,
+    "nota_mediana": 134.3,
+    "sobras": 6542,
+    "vagas": 42797
+   },
+   "2026": {
+    "colocados": 41123,
+    "com_nota": 820,
+    "cursos": 836,
+    "nota_mediana": 139.5,
+    "sobras": 2935,
+    "vagas": 43720
+   }
+  }
+ },
+ "rotacao": {
+  "2008": {
+   "extintos": 108,
+   "novos": 145,
+   "total": 1068
+  },
+  "2009": {
+   "extintos": 103,
+   "novos": 134,
+   "total": 1099
+  },
+  "2010": {
+   "extintos": 118,
+   "novos": 171,
+   "total": 1152
+  },
+  "2011": {
+   "extintos": 43,
+   "novos": 43,
+   "total": 1152
+  },
+  "2012": {
+   "extintos": 64,
+   "novos": 34,
+   "total": 1122
+  },
+  "2013": {
+   "extintos": 86,
+   "novos": 51,
+   "total": 1087
+  },
+  "2014": {
+   "extintos": 162,
+   "novos": 142,
+   "total": 1067
+  },
+  "2015": {
+   "extintos": 84,
+   "novos": 65,
+   "total": 1048
+  },
+  "2016": {
+   "extintos": 61,
+   "novos": 73,
+   "total": 1060
+  },
+  "2017": {
+   "extintos": 43,
+   "novos": 45,
+   "total": 1062
+  },
+  "2018": {
+   "extintos": 41,
+   "novos": 47,
+   "total": 1068
+  },
+  "2019": {
+   "extintos": 27,
+   "novos": 20,
+   "total": 1061
+  },
+  "2020": {
+   "extintos": 22,
+   "novos": 26,
+   "total": 1065
+  },
+  "2021": {
+   "extintos": 81,
+   "novos": 86,
+   "total": 1070
+  },
+  "2022": {
+   "extintos": 24,
+   "novos": 57,
+   "total": 1103
+  },
+  "2023": {
+   "extintos": 16,
+   "novos": 32,
+   "total": 1119
+  },
+  "2024": {
+   "extintos": 29,
+   "novos": 29,
+   "total": 1119
+  },
+  "2025": {
+   "extintos": 25,
+   "novos": 38,
+   "total": 1132
+  },
+  "2026": {
+   "extintos": 35,
+   "novos": 73,
+   "total": 1170
+  }
+ },
+ "sobreviventes": {
+  "ate": 2026,
+  "de": 2008,
+  "n": 462
+ }
 }

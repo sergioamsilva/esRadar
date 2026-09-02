@@ -59,7 +59,10 @@ Arquivo.pt. Quatro gerações de cabeçalho:
   «12º» em baixo); códigos em «Estab» / «Curso». Únicos anos com
   candidatos e médias dos colocados fora do guia. Nota do último colocado
   = 0 significa «sem colocados pelo contingente geral» (nota da DGES no
-  ficheiro de 2000) — o build converte em ausente.
+  ficheiro de 2000) — o build converte em ausente. A coluna «Sobras» de
+  1997 e 1999 **não bate** com vagas − colocados (só ~20% das linhas; em
+  1998 batem 87%) — os agregados históricos usam vagas − colocados em
+  todos os anos, e a coluna fica só nas fichas, tal como veio.
 - **2000–2011**: «Código Estab.» / «Código Curso», «Colocados (vaga
   adic.)» somado aos colocados, «Sobras para 2ª fase». 2007 é a exceção:
   «Cód. Estab.», «Vagas 2007», «Candidatos 1ºop 2007», «Adicionais 2007»,

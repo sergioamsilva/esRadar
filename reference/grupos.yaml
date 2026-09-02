@@ -1,0 +1,50 @@
+nota: Instituições-mãe (o campo «grupo» do crosswalk de estabelecimentos, com a Técnica de
+  Lisboa já somada à Universidade de Lisboa) e a sua sede, para as séries regionais de 30 anos.
+  Litoral = distritos de Viana do Castelo, Braga, Porto, Aveiro, Coimbra, Leiria, Santarém,
+  Lisboa, Setúbal e Faro; interior = Bragança, Vila Real, Viseu, Guarda, Castelo Branco,
+  Portalegre, Évora e Beja; ilhas = Açores e Madeira. Curado à mão.
+grupos:
+- {grupo: Universidade de Lisboa, distrito: Lisboa, regiao: litoral}
+- {grupo: Universidade Nova de Lisboa, distrito: Lisboa, regiao: litoral}
+- {grupo: ISCTE, distrito: Lisboa, regiao: litoral}
+- {grupo: Instituto Politécnico de Lisboa, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Lisboa, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Artur Ravara, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Calouste Gulbenkian de Lisboa, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Francisco Gentil, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Maria Fernanda Resende, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior Náutica Infante D. Henrique, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Hotelaria e Turismo do Estoril, distrito: Lisboa, regiao: litoral}
+- {grupo: Escola Superior de Conservação e Restauro, distrito: Lisboa, regiao: litoral}
+- {grupo: Universidade do Porto, distrito: Porto, regiao: litoral}
+- {grupo: Instituto Politécnico do Porto, distrito: Porto, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem do Porto, distrito: Porto, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem Cidade do Porto, distrito: Porto, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de São João, distrito: Porto, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de D. Ana Guedes, distrito: Porto, regiao: litoral}
+- {grupo: Universidade de Coimbra, distrito: Coimbra, regiao: litoral}
+- {grupo: Universidade de Coimbra (Campus Figueira da Foz), distrito: Coimbra, regiao: litoral}
+- {grupo: Instituto Politécnico de Coimbra, distrito: Coimbra, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Coimbra, distrito: Coimbra, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem de Bissaya Barreto, distrito: Coimbra, regiao: litoral}
+- {grupo: Escola Superior de Enfermagem do Dr. Ângelo da Fonseca, distrito: Coimbra, regiao: litoral}
+- {grupo: Universidade do Minho, distrito: Braga, regiao: litoral}
+- {grupo: Instituto Politécnico do Cávado e do Ave, distrito: Braga, regiao: litoral}
+- {grupo: Universidade de Aveiro, distrito: Aveiro, regiao: litoral}
+- {grupo: Instituto Politécnico de Leiria, distrito: Leiria, regiao: litoral}
+- {grupo: Instituto Politécnico de Setúbal, distrito: Setúbal, regiao: litoral}
+- {grupo: Universidade do Algarve, distrito: Faro, regiao: litoral}
+- {grupo: Instituto Politécnico de Viana do Castelo, distrito: Viana do Castelo, regiao: litoral}
+- {grupo: Instituto Politécnico de Santarém, distrito: Santarém, regiao: litoral}
+- {grupo: Instituto Politécnico de Tomar, distrito: Santarém, regiao: litoral}
+- {grupo: Instituto Politécnico de Bragança, distrito: Bragança, regiao: interior}
+- {grupo: Universidade de Trás-os-Montes e Alto Douro, distrito: Vila Real, regiao: interior}
+- {grupo: Instituto Politécnico de Viseu, distrito: Viseu, regiao: interior}
+- {grupo: Instituto Politécnico da Guarda, distrito: Guarda, regiao: interior}
+- {grupo: Universidade da Beira Interior, distrito: Castelo Branco, regiao: interior}
+- {grupo: Instituto Politécnico de Castelo Branco, distrito: Castelo Branco, regiao: interior}
+- {grupo: Instituto Politécnico de Portalegre, distrito: Portalegre, regiao: interior}
+- {grupo: Universidade de Évora, distrito: Évora, regiao: interior}
+- {grupo: Instituto Politécnico de Beja, distrito: Beja, regiao: interior}
+- {grupo: Universidade dos Açores, distrito: Açores, regiao: ilhas}
+- {grupo: Universidade da Madeira, distrito: Madeira, regiao: ilhas}

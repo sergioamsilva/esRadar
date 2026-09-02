@@ -5,7 +5,7 @@
  * desenhado no servidor, legível sem JavaScript; os pontos da mediana têm
  * <title> com os três valores, que o motor de hover global reaproveita.
  */
-import { anosRotulados } from "../lib/dados";
+import { anosRotulados, type Marco } from "../lib/dados";
 
 interface Ponto {
   ano: number;
@@ -18,8 +18,9 @@ interface Props {
   titulo: string;
   unidade: string;
   rotulos: { baixo: string; meio: string; alto: string };
+  marcos?: Marco[];
 }
-const { pontos, titulo, unidade, rotulos } = Astro.props;
+const { pontos, titulo, unidade, rotulos, marcos = [] } = Astro.props;
 
 const ordenados = [...pontos].sort((a, b) => a.ano - b.ano);
 const anos = ordenados.map((p) => p.ano);
@@ -29,7 +30,7 @@ const fmt = (v: number) => v.toLocaleString("pt-PT", { minimumFractionDigits: 1,
 const L = 100;
 const A = 42;
 const margem = { esq: 2, dir: 9, topo: 4, base: 8 };
-let g: { area: string; linha: string; pontos: { x: number; y: number; p: Ponto }[]; eixo: { x: number; ano: number }[] } | null = null;
+let g: { area: string; linha: string; pontos: { x: number; y: number; p: Ponto }[]; eixo: { x: number; ano: number }[]; marcos: { x: number; rotulo: string; y: number }[] } | null = null;
 if (ordenados.length >= 2) {
   let min = Math.min(...ordenados.map((p) => p.baixo));
   let max = Math.max(...ordenados.map((p) => p.alto));
@@ -49,6 +50,9 @@ if (ordenados.length >= 2) {
     linha,
     pontos: ordenados.map((p) => ({ x: x(p.ano), y: y(p.meio), p })),
     eixo: anos.map((ano) => ({ x: x(ano), ano })),
+    marcos: marcos
+      .filter((m) => m.ano > anos[0] && m.ano < anos[anos.length - 1])
+      .map((m, i) => ({ x: x(m.ano), rotulo: m.rotulo, y: margem.topo + 1.5 + (i % 2) * 3.2 })),
   };
 }
 const primeiro = ordenados[0];
@@ -71,6 +75,12 @@ const descricao = primeiro && ultimo
       <svg viewBox={`0 0 ${L} ${A}`} data-hover-serie role="img" aria-label={`${titulo}, em ${unidade}. ${descricao}.`} preserveAspectRatio="none">
         {g.eixo.map((e) => (
           <line x1={e.x.toFixed(2)} y1={margem.topo} x2={e.x.toFixed(2)} y2={A - margem.base} class="banda__grelha" />
+        ))}
+        {g.marcos.map((m) => (
+          <g class="banda__marco">
+            <line x1={m.x.toFixed(2)} y1={margem.topo - 1} x2={m.x.toFixed(2)} y2={A - margem.base} />
+            <text x={(m.x > 72 ? m.x - 0.8 : m.x + 0.8).toFixed(2)} y={m.y.toFixed(2)} text-anchor={m.x > 72 ? "end" : "start"}>{m.rotulo}</text>
+          </g>
         ))}
         <path d={g.area} class="banda__area ponto-vem" />
         <path d={g.linha} class="banda__linha traco" pathLength="1" />
@@ -152,6 +162,16 @@ const descricao = primeiro && ultimo
   }
   .banda__area {
     fill: color-mix(in srgb, var(--serie-1) 18%, transparent);
+  }
+  .banda__marco line {
+    stroke: var(--muted);
+    stroke-width: 1;
+    stroke-dasharray: 3 3;
+    vector-effect: non-scaling-stroke;
+  }
+  .banda__marco text {
+    font-size: 2.6px;
+    fill: var(--muted);
   }
   .banda__linha {
     fill: none;

@@ -22,9 +22,11 @@ interface Props {
   unidade: string;
   /** Formata valores nos rótulos (por omissão, uma casa decimal). */
   inteiro?: boolean;
+  /** Marcos (ano + rótulo) a assinalar com uma linha vertical. */
+  marcos?: Marco[];
 }
-const { series, titulo, unidade, inteiro = false } = Astro.props;
-import { anosRotulados } from "../lib/dados";
+const { series, titulo, unidade, inteiro = false, marcos = [] } = Astro.props;
+import { anosRotulados, type Marco } from "../lib/dados";
 
 const comDados = series.filter((s) => s.pontos.length >= 1);
 const todos = comDados.flatMap((s) => s.pontos);
@@ -39,6 +41,7 @@ let g: {
   caminhos: { d: string; cor: string; rotulo: string; pontos: { x: number; y: number; p: Ponto }[] }[];
   area: string | null;
   eixoAnos: { x: number; ano: number }[];
+  marcos: { x: number; rotulo: string; y: number }[];
   min: number;
   max: number;
 } | null = null;
@@ -76,7 +79,16 @@ if (todos.length >= 2 && anos.length >= 2) {
         p0.map((q) => `L${f2(q.x)},${f2(q.y)}`).join(" ") +
         ` L${f2(p0[p0.length - 1].x)},${f2(base)} Z`
       : null;
-  g = { caminhos, area, eixoAnos: anos.map((ano) => ({ x: x(ano), ano })), min, max };
+  g = {
+    caminhos,
+    area,
+    eixoAnos: anos.map((ano) => ({ x: x(ano), ano })),
+    marcos: marcos
+      .filter((m) => m.ano > anos[0] && m.ano < anos[anos.length - 1])
+      .map((m, i) => ({ x: x(m.ano), rotulo: m.rotulo, y: margem.topo + 1.5 + (i % 2) * 3.2 })),
+    min,
+    max,
+  };
 }
 
 const fmt = (v: number) =>
@@ -126,6 +138,12 @@ const descricao = comDados
         </defs>
         {g.eixoAnos.map((e) => (
           <line x1={e.x.toFixed(2)} y1={margem.topo} x2={e.x.toFixed(2)} y2={A - margem.base} class="serie__grelha" />
+        ))}
+        {g.marcos.map((m) => (
+          <g class="serie__marco">
+            <line x1={m.x.toFixed(2)} y1={margem.topo - 1} x2={m.x.toFixed(2)} y2={A - margem.base} />
+            <text x={(m.x > 72 ? m.x - 0.8 : m.x + 0.8).toFixed(2)} y={m.y.toFixed(2)} text-anchor={m.x > 72 ? "end" : "start"}>{m.rotulo}</text>
+          </g>
         ))}
         {g.area && <path d={g.area} fill={`url(#${gid})`} class={`serie__area serie__area--${g.caminhos[0].cor} ponto-vem`} />}
         {g.caminhos.map((c, ci) => (
@@ -218,6 +236,16 @@ const descricao = comDados
     stroke: var(--grid);
     stroke-width: 1;
     vector-effect: non-scaling-stroke;
+  }
+  .serie__marco line {
+    stroke: var(--muted);
+    stroke-width: 1;
+    stroke-dasharray: 3 3;
+    vector-effect: non-scaling-stroke;
+  }
+  .serie__marco text {
+    font-size: 2.6px;
+    fill: var(--muted);
   }
   /* A área usa sempre a cor da primeira série (a série principal). */
   .serie__grad-a {

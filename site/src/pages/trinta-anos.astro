@@ -5,7 +5,7 @@ import Banda from "../components/Banda.astro";
 import Colunas from "../components/Colunas.astro";
 import {
   nacional,
-  historia,
+  historiaCompleta,
   fases,
   grupos as lerGrupos,
   ligacao,
@@ -14,13 +14,15 @@ import {
   anosRotulados,
   ANO_INICIO,
   ANO_CORRENTE,
+  MARCOS,
 } from "../lib/dados";
 
 /* Trinta anos do Concurso Nacional de Acesso, 1997–2026. Todas as séries
    desta página contam, em cada ano, os cursos desse ano — atravessam as
    mudanças de código de curso sem crosswalk. Cursos extintos incluídos. */
 const nac = nacional();
-const hist = historia();
+const historiaTudo = historiaCompleta();
+const hist = historiaTudo.anos;
 const f2f = fases();
 
 const anos = Object.keys(nac.anos)
@@ -155,6 +157,84 @@ const bump = top12.map((g) => ({
 const maiorSubida = bump.filter((b) => b.rankPrimeiro != null).sort((x, y) => (y.rankPrimeiro! - y.rankUltimo) - (x.rankPrimeiro! - x.rankUltimo))[0];
 const serieGrupos = anos.map((a) => ({ ano: a, valor: H(a).grupos }));
 
+/* ── 8. famílias de cursos (por nome; reference/familias.yaml) ──────── */
+const familias = Object.entries(historiaTudo.familias)
+  .filter(([f]) => f !== "Outros")
+  .map(([familia, serie]) => {
+    const pontos = Object.entries(serie).map(([a, v]) => ({ ano: Number(a), ...v })).sort((x, y) => x.ano - y.ano);
+    const comNota = pontos.filter((p) => p.nota_mediana != null);
+    return {
+      familia,
+      pontos,
+      vagas: pontos.map((p) => ({ ano: p.ano, valor: p.vagas })),
+      colocados: pontos.map((p) => ({ ano: p.ano, valor: p.colocados })),
+      vagasUltimo: pontos[pontos.length - 1]?.vagas ?? 0,
+      vagasPrimeiro: pontos[0]?.vagas ?? 0,
+      notaPrimeira: comNota[0] ?? null,
+      notaUltima: comNota[comNota.length - 1] ?? null,
+      pico: pontos.reduce((m, p) => (p.vagas > m.vagas ? p : m), pontos[0]),
+    };
+  })
+  .sort((x, y) => y.vagasUltimo - x.vagasUltimo);
+const familiasTop = familias.slice(0, 12);
+const fam = (nome: string) => familias.find((f) => f.familia === nome);
+const professores = fam("Formação de professores");
+const informatica = fam("Informática");
+const enfermagem = fam("Enfermagem");
+const calorFamilias = familias.map((f) => ({
+  familia: f.familia,
+  celulas: anos.map((a) => f.pontos.find((p) => p.ano === a)?.nota_mediana ?? null),
+}));
+const notasFam = calorFamilias.flatMap((f) => f.celulas).filter((v): v is number => v != null);
+const famMin = Math.min(...notasFam);
+const famMax = Math.max(...notasFam);
+const famRotulados = anosRotulados(anos);
+
+/* ── 9. interior e litoral (reference/grupos.yaml) ──────────────────── */
+const regiao = (r: string) => Object.entries(historiaTudo.regioes[r] ?? {}).map(([a, v]) => ({ ano: Number(a), ...v })).sort((x, y) => x.ano - y.ano);
+const litoral = regiao("litoral");
+const interior = regiao("interior");
+const ilhas = regiao("ilhas");
+const serieLitoral = litoral.map((p) => ({ ano: p.ano, valor: p.vagas }));
+const serieInterior = interior.map((p) => ({ ano: p.ano, valor: p.vagas }));
+const ocupLitoral = litoral.map((p) => ({ ano: p.ano, valor: Math.round((1000 * p.colocados) / p.vagas) / 10 }));
+const ocupInterior = interior.map((p) => ({ ano: p.ano, valor: Math.round((1000 * p.colocados) / p.vagas) / 10 }));
+const quotaInterior = interior.map((p) => {
+  const l = litoral.find((x) => x.ano === p.ano)?.vagas ?? 0;
+  const i = ilhas.find((x) => x.ano === p.ano)?.vagas ?? 0;
+  return { ano: p.ano, valor: Math.round((1000 * p.vagas) / (p.vagas + l + i)) / 10 };
+});
+const sobrasInterior = interior.map((p) => {
+  const total = p.sobras + (litoral.find((x) => x.ano === p.ano)?.sobras ?? 0) + (ilhas.find((x) => x.ano === p.ano)?.sobras ?? 0);
+  return { ano: p.ano, valor: total ? Math.round((1000 * p.sobras) / total) / 10 : 0 };
+});
+const interiorPrimeiro = interior[0];
+const interiorUltimo = interior[interior.length - 1];
+const ocupInteriorMin = ocupInterior.reduce((m, p) => (p.valor < m.valor ? p : m), ocupInterior[0]);
+const ocupLitoralMesmoAno = ocupLitoral.find((p) => p.ano === ocupInteriorMin.ano);
+const sobrasInteriorUltimo = sobrasInterior[sobrasInterior.length - 1];
+
+/* ── 10. a geração de 18 anos (INE, reference/nascimentos.yaml) ─────── */
+const nasc = historiaTudo.nascimentos.anos;
+const geracao = anos
+  .filter((a) => nasc[String(a - 18)] != null)
+  .map((a) => ({ ano: a, nascidos: nasc[String(a - 18)], vagas: N(a).vagas_f1 }));
+const serieNascidos = geracao.map((g) => ({ ano: g.ano, valor: g.nascidos }));
+const serieVagasPor100 = geracao.map((g) => ({ ano: g.ano, valor: Math.round((1000 * g.vagas) / g.nascidos) / 10 }));
+const gPrimeiro = geracao[0];
+const gUltimo = geracao[geracao.length - 1];
+const gMin = geracao.reduce((m, g) => (g.nascidos < m.nascidos ? g : m), geracao[0]);
+
+/* ── 11. rotação da oferta ──────────────────────────────────────────── */
+const rotacao = Object.entries(historiaTudo.rotacao).map(([a, v]) => ({ ano: Number(a), ...v })).sort((x, y) => x.ano - y.ano);
+const serieNovos = rotacao.map((r) => ({ ano: r.ano, valor: r.novos }));
+const serieExtintos = rotacao.map((r) => ({ ano: r.ano, valor: r.extintos }));
+const totalNovos = rotacao.reduce((s, r) => s + r.novos, 0);
+const totalExtintos = rotacao.reduce((s, r) => s + r.extintos, 0);
+const rotMax = rotacao.reduce((m, r) => (r.novos + r.extintos > m.novos + m.extintos ? r : m), rotacao[0]);
+const sobreviventes = historiaTudo.sobreviventes;
+const marcosGraus = MARCOS.filter((m) => m.ano === 2006 || m.ano === 2020);
+
 const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${ultimo}: vagas, colocados, notas de corte, fases, graus, subsistemas e instituições, ano a ano.`;
 ---
 
@@ -201,6 +281,10 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
     <a href="#fases">5. As fases</a>
     <a href="#subsistemas">6. Universitário e politécnico</a>
     <a href="#instituicoes">7. Instituições</a>
+    <a href="#familias">8. Famílias de cursos</a>
+    <a href="#regioes">9. Interior e litoral</a>
+    <a href="#geracao">10. A geração de 18 anos</a>
+    <a href="#rotacao">11. Rotação da oferta</a>
     <a href="#leitura">Notas de leitura</a>
   </nav>
 
@@ -217,12 +301,20 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
     </p>
     <div class="duplo">
       <div>
-        <SerieAnual titulo={`Vagas e colocados na 1ª fase, ${primeiro}–${ultimo}`} unidade="estudantes" inteiro
+        <SerieAnual titulo={`Vagas e colocados na 1ª fase, ${primeiro}–${ultimo}`} unidade="estudantes" inteiro marcos={MARCOS}
           series={[{ rotulo: "Vagas", pontos: serieVagas, cor: "serie-1" }, { rotulo: "Colocados", pontos: serieColocados, cor: "serie-2" }]} />
       </div>
       <div>
-        <SerieAnual titulo="Taxa de ocupação da 1ª fase (%)" unidade="% das vagas"
+        <SerieAnual titulo="Taxa de ocupação da 1ª fase (%)" unidade="% das vagas" marcos={MARCOS}
           series={[{ rotulo: "Colocados / vagas", pontos: serieOcupacao, cor: "serie-1" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Vagas por preencher depois da 1ª fase" unidade="vagas" inteiro marcos={MARCOS}
+          series={[{ rotulo: "Sobras", pontos: serieSobras, cor: "serie-2" }]} />
+        <p class="fonte-lin">
+          Vagas sobrantes para a 2ª fase, em absoluto: {formatarInteiro(sobrasMax.valor)} em {sobrasMax.ano},{" "}
+          {formatarInteiro(serieSobras[serieSobras.length - 1].valor)} em {ultimo}.
+        </p>
       </div>
       <div>
         <SerieAnual titulo="Cursos a concurso e instituições-mãe" unidade="cursos" inteiro
@@ -234,11 +326,11 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
         </p>
       </div>
       <div>
-        <SerieAnual titulo="Cursos que esgotaram as vagas na 1ª fase (%)" unidade="% dos cursos" inteiro
+        <SerieAnual titulo="Cursos que esgotaram as vagas na 1ª fase (%)" unidade="% dos cursos" inteiro marcos={MARCOS}
           series={[{ rotulo: "Esgotados", pontos: serieEsgotados, cor: "serie-2" }]} />
         <p class="fonte-lin">
-          Só {esgMin.valor}% dos cursos esgotaram em {esgMin.ano}; {esgMax.valor}% em {esgMax.ano}. Um curso
-          esgotado é um curso com nota de corte — os outros entram com o mínimo.
+          Só {esgMin.valor}% dos cursos esgotaram em {esgMin.ano}; {esgMax.valor}% em {esgMax.ano}. Esgotado
+          = colocados iguais ou acima das vagas; é nesses que há nota de corte.
         </p>
       </div>
     </div>
@@ -258,7 +350,7 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
       {N(primeiro).notas!.abaixo_100} em {primeiro}, {nUlt.abaixo_100} em {ultimo}.
     </p>
     <Banda titulo={`Nota do último colocado, 1ª fase, ${comNotas[0]}–${ultimo}`} unidade="pontos" pontos={banda}
-      rotulos={{ baixo: "p10", meio: "mediana", alto: "p90" }} />
+      rotulos={{ baixo: "p10", meio: "mediana", alto: "p90" }} marcos={MARCOS} />
     <div class="duplo duplo--depois">
       <Colunas titulo="Cursos a fechar com 170 pontos ou mais" series={["cursos"]} colunas={serie170}
         descricao={`Cursos com nota de corte igual ou superior a 170, por ano: ${N(comNotas[0]).notas!.acima_170} em ${comNotas[0]}, ${n20.acima_170} em 2020, ${nUlt.acima_170} em ${ultimo}.`} />
@@ -352,7 +444,7 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
       a {mi(miMax)} em {miMax} e caem para {mi(2021)} em 2021, quando as engenharias voltaram a
       licenciatura de três anos.
     </p>
-    <Colunas titulo={`Cursos a concurso por grau, ${primeiro}–${ultimo} (quota)`} percentagem
+    <Colunas titulo={`Cursos a concurso por grau, ${primeiro}–${ultimo} (quota)`} percentagem marcos={marcosGraus}
       series={GRAUS.map(([, r]) => r)} colunas={graus}
       descricao={`Quota de cursos por grau académico, ano a ano: bacharelatos e bietápicos até ${ultimoBach}; licenciaturas de 1º ciclo dominam desde 2008; mestrados integrados no máximo em ${miMax} (${mi(miMax)}) e ${mi(ultimo)} em ${ultimo}.`} />
     <p class="fonte-lin">
@@ -404,7 +496,7 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
     </p>
     <div class="duplo">
       <div>
-        <SerieAnual titulo={`Vagas da 1ª fase por subsistema, ${comSub[0]}–${ultimo}`} unidade="vagas" inteiro
+        <SerieAnual titulo={`Vagas da 1ª fase por subsistema, ${comSub[0]}–${ultimo}`} unidade="vagas" inteiro marcos={MARCOS}
           series={[{ rotulo: "Universitário", pontos: serieUni, cor: "serie-1" }, { rotulo: "Politécnico", pontos: seriePoli, cor: "serie-2" }]} />
       </div>
       <div>
@@ -471,6 +563,148 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
     </p>
   </section>
 
+  {/* ── 8 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="familias">
+    <h2>8. Famílias de cursos: quem encolheu, quem explodiu</h2>
+    <p class="desc medida">
+      A área de estudo oficial só existe para os cursos de hoje, mas o nome existe em todos
+      os anos: uma tabela de expressões, curada à mão, arruma {formatarInteiro(familias.length)} famílias. As
+      histórias saltam à vista.
+      {professores && ` A formação de professores tinha ${formatarInteiro(professores.vagasPrimeiro)} vagas em ${primeiro}, chegou a ${formatarInteiro(professores.pico.vagas)} em ${professores.pico.ano} e tem ${formatarInteiro(professores.vagasUltimo)} em ${ultimo}.`}
+      {informatica && ` A Informática passou de ${formatarInteiro(informatica.vagasPrimeiro)} para ${formatarInteiro(informatica.vagasUltimo)}.`}
+      {enfermagem && ` A Enfermagem atingiu o máximo de ${formatarInteiro(enfermagem.pico.vagas)} vagas em ${enfermagem.pico.ano}, e hoje tem ${formatarInteiro(enfermagem.vagasUltimo)}.`}
+    </p>
+    <div class="trio">
+      {familiasTop.map((f) => (
+        <div class="familia">
+          <SerieAnual titulo={f.familia} unidade="estudantes" inteiro
+            series={[{ rotulo: "Vagas", pontos: f.vagas, cor: "serie-1" }, { rotulo: "Colocados", pontos: f.colocados, cor: "serie-2" }]} />
+          <p class="familia__nota">
+            {f.notaPrimeira && f.notaUltima && f.notaPrimeira.ano !== f.notaUltima.ano
+              ? `corte mediano ${formatarNota(f.notaPrimeira.nota_mediana)} (${f.notaPrimeira.ano}) → ${formatarNota(f.notaUltima.nota_mediana)} (${f.notaUltima.ano})`
+              : ""}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <h3 class="sub">O corte mediano de cada família, ano a ano</h3>
+    <p class="desc">
+      Mapa de calor da nota de corte mediana por família: claro é baixo, escuro é alto, na mesma
+      escala para todas ({formatarNota(famMin)} a {formatarNota(famMax)}). Células a tracejado: menos de três cursos com nota.
+    </p>
+    <div class="rola">
+      <table class="calor calor--familias">
+        <thead>
+          <tr>
+            <th scope="col">Família</th>
+            {anos.map((a) => <th scope="col">{famRotulados.has(a) ? String(a).slice(2) : ""}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {calorFamilias.map((f) => (
+            <tr>
+              <th scope="row">{f.familia}</th>
+              {f.celulas.map((v, i) => (
+                <td>
+                  {v != null ? (
+                    <span class="calor__celula" style={`background:color-mix(in srgb, var(--serie-1) ${Math.round(8 + ((v - famMin) / (famMax - famMin || 1)) * 84)}%, var(--surface))`}
+                      data-dica={`${f.familia}, ${anos[i]}: corte mediano ${formatarNota(v)}`} />
+                  ) : (
+                    <span class="calor__celula calor__celula--vazia" />
+                  )}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="fonte-lin">
+      Classificação pelo nome do curso (reference/familias.yaml no repositório); os nomes que
+      não batem em nenhuma família ficam em «Outros», fora deste capítulo.
+    </p>
+  </section>
+
+  {/* ── 9 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="regioes">
+    <h2>9. Interior e litoral: as vagas que não se preenchem</h2>
+    <p class="desc medida">
+      Cada instituição-mãe tem uma sede; somando por sede, o interior — de Bragança a Beja,
+      Viseu, Guarda, Castelo Branco, Portalegre e Évora — tinha {formatarInteiro(interiorPrimeiro.vagas)} vagas em{" "}
+      {interiorPrimeiro.ano} e tem {formatarInteiro(interiorUltimo.vagas)} em {interiorUltimo.ano}. O problema não é a
+      oferta, é quem a preenche: em {ocupInteriorMin.ano} a ocupação do interior caiu a {formatarNota(ocupInteriorMin.valor)}%,
+      contra {formatarNota(ocupLitoralMesmoAno?.valor)}% no litoral. Em {sobrasInteriorUltimo.ano}, {formatarNota(sobrasInteriorUltimo.valor)}% das
+      vagas por preencher do país estão no interior.
+    </p>
+    <div class="duplo">
+      <div>
+        <SerieAnual titulo="Vagas da 1ª fase por região" unidade="vagas" inteiro marcos={MARCOS}
+          series={[{ rotulo: "Litoral", pontos: serieLitoral, cor: "serie-1" }, { rotulo: "Interior", pontos: serieInterior, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Taxa de ocupação da 1ª fase por região (%)" unidade="% das vagas" marcos={MARCOS}
+          series={[{ rotulo: "Litoral", pontos: ocupLitoral, cor: "serie-1" }, { rotulo: "Interior", pontos: ocupInterior, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Quota do interior nas vagas (%)" unidade="% das vagas"
+          series={[{ rotulo: "Interior", pontos: quotaInterior, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Quota do interior nas vagas por preencher (%)" unidade="% das sobras"
+          series={[{ rotulo: "Interior", pontos: sobrasInterior, cor: "serie-2" }]} />
+      </div>
+    </div>
+    <p class="fonte-lin">
+      Sede de cada instituição-mãe em reference/grupos.yaml; litoral = Viana do Castelo, Braga,
+      Porto, Aveiro, Coimbra, Leiria, Santarém, Lisboa, Setúbal e Faro; as ilhas ({formatarInteiro(ilhas[ilhas.length - 1]?.vagas)} vagas)
+      ficam fora dos dois grupos. Polos do interior de instituições do litoral contam na sede.
+    </p>
+  </section>
+
+  {/* ── 10 ────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="geracao">
+    <h2>10. A geração de 18 anos: menos gente, mais vagas</h2>
+    <p class="desc medida">
+      Quem concorre em cada ano nasceu, grosso modo, 18 anos antes. A geração de {gPrimeiro.ano} tinha{" "}
+      {formatarInteiro(gPrimeiro.nascidos)} nascidos; a de {gUltimo.ano}, {formatarInteiro(gUltimo.nascidos)}. As vagas
+      foram no sentido contrário: de {formatarNota(serieVagasPor100[0].valor)} por cada 100 jovens em {gPrimeiro.ano} para{" "}
+      {formatarNota(serieVagasPor100[serieVagasPor100.length - 1].valor)} em {gUltimo.ano}. O mínimo demográfico é a geração de{" "}
+      {gMin.ano}, nascida em {gMin.ano - 18}.
+    </p>
+    <div class="duplo">
+      <div>
+        <SerieAnual titulo="Nascidos 18 anos antes (INE)" unidade="nascimentos" inteiro
+          series={[{ rotulo: "Nascidos", pontos: serieNascidos, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Vagas da 1ª fase por 100 nascidos 18 anos antes" unidade="vagas por 100 jovens"
+          series={[{ rotulo: "Vagas / 100", pontos: serieVagasPor100, cor: "serie-1" }]} />
+      </div>
+    </div>
+    <p class="fonte-lin">
+      {historiaTudo.nascimentos.fonte}. A idade de candidatura varia, e nem todos os nascidos chegam ao
+      12º ano: o rácio é uma ordem de grandeza, não uma taxa de acesso.
+    </p>
+  </section>
+
+  {/* ── 11 ────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="rotacao">
+    <h2>11. Rotação da oferta: quantos cursos nascem e morrem por ano</h2>
+    <p class="desc medida">
+      Desde 2008, quando os códigos de curso estabilizam, entraram a concurso {formatarInteiro(totalNovos)} pares
+      novos e saíram {formatarInteiro(totalExtintos)}. O ano mais agitado foi {rotMax.ano}, com {rotMax.novos} entradas e{" "}
+      {rotMax.extintos} saídas. Dos {formatarInteiro(N(sobreviventes.ate).pares)} pares de {sobreviventes.ate},{" "}
+      {formatarInteiro(sobreviventes.n)} já existiam com o mesmo código em {sobreviventes.de}.
+    </p>
+    <SerieAnual titulo="Pares que entram e saem do concurso, face ao ano anterior" unidade="cursos" inteiro marcos={MARCOS}
+      series={[{ rotulo: "Novos", pontos: serieNovos, cor: "serie-1" }, { rotulo: "Extintos", pontos: serieExtintos, cor: "serie-2" }]} />
+    <p class="fonte-lin">
+      Um par que muda de código conta como extinto e novo; antes de 2008 a recodificação de
+      Bolonha tornaria a contagem sem sentido, por isso a série começa aí.
+    </p>
+  </section>
+
   {/* ── notas ─────────────────────────────────────────────────────── */}
   <section class="card full reveal" id="leitura">
     <h2>Notas de leitura</h2>
@@ -493,6 +727,11 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
         <strong>A procura não está aqui.</strong> Candidatos por curso só existem de forma
         estruturada em 1997-1999 e a partir de 2017 (guia da candidatura); ficam nas fichas, não
         nesta série.
+      </li>
+      <li>
+        <strong>Os dados são reutilizáveis.</strong> A série nacional desta página está em{" "}
+        <a href={ligacao("/dados/historia.csv")}>historia.csv</a> (um ano por linha) e, com as famílias, regiões e
+        rotação, em <a href={ligacao("/dados/historia.json")}>historia.json</a>.
       </li>
       <li>
         <strong>Fontes.</strong> Ficheiros de 1997 a 2017 da{" "}
@@ -722,6 +961,34 @@ const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${u
       width: 33%;
       font-size: 0.68rem;
     }
+  }
+  .trio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+  }
+  @media (max-width: 1000px) {
+    .trio {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 600px) {
+    .trio {
+      grid-template-columns: 1fr;
+    }
+  }
+  .familia__nota {
+    margin: 0.2rem 0 0;
+    font-size: var(--t-2xs);
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .calor--familias th[scope="row"] {
+    white-space: nowrap;
+  }
+  .calor__celula--vazia {
+    background: repeating-linear-gradient(135deg, var(--grid) 0 2px, transparent 2px 5px);
   }
   .leitura {
     margin: 0.5rem 0 0;

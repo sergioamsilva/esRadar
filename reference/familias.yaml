@@ -1,0 +1,49 @@
+nota: Famílias de cursos por nome, para as séries de 30 anos (a área CNAEF só existe para os
+  cursos de 2026). Os padrões são expressões regulares sobre o nome normalizado (minúsculas,
+  sem acentos nem pontuação); a ordem conta — ganha a primeira família que bater. Curado à
+  mão; o que não bate cai em «Outros».
+familias:
+- familia: Informática
+  padroes: [informatic, computa, sistemas de informacao, tecnologias da informacao, tecnologias de informacao, multimedia, software, ' dados', inteligencia artificial, ciberseguranca, digital]
+- familia: Engenharias
+  padroes: ['^engenharia', ' engenharia ', '^eng ', bioengenharia, biotecnolog, electrotec, eletrotec, mecanic, electronic, eletronic, telecomunica, aeroespacial, aeronautic, naval, energias, construcao civil, topograf, geodes, automacao, producao industrial, madeira, pilotagem]
+- familia: Medicina Dentária
+  padroes: [medicina dentaria, higiene oral, protese dentaria, estomatolog]
+- familia: Medicina Veterinária
+  padroes: [veterinari]
+- familia: Medicina
+  padroes: [medicina, ciencias medicas]
+- familia: Enfermagem
+  padroes: [enfermagem]
+- familia: Farmácia
+  padroes: [farmac]
+- familia: Tecnologias da saúde
+  padroes: [fisioterapia, radiolog, analises clinicas, saude publica, terapia, cardiopneumolog, dietetica, nutricao, ortoptica, audiolog, ortoprotesia, saude ambiental, osteopatia, imagem medica, fisiologia clinica, neurofisiolog, biomedic, farmacia, ' saude', '^saude', optometria, podologia, radioterapia, anatomia patologica, reabilitacao, ergonomia, terapeutic]
+- familia: Psicologia
+  padroes: [psicolog]
+- familia: Formação de professores
+  padroes: [infancia, educadores, educacao basica, professores, ensino basico, '^ensino de', '^educacao$', ciencias da educacao, formacao de professores, educacao visual, formacao de adultos]
+- familia: Arquitetura
+  padroes: [arquitet, arquitec, urbanismo, paisag, cidades]
+- familia: Direito
+  padroes: ['^direito', juridic, solicitadoria]
+- familia: Gestão e economia
+  padroes: [gestao, economia, contabilidade, marketing, financ, administracao, comercio, negocios, fiscalidade, auditoria, logistica, recursos humanos, secretariado, empresari, banca, seguros]
+- familia: Turismo e hotelaria
+  padroes: [turismo, turistic, hotelaria, restauracao, lazer, hoteleira, guias interpretes]
+- familia: Comunicação
+  padroes: [comunicacao, jornalismo, relacoes publicas, publicidade, cinema, audiovisu, media, radio e televisao]
+- familia: Desporto
+  padroes: [desporto, desportiv, educacao fisica, exercicio, motricidade]
+- familia: Artes e design
+  padroes: [design, '^artes', ' artes', musica, teatro, danca, belas, pintura, escultura, '^arte ', '^arte$', fotografia, moda, '^conservacao', animacao, som e imagem, '^som', artistic, ceramica, joalharia, ilustracao, '^desenho', criativ, banda desenhada]
+- familia: Ciências
+  padroes: ['^biologia', '^quimica', '^fisica', '^matematica', geolog, bioquimica, '^ciencias( do| da| e | )', estatistica, oceanograf, meteorolog, astronom, microbiolog, genetica, bioinformat, biolog, quimica, fisica, matematica, geograf]
+- familia: Humanidades e línguas
+  padroes: [linguas, literatura, historia, filosofia, letras, traducao, '^estudos', arqueologia, classic, portugues, ingles, frances, alemao, espanhol, linguistica, teologia, cultura, patrimonio, museolog, documentacao, biblioteconom, arquiv, ciencia da informacao]
+- familia: Ciências sociais
+  padroes: [sociolog, servico social, politica, relacoes internacionais, antropolog, educacao social, criminolog, seguranca, animacao sociocultural, gerontolog, trabalho social, intervencao social, intervencao comunitaria, desenvolvimento, demograf, ciencias sociais, protecao civil, proteccao civil, policia, ' social']
+- familia: Agrárias e ambiente
+  padroes: [agr, zootec, florest, alimentar, alimento, equin, cavalo, horticult, enolog, vitic, pesca, aquacult, ambient, ecolog, biorrecursos, recursos naturais, animal, jardin]
+- familia: Engenharias
+  padroes: [tecnolog, sistemas de producao]

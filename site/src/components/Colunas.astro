@@ -7,7 +7,7 @@
  * ocupa 100% e os segmentos são quotas. HTML e CSS puros, legíveis sem
  * JavaScript; cada coluna tem data-dica para o tooltip global.
  */
-import { anosRotulados } from "../lib/dados";
+import { anosRotulados, type Marco } from "../lib/dados";
 
 interface Coluna {
   ano: number;
@@ -20,8 +20,10 @@ interface Props {
   titulo: string;
   descricao: string;
   percentagem?: boolean;
+  marcos?: Marco[];
 }
-const { colunas, series, titulo, descricao, percentagem = false } = Astro.props;
+const { colunas, series, titulo, descricao, percentagem = false, marcos = [] } = Astro.props;
+const marcoDe = new Map(marcos.map((m) => [m.ano, m.rotulo]));
 const ordenadas = [...colunas].sort((a, b) => a.ano - b.ano);
 const rotulados = anosRotulados(ordenadas.map((c) => c.ano));
 const max = Math.max(1, ...ordenadas.map((c) => c.valores.reduce((s, v) => s + v, 0)));
@@ -47,7 +49,8 @@ const altura = (c: Coluna) => (percentagem ? 100 : (100 * c.valores.reduce((s, v
   <div class="colunas__plot" role="img" aria-label={descricao}>
     {
       ordenadas.map((c, i) => (
-        <div class="colunas__coluna" data-dica={c.dica}>
+        <div class={`colunas__coluna ${marcoDe.has(c.ano) ? "colunas__coluna--marco" : ""}`} data-dica={c.dica}>
+          {marcoDe.has(c.ano) && <span class="colunas__marco">{marcoDe.get(c.ano)}</span>}
           <span class="colunas__pilha" style={`height:${altura(c)}%`}>
             {c.valores.map((v, si) => (
               <span
@@ -139,6 +142,23 @@ const altura = (c: Coluna) => (percentagem ? 100 : (100 * c.valores.reduce((s, v
   }
   .colunas__seg--6 {
     background: color-mix(in srgb, var(--serie-2) 28%, var(--surface));
+  }
+  .colunas__coluna--marco::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    border-left: 1px dashed var(--muted);
+  }
+  .colunas__marco {
+    position: absolute;
+    top: 0;
+    left: calc(50% + 3px);
+    font-size: 0.62rem;
+    color: var(--muted);
+    white-space: nowrap;
+    z-index: 1;
   }
   .colunas__rotulo {
     position: absolute;

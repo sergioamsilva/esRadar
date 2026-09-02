@@ -188,7 +188,20 @@ export type HistoriaAno = {
   caixas: Record<string, number>;
   top: { par: string; curso: string; grupo: string; nota: number; url: string }[];
 };
-export const historia = (): Record<string, HistoriaAno> => ler<{ anos: Record<string, HistoriaAno> }>("historia.json").anos;
+export type SerieAgregada = Record<string, { cursos: number; vagas: number; colocados: number; sobras: number; nota_mediana: number | null; com_nota: number }>;
+export type Historia = {
+  anos: Record<string, HistoriaAno>;
+  /** Por família de curso (reference/familias.yaml), por ano. */
+  familias: Record<string, SerieAgregada>;
+  /** Litoral, interior e ilhas (reference/grupos.yaml), por ano. */
+  regioes: Record<string, SerieAgregada>;
+  /** Pares que entram e saem de um ano para o outro, desde 2008. */
+  rotacao: Record<string, { novos: number; extintos: number; total: number }>;
+  sobreviventes: { de: number; ate: number; n: number };
+  nascimentos: { fonte: string; anos: Record<string, number> };
+};
+export const historia = (): Record<string, HistoriaAno> => ler<Historia>("historia.json").anos;
+export const historiaCompleta = (): Historia => ler<Historia>("historia.json");
 
 export type Epoca = { ano: number; atualizado?: string; fases_arquivadas: number[] };
 
@@ -226,6 +239,17 @@ export const ANOS_CURSOS = Array.from(
   { length: ANO_CORRENTE - ANO_INICIO_CURSOS + 1 },
   (_, i) => ANO_INICIO_CURSOS + i,
 );
+
+/** Marcos que explicam as curvas de 30 anos; os gráficos desenham só os
+ * que caem dentro da sua série. */
+export type Marco = { ano: number; rotulo: string };
+export const MARCOS: Marco[] = [
+  { ano: 2006, rotulo: "Bolonha" },
+  { ano: 2011, rotulo: "troika" },
+  { ano: 2013, rotulo: "fusão UL" },
+  { ano: 2020, rotulo: "pandemia" },
+  { ano: 2025, rotulo: "novas provas" },
+];
 
 /** Anos que recebem rótulo num eixo: todos até 12; depois de 2 em 2 ou de 5
  * em 5 (múltiplos), e sempre o último. */

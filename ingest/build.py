@@ -38,6 +38,26 @@ ANO_MINIMO = 1997
 GRUPOS_SUCESSORES = {"Universidade Técnica de Lisboa": "Universidade de Lisboa"}
 
 
+def ler_familias() -> list[tuple[str, list[re.Pattern[str]]]]:
+    """reference/familias.yaml: famílias de cursos por nome, por ordem."""
+    dados = yaml.safe_load((common.DIR_REFERENCIA / "familias.yaml").read_text(encoding="utf-8"))
+    return [(f["familia"], [re.compile(p) for p in f["padroes"]]) for f in dados["familias"]]
+
+
+def familia_de(nome: str | None, familias: list[tuple[str, list[re.Pattern[str]]]]) -> str:
+    normal = common.normalizar(nome or "")
+    for familia, padroes in familias:
+        if any(p.search(normal) for p in padroes):
+            return familia
+    return "Outros"
+
+
+def ler_regioes() -> dict[str, dict]:
+    """reference/grupos.yaml: {grupo: {distrito, regiao}}."""
+    dados = yaml.safe_load((common.DIR_REFERENCIA / "grupos.yaml").read_text(encoding="utf-8"))
+    return {g["grupo"]: g for g in dados["grupos"]}
+
+
 def _limpo(nome: str) -> str:
     return " ".join(nome.split()).lower()
 
@@ -753,9 +773,18 @@ def construir() -> None:
     historia: dict[int, dict] = defaultdict(
         lambda: {"esgotados": 0, "sobras_f1": 0, "grupos": set(), "graus": defaultdict(int), "top": []}
     )
+    familias = ler_familias()
+    regioes = ler_regioes()
+    _agg = lambda: {"cursos": 0, "vagas": 0, "colocados": 0, "sobras": 0, "notas": []}  # noqa: E731
+    por_familia: dict[str, dict[int, dict]] = defaultdict(lambda: defaultdict(_agg))
+    por_regiao: dict[str, dict[int, dict]] = defaultdict(lambda: defaultdict(_agg))
+    pares_por_ano: dict[int, set[str]] = defaultdict(set)
+    sem_regiao: set[str] = set()
     for par, ficha in fichas.items():
         subsistema = ficha["subsistema"]
         grupo = GRUPOS_SUCESSORES.get(ficha["grupo"], ficha["grupo"])
+        familia = familia_de(ficha["curso"], familias)
+        regiao = regioes.get(grupo, {}).get("regiao")
         for chave, registo in ficha["series"].items():
             ano, fase = int(chave[:4]), int(chave[-1])
             if fase == 1 and registo.get("vagas") is not None:
@@ -766,11 +795,25 @@ def construir() -> None:
                 grupos_ano[grupo][ano]["vagas"] += registo["vagas"]
                 h = historia[ano]
                 h["grupos"].add(grupo)
+                pares_por_ano[ano].add(par)
+                if regiao is None:
+                    sem_regiao.add(grupo)
+                # «Por preencher» = vagas − colocados, e não a coluna «Sobras»:
+                # em 1997 e 1999 essa coluna não bate com vagas − colocados
+                # (ver reference/NOTAS.md), e a diferença é comparável em
+                # todos os anos.
+                por_preencher = max(0, registo["vagas"] - (registo.get("colocados") or 0))
+                for agg in (por_familia[familia][ano], por_regiao[regiao or "?"][ano]):
+                    agg["cursos"] += 1
+                    agg["vagas"] += registo["vagas"]
+                    agg["colocados"] += registo.get("colocados") or 0
+                    agg["sobras"] += por_preencher
+                    if registo.get("nota_ultimo") is not None:
+                        agg["notas"].append(registo["nota_ultimo"])
                 h["graus"][graus.get(par, {}).get(ano, "outro")] += 1
-                if registo.get("sobras") is not None:
-                    h["sobras_f1"] += registo["sobras"]
-                    if registo["sobras"] == 0 and registo["vagas"] > 0:
-                        h["esgotados"] += 1
+                h["sobras_f1"] += por_preencher
+                if por_preencher == 0 and registo["vagas"] > 0:
+                    h["esgotados"] += 1
             if fase == 1 and registo.get("nota_ultimo") is not None:
                 notas_ano[ano].append(registo["nota_ultimo"])
                 historia[ano]["top"].append(
@@ -805,10 +848,42 @@ def construir() -> None:
         for n in notas:
             caixas[str(max(90, min(195, int(n // 5) * 5)))] += 1
         historia[ano]["caixas"] = dict(sorted(caixas.items(), key=lambda kv: int(kv[0])))
+    if sem_regiao:
+        print(f"  aviso: {len(sem_regiao)} instituições-mãe sem região em reference/grupos.yaml: {sorted(sem_regiao)[:6]}")
+
+    def _fechar(series: dict[str, dict[int, dict]]) -> dict:
+        return {
+            chave: {
+                str(a): {
+                    "cursos": v["cursos"], "vagas": v["vagas"], "colocados": v["colocados"], "sobras": v["sobras"],
+                    "nota_mediana": sorted(v["notas"])[len(v["notas"]) // 2] if len(v["notas"]) >= 3 else None,
+                    "com_nota": len(v["notas"]),
+                }
+                for a, v in sorted(anos.items())
+            }
+            for chave, anos in sorted(series.items())
+        }
+
+    # Rotação da oferta: pares que entram e saem de um ano para o outro. Só
+    # a partir de 2008, quando os códigos de curso estabilizam (Bolonha).
+    rotacao = {}
+    for ano in sorted(pares_por_ano):
+        if ano >= 2008 and (ano - 1) in pares_por_ano:
+            antes, agora = pares_por_ano[ano - 1], pares_por_ano[ano]
+            rotacao[str(ano)] = {"novos": len(agora - antes), "extintos": len(antes - agora), "total": len(agora)}
+    nascimentos = yaml.safe_load((common.DIR_REFERENCIA / "nascimentos.yaml").read_text(encoding="utf-8"))
     _escrever(
         common.DIR_SAIDA / "historia.json",
         {
             "nota": "Agregados por ano da 1ª fase sobre todos os pares com resultados, incluindo cursos extintos.",
+            "familias": _fechar(por_familia),
+            "regioes": _fechar(por_regiao),
+            "rotacao": rotacao,
+            "sobreviventes": {
+                "de": 2008, "ate": ANO_CORRENTE,
+                "n": len(pares_por_ano.get(2008, set()) & pares_por_ano.get(ANO_CORRENTE, set())),
+            },
+            "nascimentos": {"fonte": nascimentos["fonte"], "anos": {str(a): n for a, n in sorted(nascimentos["anos"].items())}},
             "anos": {
                 str(a): {
                     "esgotados": h["esgotados"],
