@@ -125,6 +125,7 @@ def ler_ficheiro_resultados(ficheiro: Path, ano: int, fase: int) -> list[tuple[s
         "sobras": _coluna(
             cab, "sobras", "vagas sobrantes", "vagas sobrant", "vagas não ocupadas", "vagas da 3.ª fase não", "vagas disponíveis"
         ),
+        "grau": _coluna(cab, "grau"),
         # Procura: só em 1997-1999 (total e 1ª opção) e 2007 (1ª opção);
         # médias dos colocados só em 1997-1999. Depois, só o guia.
         "candidatos": _coluna(cab, exatos=("candidatos total",)),
@@ -181,18 +182,40 @@ def ler_ficheiro_resultados(ficheiro: Path, ano: int, fase: int) -> list[tuple[s
         if all(v is None for v in registo.values()):
             continue
         nome = linha[col["curso"]].strip() if col["curso"] is not None and len(linha) > col["curso"] else None
+        # O grau tal como vem no ficheiro (a sigla muda de ano para ano);
+        # ler_resultados separa-o das séries — só interessa agregado.
+        if col["grau"] is not None and len(linha) > col["grau"]:
+            registo["grau"] = linha[col["grau"]].strip() or None
         registos.append((f"{code}-{codc}", registo, nome))
     return registos
 
 
-def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
+# Graus académicos, normalizados a partir das siglas que mudam de ano para
+# ano nos ficheiros da DGES. Conta a transição de Bolonha (2006-2008) e a
+# conversão dos mestrados integrados em licenciaturas (2021).
+GRAUS = {
+    "bacharelato": {"bacharelato", "b"},
+    "bacharelato_licenciatura": {
+        "bac. em ensino + lic. em ensino", "bacharelato/licenciatura", "bacharelato+licenciatura", "lb", "bl", "b+l",
+    },
+    "licenciatura": {"licenciatura", "l"},
+    "licenciatura_1ciclo": {"l1", "l - 1º ciclo"},
+    "mestrado_integrado": {"mi"},
+    "preparatorios": {"preparatórios de licenciatura", "p", "p de l", "prep. mi", "pm", "pl"},
+}
+_GRAU_POR_SIGLA = {sigla: grau for grau, siglas in GRAUS.items() for sigla in siglas}
+
+
+def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str], dict[str, dict[int, str]]]:
     """Séries por par: {par: {"{ano}f{fase}": {vagas, colocados, nota_ultimo, sobras, …}}}.
 
     Devolve também o nome do curso mais recente de cada par, para dar nome às
-    fichas de pares que já não existem no guia corrente.
+    fichas de pares que já não existem no guia corrente, e o grau normalizado
+    de cada par por ano (1ª fase), para os agregados históricos.
     """
     series: dict[str, dict[str, dict]] = defaultdict(dict)
     nomes: dict[str, tuple[int, str]] = {}
+    graus: dict[str, dict[int, str]] = defaultdict(dict)
     ficheiros = sorted(common.DIR_BRUTO.glob("coloc/*/fase*/cna*_resultados.csv"))
     if not ficheiros:
         raise RuntimeError("nenhum CSV de resultados em data/raw/coloc — correr ingest.arquivo")
@@ -203,10 +226,13 @@ def ler_resultados() -> tuple[dict[str, dict[str, dict]], dict[str, str]]:
         if len(registos) < 500:
             raise RuntimeError(f"{ficheiro}: só {len(registos)} pares extraídos")
         for par, registo, nome in registos:
+            grau = registo.pop("grau", None)
+            if fase == 1:
+                graus[par][ano] = _GRAU_POR_SIGLA.get((grau or "").lower(), "outro")
             series[par][f"{ano}f{fase}"] = registo
             if nome and ano >= nomes.get(par, (0, ""))[0]:
                 nomes[par] = (ano, nome)
-    return series, {par: nome for par, (_, nome) in nomes.items()}
+    return series, {par: nome for par, (_, nome) in nomes.items()}, graus
 
 
 def ler_guia() -> dict:
@@ -365,7 +391,7 @@ def _escrever(caminho: Path, dados: dict) -> None:
 
 
 def construir() -> None:
-    resultados, nomes_historicos = ler_resultados()
+    resultados, nomes_historicos, graus = ler_resultados()
     guia = ler_guia()
     instituicoes = ler_instituicoes()
     infocursos = ler_infocursos()
@@ -722,6 +748,11 @@ def construir() -> None:
     )
     notas_ano: dict[int, list[float]] = defaultdict(list)
     grupos_ano: dict[str, dict[int, dict]] = defaultdict(lambda: defaultdict(lambda: {"vagas": 0, "colocados": 0}))
+    # Agregados históricos (data/out/historia.json): cursos esgotados, sobras,
+    # graus, distribuição das notas e os mais disputados de cada ano.
+    historia: dict[int, dict] = defaultdict(
+        lambda: {"esgotados": 0, "sobras_f1": 0, "grupos": set(), "graus": defaultdict(int), "top": []}
+    )
     for par, ficha in fichas.items():
         subsistema = ficha["subsistema"]
         grupo = GRUPOS_SUCESSORES.get(ficha["grupo"], ficha["grupo"])
@@ -733,8 +764,19 @@ def construir() -> None:
                 if subsistema:
                     nacional_anos[ano][f"vagas_{subsistema}"] += registo["vagas"]
                 grupos_ano[grupo][ano]["vagas"] += registo["vagas"]
+                h = historia[ano]
+                h["grupos"].add(grupo)
+                h["graus"][graus.get(par, {}).get(ano, "outro")] += 1
+                if registo.get("sobras") is not None:
+                    h["sobras_f1"] += registo["sobras"]
+                    if registo["sobras"] == 0 and registo["vagas"] > 0:
+                        h["esgotados"] += 1
             if fase == 1 and registo.get("nota_ultimo") is not None:
                 notas_ano[ano].append(registo["nota_ultimo"])
+                historia[ano]["top"].append(
+                    {"par": par, "curso": ficha["curso"], "grupo": ficha["grupo"], "nota": registo["nota_ultimo"],
+                     "url": f"/curso/{par}-{slug(ficha['curso'])}/"}
+                )
             if registo.get("colocados"):
                 nacional_anos[ano]["colocados"] += registo["colocados"]
                 nacional_anos[ano][f"colocados_f{fase}"] += registo["colocados"]
@@ -757,7 +799,29 @@ def construir() -> None:
         nacional_anos[ano]["notas"] = {
             "n": len(notas), "p10": q(0.1), "p50": q(0.5), "p90": q(0.9),
             "acima_170": sum(1 for n in notas if n >= 170),
+            "abaixo_100": sum(1 for n in notas if n < 100),
         }
+        caixas: dict[str, int] = defaultdict(int)
+        for n in notas:
+            caixas[str(max(90, min(195, int(n // 5) * 5)))] += 1
+        historia[ano]["caixas"] = dict(sorted(caixas.items(), key=lambda kv: int(kv[0])))
+    _escrever(
+        common.DIR_SAIDA / "historia.json",
+        {
+            "nota": "Agregados por ano da 1ª fase sobre todos os pares com resultados, incluindo cursos extintos.",
+            "anos": {
+                str(a): {
+                    "esgotados": h["esgotados"],
+                    "sobras_f1": h["sobras_f1"],
+                    "grupos": len(h["grupos"]),
+                    "graus": dict(sorted(h["graus"].items())),
+                    "caixas": h.get("caixas", {}),
+                    "top": sorted(h["top"], key=lambda t: -t["nota"])[:5],
+                }
+                for a, h in sorted(historia.items())
+            },
+        },
+    )
 
     saida_inst = []
     for code, agg in sorted(por_inst.items()):

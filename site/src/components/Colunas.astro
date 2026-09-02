@@ -1,8 +1,10 @@
 ---
 /**
- * Colunas por ano, simples ou empilhadas (até três segmentos ordenados —
- * um só tom em intensidades decrescentes, porque os segmentos são
- * categorias ordenadas: 1ª, 2ª, 3ª fase). HTML e CSS puros, legíveis sem
+ * Colunas por ano, simples ou empilhadas. Os três primeiros segmentos são
+ * intensidades decrescentes de um tom (categorias ordenadas: 1ª, 2ª, 3ª
+ * fase); os três seguintes, do segundo tom — para duas famílias ordenadas
+ * (graus de Bolonha vs. anteriores). Com `percentagem`, cada coluna
+ * ocupa 100% e os segmentos são quotas. HTML e CSS puros, legíveis sem
  * JavaScript; cada coluna tem data-dica para o tooltip global.
  */
 import { anosRotulados } from "../lib/dados";
@@ -17,11 +19,13 @@ interface Props {
   series: string[];
   titulo: string;
   descricao: string;
+  percentagem?: boolean;
 }
-const { colunas, series, titulo, descricao } = Astro.props;
+const { colunas, series, titulo, descricao, percentagem = false } = Astro.props;
 const ordenadas = [...colunas].sort((a, b) => a.ano - b.ano);
 const rotulados = anosRotulados(ordenadas.map((c) => c.ano));
 const max = Math.max(1, ...ordenadas.map((c) => c.valores.reduce((s, v) => s + v, 0)));
+const altura = (c: Coluna) => (percentagem ? 100 : (100 * c.valores.reduce((s, v) => s + v, 0)) / max);
 ---
 
 <figure class="colunas reveal">
@@ -44,7 +48,7 @@ const max = Math.max(1, ...ordenadas.map((c) => c.valores.reduce((s, v) => s + v
     {
       ordenadas.map((c, i) => (
         <div class="colunas__coluna" data-dica={c.dica}>
-          <span class="colunas__pilha" style={`height:${(100 * c.valores.reduce((s, v) => s + v, 0)) / max}%`}>
+          <span class="colunas__pilha" style={`height:${altura(c)}%`}>
             {c.valores.map((v, si) => (
               <span
                 class={`colunas__seg colunas__seg--${si + 1} cresce`}
@@ -77,7 +81,8 @@ const max = Math.max(1, ...ordenadas.map((c) => c.valores.reduce((s, v) => s + v
   }
   .colunas__legenda {
     display: flex;
-    gap: 0.9rem;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.9rem;
     font-size: 0.75rem;
     color: var(--muted);
   }
@@ -125,6 +130,15 @@ const max = Math.max(1, ...ordenadas.map((c) => c.valores.reduce((s, v) => s + v
   }
   .colunas__seg--3 {
     background: color-mix(in srgb, var(--serie-1) 28%, var(--surface));
+  }
+  .colunas__seg--4 {
+    background: var(--serie-2);
+  }
+  .colunas__seg--5 {
+    background: color-mix(in srgb, var(--serie-2) 55%, var(--surface));
+  }
+  .colunas__seg--6 {
+    background: color-mix(in srgb, var(--serie-2) 28%, var(--surface));
   }
   .colunas__rotulo {
     position: absolute;

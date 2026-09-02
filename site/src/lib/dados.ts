@@ -169,7 +169,7 @@ export type Nacional = {
       vagas_universitario: number;
       vagas_politecnico: number;
       /** Distribuição das notas de corte da 1ª fase nesse ano. */
-      notas?: { n: number; p10: number; p50: number; p90: number; acima_170: number };
+      notas?: { n: number; p10: number; p50: number; p90: number; acima_170: number; abaixo_100: number };
     }
   >;
 };
@@ -177,6 +177,18 @@ export type Nacional = {
 /** Vagas e colocados da 1ª fase por instituição-mãe e ano (data/out/grupos.json). */
 export type Grupo = { grupo: string; anos: Record<string, { vagas: number; colocados: number }> };
 export const grupos = (): Grupo[] => ler<{ grupos: Grupo[] }>("grupos.json").grupos;
+
+/** Agregados históricos por ano da 1ª fase (data/out/historia.json). */
+export type HistoriaAno = {
+  esgotados: number;
+  sobras_f1: number;
+  grupos: number;
+  graus: Record<string, number>;
+  /** Contagem de cursos por caixa de 5 pontos da nota de corte («95» = 95–99,9). */
+  caixas: Record<string, number>;
+  top: { par: string; curso: string; grupo: string; nota: number; url: string }[];
+};
+export const historia = (): Record<string, HistoriaAno> => ler<{ anos: Record<string, HistoriaAno> }>("historia.json").anos;
 
 export type Epoca = { ano: number; atualizado?: string; fases_arquivadas: number[] };
 

@@ -1,0 +1,734 @@
+---
+import Base from "../layouts/Base.astro";
+import SerieAnual from "../components/SerieAnual.astro";
+import Banda from "../components/Banda.astro";
+import Colunas from "../components/Colunas.astro";
+import {
+  nacional,
+  historia,
+  fases,
+  grupos as lerGrupos,
+  ligacao,
+  formatarInteiro,
+  formatarNota,
+  anosRotulados,
+  ANO_INICIO,
+  ANO_CORRENTE,
+} from "../lib/dados";
+
+/* Trinta anos do Concurso Nacional de Acesso, 1997–2026. Todas as séries
+   desta página contam, em cada ano, os cursos desse ano — atravessam as
+   mudanças de código de curso sem crosswalk. Cursos extintos incluídos. */
+const nac = nacional();
+const hist = historia();
+const f2f = fases();
+
+const anos = Object.keys(nac.anos)
+  .map(Number)
+  .filter((a) => a >= ANO_INICIO && a <= ANO_CORRENTE && nac.anos[String(a)].vagas_f1 > 0)
+  .sort((a, b) => a - b);
+const N = (a: number) => nac.anos[String(a)];
+const H = (a: number) => hist[String(a)];
+const primeiro = anos[0];
+const ultimo = anos[anos.length - 1];
+const pct = (v: number) => `${v >= 0 ? "+" : "−"}${Math.abs(Math.round(v))}%`;
+const variacao = (a: number, b: number) => (100 * (b - a)) / a;
+const mediana = (v: number[]) => (v.length ? [...v].sort((x, y) => x - y)[Math.floor(v.length / 2)] : null);
+
+/* ── 1. oferta e procura ────────────────────────────────────────────── */
+const serieVagas = anos.map((a) => ({ ano: a, valor: N(a).vagas_f1 }));
+const serieColocados = anos.map((a) => ({ ano: a, valor: N(a).colocados_f1 }));
+const serieOcupacao = anos.map((a) => ({ ano: a, valor: Math.round((1000 * N(a).colocados_f1) / N(a).vagas_f1) / 10 }));
+const serieCursos = anos.map((a) => ({ ano: a, valor: N(a).pares }));
+const serieEsgotados = anos.map((a) => ({ ano: a, valor: Math.round((100 * H(a).esgotados) / N(a).pares) }));
+const serieSobras = anos.map((a) => ({ ano: a, valor: H(a).sobras_f1 }));
+const ocupMin = serieOcupacao.reduce((m, p) => (p.valor < m.valor ? p : m), serieOcupacao[0]);
+const ocupMax = serieOcupacao.reduce((m, p) => (p.valor > m.valor ? p : m), serieOcupacao[0]);
+const sobrasMax = serieSobras.reduce((m, p) => (p.valor > m.valor ? p : m), serieSobras[0]);
+const esgMin = serieEsgotados.reduce((m, p) => (p.valor < m.valor ? p : m), serieEsgotados[0]);
+const esgMax = serieEsgotados.reduce((m, p) => (p.valor > m.valor ? p : m), serieEsgotados[0]);
+
+/* ── 2. notas de corte ──────────────────────────────────────────────── */
+const comNotas = anos.filter((a) => N(a).notas && N(a).notas!.n >= 300);
+const banda = comNotas.map((a) => ({ ano: a, baixo: N(a).notas!.p10, meio: N(a).notas!.p50, alto: N(a).notas!.p90 }));
+const n19 = N(2019).notas!;
+const n20 = N(2020).notas!;
+const nUlt = N(ultimo).notas!;
+const medianaPre2020 = comNotas.filter((a) => a < 2020).map((a) => N(a).notas!.p50);
+const CAIXAS = Array.from({ length: 22 }, (_, i) => 90 + i * 5); // 90 … 195
+const calor = comNotas.map((a) => {
+  const caixas = H(a).caixas;
+  const total = Object.values(caixas).reduce((s, v) => s + v, 0);
+  const maxLinha = Math.max(1, ...Object.values(caixas));
+  return { ano: a, total, celulas: CAIXAS.map((c) => ({ de: c, n: caixas[String(c)] ?? 0, intensidade: (caixas[String(c)] ?? 0) / maxLinha })) };
+});
+const serie170 = comNotas.map((a) => ({ ano: a, valores: [N(a).notas!.acima_170], dica: `${a}: ${N(a).notas!.acima_170} cursos a fechar com 170 ou mais (em ${N(a).notas!.n} com nota)` }));
+const serie100 = comNotas.map((a) => ({ ano: a, valores: [N(a).notas!.abaixo_100], dica: `${a}: ${N(a).notas!.abaixo_100} cursos a fechar abaixo de 100 pontos (em ${N(a).notas!.n} com nota)` }));
+
+/* ── 3. os mais disputados de cada ano ──────────────────────────────── */
+const podio = comNotas.map((a) => ({ ano: a, top: H(a).top.slice(0, 3) }));
+const lideres = new Map<string, number>();
+for (const p of podio) {
+  const nome = p.top[0]?.curso ?? "";
+  lideres.set(nome, (lideres.get(nome) ?? 0) + 1);
+}
+const liderMaisVezes = [...lideres.entries()].sort((a, b) => b[1] - a[1])[0];
+const recorde = podio.flatMap((p) => p.top.map((t) => ({ ...t, ano: p.ano }))).sort((a, b) => b.nota - a.nota)[0];
+
+/* ── 4. Bolonha: os graus ───────────────────────────────────────────── */
+const GRAUS = [
+  ["licenciatura_1ciclo", "Licenciatura (1º ciclo)"],
+  ["mestrado_integrado", "Mestrado integrado"],
+  ["preparatorios", "Preparatórios"],
+  ["licenciatura", "Licenciatura pré-Bolonha"],
+  ["bacharelato_licenciatura", "Bacharelato + licenciatura"],
+  ["bacharelato", "Bacharelato"],
+] as const;
+const graus = anos.map((a) => {
+  const g = H(a).graus;
+  const total = Object.values(g).reduce((s, v) => s + v, 0);
+  const valores = GRAUS.map(([k]) => g[k] ?? 0);
+  const partes = GRAUS.map(([k, r]) => (g[k] ? `${r} ${Math.round((100 * g[k]) / total)}%` : null)).filter(Boolean);
+  return { ano: a, valores, dica: `${a}: ${partes.join(" · ")}` };
+});
+const bach = (a: number) => (H(a).graus.bacharelato ?? 0) + (H(a).graus.bacharelato_licenciatura ?? 0);
+const ultimoBach = [...anos].reverse().find((a) => bach(a) > 0);
+const mi = (a: number) => H(a).graus.mestrado_integrado ?? 0;
+const miMax = anos.reduce((m, a) => (mi(a) > mi(m) ? a : m), anos[0]);
+
+/* ── 5. as fases ────────────────────────────────────────────────────── */
+const fasesAnos = anos
+  .filter((a) => N(a).colocados_f2 > 0)
+  .map((a) => {
+    const v = N(a);
+    return {
+      ano: a,
+      valores: [v.colocados_f1, v.colocados_f2, v.colocados_f3],
+      dica: `${a}: ${formatarInteiro(v.colocados_f1)} na 1ª fase, ${formatarInteiro(v.colocados_f2)} na 2ª${v.colocados_f3 ? `, ${formatarInteiro(v.colocados_f3)} na 3ª` : ""} — ${formatarInteiro(v.colocados)} no total`,
+    };
+  });
+const quotaF2 = fasesAnos.map((f) => ({ ano: f.ano, valor: Math.round((1000 * f.valores[1]) / (f.valores[0] + f.valores[1] + f.valores[2])) / 10 }));
+const sobePorAno = Object.entries(f2f.por_ano)
+  .filter(([, v]) => v.pct_sobe != null)
+  .map(([a, v]) => ({ ano: Number(a), valor: v.pct_sobe! }));
+const absorcao = Object.entries(f2f.absorcao)
+  .filter(([a, v]) => v.taxa != null && Number(a) < ANO_CORRENTE)
+  .map(([a, v]) => ({ ano: Number(a), valor: v.taxa! }));
+const f2Max = fasesAnos.reduce((m, f) => (f.valores[1] > m.valores[1] ? f : m), fasesAnos[0]);
+const f2Ult = fasesAnos[fasesAnos.length - 1];
+
+/* ── 6. subsistemas ─────────────────────────────────────────────────── */
+const comSub = anos.filter((a) => N(a).vagas_universitario > 0 && N(a).vagas_politecnico > 0);
+const serieUni = comSub.map((a) => ({ ano: a, valor: N(a).vagas_universitario }));
+const seriePoli = comSub.map((a) => ({ ano: a, valor: N(a).vagas_politecnico }));
+const quotaPoli = comSub.map((a) => ({ ano: a, valor: Math.round((1000 * N(a).vagas_politecnico) / (N(a).vagas_universitario + N(a).vagas_politecnico)) / 10 }));
+const quotaMin = quotaPoli.reduce((m, p) => (p.valor < m.valor ? p : m), quotaPoli[0]);
+const quotaMax = quotaPoli.reduce((m, p) => (p.valor > m.valor ? p : m), quotaPoli[0]);
+
+/* ── 7. instituições: ranking por vagas, ano a ano ──────────────────── */
+const todosGrupos = lerGrupos();
+const rankPorAno = new Map<number, Map<string, number>>();
+for (const a of anos) {
+  const ordem = todosGrupos
+    .map((g) => ({ grupo: g.grupo, vagas: g.anos[String(a)]?.vagas ?? 0 }))
+    .filter((g) => g.vagas > 0)
+    .sort((x, y) => y.vagas - x.vagas);
+  rankPorAno.set(a, new Map(ordem.map((g, i) => [g.grupo, i + 1])));
+}
+const RANK_MAX = 15;
+const top12 = todosGrupos
+  .filter((g) => rankPorAno.get(ultimo)?.has(g.grupo))
+  .sort((x, y) => rankPorAno.get(ultimo)!.get(x.grupo)! - rankPorAno.get(ultimo)!.get(y.grupo)!)
+  .slice(0, 12);
+const BX = (a: number) => 3 + ((a - primeiro) / (ultimo - primeiro)) * 72;
+const BY = (r: number) => 4 + ((Math.min(r, RANK_MAX) - 1) / (RANK_MAX - 1)) * 88;
+const bumpRotulados = anosRotulados(anos);
+const curto = (g: string) => g.replace("Instituto Politécnico", "IP").replace("Universidade", "U.").replace("Nova de Lisboa", "Nova");
+const bump = top12.map((g) => ({
+  grupo: g.grupo,
+  nome: curto(g.grupo),
+  rankUltimo: rankPorAno.get(ultimo)!.get(g.grupo)!,
+  rankPrimeiro: rankPorAno.get(primeiro)?.get(g.grupo) ?? null,
+  vagasUltimo: g.anos[String(ultimo)].vagas,
+  trajeto: anos.map((a) => ({ ano: a, rank: rankPorAno.get(a)?.get(g.grupo) ?? null })),
+}));
+const maiorSubida = bump.filter((b) => b.rankPrimeiro != null).sort((x, y) => (y.rankPrimeiro! - y.rankUltimo) - (x.rankPrimeiro! - x.rankUltimo))[0];
+const serieGrupos = anos.map((a) => ({ ano: a, valor: H(a).grupos }));
+
+const descricao = `Trinta anos do Concurso Nacional de Acesso, ${primeiro} a ${ultimo}: vagas, colocados, notas de corte, fases, graus, subsistemas e instituições, ano a ano.`;
+---
+
+<Base titulo="30 anos de concurso" descricao={descricao}>
+  <header class="cab">
+    <p class="kicker">Concurso Nacional de Acesso · {primeiro}–{ultimo}</p>
+    <h1>Trinta anos de concurso, ano a ano</h1>
+    <p class="desc medida">
+      A DGES publica desde {primeiro} os resultados de cada par instituição/curso. Somados
+      ano a ano — cursos extintos incluídos — dão a série mais longa que existe sobre o
+      acesso ao ensino superior público em Portugal. Esta página lê-a de fio a pavio: a
+      oferta, a procura, as notas, as fases, Bolonha, os subsistemas e as instituições.
+    </p>
+  </header>
+
+  <div class="stats">
+    <div class="stat reveal">
+      <b data-contar={N(ultimo).vagas_f1}>{formatarInteiro(N(ultimo).vagas_f1)}</b>
+      <span>vagas na 1ª fase de {ultimo}</span>
+      <em>{formatarInteiro(N(primeiro).vagas_f1)} em {primeiro} · {pct(variacao(N(primeiro).vagas_f1, N(ultimo).vagas_f1))}</em>
+    </div>
+    <div class="stat reveal" style="--d:.06s">
+      <b data-contar={N(ultimo).colocados_f1}>{formatarInteiro(N(ultimo).colocados_f1)}</b>
+      <span>colocados na 1ª fase</span>
+      <em>{formatarInteiro(N(primeiro).colocados_f1)} em {primeiro} · {pct(variacao(N(primeiro).colocados_f1, N(ultimo).colocados_f1))}</em>
+    </div>
+    <div class="stat reveal" style="--d:.12s">
+      <b data-contar={N(ultimo).pares}>{formatarInteiro(N(ultimo).pares)}</b>
+      <span>cursos a concurso</span>
+      <em>{formatarInteiro(N(primeiro).pares)} em {primeiro} · {pct(variacao(N(primeiro).pares, N(ultimo).pares))}</em>
+    </div>
+    <div class="stat reveal" style="--d:.18s">
+      <b data-contar={nUlt.p50} data-casas="1">{formatarNota(nUlt.p50)}</b>
+      <span>nota de corte mediana</span>
+      <em>{formatarNota(N(primeiro).notas!.p50)} em {primeiro} · {formatarNota(nUlt.p50 - N(primeiro).notas!.p50)} pontos a mais</em>
+    </div>
+  </div>
+
+  <nav class="indice reveal" aria-label="Capítulos">
+    <a href="#oferta">1. Oferta e procura</a>
+    <a href="#notas">2. Notas de corte</a>
+    <a href="#podio">3. Os mais disputados</a>
+    <a href="#bolonha">4. Bolonha</a>
+    <a href="#fases">5. As fases</a>
+    <a href="#subsistemas">6. Universitário e politécnico</a>
+    <a href="#instituicoes">7. Instituições</a>
+    <a href="#leitura">Notas de leitura</a>
+  </nav>
+
+  {/* ── 1 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="oferta">
+    <h2>1. Oferta e procura: {ocupMin.ano}, o fundo do poço</h2>
+    <p class="desc medida">
+      As vagas cresceram {pct(variacao(N(primeiro).vagas_f1, N(ultimo).vagas_f1))} em {ultimo - primeiro} anos, mas
+      quem as preenche não cresceu ao mesmo ritmo. A taxa de ocupação da 1ª fase caiu até{" "}
+      {formatarNota(ocupMin.valor)}% em {ocupMin.ano} — o inverno demográfico a chegar ao ensino superior —
+      e só recuperou com a expansão dos exames e a procura pós-2007. O máximo é {formatarNota(ocupMax.valor)}% em{" "}
+      {ocupMax.ano}. Em {sobrasMax.ano} sobraram {formatarInteiro(sobrasMax.valor)} vagas depois da 1ª fase,
+      o pior ano da série.
+    </p>
+    <div class="duplo">
+      <div>
+        <SerieAnual titulo={`Vagas e colocados na 1ª fase, ${primeiro}–${ultimo}`} unidade="estudantes" inteiro
+          series={[{ rotulo: "Vagas", pontos: serieVagas, cor: "serie-1" }, { rotulo: "Colocados", pontos: serieColocados, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Taxa de ocupação da 1ª fase (%)" unidade="% das vagas"
+          series={[{ rotulo: "Colocados / vagas", pontos: serieOcupacao, cor: "serie-1" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Cursos a concurso e instituições-mãe" unidade="cursos" inteiro
+          series={[{ rotulo: "Cursos (pares)", pontos: serieCursos, cor: "serie-1" }]} />
+        <p class="fonte-lin">
+          De {formatarInteiro(N(primeiro).pares)} pares em {primeiro} para {formatarInteiro(N(ultimo).pares)} em {ultimo};
+          as instituições-mãe com oferta passaram de {H(primeiro).grupos} para {H(ultimo).grupos}, com as fusões
+          e integrações pelo meio.
+        </p>
+      </div>
+      <div>
+        <SerieAnual titulo="Cursos que esgotaram as vagas na 1ª fase (%)" unidade="% dos cursos" inteiro
+          series={[{ rotulo: "Esgotados", pontos: serieEsgotados, cor: "serie-2" }]} />
+        <p class="fonte-lin">
+          Só {esgMin.valor}% dos cursos esgotaram em {esgMin.ano}; {esgMax.valor}% em {esgMax.ano}. Um curso
+          esgotado é um curso com nota de corte — os outros entram com o mínimo.
+        </p>
+      </div>
+    </div>
+    <p class="fonte-lin">DGES, resultados do CNA por par, {primeiro}–{ultimo}. Os colocados são os da coluna oficial, desempates incluídos.</p>
+  </section>
+
+  {/* ── 2 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="notas">
+    <h2>2. Notas de corte: {2020 - primeiro} anos parados, um salto, e ficou</h2>
+    <p class="desc medida">
+      A mediana da nota do último colocado andou entre {formatarNota(Math.min(...medianaPre2020))} e{" "}
+      {formatarNota(Math.max(...medianaPre2020))} pontos de {primeiro} a 2019. Em 2020 — exames sem presença
+      obrigatória e provas escolhidas — passou de {formatarNota(n19.p50)} para {formatarNota(n20.p50)}, e em{" "}
+      {ultimo} está em {formatarNota(nUlt.p50)}. A subida foi por toda a distribuição: o p90 passou de{" "}
+      {formatarNota(n19.p90)} para {formatarNota(n20.p90)}, e os cursos a fechar acima de 170 de {n19.acima_170} para{" "}
+      {n20.acima_170}. Na outra ponta, os cursos a fechar abaixo de 100 pontos desapareceram quase por completo:{" "}
+      {N(primeiro).notas!.abaixo_100} em {primeiro}, {nUlt.abaixo_100} em {ultimo}.
+    </p>
+    <Banda titulo={`Nota do último colocado, 1ª fase, ${comNotas[0]}–${ultimo}`} unidade="pontos" pontos={banda}
+      rotulos={{ baixo: "p10", meio: "mediana", alto: "p90" }} />
+    <div class="duplo duplo--depois">
+      <Colunas titulo="Cursos a fechar com 170 pontos ou mais" series={["cursos"]} colunas={serie170}
+        descricao={`Cursos com nota de corte igual ou superior a 170, por ano: ${N(comNotas[0]).notas!.acima_170} em ${comNotas[0]}, ${n20.acima_170} em 2020, ${nUlt.acima_170} em ${ultimo}.`} />
+      <Colunas titulo="Cursos a fechar abaixo de 100 pontos" series={["cursos"]} colunas={serie100}
+        descricao={`Cursos com nota de corte abaixo de 100, por ano: ${N(comNotas[0]).notas!.abaixo_100} em ${comNotas[0]}, ${nUlt.abaixo_100} em ${ultimo}.`} />
+    </div>
+
+    <h3 class="sub">A distribuição inteira, ano a ano</h3>
+    <p class="desc">
+      Cada linha é um ano; cada célula, os cursos cuja nota de corte cai naquela caixa de
+      cinco pontos — quanto mais escura, mais cursos (escala relativa a cada linha). A massa
+      desloca-se para a direita em 2020 e não volta.
+    </p>
+    <div class="rola">
+      <table class="calor">
+        <thead>
+          <tr>
+            <th scope="col">Ano</th>
+            {CAIXAS.map((c) => <th scope="col">{c === 90 ? "<95" : c}</th>)}
+            <th scope="col">cursos</th>
+          </tr>
+        </thead>
+        <tbody>
+          {calor.map((l) => (
+            <tr>
+              <th scope="row">{l.ano}</th>
+              {l.celulas.map((c) => (
+                <td>
+                  <span class="calor__celula" style={`background:color-mix(in srgb, var(--serie-1) ${Math.round(8 + c.intensidade * 84)}%, var(--surface))`}
+                    title={`${l.ano}: ${c.n} cursos entre ${c.de === 90 ? "0" : c.de} e ${c.de + 4},9`}
+                    data-dica={`${l.ano}: ${c.n} cursos com corte entre ${c.de === 90 ? "0" : c.de} e ${c.de + 4},9`} />
+                </td>
+              ))}
+              <td class="calor__n">{l.total}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="fonte-lin">
+      Só cursos com nota de corte (os que preencheram as vagas pelo contingente geral). O
+      mínimo legal de 95 pontos entra em 2000; antes há cortes a 77.
+    </p>
+  </section>
+
+  {/* ── 3 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="podio">
+    <h2>3. Os mais disputados de cada ano</h2>
+    <p class="desc medida">
+      O pódio das notas de corte, ano a ano. {liderMaisVezes[0]} liderou {liderMaisVezes[1]} dos{" "}
+      {podio.length} anos; o recorde absoluto da série é {recorde.curso} ({recorde.grupo}) com{" "}
+      {formatarNota(recorde.nota)} pontos em {recorde.ano}. A partir de 2020 as engenharias do Técnico
+      disputam o topo com a Medicina.
+    </p>
+    <div class="rola">
+      <table class="podio">
+        <thead>
+          <tr>
+            <th scope="col">Ano</th>
+            <th scope="col">1º</th>
+            <th scope="col">2º</th>
+            <th scope="col">3º</th>
+          </tr>
+        </thead>
+        <tbody>
+          {podio.map((p) => (
+            <tr>
+              <th scope="row">{p.ano}</th>
+              {p.top.map((t) => (
+                <td>
+                  <a href={ligacao(t.url)}>{t.curso}</a>
+                  <span class="podio__inst">{curto(t.grupo)}</span>
+                  <b class="podio__nota">{formatarNota(t.nota)}</b>
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="fonte-lin">Nota do último colocado na 1ª fase, contingente geral. Os cursos extintos ligam à sua ficha histórica.</p>
+  </section>
+
+  {/* ── 4 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="bolonha">
+    <h2>4. Bolonha: o fim dos bacharelatos, e depois dos mestrados integrados</h2>
+    <p class="desc medida">
+      Em {primeiro}, {Math.round((100 * bach(primeiro)) / N(primeiro).pares)}% dos cursos a concurso eram bacharelatos ou
+      bacharelatos com licenciatura bietápica. Bolonha entra no concurso em 2006 e em três
+      anos varre tudo: os últimos bacharelatos e bietápicos concorrem em {ultimoBach}. Os mestrados integrados chegam
+      a {mi(miMax)} em {miMax} e caem para {mi(2021)} em 2021, quando as engenharias voltaram a
+      licenciatura de três anos.
+    </p>
+    <Colunas titulo={`Cursos a concurso por grau, ${primeiro}–${ultimo} (quota)`} percentagem
+      series={GRAUS.map(([, r]) => r)} colunas={graus}
+      descricao={`Quota de cursos por grau académico, ano a ano: bacharelatos e bietápicos até ${ultimoBach}; licenciaturas de 1º ciclo dominam desde 2008; mestrados integrados no máximo em ${miMax} (${mi(miMax)}) e ${mi(ultimo)} em ${ultimo}.`} />
+    <p class="fonte-lin">
+      Grau tal como consta em cada ficheiro da DGES, normalizado entre as siglas de cada ano;
+      preparatórios (cursos de acesso a Medicina Veterinária e afins nos Açores) são residuais.
+    </p>
+  </section>
+
+  {/* ── 5 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="fases">
+    <h2>5. As fases: a 2ª encolhe, a 3ª é residual</h2>
+    <p class="desc medida">
+      A 2ª fase tem resultados publicados desde 2004 e a 3ª desde 2012. A 2ª colocou{" "}
+      {formatarInteiro(f2Max.valores[1])} estudantes em {f2Max.ano} e {formatarInteiro(f2Ult.valores[1])} em{" "}
+      {f2Ult.ano}: à medida que a 1ª fase preenche mais, sobra menos para a segunda. Mesmo assim, no
+      curso onde há nota nas duas fases, a 2ª fecha acima da 1ª na maioria dos anos — em{" "}
+      {f2f.pct_sobe}% dos {formatarInteiro(f2f.n)} pares curso·ano desde 2004.
+    </p>
+    <div class="duplo">
+      <div>
+        <Colunas titulo={`Colocados por fase, ${fasesAnos[0].ano}–${f2Ult.ano}`} series={["1ª fase", "2ª fase", "3ª fase"]} colunas={fasesAnos}
+          descricao={`Colocados por fase e ano. A 2ª fase colocou ${formatarInteiro(f2Max.valores[1])} em ${f2Max.ano} e ${formatarInteiro(f2Ult.valores[1])} em ${f2Ult.ano}.`} />
+      </div>
+      <div>
+        <SerieAnual titulo="Peso da 2ª fase no total de colocados (%)" unidade="% dos colocados"
+          series={[{ rotulo: "2ª fase", pontos: quotaF2, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Cursos em que a 2ª fase fechou acima da 1ª (%)" unidade="% dos cursos" inteiro
+          series={[{ rotulo: "Sobe na 2ª fase", pontos: sobePorAno, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Sobras da 1ª fase absorvidas pela 2ª (%)" unidade="% das sobras" inteiro
+          series={[{ rotulo: "Absorção", pontos: absorcao, cor: "serie-1" }]} />
+        <p class="fonte-lin">Colocados na 2ª fase a dividir pelas vagas que sobraram da 1ª, limitado a 100%.</p>
+      </div>
+    </div>
+  </section>
+
+  {/* ── 6 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="subsistemas">
+    <h2>6. Universitário e politécnico: a proporção que não mexe</h2>
+    <p class="desc medida">
+      Os politécnicos passaram de {formatarInteiro(N(comSub[0]).vagas_politecnico)} vagas em {comSub[0]} para{" "}
+      {formatarInteiro(N(ultimo).vagas_politecnico)} em {ultimo}; as universidades, de{" "}
+      {formatarInteiro(N(comSub[0]).vagas_universitario)} para {formatarInteiro(N(ultimo).vagas_universitario)}. A quota
+      politécnica oscilou entre {formatarNota(quotaMin.valor)}% ({quotaMin.ano}) e {formatarNota(quotaMax.valor)}% ({quotaMax.ano})
+      — trinta anos de reformas, e a repartição da oferta pública é quase a mesma.
+    </p>
+    <div class="duplo">
+      <div>
+        <SerieAnual titulo={`Vagas da 1ª fase por subsistema, ${comSub[0]}–${ultimo}`} unidade="vagas" inteiro
+          series={[{ rotulo: "Universitário", pontos: serieUni, cor: "serie-1" }, { rotulo: "Politécnico", pontos: seriePoli, cor: "serie-2" }]} />
+      </div>
+      <div>
+        <SerieAnual titulo="Quota do politécnico nas vagas (%)" unidade="% das vagas"
+          series={[{ rotulo: "Politécnico", pontos: quotaPoli, cor: "serie-2" }]} />
+      </div>
+    </div>
+    <p class="fonte-lin">
+      Escolas de saúde e enfermagem integradas em universidades contam como politécnico, como
+      no concurso; os estabelecimentos extintos foram classificados pelo código.
+    </p>
+  </section>
+
+  {/* ── 7 ─────────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="instituicoes">
+    <h2>7. As instituições: quem subiu no ranking das vagas</h2>
+    <p class="desc medida">
+      A posição de cada instituição-mãe no ranking nacional das vagas da 1ª fase, ano a ano —
+      as {bump.length} maiores de {ultimo}. A Universidade Técnica de Lisboa conta na Universidade de
+      Lisboa desde sempre, para a fusão de 2013 não aparecer como salto.
+      {maiorSubida && ` A maior subida é ${maiorSubida.grupo}: do ${maiorSubida.rankPrimeiro}º lugar em ${primeiro} para o ${maiorSubida.rankUltimo}º em ${ultimo}.`}
+      {" "}Passe o rato sobre uma linha; clique no nome para abrir a instituição.
+    </p>
+    <figure class="bump">
+      <svg viewBox="0 0 100 96" preserveAspectRatio="none" aria-label={`Posição no ranking das vagas das ${bump.length} maiores instituições de ${ultimo}, desde ${primeiro}.`}>
+        {anos.map((a) => <line x1={BX(a)} y1="2" x2={BX(a)} y2="94" class="bump__grelha" />)}
+        {bump.map((b, i) => {
+          const segmentos: string[] = [];
+          let atual: string[] = [];
+          for (const t of b.trajeto) {
+            if (t.rank == null) {
+              if (atual.length > 1) segmentos.push(atual.join(" "));
+              atual = [];
+            } else {
+              atual.push(`${atual.length ? "L" : "M"}${BX(t.ano).toFixed(2)},${BY(t.rank).toFixed(2)}`);
+            }
+          }
+          if (atual.length > 1) segmentos.push(atual.join(" "));
+          return (
+            <g class={`bump__serie ${i < 3 ? `bump__serie--top${i + 1}` : ""}`}
+              data-dica={`${b.grupo} — ${formatarInteiro(b.vagasUltimo)} vagas em ${ultimo}\n${b.trajeto.filter((t) => t.rank).filter((t) => bumpRotulados.has(t.ano) || t.ano === primeiro).map((t) => `${String(t.ano).slice(2)}: ${t.rank}º`).join(" · ")}`}>
+              {segmentos.map((d) => <path d={d} class="bump__linha" />)}
+              {b.trajeto.filter((t) => t.rank != null).map((t) => (
+                <circle cx={BX(t.ano).toFixed(2)} cy={BY(t.rank!).toFixed(2)} r="0.9" />
+              ))}
+            </g>
+          );
+        })}
+      </svg>
+      <div class="bump__eixo" aria-hidden="true">
+        {anos.filter((a) => bumpRotulados.has(a)).map((a) => <span style={`left:${BX(a)}%`}>{String(a).slice(2)}</span>)}
+      </div>
+      <ol class="bump__nomes" aria-hidden="true">
+        {bump.map((b) => (
+          <li style={`top:${BY(b.rankUltimo)}%`}>
+            <b>{b.rankUltimo}º</b> {b.nome}
+          </li>
+        ))}
+      </ol>
+    </figure>
+    <p class="fonte-lin">
+      Ranking entre todas as instituições-mãe com vagas nesse ano (posições abaixo do {RANK_MAX}º
+      lugar ficam no fundo). Ver também <a href={ligacao("/instituicoes/")}>quem cresceu e quem encolheu</a> em vagas.
+    </p>
+  </section>
+
+  {/* ── notas ─────────────────────────────────────────────────────── */}
+  <section class="card full reveal" id="leitura">
+    <h2>Notas de leitura</h2>
+    <ul class="leitura">
+      <li>
+        <strong>Cada ano conta os seus cursos.</strong> As séries desta página somam os
+        pares de cada ano, extintos incluídos, por isso atravessam as recodificações de
+        Bolonha (2006-2008). As séries por curso — nas fichas — só atravessam o que o crosswalk
+        manual declara.
+      </li>
+      <li>
+        <strong>A 1ª fase é a régua.</strong> Vagas, colocados e notas são sempre da 1ª fase,
+        a única com dados desde {primeiro}. A 2ª fase existe nos ficheiros desde 2004 e a 3ª desde 2012.
+      </li>
+      <li>
+        <strong>A nota de corte só existe onde as vagas se preencheram</strong> pelo contingente
+        geral. Os percentis e as caixas contam só esses cursos; o gráfico dos esgotados diz quantos são.
+      </li>
+      <li>
+        <strong>A procura não está aqui.</strong> Candidatos por curso só existem de forma
+        estruturada em 1997-1999 e a partir de 2017 (guia da candidatura); ficam nas fichas, não
+        nesta série.
+      </li>
+      <li>
+        <strong>Fontes.</strong> Ficheiros de 1997 a 2017 da{" "}
+        <a href="https://www.dges.gov.pt/pt/pagina/regime-geral-ensino-superior-publico-concurso-nacional-de-acesso" rel="noopener">página de estatísticas da DGES</a>;
+        2018 a 2025 das capturas do Arquivo.pt; {ultimo} arquivado na época. Ver a{" "}
+        <a href={ligacao("/metodologia/")}>metodologia</a>.
+      </li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .indice {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    margin: 0.5rem 0 1.25rem;
+    font-size: var(--t-2xs);
+  }
+  .indice a {
+    color: var(--ink-2);
+    text-decoration: none;
+    border-bottom: 1px solid var(--grid);
+  }
+  .indice a:hover {
+    color: var(--accent-texto);
+    border-color: currentColor;
+  }
+  .card h2 {
+    font-size: clamp(20px, 2.6vw, 24px);
+    margin: 0 0 0.35rem;
+    letter-spacing: -0.01em;
+  }
+  .sub {
+    margin-top: 1.75rem;
+  }
+  .duplo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 2rem;
+    align-items: start;
+    margin-top: 0.75rem;
+  }
+  .duplo--depois {
+    margin-top: 1.5rem;
+  }
+  @media (max-width: 720px) {
+    .duplo {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* Os cartões são itens de grelha: sem min-width:0 a tabela larga
+     empurra o cartão em vez de rolar dentro dele. */
+  .card {
+    min-width: 0;
+  }
+  .rola {
+    overflow-x: auto;
+    margin-top: 0.5rem;
+  }
+  /* mapa de calor ano × caixa de notas */
+  .calor {
+    border-collapse: separate;
+    border-spacing: 2px;
+    font-size: var(--t-2xs);
+    font-variant-numeric: tabular-nums;
+  }
+  .calor th {
+    font-weight: 500;
+    color: var(--muted);
+    text-align: center;
+    padding: 0 0.15rem;
+    white-space: nowrap;
+  }
+  .calor th[scope="row"] {
+    text-align: right;
+    color: var(--ink-2);
+    padding-right: 0.5rem;
+  }
+  .calor td {
+    padding: 0;
+  }
+  .calor__celula {
+    display: block;
+    width: clamp(0.9rem, 2.6vw, 1.5rem);
+    height: 0.95rem;
+    border-radius: 2px;
+  }
+  .calor__n {
+    color: var(--muted);
+    padding-left: 0.5rem !important;
+    text-align: right;
+  }
+  /* pódio */
+  .podio {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: var(--t-2xs);
+    min-width: 34rem;
+  }
+  .podio th {
+    text-align: left;
+    color: var(--muted);
+    font-weight: 500;
+    padding: 0.3rem 0.6rem 0.3rem 0;
+    border-bottom: 1px solid var(--grid);
+  }
+  .podio th[scope="row"] {
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+    vertical-align: top;
+    padding-top: 0.45rem;
+  }
+  .podio td {
+    padding: 0.4rem 0.6rem 0.4rem 0;
+    border-bottom: 1px solid var(--grid);
+    vertical-align: top;
+    line-height: 1.3;
+  }
+  .podio td a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .podio td a:hover {
+    color: var(--accent-texto);
+  }
+  .podio__inst {
+    display: block;
+    color: var(--muted);
+    font-size: 0.92em;
+  }
+  .podio__nota {
+    color: var(--serie-1);
+    font-variant-numeric: tabular-nums;
+  }
+  /* bump das instituições */
+  .bump {
+    position: relative;
+    margin: 0.75rem 0 0;
+    padding-right: 26%;
+  }
+  .bump svg {
+    display: block;
+    width: 100%;
+    height: clamp(18rem, 42vw, 26rem);
+    overflow: visible;
+  }
+  .bump__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .bump__serie path {
+    fill: none;
+    stroke: color-mix(in srgb, var(--ink-2) 45%, transparent);
+    stroke-width: 1.5;
+    vector-effect: non-scaling-stroke;
+    stroke-linejoin: round;
+    transition: stroke 0.15s;
+  }
+  .bump__serie circle {
+    fill: color-mix(in srgb, var(--ink-2) 55%, transparent);
+    stroke: none;
+  }
+  .bump__serie--top1 path,
+  .bump__serie--top2 path,
+  .bump__serie--top3 path {
+    stroke: var(--serie-1);
+    stroke-width: 2.2;
+  }
+  .bump__serie--top1 circle,
+  .bump__serie--top2 circle,
+  .bump__serie--top3 circle {
+    fill: var(--serie-1);
+  }
+  .bump__serie:hover path {
+    stroke: var(--serie-2);
+    stroke-width: 3;
+  }
+  .bump__serie:hover circle {
+    fill: var(--serie-2);
+  }
+  .bump__eixo {
+    position: relative;
+    height: 1rem;
+    margin-top: 4px;
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .bump__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .bump__nomes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: clamp(18rem, 42vw, 26rem);
+    font-size: var(--t-2xs);
+    line-height: 1.15;
+  }
+  .bump__nomes li {
+    position: absolute;
+    left: 0.4rem;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    color: var(--ink-2);
+  }
+  .bump__nomes b {
+    color: var(--muted);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 720px) {
+    .bump {
+      padding-right: 34%;
+    }
+    .bump__nomes {
+      width: 33%;
+      font-size: 0.68rem;
+    }
+  }
+  .leitura {
+    margin: 0.5rem 0 0;
+    padding-left: 1.1rem;
+    display: grid;
+    gap: 0.5rem;
+    color: var(--ink-2);
+    font-size: var(--t-xs);
+  }
+</style>

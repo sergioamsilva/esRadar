@@ -15,6 +15,8 @@ FIXTURES = Path(__file__).parent / "fixtures"
 def _ler(nome: str, ano: int, fase: int) -> dict[str, dict]:
     registos = build.ler_ficheiro_resultados(FIXTURES / nome, ano, fase)
     assert registos, f"{nome}: nada extraído"
+    for _par, registo, _nome in registos:
+        registo.pop("grau", None)  # só interessa agregado; ver build.GRAUS
     return {par: registo for par, registo, _nome in registos}
 
 

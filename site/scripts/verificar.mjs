@@ -11,6 +11,7 @@ import { AxeBuilder } from "@axe-core/playwright";
 const BASE = process.env.BASE_URL ?? "http://localhost:4321/esRadar";
 const PAGINAS = [
   "/",
+  "/trinta-anos/",
   "/cursos/",
   "/curso/6800-9081-economia/",
   "/comparar/",
