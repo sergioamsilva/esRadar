@@ -166,9 +166,17 @@ export type Nacional = {
       colocados_f2: number;
       colocados_f3: number;
       pares: number;
+      vagas_universitario: number;
+      vagas_politecnico: number;
+      /** Distribuição das notas de corte da 1ª fase nesse ano. */
+      notas?: { n: number; p10: number; p50: number; p90: number; acima_170: number };
     }
   >;
 };
+
+/** Vagas e colocados da 1ª fase por instituição-mãe e ano (data/out/grupos.json). */
+export type Grupo = { grupo: string; anos: Record<string, { vagas: number; colocados: number }> };
+export const grupos = (): Grupo[] => ler<{ grupos: Grupo[] }>("grupos.json").grupos;
 
 export type Epoca = { ano: number; atualizado?: string; fases_arquivadas: number[] };
 

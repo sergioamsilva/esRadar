@@ -1,0 +1,190 @@
+---
+/**
+ * Faixa de percentis ao longo dos anos: área entre o valor baixo e o alto
+ * (p10–p90, por exemplo) com a linha do meio (mediana) por cima. SVG
+ * desenhado no servidor, legível sem JavaScript; os pontos da mediana têm
+ * <title> com os três valores, que o motor de hover global reaproveita.
+ */
+import { anosRotulados } from "../lib/dados";
+
+interface Ponto {
+  ano: number;
+  baixo: number;
+  meio: number;
+  alto: number;
+}
+interface Props {
+  pontos: Ponto[];
+  titulo: string;
+  unidade: string;
+  rotulos: { baixo: string; meio: string; alto: string };
+}
+const { pontos, titulo, unidade, rotulos } = Astro.props;
+
+const ordenados = [...pontos].sort((a, b) => a.ano - b.ano);
+const anos = ordenados.map((p) => p.ano);
+const rotulados = anosRotulados(anos);
+const fmt = (v: number) => v.toLocaleString("pt-PT", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+const L = 100;
+const A = 42;
+const margem = { esq: 2, dir: 9, topo: 4, base: 8 };
+let g: { area: string; linha: string; pontos: { x: number; y: number; p: Ponto }[]; eixo: { x: number; ano: number }[] } | null = null;
+if (ordenados.length >= 2) {
+  let min = Math.min(...ordenados.map((p) => p.baixo));
+  let max = Math.max(...ordenados.map((p) => p.alto));
+  const folga = (max - min) * 0.08;
+  min -= folga;
+  max += folga;
+  const x = (ano: number) => margem.esq + ((ano - anos[0]) / (anos[anos.length - 1] - anos[0])) * (L - margem.esq - margem.dir);
+  const y = (v: number) => margem.topo + (1 - (v - min) / (max - min)) * (A - margem.topo - margem.base);
+  const f2 = (n: number) => n.toFixed(2);
+  const area =
+    ordenados.map((p, i) => `${i ? "L" : "M"}${f2(x(p.ano))},${f2(y(p.alto))}`).join(" ") +
+    [...ordenados].reverse().map((p) => ` L${f2(x(p.ano))},${f2(y(p.baixo))}`).join("") +
+    " Z";
+  const linha = ordenados.map((p, i) => `${i ? "L" : "M"}${f2(x(p.ano))},${f2(y(p.meio))}`).join(" ");
+  g = {
+    area,
+    linha,
+    pontos: ordenados.map((p) => ({ x: x(p.ano), y: y(p.meio), p })),
+    eixo: anos.map((ano) => ({ x: x(ano), ano })),
+  };
+}
+const primeiro = ordenados[0];
+const ultimo = ordenados[ordenados.length - 1];
+const descricao = primeiro && ultimo
+  ? `${rotulos.meio}: de ${fmt(primeiro.meio)} em ${primeiro.ano} para ${fmt(ultimo.meio)} em ${ultimo.ano}; ${rotulos.alto} de ${fmt(primeiro.alto)} para ${fmt(ultimo.alto)}`
+  : "";
+---
+
+<figure class="banda reveal">
+  <figcaption class="banda__cab">
+    <span class="banda__titulo">{titulo}</span>
+    <span class="banda__legenda">
+      <span class="banda__chave"><span class="banda__amostra banda__amostra--linha" aria-hidden="true" />{rotulos.meio}</span>
+      <span class="banda__chave"><span class="banda__amostra banda__amostra--area" aria-hidden="true" />{rotulos.baixo} a {rotulos.alto}</span>
+    </span>
+  </figcaption>
+  {
+    g ? (
+      <svg viewBox={`0 0 ${L} ${A}`} data-hover-serie role="img" aria-label={`${titulo}, em ${unidade}. ${descricao}.`} preserveAspectRatio="none">
+        {g.eixo.map((e) => (
+          <line x1={e.x.toFixed(2)} y1={margem.topo} x2={e.x.toFixed(2)} y2={A - margem.base} class="banda__grelha" />
+        ))}
+        <path d={g.area} class="banda__area ponto-vem" />
+        <path d={g.linha} class="banda__linha traco" pathLength="1" />
+        {g.pontos.map(({ x, y, p }, i) => (
+          <circle cx={x.toFixed(2)} cy={y.toFixed(2)} r="1.3" data-ano={p.ano} class="banda__ponto ponto-vem" style={`--dp:${0.15 + (i / Math.max(1, g!.pontos.length - 1)) * 0.9}s`}>
+            <title>{`${p.ano}: ${rotulos.meio} ${fmt(p.meio)} · ${rotulos.baixo} ${fmt(p.baixo)} · ${rotulos.alto} ${fmt(p.alto)} ${unidade}`}</title>
+          </circle>
+        ))}
+        <text x={(g.pontos[g.pontos.length - 1].x + 1.6).toFixed(2)} y={(g.pontos[g.pontos.length - 1].y + 1).toFixed(2)} class="banda__valor">
+          {fmt(ultimo.meio)}
+        </text>
+      </svg>
+    ) : (
+      <p class="banda__vazio">Sem dados suficientes.</p>
+    )
+  }
+  {
+    g && (
+      <div class="banda__eixo" aria-hidden="true">
+        {g.eixo
+          .filter((e) => rotulados.has(e.ano))
+          .map((e) => (
+            <span style={`left:${e.x}%`}>{String(e.ano).slice(2)}</span>
+          ))}
+      </div>
+    )
+  }
+</figure>
+
+<style>
+  .banda {
+    margin: 0;
+  }
+  .banda__cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.35rem;
+  }
+  .banda__titulo {
+    font-size: 0.82rem;
+    color: var(--ink-2);
+  }
+  .banda__legenda {
+    display: flex;
+    gap: 0.9rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .banda__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .banda__amostra--linha {
+    width: 0.85rem;
+    height: 2px;
+    background: var(--serie-1);
+  }
+  .banda__amostra--area {
+    width: 0.85rem;
+    height: 0.6rem;
+    border-radius: 2px;
+    background: color-mix(in srgb, var(--serie-1) 22%, transparent);
+  }
+  .banda svg {
+    display: block;
+    width: 100%;
+    height: clamp(10rem, 24vw, 13rem);
+    overflow: visible;
+  }
+  .banda__grelha {
+    stroke: var(--grid);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .banda__area {
+    fill: color-mix(in srgb, var(--serie-1) 18%, transparent);
+  }
+  .banda__linha {
+    fill: none;
+    stroke: var(--serie-1);
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .banda__ponto {
+    fill: var(--serie-1);
+    stroke: var(--surface);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+  }
+  .banda__valor {
+    font-size: 3.2px;
+    font-weight: 700;
+    fill: var(--serie-1);
+    font-variant-numeric: tabular-nums;
+  }
+  .banda__eixo {
+    position: relative;
+    height: 1rem;
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .banda__eixo span {
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  .banda__vazio {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>

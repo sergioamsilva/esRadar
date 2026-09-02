@@ -5,240 +5,510 @@
    "colocados_f1": 35452,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 26,
+    "n": 768,
+    "p10": 74.0,
+    "p50": 121.7,
+    "p90": 155.0
+   },
    "pares": 804,
-   "vagas_f1": 39703
+   "vagas_f1": 39703,
+   "vagas_politecnico": 16524,
+   "vagas_universitario": 21554
   },
   "1998": {
    "colocados": 37901,
    "colocados_f1": 37901,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 30,
+    "n": 814,
+    "p10": 79.5,
+    "p50": 126.3,
+    "p90": 157.5
+   },
    "pares": 835,
-   "vagas_f1": 42224
+   "vagas_f1": 42224,
+   "vagas_politecnico": 17581,
+   "vagas_universitario": 22961
   },
   "1999": {
    "colocados": 36782,
    "colocados_f1": 36782,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 27,
+    "n": 850,
+    "p10": 92.0,
+    "p50": 122.8,
+    "p90": 157.5
+   },
    "pares": 864,
-   "vagas_f1": 45156
+   "vagas_f1": 45156,
+   "vagas_politecnico": 18933,
+   "vagas_universitario": 24163
   },
   "2000": {
    "colocados": 40100,
    "colocados_f1": 40100,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 18,
+    "n": 906,
+    "p10": 93.3,
+    "p50": 120.9,
+    "p90": 155.5
+   },
    "pares": 918,
-   "vagas_f1": 46965
+   "vagas_f1": 46965,
+   "vagas_politecnico": 19884,
+   "vagas_universitario": 25051
   },
   "2001": {
    "colocados": 36381,
    "colocados_f1": 36381,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 37,
+    "n": 927,
+    "p10": 95.0,
+    "p50": 117.4,
+    "p90": 156.8
+   },
    "pares": 954,
-   "vagas_f1": 48229
+   "vagas_f1": 48229,
+   "vagas_politecnico": 20634,
+   "vagas_universitario": 26361
   },
   "2002": {
    "colocados": 38379,
    "colocados_f1": 38379,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 28,
+    "n": 973,
+    "p10": 97.4,
+    "p50": 119.3,
+    "p90": 155.6
+   },
    "pares": 1004,
-   "vagas_f1": 48468
+   "vagas_f1": 48468,
+   "vagas_politecnico": 20823,
+   "vagas_universitario": 26471
   },
   "2003": {
    "colocados": 36077,
    "colocados_f1": 36077,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 30,
+    "n": 978,
+    "p10": 98.5,
+    "p50": 117.8,
+    "p90": 153.6
+   },
    "pares": 1009,
-   "vagas_f1": 45357
+   "vagas_f1": 45357,
+   "vagas_politecnico": 19403,
+   "vagas_universitario": 24868
   },
   "2004": {
    "colocados": 44860,
    "colocados_f1": 37568,
    "colocados_f2": 7292,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 20,
+    "n": 1023,
+    "p10": 99.8,
+    "p50": 116.8,
+    "p90": 149.6
+   },
    "pares": 1046,
-   "vagas_f1": 46057
+   "vagas_f1": 46057,
+   "vagas_politecnico": 19740,
+   "vagas_universitario": 25235
   },
   "2005": {
    "colocados": 42538,
    "colocados_f1": 33520,
    "colocados_f2": 9018,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 33,
+    "n": 1005,
+    "p10": 107.1,
+    "p50": 120.0,
+    "p90": 155.4
+   },
    "pares": 1062,
-   "vagas_f1": 46399
+   "vagas_f1": 46399,
+   "vagas_politecnico": 19943,
+   "vagas_universitario": 25310
   },
   "2006": {
    "colocados": 45928,
    "colocados_f1": 34860,
    "colocados_f2": 11068,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 24,
+    "n": 963,
+    "p10": 106.7,
+    "p50": 119.6,
+    "p90": 154.0
+   },
    "pares": 991,
-   "vagas_f1": 46528
+   "vagas_f1": 46528,
+   "vagas_politecnico": 19883,
+   "vagas_universitario": 25437
   },
   "2007": {
    "colocados": 53685,
    "colocados_f1": 41978,
    "colocados_f2": 11707,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 26,
+    "n": 1015,
+    "p10": 107.7,
+    "p50": 124.3,
+    "p90": 154.3
+   },
    "pares": 1031,
-   "vagas_f1": 48710
+   "vagas_f1": 48710,
+   "vagas_politecnico": 20910,
+   "vagas_universitario": 25940
   },
   "2008": {
    "colocados": 55601,
    "colocados_f1": 44336,
    "colocados_f2": 11265,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 34,
+    "n": 1051,
+    "p10": 108.4,
+    "p50": 126.2,
+    "p90": 156.3
+   },
    "pares": 1068,
-   "vagas_f1": 50219
+   "vagas_f1": 50219,
+   "vagas_politecnico": 21751,
+   "vagas_universitario": 26273
   },
   "2009": {
    "colocados": 56094,
    "colocados_f1": 45277,
    "colocados_f2": 10817,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 28,
+    "n": 1080,
+    "p10": 108.7,
+    "p50": 126.3,
+    "p90": 155.0
+   },
    "pares": 1099,
-   "vagas_f1": 51352
+   "vagas_f1": 51352,
+   "vagas_politecnico": 22362,
+   "vagas_universitario": 26870
   },
   "2010": {
    "colocados": 57004,
    "colocados_f1": 45592,
    "colocados_f2": 11412,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 32,
+    "n": 1119,
+    "p10": 107.5,
+    "p50": 126.4,
+    "p90": 155.8
+   },
    "pares": 1152,
-   "vagas_f1": 53410
+   "vagas_f1": 53410,
+   "vagas_politecnico": 23115,
+   "vagas_universitario": 28160
   },
   "2011": {
    "colocados": 54015,
    "colocados_f1": 42243,
    "colocados_f2": 11772,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 28,
+    "n": 1097,
+    "p10": 107.4,
+    "p50": 123.6,
+    "p90": 152.8
+   },
    "pares": 1152,
-   "vagas_f1": 53500
+   "vagas_f1": 53500,
+   "vagas_politecnico": 23042,
+   "vagas_universitario": 28360
   },
   "2012": {
    "colocados": 54111,
    "colocados_f1": 40415,
    "colocados_f2": 11365,
    "colocados_f3": 2331,
+   "notas": {
+    "acima_170": 24,
+    "n": 1016,
+    "p10": 107.0,
+    "p50": 123.2,
+    "p90": 153.0
+   },
    "pares": 1122,
-   "vagas_f1": 52298
+   "vagas_f1": 52298,
+   "vagas_politecnico": 22080,
+   "vagas_universitario": 28168
   },
   "2013": {
    "colocados": 50625,
    "colocados_f1": 37415,
    "colocados_f2": 11486,
    "colocados_f3": 1724,
+   "notas": {
+    "acima_170": 19,
+    "n": 982,
+    "p10": 106.4,
+    "p50": 121.2,
+    "p90": 148.9
+   },
    "pares": 1087,
-   "vagas_f1": 51461
+   "vagas_f1": 51461,
+   "vagas_politecnico": 21348,
+   "vagas_universitario": 28077
   },
   "2014": {
    "colocados": 50064,
    "colocados_f1": 37778,
    "colocados_f2": 10492,
    "colocados_f3": 1794,
+   "notas": {
+    "acima_170": 20,
+    "n": 965,
+    "p10": 105.7,
+    "p50": 122.4,
+    "p90": 150.5
+   },
    "pares": 1067,
-   "vagas_f1": 50820
+   "vagas_f1": 50820,
+   "vagas_politecnico": 20831,
+   "vagas_universitario": 27977
   },
   "2015": {
    "colocados": 53107,
    "colocados_f1": 42068,
    "colocados_f2": 9410,
    "colocados_f3": 1629,
+   "notas": {
+    "acima_170": 30,
+    "n": 986,
+    "p10": 104.8,
+    "p50": 121.8,
+    "p90": 153.5
+   },
    "pares": 1048,
-   "vagas_f1": 50555
+   "vagas_f1": 50555,
+   "vagas_politecnico": 20756,
+   "vagas_universitario": 27849
   },
   "2016": {
    "colocados": 54090,
    "colocados_f1": 42958,
    "colocados_f2": 9577,
    "colocados_f3": 1555,
+   "notas": {
+    "acima_170": 32,
+    "n": 991,
+    "p10": 104.7,
+    "p50": 122.3,
+    "p90": 155.0
+   },
    "pares": 1060,
-   "vagas_f1": 50688
+   "vagas_f1": 50688,
+   "vagas_politecnico": 20799,
+   "vagas_universitario": 27917
   },
   "2017": {
    "colocados": 56347,
    "colocados_f1": 44914,
    "colocados_f2": 9831,
    "colocados_f3": 1602,
+   "notas": {
+    "acima_170": 38,
+    "n": 1002,
+    "p10": 105.8,
+    "p50": 126.4,
+    "p90": 157.5
+   },
    "pares": 1062,
-   "vagas_f1": 50838
+   "vagas_f1": 50838,
+   "vagas_politecnico": 20835,
+   "vagas_universitario": 28031
   },
   "2018": {
    "colocados": 54829,
    "colocados_f1": 43992,
    "colocados_f2": 9452,
    "colocados_f3": 1385,
+   "notas": {
+    "acima_170": 39,
+    "n": 1001,
+    "p10": 106.0,
+    "p50": 125.6,
+    "p90": 157.2
+   },
    "pares": 1068,
-   "vagas_f1": 50852
+   "vagas_f1": 50852,
+   "vagas_politecnico": 21169,
+   "vagas_universitario": 27765
   },
   "2019": {
    "colocados": 55176,
    "colocados_f1": 44500,
    "colocados_f2": 9274,
    "colocados_f3": 1402,
+   "notas": {
+    "acima_170": 44,
+    "n": 999,
+    "p10": 106.0,
+    "p50": 128.0,
+    "p90": 159.5
+   },
    "pares": 1061,
-   "vagas_f1": 50860
+   "vagas_f1": 50860,
+   "vagas_politecnico": 21082,
+   "vagas_universitario": 27846
   },
   "2020": {
    "colocados": 62197,
    "colocados_f1": 50964,
    "colocados_f2": 9767,
    "colocados_f3": 1466,
+   "notas": {
+    "acima_170": 86,
+    "n": 1025,
+    "p10": 112.3,
+    "p50": 136.0,
+    "p90": 167.6
+   },
    "pares": 1065,
-   "vagas_f1": 56121
+   "vagas_f1": 56121,
+   "vagas_politecnico": 23577,
+   "vagas_universitario": 30430
   },
   "2021": {
    "colocados": 60146,
    "colocados_f1": 49452,
    "colocados_f2": 9154,
    "colocados_f3": 1540,
+   "notas": {
+    "acima_170": 88,
+    "n": 1018,
+    "p10": 115.2,
+    "p50": 141.0,
+    "p90": 168.4
+   },
    "pares": 1070,
-   "vagas_f1": 55307
+   "vagas_f1": 55307,
+   "vagas_politecnico": 22824,
+   "vagas_universitario": 30464
   },
   "2022": {
    "colocados": 60861,
    "colocados_f1": 49745,
    "colocados_f2": 9472,
    "colocados_f3": 1644,
+   "notas": {
+    "acima_170": 82,
+    "n": 1063,
+    "p10": 117.0,
+    "p50": 140.5,
+    "p90": 167.0
+   },
    "pares": 1103,
-   "vagas_f1": 54641
+   "vagas_f1": 54641,
+   "vagas_politecnico": 22356,
+   "vagas_universitario": 30305
   },
   "2023": {
    "colocados": 59282,
    "colocados_f1": 49438,
    "colocados_f2": 8190,
    "colocados_f3": 1654,
+   "notas": {
+    "acima_170": 71,
+    "n": 1066,
+    "p10": 117.8,
+    "p50": 140.5,
+    "p90": 165.3
+   },
    "pares": 1119,
-   "vagas_f1": 54363
+   "vagas_f1": 54363,
+   "vagas_politecnico": 22097,
+   "vagas_universitario": 30308
   },
   "2024": {
    "colocados": 59640,
    "colocados_f1": 49963,
    "colocados_f2": 8029,
    "colocados_f3": 1648,
+   "notas": {
+    "acima_170": 86,
+    "n": 1072,
+    "p10": 115.5,
+    "p50": 138.8,
+    "p90": 166.8
+   },
    "pares": 1119,
-   "vagas_f1": 54666
+   "vagas_f1": 54666,
+   "vagas_politecnico": 22332,
+   "vagas_universitario": 30621
   },
   "2025": {
    "colocados": 54105,
    "colocados_f1": 43899,
    "colocados_f2": 8824,
    "colocados_f3": 1382,
+   "notas": {
+    "acima_170": 54,
+    "n": 1053,
+    "p10": 113.8,
+    "p50": 130.8,
+    "p90": 161.3
+   },
    "pares": 1132,
-   "vagas_f1": 55292
+   "vagas_f1": 55292,
+   "vagas_politecnico": 23341,
+   "vagas_universitario": 30846
   },
   "2026": {
    "colocados": 49991,
    "colocados_f1": 49991,
    "colocados_f2": 0,
    "colocados_f3": 0,
+   "notas": {
+    "acima_170": 70,
+    "n": 1112,
+    "p10": 111.5,
+    "p50": 134.0,
+    "p90": 164.3
+   },
    "pares": 1170,
-   "vagas_f1": 56228
+   "vagas_f1": 56228,
+   "vagas_politecnico": 24130,
+   "vagas_universitario": 32098
   }
  },
  "fontes": [

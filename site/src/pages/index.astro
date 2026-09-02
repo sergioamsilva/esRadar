@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import SerieAnual from "../components/SerieAnual.astro";
 import Mapa from "../components/Mapa.astro";
 import Dispersao from "../components/Dispersao.astro";
+import Banda from "../components/Banda.astro";
+import Colunas from "../components/Colunas.astro";
 import { cursos, pares, nacional, epoca, genero, instituicoes, fases, historias, ligacao, ligacaoCurso, formatarInteiro, formatarNota, anosRotulados, ANOS_CURSOS } from "../lib/dados";
 
 const indice = cursos();
@@ -37,6 +39,20 @@ const vcBanda =
   " Z";
 const vcUltimo = anosNacional[anosNacional.length - 1];
 const vcRotulados = anosRotulados(anosNacional.map((p) => p.ano));
+
+/* Trinta anos de notas de corte: percentis por ano (cada ano conta os seus
+   cursos — atravessa as recodificações sem crosswalk), cursos acima de 170
+   e taxa de ocupação da 1ª fase. */
+const notasAnos = Object.entries(nac.anos)
+  .filter(([, v]) => v.notas && v.notas.n >= 300)
+  .map(([ano, v]) => ({ ano: Number(ano), baixo: v.notas!.p10, meio: v.notas!.p50, alto: v.notas!.p90, acima170: v.notas!.acima_170, n: v.notas!.n }))
+  .sort((a, b) => a.ano - b.ano);
+const notasPrimeiro = notasAnos[0];
+const notasUltimo = notasAnos[notasAnos.length - 1];
+const notas2019 = notasAnos.find((p) => p.ano === 2019);
+const notas2020 = notasAnos.find((p) => p.ano === 2020);
+const ocupacao = anosNacional.map((p) => ({ ano: p.ano, valor: Math.round((1000 * p.colocados) / p.vagas) / 10 }));
+const ocupacaoMin = ocupacao.reduce((m, p) => (p.valor < m.valor ? p : m), ocupacao[0]);
 
 /* Maiores movimentos da nota de corte entre 2025 e 2026, 1ª fase. */
 const comVariacao = indice
@@ -117,6 +133,18 @@ const caixasFases = Object.entries(f2f.caixas)
 const maxCaixaFase = Math.max(...caixasFases.map((c) => c.n));
 const absorcaoRecente = Object.entries(f2f.absorcao).filter(([a]) => Number(a) < 2026).slice(-3);
 const primeiroAnoFases = Math.min(...Object.keys(f2f.por_ano).map(Number));
+const fasesAnos = Object.entries(nac.anos)
+  .filter(([, v]) => v.colocados_f2 > 0)
+  .map(([ano, v]) => ({
+    ano: Number(ano),
+    valores: [v.colocados_f1, v.colocados_f2, v.colocados_f3],
+    dica: `${ano}: ${formatarInteiro(v.colocados_f1)} na 1ª fase, ${formatarInteiro(v.colocados_f2)} na 2ª${v.colocados_f3 ? `, ${formatarInteiro(v.colocados_f3)} na 3ª` : ""} — ${formatarInteiro(v.colocados)} no total`,
+  }));
+const sobePorAno = Object.entries(f2f.por_ano)
+  .filter(([, v]) => v.pct_sobe != null)
+  .map(([ano, v]) => ({ ano: Number(ano), valor: v.pct_sobe! }));
+const f2Max = fasesAnos.reduce((m, p) => (p.valores[1] > m.valores[1] ? p : m), fasesAnos[0]);
+const f2Ultimo = fasesAnos[fasesAnos.length - 1];
 
 /* Bump: os 20 mais disputados de 2026 e as suas posições desde 2007. */
 const ANOS_BUMP = ANOS_CURSOS;
@@ -356,6 +384,32 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
       Diferença (2ª − 1ª fase) da nota do último colocado, no mesmo curso e ano, {primeiroAnoFases}–2025.
       Só cursos que preencheram vagas nas duas fases.
     </p>
+    <div class="duplo">
+      <div>
+        <Colunas
+          titulo={`Colocados por fase, ${fasesAnos[0]?.ano}–${f2Ultimo?.ano}`}
+          series={["1ª fase", "2ª fase", "3ª fase"]}
+          colunas={fasesAnos}
+          descricao={`Colocados por fase e ano desde ${fasesAnos[0]?.ano}. A 2ª fase colocou ${formatarInteiro(f2Max?.valores[1])} em ${f2Max?.ano} e ${formatarInteiro(f2Ultimo?.valores[1])} em ${f2Ultimo?.ano}.`}
+        />
+        <p class="fonte-lin">
+          A 2ª fase encolhe: de {formatarInteiro(f2Max?.valores[1])} colocados em {f2Max?.ano} para{" "}
+          {formatarInteiro(f2Ultimo?.valores[1])} em {f2Ultimo?.ano}. A 3ª fase existe desde 2012.
+        </p>
+      </div>
+      <div>
+        <SerieAnual
+          titulo="Cursos em que a 2ª fase fechou acima da 1ª (%)"
+          unidade="% dos cursos"
+          inteiro
+          series={[{ rotulo: "Sobe na 2ª fase", pontos: sobePorAno, cor: "serie-2" }]}
+        />
+        <p class="fonte-lin">
+          Ano a ano, a percentagem de cursos com nota nas duas fases em que a 2ª fechou mais
+          alto. Nunca desceu abaixo de metade desde 2005.
+        </p>
+      </div>
+    </div>
   </section>
 
   <section class="card full reveal">
@@ -401,6 +455,51 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
       <span class="legenda-scatter__chave"><span class="legenda-scatter__ponto legenda-scatter__ponto--u" aria-hidden="true"></span>universitário</span>
       <span class="legenda-scatter__chave"><span class="legenda-scatter__ponto legenda-scatter__ponto--p" aria-hidden="true"></span>politécnico</span>
     </p>
+  </section>
+
+  <section class="card full reveal">
+    <h3>Trinta anos de notas de corte</h3>
+    <p class="desc">
+      A mediana da nota do último colocado andou entre {formatarNota(Math.min(...notasAnos.filter((p) => p.ano < 2020).map((p) => p.meio)))} e{" "}
+      {formatarNota(Math.max(...notasAnos.filter((p) => p.ano < 2020).map((p) => p.meio)))} pontos durante {2020 - notasPrimeiro.ano} anos. Em 2020 — o
+      ano dos exames sem presença obrigatória — saltou de {formatarNota(notas2019?.meio)} para{" "}
+      {formatarNota(notas2020?.meio)} e nunca voltou: em {notasUltimo.ano} está em {formatarNota(notasUltimo.meio)}. Os cursos a fechar
+      acima de 170 passaram de {notas2019?.acima170} em 2019 para {notas2020?.acima170} em 2020.
+    </p>
+    <div class="duplo">
+      <Banda
+        titulo={`Nota do último colocado, 1ª fase, ${notasPrimeiro.ano}–${notasUltimo.ano}`}
+        unidade="pontos"
+        pontos={notasAnos}
+        rotulos={{ baixo: "p10", meio: "mediana", alto: "p90" }}
+      />
+      <Colunas
+        titulo="Cursos a fechar com 170 pontos ou mais"
+        series={["cursos"]}
+        colunas={notasAnos.map((p) => ({ ano: p.ano, valores: [p.acima170], dica: `${p.ano}: ${p.acima170} cursos com nota de corte ≥ 170 (em ${p.n} com nota)` }))}
+        descricao={`Cursos com nota de corte igual ou superior a 170 pontos, por ano: ${notasPrimeiro.acima170} em ${notasPrimeiro.ano}, ${notas2020?.acima170} em 2020, ${notasUltimo.acima170} em ${notasUltimo.ano}.`}
+      />
+    </div>
+    <div class="duplo duplo--depois">
+      <div>
+        <SerieAnual
+          titulo="Taxa de ocupação da 1ª fase (%)"
+          unidade="% das vagas"
+          series={[{ rotulo: "Colocados / vagas", pontos: ocupacao, cor: "serie-1" }]}
+        />
+        <p class="fonte-lin">
+          O mínimo é {formatarNota(ocupacaoMin.valor)}% em {ocupacaoMin.ano}, no fundo do inverno demográfico; 2025, o ano da
+          mudança nas provas, voltou aos {formatarNota(ocupacao.find((p) => p.ano === 2025)?.valor)}%.
+        </p>
+      </div>
+      <p class="cautela">
+        Cada ano conta os seus próprios cursos, por isso estas séries atravessam as mudanças
+        de código de curso de 2006-2007. Percentis sobre os cursos com nota de corte (os que
+        preencheram as vagas pelo contingente geral); só o ano de 1997 tem cortes abaixo de
+        95 pontos, antes do mínimo legal.
+      </p>
+    </div>
+    <p class="fonte-lin">DGES, resultados do CNA {notasPrimeiro.ano}–{notasUltimo.ano}, reconstruídos par a par.</p>
   </section>
 
   <div class="grid">
@@ -825,6 +924,21 @@ const urlCursos = new URL(ligacao("/cursos/"), Astro.site).href;
   .vc-card {
     display: flex;
     flex-direction: column;
+  }
+  .duplo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 2rem;
+    align-items: start;
+    margin-top: 0.75rem;
+  }
+  .duplo--depois {
+    margin-top: 1.25rem;
+  }
+  @media (max-width: 720px) {
+    .duplo {
+      grid-template-columns: 1fr;
+    }
   }
   .vc {
     margin: 10px 0 0;

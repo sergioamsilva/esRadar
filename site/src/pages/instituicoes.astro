@@ -1,7 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import Mapa from "../components/Mapa.astro";
-import { instituicoes, ligacao, ligacaoInstituicao, formatarInteiro } from "../lib/dados";
+import SerieAnual from "../components/SerieAnual.astro";
+import { instituicoes, grupos as lerGrupos, nacional, ligacao, ligacaoInstituicao, formatarInteiro, ANO_INICIO, ANO_CORRENTE } from "../lib/dados";
 
 const todas = instituicoes();
 
@@ -30,6 +31,30 @@ const agregados = [...grupos.entries()]
   })
   .sort((a, b) => b.vagas - a.vagas);
 const maxVagas = Math.max(...agregados.map((a) => a.vagas));
+
+/* ── trinta anos de vagas: subsistemas e instituições-mãe ──────────── */
+const nac = nacional();
+const anosSub = Object.entries(nac.anos)
+  .filter(([, v]) => v.vagas_universitario > 0 && v.vagas_politecnico > 0)
+  .map(([ano, v]) => ({ ano: Number(ano), uni: v.vagas_universitario, poli: v.vagas_politecnico }))
+  .sort((a, b) => a.ano - b.ano);
+const serieUni = anosSub.map((p) => ({ ano: p.ano, valor: p.uni }));
+const seriePoli = anosSub.map((p) => ({ ano: p.ano, valor: p.poli }));
+const subPrimeiro = anosSub[0];
+const subUltimo = anosSub[anosSub.length - 1];
+const pctPoli = (p: { uni: number; poli: number }) => Math.round((100 * p.poli) / (p.uni + p.poli));
+
+/* Halteres: vagas de cada instituição-mãe no primeiro e no último ano.
+   Só grupos com oferta nos dois anos (as escolas de enfermagem de 1997
+   foram integradas noutras instituições e não têm sucessor único). */
+const halteres = lerGrupos()
+  .map((g) => ({ grupo: g.grupo, antes: g.anos[String(ANO_INICIO)]?.vagas ?? 0, depois: g.anos[String(ANO_CORRENTE)]?.vagas ?? 0 }))
+  .filter((g) => g.antes >= 300 && g.depois >= 300)
+  .map((g) => ({ ...g, delta: Math.round((100 * (g.depois - g.antes)) / g.antes) }))
+  .sort((a, b) => b.depois - a.depois);
+const halterMax = Math.max(...halteres.flatMap((g) => [g.antes, g.depois]));
+const hx = (v: number) => (100 * v) / halterMax;
+const cresceram = halteres.filter((g) => g.delta > 0).length;
 ---
 
 <Base
@@ -50,6 +75,75 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
     <h3>Onde ficaram os colocados</h3>
     <Mapa instituicoes={todas} alternavel />
   </section>
+
+  <div class="grid">
+    <section class="card reveal">
+      <h3>Universitário e politécnico, {subUltimo.ano - subPrimeiro.ano} anos de vagas</h3>
+      <p class="desc">
+        Os politécnicos passaram de {formatarInteiro(subPrimeiro.poli)} vagas em {subPrimeiro.ano} para{" "}
+        {formatarInteiro(subUltimo.poli)} em {subUltimo.ano}; as universidades, de {formatarInteiro(subPrimeiro.uni)} para{" "}
+        {formatarInteiro(subUltimo.uni)}. A proporção quase não mexeu: {pctPoli(subPrimeiro)}% politécnico então,{" "}
+        {pctPoli(subUltimo)}% hoje.
+      </p>
+      <SerieAnual
+        titulo={`Vagas da 1ª fase por subsistema, ${subPrimeiro.ano}–${subUltimo.ano}`}
+        unidade="vagas"
+        inteiro
+        series={[
+          { rotulo: "Universitário", pontos: serieUni, cor: "serie-1" },
+          { rotulo: "Politécnico", pontos: seriePoli, cor: "serie-2" },
+        ]}
+      />
+      <p class="fonte-lin">
+        DGES, resultados do CNA, somados curso a curso. Escolas de saúde e enfermagem
+        integradas em universidades contam como politécnico, como no concurso.
+      </p>
+    </section>
+
+    <section class="card reveal" style="--d:.08s">
+      <h3>Quem cresceu, quem encolheu</h3>
+      <p class="desc">
+        Vagas da 1ª fase de cada instituição-mãe em {ANO_INICIO} e em {ANO_CORRENTE}. Das{" "}
+        {halteres.length} com oferta nos dois anos, {cresceram} cresceram. A Universidade
+        Técnica de Lisboa conta na Universidade de Lisboa, com quem se fundiu em 2013.
+      </p>
+      <ol class="halter" aria-label={`Vagas por instituição em ${ANO_INICIO} e ${ANO_CORRENTE}`}>
+        <li class="halter__cab" aria-hidden="true">
+          <span></span>
+          <span class="halter__legenda">
+            <span class="halter__chave"><span class="halter__ponto halter__ponto--antes"></span>{ANO_INICIO}</span>
+            <span class="halter__chave"><span class="halter__ponto halter__ponto--depois"></span>{ANO_CORRENTE}</span>
+          </span>
+          <span></span>
+        </li>
+        {
+          halteres.map((g, i) => (
+            <li class="reveal" style={`--d:${Math.min(i * 0.03, 0.5)}s`}>
+              <span class="halter__nome">{g.grupo.replace("Instituto Politécnico", "IP").replace("Universidade", "U.")}</span>
+              <span
+                class="halter__pista"
+                data-dica={`${g.grupo}: ${formatarInteiro(g.antes)} vagas em ${ANO_INICIO}, ${formatarInteiro(g.depois)} em ${ANO_CORRENTE}`}
+              >
+                <span
+                  class={`halter__liga ${g.depois >= g.antes ? "halter__liga--sobe" : "halter__liga--desce"} cresce`}
+                  style={`left:${hx(Math.min(g.antes, g.depois))}%;width:${hx(Math.abs(g.depois - g.antes))}%`}
+                />
+                <span class="halter__ponto halter__ponto--antes" style={`left:${hx(g.antes)}%`} />
+                <span class="halter__ponto halter__ponto--depois" style={`left:${hx(g.depois)}%`} />
+              </span>
+              <span class={`halter__delta ${g.delta >= 0 ? "halter__delta--sobe" : "halter__delta--desce"}`}>
+                {g.delta >= 0 ? "+" : "−"}{Math.abs(g.delta)}%
+              </span>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="fonte-lin">
+        Só instituições com pelo menos 300 vagas nos dois anos; os polos e escolas que
+        mudaram de código ao longo do tempo estão somados na instituição-mãe.
+      </p>
+    </section>
+  </div>
 
   <ol class="ranking">
     {
@@ -103,6 +197,95 @@ const maxVagas = Math.max(...agregados.map((a) => a.vagas));
 </Base>
 
 <style>
+  /* ── halteres: vagas antes e depois, por instituição-mãe ──────────── */
+  .halter {
+    list-style: none;
+    margin: 0.75rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.45rem;
+  }
+  .halter li {
+    display: grid;
+    grid-template-columns: minmax(6.5rem, 11rem) 1fr 3.4rem;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: var(--t-2xs);
+  }
+  .halter__cab {
+    color: var(--muted);
+  }
+  .halter__legenda {
+    display: flex;
+    gap: 1rem;
+  }
+  .halter__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .halter__chave .halter__ponto {
+    position: static;
+    transform: none;
+  }
+  .halter__nome {
+    color: var(--ink-2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .halter__pista {
+    position: relative;
+    height: 1rem;
+    border-bottom: 1px solid var(--grid);
+  }
+  .halter__liga {
+    position: absolute;
+    top: 50%;
+    height: 4px;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    transform-origin: left center;
+  }
+  .halter__liga--sobe {
+    background: color-mix(in srgb, var(--serie-1) 35%, transparent);
+  }
+  .halter__liga--desce {
+    background: color-mix(in srgb, var(--serie-2) 45%, transparent);
+  }
+  .halter__ponto {
+    position: absolute;
+    top: 50%;
+    width: 0.62rem;
+    height: 0.62rem;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid var(--surface);
+  }
+  .halter__ponto--antes {
+    background: var(--muted);
+  }
+  .halter__ponto--depois {
+    background: var(--serie-1);
+  }
+  .halter__delta {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+  .halter__delta--sobe {
+    color: var(--serie-1);
+  }
+  .halter__delta--desce {
+    color: var(--serie-2);
+  }
+  @media (max-width: 480px) {
+    .halter li {
+      grid-template-columns: 5.6rem 1fr 3rem;
+      gap: 0.4rem;
+    }
+  }
+
   .cab {
     padding: 26px 0 12px;
   }

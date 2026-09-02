@@ -33,6 +33,10 @@ ANO_CORRENTE = 2026
 # fase; 2ª desde 2004, 3ª desde 2012) — ver ingest.historico.
 ANO_MINIMO = 1997
 
+# Instituições-mãe que se fundiram: para comparar vagas ao longo de 30 anos,
+# o grupo antigo conta no sucessor. Só fusões completas (2013: UL + UTL).
+GRUPOS_SUCESSORES = {"Universidade Técnica de Lisboa": "Universidade de Lisboa"}
+
 
 def _limpo(nome: str) -> str:
     return " ".join(nome.split()).lower()
@@ -708,20 +712,34 @@ def construir() -> None:
     historias.sort(key=lambda h: h["peso"], reverse=True)
     _escrever(common.DIR_SAIDA / "historias.json", {"geradas_de": f"época {ANO_CORRENTE}", "historias": historias[:14]})
 
-    # Agregados por estabelecimento e nacional.
+    # Agregados por estabelecimento, por grupo e nacional.
     por_inst: dict[str, dict] = defaultdict(lambda: {"cursos": [], "vagas": 0, "colocados_f1": 0, "sobras_f1": 0})
     nacional_anos: dict[int, dict] = defaultdict(
-        lambda: {"vagas_f1": 0, "colocados": 0, "colocados_f1": 0, "colocados_f2": 0, "colocados_f3": 0, "pares": 0}
+        lambda: {
+            "vagas_f1": 0, "colocados": 0, "colocados_f1": 0, "colocados_f2": 0, "colocados_f3": 0, "pares": 0,
+            "vagas_universitario": 0, "vagas_politecnico": 0,
+        }
     )
+    notas_ano: dict[int, list[float]] = defaultdict(list)
+    grupos_ano: dict[str, dict[int, dict]] = defaultdict(lambda: defaultdict(lambda: {"vagas": 0, "colocados": 0}))
     for par, ficha in fichas.items():
+        subsistema = ficha["subsistema"]
+        grupo = GRUPOS_SUCESSORES.get(ficha["grupo"], ficha["grupo"])
         for chave, registo in ficha["series"].items():
             ano, fase = int(chave[:4]), int(chave[-1])
             if fase == 1 and registo.get("vagas") is not None:
                 nacional_anos[ano]["vagas_f1"] += registo["vagas"]
                 nacional_anos[ano]["pares"] += 1
+                if subsistema:
+                    nacional_anos[ano][f"vagas_{subsistema}"] += registo["vagas"]
+                grupos_ano[grupo][ano]["vagas"] += registo["vagas"]
+            if fase == 1 and registo.get("nota_ultimo") is not None:
+                notas_ano[ano].append(registo["nota_ultimo"])
             if registo.get("colocados"):
                 nacional_anos[ano]["colocados"] += registo["colocados"]
                 nacional_anos[ano][f"colocados_f{fase}"] += registo["colocados"]
+                if fase == 1:
+                    grupos_ano[grupo][ano]["colocados"] += registo["colocados"]
         if not ficha["ativo"] or ficha["concurso"] != "Nacional":
             continue
         agg = por_inst[ficha["code"]]
@@ -730,6 +748,16 @@ def construir() -> None:
         agg["vagas"] += ficha["vagas_2026"] or 0
         agg["colocados_f1"] += f1.get("colocados") or 0
         agg["sobras_f1"] += f1.get("sobras") or 0
+
+    # Distribuição das notas de corte por ano — cada ano conta os seus
+    # cursos, por isso atravessa as recodificações sem crosswalk.
+    for ano, notas in notas_ano.items():
+        notas.sort()
+        q = lambda p: notas[int(p * (len(notas) - 1))]  # noqa: E731
+        nacional_anos[ano]["notas"] = {
+            "n": len(notas), "p10": q(0.1), "p50": q(0.5), "p90": q(0.9),
+            "acima_170": sum(1 for n in notas if n >= 170),
+        }
 
     saida_inst = []
     for code, agg in sorted(por_inst.items()):
@@ -760,6 +788,17 @@ def construir() -> None:
         _escrever(dir_par / f"{par}.json", ficha)
     _escrever(common.DIR_SAIDA / "cursos.json", {"gerado_de": "guia 2026 + resultados CNA", "cursos": indice})
     _escrever(common.DIR_SAIDA / "instituicoes.json", {"instituicoes": saida_inst})
+    _escrever(
+        common.DIR_SAIDA / "grupos.json",
+        {
+            "nota": "Vagas e colocados da 1ª fase por instituição-mãe e ano; a Universidade "
+            "Técnica de Lisboa conta como Universidade de Lisboa (fusão de 2013).",
+            "grupos": [
+                {"grupo": g, "anos": {str(a): v for a, v in sorted(anos.items())}}
+                for g, anos in sorted(grupos_ano.items())
+            ],
+        },
+    )
     _escrever(
         common.DIR_SAIDA / "nacional.json",
         {

@@ -1,0 +1,145 @@
+---
+/**
+ * Colunas por ano, simples ou empilhadas (até três segmentos ordenados —
+ * um só tom em intensidades decrescentes, porque os segmentos são
+ * categorias ordenadas: 1ª, 2ª, 3ª fase). HTML e CSS puros, legíveis sem
+ * JavaScript; cada coluna tem data-dica para o tooltip global.
+ */
+import { anosRotulados } from "../lib/dados";
+
+interface Coluna {
+  ano: number;
+  valores: number[];
+  dica: string;
+}
+interface Props {
+  colunas: Coluna[];
+  series: string[];
+  titulo: string;
+  descricao: string;
+}
+const { colunas, series, titulo, descricao } = Astro.props;
+const ordenadas = [...colunas].sort((a, b) => a.ano - b.ano);
+const rotulados = anosRotulados(ordenadas.map((c) => c.ano));
+const max = Math.max(1, ...ordenadas.map((c) => c.valores.reduce((s, v) => s + v, 0)));
+---
+
+<figure class="colunas reveal">
+  <figcaption class="colunas__cab">
+    <span class="colunas__titulo">{titulo}</span>
+    {
+      series.length > 1 && (
+        <span class="colunas__legenda">
+          {series.map((s, i) => (
+            <span class="colunas__chave">
+              <span class={`colunas__amostra colunas__seg--${i + 1}`} aria-hidden="true" />
+              {s}
+            </span>
+          ))}
+        </span>
+      )
+    }
+  </figcaption>
+  <div class="colunas__plot" role="img" aria-label={descricao}>
+    {
+      ordenadas.map((c, i) => (
+        <div class="colunas__coluna" data-dica={c.dica}>
+          <span class="colunas__pilha" style={`height:${(100 * c.valores.reduce((s, v) => s + v, 0)) / max}%`}>
+            {c.valores.map((v, si) => (
+              <span
+                class={`colunas__seg colunas__seg--${si + 1} cresce`}
+                style={`flex:${v} ${v} 0;--d:${Math.min(i * 0.03, 0.6)}s`}
+              />
+            ))}
+          </span>
+          <span class="colunas__rotulo">{rotulados.has(c.ano) ? String(c.ano).slice(2) : ""}</span>
+        </div>
+      ))
+    }
+  </div>
+</figure>
+
+<style>
+  .colunas {
+    margin: 0;
+  }
+  .colunas__cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.35rem;
+  }
+  .colunas__titulo {
+    font-size: 0.82rem;
+    color: var(--ink-2);
+  }
+  .colunas__legenda {
+    display: flex;
+    gap: 0.9rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .colunas__chave {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .colunas__amostra {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 2px;
+  }
+  .colunas__plot {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: clamp(9rem, 22vw, 12rem);
+    border-bottom: 1px solid var(--grid);
+  }
+  .colunas__coluna {
+    flex: 1 1 0;
+    min-width: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .colunas__pilha {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+  }
+  .colunas__seg {
+    display: block;
+    min-height: 0;
+  }
+  .colunas__seg--1 {
+    background: var(--serie-1);
+  }
+  .colunas__seg--2 {
+    background: color-mix(in srgb, var(--serie-1) 55%, var(--surface));
+  }
+  .colunas__seg--3 {
+    background: color-mix(in srgb, var(--serie-1) 28%, var(--surface));
+  }
+  .colunas__rotulo {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3px;
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .colunas__plot {
+    margin-bottom: 1.2rem;
+  }
+  .colunas__coluna:hover .colunas__pilha {
+    filter: brightness(1.15);
+  }
+</style>
